@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="IDS_CMD_FUSIONECAD_LAYERSTACKDIAGRAM" devLabel="FDCMD_ACFUSIONECAD_LAYERSTACKDIAGRAM" translation="FDCMD_ACFUSIONECAD_LAYERSTACKDIAGRAM"/>
-	<label commandName="LAYER_STACK_VIEW_JIG_PROMPT" devLabel="Place layer stack view" translation="Posiziona vista pila di layer"/>
-	<label commandName="LAYER_STACK_VIEW_NAME" devLabel="Layer Stack View" translation="Vista pila di layer"/>
+	<label  commandName="IDS_CMD_FUSIONECAD_LAYERSTACKDIAGRAM" devLabel="FDCMD_ACFUSIONECAD_LAYERSTACKDIAGRAM" translation="FDCMD_ACFUSIONECAD_LAYERSTACKDIAGRAM" />
+	<label  commandName="LAYER_STACK_VIEW_JIG_PROMPT" devLabel="Place layer stack view" translation="Place layer stack view" />
+	<label  commandName="LAYER_STACK_VIEW_NAME" devLabel="Layer Stack View" translation="Layer Stack View" />
 </Resource>

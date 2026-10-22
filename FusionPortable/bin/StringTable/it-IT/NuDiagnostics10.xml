@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="DiagnosticsCommand" devLabel="Diagnostics" translation="Diagnostica"/>
-	<label commandName="ErrorRateMeterToolTip" devLabel="Show/Hide ErrorRate Meter options." translation="Mostra/nasconde le opzioni di misurazione della percentuale di errore."/>
-	<label commandName="ErrorRateMeterUserName" devLabel="ErrorRateMeter enable" translation="Abilitazione misurazione percentuale di errore"/>
-	<label commandName="InteractivityMeterToolTip" devLabel="Show/Hide Interactivity Meter options." translation="Mostra/nasconde le opzioni del contatore dell'interattività."/>
-	<label commandName="InteractivityMeterUserName" devLabel="InteractivityMeter enable" translation="Attiva IndicatoreInterattività"/>
-	<label commandName="lclzDataModelDiagnosticsText" devLabel="Data Model Diagnostics" translation="Diagnostica del modello di dati"/>
-	<label commandName="lclzDiagnosticsText" devLabel="DiagnosticsCommand" translation="ComandoDiagnostica"/>
+	<label  commandName="DiagnosticsCommand" devLabel="Diagnostics" translation="Diagnostics" />
+	<label  commandName="ErrorRateMeterToolTip" devLabel="Show/Hide ErrorRate Meter options." translation="Show/Hide ErrorRate Meter options." />
+	<label  commandName="ErrorRateMeterUserName" devLabel="ErrorRateMeter enable" translation="ErrorRateMeter enable" />
+	<label  commandName="InteractivityMeterToolTip" devLabel="Show/Hide Interactivity Meter options." translation="Show/Hide Interactivity Meter options." />
+	<label  commandName="InteractivityMeterUserName" devLabel="InteractivityMeter enable" translation="InteractivityMeter enable" />
+	<label  commandName="lclzDataModelDiagnosticsText" devLabel="Data Model Diagnostics" translation="Data Model Diagnostics" />
+	<label  commandName="lclzDiagnosticsText" devLabel="DiagnosticsCommand" translation="DiagnosticsCommand" />
 </Resource>

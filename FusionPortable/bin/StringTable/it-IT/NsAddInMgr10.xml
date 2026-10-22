@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="ExportAttributesToolTip" devLabel="Switch on/off export attributes flag options." translation="Attiva/disattiva le opzioni del flag degli attributi di esportazione."/>
-	<label commandName="ExportAttributesUserName" devLabel="Export attributes enable" translation="Attivazione esportazione attributi"/>
-	<label commandName="ExportSketchesEnabledToolTip" devLabel="Switch on/off export sketches enabled flag options." translation="Attiva/disattiva le opzioni flag per l'esportazione schizzi abilitata."/>
-	<label commandName="ExportSketchesEnabledUserName" devLabel="Export sketches enabled" translation="Esportazione schizzo attivata"/>
-	<label commandName="ExportSubEntityIdsToolTip" devLabel="Switch on/off export sub-Entity Ids flag options." translation="Attiva/disattiva le opzioni flag per l'esportazione di ID sottoentità."/>
-	<label commandName="ExportSubEntityIdsUserName" devLabel="Export sub-Entity Ids enabled" translation="Esportazione ID sottoentità abilitata"/>
-	<label commandName="InsertImportToolTip" devLabel="Switch on/off import as inserting flag options." translation="Attiva/disattiva importazione opzioni per i flag di inserimento."/>
-	<label commandName="InsertImportUserName" devLabel="InsertImport enable" translation="Abilitazione InserisciImporta"/>
-	<label commandName="assetTypeToolTip" devLabel="Create asset by opening a foreign file." translation="Crea l'asset mediante l'apertura di un file esterno."/>
-	<label commandName="assetTypeUserName" devLabel="Create asset" translation="Crea asset"/>
-	<label commandName="lclzApplicationIsClosing" devLabel="Application is closing..." translation="Chiusura dell'applicazione in corso..."/>
-	<label commandName="lclzCannotFindAddIn" devLabel="No Add-in found with path that matches: %1%" translation="Non è stato trovato alcun modulo aggiuntivo con percorso corrispondente a: %1%"/>
-	<label commandName="lclzCannotFindMatchedAddIn" devLabel="No Add-in found with identifier that matches: %1%" translation="Nessun modulo aggiuntivo disponibile con identificatore corrispondente a: %1%"/>
-	<label commandName="lclzCannotFindNeededAddIn" devLabel="Could not find Add-in %1% needed by Add-in %2%" translation="Impossibile trovare il modulo aggiuntivo %1% richiesto dal modulo aggiuntivo %2%."/>
-	<label commandName="lclzCannotLoadAddInXml" devLabel="Could not load Add-in xml file %1%" translation="Impossibile caricare il file XML del modulo aggiuntivo %1%."/>
-	<label commandName="lclzCannotLoadAppXml" devLabel="Could not load application xml file %1%" translation="Impossibile caricare file XML dell'applicazione %1%"/>
-	<label commandName="lclzCantLoadAddIn" devLabel="Could not load the addin in %1%" translation="Impossibile caricare il modulo aggiuntivo in %1%."/>
-	<label commandName="lclzLoadInterface" devLabel="loadInterface: " translation="caricaInterfaccia: "/>
-	<label commandName="lclzMissingGetIAddIn" devLabel="GetIAddIn function not found in %1%" translation="Impossibile trovare la funzione GetIAddIn in %1%."/>
-	<label commandName="lclzUnloadInterface" devLabel="unloadInterface: " translation="scaricaInterfaccia: "/>
+	<label  commandName="ExportAttributesToolTip" devLabel="Switch on/off export attributes flag options." translation="Switch on/off export attributes flag options." />
+	<label  commandName="ExportAttributesUserName" devLabel="Export attributes enable" translation="Export attributes enable" />
+	<label  commandName="ExportSketchesEnabledToolTip" devLabel="Switch on/off export sketches enabled flag options." translation="Switch on/off export sketches enabled flag options." />
+	<label  commandName="ExportSketchesEnabledUserName" devLabel="Export sketches enabled" translation="Export sketches enabled" />
+	<label  commandName="ExportSubEntityIdsToolTip" devLabel="Switch on/off export sub-Entity Ids flag options." translation="Switch on/off export sub-Entity Ids flag options." />
+	<label  commandName="ExportSubEntityIdsUserName" devLabel="Export sub-Entity Ids enabled" translation="Export sub-Entity Ids enabled" />
+	<label  commandName="InsertImportToolTip" devLabel="Switch on/off import as inserting flag options." translation="Switch on/off import as inserting flag options." />
+	<label  commandName="InsertImportUserName" devLabel="InsertImport enable" translation="InsertImport enable" />
+	<label  commandName="assetTypeToolTip" devLabel="Create asset by opening a foreign file." translation="Create asset by opening a foreign file." />
+	<label  commandName="assetTypeUserName" devLabel="Create asset" translation="Create asset" />
+	<label  commandName="lclzApplicationIsClosing" devLabel="Application is closing..." translation="Application is closing..." />
+	<label  commandName="lclzCannotFindAddIn" devLabel="No Add-in found with path that matches: %1%" translation="No Add-in found with path that matches: %1%" />
+	<label  commandName="lclzCannotFindMatchedAddIn" devLabel="No Add-in found with identifier that matches: %1%" translation="No Add-in found with identifier that matches: %1%" />
+	<label  commandName="lclzCannotFindNeededAddIn" devLabel="Could not find Add-in %1% needed by Add-in %2%" translation="Could not find Add-in %1% needed by Add-in %2%" />
+	<label  commandName="lclzCannotLoadAddInXml" devLabel="Could not load Add-in xml file %1%" translation="Could not load Add-in xml file %1%" />
+	<label  commandName="lclzCannotLoadAppXml" devLabel="Could not load application xml file %1%" translation="Could not load application xml file %1%" />
+	<label  commandName="lclzCantLoadAddIn" devLabel="Could not load the addin in %1%" translation="Could not load the addin in %1%" />
+	<label  commandName="lclzLoadInterface" devLabel="loadInterface: " translation="loadInterface: " />
+	<label  commandName="lclzMissingGetIAddIn" devLabel="GetIAddIn function not found in %1%" translation="GetIAddIn function not found in %1%" />
+	<label  commandName="lclzUnloadInterface" devLabel="unloadInterface: " translation="unloadInterface: " />
 </Resource>

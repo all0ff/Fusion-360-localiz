@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="jobManagerGenerativeDesignSolving" devLabel="Generative Design Solving" translation="Risoluzione progettazione generativa"/>
-	<label commandName="jobManagerSimulationSolving" devLabel="Simulation Solving" translation="Risoluzione simulazione"/>
-	<label commandName="jobManagerTranslating" devLabel="Translating" translation="Conversione"/>
-	<label commandName="jobManagerUploading" devLabel="Uploading" translation="Caricamento"/>
+	<label  commandName="jobManagerGenerativeDesignSolving" devLabel="Generative Design Solving" translation="Generative Design Solving" />
+	<label  commandName="jobManagerSimulationSolving" devLabel="Simulation Solving" translation="Simulation Solving" />
+	<label  commandName="jobManagerTranslating" devLabel="Translating" translation="Translating" />
+	<label  commandName="jobManagerUploading" devLabel="Uploading" translation="Uploading" />
 </Resource>

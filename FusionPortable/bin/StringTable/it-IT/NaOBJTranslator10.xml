@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="CollectComponentsForExportObjError" devLabel="Autodesk Translation Services failed to translate the current document to obj file!" translation="Impossibile convertire il documento corrente in file OBJ in Autodesk Translation Services."/>
-	<label commandName="OBJFileFilterDescription" devLabel="OBJ Files (*.obj)" translation="File OBJ (*.obj)"/>
+	<label  commandName="CollectComponentsForExportObjError" devLabel="Autodesk Translation Services failed to translate the current document to obj file!" translation="Autodesk Translation Services failed to translate the current document to obj file!" />
+	<label  commandName="OBJFileFilterDescription" devLabel="OBJ Files (*.obj)" translation="OBJ Files (*.obj)" />
 </Resource>

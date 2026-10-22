@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="CollectComponentsForExportStepError" devLabel="Autodesk Translation Services failed to translate the current document to step file!" translation="Impossibile convertire il documento corrente in file STEP in Autodesk Translation Services."/>
-	<label commandName="CreateComponentsByImportStepError" devLabel="Autodesk Translation Services failed to translate the step file, please make sure the step file isn't corrupt!" translation="Impossibile convertire il file STEP mediante Autodesk Translation Services. Accertarsi che il file STEP non sia danneggiato."/>
-	<label commandName="CreateComponentsByOpenStepError" devLabel="Autodesk Translation Services failed to translate the step file, please make sure the step file isn't corrupt!" translation="Impossibile convertire il file STEP mediante Autodesk Translation Services. Accertarsi che il file STEP non sia danneggiato."/>
-	<label commandName="STEPFileFilterDescription" devLabel="STEP Files (*.stp *.step)" translation="File STEP (*.stp *.step)"/>
+	<label  commandName="CollectComponentsForExportStepError" devLabel="Autodesk Translation Services failed to translate the current document to step file!" translation="Autodesk Translation Services failed to translate the current document to step file!" />
+	<label  commandName="CreateComponentsByImportStepError" devLabel="Autodesk Translation Services failed to translate the step file, please make sure the step file isn't corrupt!" translation="Autodesk Translation Services failed to translate the step file, please make sure the step file isn't corrupt!" />
+	<label  commandName="CreateComponentsByOpenStepError" devLabel="Autodesk Translation Services failed to translate the step file, please make sure the step file isn't corrupt!" translation="Autodesk Translation Services failed to translate the step file, please make sure the step file isn't corrupt!" />
+	<label  commandName="STEPFileFilterDescription" devLabel="STEP Files (*.stp *.step)" translation="STEP Files (*.stp *.step)" />
 </Resource>

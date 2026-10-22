@@ -1,309 +1,309 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="AddStudyMaterialAmountError" devLabel="Material could not be added. At least one method in the study contains seven materials, which is the maximum number." translation="Impossibile aggiungere materiale. Almeno un metodo nello studio contiene sette materiali, ovvero il numero massimo."/>
-	<label commandName="AddStudyMaterialExistsError" devLabel="Material could not be added. An equivalent material is already present in the study." translation="Impossibile aggiungere materiale. È già presente un materiale equivalente nello studio."/>
-	<label commandName="AddStudyMaterialInvalidError" devLabel="The selected material could not be added. Material properties are invalid for generative design." translation="Impossibile aggiungere il materiale selezionato. Le proprietà del materiale non sono valide per la progettazione generativa."/>
-	<label commandName="BrowserExplicitElementDeletionsLabel" devLabel="Deletion Criteria" translation="Criteri di eliminazione"/>
-	<label commandName="BrowserGenerativeLimitBucklingSafetyFactorLabel" devLabel="Buckling Safety factor: %1%" translation="Fattore di sicurezza di carico di punta: %1%"/>
-	<label commandName="BrowserGenerativeLimitGlobalDisplacementLabel" devLabel="Global Displacement" translation="Spostamento globale"/>
-	<label commandName="BrowserGenerativeLimitLocalDisplacementLabel" devLabel="Location %1%" translation="Posizione %1%"/>
-	<label commandName="BrowserGenerativeLimitMassTargetLabel" devLabel="Mass Target: %1%" translation="Massa: %1%"/>
-	<label commandName="BrowserGenerativeLimitModalFrequencyLabel" devLabel="Modal Frequency: %1% Hz" translation="Frequenza modale: %1% Hz"/>
-	<label commandName="BrowserGenerativeLimitSafetyFactorLabel" devLabel="Target Safety Factor: %1%" translation="Fattore di sicurezza di destinazione: %1%"/>
-	<label commandName="BrowserGenerativeLimitTargetVolumeLabel" devLabel="Target Volume: %1%" translation="Volume obiettivo: %1%"/>
-	<label commandName="BrowserGenerativeLimitVolumePercentLabel" devLabel="%% of Design Volume: %1%" translation="%% volume di progettazione: %1%"/>
-	<label commandName="BrowserGenerativeLimitsLabel" devLabel="Limits" translation="Limiti"/>
-	<label commandName="BrowserGenerativeLocalDisplacementLabel" devLabel="Local Displacement" translation="Spostamento locale"/>
-	<label commandName="BrowserGenerativeManufacturingLabel" devLabel="Manufacturing" translation="Produzione"/>
-	<label commandName="BrowserGenerativeObjectivesLabel" devLabel="Objectives" translation="Obiettivi"/>
-	<label commandName="BrowserGenerativeObjectivesMaximizeStiffnessLabel" devLabel="Maximize Stiffness" translation="Massimizza la rigidità"/>
-	<label commandName="BrowserGenerativeObjectivesMinimizeMassLabel" devLabel="Minimize Mass" translation="Riduci al minimo la massa"/>
-	<label commandName="BrowserGenerativeObjectivesMinimizePressureDropLabel" devLabel="Minimize Pressure Drop" translation="Minimizza caduta pressione"/>
-	<label commandName="BrowserLocalDisplacementHealthTooltipSick" devLabel="Reference geometry is missing" translation="Geometria di riferimento mancante"/>
-	<label commandName="BrowserSimElementDeletionHealthTooltipSick" devLabel="Target geometry is missing" translation="Manca la geometria di destinazione"/>
-	<label commandName="BrowserSimElementDeletionsHealthTooltipAllSick" devLabel="All valid Deletion Criteria are missing targets" translation="Mancano le destinazioni per tutti i criteri di eliminazione validi"/>
-	<label commandName="BrowserSimElementDeletionsHealthTooltipSomeSick" devLabel="A Deletion Criteria is missing a target" translation="Manca una destinazione per un criterio di eliminazione"/>
-	<label commandName="BrowserSimGenerativeLocalDisplacementsHealthTooltipSomeSick" devLabel="A local displacement is missing a reference" translation="Manca un riferimento in uno spostamento locale"/>
-	<label commandName="BrowserSimLocalDisplacementsHealthTooltipAllSick" devLabel="All valid local displacements are missing references" translation="Tutti gli spostamenti locali validi sono riferimenti mancanti"/>
-	<label commandName="DisplacementX" devLabel="Displacement X" translation="Spostamento X"/>
-	<label commandName="DisplacementY" devLabel="Displacement Y" translation="Spostamento Y"/>
-	<label commandName="DisplacementZ" devLabel="Displacement Z" translation="Spostamento Z"/>
-	<label commandName="GenCallAngularGlobalLoad" devLabel="Click here to select 'Angular Global Loads'." translation="Fare clic qui per selezionare 'Carichi globali angolari'."/>
-	<label commandName="GenCallEditGravity" devLabel="Click here to select 'Gravity'." translation="Fare clic qui per selezionare 'Gravità'."/>
-	<label commandName="GenCallFlowOpenings" devLabel="Click here to select 'Flow Openings'." translation="Fare clic qui per selezionare 'Aperture flusso'."/>
-	<label commandName="GenCallFlowSources" devLabel="Click here to select 'Flow Sources'." translation="Fare clic qui per selezionare 'Origini flusso'."/>
-	<label commandName="GenCallFluidPressures" devLabel="Click here to select 'Fluid Pressures'." translation="Fare clic qui per selezionare 'Pressioni fluido'."/>
-	<label commandName="GenCallLinearGlobalLoad" devLabel="Click here to select 'Linear Global Loads'." translation="Fare clic qui per selezionare 'Carichi globali lineari'."/>
-	<label commandName="GenCallManufacturingMethod" devLabel="Click here to unselect Manufacturing method." translation="Fare clic qui per deselezionare Metodo di produzione."/>
-	<label commandName="GenCallObjectives" devLabel="Click here to select 'Objectives'." translation="Fare clic qui per selezionare 'Obiettivi'."/>
-	<label commandName="GenCallObjectivesFluid" devLabel="Remove loads and constraints or click here to select 'Objectives'." translation="Rimuovere carichi e vincoli o fare clic qui per selezionare 'Obiettivi'."/>
-	<label commandName="GenCallObjectivesGravity" devLabel="Switch OFF gravity or click here to select 'Objectives'." translation="Disattivare la gravità o fare clic qui per selezionare 'Obiettivi'."/>
-	<label commandName="GenCallObstacleInterferesPreserve" devLabel="Click here to highlight the interfering geometries. Please modify the preserve or obstacle geometries and generate again." translation="Fare clic qui per evidenziare le geometrie di interferenza. Modificare le geometrie di mantenimento o di ostacolo e generare nuovamente."/>
-	<label commandName="GenCallPreserveGeometry" devLabel="Click here to select 'Preserve Geometry'." translation="Fare clic qui per selezionare 'Geometria di mantenimento'."/>
-	<label commandName="GenCallStartingShapeGeometry" devLabel="Click here to select 'Starting Shape Geometry'." translation="Fare clic qui per selezionare 'Avvia geometria forma'."/>
-	<label commandName="GenCallStructuralConstraint" devLabel="Click here to select 'Structural Constraints'." translation="Fare clic qui per selezionare 'Vincoli strutturali'."/>
-	<label commandName="GenCallStructuralLoad" devLabel="Click here to select 'Structural Loads'." translation="Fare clic qui per selezionare 'Carichi strutturali'."/>
-	<label commandName="GenStateComplete" devLabel="Generate completed" translation="Generazione completata"/>
-	<label commandName="GenStateFailed" devLabel="Generate failed" translation="Generazione non riuscita"/>
-	<label commandName="GenStateInProgress" devLabel="Generate in progress..." translation="Generazione in corso..."/>
-	<label commandName="GenStateOutOfDate" devLabel="Out of date results" translation="Risultati non aggiornati"/>
-	<label commandName="GenStudies" devLabel="Generative Designs" translation="Progettazioni generative"/>
-	<label commandName="Sim1stPrincipalStrain" devLabel="1st Principal" translation="Primo principale"/>
-	<label commandName="Sim1stPrincipalStress" devLabel="1st Principal" translation="Primo principale"/>
-	<label commandName="Sim2ndPrincipalStrain" devLabel="2nd Principal" translation="2° principale"/>
-	<label commandName="Sim2ndPrincipalStress" devLabel="2nd Principal" translation="2° principale"/>
-	<label commandName="Sim3rdPrincipalStrain" devLabel="3rd Principal" translation="Terzo principale"/>
-	<label commandName="Sim3rdPrincipalStress" devLabel="3rd Principal" translation="Terzo principale"/>
-	<label commandName="SimAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
-	<label commandName="SimAccelerationTotal" devLabel="Total" translation="Totale"/>
-	<label commandName="SimAccelerationX" devLabel="X" translation="X"/>
-	<label commandName="SimAccelerationY" devLabel="Y" translation="Y"/>
-	<label commandName="SimAccelerationZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimAppliedLoad" devLabel="Applied load" translation="Carico applicato"/>
-	<label commandName="SimAppliedLoadTotal" devLabel="Total" translation="Totale"/>
-	<label commandName="SimAppliedLoadX" devLabel="X" translation="X"/>
-	<label commandName="SimAppliedLoadY" devLabel="Y" translation="Y"/>
-	<label commandName="SimAppliedLoadZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimAppliedLoads" devLabel="Applied Loads" translation="Carichi applicati"/>
-	<label commandName="SimAppliedLoadsTotal" devLabel="Total" translation="Totale"/>
-	<label commandName="SimAppliedLoadsX" devLabel="X" translation="X"/>
-	<label commandName="SimAppliedLoadsY" devLabel="Y" translation="Y"/>
-	<label commandName="SimAppliedLoadsZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimAssetAdapterMissing" devLabel="Sim Asset Adapter is missing" translation="Adattatore di asset di simulazione mancante"/>
-	<label commandName="SimAssetIsMissing" devLabel="Asset is missing" translation="Asset mancante"/>
-	<label commandName="SimBrowserThresholds" devLabel="Thresholds" translation="Soglie"/>
-	<label commandName="SimBuckling" devLabel="Buckling" translation="Carico di punta"/>
-	<label commandName="SimBucklingDisplacement" devLabel="Displacement" translation="Spostamento"/>
-	<label commandName="SimBucklingDisplacementTotal" devLabel="Total Displacement" translation="Spostamento totale"/>
-	<label commandName="SimBucklingDisplacementX" devLabel="X Displacement" translation="Spostamento X"/>
-	<label commandName="SimBucklingDisplacementY" devLabel="Y Displacement" translation="Spostamento Y"/>
-	<label commandName="SimBucklingDisplacementZ" devLabel="Z Displacement" translation="Spostamento Z"/>
-	<label commandName="SimBucklingDomainPointsFmt" devLabel="Buckling Mode %=I=%: %=V=% x Load" translation="Modalità Carico di punta %=I=%: %=V=% x Carico"/>
-	<label commandName="SimBucklingDomainPointsWithUtitsFmt" devLabel="Buckling Mode %=I=%: %=V=% %=U=%" translation="Modalità Carico di punta %=I=%: %=V=% %=U=%"/>
-	<label commandName="SimBucklingRotationX" devLabel="X Rotation" translation="Rotazione X"/>
-	<label commandName="SimBucklingRotationY" devLabel="Y Rotation" translation="Rotazione Y"/>
-	<label commandName="SimBucklingRotationZ" devLabel="Z Rotation" translation="Rotazione Z"/>
-	<label commandName="SimCallApplyMaterial" devLabel="Click here to select 'Study Materials' to set a material." translation="Fare clic qui per selezionare 'Materiali di studio' e impostare un materiale."/>
-	<label commandName="SimCallInvalidObstacleSymmetryPlanes" devLabel="Click here to highlight the invalid plane(s). The obstacle geometries must be symmetrical about the defined symmetry plane(s). Consider modifying the plane(s) or the obstacle geometries." translation="Fare clic qui per evidenziare i piani non validi. Le geometrie di ostacolo devono essere simmetriche rispetto ai piani di simmetria definiti. Provare a modificare i piani o le geometrie di ostacolo."/>
-	<label commandName="SimCallInvalidPreserveSymmetryPlanes" devLabel="Click here to highlight the invalid plane(s). The preserve geometries must be symmetrical about the defined symmetry plane(s). Consider modifying the plane(s) or the preserve geometries." translation="Fare clic qui per evidenziare i piani non validi. Le geometrie di mantenimento devono essere simmetriche rispetto ai piani di simmetria definiti. Provare a modificare i piani o le geometrie di mantenimento."/>
-	<label commandName="SimCallInvalidTopologySymmetryPlanes" devLabel="Click here to highlight the invalid plane(s). The starting shape geometry must be symmetrical about the defined symmetry plane(s). Consider modifying the plane(s) or the starting shape geometry." translation="Fare clic qui per evidenziare i piani non validi. La geometria di forma iniziale deve essere simmetrica rispetto ai piani di simmetria definiti. Provare a modificare i piani o la geometria di forma iniziale."/>
-	<label commandName="SimCallPerpendicularSymmetryPlanesCutting" devLabel="Click here to highlight the invalid plane(s). The symmetry plane(s) must not be perpendicular to the 2-axis cutting direction. Consider modifying the plane(s) or changing the cutting direction." translation="Fare clic qui per evidenziare i piani non validi. I piani di simmetria non devono essere perpendicolari alla direzione di taglio a 2 assi. Provare a modificare i piani o la direzione di taglio."/>
-	<label commandName="SimCallPerpendicularSymmetryPlanesMilling" devLabel="Click here to highlight the invalid plane(s). The symmetry plane(s) must not be perpendicular to the 2.5-axis tool direction. Consider modifying the plane(s) or changing the tool direction." translation="Fare clic qui per evidenziare i piani non validi. I piani di simmetria non devono essere perpendicolari alla direzione utensile a 2,5 assi. Provare a modificare i piani o la direzione dell'utensile."/>
-	<label commandName="SimCallTransientStructuralLoad" devLabel="Click here to select 'Transient Loads'." translation="Fare clic qui per selezionare 'Carichi transitori'."/>
-	<label commandName="SimCaseMissing" devLabel="Study is missing" translation="Studio mancante"/>
-	<label commandName="SimCaseNameBuckling" devLabel="Study %1% - Structural Buckling" translation="Studio %1% - Instabilità a carico di punta"/>
-	<label commandName="SimCaseNameExplicit" devLabel="Study %1% - Event Simulation" translation="Studio %1% - Simulazione evento"/>
-	<label commandName="SimCaseNameExplicitDynamic" devLabel="Study %1% - Dynamic Event Simulation" translation="Studio %1% - Simulazione evento dinamica"/>
-	<label commandName="SimCaseNameExplicitQuasiStatic" devLabel="Study %1% - Quasi-static Event Simulation" translation="Studio %1% - Simulazione evento quasi statica"/>
-	<label commandName="SimCaseNameFreqResponse" devLabel="Study %1% - Frequency Response" translation="Studio %1% - Risposta di frequenza"/>
-	<label commandName="SimCaseNameGenerative" devLabel="Study %1% - Structural Component" translation="Studio %1% - Componente strutturale"/>
-	<label commandName="SimCaseNameGenerativeFluids" devLabel="Study %1% - Fluid Path" translation="Studio %1% - Percorso fluido"/>
-	<label commandName="SimCaseNameLSS" devLabel="Study %1% - Static Stress" translation="Studio %1% - Sollecitazione statica"/>
-	<label commandName="SimCaseNameModalFreq" devLabel="Study %1% - Modal Frequencies" translation="Studio %1% - Frequenze modali"/>
-	<label commandName="SimCaseNameNLLSS" devLabel="Study %1% - Nonlinear Static Stress" translation="Studio %1% - Sollecitazione statica non lineare"/>
-	<label commandName="SimCaseNameRTSS" devLabel="Study %1% - Drop Test" translation="Studio %1% - Test di caduta"/>
-	<label commandName="SimCaseNameTopOpt" devLabel="Study %1% - Shape Optimization" translation="Studio %1% - Ottimizzazione delle forme"/>
-	<label commandName="SimCaseNameTransientStructural" devLabel="Study %1% - Transient Structural" translation="Studio %1% - Strutturale transitorio"/>
-	<label commandName="SimChangeComputePreloadedModes" devLabel="Click here to select 'Settings', to change the option Compute Preloaded Modes." translation="Fare clic qui per selezionare 'Impostazioni' e modificare l'opzione Calcola modalità precaricate."/>
-	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Sostituisci sistema di unità"/>
-	<label commandName="SimConstraintReactionForce" devLabel="Reaction Force" translation="Forza di reazione"/>
-	<label commandName="SimConstraintReactionForceX" devLabel="X" translation="X"/>
-	<label commandName="SimConstraintReactionForceY" devLabel="Y" translation="Y"/>
-	<label commandName="SimConstraintReactionForceZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimConstraintReactionMomenX" devLabel="X" translation="X"/>
-	<label commandName="SimConstraintReactionMomentY" devLabel="Y" translation="Y"/>
-	<label commandName="SimConstraintReactionMomentZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimContactForce" devLabel="Contact force" translation="Forza di contatto"/>
-	<label commandName="SimContactForceGroup" devLabel="Contact Force" translation="Forza di contatto"/>
-	<label commandName="SimContactForceTotal" devLabel="Total" translation="Totale"/>
-	<label commandName="SimContactForceX" devLabel="X" translation="X"/>
-	<label commandName="SimContactForceY" devLabel="Y" translation="Y"/>
-	<label commandName="SimContactForceZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimContactForces" devLabel="Contact Forces" translation="Forze di contatto"/>
-	<label commandName="SimContactPressure" devLabel="Contact pressure" translation="Pressione di contatto"/>
-	<label commandName="SimContactPressureGroup" devLabel="Contact Pressure" translation="Pressione di contatto"/>
-	<label commandName="SimContactPressureTotal" devLabel="Total" translation="Totale"/>
-	<label commandName="SimContactPressureX" devLabel="X" translation="X"/>
-	<label commandName="SimContactPressureY" devLabel="Y" translation="Y"/>
-	<label commandName="SimContactPressureZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimContactsMissing" devLabel="Contacts are missing" translation="Contatti mancanti"/>
-	<label commandName="SimConvergencePlotResultBucklingMode" devLabel="Buckling Mode: " translation="Modalità Carico di punta: "/>
-	<label commandName="SimConvergencePlotResultModalMode" devLabel="Modal Mode: " translation="Modalità modale: "/>
-	<label commandName="SimConvergencePlotResultMode" devLabel="Mode:" translation="Modalità:"/>
-	<label commandName="SimConvergencePlotResultModeNumber" devLabel="Mode number" translation="Numero di modalità"/>
-	<label commandName="SimDisplacement" devLabel="Displacement" translation="Spostamento"/>
-	<label commandName="SimDisplacementTotal" devLabel="Total Displacement" translation="Spostamento totale"/>
-	<label commandName="SimDisplacementX" devLabel="X" translation="X"/>
-	<label commandName="SimDisplacementY" devLabel="Y" translation="Y"/>
-	<label commandName="SimDisplacementZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimDropTest" devLabel="Drop Test" translation="Test di caduta"/>
-	<label commandName="SimDropTestHighEndTime" devLabel="The end time is unexpectedly high compared to the impact velocity." translation="Il tempo finale è inaspettatamente elevato rispetto alla velocità di impatto."/>
-	<label commandName="SimDropTestHighVelocity" devLabel="Drop test is not designed for high-speed impacts." translation="Il test di caduta non è sviluppato per gli impatti ad alta velocità."/>
-	<label commandName="SimDropTestLowVelocity" devLabel="Drop test is not designed for low-speed impacts." translation="Il test di caduta non è sviluppato per gli impatti a bassa velocità."/>
-	<label commandName="SimDropTestNegativeDropHeight" devLabel="Cannot solve: Drop height cannot be negative." translation="Risoluzione impossibile: l'altezza di caduta non può essere negativa."/>
-	<label commandName="SimDropTestNotDefinedDistanceOrVelocity" devLabel="Cannot solve: Drop height has to be defined if initial velocity is disabled." translation="Risoluzione impossibile: l'altezza di caduta deve essere definita se la velocità iniziale è disattivata."/>
-	<label commandName="SimDropTestNotDefinedGravityButVelocityIs" devLabel="Cannot solve: Initial velocity is defined, but missing gravity." translation="Risoluzione impossibile: la velocità iniziale è definita, ma manca la gravità."/>
-	<label commandName="SimDropTestNotDefinedGravityOrVelocity" devLabel="Cannot solve: Both gravity and initial velocity are disabled." translation="Risoluzione impossibile: la gravità e la velocità iniziale sono disattivate."/>
-	<label commandName="SimDropTestVelocityOutOfLimits" devLabel="Cannot solve: High-speed impacts are not supported." translation="Risoluzione impossibile: gli impatti ad alta velocità non sono supportati."/>
-	<label commandName="SimDuplicateElementDeletion" devLabel="Warning: %1% and %2% have been applied on the same entity. In order to create a valid setup, delete the redundant Element Deletion Criteria." translation="Avvertimento: %1% e %2% sono stati applicati alla stessa entità. Per creare un setup valido, eliminare i criteri di eliminazione degli elementi ridondanti."/>
-	<label commandName="SimEffectivePlasticStrain" devLabel="Plastic Strain" translation="Deformazione plastica"/>
-	<label commandName="SimEffectiveStrainElastic" devLabel="Effective Strain Elastic" translation="Deformazione effettiva elastica"/>
-	<label commandName="SimElemeentStatus" devLabel="NotForDisplay" translation="Non visualizzabile"/>
-	<label commandName="SimElementStatus" devLabel="NotForDisplay" translation="Non visualizzabile"/>
-	<label commandName="SimEquivalentStrain" devLabel="Equivalent" translation="Equivalente"/>
-	<label commandName="SimEventNoContactInAssembly" devLabel="Error: The model has neither contacts nor connectors defined between independent bodies." translation="Errore: il modello non dispone né di contatti né di connettori definiti tra corpi indipendenti."/>
-	<label commandName="SimEventSimTooLongDuration" devLabel="Warning: The Total Event Duration in this study setup may make the analysis take a long time to solve. If the runtime exceeds the 12 hour limit, it will be aborted. Consider decreasing the Total Event Duration." translation="Avvertimento: la durata totale dell'evento in questo setup studio potrebbe comportare un tempo di risoluzione dell'analisi molto lungo. Se il runtime supera il limite di 12 ore, verrà interrotto. Valutare se ridurre la durata totale dell'evento."/>
-	<label commandName="SimExplicitCurveDurationGreaterThanEventDurationWarning" devLabel="The time required for the '%1%' to ramp up to its full magnitude is longer than Event Duration. Only the portion of the '%2%' ramp-up that coincides with the Event Duration is considered in the solution. Consider increasing the Event Duration or decreasing the '%3%' time to avoid false positive results." translation="Il tempo richiesto per l'aumento di '%1%' alla sua ampiezza completa è superiore alla durata dell'evento. Solo la parte dell'aumento di '%2%' che coincide con la durata dell'evento viene considerata nella soluzione. Per evitare risultati falsi positivi, è consigliabile aumentare la durata dell'evento o ridurre il tempo '%3%'."/>
-	<label commandName="SimExplicitDomainPointsFmt" devLabel="Step %=I=%: %=V=% %=U=%" translation="Passo %=I=%: %=V=% %=U=%"/>
-	<label commandName="SimExplicitMaterialHardeningRuleUnsupportedWarning" devLabel="Some components are using material properties unsupported by this study type. Please note material hardening type will be run as &quot;Isotropic&quot; for this solve." translation="Alcuni componenti utilizzano proprietà del materiale non supportate da questo tipo di studio. Tenere presente che il tipo di incrudimento del materiale verrà eseguito come &quot;Isotropo&quot; per questa risoluzione."/>
-	<label commandName="SimExplicitMaterialYieldCriteriaUnsupportedWarning" devLabel="Some components are using material properties unsupported by this study type. Please note Yield Criteria will be run as &quot;von Mises&quot; for this solve." translation="Alcuni componenti utilizzano proprietà del materiale non supportate da questo tipo di studio. I criteri di snervamento verranno eseguiti come &quot;von Mises&quot; per questa risoluzione."/>
-	<label commandName="SimExplicitNoResultSelected" devLabel="Warning: All result outputs are unchecked. Only safety factor result will be provided." translation="Avvertimento: tutti gli output dei risultati sono deselezionati. Verrà fornito solo il risultato del fattore di sicurezza."/>
-	<label commandName="SimFailedGenerativeMaterials" devLabel="One or more of the selected materials are invalid for a generative solution." translation="Uno o più materiali selezionati non sono validi per una soluzione generativa."/>
-	<label commandName="SimFatigue" devLabel="Fatigue" translation="Fatica"/>
-	<label commandName="SimFreqResponse" devLabel="Frequency Response" translation="Risposta di frequenza"/>
-	<label commandName="SimFreqResponseDomainPointsFmt" devLabel="Mode %=I=%: %=V=% %=U=%" translation="Modalità %=I=%: %=V=% %=U=%"/>
-	<label commandName="SimFrequency" devLabel="Frequency" translation="Frequenza"/>
-	<label commandName="SimFullResponse" devLabel="Full response" translation="Risposta completa"/>
-	<label commandName="SimGen2DCuttingPreCheckFaceOrientation2" devLabel="2-Axis Cutting doesn't support preserve bodies if one of the following occurs:&lt;br&gt; - External planar faces whose normals are not parallel or orthogonal to the cutting direction.&lt;br&gt; - External cylindrical faces whose axes are orthogonal to the cutting direction.&lt;br&gt;It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." translation="Il taglio a 2 assi non supporta la conservazione dei corpi se si verifica una delle seguenti condizioni:&lt;br&gt; - Facce piane esterne le cui normali non sono parallele o ortogonali alla direzione di taglio.&lt;br&gt; - Facce cilindriche esterne i cui assi sono ortogonali alla direzione di taglio.&lt;br&gt;Potrebbe influire sulla capacità di creare una progettazione 3D modificabile dai risultati. Si consiglia di modificare 'Geometria di mantenimento'."/>
-	<label commandName="SimGen2DCuttingPreCheckFaceOrientation25" devLabel="2.5-Axis Milling doesn’t support preserve bodies if one of the following occurs:&lt;br&gt; - External planar faces whose normals are not parallel or orthogonal to the cutting direction.&lt;br&gt; - External cylindrical faces whose axes are orthogonal to the cutting direction.&lt;br&gt;It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." translation="La fresatura a 2,5 assi non supporta la conservazione dei corpi se si verifica una delle seguenti condizioni:&lt;br&gt; - Facce piane esterne le cui normali non sono parallele o ortogonali alla direzione di taglio.&lt;br&gt; - Facce cilindriche esterne i cui assi sono ortogonali alla direzione di taglio.&lt;br&gt;Potrebbe influire sulla capacità di creare una progettazione 3D modificabile dai risultati. Si consiglia di modificare 'Geometria di mantenimento'."/>
-	<label commandName="SimGen2DCuttingPreCheckUnevenHeightWarning" devLabel="2-Axis Cutting doesn't support preserve bodies of different heights. It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." translation="Il taglio a 2 assi non supporta il mantenimento dei corpi di altezza diversa. Potrebbe influire sulla capacità di creare una progettazione 3D modificabile dai risultati. Si consiglia di modificare 'Geometria di mantenimento'."/>
-	<label commandName="SimGen2Point5AxisMillingPreCheckUnevenHeightWarning" devLabel="2.5-Axis Milling doesn't support preserve bodies of different heights. It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." translation="La fresatura a 2,5 assi non supporta il mantenimento di corpi di altezza diversa. Potrebbe influire sulla capacità di creare una progettazione 3D modificabile dai risultati. Si consiglia di modificare 'Geometria di mantenimento'."/>
-	<label commandName="SimGen3And5AxisPreCheckWarning" devLabel="The Milling 'Head Diameter' is large comparing to the model size. Review the Milling settings, model size and units." translation="Il 'Diametro testa' di fresatura è grande rispetto alle dimensioni del modello. Esaminare le impostazioni di fresatura, le dimensioni e le unità del modello."/>
-	<label commandName="SimGenAdditiveWorkplaceBoundaryCheckWarning" devLabel="The study geometry may be too large to be 3D-printed." translation="La geometria dello studio potrebbe essere troppo grande per essere stampata in 3D."/>
-	<label commandName="SimGenBucklingInertiaRelief" devLabel="Cannot generate: The combination of Buckling and Remove rigid body modes options within the same study is not supported. Consider using them in different studies." translation="Generazione impossibile: la combinazione delle opzioni Carico di punta e Rimuovi modalità corpo rigido all'interno dello stesso studio non è supportata. Provare ad utilizzarle in studi diversi."/>
-	<label commandName="SimGenDisjoinedStartingShape" devLabel="Error: Cannot solve: The starting shape body must be in contact with all preserve geometry bodies." translation="Errore: risoluzione impossibile: il corpo di forma iniziale deve essere in contatto con tutti i corpi della geometria di mantenimento."/>
-	<label commandName="SimGenEmptyMaterialList" devLabel="Cannot generate: Specify at least one material for each method." translation="Impossibile generare: specificare almeno un materiale per ogni metodo."/>
-	<label commandName="SimGenExceededMaterialLimit" devLabel="Cannot generate: A maximum of 7 materials may be specified." translation="Generazione impossibile: è possibile specificare un massimo di 7 materiali."/>
-	<label commandName="SimGenFluidLessThanTwoPreserves" devLabel="Cannot generate: Please specify at least two geometries to preserve." translation="Impossibile generare: specificare almeno due geometrie da mantenere."/>
-	<label commandName="SimGenFluidsMultipleLoadCase" devLabel="Cannot generate: The Generative Fluids solver doesn't support multiple load cases. Please make sure only a single load case is defined." translation="Impossibile generare: il risolutore di fluidi generativi non supporta condizioni di carico multiple. Verificare che sia definita solo una singola condizione di carico."/>
-	<label commandName="SimGenFluidsNoStartingShape" devLabel="Warning: A starting shape is not defined. Defining the starting shape is recommended." translation="Avvertimento Non è stata definita una forma iniziale. È consigliabile definire la forma iniziale."/>
-	<label commandName="SimGenInsufficientPreserves" devLabel="Only one preserve body is specified. If this is intended you can ignore this warning." translation="È specificato un solo corpo di mantenimento. Se si desidera, è possibile ignorare questo avvertimento."/>
-	<label commandName="SimGenInvalidMaterial" devLabel="Cannot generate: &quot;%1%&quot; has invalid or missing properties." translation="Generazione impossibile: &quot;%1%&quot; presenta proprietà non valide o mancanti."/>
-	<label commandName="SimGenManufacturingMaterialsBrowserEntryName" devLabel="Materials" translation="Materiali"/>
-	<label commandName="SimGenNoManufacturingMethod" devLabel="Cannot generate: Please specify at least one manufacturing method." translation="Generazione impossibile: specificare almeno un metodo di produzione."/>
-	<label commandName="SimGenNoPreserves" devLabel="Cannot generate: Please specify at least one, preferably two geometries to preserve." translation="Generazione impossibile: specificare almeno una e preferibilmente due geometrie da mantenere."/>
-	<label commandName="SimGenNoStartingShapes" devLabel="Warning: The Starting Shape body is missing in &quot;%1%&quot;." translation="Avvertimento: corpo di forma iniziale mancante in &quot;%1%&quot;."/>
-	<label commandName="SimGenPrecheckDisabled" devLabel="SimBaseUI.DisableGenerativePrecheck is set to 1, all prechecks are off." translation="UI base di simulazione.Disabilita precontrollo generativo è impostato su 1. Tutte le verifiche preliminari sono disattivate."/>
-	<label commandName="SimGenSomeLostObstacles" devLabel="Warning: An Obstacle body is missing in &quot;%1%&quot;." translation="Avvertimento: corpo di ostacolo mancante in &quot;%1%&quot;."/>
-	<label commandName="SimGenSomeLostPreserves" devLabel="Warning: A Preserve body is missing in &quot;%1%&quot;." translation="Avvertimento: corpo di mantenimento mancante in &quot;%1%&quot;."/>
-	<label commandName="SimGenSomeLostSymmetryPlanes" devLabel="Warning: A Symmetry Plane is missing in &quot;%1%&quot;." translation="Avvertimento: un piano di simmetria non è presente in &quot;%1%&quot;."/>
-	<label commandName="SimGenerative" devLabel="Structural Component" translation="Componente strutturale"/>
-	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additivo"/>
-	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Tutti i metodi"/>
-	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="Taglio a 2 assi"/>
-	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Colata"/>
-	<label commandName="SimGenerativeFluids" devLabel="Fluid Path" translation="Percorso fluido"/>
-	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fresatura"/>
-	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Non limitato"/>
-	<label commandName="SimHiddenBodiesOrComponentsWarningGen" devLabel="Warning: Some bodies or components are hidden. If they are assigned obstacle, preserve, or starting shape geometry, they still participate in the outcome generation. To exclude bodies from the generation, remove them in the Edit Model workspace or don't assign a geometry type to them." translation="Avvertimento: alcuni corpi o componenti sono nascosti. Se sono assegnati geometrie di ostacoli, di mantenimento o di forma iniziale, partecipano comunque alla generazione dei risultati. Per escludere i corpi dalla generazione, rimuoverli nell'area di lavoro Modifica modello o non assegnare ad essi un tipo di geometria."/>
-	<label commandName="SimHiddenSettingsWarningGen" devLabel="Warning: Visibility is turned off for some Loads or Constraints. Hidden Loads and Constraints will still participate in the outcome generation. To exclude them from the generation, use the &quot;Toggle Suppress&quot; command in the browser." translation="Avvertimento: la visibilità è disattivata per alcuni carichi o vincoli. I carichi e i vincoli nascosti continueranno a partecipare alla generazione dei risultati. Per escluderli dalla generazione, utilizzare il comando &quot;Attiva/disattiva Sopprimi&quot; nel browser."/>
-	<label commandName="SimHiddenSettingsWarningGenFluid" devLabel="Warning: Visibility is turned off for some Fluid Conditions. Hidden Flow Sources will still participate in the outcome generation. To exclude them from the generation, use the &quot;Toggle Suppress&quot; command in the browser." translation="Avvertimento: la visibilità è disattivata per alcune condizioni fluido. Le origini di flusso nascoste continueranno a partecipare alla generazione dei risultati. Per escluderle dalla generazione, utilizzare il comando &quot;Attiva/disattiva Sopprimi&quot; nel browser."/>
-	<label commandName="SimHiddenSymmetryPlanesWarningGen" devLabel="Warning: Some construction planes are hidden. If they are defined as symmetry planes, they are still included in the outcome generation.&#xA;To show hidden planes, under the Construction node in the browser, click the Visible icon.&#xA;To exclude hidden planes from the outcome generation, use the Symmetry plane dialog to deselect them." translation="Avvertimento: alcuni piani di costruzione sono nascosti. Se sono definiti come piani di simmetria, sono comunque inclusi nella generazione dei risultati.&#xA;Per visualizzare i piani nascosti, nel nodo Costruzione del browser fare clic sull'icona Visibile.&#xA;Per escludere i piani nascosti dalla generazione dei risultati, utilizzare la finestra di dialogo Piano di simmetria per deselezionarli."/>
-	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Stati Uniti (pollici)"/>
-	<label commandName="SimInvalidLocalDisplacementLocation" devLabel="Warning: Some local displacement locations are invalid.&#xA;&#xA;It looks like some local displacements are assigned to the deleted bodies.To use them in your study, select another location that belongs to the preserve geometry in the Objectives and Limits dialog." translation="Avvertimento: alcune posizioni di spostamento locale non sono valide.&#xA;&#xA;Alcuni spostamenti locali sono assegnati ai corpi eliminati. Per utilizzarli nello studio, selezionare un'altra posizione appartenente alla geometria di mantenimento nella finestra di dialogo Obiettivi e limiti."/>
-	<label commandName="SimInvalidSymmetryPlanesWarningGen" devLabel="Warning: Some planes do not meet the symmetrical setup requirements. Click this message for more information." translation="Avvertimento: alcuni piani non soddisfano i requisiti di impostazione simmetrici. Per ulteriori informazioni, fare clic su questo messaggio."/>
-	<label commandName="SimLSS" devLabel="Static Stress" translation="Sollecitazione statica"/>
-	<label commandName="SimLoadMultiplier" devLabel="Load Multiplier" translation="Moltiplicatore del carico"/>
-	<label commandName="SimLoadsWhenPreloadedModesAreOff" devLabel="Loads are not considered for the analysis. To include them, check Compute Preloaded Modes in the Settings dialog." translation="I carichi non vengono considerati per l'analisi. Per includerli, selezionare Calcola modalità precaricate nella finestra di dialogo Impostazioni."/>
-	<label commandName="SimMeshRefinementMultipleLoadCaseWarning" devLabel="Mesh refinement is not allowed for a study with multiple active load cases. Suppress the additional load cases, then change the study settings to remove mesh refinements." translation="L'affinamento della mesh non è consentito per uno studio con più condizioni di carico attive. Eliminare le condizioni di carico aggiuntive, quindi modificare le impostazioni dello studio per rimuovere gli affinamenti della mesh."/>
-	<label commandName="SimModal" devLabel="Modal" translation="Modale"/>
-	<label commandName="SimModalDisplacement" devLabel="Displacement" translation="Spostamento"/>
-	<label commandName="SimModalDisplacementTotal" devLabel="Total Modal Displacement" translation="Spostamento modale totale"/>
-	<label commandName="SimModalDisplacementX" devLabel="Modal Displacement X" translation="Spostamento modale X"/>
-	<label commandName="SimModalDisplacementY" devLabel="Modal Displacement Y" translation="Spostamento modale Y"/>
-	<label commandName="SimModalDisplacementZ" devLabel="Modal Displacement Z" translation="Spostamento modale Z"/>
-	<label commandName="SimModalDomainPointsFmtMode" devLabel="Mode %=I=%: %=V=% %=U=%" translation="Modalità %=I=%: %=V=% %=U=%"/>
-	<label commandName="SimModalFrequencies" devLabel="Modal Frequencies" translation="Frequenze modali"/>
-	<label commandName="SimModalRotationX" devLabel="Modal Rotation X" translation="Rotazione modale X"/>
-	<label commandName="SimModalRotationY" devLabel="Modal Rotation Y" translation="Rotazione modale Y"/>
-	<label commandName="SimModalRotationZ" devLabel="Modal Rotation Z" translation="Rotazione modale Z"/>
-	<label commandName="SimNLSSDomainPointsFmt" devLabel="Step %=I=%: %=V=% %=U=%" translation="Passo %=I=%: %=V=% %=U=%"/>
-	<label commandName="SimNoStructuralLoadInModal" devLabel="Cannot solve: Since the option Compute Preloaded Modes is on, there are missing structural loads and/or constraints%1%." translation="Risoluzione impossibile: poiché l'opzione Calcola modalità precaricate è attiva, mancano carichi strutturali e/o vincoli%1%."/>
-	<label commandName="SimNodetStatus" devLabel="NotForDisplay" translation="Non visualizzabile"/>
-	<label commandName="SimNonlinearExplicit" devLabel="Event Simulation" translation="Simulazione evento"/>
-	<label commandName="SimNonlinearExplicitDynamic" devLabel="Dynamic Event Simulation" translation="Simulazione evento dinamica"/>
-	<label commandName="SimNonlinearExplicitQuasiStatic" devLabel="Quasi-static Event Simulation" translation="Simulazione evento quasi statica"/>
-	<label commandName="SimNonlinearStaticStress" devLabel="Nonlinear Static Stress" translation="Sollecitazione statica non lineare"/>
-	<label commandName="SimObstacleInterferesPreserveErrorGen" devLabel="Cannot generate: Some preserve geometries are interfering with the obstacle geometries. Click this message for more information." translation="Generazione impossibile: alcune geometrie di mantenimento interferiscono con le geometrie di ostacoli. Per ulteriori informazioni, fare clic su questo messaggio."/>
-	<label commandName="SimObstacleInterferesPreserveErrorStatus" devLabel="Some pre-checks have identified potential issues:&#xA;Large, complex models can cause problems with generating outcomes. Please check your model or simplify it if possible." translation="Alcune verifiche preliminari hanno identificato potenziali problemi:&#xA;modelli complessi di grandi dimensioni possono causare problemi nella generazione dei risultati. Verificare il modello o semplificarlo, se possibile."/>
-	<label commandName="SimPerpendicularSymmetryPlanesWarningGen" devLabel="Warning: Some planes do not meet the symmetrical setup requirements. Click this message for more information." translation="Avvertimento: alcuni piani non soddisfano i requisiti di impostazione simmetrici. Per ulteriori informazioni, fare clic su questo messaggio."/>
-	<label commandName="SimPlasticStrain" devLabel="Plastic Strain" translation="Deformazione plastica"/>
-	<label commandName="SimRTSSDomainPointsFmt" devLabel="Time %=I=%: %=V=% %=U=%" translation="Tempo %=I=%: %=V=% %=U=%"/>
-	<label commandName="SimReactionForce" devLabel="Reaction force" translation="Forza di reazione"/>
-	<label commandName="SimReactionForceTotal" devLabel="Total" translation="Totale"/>
-	<label commandName="SimReactionForceX" devLabel="X" translation="X"/>
-	<label commandName="SimReactionForceY" devLabel="Y" translation="Y"/>
-	<label commandName="SimReactionForceZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimRelativeResponse" devLabel="Relative response" translation="Risposta relativa"/>
-	<label commandName="SimRotation" devLabel="Rotation" translation="Rotazione"/>
-	<label commandName="SimRotationX" devLabel="X" translation="X"/>
-	<label commandName="SimRotationXRotation" devLabel="Rotation X" translation="Rotazione X"/>
-	<label commandName="SimRotationY" devLabel="Y" translation="Y"/>
-	<label commandName="SimRotationYRotation" devLabel="Rotation Y" translation="Rotazione Y"/>
-	<label commandName="SimRotationZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimRotationZRotation" devLabel="Rotation Z" translation="Rotazione Z"/>
-	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personalizzato"/>
-	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Unità metriche (SI)"/>
-	<label commandName="SimSafetyFactor" devLabel="Safety Factor" translation="Fattore di sicurezza"/>
-	<label commandName="SimSafetyFactorPerBodySetting" devLabel="Safety Factor (Per Body)" translation="Fattore di sicurezza (per corpo)"/>
-	<label commandName="SimSelectionReference" devLabel="Selection Reference " translation="Riferimento selezione "/>
-	<label commandName="SimStrain" devLabel="Strain" translation="Deformazione"/>
-	<label commandName="SimStrainXX" devLabel="Normal XX" translation="Perpendicolare XX"/>
-	<label commandName="SimStrainXY" devLabel="Shear XY" translation="Taglio XY"/>
-	<label commandName="SimStrainXZ" devLabel="Shear ZX" translation="Taglio ZX"/>
-	<label commandName="SimStrainYY" devLabel="Normal YY" translation="Perpendicolare YY"/>
-	<label commandName="SimStrainYZ" devLabel="Shear YZ" translation="Taglio YZ"/>
-	<label commandName="SimStrainZZ" devLabel="Normal ZZ" translation="Perpendicolare ZZ"/>
-	<label commandName="SimStress" devLabel="Stress" translation="Sollecitazione"/>
-	<label commandName="SimStressXX" devLabel="Normal XX" translation="Perpendicolare XX"/>
-	<label commandName="SimStressXY" devLabel="Shear XY" translation="Taglio XY"/>
-	<label commandName="SimStressXZ" devLabel="Shear ZX" translation="Taglio ZX"/>
-	<label commandName="SimStressYY" devLabel="Normal YY" translation="Perpendicolare YY"/>
-	<label commandName="SimStressYZ" devLabel="Shear YZ" translation="Taglio YZ"/>
-	<label commandName="SimStressZZ" devLabel="Normal ZZ" translation="Perpendicolare ZZ"/>
-	<label commandName="SimStructuralBuckling" devLabel="Structural Buckling" translation="Instabilità a carico di punta"/>
-	<label commandName="SimSumAcceleration" devLabel="Total" translation="Totale"/>
-	<label commandName="SimSumBucklingRotation" devLabel="Total Rotation" translation="Rotazione totale"/>
-	<label commandName="SimSumConstraintReactionForce" devLabel="Total" translation="Totale"/>
-	<label commandName="SimSumConstraintReactionMoment" devLabel="Total" translation="Totale"/>
-	<label commandName="SimSumDisplacement" devLabel="Total" translation="Totale"/>
-	<label commandName="SimSumModalRotation" devLabel="Total Modal Rotation" translation="Rotazione modale totale"/>
-	<label commandName="SimSumRotation" devLabel="Total" translation="Totale"/>
-	<label commandName="SimSumRotationTotalRotation" devLabel="Total Rotation" translation="Rotazione totale"/>
-	<label commandName="SimSumVelocity" devLabel="Total" translation="Totale"/>
-	<label commandName="SimTargetResult" devLabel=" (target)" translation=" (destinazione)"/>
-	<label commandName="SimTime" devLabel="Time" translation="Tempo"/>
-	<label commandName="SimTopologyOptimization" devLabel="Shape Optimization" translation="Ottimizzazione delle forme"/>
-	<label commandName="SimTopologyOptimizationDensity" devLabel="Load Path Criticality" translation="Criterio percorso di carico"/>
-	<label commandName="SimTotalDisplacement" devLabel="Displacement, Total" translation="Spostamento totale"/>
-	<label commandName="SimTransStructDomainPointsFmt" devLabel="Time %=I=%: %=V=% %=U=%" translation="Tempo %=I=%: %=V=% %=U=%"/>
-	<label commandName="SimTransientStructural" devLabel="Transient Structural" translation="Strutturale transitorio"/>
-	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentuale"/>
-	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pezzi"/>
-	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
-	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angolo"/>
-	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Corrente"/>
-	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Resistenza elettrica"/>
-	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
-	<label commandName="SimUnitsForce" devLabel="Force" translation="Forza"/>
-	<label commandName="SimUnitsLength" devLabel="Length" translation="Lunghezza"/>
-	<label commandName="SimUnitsMass" devLabel="Mass" translation="Massa"/>
-	<label commandName="SimUnitsPower" devLabel="Power" translation="Potenza"/>
-	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressione"/>
-	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
-	<label commandName="SimUnitsTime" devLabel="Time" translation="Tempo"/>
-	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocità"/>
-	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosità"/>
-	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tensione"/>
-	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Portata"/>
-	<label commandName="SimVelocity" devLabel="Velocity" translation="Velocità"/>
-	<label commandName="SimVelocityTotal" devLabel="Total" translation="Totale"/>
-	<label commandName="SimVelocityX" devLabel="X" translation="X"/>
-	<label commandName="SimVelocityY" devLabel="Y" translation="Y"/>
-	<label commandName="SimVelocityZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimVonMisesStress" devLabel="von Mises" translation="von Mises"/>
-	<label commandName="StudyManufacturingMethodsAdditive" devLabel="Additive" translation="Additivo"/>
-	<label commandName="StudyManufacturingMethodsCutting" devLabel="2-axis Cutting" translation="Taglio a 2 assi"/>
-	<label commandName="StudyManufacturingMethodsDieCasting" devLabel="Casting" translation="Colata"/>
-	<label commandName="StudyManufacturingMethodsMilling" devLabel="Milling" translation="Fresatura"/>
-	<label commandName="StudyManufacturingMethodsUnrestricted" devLabel="Unrestricted" translation="Non limitato"/>
+	<label  commandName="AddStudyMaterialAmountError" devLabel="Material could not be added. At least one method in the study contains seven materials, which is the maximum number." translation="Material could not be added. At least one method in the study contains seven materials, which is the maximum number." />
+	<label  commandName="AddStudyMaterialExistsError" devLabel="Material could not be added. An equivalent material is already present in the study." translation="Material could not be added. An equivalent material is already present in the study." />
+	<label  commandName="AddStudyMaterialInvalidError" devLabel="The selected material could not be added. Material properties are invalid for generative design." translation="The selected material could not be added. Material properties are invalid for generative design." />
+	<label  commandName="BrowserExplicitElementDeletionsLabel" devLabel="Deletion Criteria" translation="Deletion Criteria" />
+	<label  commandName="BrowserGenerativeLimitBucklingSafetyFactorLabel" devLabel="Buckling Safety factor: %1%" translation="Buckling Safety factor: %1%" />
+	<label  commandName="BrowserGenerativeLimitGlobalDisplacementLabel" devLabel="Global Displacement" translation="Global Displacement" />
+	<label  commandName="BrowserGenerativeLimitLocalDisplacementLabel" devLabel="Location %1%" translation="Location %1%" />
+	<label  commandName="BrowserGenerativeLimitMassTargetLabel" devLabel="Mass Target: %1%" translation="Mass Target: %1%" />
+	<label  commandName="BrowserGenerativeLimitModalFrequencyLabel" devLabel="Modal Frequency: %1% Hz" translation="Modal Frequency: %1% Hz" />
+	<label  commandName="BrowserGenerativeLimitSafetyFactorLabel" devLabel="Target Safety Factor: %1%" translation="Target Safety Factor: %1%" />
+	<label  commandName="BrowserGenerativeLimitTargetVolumeLabel" devLabel="Target Volume: %1%" translation="Target Volume: %1%" />
+	<label  commandName="BrowserGenerativeLimitVolumePercentLabel" devLabel="%% of Design Volume: %1%" translation="%% of Design Volume: %1%" />
+	<label  commandName="BrowserGenerativeLimitsLabel" devLabel="Limits" translation="Limits" />
+	<label  commandName="BrowserGenerativeLocalDisplacementLabel" devLabel="Local Displacement" translation="Local Displacement" />
+	<label  commandName="BrowserGenerativeManufacturingLabel" devLabel="Manufacturing" translation="Manufacturing" />
+	<label  commandName="BrowserGenerativeObjectivesLabel" devLabel="Objectives" translation="Objectives" />
+	<label  commandName="BrowserGenerativeObjectivesMaximizeStiffnessLabel" devLabel="Maximize Stiffness" translation="Maximize Stiffness" />
+	<label  commandName="BrowserGenerativeObjectivesMinimizeMassLabel" devLabel="Minimize Mass" translation="Minimize Mass" />
+	<label  commandName="BrowserGenerativeObjectivesMinimizePressureDropLabel" devLabel="Minimize Pressure Drop" translation="Minimize Pressure Drop" />
+	<label  commandName="BrowserLocalDisplacementHealthTooltipSick" devLabel="Reference geometry is missing" translation="Reference geometry is missing" />
+	<label  commandName="BrowserSimElementDeletionHealthTooltipSick" devLabel="Target geometry is missing" translation="Target geometry is missing" />
+	<label  commandName="BrowserSimElementDeletionsHealthTooltipAllSick" devLabel="All valid Deletion Criteria are missing targets" translation="All valid Deletion Criteria are missing targets" />
+	<label  commandName="BrowserSimElementDeletionsHealthTooltipSomeSick" devLabel="A Deletion Criteria is missing a target" translation="A Deletion Criteria is missing a target" />
+	<label  commandName="BrowserSimGenerativeLocalDisplacementsHealthTooltipSomeSick" devLabel="A local displacement is missing a reference" translation="A local displacement is missing a reference" />
+	<label  commandName="BrowserSimLocalDisplacementsHealthTooltipAllSick" devLabel="All valid local displacements are missing references" translation="All valid local displacements are missing references" />
+	<label  commandName="DisplacementX" devLabel="Displacement X" translation="Displacement X" />
+	<label  commandName="DisplacementY" devLabel="Displacement Y" translation="Displacement Y" />
+	<label  commandName="DisplacementZ" devLabel="Displacement Z" translation="Displacement Z" />
+	<label  commandName="GenCallAngularGlobalLoad" devLabel="Click here to select 'Angular Global Loads'." translation="Click here to select 'Angular Global Loads'." />
+	<label  commandName="GenCallEditGravity" devLabel="Click here to select 'Gravity'." translation="Click here to select 'Gravity'." />
+	<label  commandName="GenCallFlowOpenings" devLabel="Click here to select 'Flow Openings'." translation="Click here to select 'Flow Openings'." />
+	<label  commandName="GenCallFlowSources" devLabel="Click here to select 'Flow Sources'." translation="Click here to select 'Flow Sources'." />
+	<label  commandName="GenCallFluidPressures" devLabel="Click here to select 'Fluid Pressures'." translation="Click here to select 'Fluid Pressures'." />
+	<label  commandName="GenCallLinearGlobalLoad" devLabel="Click here to select 'Linear Global Loads'." translation="Click here to select 'Linear Global Loads'." />
+	<label  commandName="GenCallManufacturingMethod" devLabel="Click here to unselect Manufacturing method." translation="Click here to unselect Manufacturing method." />
+	<label  commandName="GenCallObjectives" devLabel="Click here to select 'Objectives'." translation="Click here to select 'Objectives'." />
+	<label  commandName="GenCallObjectivesFluid" devLabel="Remove loads and constraints or click here to select 'Objectives'." translation="Remove loads and constraints or click here to select 'Objectives'." />
+	<label  commandName="GenCallObjectivesGravity" devLabel="Switch OFF gravity or click here to select 'Objectives'." translation="Switch OFF gravity or click here to select 'Objectives'." />
+	<label  commandName="GenCallObstacleInterferesPreserve" devLabel="Click here to highlight the interfering geometries. Please modify the preserve or obstacle geometries and generate again." translation="Click here to highlight the interfering geometries. Please modify the preserve or obstacle geometries and generate again." />
+	<label  commandName="GenCallPreserveGeometry" devLabel="Click here to select 'Preserve Geometry'." translation="Click here to select 'Preserve Geometry'." />
+	<label  commandName="GenCallStartingShapeGeometry" devLabel="Click here to select 'Starting Shape Geometry'." translation="Click here to select 'Starting Shape Geometry'." />
+	<label  commandName="GenCallStructuralConstraint" devLabel="Click here to select 'Structural Constraints'." translation="Click here to select 'Structural Constraints'." />
+	<label  commandName="GenCallStructuralLoad" devLabel="Click here to select 'Structural Loads'." translation="Click here to select 'Structural Loads'." />
+	<label  commandName="GenStateComplete" devLabel="Generate completed" translation="Generate completed" />
+	<label  commandName="GenStateFailed" devLabel="Generate failed" translation="Generate failed" />
+	<label  commandName="GenStateInProgress" devLabel="Generate in progress..." translation="Generate in progress..." />
+	<label  commandName="GenStateOutOfDate" devLabel="Out of date results" translation="Out of date results" />
+	<label  commandName="GenStudies" devLabel="Generative Designs" translation="Generative Designs" />
+	<label  commandName="Sim1stPrincipalStrain" devLabel="1st Principal" translation="1st Principal" />
+	<label  commandName="Sim1stPrincipalStress" devLabel="1st Principal" translation="1st Principal" />
+	<label  commandName="Sim2ndPrincipalStrain" devLabel="2nd Principal" translation="2nd Principal" />
+	<label  commandName="Sim2ndPrincipalStress" devLabel="2nd Principal" translation="2nd Principal" />
+	<label  commandName="Sim3rdPrincipalStrain" devLabel="3rd Principal" translation="3rd Principal" />
+	<label  commandName="Sim3rdPrincipalStress" devLabel="3rd Principal" translation="3rd Principal" />
+	<label  commandName="SimAcceleration" devLabel="Acceleration" translation="Acceleration" />
+	<label  commandName="SimAccelerationTotal" devLabel="Total" translation="Total" />
+	<label  commandName="SimAccelerationX" devLabel="X" translation="X" />
+	<label  commandName="SimAccelerationY" devLabel="Y" translation="Y" />
+	<label  commandName="SimAccelerationZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimAppliedLoad" devLabel="Applied load" translation="Applied load" />
+	<label  commandName="SimAppliedLoadTotal" devLabel="Total" translation="Total" />
+	<label  commandName="SimAppliedLoadX" devLabel="X" translation="X" />
+	<label  commandName="SimAppliedLoadY" devLabel="Y" translation="Y" />
+	<label  commandName="SimAppliedLoadZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimAppliedLoads" devLabel="Applied Loads" translation="Applied Loads" />
+	<label  commandName="SimAppliedLoadsTotal" devLabel="Total" translation="Total" />
+	<label  commandName="SimAppliedLoadsX" devLabel="X" translation="X" />
+	<label  commandName="SimAppliedLoadsY" devLabel="Y" translation="Y" />
+	<label  commandName="SimAppliedLoadsZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimAssetAdapterMissing" devLabel="Sim Asset Adapter is missing" translation="Sim Asset Adapter is missing" />
+	<label  commandName="SimAssetIsMissing" devLabel="Asset is missing" translation="Asset is missing" />
+	<label  commandName="SimBrowserThresholds" devLabel="Thresholds" translation="Thresholds" />
+	<label  commandName="SimBuckling" devLabel="Buckling" translation="Buckling" />
+	<label  commandName="SimBucklingDisplacement" devLabel="Displacement" translation="Displacement" />
+	<label  commandName="SimBucklingDisplacementTotal" devLabel="Total Displacement" translation="Total Displacement" />
+	<label  commandName="SimBucklingDisplacementX" devLabel="X Displacement" translation="X Displacement" />
+	<label  commandName="SimBucklingDisplacementY" devLabel="Y Displacement" translation="Y Displacement" />
+	<label  commandName="SimBucklingDisplacementZ" devLabel="Z Displacement" translation="Z Displacement" />
+	<label  commandName="SimBucklingDomainPointsFmt" devLabel="Buckling Mode %=I=%: %=V=% x Load" translation="Buckling Mode %=I=%: %=V=% x Load" />
+	<label  commandName="SimBucklingDomainPointsWithUtitsFmt" devLabel="Buckling Mode %=I=%: %=V=% %=U=%" translation="Buckling Mode %=I=%: %=V=% %=U=%" />
+	<label  commandName="SimBucklingRotationX" devLabel="X Rotation" translation="X Rotation" />
+	<label  commandName="SimBucklingRotationY" devLabel="Y Rotation" translation="Y Rotation" />
+	<label  commandName="SimBucklingRotationZ" devLabel="Z Rotation" translation="Z Rotation" />
+	<label  commandName="SimCallApplyMaterial" devLabel="Click here to select 'Study Materials' to set a material." translation="Click here to select 'Study Materials' to set a material." />
+	<label  commandName="SimCallInvalidObstacleSymmetryPlanes" devLabel="Click here to highlight the invalid plane(s). The obstacle geometries must be symmetrical about the defined symmetry plane(s). Consider modifying the plane(s) or the obstacle geometries." translation="Click here to highlight the invalid plane(s). The obstacle geometries must be symmetrical about the defined symmetry plane(s). Consider modifying the plane(s) or the obstacle geometries." />
+	<label  commandName="SimCallInvalidPreserveSymmetryPlanes" devLabel="Click here to highlight the invalid plane(s). The preserve geometries must be symmetrical about the defined symmetry plane(s). Consider modifying the plane(s) or the preserve geometries." translation="Click here to highlight the invalid plane(s). The preserve geometries must be symmetrical about the defined symmetry plane(s). Consider modifying the plane(s) or the preserve geometries." />
+	<label  commandName="SimCallInvalidTopologySymmetryPlanes" devLabel="Click here to highlight the invalid plane(s). The starting shape geometry must be symmetrical about the defined symmetry plane(s). Consider modifying the plane(s) or the starting shape geometry." translation="Click here to highlight the invalid plane(s). The starting shape geometry must be symmetrical about the defined symmetry plane(s). Consider modifying the plane(s) or the starting shape geometry." />
+	<label  commandName="SimCallPerpendicularSymmetryPlanesCutting" devLabel="Click here to highlight the invalid plane(s). The symmetry plane(s) must not be perpendicular to the 2-axis cutting direction. Consider modifying the plane(s) or changing the cutting direction." translation="Click here to highlight the invalid plane(s). The symmetry plane(s) must not be perpendicular to the 2-axis cutting direction. Consider modifying the plane(s) or changing the cutting direction." />
+	<label  commandName="SimCallPerpendicularSymmetryPlanesMilling" devLabel="Click here to highlight the invalid plane(s). The symmetry plane(s) must not be perpendicular to the 2.5-axis tool direction. Consider modifying the plane(s) or changing the tool direction." translation="Click here to highlight the invalid plane(s). The symmetry plane(s) must not be perpendicular to the 2.5-axis tool direction. Consider modifying the plane(s) or changing the tool direction." />
+	<label  commandName="SimCallTransientStructuralLoad" devLabel="Click here to select 'Transient Loads'." translation="Click here to select 'Transient Loads'." />
+	<label  commandName="SimCaseMissing" devLabel="Study is missing" translation="Study is missing" />
+	<label  commandName="SimCaseNameBuckling" devLabel="Study %1% - Structural Buckling" translation="Study %1% - Structural Buckling" />
+	<label  commandName="SimCaseNameExplicit" devLabel="Study %1% - Event Simulation" translation="Study %1% - Event Simulation" />
+	<label  commandName="SimCaseNameExplicitDynamic" devLabel="Study %1% - Dynamic Event Simulation" translation="Study %1% - Dynamic Event Simulation" />
+	<label  commandName="SimCaseNameExplicitQuasiStatic" devLabel="Study %1% - Quasi-static Event Simulation" translation="Study %1% - Quasi-static Event Simulation" />
+	<label  commandName="SimCaseNameFreqResponse" devLabel="Study %1% - Frequency Response" translation="Study %1% - Frequency Response" />
+	<label  commandName="SimCaseNameGenerative" devLabel="Study %1% - Structural Component" translation="Study %1% - Structural Component" />
+	<label  commandName="SimCaseNameGenerativeFluids" devLabel="Study %1% - Fluid Path" translation="Study %1% - Fluid Path" />
+	<label  commandName="SimCaseNameLSS" devLabel="Study %1% - Static Stress" translation="Study %1% - Static Stress" />
+	<label  commandName="SimCaseNameModalFreq" devLabel="Study %1% - Modal Frequencies" translation="Study %1% - Modal Frequencies" />
+	<label  commandName="SimCaseNameNLLSS" devLabel="Study %1% - Nonlinear Static Stress" translation="Study %1% - Nonlinear Static Stress" />
+	<label  commandName="SimCaseNameRTSS" devLabel="Study %1% - Drop Test" translation="Study %1% - Drop Test" />
+	<label  commandName="SimCaseNameTopOpt" devLabel="Study %1% - Shape Optimization" translation="Study %1% - Shape Optimization" />
+	<label  commandName="SimCaseNameTransientStructural" devLabel="Study %1% - Transient Structural" translation="Study %1% - Transient Structural" />
+	<label  commandName="SimChangeComputePreloadedModes" devLabel="Click here to select 'Settings', to change the option Compute Preloaded Modes." translation="Click here to select 'Settings', to change the option Compute Preloaded Modes." />
+	<label  commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Override Unit System" />
+	<label  commandName="SimConstraintReactionForce" devLabel="Reaction Force" translation="Reaction Force" />
+	<label  commandName="SimConstraintReactionForceX" devLabel="X" translation="X" />
+	<label  commandName="SimConstraintReactionForceY" devLabel="Y" translation="Y" />
+	<label  commandName="SimConstraintReactionForceZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimConstraintReactionMomenX" devLabel="X" translation="X" />
+	<label  commandName="SimConstraintReactionMomentY" devLabel="Y" translation="Y" />
+	<label  commandName="SimConstraintReactionMomentZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimContactForce" devLabel="Contact force" translation="Contact force" />
+	<label  commandName="SimContactForceGroup" devLabel="Contact Force" translation="Contact Force" />
+	<label  commandName="SimContactForceTotal" devLabel="Total" translation="Total" />
+	<label  commandName="SimContactForceX" devLabel="X" translation="X" />
+	<label  commandName="SimContactForceY" devLabel="Y" translation="Y" />
+	<label  commandName="SimContactForceZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimContactForces" devLabel="Contact Forces" translation="Contact Forces" />
+	<label  commandName="SimContactPressure" devLabel="Contact pressure" translation="Contact pressure" />
+	<label  commandName="SimContactPressureGroup" devLabel="Contact Pressure" translation="Contact Pressure" />
+	<label  commandName="SimContactPressureTotal" devLabel="Total" translation="Total" />
+	<label  commandName="SimContactPressureX" devLabel="X" translation="X" />
+	<label  commandName="SimContactPressureY" devLabel="Y" translation="Y" />
+	<label  commandName="SimContactPressureZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimContactsMissing" devLabel="Contacts are missing" translation="Contacts are missing" />
+	<label  commandName="SimConvergencePlotResultBucklingMode" devLabel="Buckling Mode: " translation="Buckling Mode: " />
+	<label  commandName="SimConvergencePlotResultModalMode" devLabel="Modal Mode: " translation="Modal Mode: " />
+	<label  commandName="SimConvergencePlotResultMode" devLabel="Mode:" translation="Mode:" />
+	<label  commandName="SimConvergencePlotResultModeNumber" devLabel="Mode number" translation="Mode number" />
+	<label  commandName="SimDisplacement" devLabel="Displacement" translation="Displacement" />
+	<label  commandName="SimDisplacementTotal" devLabel="Total Displacement" translation="Total Displacement" />
+	<label  commandName="SimDisplacementX" devLabel="X" translation="X" />
+	<label  commandName="SimDisplacementY" devLabel="Y" translation="Y" />
+	<label  commandName="SimDisplacementZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimDropTest" devLabel="Drop Test" translation="Drop Test" />
+	<label  commandName="SimDropTestHighEndTime" devLabel="The end time is unexpectedly high compared to the impact velocity." translation="The end time is unexpectedly high compared to the impact velocity." />
+	<label  commandName="SimDropTestHighVelocity" devLabel="Drop test is not designed for high-speed impacts." translation="Drop test is not designed for high-speed impacts." />
+	<label  commandName="SimDropTestLowVelocity" devLabel="Drop test is not designed for low-speed impacts." translation="Drop test is not designed for low-speed impacts." />
+	<label  commandName="SimDropTestNegativeDropHeight" devLabel="Cannot solve: Drop height cannot be negative." translation="Cannot solve: Drop height cannot be negative." />
+	<label  commandName="SimDropTestNotDefinedDistanceOrVelocity" devLabel="Cannot solve: Drop height has to be defined if initial velocity is disabled." translation="Cannot solve: Drop height has to be defined if initial velocity is disabled." />
+	<label  commandName="SimDropTestNotDefinedGravityButVelocityIs" devLabel="Cannot solve: Initial velocity is defined, but missing gravity." translation="Cannot solve: Initial velocity is defined, but missing gravity." />
+	<label  commandName="SimDropTestNotDefinedGravityOrVelocity" devLabel="Cannot solve: Both gravity and initial velocity are disabled." translation="Cannot solve: Both gravity and initial velocity are disabled." />
+	<label  commandName="SimDropTestVelocityOutOfLimits" devLabel="Cannot solve: High-speed impacts are not supported." translation="Cannot solve: High-speed impacts are not supported." />
+	<label  commandName="SimDuplicateElementDeletion" devLabel="Warning: %1% and %2% have been applied on the same entity. In order to create a valid setup, delete the redundant Element Deletion Criteria." translation="Warning: %1% and %2% have been applied on the same entity. In order to create a valid setup, delete the redundant Element Deletion Criteria." />
+	<label  commandName="SimEffectivePlasticStrain" devLabel="Plastic Strain" translation="Plastic Strain" />
+	<label  commandName="SimEffectiveStrainElastic" devLabel="Effective Strain Elastic" translation="Effective Strain Elastic" />
+	<label  commandName="SimElemeentStatus" devLabel="NotForDisplay" translation="NotForDisplay" />
+	<label  commandName="SimElementStatus" devLabel="NotForDisplay" translation="NotForDisplay" />
+	<label  commandName="SimEquivalentStrain" devLabel="Equivalent" translation="Equivalent" />
+	<label  commandName="SimEventNoContactInAssembly" devLabel="Error: The model has neither contacts nor connectors defined between independent bodies." translation="Error: The model has neither contacts nor connectors defined between independent bodies." />
+	<label  commandName="SimEventSimTooLongDuration" devLabel="Warning: The Total Event Duration in this study setup may make the analysis take a long time to solve. If the runtime exceeds the 12 hour limit, it will be aborted. Consider decreasing the Total Event Duration." translation="Warning: The Total Event Duration in this study setup may make the analysis take a long time to solve. If the runtime exceeds the 12 hour limit, it will be aborted. Consider decreasing the Total Event Duration." />
+	<label  commandName="SimExplicitCurveDurationGreaterThanEventDurationWarning" devLabel="The time required for the '%1%' to ramp up to its full magnitude is longer than Event Duration. Only the portion of the '%2%' ramp-up that coincides with the Event Duration is considered in the solution. Consider increasing the Event Duration or decreasing the '%3%' time to avoid false positive results." translation="The time required for the '%1%' to ramp up to its full magnitude is longer than Event Duration. Only the portion of the '%2%' ramp-up that coincides with the Event Duration is considered in the solution. Consider increasing the Event Duration or decreasing the '%3%' time to avoid false positive results." />
+	<label  commandName="SimExplicitDomainPointsFmt" devLabel="Step %=I=%: %=V=% %=U=%" translation="Step %=I=%: %=V=% %=U=%" />
+	<label  commandName="SimExplicitMaterialHardeningRuleUnsupportedWarning" devLabel="Some components are using material properties unsupported by this study type. Please note material hardening type will be run as &quot;Isotropic&quot; for this solve." translation="Some components are using material properties unsupported by this study type. Please note material hardening type will be run as &quot;Isotropic&quot; for this solve." />
+	<label  commandName="SimExplicitMaterialYieldCriteriaUnsupportedWarning" devLabel="Some components are using material properties unsupported by this study type. Please note Yield Criteria will be run as &quot;von Mises&quot; for this solve." translation="Some components are using material properties unsupported by this study type. Please note Yield Criteria will be run as &quot;von Mises&quot; for this solve." />
+	<label  commandName="SimExplicitNoResultSelected" devLabel="Warning: All result outputs are unchecked. Only safety factor result will be provided." translation="Warning: All result outputs are unchecked. Only safety factor result will be provided." />
+	<label  commandName="SimFailedGenerativeMaterials" devLabel="One or more of the selected materials are invalid for a generative solution." translation="One or more of the selected materials are invalid for a generative solution." />
+	<label  commandName="SimFatigue" devLabel="Fatigue" translation="Fatigue" />
+	<label  commandName="SimFreqResponse" devLabel="Frequency Response" translation="Frequency Response" />
+	<label  commandName="SimFreqResponseDomainPointsFmt" devLabel="Mode %=I=%: %=V=% %=U=%" translation="Mode %=I=%: %=V=% %=U=%" />
+	<label  commandName="SimFrequency" devLabel="Frequency" translation="Frequency" />
+	<label  commandName="SimFullResponse" devLabel="Full response" translation="Full response" />
+	<label  commandName="SimGen2DCuttingPreCheckFaceOrientation2" devLabel="2-Axis Cutting doesn't support preserve bodies if one of the following occurs:&lt;br&gt; - External planar faces whose normals are not parallel or orthogonal to the cutting direction.&lt;br&gt; - External cylindrical faces whose axes are orthogonal to the cutting direction.&lt;br&gt;It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." translation="2-Axis Cutting doesn't support preserve bodies if one of the following occurs:&lt;br&gt; - External planar faces whose normals are not parallel or orthogonal to the cutting direction.&lt;br&gt; - External cylindrical faces whose axes are orthogonal to the cutting direction.&lt;br&gt;It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." />
+	<label  commandName="SimGen2DCuttingPreCheckFaceOrientation25" devLabel="2.5-Axis Milling doesn’t support preserve bodies if one of the following occurs:&lt;br&gt; - External planar faces whose normals are not parallel or orthogonal to the cutting direction.&lt;br&gt; - External cylindrical faces whose axes are orthogonal to the cutting direction.&lt;br&gt;It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." translation="2.5-Axis Milling doesn’t support preserve bodies if one of the following occurs:&lt;br&gt; - External planar faces whose normals are not parallel or orthogonal to the cutting direction.&lt;br&gt; - External cylindrical faces whose axes are orthogonal to the cutting direction.&lt;br&gt;It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." />
+	<label  commandName="SimGen2DCuttingPreCheckUnevenHeightWarning" devLabel="2-Axis Cutting doesn't support preserve bodies of different heights. It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." translation="2-Axis Cutting doesn't support preserve bodies of different heights. It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." />
+	<label  commandName="SimGen2Point5AxisMillingPreCheckUnevenHeightWarning" devLabel="2.5-Axis Milling doesn't support preserve bodies of different heights. It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." translation="2.5-Axis Milling doesn't support preserve bodies of different heights. It may affect the ability to create an editable 3D design from outcomes. Consider modifying 'Preserve Geometry'." />
+	<label  commandName="SimGen3And5AxisPreCheckWarning" devLabel="The Milling 'Head Diameter' is large comparing to the model size. Review the Milling settings, model size and units." translation="The Milling 'Head Diameter' is large comparing to the model size. Review the Milling settings, model size and units." />
+	<label  commandName="SimGenAdditiveWorkplaceBoundaryCheckWarning" devLabel="The study geometry may be too large to be 3D-printed." translation="The study geometry may be too large to be 3D-printed." />
+	<label  commandName="SimGenBucklingInertiaRelief" devLabel="Cannot generate: The combination of Buckling and Remove rigid body modes options within the same study is not supported. Consider using them in different studies." translation="Cannot generate: The combination of Buckling and Remove rigid body modes options within the same study is not supported. Consider using them in different studies." />
+	<label  commandName="SimGenDisjoinedStartingShape" devLabel="Error: Cannot solve: The starting shape body must be in contact with all preserve geometry bodies." translation="Error: Cannot solve: The starting shape body must be in contact with all preserve geometry bodies." />
+	<label  commandName="SimGenEmptyMaterialList" devLabel="Cannot generate: Specify at least one material for each method." translation="Cannot generate: Specify at least one material for each method." />
+	<label  commandName="SimGenExceededMaterialLimit" devLabel="Cannot generate: A maximum of 7 materials may be specified." translation="Cannot generate: A maximum of 7 materials may be specified." />
+	<label  commandName="SimGenFluidLessThanTwoPreserves" devLabel="Cannot generate: Please specify at least two geometries to preserve." translation="Cannot generate: Please specify at least two geometries to preserve." />
+	<label  commandName="SimGenFluidsMultipleLoadCase" devLabel="Cannot generate: The Generative Fluids solver doesn't support multiple load cases. Please make sure only a single load case is defined." translation="Cannot generate: The Generative Fluids solver doesn't support multiple load cases. Please make sure only a single load case is defined." />
+	<label  commandName="SimGenFluidsNoStartingShape" devLabel="Warning: A starting shape is not defined. Defining the starting shape is recommended." translation="Warning: A starting shape is not defined. Defining the starting shape is recommended." />
+	<label  commandName="SimGenInsufficientPreserves" devLabel="Only one preserve body is specified. If this is intended you can ignore this warning." translation="Only one preserve body is specified. If this is intended you can ignore this warning." />
+	<label  commandName="SimGenInvalidMaterial" devLabel="Cannot generate: &quot;%1%&quot; has invalid or missing properties." translation="Cannot generate: &quot;%1%&quot; has invalid or missing properties." />
+	<label  commandName="SimGenManufacturingMaterialsBrowserEntryName" devLabel="Materials" translation="Materials" />
+	<label  commandName="SimGenNoManufacturingMethod" devLabel="Cannot generate: Please specify at least one manufacturing method." translation="Cannot generate: Please specify at least one manufacturing method." />
+	<label  commandName="SimGenNoPreserves" devLabel="Cannot generate: Please specify at least one, preferably two geometries to preserve." translation="Cannot generate: Please specify at least one, preferably two geometries to preserve." />
+	<label  commandName="SimGenNoStartingShapes" devLabel="Warning: The Starting Shape body is missing in &quot;%1%&quot;." translation="Warning: The Starting Shape body is missing in &quot;%1%&quot;." />
+	<label  commandName="SimGenPrecheckDisabled" devLabel="SimBaseUI.DisableGenerativePrecheck is set to 1, all prechecks are off." translation="SimBaseUI.DisableGenerativePrecheck is set to 1, all prechecks are off." />
+	<label  commandName="SimGenSomeLostObstacles" devLabel="Warning: An Obstacle body is missing in &quot;%1%&quot;." translation="Warning: An Obstacle body is missing in &quot;%1%&quot;." />
+	<label  commandName="SimGenSomeLostPreserves" devLabel="Warning: A Preserve body is missing in &quot;%1%&quot;." translation="Warning: A Preserve body is missing in &quot;%1%&quot;." />
+	<label  commandName="SimGenSomeLostSymmetryPlanes" devLabel="Warning: A Symmetry Plane is missing in &quot;%1%&quot;." translation="Warning: A Symmetry Plane is missing in &quot;%1%&quot;." />
+	<label  commandName="SimGenerative" devLabel="Structural Component" translation="Structural Component" />
+	<label  commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additive" />
+	<label  commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="All methods" />
+	<label  commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2-axis Cutting" />
+	<label  commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Casting" />
+	<label  commandName="SimGenerativeFluids" devLabel="Fluid Path" translation="Fluid Path" />
+	<label  commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Milling" />
+	<label  commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Unrestricted" />
+	<label  commandName="SimHiddenBodiesOrComponentsWarningGen" devLabel="Warning: Some bodies or components are hidden. If they are assigned obstacle, preserve, or starting shape geometry, they still participate in the outcome generation. To exclude bodies from the generation, remove them in the Edit Model workspace or don't assign a geometry type to them." translation="Warning: Some bodies or components are hidden. If they are assigned obstacle, preserve, or starting shape geometry, they still participate in the outcome generation. To exclude bodies from the generation, remove them in the Edit Model workspace or don't assign a geometry type to them." />
+	<label  commandName="SimHiddenSettingsWarningGen" devLabel="Warning: Visibility is turned off for some Loads or Constraints. Hidden Loads and Constraints will still participate in the outcome generation. To exclude them from the generation, use the &quot;Toggle Suppress&quot; command in the browser." translation="Warning: Visibility is turned off for some Loads or Constraints. Hidden Loads and Constraints will still participate in the outcome generation. To exclude them from the generation, use the &quot;Toggle Suppress&quot; command in the browser." />
+	<label  commandName="SimHiddenSettingsWarningGenFluid" devLabel="Warning: Visibility is turned off for some Fluid Conditions. Hidden Flow Sources will still participate in the outcome generation. To exclude them from the generation, use the &quot;Toggle Suppress&quot; command in the browser." translation="Warning: Visibility is turned off for some Fluid Conditions. Hidden Flow Sources will still participate in the outcome generation. To exclude them from the generation, use the &quot;Toggle Suppress&quot; command in the browser." />
+	<label  commandName="SimHiddenSymmetryPlanesWarningGen" devLabel="Warning: Some construction planes are hidden. If they are defined as symmetry planes, they are still included in the outcome generation.&#xA;To show hidden planes, under the Construction node in the browser, click the Visible icon.&#xA;To exclude hidden planes from the outcome generation, use the Symmetry plane dialog to deselect them." translation="Warning: Some construction planes are hidden. If they are defined as symmetry planes, they are still included in the outcome generation.&#xA;To show hidden planes, under the Construction node in the browser, click the Visible icon.&#xA;To exclude hidden planes from the outcome generation, use the Symmetry plane dialog to deselect them." />
+	<label  commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="U.S. (in)" />
+	<label  commandName="SimInvalidLocalDisplacementLocation" devLabel="Warning: Some local displacement locations are invalid.&#xA;&#xA;It looks like some local displacements are assigned to the deleted bodies.To use them in your study, select another location that belongs to the preserve geometry in the Objectives and Limits dialog." translation="Warning: Some local displacement locations are invalid.&#xA;&#xA;It looks like some local displacements are assigned to the deleted bodies.To use them in your study, select another location that belongs to the preserve geometry in the Objectives and Limits dialog." />
+	<label  commandName="SimInvalidSymmetryPlanesWarningGen" devLabel="Warning: Some planes do not meet the symmetrical setup requirements. Click this message for more information." translation="Warning: Some planes do not meet the symmetrical setup requirements. Click this message for more information." />
+	<label  commandName="SimLSS" devLabel="Static Stress" translation="Static Stress" />
+	<label  commandName="SimLoadMultiplier" devLabel="Load Multiplier" translation="Load Multiplier" />
+	<label  commandName="SimLoadsWhenPreloadedModesAreOff" devLabel="Loads are not considered for the analysis. To include them, check Compute Preloaded Modes in the Settings dialog." translation="Loads are not considered for the analysis. To include them, check Compute Preloaded Modes in the Settings dialog." />
+	<label  commandName="SimMeshRefinementMultipleLoadCaseWarning" devLabel="Mesh refinement is not allowed for a study with multiple active load cases. Suppress the additional load cases, then change the study settings to remove mesh refinements." translation="Mesh refinement is not allowed for a study with multiple active load cases. Suppress the additional load cases, then change the study settings to remove mesh refinements." />
+	<label  commandName="SimModal" devLabel="Modal" translation="Modal" />
+	<label  commandName="SimModalDisplacement" devLabel="Displacement" translation="Displacement" />
+	<label  commandName="SimModalDisplacementTotal" devLabel="Total Modal Displacement" translation="Total Modal Displacement" />
+	<label  commandName="SimModalDisplacementX" devLabel="Modal Displacement X" translation="Modal Displacement X" />
+	<label  commandName="SimModalDisplacementY" devLabel="Modal Displacement Y" translation="Modal Displacement Y" />
+	<label  commandName="SimModalDisplacementZ" devLabel="Modal Displacement Z" translation="Modal Displacement Z" />
+	<label  commandName="SimModalDomainPointsFmtMode" devLabel="Mode %=I=%: %=V=% %=U=%" translation="Mode %=I=%: %=V=% %=U=%" />
+	<label  commandName="SimModalFrequencies" devLabel="Modal Frequencies" translation="Modal Frequencies" />
+	<label  commandName="SimModalRotationX" devLabel="Modal Rotation X" translation="Modal Rotation X" />
+	<label  commandName="SimModalRotationY" devLabel="Modal Rotation Y" translation="Modal Rotation Y" />
+	<label  commandName="SimModalRotationZ" devLabel="Modal Rotation Z" translation="Modal Rotation Z" />
+	<label  commandName="SimNLSSDomainPointsFmt" devLabel="Step %=I=%: %=V=% %=U=%" translation="Step %=I=%: %=V=% %=U=%" />
+	<label  commandName="SimNoStructuralLoadInModal" devLabel="Cannot solve: Since the option Compute Preloaded Modes is on, there are missing structural loads and/or constraints%1%." translation="Cannot solve: Since the option Compute Preloaded Modes is on, there are missing structural loads and/or constraints%1%." />
+	<label  commandName="SimNodetStatus" devLabel="NotForDisplay" translation="NotForDisplay" />
+	<label  commandName="SimNonlinearExplicit" devLabel="Event Simulation" translation="Event Simulation" />
+	<label  commandName="SimNonlinearExplicitDynamic" devLabel="Dynamic Event Simulation" translation="Dynamic Event Simulation" />
+	<label  commandName="SimNonlinearExplicitQuasiStatic" devLabel="Quasi-static Event Simulation" translation="Quasi-static Event Simulation" />
+	<label  commandName="SimNonlinearStaticStress" devLabel="Nonlinear Static Stress" translation="Nonlinear Static Stress" />
+	<label  commandName="SimObstacleInterferesPreserveErrorGen" devLabel="Cannot generate: Some preserve geometries are interfering with the obstacle geometries. Click this message for more information." translation="Cannot generate: Some preserve geometries are interfering with the obstacle geometries. Click this message for more information." />
+	<label  commandName="SimObstacleInterferesPreserveErrorStatus" devLabel="Some pre-checks have identified potential issues:&#xA;Large, complex models can cause problems with generating outcomes. Please check your model or simplify it if possible." translation="Some pre-checks have identified potential issues:&#10;Large, complex models can cause problems with generating outcomes. Please check your model or simplify it if possible." />
+	<label  commandName="SimPerpendicularSymmetryPlanesWarningGen" devLabel="Warning: Some planes do not meet the symmetrical setup requirements. Click this message for more information." translation="Warning: Some planes do not meet the symmetrical setup requirements. Click this message for more information." />
+	<label  commandName="SimPlasticStrain" devLabel="Plastic Strain" translation="Plastic Strain" />
+	<label  commandName="SimRTSSDomainPointsFmt" devLabel="Time %=I=%: %=V=% %=U=%" translation="Time %=I=%: %=V=% %=U=%" />
+	<label  commandName="SimReactionForce" devLabel="Reaction force" translation="Reaction force" />
+	<label  commandName="SimReactionForceTotal" devLabel="Total" translation="Total" />
+	<label  commandName="SimReactionForceX" devLabel="X" translation="X" />
+	<label  commandName="SimReactionForceY" devLabel="Y" translation="Y" />
+	<label  commandName="SimReactionForceZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimRelativeResponse" devLabel="Relative response" translation="Relative response" />
+	<label  commandName="SimRotation" devLabel="Rotation" translation="Rotation" />
+	<label  commandName="SimRotationX" devLabel="X" translation="X" />
+	<label  commandName="SimRotationXRotation" devLabel="Rotation X" translation="Rotation X" />
+	<label  commandName="SimRotationY" devLabel="Y" translation="Y" />
+	<label  commandName="SimRotationYRotation" devLabel="Rotation Y" translation="Rotation Y" />
+	<label  commandName="SimRotationZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimRotationZRotation" devLabel="Rotation Z" translation="Rotation Z" />
+	<label  commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Custom" />
+	<label  commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metric (SI)" />
+	<label  commandName="SimSafetyFactor" devLabel="Safety Factor" translation="Safety Factor" />
+	<label  commandName="SimSafetyFactorPerBodySetting" devLabel="Safety Factor (Per Body)" translation="Safety Factor (Per Body)" />
+	<label  commandName="SimSelectionReference" devLabel="Selection Reference " translation="Selection Reference " />
+	<label  commandName="SimStrain" devLabel="Strain" translation="Strain" />
+	<label  commandName="SimStrainXX" devLabel="Normal XX" translation="Normal XX" />
+	<label  commandName="SimStrainXY" devLabel="Shear XY" translation="Shear XY" />
+	<label  commandName="SimStrainXZ" devLabel="Shear ZX" translation="Shear ZX" />
+	<label  commandName="SimStrainYY" devLabel="Normal YY" translation="Normal YY" />
+	<label  commandName="SimStrainYZ" devLabel="Shear YZ" translation="Shear YZ" />
+	<label  commandName="SimStrainZZ" devLabel="Normal ZZ" translation="Normal ZZ" />
+	<label  commandName="SimStress" devLabel="Stress" translation="Stress" />
+	<label  commandName="SimStressXX" devLabel="Normal XX" translation="Normal XX" />
+	<label  commandName="SimStressXY" devLabel="Shear XY" translation="Shear XY" />
+	<label  commandName="SimStressXZ" devLabel="Shear ZX" translation="Shear ZX" />
+	<label  commandName="SimStressYY" devLabel="Normal YY" translation="Normal YY" />
+	<label  commandName="SimStressYZ" devLabel="Shear YZ" translation="Shear YZ" />
+	<label  commandName="SimStressZZ" devLabel="Normal ZZ" translation="Normal ZZ" />
+	<label  commandName="SimStructuralBuckling" devLabel="Structural Buckling" translation="Structural Buckling" />
+	<label  commandName="SimSumAcceleration" devLabel="Total" translation="Total" />
+	<label  commandName="SimSumBucklingRotation" devLabel="Total Rotation" translation="Total Rotation" />
+	<label  commandName="SimSumConstraintReactionForce" devLabel="Total" translation="Total" />
+	<label  commandName="SimSumConstraintReactionMoment" devLabel="Total" translation="Total" />
+	<label  commandName="SimSumDisplacement" devLabel="Total" translation="Total" />
+	<label  commandName="SimSumModalRotation" devLabel="Total Modal Rotation" translation="Total Modal Rotation" />
+	<label  commandName="SimSumRotation" devLabel="Total" translation="Total" />
+	<label  commandName="SimSumRotationTotalRotation" devLabel="Total Rotation" translation="Total Rotation" />
+	<label  commandName="SimSumVelocity" devLabel="Total" translation="Total" />
+	<label  commandName="SimTargetResult" devLabel=" (target)" translation=" (target)" />
+	<label  commandName="SimTime" devLabel="Time" translation="Time" />
+	<label  commandName="SimTopologyOptimization" devLabel="Shape Optimization" translation="Shape Optimization" />
+	<label  commandName="SimTopologyOptimizationDensity" devLabel="Load Path Criticality" translation="Load Path Criticality" />
+	<label  commandName="SimTotalDisplacement" devLabel="Displacement, Total" translation="Displacement, Total" />
+	<label  commandName="SimTransStructDomainPointsFmt" devLabel="Time %=I=%: %=V=% %=U=%" translation="Time %=I=%: %=V=% %=U=%" />
+	<label  commandName="SimTransientStructural" devLabel="Transient Structural" translation="Transient Structural" />
+	<label  commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentage" />
+	<label  commandName="SimUnitPieces" devLabel="Pieces" translation="Pieces" />
+	<label  commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Acceleration" />
+	<label  commandName="SimUnitsAngle" devLabel="Angle" translation="Angle" />
+	<label  commandName="SimUnitsCurrent" devLabel="Current" translation="Current" />
+	<label  commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Electrical Resistance" />
+	<label  commandName="SimUnitsEnergy" devLabel="Energy" translation="Energy" />
+	<label  commandName="SimUnitsForce" devLabel="Force" translation="Force" />
+	<label  commandName="SimUnitsLength" devLabel="Length" translation="Length" />
+	<label  commandName="SimUnitsMass" devLabel="Mass" translation="Mass" />
+	<label  commandName="SimUnitsPower" devLabel="Power" translation="Power" />
+	<label  commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressure" />
+	<label  commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperature" />
+	<label  commandName="SimUnitsTime" devLabel="Time" translation="Time" />
+	<label  commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocity" />
+	<label  commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosity" />
+	<label  commandName="SimUnitsVoltage" devLabel="Voltage" translation="Voltage" />
+	<label  commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Flow Rate" />
+	<label  commandName="SimVelocity" devLabel="Velocity" translation="Velocity" />
+	<label  commandName="SimVelocityTotal" devLabel="Total" translation="Total" />
+	<label  commandName="SimVelocityX" devLabel="X" translation="X" />
+	<label  commandName="SimVelocityY" devLabel="Y" translation="Y" />
+	<label  commandName="SimVelocityZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimVonMisesStress" devLabel="von Mises" translation="von Mises" />
+	<label  commandName="StudyManufacturingMethodsAdditive" devLabel="Additive" translation="Additive" />
+	<label  commandName="StudyManufacturingMethodsCutting" devLabel="2-axis Cutting" translation="2-axis Cutting" />
+	<label  commandName="StudyManufacturingMethodsDieCasting" devLabel="Casting" translation="Casting" />
+	<label  commandName="StudyManufacturingMethodsMilling" devLabel="Milling" translation="Milling" />
+	<label  commandName="StudyManufacturingMethodsUnrestricted" devLabel="Unrestricted" translation="Unrestricted" />
 </Resource>

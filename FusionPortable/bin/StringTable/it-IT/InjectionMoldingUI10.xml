@@ -1,325 +1,325 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="AddInjectionPointRow" devLabel="Add" translation="Aggiungi"/>
-	<label commandName="AddInjectionPointRowTooltip" devLabel="Add injection point" translation="Aggiungi punto di iniezione"/>
-	<label commandName="AnimationSyncDesc1" devLabel="Synchronizes the animation controls so that all animated results move to the next frame, stop, pause, and loop at the same time." translation="Sincronizza i controlli di animazione in modo che tutti i risultati animati si spostino al fotogramma successivo, si arrestino, vengano sospesi o vengano riprodotti in sequenza contemporaneamente."/>
-	<label commandName="AnimationSyncDesc2" devLabel="This command activates automatically if the active result is an animated result when you enter Compare. Deactivate the command to control animations independently." translation="Questo comando viene attivato automaticamente se il risultato attivo è un risultato animato quando si accede a Confronta. Disattivare il comando per controllare le animazioni in modo indipendente."/>
-	<label commandName="BoundaryConditionsPanel" devLabel="Boundary Conditions" translation="Condizioni al contorno"/>
-	<label commandName="CameraSyncDesc1" devLabel="Synchronizes the movement and orientation of the models in all windows, based on the active window, so you can move, rotate, zoom in or out, and pan all models in the same way and at the same time." translation="Sincronizza il movimento e l'orientamento dei modelli in tutte le finestre, in base alla finestra attiva, in modo da poter spostare, ruotare, ingrandire o ridurre ed eseguire la panoramica di tutti i modelli nello stesso modo e contemporaneamente."/>
-	<label commandName="CameraSyncDesc2" devLabel="Click Synchronize Cameras to deactivate it, when you want to manipulate the models independently." translation="Fare clic su Sincronizza inquadrature per disattivarla quando si desidera manipolare i modelli in modo indipendente."/>
-	<label commandName="ExportMfAdviser" devLabel="Open in Moldflow Adviser" translation="Apri in Moldflow Adviser"/>
-	<label commandName="ExportMfInsight" devLabel="Open in Moldflow Insight" translation="Apri in Moldflow Insight"/>
-	<label commandName="ExportMfSdyType" devLabel="Autodesk Moldflow Files (*.sdy)" translation="File di Autodesk Moldflow (*.sdy)"/>
-	<label commandName="ExportPanel" devLabel="Export" translation="Esporta"/>
-	<label commandName="ExportToMfSdyCmd_NoData" devLabel="Data is missing to be able to export." translation="Dati mancanti per poter esportare."/>
-	<label commandName="ExportToMfSdyCmd_NoJob" devLabel="Unable to create an export job." translation="Impossibile creare un processo di esportazione."/>
-	<label commandName="FusionProperties" devLabel="Properties" translation="Proprietà"/>
-	<label commandName="GenerateMfStdy" devLabel="Generate Moldflow Study File" translation="Genera file di studio Moldflow"/>
-	<label commandName="IMChangeStudyTypeWarning" devLabel="&#xA;- All Injection Molding Process Settings will be removed&#xA;- All boundary conditions and the material selection will be removed" translation="&#xA;- Tutte le impostazioni del processo di stampaggio ad iniezione verranno rimosse.&#xA; - Tutte le condizioni boundary e la selezione del materiale verranno rimosse"/>
-	<label commandName="IMMeshSettingsGroupBox " devLabel="Mesh settings" translation="Impostazioni mesh"/>
-	<label commandName="IMMeshSettingsNoOfLayersLabel" devLabel="Layers through the thickness: " translation="Layer attraverso lo spessore: "/>
-	<label commandName="IMMeshSettingsSliderTooltipCoarse" devLabel="Coarse" translation="Grossolana"/>
-	<label commandName="IMMeshSettingsSliderTooltipFine" devLabel="Fine" translation="Fine"/>
-	<label commandName="IMMeshSettingsSliderTooltipMedium" devLabel="Medium" translation="Media"/>
-	<label commandName="IMMeshSettingsSliderTooltipVeryFine" devLabel="Very Fine" translation="Molto dettagliata"/>
-	<label commandName="IMMeshSettingsSurfaceMeshLabel" devLabel="Surface mesh size: " translation="Dimensione di mesh di superficie: "/>
-	<label commandName="IMSettingDlgDefaultSettingsValues" devLabel="Mesh Number Of Layers Through Thickness is %1%" translation="Il numero di strati attraverso lo spessore è %1%"/>
-	<label commandName="ImHiddenSettingsWarningDialogMessage" devLabel="Injection points that are hidden in the browser are still included in the Simulation solve. To exclude them from the solve, uncheck &lt;b&gt;Toggle Suppress&lt;/b&gt; in the browser instead." translation="I punti di iniezione nascosti nel browser sono comunque inclusi nella risoluzione di simulazione. Per escluderli dalla risoluzione, deselezionare &lt;b&gt;Attiva/disattiva Sopprimi&lt;/b&gt; nel browser."/>
-	<label commandName="ImHiddenSettingsWarningDialogTitle" devLabel="Hidden study settings" translation="Impostazioni studio nascoste"/>
-	<label commandName="InjectionBodyCmdDef" devLabel="Target Body" translation="Corpo di destinazione"/>
-	<label commandName="InjectionBodyCommand1" devLabel="Identifies the body you want to fill in the injection molding simulation." translation="Identifica il corpo da riempire nella simulazione dello stampaggio ad iniezione."/>
-	<label commandName="InjectionBodySelectBodyPrompt" devLabel="Select a body for injection molding." translation="Selezionare un corpo per lo stampaggio ad iniezione."/>
-	<label commandName="InjectionBodySelectionLabel" devLabel="Target Body" translation="Corpo di destinazione"/>
-	<label commandName="InjectionMoldingCreateSelectionGroupCmd" devLabel="Create Selection Set" translation="Crea gruppo di selezione"/>
-	<label commandName="InjectionMoldingManagePanel" devLabel="Manage" translation="Gestisci"/>
-	<label commandName="InjectionMoldingNoTargetBodyFoundForCommand" devLabel="&lt;b&gt;No Target Body Found&lt;/b&gt;&lt;br&gt;&lt;br&gt;%1% can only be used after a target body is selected.&lt;br&gt;" translation="&lt;b&gt;Nessun corpo di destinazione trovato&lt;/b&gt;&lt;br&gt;&lt;br&gt;%1% può essere utilizzato solo dopo la selezione di un corpo di destinazione.&lt;br&gt;"/>
-	<label commandName="InjectionMoldingPreSolveCheckCmd" devLabel="Pre-check" translation="Verifica preliminare"/>
-	<label commandName="InjectionMoldingSimulation" devLabel="Injection Molding Simulation" translation="Simulaz. stampaggio ad iniezione"/>
-	<label commandName="InjectionMoldingSolveCmd" devLabel="Solve" translation="Risolvi"/>
-	<label commandName="InjectionMoldingSolvePanel" devLabel="Solve" translation="Risolvi"/>
-	<label commandName="InjectionMoldingViewResultsCmd" devLabel="View Results" translation="Visualizza risultati"/>
-	<label commandName="InjectionPointCmdDef" devLabel="Injection Locations" translation="Posizioni di iniezione"/>
-	<label commandName="InjectionPointCmdMissingExecutionCase" devLabel="Unable to execute that command on the injection point." translation="Impossibile eseguire il comando sul punto di iniezione."/>
-	<label commandName="InjectionPointCmdMissingFace" devLabel="An injection location cannot be placed or moved without a selected face." translation="Impossibile posizionare o spostare una posizione di iniezione senza una faccia selezionata."/>
-	<label commandName="InjectionPointCommand1" devLabel="Defines the locations where the polymer is injected into the part." translation="Definisce le posizioni in cui il polimero viene iniettato nella parte."/>
-	<label commandName="InjectionPointCommand2" devLabel="Select the optimal injection locations to fill the extreme parts of the mold at the same time and under the same pressure. Avoid faces with a high aesthetic requirement. " translation="Selezionare le posizioni di iniezione ottimali per riempire contemporaneamente le parti estreme dello stampo con la stessa pressione. Evitare facce con un requisito estetico elevato. "/>
-	<label commandName="InjectionPointCursorHint" devLabel="Place an Injection Location on the body." translation="Collocare una posizione di iniezione sul corpo."/>
-	<label commandName="InjectionPointDragPointLabel" devLabel="Location on face" translation="Posizione sulla faccia"/>
-	<label commandName="InjectionPointEditCmdDef" devLabel="Edit Injection Location" translation="Modifica posizione di iniezione"/>
-	<label commandName="InjectionPointEditCommand1" devLabel="Edit existing injection locations where plastic material will be injected into the mold." translation="Modificare le posizioni di iniezione esistenti in cui il materiale plastico verrà iniettato nello stampo."/>
-	<label commandName="InjectionPointFaceSelectionLabel" devLabel="Face" translation="Faccia"/>
-	<label commandName="InjectionPointMovePointPrompt" devLabel="Move the injection location on the face" translation="Spostare la posizione di iniezione sulla faccia"/>
-	<label commandName="InjectionPointSelectAFacePrompt" devLabel="Select a face on which to place an injection location" translation="Selezionare una faccia su cui collocare una posizione di iniezione"/>
-	<label commandName="InjectionPointTable" devLabel="Injection points" translation="Punti di iniezione"/>
-	<label commandName="InjectionPointTableRowDataNoData" devLabel="Lost injection point!" translation="Punto di iniezione perso."/>
-	<label commandName="InjectionPointTableRowEnabled" devLabel="" translation=""/>
-	<label commandName="InjectionPointTableRowEnabledTooltip" devLabel="Toggle injection point suppression" translation="Attiva/disattiva soppressione punto di iniezione"/>
-	<label commandName="InjectionPointTableRowLabel" devLabel="Name" translation="Nome"/>
-	<label commandName="InjectionPointTableRowVisible" devLabel="Visible" translation="Visibile"/>
-	<label commandName="InjectionPointTableRowVisibleTooltip" devLabel="Toggle injection point visibility" translation="Attiva/disattiva visibilità punto di iniezione"/>
-	<label commandName="LegendSyncDesc1" devLabel="Synchronizes the legend range for all results of the same type, so you can compare the results more effectively." translation="Sincronizza l'intervallo della legenda per tutti i risultati dello stesso tipo, in modo da poter confrontare i risultati in modo più efficace."/>
-	<label commandName="LegendSyncDesc2" devLabel="On by default, this command also changes the result settings and legend behavior in all non-active windows to match the behavior in the active window. Deactivate to manipulate the legends independently." translation="Per default, questo comando modifica anche le impostazioni dei risultati e il funzionamento della legenda in tutte le finestre non attive in modo che corrispondano al funzionamento nella finestra attiva. Disattivarlo per manipolare le legende in modo indipendente."/>
-	<label commandName="MaterialDefaultError" devLabel="Your default material was not able to load. Generic material has been applied by default." translation="Impossibile caricare il materiale di default. Per default è stato applicato il materiale generico."/>
-	<label commandName="MaterialDefaultErrorTitle" devLabel="Failed to load default material" translation="Impossibile caricare il materiale di default"/>
-	<label commandName="MaterialDesc1" devLabel="Lists properties for each material in the Fusion libraries, that control the material's thermal, mechanical, and elastic behavior, as well as its appearance." translation="Elenca le proprietà per ogni materiale nelle librerie di Fusion, che controllano il funzionamento termico, meccanico ed elastico del materiale, nonché il relativo aspetto."/>
-	<label commandName="MaterialDesc2" devLabel="Use the Material Browser to identify favorites, modify properties, create new materials, and manage personal libraries." translation="Utilizzare il Browser dei materiali per identificare i preferiti, modificare le proprietà, creare nuovi materiali e gestire le librerie personali."/>
-	<label commandName="MaterialLibraryTitle" devLabel="Study Materials" translation="Materiali di studio"/>
-	<label commandName="MaterialProcessSettingOverride" devLabel="The new material may alter Mold Temperature and Melt Temperature found in Process Settings. Do you want to maintain the current values?" translation="Il nuovo materiale può alterare la temperatura dello stampo e la temperatura di fusione trovate in Impostazioni di processo. Mantenere i valori correnti?"/>
-	<label commandName="MaterialSelectAgain" devLabel="Select Again" translation="Seleziona ancora"/>
-	<label commandName="MaterialSelectMaterial" devLabel="Select Material" translation="Seleziona materiale"/>
-	<label commandName="MaterialUpdateError" devLabel="Your selected material failed to load, so we've kept your previous selection." translation="Impossibile caricare il materiale selezionato, pertanto è stata mantenuta la selezione precedente."/>
-	<label commandName="MaterialUpdateErrorTitle" devLabel="Failed to load new material" translation="Impossibile caricare il nuovo materiale"/>
-	<label commandName="MaterialsPanelIM" devLabel="Materials" translation="Materiali"/>
-	<label commandName="MoldflowAdviser" devLabel="Moldflow Adviser" translation="Moldflow Adviser"/>
-	<label commandName="MoldflowInsight" devLabel="Moldflow Insight" translation="Moldflow Insight"/>
-	<label commandName="MoldingProcessCmd" devLabel="Molding Process" translation="Processo di stampaggio"/>
-	<label commandName="MoldingProcessDesc1" devLabel="Shows a log of the study data in two formats, an Overview format and a Table format." translation="Visualizza un registro dei dati dello studio in due formati: un formato Panoramica e un formato Tabella."/>
-	<label commandName="MoldingProcessDesc2" devLabel="Animate the Overview to see how the data changes with time. This view provides the data in the context of the injection molding process. Select the Table format to view all the data points from the start to the end of the simulation." translation="Animare la Panoramica per vedere in che modo i dati cambiano nel tempo. Questa vista fornisce i dati nel contesto del processo di stampaggio ad iniezione. Selezionare il formato Tabella per visualizzare tutti i punti dati dall'inizio alla fine della simulazione."/>
-	<label commandName="OpenMoldflowAdviserNotInstalled" devLabel="Moldflow Adviser is not installed on your computer. Would you like to learn more about Moldflow Adviser features and how to download the free trial?" translation="Moldflow Adviser non è installato sul computer. Si desiderano ulteriori informazioni sulle funzionalità di Moldflow Adviser e su come scaricare la versione di prova gratuita?"/>
-	<label commandName="OpenMoldflowAdviserWarning" devLabel="The file that opens in Moldflow Adviser contains the stl surface mesh and all injection locations. Make sure you recreate your study setup in Moldflow Adviser." translation="Il file aperto in Moldflow Adviser contiene la mesh di superficie stl e tutte le posizioni di iniezione. Assicurarsi di ricreare il setup dello studio in Moldflow Adviser."/>
-	<label commandName="OpenMoldflowInsightNotInstalled" devLabel="Moldflow Insight is not installed on your computer. Would you like to learn more about Moldflow Insight features and how to purchase it?" translation="Moldflow Insight non è installato sul computer. Si desiderano ulteriori informazioni sulle funzionalità di Moldflow Insight e su come acquistarlo?"/>
-	<label commandName="OpenMoldflowUnsupported" devLabel="The %1% version you have installed on your computer is no longer supported.&#xA;Would you like to learn more about %1% pricing and how to purchase it?" translation="La versione di %1% installata sul computer non è più supportata.&#xA;Si desiderano ulteriori informazioni sui prezzi di %1% e su come acquistarlo?"/>
-	<label commandName="OpenMoldflowWindows" devLabel="%1% is only supported on Microsoft Windows. Would you like to learn more about %1% features on Microsoft Windows?" translation="%1% è supportato solo in Microsoft Windows. Si desiderano ulteriori informazioni sulle funzionalità di %1% in Microsoft Windows?"/>
-	<label commandName="ProcessSettingsCmd" devLabel="Process Settings" translation="Impostazioni di processo"/>
-	<label commandName="ProcessSettingsDesc1" devLabel="Sets an Injection Time and other process settings, such as a Melt temperature and Mold Surface Temperature." translation="Imposta un tempo di iniezione e altre impostazioni di elaborazione, ad esempio una temperatura di fusione e una temperatura di superficie dello stampo."/>
-	<label commandName="ProcessSettingsDesc2" devLabel="Use the default settings which come from the material database or are calculated by the solver, or modify them if you prefer. If you modify them, stay within the values recommended by the material manufacturer." translation="Utilizzare le impostazioni di default del database dei materiali o calcolate dal risolutore oppure modificarle se lo si desidera. Se si modificano le impostazioni, mantenere i valori consigliati dal produttore del materiale."/>
-	<label commandName="ProcessSettingsFillingControlGroup" devLabel="Filling Control" translation="Controllo riempimento"/>
-	<label commandName="ProcessSettingsFillingControlTypeAutomaticInjectionTime" devLabel="Automatic Injection Time" translation="Tempo di iniezione automatico"/>
-	<label commandName="ProcessSettingsFillingControlTypeCommandInput" devLabel="Filling Control" translation="Controllo riempimento"/>
-	<label commandName="ProcessSettingsFillingControlTypeRelativeRamSpeedProfile" devLabel="Relative Ram Speed Profile" translation="Profilo velocità pistone relativa"/>
-	<label commandName="ProcessSettingsFillingControlTypeSpecifiedInjectionTime" devLabel="Specified Injection Time" translation="Tempo di iniezione specificato"/>
-	<label commandName="ProcessSettingsFillingPressureVersusTimeCurveCommandInput" devLabel="% Filling Pressure vs. Time" translation="% pressione riempimento/tempo"/>
-	<label commandName="ProcessSettingsFlowRateVersusShotVolumeCurveCommandInput" devLabel="% Flow Rate vs. % Shot Volume" translation="% portata/% volume iniettabile"/>
-	<label commandName="ProcessSettingsGroup" devLabel="Process Settings" translation="Impostazioni di processo"/>
-	<label commandName="ProcessSettingsInjectionTimeTypeAutomatic" devLabel="Automatic" translation="Automatico"/>
-	<label commandName="ProcessSettingsInjectionTimeTypeCommandInput" devLabel="Injection Time" translation="Tempo di iniezione"/>
-	<label commandName="ProcessSettingsInjectionTimeTypeSpecified" devLabel="Specified" translation="Specificato"/>
-	<label commandName="ProcessSettingsInjectionTimeTypeTooltip" devLabel="Specifies the time to completely fill the mold cavity with material." translation="Specifica il tempo necessario per riempire completamente la matrice dello stampo con il materiale."/>
-	<label commandName="ProcessSettingsInjectionTimeTypeTooltipDesc" devLabel="As the injection time increases, the injection pressure and plastic temperature decrease.&lt;br&gt;&lt;br&gt;Automatic - Lets the solver calculate the time that gives the lowest injection pressure for the part.&lt;br&gt;Specified - Enables you to define your time value." translation="Con l'aumentare del tempo di iniezione, la pressione di iniezione e la temperatura della plastica diminuiscono.&lt;br&gt;&lt;br&gt;Automatico: consente al risolutore di calcolare il tempo che fornisce la pressione di iniezione più bassa per la parte.&lt;br&gt;Specificato: consente di definire il valore del tempo."/>
-	<label commandName="ProcessSettingsMaterialShrinkageFactorCommandInput" devLabel="Shrinkage Allowance (%)" translation="Tolleranza restringimento (%)"/>
-	<label commandName="ProcessSettingsMaterialShrinkageFactorTooltip" devLabel="Makes the mold cavity size larger than the part design size to compensate for the expected material shrinkage." translation="Consente di aumentare le dimensioni della matrice dello stampo rispetto alle dimensioni della progettazione della parte per compensare il restringimento del materiale previsto."/>
-	<label commandName="ProcessSettingsMaterialShrinkageFactorTooltipDesc" devLabel="Use the shrinkage factor from the material database or set your allowance." translation="Utilizzare il fattore di restringimento dal database dei materiali o impostare la tolleranza."/>
-	<label commandName="ProcessSettingsMaterialShrinkageFactorTypeCommandInput" devLabel="Compensate for Shrinkage" translation="Compensa restringimento"/>
-	<label commandName="ProcessSettingsMaterialSpecificSettingsGroup" devLabel="Material Specific Settings" translation="Impostazioni specifiche del materiale"/>
-	<label commandName="ProcessSettingsMeltTemperatureCommandInput" devLabel="Melt Temperature" translation="Temperatura di fusione"/>
-	<label commandName="ProcessSettingsMeltTemperatureTooltip" devLabel="The actual temperature of the melted plastic as it exits the nozzle and enters the mold." translation="La temperatura effettiva della plastica fusa quando esce dall'ugello ed entra nello stampo."/>
-	<label commandName="ProcessSettingsMeltTemperatureTooltipDesc" devLabel="The temperature should be set around the middle of the range. At higher melt temperatures, less pressure may be needed to fill the part, but the cycle time may be longer, the quality may be poorer, and the energy costs will be higher" translation="La temperatura deve essere impostata circa a metà dell'intervallo. Temperature di fusione più elevate potrebbero richiedere una minore pressione per riempire la parte, ma il tempo di ciclo potrebbe essere più lungo, la qualità potrebbe essere più bassa e i costi dell'energia saranno maggiori."/>
-	<label commandName="ProcessSettingsMoldTemperatureCommandInput" devLabel="Mold Surface Temperature" translation="Temperatura superficie stampo"/>
-	<label commandName="ProcessSettingsMoldTemperatureTooltip" devLabel="The actual temperature of the mold at the mold/part interface, which impacts cycle time and part quality." translation="La temperatura effettiva dello stampo nell'interfaccia dello stampo/del pezzo, che influisce sul tempo del ciclo e sulla qualità della parte."/>
-	<label commandName="ProcessSettingsMoldTemperatureTooltipDesc" devLabel="The temperature should be set around the middle of the range. Higher temperatures can improve surface finish, but increase the cycle time. Keep the mold temperature below the polymer's solidification temperature. Otherwise, the polymer will not become solid in the mold." translation="La temperatura deve essere impostata circa a metà dell'intervallo. Temperature più elevate possono migliorare la finitura della superficie, ma a fronte di un aumento del tempo del ciclo. Mantenere la temperatura dello stampaggio al di sotto della temperatura di solidificazione del polimero. In caso contrario, il polimero non diventerà solido nello stampo."/>
-	<label commandName="ProcessSettingsPackingPressureEditProfileCommandInput" devLabel="Edit Profile" translation="Modifica profilo"/>
-	<label commandName="ProcessSettingsPackingPressureVersusTimeCurveCommandInput" devLabel="Packing Pressure vs. Time" translation="Pressione di compattazione e tempo"/>
-	<label commandName="ProcessSettingsPackingProfileGroup" devLabel="Packing Profile" translation="Profilo compattazione"/>
-	<label commandName="ProcessSettingsPackingProfileTypeAutomaticPackingProfile" devLabel="Automatic Packing Profile" translation="Profilo compattazione automatico"/>
-	<label commandName="ProcessSettingsPackingProfileTypeCommandInput" devLabel="Packing Profile" translation="Profilo compattazione"/>
-	<label commandName="ProcessSettingsPackingProfileTypeDuration" devLabel="Duration" translation="Durata"/>
-	<label commandName="ProcessSettingsPackingProfileTypeFillingPressureVersusTime" devLabel="% Filling Pressure vs. Time" translation="% pressione riempimento/tempo"/>
-	<label commandName="ProcessSettingsPackingProfileTypePackingPressure" devLabel="Packing Pressure" translation="Pressione di compattazione"/>
-	<label commandName="ProcessSettingsPackingProfileTypePackingPressureVersusTime" devLabel="Packing Pressure vs. Time" translation="Pressione di compattazione e tempo"/>
-	<label commandName="ProcessSettingsPackingProfileTypeTime" devLabel="Time" translation="Tempo"/>
-	<label commandName="ProcessSettingsPanel" devLabel="Process Settings" translation="Impostazioni di processo"/>
-	<label commandName="ProcessSettingsRamSpeedVersusStrokeCurveCommandInput" devLabel="% Ram Speed vs. % Stroke" translation="% velocità pistone/% corsa"/>
-	<label commandName="ProcessSettingsRecommendedTemperatureRange" devLabel="Recommended: %1% to %2%" translation="Consigliati: da %1% a %2%"/>
-	<label commandName="ProcessSettingsRelativePackingProfileTypeFillingPressure" devLabel="Filling Pressure" translation="Pressione riempimento"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileEditProfileCommandInput" devLabel="Edit Profile" translation="Modifica profilo"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileFlowRate" devLabel="Flow Rate" translation="Portata"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileRamSpeed" devLabel="Ram Speed" translation="Velocità pistone"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileReferenceTypeCommandInput" devLabel="Reference" translation="Riferimento"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileReferenceTypeNominalFlowRateCommandInput" devLabel="Nominal Flow Rate" translation="Portata nominale"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileReferenceTypeNominalInjectionTimeCommandInput" devLabel="Nominal Injection Time" translation="Tempo di iniezione nominale"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileShotVolume" devLabel="Shot Volume" translation="Volume iniettabile"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileStroke" devLabel="Stroke" translation="Corsa"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileTypeCommandInput" devLabel="Relative Ram Speed Profile" translation="Profilo velocità pistone relativa"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileTypeFlowRateVersusShotVolumeCommandInput" devLabel="% Flow Rate vs. % Shot Volume" translation="% portata/% volume iniettabile"/>
-	<label commandName="ProcessSettingsRelativeRamSpeedProfileTypeRamSpeedVersusStrokeCommandInput" devLabel="% Ram Speed vs. % Stroke" translation="% velocità pistone/% corsa"/>
-	<label commandName="ProcessSettingsResetToDefaulatTooltip" devLabel="Resets default process settings." translation="Ripristina le impostazioni di elaborazione di default."/>
-	<label commandName="ProcessSettingsRestoreOriginalValuesCommandInput" devLabel="Reset to Default" translation="Ripristina default"/>
-	<label commandName="QSimStudyDialog__IWantToInjectionMolding" devLabel="Can my design be manufactured to produce a quality, injection molded part?" translation="Il progetto può essere prodotto per generare una parte stampata ad iniezione di qualità?"/>
-	<label commandName="RemoveInjectionPointRow" devLabel="Remove" translation="Rimuovi"/>
-	<label commandName="RemoveInjectionPointRowTooltip" devLabel="Remove injection point" translation="Rimuovi punto di iniezione"/>
-	<label commandName="ResultSyncDesc1" devLabel="Synchronizes the result selection so that all windows show the same result type as the active window." translation="Sincronizza la selezione dei risultati in modo che tutte le finestre mostrino lo stesso tipo di risultato della finestra attiva."/>
-	<label commandName="ResultSyncDesc2" devLabel="On by default, this command only synchronizes results from the same study type. Deactivate to view different results from the same study, or across different study types." translation="Per default, questo comando sincronizza solo i risultati dello stesso tipo di studio. Disattivarlo per visualizzare risultati diversi dello stesso studio o tra tipi di studio diversi."/>
-	<label commandName="ResultsManagePanel" devLabel="Manage" translation="Gestisci"/>
-	<label commandName="ResultsViewsPanel" devLabel="Display" translation="Visualizza"/>
-	<label commandName="SaveMfSdy" devLabel="Save Autodesk Moldflow File" translation="Salva file Autodesk Moldflow"/>
-	<label commandName="SimAnimatePanel" devLabel="Animate" translation="Anima"/>
-	<label commandName="SimAnsysPanel" devLabel="ANSYS" translation="ANSYS"/>
-	<label commandName="SimCancelRunningInjectionMoldingJobAfter" devLabel="Intermediate results are available and you won't get a refund. Do you want to proceed?" translation="Sono disponibili risultati intermedi e non si ottiene alcun rimborso. Continuare?"/>
-	<label commandName="SimCancelRunningInjectionMoldingJobBefore" devLabel="While currently there are no intermediate results, if results are created before the job termination process completes, you won’t get a refund. Do you want to proceed?" translation="Sebbene attualmente non vi siano risultati intermedi, se i risultati vengono creati prima del completamento del processo di terminazione del lavoro, non si otterrà un rimborso. Continuare?"/>
-	<label commandName="SimCaseName" devLabel="Name" translation="Nome"/>
-	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Sostituisci sistema di unità"/>
-	<label commandName="SimCompareLayoutsPanel" devLabel="Layouts" translation="Layout"/>
-	<label commandName="SimComparePanel" devLabel="COMPARE" translation="CONFRONTA"/>
-	<label commandName="SimComputeResultsNow" devLabel="The results have not been computed yet.&#xA;Would you like to compute the results now?" translation="I risultati non sono stati ancora calcolati.&#xA;Calcolare i risultati ora?"/>
-	<label commandName="SimComputeResultsNowTitle" devLabel="View Results" translation="Visualizza risultati"/>
-	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="Il nome dello studio è vuoto"/>
-	<label commandName="SimExportStudyAdviserAction" devLabel="Adviser" translation="Adviser"/>
-	<label commandName="SimExportStudyAdviserActionTooltip" devLabel="Open your Moldflow study file in Moldflow Adviser." translation="Aprire il file di studio Moldflow in Moldflow Adviser."/>
-	<label commandName="SimExportStudyInsightAction" devLabel="Insight" translation="Insight"/>
-	<label commandName="SimExportStudyInsightActionTooltip" devLabel="Open your Moldflow study file in Moldflow Insight." translation="Aprire il file di studio Moldflow in Moldflow Insight."/>
-	<label commandName="SimExportStudySaveAction" devLabel="Save" translation="Salva"/>
-	<label commandName="SimExportStudySaveActionTooltip" devLabel="Save your Moldflow study file." translation="Salvare il file di studio Moldflow."/>
-	<label commandName="SimFEACSPreSolveCheckDesc1" devLabel="Checks the study setup to ensure it has all the information required to solve. The icon color indicates the setup status:" translation="Verifica il setup dello studio per assicurarsi che contenga tutte le informazioni necessarie per la risoluzione. Il colore dell'icona indica lo stato del setup:"/>
-	<label commandName="SimFEACSPreSolveCheckDesc2" devLabel="&lt;img src=&quot;ERROR_ICON_PATH&quot;&gt; Red" translation="&lt;img src=&quot;ERROR_ICON_PATH&quot;&gt; Rosso"/>
-	<label commandName="SimFEACSPreSolveCheckDesc3" devLabel="The Study cannot be solved because vital information is missing, such as valid material data." translation="Impossibile risolvere lo Studio perché mancano informazioni fondamentali, ad esempio dati del materiale validi."/>
-	<label commandName="SimFEACSPreSolveCheckDesc4" devLabel="&lt;img src=&quot;WARNING_ICON_PATH&quot;&gt; Orange" translation="&lt;img src=&quot;WARNING_ICON_PATH&quot;&gt; Arancione"/>
-	<label commandName="SimFEACSPreSolveCheckDesc5" devLabel="The solver can run, but may produce unexpected results. Check the setup to ensure it is as you intend." translation="Impossibile eseguire il risolutore; potrebbe produrre risultati imprevisti. Verificare il setup per assicurarsi che sia quello desiderato."/>
-	<label commandName="SimFEACSPreSolveCheckDesc6" devLabel="&lt;img src=&quot;SUCCESS_ICON_PATH&quot;&gt; Green" translation="&lt;img src=&quot;SUCCESS_ICON_PATH&quot;&gt; Verde"/>
-	<label commandName="SimFEACSPreSolveCheckDesc7" devLabel="The study can be solved and has no predictable issues." translation="Impossibile risolvere lo studio; non presenta problemi prevedibili."/>
-	<label commandName="SimFinishComparePanel" devLabel="Finish Compare" translation="Termina confronto"/>
-	<label commandName="SimFinishWebViewerPanel" devLabel="Finish Results" translation="Termina risultati"/>
-	<label commandName="SimGeneralSectionLabel" devLabel="General" translation="Generale"/>
-	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additivo"/>
-	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Tutti i metodi"/>
-	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="Taglio a 2 assi"/>
-	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Colata"/>
-	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fresatura"/>
-	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Non limitato"/>
-	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Stati Uniti (pollici)"/>
-	<label commandName="SimInjMoldMatCancelCommand" devLabel="Material Cancel" translation="Annulla materiale"/>
-	<label commandName="SimInjMoldMatCommand" devLabel="Study Materials" translation="Materiali di studio"/>
-	<label commandName="SimInjMoldMatRequestCommand" devLabel="Material Request" translation="Richiesta materiale"/>
-	<label commandName="SimInjMoldProcessSettingsCmd" devLabel="Process Settings" translation="Impostazioni di processo"/>
-	<label commandName="SimInjMoldSummaryCardCmd" devLabel="Setup Summary" translation="Riepilogo setup"/>
-	<label commandName="SimInjectionMoldingDesc" devLabel="Determine how well your part will fill, and whether it will have quality issues, based on process settings, material selection, and injection location. View standard results and guided results." translation="Determina il grado di riempimento della parte e se si verificano problemi di qualità in base alle impostazioni di processo, alla selezione del materiale e alla posizione di iniezione. Visualizzare i risultati standard e i risultati guidati."/>
-	<label commandName="SimInspectPanel" devLabel="Inspect" translation="Verifica"/>
-	<label commandName="SimLayout1H2VDesc1" devLabel="Opens three windows so you can examine the data from three results, one above the other two." translation="Apre tre finestre in cui è possibile esaminare i dati di tre risultati, uno sopra gli altri due."/>
-	<label commandName="SimLayout1H2VDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Fare clic su una finestra per attivarla per selezionare un risultato diverso. Confrontare i risultati dello stesso studio o di studi diversi."/>
-	<label commandName="SimLayout1H3VDesc1" devLabel="Opens four windows so you can examine the data from four results, one above the other three." translation="Apre quattro finestre in cui è possibile esaminare i dati di quattro risultati, uno sopra gli altri tre."/>
-	<label commandName="SimLayout1H3VDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Fare clic su una finestra per attivarla per selezionare un risultato diverso. Confrontare i risultati dello stesso studio o di studi diversi."/>
-	<label commandName="SimLayout1V2HDesc1" devLabel="Opens three windows so you can examine the data from three results, one to the left of the other two." translation="Apre tre finestre in cui è possibile esaminare i dati di tre risultati, uno a sinistra degli altri due."/>
-	<label commandName="SimLayout1V2HDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Fare clic su una finestra per attivarla per selezionare un risultato diverso. Confrontare i risultati dello stesso studio o di studi diversi."/>
-	<label commandName="SimLayout1V3HDesc1" devLabel="Opens four windows so you can examine the data from four results, one to the left of the other three." translation="Apre quattro finestre in cui è possibile esaminare i dati di quattro risultati, uno a sinistra degli altri tre."/>
-	<label commandName="SimLayout1V3HDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Fare clic su una finestra per attivarla per selezionare un risultato diverso. Confrontare i risultati dello stesso studio o di studi diversi."/>
-	<label commandName="SimLayout2HDesc1" devLabel="Opens two windows so you can compare the data from two different results, one above the other." translation="Apre due finestre in modo da poter confrontare i dati di due risultati diversi, uno sopra l'altro."/>
-	<label commandName="SimLayout2HDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Fare clic su una finestra per attivarla per selezionare un risultato diverso. Confrontare i risultati dello stesso studio o di studi diversi."/>
-	<label commandName="SimLayout2VDesc1" devLabel="Opens two windows so you can compare the data from two different results, side-by-side." translation="Apre due finestre in modo da poter confrontare i dati di due risultati diversi, affiancati."/>
-	<label commandName="SimLayout2VDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Fare clic su una finestra per attivarla per selezionare un risultato diverso. Confrontare i risultati dello stesso studio o di studi diversi."/>
-	<label commandName="SimLayout2x2Desc1" devLabel="Opens four windows so you can examine the data from four different results." translation="Apre quattro finestre in cui è possibile esaminare i dati di quattro risultati diversi."/>
-	<label commandName="SimLayout2x2Desc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Fare clic su una finestra per attivarla per selezionare un risultato diverso. Confrontare i risultati dello stesso studio o di studi diversi."/>
-	<label commandName="SimLoadCaseReportWarning" devLabel=" Solve result of this load case is out of date." translation=" Il risultato della risoluzione di questa condizione di carico non è aggiornato."/>
-	<label commandName="SimManagePanel" devLabel="Manage" translation="Gestisci"/>
-	<label commandName="SimMaterialsPanel" devLabel="Materials" translation="Materiali"/>
-	<label commandName="SimMeshDisplayPanel" devLabel="Display" translation="Visualizza"/>
-	<label commandName="SimMeshSectionLabel" devLabel="Mesh" translation="Mesh"/>
-	<label commandName="SimOptionsPanel" devLabel="Options" translation="Opzioni"/>
-	<label commandName="SimReportItemAestheticFaces" devLabel="Aesthetic faces" translation="Facce estetiche"/>
-	<label commandName="SimReportItemAirTraps" devLabel="Air traps" translation="Intrappolamenti d'aria"/>
-	<label commandName="SimReportItemAverageTemperature" devLabel="Avg. temperature (end of fill)" translation="Temperatura media (fine riempimento)"/>
-	<label commandName="SimReportItemDeflectionAllEffects" devLabel="Deflection (all effects)" translation="Deflessione (tutti gli effetti)"/>
-	<label commandName="SimReportItemFill" devLabel="Fill" translation="Riempimento"/>
-	<label commandName="SimReportItemFillAnimation" devLabel="Fill animation" translation="Animazione di riempimento"/>
-	<label commandName="SimReportItemFillConfidence" devLabel="Fill confidence" translation="Probabilità di riempimento"/>
-	<label commandName="SimReportItemFilledFromInjectionLocation" devLabel="Filled from injection location" translation="Riempito da posizione di iniezione"/>
-	<label commandName="SimReportItemFilling" devLabel="Filling" translation="Riempimento"/>
-	<label commandName="SimReportItemFinalPartShape" devLabel="Final part shape" translation="Forma parte finale"/>
-	<label commandName="SimReportItemFlatnessIndicator" devLabel="Flatness indicator" translation="Indicatore di planarità"/>
-	<label commandName="SimReportItemFlowFrontTemperature" devLabel="Flow-front temperature" translation="Temperatura del fronte di flusso"/>
-	<label commandName="SimReportItemGeometry" devLabel="Geometry" translation="Geometria"/>
-	<label commandName="SimReportItemGuidedResults" devLabel="Guided Results" translation="Risultati guidati"/>
-	<label commandName="SimReportItemInjectionLocations" devLabel="Injection locations" translation="Posizioni di iniezione"/>
-	<label commandName="SimReportItemInjectionPressure" devLabel="Injection pressure" translation="Pressione di iniezione"/>
-	<label commandName="SimReportItemMachineSetup" devLabel="Machine setup" translation="Setup macchina"/>
-	<label commandName="SimReportItemMoldingProcess" devLabel="Molding Process" translation="Processo di stampaggio"/>
-	<label commandName="SimReportItemPackingCooling" devLabel="Packing &amp; Cooling" translation="Compattazione e raffreddamento"/>
-	<label commandName="SimReportItemProcessSettings" devLabel="Process settings" translation="Impostazioni di processo"/>
-	<label commandName="SimReportItemQualityPrediction" devLabel="Quality prediction" translation="Previsione qualità"/>
-	<label commandName="SimReportItemResults" devLabel="Results" translation="Risultati"/>
-	<label commandName="SimReportItemSetup" devLabel="Study Setup" translation="Setup studio"/>
-	<label commandName="SimReportItemSinkMarkDepthEstimate" devLabel="Sink mark depth - Estimate" translation="Profondità dei segni di risucchio - Stima"/>
-	<label commandName="SimReportItemSinkMarkDepthThreshold" devLabel="Sink mark depth - Threshold" translation="Profondità dei segni di risucchio - Soglia"/>
-	<label commandName="SimReportItemSinkMarkDepthVisualization" devLabel="Sink mark depth - Visualization" translation="Profondità dei segni di risucchio - Visualizzazione"/>
-	<label commandName="SimReportItemSolidifiedPlastic" devLabel="Solidified plastic (ejection)" translation="Plastica solidificata (estrazione)"/>
-	<label commandName="SimReportItemSolidifiedPlasticEndOfFill" devLabel="Solidified plastic (end of fill)" translation="Plastica solidificata (fine del riempimento)"/>
-	<label commandName="SimReportItemTargetBody" devLabel="Target body" translation="Corpo di destinazione"/>
-	<label commandName="SimReportItemTimeToEjectionTemperature" devLabel="Time to ejection temperature" translation="Tempo alla temperatura di estrazione"/>
-	<label commandName="SimReportItemVisualDefects" devLabel="Visual defects" translation="Difetti visivi"/>
-	<label commandName="SimReportItemVolumetricShrinkageEjection" devLabel="Volumetric shrinkage (ejection)" translation="Restringimento volumetrico (estrazione)"/>
-	<label commandName="SimReportItemWarpage" devLabel="Warpage" translation="Deformazione"/>
-	<label commandName="SimReportItemWarpageTolerance" devLabel="Warpage tolerance" translation="Tolleranza deformazione"/>
-	<label commandName="SimReportItemWeldLines" devLabel="Weld lines" translation="Linee di giunzione"/>
-	<label commandName="SimReportReset" devLabel="Reset" translation="Reimposta"/>
-	<label commandName="SimReportResetTT" devLabel="Reset all partially checked studies to default states" translation="Reimposta lo stato di default per tutti gli studi parzialmente controllati"/>
-	<label commandName="SimReportSelectAll" devLabel="Select All" translation="Seleziona tutto"/>
-	<label commandName="SimReportUnSelectAll" devLabel="Unselect All" translation="Deseleziona tutto"/>
-	<label commandName="SimResultsManagePanel" devLabel="Manage" translation="Gestisci"/>
-	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personalizzato"/>
-	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Unità metriche (SI)"/>
-	<label commandName="SimSelectPanel" devLabel="Select" translation="Seleziona"/>
-	<label commandName="SimSettingsGeneral" devLabel="Settings" translation="Impostazioni"/>
-	<label commandName="SimSimplifyPanel" devLabel="Simplify" translation="Semplifica"/>
-	<label commandName="SimSolvePanel" devLabel="Solve" translation="Risolvi"/>
-	<label commandName="SimStudyPanel" devLabel="Study" translation="Studio"/>
-	<label commandName="SimSynchronizePanel" devLabel="Synchronize" translation="Sincronizza"/>
-	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentuale"/>
-	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pezzi"/>
-	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
-	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angolo"/>
-	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Corrente"/>
-	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Resistenza elettrica"/>
-	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
-	<label commandName="SimUnitsForce" devLabel="Force" translation="Forza"/>
-	<label commandName="SimUnitsLength" devLabel="Length" translation="Lunghezza"/>
-	<label commandName="SimUnitsMass" devLabel="Mass" translation="Massa"/>
-	<label commandName="SimUnitsPower" devLabel="Power" translation="Potenza"/>
-	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressione"/>
-	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
-	<label commandName="SimUnitsTime" devLabel="Time" translation="Tempo"/>
-	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocità"/>
-	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosità"/>
-	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tensione"/>
-	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Portata"/>
-	<label commandName="SimV2ResultsNow" devLabel="The results have not been computed yet.&#xA;Would you like to compute the results now?" translation="I risultati non sono stati ancora calcolati.&#xA;Calcolare i risultati ora?"/>
-	<label commandName="SimV2ResultsNowTitle" devLabel="View Results" translation="Visualizza risultati"/>
-	<label commandName="SimViewsPanel" devLabel="Display" translation="Visualizza"/>
-	<label commandName="SimWebViewDataError" devLabel="Error: Unable to access result data." translation="Errore: impossibile accedere ai dati dei risultati."/>
-	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="Il nome dello studio è già stato utilizzato."/>
-	<label commandName="SummaryCard" devLabel="Setup Summary" translation="Riepilogo setup"/>
-	<label commandName="SummaryCardAestheticFacesStringCommandInput" devLabel="Aesthetic Faces" translation="Facce estetiche"/>
-	<label commandName="SummaryCardInjectionLocationsStringCommandInput" devLabel="Injection Locations" translation="Posizioni di iniezione"/>
-	<label commandName="SummaryCardInjectionTimeStringCommandInput" devLabel="Injection Time" translation="Tempo di iniezione"/>
-	<label commandName="SummaryCardInjectionTimeTypeAutomatic" devLabel="Automatic" translation="Automatico"/>
-	<label commandName="SummaryCardMaterialStringCommandInput" devLabel="Material" translation="Materiale"/>
-	<label commandName="SummaryCardMeltTemperatureStringCommandInput" devLabel="Melt Temperature" translation="Temperatura di fusione"/>
-	<label commandName="SummaryCardMoldTemperatureStringCommandInput" devLabel="Mold Surface Temperature" translation="Temperatura superficie stampo"/>
-	<label commandName="SummaryCardSolveButtonCommandInput" devLabel="Solve" translation="Risolvi"/>
-	<label commandName="SummaryCardTargetBodyStringCommandInput" devLabel="Target Body" translation="Corpo di destinazione"/>
-	<label commandName="TargetBodyPanel" devLabel="Target Body" translation="Corpo di destinazione"/>
-	<label commandName="ViewerComparePanel" devLabel="Compare" translation="Confronta"/>
-	<label commandName="ViewerDisplayPanel" devLabel="Study" translation="Studio"/>
-	<label commandName="ViewerInspectPanel" devLabel="Inspect" translation="Verifica"/>
-	<label commandName="ViewerLayoutsPanel" devLabel="Layouts" translation="Layout"/>
-	<label commandName="ViewerReportPanel" devLabel="Report" translation="Rapporto"/>
-	<label commandName="ViewerResultsViewsPanel" devLabel="Display" translation="Visualizzazione"/>
-	<label commandName="ViewerSyncPanel" devLabel="Synchronize" translation="Sincronizza"/>
-	<label commandName="VisualFacesCmdDef" devLabel="Aesthetic Faces" translation="Facce estetiche"/>
-	<label commandName="VisualFacesCommand1" devLabel="Defines faces with a high aesthetic requirement, that must be free from blemishes." translation="Definisce le facce con un elevato requisito estetico, che devono essere prive di imperfezioni."/>
-	<label commandName="VisualFacesCommand2" devLabel="Select faces that should be visually appealing in your model. These faces display in green on the canvas. Make sure you don't place the injection locations on aesthetic faces, because it causes blemishes." translation="Selezionare le facce che dovrebbero essere visivamente accattivanti nel modello. Queste facce vengono visualizzate in verde nell'area grafica. Assicurarsi di non posizionare le posizioni di iniezione sulle facce estetiche, in quanto causano difetti."/>
-	<label commandName="VisualFacesFacesInput" devLabel="Faces" translation="Facce"/>
-	<label commandName="VisualFacesSelectFaces" devLabel="Select faces that should be visually appealing in your model." translation="Selezionare le facce che dovrebbero essere visivamente accattivanti nel modello."/>
-	<label commandName="VisualFacesSelectTangentFaces" devLabel="Selects tangent faces." translation="Seleziona le facce tangenti."/>
-	<label commandName="VisualFacesTangentOptionInput" devLabel="Tangent Chain" translation="Catena tangente"/>
-	<label commandName="WebViewerCmd" devLabel="Simulation Results" translation="Risultati simulazione"/>
-	<label commandName="WebViewerPanel" devLabel="Results" translation="Risultati"/>
-	<label commandName="lclz2DPlotsPanel" devLabel="2D PLOTS" translation="GRAFICI 2D"/>
-	<label commandName="lclzDebugTab" devLabel="DEBUG" translation="DEBUG"/>
-	<label commandName="lclzDeformation" devLabel="DEFORMATION" translation="DEFORMAZIONE"/>
-	<label commandName="lclzDiagnosticsPanel" devLabel="Diagnostics" translation="Diagnostica"/>
-	<label commandName="lclzFilePanel" devLabel="File" translation="File"/>
-	<label commandName="lclzFinishResultsPanel" devLabel="Finish Results" translation="Termina risultati"/>
-	<label commandName="lclzFinishSimComparePanel" devLabel="Finish Compare" translation="Termina confronto"/>
-	<label commandName="lclzInjectionMoldingSolveCommand1" devLabel="Solves the simulation using the study setup conditions you defined." translation="Risolve la simulazione utilizzando le condizioni di setup dello studio definite."/>
-	<label commandName="lclzInjectionMoldingSolveCommand2" devLabel="Run Pre-check before solving, to verify that the study setup is complete. Solve one or more studies simultaneously. Track the progress in the Job Status dialog." translation="Eseguire la verifica preliminare prima della risoluzione per verificare che il setup dello studio sia completo. Risolvere uno o più studi contemporaneamente. Tenere traccia dell'avanzamento nella finestra di dialogo Stato processo."/>
-	<label commandName="lclzMassParticipationPanel" devLabel="MASS PARTICIPATION" translation="PARTECIPAZIONE DELLA MASSA"/>
-	<label commandName="lclzResultTools" devLabel="RESULT TOOLS" translation="STRUMENTI RISULTATO"/>
-	<label commandName="lclzResultsViewerTab" devLabel="RESULTS" translation="RISULTATI"/>
-	<label commandName="lclzSelectionPriorityCommands" devLabel="Selection Priority" translation="Priorità di selezione"/>
-	<label commandName="lclzSelectionTools" devLabel="Selection Tools" translation="Strumenti di selezione"/>
-	<label commandName="lclzSimSetupTab" devLabel="SETUP" translation="IMPOSTAZIONE"/>
-	<label commandName="lclzSummaryCardCommand1" devLabel="Shows a convenient summary list of the study set up inputs, with quick links to edit them." translation="Visualizza un elenco di riepilogo pratico degli input impostati dallo studio, con collegamenti rapidi per modificarli."/>
-	<label commandName="lclzSummaryCardCommand2" devLabel="The links are the same as the commands found on the toolbar. Check the inputs and edit them if required. When the setup is ready, click Solve." translation="I collegamenti sono identici ai comandi presenti nella barra degli strumenti. Verificare gli input e modificarli, se necessario. Quando l'impostazione è pronta, fare clic su Risolvi."/>
-	<label commandName="lclzUIDemo" devLabel="UI Demo" translation="Demo dell'interfaccia grafica"/>
-	<label commandName="lclzViewerCompareTab" devLabel="COMPARE" translation="CONFRONTA"/>
-	<label commandName="lclzWebViewerCmd1" devLabel="Enables you to view the results to see if your part is likely to fill, warp, or have visual defects." translation="Consente di visualizzare i risultati per verificare se la parte è idonea per il riempimento, è soggetta a deformazione o presenta difetti visivi."/>
-	<label commandName="lclzWebViewerCmd2" devLabel="Results are viewable as soon as the study is solved. View Guided Results for assistance to interpret the Fill, Visual defects, and Warpage results. Switch to the Results tab to view specific results." translation="I risultati sono visualizzabili non appena lo studio viene risolto. Visualizzare i risultati guidati per assistenza per l'inizializzazione dei risultati Riempimento, Difetti visivi e Deformazione. Passare alla scheda Risultati per visualizzare risultati specifici."/>
-	<label commandName="lclzsolverDataPanel" devLabel="Solver Data" translation="Dati risolutore"/>
+	<label  commandName="AddInjectionPointRow" devLabel="Add" translation="Add" />
+	<label  commandName="AddInjectionPointRowTooltip" devLabel="Add injection point" translation="Add injection point" />
+	<label  commandName="AnimationSyncDesc1" devLabel="Synchronizes the animation controls so that all animated results move to the next frame, stop, pause, and loop at the same time." translation="Synchronizes the animation controls so that all animated results move to the next frame, stop, pause, and loop at the same time." />
+	<label  commandName="AnimationSyncDesc2" devLabel="This command activates automatically if the active result is an animated result when you enter Compare. Deactivate the command to control animations independently." translation="This command activates automatically if the active result is an animated result when you enter Compare. Deactivate the command to control animations independently." />
+	<label  commandName="BoundaryConditionsPanel" devLabel="Boundary Conditions" translation="Boundary Conditions" />
+	<label  commandName="CameraSyncDesc1" devLabel="Synchronizes the movement and orientation of the models in all windows, based on the active window, so you can move, rotate, zoom in or out, and pan all models in the same way and at the same time." translation="Synchronizes the movement and orientation of the models in all windows, based on the active window, so you can move, rotate, zoom in or out, and pan all models in the same way and at the same time." />
+	<label  commandName="CameraSyncDesc2" devLabel="Click Synchronize Cameras to deactivate it, when you want to manipulate the models independently." translation="Click Synchronize Cameras to deactivate it, when you want to manipulate the models independently." />
+	<label  commandName="ExportMfAdviser" devLabel="Open in Moldflow Adviser" translation="Open in Moldflow Adviser" />
+	<label  commandName="ExportMfInsight" devLabel="Open in Moldflow Insight" translation="Open in Moldflow Insight" />
+	<label  commandName="ExportMfSdyType" devLabel="Autodesk Moldflow Files (*.sdy)" translation="Autodesk Moldflow Files (*.sdy)" />
+	<label  commandName="ExportPanel" devLabel="Export" translation="Export" />
+	<label  commandName="ExportToMfSdyCmd_NoData" devLabel="Data is missing to be able to export." translation="Data is missing to be able to export." />
+	<label  commandName="ExportToMfSdyCmd_NoJob" devLabel="Unable to create an export job." translation="Unable to create an export job." />
+	<label  commandName="FusionProperties" devLabel="Properties" translation="Properties" />
+	<label  commandName="GenerateMfStdy" devLabel="Generate Moldflow Study File" translation="Generate Moldflow Study File" />
+	<label  commandName="IMChangeStudyTypeWarning" devLabel="&#xA;- All Injection Molding Process Settings will be removed&#xA;- All boundary conditions and the material selection will be removed" translation="&#10;- All Injection Molding Process Settings will be removed&#10;- All boundary conditions and the material selection will be removed" />
+	<label  commandName="IMMeshSettingsGroupBox " devLabel="Mesh settings" translation="Mesh settings" />
+	<label  commandName="IMMeshSettingsNoOfLayersLabel" devLabel="Layers through the thickness: " translation="Layers through the thickness: " />
+	<label  commandName="IMMeshSettingsSliderTooltipCoarse" devLabel="Coarse" translation="Coarse" />
+	<label  commandName="IMMeshSettingsSliderTooltipFine" devLabel="Fine" translation="Fine" />
+	<label  commandName="IMMeshSettingsSliderTooltipMedium" devLabel="Medium" translation="Medium" />
+	<label  commandName="IMMeshSettingsSliderTooltipVeryFine" devLabel="Very Fine" translation="Very Fine" />
+	<label  commandName="IMMeshSettingsSurfaceMeshLabel" devLabel="Surface mesh size: " translation="Surface mesh size: " />
+	<label  commandName="IMSettingDlgDefaultSettingsValues" devLabel="Mesh Number Of Layers Through Thickness is %1%" translation="Mesh Number Of Layers Through Thickness is %1%" />
+	<label  commandName="ImHiddenSettingsWarningDialogMessage" devLabel="Injection points that are hidden in the browser are still included in the Simulation solve. To exclude them from the solve, uncheck &lt;b&gt;Toggle Suppress&lt;/b&gt; in the browser instead." translation="Injection points that are hidden in the browser are still included in the Simulation solve. To exclude them from the solve, uncheck &lt;b&gt;Toggle Suppress&lt;/b&gt; in the browser instead." />
+	<label  commandName="ImHiddenSettingsWarningDialogTitle" devLabel="Hidden study settings" translation="Hidden study settings" />
+	<label  commandName="InjectionBodyCmdDef" devLabel="Target Body" translation="Target Body" />
+	<label  commandName="InjectionBodyCommand1" devLabel="Identifies the body you want to fill in the injection molding simulation." translation="Identifies the body you want to fill in the injection molding simulation." />
+	<label  commandName="InjectionBodySelectBodyPrompt" devLabel="Select a body for injection molding." translation="Select a body for injection molding." />
+	<label  commandName="InjectionBodySelectionLabel" devLabel="Target Body" translation="Target Body" />
+	<label  commandName="InjectionMoldingCreateSelectionGroupCmd" devLabel="Create Selection Set" translation="Create Selection Set" />
+	<label  commandName="InjectionMoldingManagePanel" devLabel="Manage" translation="Manage" />
+	<label  commandName="InjectionMoldingNoTargetBodyFoundForCommand" devLabel="&lt;b&gt;No Target Body Found&lt;/b&gt;&lt;br&gt;&lt;br&gt;%1% can only be used after a target body is selected.&lt;br&gt;" translation="&lt;b&gt;No Target Body Found&lt;/b&gt;&lt;br&gt;&lt;br&gt;%1% can only be used after a target body is selected.&lt;br&gt;" />
+	<label  commandName="InjectionMoldingPreSolveCheckCmd" devLabel="Pre-check" translation="Pre-check" />
+	<label  commandName="InjectionMoldingSimulation" devLabel="Injection Molding Simulation" translation="Injection Molding Simulation" />
+	<label  commandName="InjectionMoldingSolveCmd" devLabel="Solve" translation="Solve" />
+	<label  commandName="InjectionMoldingSolvePanel" devLabel="Solve" translation="Solve" />
+	<label  commandName="InjectionMoldingViewResultsCmd" devLabel="View Results" translation="View Results" />
+	<label  commandName="InjectionPointCmdDef" devLabel="Injection Locations" translation="Injection Locations" />
+	<label  commandName="InjectionPointCmdMissingExecutionCase" devLabel="Unable to execute that command on the injection point." translation="Unable to execute that command on the injection point." />
+	<label  commandName="InjectionPointCmdMissingFace" devLabel="An injection location cannot be placed or moved without a selected face." translation="An injection location cannot be placed or moved without a selected face." />
+	<label  commandName="InjectionPointCommand1" devLabel="Defines the locations where the polymer is injected into the part." translation="Defines the locations where the polymer is injected into the part." />
+	<label  commandName="InjectionPointCommand2" devLabel="Select the optimal injection locations to fill the extreme parts of the mold at the same time and under the same pressure. Avoid faces with a high aesthetic requirement. " translation="Select the optimal injection locations to fill the extreme parts of the mold at the same time and under the same pressure. Avoid faces with a high aesthetic requirement. " />
+	<label  commandName="InjectionPointCursorHint" devLabel="Place an Injection Location on the body." translation="Place an Injection Location on the body." />
+	<label  commandName="InjectionPointDragPointLabel" devLabel="Location on face" translation="Location on face" />
+	<label  commandName="InjectionPointEditCmdDef" devLabel="Edit Injection Location" translation="Edit Injection Location" />
+	<label  commandName="InjectionPointEditCommand1" devLabel="Edit existing injection locations where plastic material will be injected into the mold." translation="Edit existing injection locations where plastic material will be injected into the mold." />
+	<label  commandName="InjectionPointFaceSelectionLabel" devLabel="Face" translation="Face" />
+	<label  commandName="InjectionPointMovePointPrompt" devLabel="Move the injection location on the face" translation="Move the injection location on the face" />
+	<label  commandName="InjectionPointSelectAFacePrompt" devLabel="Select a face on which to place an injection location" translation="Select a face on which to place an injection location" />
+	<label  commandName="InjectionPointTable" devLabel="Injection points" translation="Injection points" />
+	<label  commandName="InjectionPointTableRowDataNoData" devLabel="Lost injection point!" translation="Lost injection point!" />
+	<label  commandName="InjectionPointTableRowEnabled" devLabel="" translation="" />
+	<label  commandName="InjectionPointTableRowEnabledTooltip" devLabel="Toggle injection point suppression" translation="Toggle injection point suppression" />
+	<label  commandName="InjectionPointTableRowLabel" devLabel="Name" translation="Name" />
+	<label  commandName="InjectionPointTableRowVisible" devLabel="Visible" translation="Visible" />
+	<label  commandName="InjectionPointTableRowVisibleTooltip" devLabel="Toggle injection point visibility" translation="Toggle injection point visibility" />
+	<label  commandName="LegendSyncDesc1" devLabel="Synchronizes the legend range for all results of the same type, so you can compare the results more effectively." translation="Synchronizes the legend range for all results of the same type, so you can compare the results more effectively." />
+	<label  commandName="LegendSyncDesc2" devLabel="On by default, this command also changes the result settings and legend behavior in all non-active windows to match the behavior in the active window. Deactivate to manipulate the legends independently." translation="On by default, this command also changes the result settings and legend behavior in all non-active windows to match the behavior in the active window. Deactivate to manipulate the legends independently." />
+	<label  commandName="MaterialDefaultError" devLabel="Your default material was not able to load. Generic material has been applied by default." translation="Your default material was not able to load. Generic material has been applied by default." />
+	<label  commandName="MaterialDefaultErrorTitle" devLabel="Failed to load default material" translation="Failed to load default material" />
+	<label  commandName="MaterialDesc1" devLabel="Lists properties for each material in the Fusion libraries, that control the material's thermal, mechanical, and elastic behavior, as well as its appearance." translation="Lists properties for each material in the Fusion libraries, that control the material's thermal, mechanical, and elastic behavior, as well as its appearance." />
+	<label  commandName="MaterialDesc2" devLabel="Use the Material Browser to identify favorites, modify properties, create new materials, and manage personal libraries." translation="Use the Material Browser to identify favorites, modify properties, create new materials, and manage personal libraries." />
+	<label  commandName="MaterialLibraryTitle" devLabel="Study Materials" translation="Study Materials" />
+	<label  commandName="MaterialProcessSettingOverride" devLabel="The new material may alter Mold Temperature and Melt Temperature found in Process Settings. Do you want to maintain the current values?" translation="The new material may alter Mold Temperature and Melt Temperature found in Process Settings. Do you want to maintain the current values?" />
+	<label  commandName="MaterialSelectAgain" devLabel="Select Again" translation="Select Again" />
+	<label  commandName="MaterialSelectMaterial" devLabel="Select Material" translation="Select Material" />
+	<label  commandName="MaterialUpdateError" devLabel="Your selected material failed to load, so we've kept your previous selection." translation="Your selected material failed to load, so we've kept your previous selection." />
+	<label  commandName="MaterialUpdateErrorTitle" devLabel="Failed to load new material" translation="Failed to load new material" />
+	<label  commandName="MaterialsPanelIM" devLabel="Materials" translation="Materials" />
+	<label  commandName="MoldflowAdviser" devLabel="Moldflow Adviser" translation="Moldflow Adviser" />
+	<label  commandName="MoldflowInsight" devLabel="Moldflow Insight" translation="Moldflow Insight" />
+	<label  commandName="MoldingProcessCmd" devLabel="Molding Process" translation="Molding Process" />
+	<label  commandName="MoldingProcessDesc1" devLabel="Shows a log of the study data in two formats, an Overview format and a Table format." translation="Shows a log of the study data in two formats, an Overview format and a Table format." />
+	<label  commandName="MoldingProcessDesc2" devLabel="Animate the Overview to see how the data changes with time. This view provides the data in the context of the injection molding process. Select the Table format to view all the data points from the start to the end of the simulation." translation="Animate the Overview to see how the data changes with time. This view provides the data in the context of the injection molding process. Select the Table format to view all the data points from the start to the end of the simulation." />
+	<label  commandName="OpenMoldflowAdviserNotInstalled" devLabel="Moldflow Adviser is not installed on your computer. Would you like to learn more about Moldflow Adviser features and how to download the free trial?" translation="Moldflow Adviser is not installed on your computer. Would you like to learn more about Moldflow Adviser features and how to download the free trial?" />
+	<label  commandName="OpenMoldflowAdviserWarning" devLabel="The file that opens in Moldflow Adviser contains the stl surface mesh and all injection locations. Make sure you recreate your study setup in Moldflow Adviser." translation="The file that opens in Moldflow Adviser contains the stl surface mesh and all injection locations. Make sure you recreate your study setup in Moldflow Adviser." />
+	<label  commandName="OpenMoldflowInsightNotInstalled" devLabel="Moldflow Insight is not installed on your computer. Would you like to learn more about Moldflow Insight features and how to purchase it?" translation="Moldflow Insight is not installed on your computer. Would you like to learn more about Moldflow Insight features and how to purchase it?" />
+	<label  commandName="OpenMoldflowUnsupported" devLabel="The %1% version you have installed on your computer is no longer supported.&#xA;Would you like to learn more about %1% pricing and how to purchase it?" translation="The %1% version you have installed on your computer is no longer supported.&#10;Would you like to learn more about %1% pricing and how to purchase it?" />
+	<label  commandName="OpenMoldflowWindows" devLabel="%1% is only supported on Microsoft Windows. Would you like to learn more about %1% features on Microsoft Windows?" translation="%1% is only supported on Microsoft Windows. Would you like to learn more about %1% features on Microsoft Windows?" />
+	<label  commandName="ProcessSettingsCmd" devLabel="Process Settings" translation="Process Settings" />
+	<label  commandName="ProcessSettingsDesc1" devLabel="Sets an Injection Time and other process settings, such as a Melt temperature and Mold Surface Temperature." translation="Sets an Injection Time and other process settings, such as a Melt temperature and Mold Surface Temperature." />
+	<label  commandName="ProcessSettingsDesc2" devLabel="Use the default settings which come from the material database or are calculated by the solver, or modify them if you prefer. If you modify them, stay within the values recommended by the material manufacturer." translation="Use the default settings which come from the material database or are calculated by the solver, or modify them if you prefer. If you modify them, stay within the values recommended by the material manufacturer." />
+	<label  commandName="ProcessSettingsFillingControlGroup" devLabel="Filling Control" translation="Filling Control" />
+	<label  commandName="ProcessSettingsFillingControlTypeAutomaticInjectionTime" devLabel="Automatic Injection Time" translation="Automatic Injection Time" />
+	<label  commandName="ProcessSettingsFillingControlTypeCommandInput" devLabel="Filling Control" translation="Filling Control" />
+	<label  commandName="ProcessSettingsFillingControlTypeRelativeRamSpeedProfile" devLabel="Relative Ram Speed Profile" translation="Relative Ram Speed Profile" />
+	<label  commandName="ProcessSettingsFillingControlTypeSpecifiedInjectionTime" devLabel="Specified Injection Time" translation="Specified Injection Time" />
+	<label  commandName="ProcessSettingsFillingPressureVersusTimeCurveCommandInput" devLabel="% Filling Pressure vs. Time" translation="% Filling Pressure vs. Time" />
+	<label  commandName="ProcessSettingsFlowRateVersusShotVolumeCurveCommandInput" devLabel="% Flow Rate vs. % Shot Volume" translation="% Flow Rate vs. % Shot Volume" />
+	<label  commandName="ProcessSettingsGroup" devLabel="Process Settings" translation="Process Settings" />
+	<label  commandName="ProcessSettingsInjectionTimeTypeAutomatic" devLabel="Automatic" translation="Automatic" />
+	<label  commandName="ProcessSettingsInjectionTimeTypeCommandInput" devLabel="Injection Time" translation="Injection Time" />
+	<label  commandName="ProcessSettingsInjectionTimeTypeSpecified" devLabel="Specified" translation="Specified" />
+	<label  commandName="ProcessSettingsInjectionTimeTypeTooltip" devLabel="Specifies the time to completely fill the mold cavity with material." translation="Specifies the time to completely fill the mold cavity with material." />
+	<label  commandName="ProcessSettingsInjectionTimeTypeTooltipDesc" devLabel="As the injection time increases, the injection pressure and plastic temperature decrease.&lt;br&gt;&lt;br&gt;Automatic - Lets the solver calculate the time that gives the lowest injection pressure for the part.&lt;br&gt;Specified - Enables you to define your time value." translation="As the injection time increases, the injection pressure and plastic temperature decrease.&lt;br&gt;&lt;br&gt;Automatic - Lets the solver calculate the time that gives the lowest injection pressure for the part.&lt;br&gt;Specified - Enables you to define your time value." />
+	<label  commandName="ProcessSettingsMaterialShrinkageFactorCommandInput" devLabel="Shrinkage Allowance (%)" translation="Shrinkage Allowance (%)" />
+	<label  commandName="ProcessSettingsMaterialShrinkageFactorTooltip" devLabel="Makes the mold cavity size larger than the part design size to compensate for the expected material shrinkage." translation="Makes the mold cavity size larger than the part design size to compensate for the expected material shrinkage." />
+	<label  commandName="ProcessSettingsMaterialShrinkageFactorTooltipDesc" devLabel="Use the shrinkage factor from the material database or set your allowance." translation="Use the shrinkage factor from the material database or set your allowance." />
+	<label  commandName="ProcessSettingsMaterialShrinkageFactorTypeCommandInput" devLabel="Compensate for Shrinkage" translation="Compensate for Shrinkage" />
+	<label  commandName="ProcessSettingsMaterialSpecificSettingsGroup" devLabel="Material Specific Settings" translation="Material Specific Settings" />
+	<label  commandName="ProcessSettingsMeltTemperatureCommandInput" devLabel="Melt Temperature" translation="Melt Temperature" />
+	<label  commandName="ProcessSettingsMeltTemperatureTooltip" devLabel="The actual temperature of the melted plastic as it exits the nozzle and enters the mold." translation="The actual temperature of the melted plastic as it exits the nozzle and enters the mold." />
+	<label  commandName="ProcessSettingsMeltTemperatureTooltipDesc" devLabel="The temperature should be set around the middle of the range. At higher melt temperatures, less pressure may be needed to fill the part, but the cycle time may be longer, the quality may be poorer, and the energy costs will be higher" translation="The temperature should be set around the middle of the range. At higher melt temperatures, less pressure may be needed to fill the part, but the cycle time may be longer, the quality may be poorer, and the energy costs will be higher" />
+	<label  commandName="ProcessSettingsMoldTemperatureCommandInput" devLabel="Mold Surface Temperature" translation="Mold Surface Temperature" />
+	<label  commandName="ProcessSettingsMoldTemperatureTooltip" devLabel="The actual temperature of the mold at the mold/part interface, which impacts cycle time and part quality." translation="The actual temperature of the mold at the mold/part interface, which impacts cycle time and part quality." />
+	<label  commandName="ProcessSettingsMoldTemperatureTooltipDesc" devLabel="The temperature should be set around the middle of the range. Higher temperatures can improve surface finish, but increase the cycle time. Keep the mold temperature below the polymer's solidification temperature. Otherwise, the polymer will not become solid in the mold." translation="The temperature should be set around the middle of the range. Higher temperatures can improve surface finish, but increase the cycle time. Keep the mold temperature below the polymer's solidification temperature. Otherwise, the polymer will not become solid in the mold." />
+	<label  commandName="ProcessSettingsPackingPressureEditProfileCommandInput" devLabel="Edit Profile" translation="Edit Profile" />
+	<label  commandName="ProcessSettingsPackingPressureVersusTimeCurveCommandInput" devLabel="Packing Pressure vs. Time" translation="Packing Pressure vs. Time" />
+	<label  commandName="ProcessSettingsPackingProfileGroup" devLabel="Packing Profile" translation="Packing Profile" />
+	<label  commandName="ProcessSettingsPackingProfileTypeAutomaticPackingProfile" devLabel="Automatic Packing Profile" translation="Automatic Packing Profile" />
+	<label  commandName="ProcessSettingsPackingProfileTypeCommandInput" devLabel="Packing Profile" translation="Packing Profile" />
+	<label  commandName="ProcessSettingsPackingProfileTypeDuration" devLabel="Duration" translation="Duration" />
+	<label  commandName="ProcessSettingsPackingProfileTypeFillingPressureVersusTime" devLabel="% Filling Pressure vs. Time" translation="% Filling Pressure vs. Time" />
+	<label  commandName="ProcessSettingsPackingProfileTypePackingPressure" devLabel="Packing Pressure" translation="Packing Pressure" />
+	<label  commandName="ProcessSettingsPackingProfileTypePackingPressureVersusTime" devLabel="Packing Pressure vs. Time" translation="Packing Pressure vs. Time" />
+	<label  commandName="ProcessSettingsPackingProfileTypeTime" devLabel="Time" translation="Time" />
+	<label  commandName="ProcessSettingsPanel" devLabel="Process Settings" translation="Process Settings" />
+	<label  commandName="ProcessSettingsRamSpeedVersusStrokeCurveCommandInput" devLabel="% Ram Speed vs. % Stroke" translation="% Ram Speed vs. % Stroke" />
+	<label  commandName="ProcessSettingsRecommendedTemperatureRange" devLabel="Recommended: %1% to %2%" translation="Recommended: %1% to %2%" />
+	<label  commandName="ProcessSettingsRelativePackingProfileTypeFillingPressure" devLabel="Filling Pressure" translation="Filling Pressure" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileEditProfileCommandInput" devLabel="Edit Profile" translation="Edit Profile" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileFlowRate" devLabel="Flow Rate" translation="Flow Rate" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileRamSpeed" devLabel="Ram Speed" translation="Ram Speed" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileReferenceTypeCommandInput" devLabel="Reference" translation="Reference" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileReferenceTypeNominalFlowRateCommandInput" devLabel="Nominal Flow Rate" translation="Nominal Flow Rate" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileReferenceTypeNominalInjectionTimeCommandInput" devLabel="Nominal Injection Time" translation="Nominal Injection Time" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileShotVolume" devLabel="Shot Volume" translation="Shot Volume" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileStroke" devLabel="Stroke" translation="Stroke" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileTypeCommandInput" devLabel="Relative Ram Speed Profile" translation="Relative Ram Speed Profile" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileTypeFlowRateVersusShotVolumeCommandInput" devLabel="% Flow Rate vs. % Shot Volume" translation="% Flow Rate vs. % Shot Volume" />
+	<label  commandName="ProcessSettingsRelativeRamSpeedProfileTypeRamSpeedVersusStrokeCommandInput" devLabel="% Ram Speed vs. % Stroke" translation="% Ram Speed vs. % Stroke" />
+	<label  commandName="ProcessSettingsResetToDefaulatTooltip" devLabel="Resets default process settings." translation="Resets default process settings." />
+	<label  commandName="ProcessSettingsRestoreOriginalValuesCommandInput" devLabel="Reset to Default" translation="Reset to Default" />
+	<label  commandName="QSimStudyDialog__IWantToInjectionMolding" devLabel="Can my design be manufactured to produce a quality, injection molded part?" translation="Can my design be manufactured to produce a quality, injection molded part?" />
+	<label  commandName="RemoveInjectionPointRow" devLabel="Remove" translation="Remove" />
+	<label  commandName="RemoveInjectionPointRowTooltip" devLabel="Remove injection point" translation="Remove injection point" />
+	<label  commandName="ResultSyncDesc1" devLabel="Synchronizes the result selection so that all windows show the same result type as the active window." translation="Synchronizes the result selection so that all windows show the same result type as the active window." />
+	<label  commandName="ResultSyncDesc2" devLabel="On by default, this command only synchronizes results from the same study type. Deactivate to view different results from the same study, or across different study types." translation="On by default, this command only synchronizes results from the same study type. Deactivate to view different results from the same study, or across different study types." />
+	<label  commandName="ResultsManagePanel" devLabel="Manage" translation="Manage" />
+	<label  commandName="ResultsViewsPanel" devLabel="Display" translation="Display" />
+	<label  commandName="SaveMfSdy" devLabel="Save Autodesk Moldflow File" translation="Save Autodesk Moldflow File" />
+	<label  commandName="SimAnimatePanel" devLabel="Animate" translation="Animate" />
+	<label  commandName="SimAnsysPanel" devLabel="ANSYS" translation="ANSYS" />
+	<label  commandName="SimCancelRunningInjectionMoldingJobAfter" devLabel="Intermediate results are available and you won't get a refund. Do you want to proceed?" translation="Intermediate results are available and you won't get a refund. Do you want to proceed?" />
+	<label  commandName="SimCancelRunningInjectionMoldingJobBefore" devLabel="While currently there are no intermediate results, if results are created before the job termination process completes, you won’t get a refund. Do you want to proceed?" translation="While currently there are no intermediate results, if results are created before the job termination process completes, you won’t get a refund. Do you want to proceed?" />
+	<label  commandName="SimCaseName" devLabel="Name" translation="Name" />
+	<label  commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Override Unit System" />
+	<label  commandName="SimCompareLayoutsPanel" devLabel="Layouts" translation="Layouts" />
+	<label  commandName="SimComparePanel" devLabel="COMPARE" translation="COMPARE" />
+	<label  commandName="SimComputeResultsNow" devLabel="The results have not been computed yet.&#xA;Would you like to compute the results now?" translation="The results have not been computed yet.&#10;Would you like to compute the results now?" />
+	<label  commandName="SimComputeResultsNowTitle" devLabel="View Results" translation="View Results" />
+	<label  commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="Name of Study is empty" />
+	<label  commandName="SimExportStudyAdviserAction" devLabel="Adviser" translation="Adviser" />
+	<label  commandName="SimExportStudyAdviserActionTooltip" devLabel="Open your Moldflow study file in Moldflow Adviser." translation="Open your Moldflow study file in Moldflow Adviser." />
+	<label  commandName="SimExportStudyInsightAction" devLabel="Insight" translation="Insight" />
+	<label  commandName="SimExportStudyInsightActionTooltip" devLabel="Open your Moldflow study file in Moldflow Insight." translation="Open your Moldflow study file in Moldflow Insight." />
+	<label  commandName="SimExportStudySaveAction" devLabel="Save" translation="Save" />
+	<label  commandName="SimExportStudySaveActionTooltip" devLabel="Save your Moldflow study file." translation="Save your Moldflow study file." />
+	<label  commandName="SimFEACSPreSolveCheckDesc1" devLabel="Checks the study setup to ensure it has all the information required to solve. The icon color indicates the setup status:" translation="Checks the study setup to ensure it has all the information required to solve. The icon color indicates the setup status:" />
+	<label  commandName="SimFEACSPreSolveCheckDesc2" devLabel="&lt;img src=&quot;ERROR_ICON_PATH&quot;&gt; Red" translation="&lt;img src=&quot;ERROR_ICON_PATH&quot;&gt; Red" />
+	<label  commandName="SimFEACSPreSolveCheckDesc3" devLabel="The Study cannot be solved because vital information is missing, such as valid material data." translation="The Study cannot be solved because vital information is missing, such as valid material data." />
+	<label  commandName="SimFEACSPreSolveCheckDesc4" devLabel="&lt;img src=&quot;WARNING_ICON_PATH&quot;&gt; Orange" translation="&lt;img src=&quot;WARNING_ICON_PATH&quot;&gt; Orange" />
+	<label  commandName="SimFEACSPreSolveCheckDesc5" devLabel="The solver can run, but may produce unexpected results. Check the setup to ensure it is as you intend." translation="The solver can run, but may produce unexpected results. Check the setup to ensure it is as you intend." />
+	<label  commandName="SimFEACSPreSolveCheckDesc6" devLabel="&lt;img src=&quot;SUCCESS_ICON_PATH&quot;&gt; Green" translation="&lt;img src=&quot;SUCCESS_ICON_PATH&quot;&gt; Green" />
+	<label  commandName="SimFEACSPreSolveCheckDesc7" devLabel="The study can be solved and has no predictable issues." translation="The study can be solved and has no predictable issues." />
+	<label  commandName="SimFinishComparePanel" devLabel="Finish Compare" translation="Finish Compare" />
+	<label  commandName="SimFinishWebViewerPanel" devLabel="Finish Results" translation="Finish Results" />
+	<label  commandName="SimGeneralSectionLabel" devLabel="General" translation="General" />
+	<label  commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additive" />
+	<label  commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="All methods" />
+	<label  commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2-axis Cutting" />
+	<label  commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Casting" />
+	<label  commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Milling" />
+	<label  commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Unrestricted" />
+	<label  commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="U.S. (in)" />
+	<label  commandName="SimInjMoldMatCancelCommand" devLabel="Material Cancel" translation="Material Cancel" />
+	<label  commandName="SimInjMoldMatCommand" devLabel="Study Materials" translation="Study Materials" />
+	<label  commandName="SimInjMoldMatRequestCommand" devLabel="Material Request" translation="Material Request" />
+	<label  commandName="SimInjMoldProcessSettingsCmd" devLabel="Process Settings" translation="Process Settings" />
+	<label  commandName="SimInjMoldSummaryCardCmd" devLabel="Setup Summary" translation="Setup Summary" />
+	<label  commandName="SimInjectionMoldingDesc" devLabel="Determine how well your part will fill, and whether it will have quality issues, based on process settings, material selection, and injection location. View standard results and guided results." translation="Determine how well your part will fill, and whether it will have quality issues, based on process settings, material selection, and injection location. View standard results and guided results." />
+	<label  commandName="SimInspectPanel" devLabel="Inspect" translation="Inspect" />
+	<label  commandName="SimLayout1H2VDesc1" devLabel="Opens three windows so you can examine the data from three results, one above the other two." translation="Opens three windows so you can examine the data from three results, one above the other two." />
+	<label  commandName="SimLayout1H2VDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." />
+	<label  commandName="SimLayout1H3VDesc1" devLabel="Opens four windows so you can examine the data from four results, one above the other three." translation="Opens four windows so you can examine the data from four results, one above the other three." />
+	<label  commandName="SimLayout1H3VDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." />
+	<label  commandName="SimLayout1V2HDesc1" devLabel="Opens three windows so you can examine the data from three results, one to the left of the other two." translation="Opens three windows so you can examine the data from three results, one to the left of the other two." />
+	<label  commandName="SimLayout1V2HDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." />
+	<label  commandName="SimLayout1V3HDesc1" devLabel="Opens four windows so you can examine the data from four results, one to the left of the other three." translation="Opens four windows so you can examine the data from four results, one to the left of the other three." />
+	<label  commandName="SimLayout1V3HDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." />
+	<label  commandName="SimLayout2HDesc1" devLabel="Opens two windows so you can compare the data from two different results, one above the other." translation="Opens two windows so you can compare the data from two different results, one above the other." />
+	<label  commandName="SimLayout2HDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." />
+	<label  commandName="SimLayout2VDesc1" devLabel="Opens two windows so you can compare the data from two different results, side-by-side." translation="Opens two windows so you can compare the data from two different results, side-by-side." />
+	<label  commandName="SimLayout2VDesc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." />
+	<label  commandName="SimLayout2x2Desc1" devLabel="Opens four windows so you can examine the data from four different results." translation="Opens four windows so you can examine the data from four different results." />
+	<label  commandName="SimLayout2x2Desc2" devLabel="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." translation="Click on a window to activate it to select a different result. Compare results from the same study or from different studies." />
+	<label  commandName="SimLoadCaseReportWarning" devLabel=" Solve result of this load case is out of date." translation=" Solve result of this load case is out of date." />
+	<label  commandName="SimManagePanel" devLabel="Manage" translation="Manage" />
+	<label  commandName="SimMaterialsPanel" devLabel="Materials" translation="Materials" />
+	<label  commandName="SimMeshDisplayPanel" devLabel="Display" translation="Display" />
+	<label  commandName="SimMeshSectionLabel" devLabel="Mesh" translation="Mesh" />
+	<label  commandName="SimOptionsPanel" devLabel="Options" translation="Options" />
+	<label  commandName="SimReportItemAestheticFaces" devLabel="Aesthetic faces" translation="Aesthetic faces" />
+	<label  commandName="SimReportItemAirTraps" devLabel="Air traps" translation="Air traps" />
+	<label  commandName="SimReportItemAverageTemperature" devLabel="Avg. temperature (end of fill)" translation="Avg. temperature (end of fill)" />
+	<label  commandName="SimReportItemDeflectionAllEffects" devLabel="Deflection (all effects)" translation="Deflection (all effects)" />
+	<label  commandName="SimReportItemFill" devLabel="Fill" translation="Fill" />
+	<label  commandName="SimReportItemFillAnimation" devLabel="Fill animation" translation="Fill animation" />
+	<label  commandName="SimReportItemFillConfidence" devLabel="Fill confidence" translation="Fill confidence" />
+	<label  commandName="SimReportItemFilledFromInjectionLocation" devLabel="Filled from injection location" translation="Filled from injection location" />
+	<label  commandName="SimReportItemFilling" devLabel="Filling" translation="Filling" />
+	<label  commandName="SimReportItemFinalPartShape" devLabel="Final part shape" translation="Final part shape" />
+	<label  commandName="SimReportItemFlatnessIndicator" devLabel="Flatness indicator" translation="Flatness indicator" />
+	<label  commandName="SimReportItemFlowFrontTemperature" devLabel="Flow-front temperature" translation="Flow-front temperature" />
+	<label  commandName="SimReportItemGeometry" devLabel="Geometry" translation="Geometry" />
+	<label  commandName="SimReportItemGuidedResults" devLabel="Guided Results" translation="Guided Results" />
+	<label  commandName="SimReportItemInjectionLocations" devLabel="Injection locations" translation="Injection locations" />
+	<label  commandName="SimReportItemInjectionPressure" devLabel="Injection pressure" translation="Injection pressure" />
+	<label  commandName="SimReportItemMachineSetup" devLabel="Machine setup" translation="Machine setup" />
+	<label  commandName="SimReportItemMoldingProcess" devLabel="Molding Process" translation="Molding Process" />
+	<label  commandName="SimReportItemPackingCooling" devLabel="Packing &amp; Cooling" translation="Packing &amp; Cooling" />
+	<label  commandName="SimReportItemProcessSettings" devLabel="Process settings" translation="Process settings" />
+	<label  commandName="SimReportItemQualityPrediction" devLabel="Quality prediction" translation="Quality prediction" />
+	<label  commandName="SimReportItemResults" devLabel="Results" translation="Results" />
+	<label  commandName="SimReportItemSetup" devLabel="Study Setup" translation="Study Setup" />
+	<label  commandName="SimReportItemSinkMarkDepthEstimate" devLabel="Sink mark depth - Estimate" translation="Sink mark depth - Estimate" />
+	<label  commandName="SimReportItemSinkMarkDepthThreshold" devLabel="Sink mark depth - Threshold" translation="Sink mark depth - Threshold" />
+	<label  commandName="SimReportItemSinkMarkDepthVisualization" devLabel="Sink mark depth - Visualization" translation="Sink mark depth - Visualization" />
+	<label  commandName="SimReportItemSolidifiedPlastic" devLabel="Solidified plastic (ejection)" translation="Solidified plastic (ejection)" />
+	<label  commandName="SimReportItemSolidifiedPlasticEndOfFill" devLabel="Solidified plastic (end of fill)" translation="Solidified plastic (end of fill)" />
+	<label  commandName="SimReportItemTargetBody" devLabel="Target body" translation="Target body" />
+	<label  commandName="SimReportItemTimeToEjectionTemperature" devLabel="Time to ejection temperature" translation="Time to ejection temperature" />
+	<label  commandName="SimReportItemVisualDefects" devLabel="Visual defects" translation="Visual defects" />
+	<label  commandName="SimReportItemVolumetricShrinkageEjection" devLabel="Volumetric shrinkage (ejection)" translation="Volumetric shrinkage (ejection)" />
+	<label  commandName="SimReportItemWarpage" devLabel="Warpage" translation="Warpage" />
+	<label  commandName="SimReportItemWarpageTolerance" devLabel="Warpage tolerance" translation="Warpage tolerance" />
+	<label  commandName="SimReportItemWeldLines" devLabel="Weld lines" translation="Weld lines" />
+	<label  commandName="SimReportReset" devLabel="Reset" translation="Reset" />
+	<label  commandName="SimReportResetTT" devLabel="Reset all partially checked studies to default states" translation="Reset all partially checked studies to default states" />
+	<label  commandName="SimReportSelectAll" devLabel="Select All" translation="Select All" />
+	<label  commandName="SimReportUnSelectAll" devLabel="Unselect All" translation="Unselect All" />
+	<label  commandName="SimResultsManagePanel" devLabel="Manage" translation="Manage" />
+	<label  commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Custom" />
+	<label  commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metric (SI)" />
+	<label  commandName="SimSelectPanel" devLabel="Select" translation="Select" />
+	<label  commandName="SimSettingsGeneral" devLabel="Settings" translation="Settings" />
+	<label  commandName="SimSimplifyPanel" devLabel="Simplify" translation="Simplify" />
+	<label  commandName="SimSolvePanel" devLabel="Solve" translation="Solve" />
+	<label  commandName="SimStudyPanel" devLabel="Study" translation="Study" />
+	<label  commandName="SimSynchronizePanel" devLabel="Synchronize" translation="Synchronize" />
+	<label  commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentage" />
+	<label  commandName="SimUnitPieces" devLabel="Pieces" translation="Pieces" />
+	<label  commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Acceleration" />
+	<label  commandName="SimUnitsAngle" devLabel="Angle" translation="Angle" />
+	<label  commandName="SimUnitsCurrent" devLabel="Current" translation="Current" />
+	<label  commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Electrical Resistance" />
+	<label  commandName="SimUnitsEnergy" devLabel="Energy" translation="Energy" />
+	<label  commandName="SimUnitsForce" devLabel="Force" translation="Force" />
+	<label  commandName="SimUnitsLength" devLabel="Length" translation="Length" />
+	<label  commandName="SimUnitsMass" devLabel="Mass" translation="Mass" />
+	<label  commandName="SimUnitsPower" devLabel="Power" translation="Power" />
+	<label  commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressure" />
+	<label  commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperature" />
+	<label  commandName="SimUnitsTime" devLabel="Time" translation="Time" />
+	<label  commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocity" />
+	<label  commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosity" />
+	<label  commandName="SimUnitsVoltage" devLabel="Voltage" translation="Voltage" />
+	<label  commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Flow Rate" />
+	<label  commandName="SimV2ResultsNow" devLabel="The results have not been computed yet.&#xA;Would you like to compute the results now?" translation="The results have not been computed yet.&#10;Would you like to compute the results now?" />
+	<label  commandName="SimV2ResultsNowTitle" devLabel="View Results" translation="View Results" />
+	<label  commandName="SimViewsPanel" devLabel="Display" translation="Display" />
+	<label  commandName="SimWebViewDataError" devLabel="Error: Unable to access result data." translation="Error: Unable to access result data." />
+	<label  commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="Name of Study is already used!" />
+	<label  commandName="SummaryCard" devLabel="Setup Summary" translation="Setup Summary" />
+	<label  commandName="SummaryCardAestheticFacesStringCommandInput" devLabel="Aesthetic Faces" translation="Aesthetic Faces" />
+	<label  commandName="SummaryCardInjectionLocationsStringCommandInput" devLabel="Injection Locations" translation="Injection Locations" />
+	<label  commandName="SummaryCardInjectionTimeStringCommandInput" devLabel="Injection Time" translation="Injection Time" />
+	<label  commandName="SummaryCardInjectionTimeTypeAutomatic" devLabel="Automatic" translation="Automatic" />
+	<label  commandName="SummaryCardMaterialStringCommandInput" devLabel="Material" translation="Material" />
+	<label  commandName="SummaryCardMeltTemperatureStringCommandInput" devLabel="Melt Temperature" translation="Melt Temperature" />
+	<label  commandName="SummaryCardMoldTemperatureStringCommandInput" devLabel="Mold Surface Temperature" translation="Mold Surface Temperature" />
+	<label  commandName="SummaryCardSolveButtonCommandInput" devLabel="Solve" translation="Solve" />
+	<label  commandName="SummaryCardTargetBodyStringCommandInput" devLabel="Target Body" translation="Target Body" />
+	<label  commandName="TargetBodyPanel" devLabel="Target Body" translation="Target Body" />
+	<label  commandName="ViewerComparePanel" devLabel="Compare" translation="Compare" />
+	<label  commandName="ViewerDisplayPanel" devLabel="Study" translation="Study" />
+	<label  commandName="ViewerInspectPanel" devLabel="Inspect" translation="Inspect" />
+	<label  commandName="ViewerLayoutsPanel" devLabel="Layouts" translation="Layouts" />
+	<label  commandName="ViewerReportPanel" devLabel="Report" translation="Report" />
+	<label  commandName="ViewerResultsViewsPanel" devLabel="Display" translation="Display" />
+	<label  commandName="ViewerSyncPanel" devLabel="Synchronize" translation="Synchronize" />
+	<label  commandName="VisualFacesCmdDef" devLabel="Aesthetic Faces" translation="Aesthetic Faces" />
+	<label  commandName="VisualFacesCommand1" devLabel="Defines faces with a high aesthetic requirement, that must be free from blemishes." translation="Defines faces with a high aesthetic requirement, that must be free from blemishes." />
+	<label  commandName="VisualFacesCommand2" devLabel="Select faces that should be visually appealing in your model. These faces display in green on the canvas. Make sure you don't place the injection locations on aesthetic faces, because it causes blemishes." translation="Select faces that should be visually appealing in your model. These faces display in green on the canvas. Make sure you don't place the injection locations on aesthetic faces, because it causes blemishes." />
+	<label  commandName="VisualFacesFacesInput" devLabel="Faces" translation="Faces" />
+	<label  commandName="VisualFacesSelectFaces" devLabel="Select faces that should be visually appealing in your model." translation="Select faces that should be visually appealing in your model." />
+	<label  commandName="VisualFacesSelectTangentFaces" devLabel="Selects tangent faces." translation="Selects tangent faces." />
+	<label  commandName="VisualFacesTangentOptionInput" devLabel="Tangent Chain" translation="Tangent Chain" />
+	<label  commandName="WebViewerCmd" devLabel="Simulation Results" translation="Simulation Results" />
+	<label  commandName="WebViewerPanel" devLabel="Results" translation="Results" />
+	<label  commandName="lclz2DPlotsPanel" devLabel="2D PLOTS" translation="2D PLOTS" />
+	<label  commandName="lclzDebugTab" devLabel="DEBUG" translation="DEBUG" />
+	<label  commandName="lclzDeformation" devLabel="DEFORMATION" translation="DEFORMATION" />
+	<label  commandName="lclzDiagnosticsPanel" devLabel="Diagnostics" translation="Diagnostics" />
+	<label  commandName="lclzFilePanel" devLabel="File" translation="File" />
+	<label  commandName="lclzFinishResultsPanel" devLabel="Finish Results" translation="Finish Results" />
+	<label  commandName="lclzFinishSimComparePanel" devLabel="Finish Compare" translation="Finish Compare" />
+	<label  commandName="lclzInjectionMoldingSolveCommand1" devLabel="Solves the simulation using the study setup conditions you defined." translation="Solves the simulation using the study setup conditions you defined." />
+	<label  commandName="lclzInjectionMoldingSolveCommand2" devLabel="Run Pre-check before solving, to verify that the study setup is complete. Solve one or more studies simultaneously. Track the progress in the Job Status dialog." translation="Run Pre-check before solving, to verify that the study setup is complete. Solve one or more studies simultaneously. Track the progress in the Job Status dialog." />
+	<label  commandName="lclzMassParticipationPanel" devLabel="MASS PARTICIPATION" translation="MASS PARTICIPATION" />
+	<label  commandName="lclzResultTools" devLabel="RESULT TOOLS" translation="RESULT TOOLS" />
+	<label  commandName="lclzResultsViewerTab" devLabel="RESULTS" translation="RESULTS" />
+	<label  commandName="lclzSelectionPriorityCommands" devLabel="Selection Priority" translation="Selection Priority" />
+	<label  commandName="lclzSelectionTools" devLabel="Selection Tools" translation="Selection Tools" />
+	<label  commandName="lclzSimSetupTab" devLabel="SETUP" translation="SETUP" />
+	<label  commandName="lclzSummaryCardCommand1" devLabel="Shows a convenient summary list of the study set up inputs, with quick links to edit them." translation="Shows a convenient summary list of the study set up inputs, with quick links to edit them." />
+	<label  commandName="lclzSummaryCardCommand2" devLabel="The links are the same as the commands found on the toolbar. Check the inputs and edit them if required. When the setup is ready, click Solve." translation="The links are the same as the commands found on the toolbar. Check the inputs and edit them if required. When the setup is ready, click Solve." />
+	<label  commandName="lclzUIDemo" devLabel="UI Demo" translation="UI Demo" />
+	<label  commandName="lclzViewerCompareTab" devLabel="COMPARE" translation="COMPARE" />
+	<label  commandName="lclzWebViewerCmd1" devLabel="Enables you to view the results to see if your part is likely to fill, warp, or have visual defects." translation="Enables you to view the results to see if your part is likely to fill, warp, or have visual defects." />
+	<label  commandName="lclzWebViewerCmd2" devLabel="Results are viewable as soon as the study is solved. View Guided Results for assistance to interpret the Fill, Visual defects, and Warpage results. Switch to the Results tab to view specific results." translation="Results are viewable as soon as the study is solved. View Guided Results for assistance to interpret the Fill, Visual defects, and Warpage results. Switch to the Results tab to view specific results." />
+	<label  commandName="lclzsolverDataPanel" devLabel="Solver Data" translation="Solver Data" />
 </Resource>

@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="Body" devLabel="Body" translation="Corpo"/>
-	<label commandName="Edge" devLabel="Edge" translation="Spigolo"/>
-	<label commandName="Face" devLabel="Face" translation="Faccia"/>
-	<label commandName="SimAppliedTemperatureLoadName" devLabel="Applied Temperature" translation="Temperatura applicata"/>
-	<label commandName="SimCallThermalLoad" devLabel="Click here to select 'Thermal Load'." translation="Fare clic qui per selezionare 'Carico termico'."/>
-	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Sostituisci sistema di unità"/>
-	<label commandName="SimConvectionLoadName" devLabel="Convection" translation="Convezione"/>
-	<label commandName="SimDisabledThermalLoad" devLabel="Warning: Temperature results are used directly from the linked study therefore existing thermal loads are ignored%1%." translation="Avvertimento: i risultati della temperatura vengono utilizzati direttamente dallo studio collegato, quindi i carichi termici esistenti vengono ignorati%1%."/>
-	<label commandName="SimFormatForNewNameSimThermalTransientConvectionLoad" devLabel="Transient Convection%1%" translation="Convezione transitoria%1%"/>
-	<label commandName="SimFormatForNewNameSimThermalTransientEmissivityLoad" devLabel="Transient Radiation%1%" translation="Irraggiamento transitorio%1%"/>
-	<label commandName="SimFormatForNewNameSimThermalTransientInternalHeatLoad" devLabel="Transient Internal Heat%1%" translation="Calore interno transitorio%1%"/>
-	<label commandName="SimFormatForNewNameSimThermalTransientSurfaceHeatLoad" devLabel="Transient Heat Source%1%" translation="Fonte di calore temporanea%1%"/>
-	<label commandName="SimFormatForNewNameSimThermalTransientTemperatureLoad" devLabel="Transient Temperature%1%" translation="Temperatura transitoria%1%"/>
-	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additivo"/>
-	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Tutti i metodi"/>
-	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="Taglio a 2 assi"/>
-	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Colata"/>
-	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fresatura"/>
-	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Non limitato"/>
-	<label commandName="SimHeatSourceOnEdgesNotSupported" devLabel="Heat source loads applied to edges in Fusion are not supported in Ansys." translation="I carichi di fonte di calore applicati agli spigoli in Fusion non sono supportati in Ansys."/>
-	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Stati Uniti (pollici)"/>
-	<label commandName="SimIndepTmpr" devLabel="Independent Temperature %1%" translation="Temperatura indipendente %1%"/>
-	<label commandName="SimInternalHeatLoadName" devLabel="Internal Heat" translation="Calore interno"/>
-	<label commandName="SimInvalidInternalHeatnLoadNotSupported" devLabel="Temperature-dependent internal heat loads used in Fusion are sent as constant load. You will have to delete and recreate such loads on the Ansys side." translation="I carichi di calore interni dipendenti dalla temperatura utilizzati in Fusion vengono inviati come carico costante. È necessario eliminare e ricreare tali carichi su Ansys."/>
-	<label commandName="SimInvalidLoad" devLabel="Warning: Invalid load: %1%%2%." translation="Avvertimento: carico non valido: %1%%2%."/>
-	<label commandName="SimLoadCaseString" devLabel=" in load case &quot;%1%&quot;" translation=" nella condizione di carico &quot;%1%&quot;"/>
-	<label commandName="SimMissingLoadTarget" devLabel="Warning: Load with lost target(s): %1%%2%." translation="Avvertimento: carico con destinazioni perse: %1%%2%."/>
-	<label commandName="SimNoThermalLoad" devLabel="Cannot solve: No temperature based load defined%1%." translation="Risoluzione impossibile: nessun carico basato sulla temperatura definito %1%."/>
-	<label commandName="SimNothingIsSelected" devLabel="Nothing is selected." translation="Nessun elemento selezionato."/>
-	<label commandName="SimRadiationLoadName" devLabel="Radiation" translation="Irraggiamento"/>
-	<label commandName="SimRadiationLoadNotSupported" devLabel="Thermal radiation loads used in Fusion are not supported in Ansys Discovery" translation="I carichi di irraggiamento termico utilizzati in Fusion non sono supportati in Ansys Discovery"/>
-	<label commandName="SimReportTransientAppliedTemperature" devLabel="Transient Applied Temperature" translation="Temperatura applicata transitoria"/>
-	<label commandName="SimReportTransientConvection" devLabel="Transient Convection" translation="Convezione transitoria"/>
-	<label commandName="SimReportTransientInternalHeat" devLabel="Transient Internal Heat" translation="Calore interno transitorio"/>
-	<label commandName="SimReportTransientRadiation" devLabel="Transient Radiation" translation="Irraggiamento transitorio"/>
-	<label commandName="SimReportTransientSurfaceHeat" devLabel="Transient Heat Source" translation="Fonte di calore temporanea"/>
-	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personalizzato"/>
-	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Unità metriche (SI)"/>
-	<label commandName="SimStatusInternalHeatNegative" devLabel="Negative Heat Value" translation="Valore calore negativo"/>
-	<label commandName="SimSurfaceHeatLoadName" devLabel="Heat Source" translation="Fonte di calore"/>
-	<label commandName="SimTemperatureLoadValue" devLabel="Value" translation="Valore"/>
-	<label commandName="SimThermalConvectionLoadSingleConvection" devLabel="Convection" translation="Convezione"/>
-	<label commandName="SimThermalConvectionLoadTemperature" devLabel="Temperature" translation="Temperatura"/>
-	<label commandName="SimThermalEmissivityLoadAbsorptivityEmissivity" devLabel="Absorptivity" translation="Assorbimento"/>
-	<label commandName="SimThermalEmissivityLoadSingleEmissivity" devLabel="Emissivity" translation="Emissività"/>
-	<label commandName="SimThermalEmissivityLoadTemperature" devLabel="Temperature" translation="Temperatura"/>
-	<label commandName="SimThermalInternalHeatLoadIndependent" devLabel="Independent Temperature" translation="Temperatura indipendente"/>
-	<label commandName="SimThermalInternalHeatLoadPerEntity" devLabel="Load Per Entity" translation="Carico per entità"/>
-	<label commandName="SimThermalInternalHeatLoadPerUnitVolume" devLabel="Per Unit Volume" translation="Per unità di volume"/>
-	<label commandName="SimThermalInternalHeatLoadSelectionName" devLabel="Internal Heat" translation="Calore interno"/>
-	<label commandName="SimThermalInternalHeatLoadSingleValue" devLabel="Internal Heat" translation="Calore interno"/>
-	<label commandName="SimThermalLoadHierarchy" devLabel="Warning: Two or more Temperature Loads overlap: %1% on %2% and %3% on %4%. Only %5% will be used." translation="Avvertimento: due o più carichi temperatura si sovrappongono: %1% su %2% e %3% su %4%. Verrà utilizzato solo %5%."/>
-	<label commandName="SimThermalNeedsHeatSourceAndSink" devLabel="Load case &quot;%1%&quot; must define a sink of heat in addition to a source of heat." translation="La condizione di carico &quot;%1%&quot; deve definire un dissipatore di calore oltre a una fonte di calore."/>
-	<label commandName="SimThermalSurfaceHeatLoadIndependent" devLabel="Independent Temperature" translation="Temperatura indipendente"/>
-	<label commandName="SimThermalSurfaceHeatLoadPerUnit" devLabel="Per Unit" translation="Per unità"/>
-	<label commandName="SimThermalSurfaceHeatLoadRefEntType" devLabel="Referenced Entity Type" translation="Tipo di entità di riferimento"/>
-	<label commandName="SimThermalSurfaceHeatLoadSingleValue" devLabel="Value" translation="Valore"/>
-	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentuale"/>
-	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pezzi"/>
-	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
-	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angolo"/>
-	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Corrente"/>
-	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Resistenza elettrica"/>
-	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
-	<label commandName="SimUnitsForce" devLabel="Force" translation="Forza"/>
-	<label commandName="SimUnitsLength" devLabel="Length" translation="Lunghezza"/>
-	<label commandName="SimUnitsMass" devLabel="Mass" translation="Massa"/>
-	<label commandName="SimUnitsPower" devLabel="Power" translation="Potenza"/>
-	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressione"/>
-	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
-	<label commandName="SimUnitsTime" devLabel="Time" translation="Tempo"/>
-	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocità"/>
-	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosità"/>
-	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tensione"/>
-	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Portata"/>
-	<label commandName="SimulationStudyIsMissing" devLabel="Simulation Study is missing" translation="Studio di simulazione mancante"/>
-	<label commandName="Vertex" devLabel="Vertex" translation="Vertice"/>
+	<label  commandName="Body" devLabel="Body" translation="Body" />
+	<label  commandName="Edge" devLabel="Edge" translation="Edge" />
+	<label  commandName="Face" devLabel="Face" translation="Face" />
+	<label  commandName="SimAppliedTemperatureLoadName" devLabel="Applied Temperature" translation="Applied Temperature" />
+	<label  commandName="SimCallThermalLoad" devLabel="Click here to select 'Thermal Load'." translation="Click here to select 'Thermal Load'." />
+	<label  commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Override Unit System" />
+	<label  commandName="SimConvectionLoadName" devLabel="Convection" translation="Convection" />
+	<label  commandName="SimDisabledThermalLoad" devLabel="Warning: Temperature results are used directly from the linked study therefore existing thermal loads are ignored%1%." translation="Warning: Temperature results are used directly from the linked study therefore existing thermal loads are ignored%1%." />
+	<label  commandName="SimFormatForNewNameSimThermalTransientConvectionLoad" devLabel="Transient Convection%1%" translation="Transient Convection%1%" />
+	<label  commandName="SimFormatForNewNameSimThermalTransientEmissivityLoad" devLabel="Transient Radiation%1%" translation="Transient Radiation%1%" />
+	<label  commandName="SimFormatForNewNameSimThermalTransientInternalHeatLoad" devLabel="Transient Internal Heat%1%" translation="Transient Internal Heat%1%" />
+	<label  commandName="SimFormatForNewNameSimThermalTransientSurfaceHeatLoad" devLabel="Transient Heat Source%1%" translation="Transient Heat Source%1%" />
+	<label  commandName="SimFormatForNewNameSimThermalTransientTemperatureLoad" devLabel="Transient Temperature%1%" translation="Transient Temperature%1%" />
+	<label  commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additive" />
+	<label  commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="All methods" />
+	<label  commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2-axis Cutting" />
+	<label  commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Casting" />
+	<label  commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Milling" />
+	<label  commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Unrestricted" />
+	<label  commandName="SimHeatSourceOnEdgesNotSupported" devLabel="Heat source loads applied to edges in Fusion are not supported in Ansys." translation="Heat source loads applied to edges in Fusion are not supported in Ansys." />
+	<label  commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="U.S. (in)" />
+	<label  commandName="SimIndepTmpr" devLabel="Independent Temperature %1%" translation="Independent Temperature %1%" />
+	<label  commandName="SimInternalHeatLoadName" devLabel="Internal Heat" translation="Internal Heat" />
+	<label  commandName="SimInvalidInternalHeatnLoadNotSupported" devLabel="Temperature-dependent internal heat loads used in Fusion are sent as constant load. You will have to delete and recreate such loads on the Ansys side." translation="Temperature-dependent internal heat loads used in Fusion are sent as constant load. You will have to delete and recreate such loads on the Ansys side." />
+	<label  commandName="SimInvalidLoad" devLabel="Warning: Invalid load: %1%%2%." translation="Warning: Invalid load: %1%%2%." />
+	<label  commandName="SimLoadCaseString" devLabel=" in load case &quot;%1%&quot;" translation=" in load case &quot;%1%&quot;" />
+	<label  commandName="SimMissingLoadTarget" devLabel="Warning: Load with lost target(s): %1%%2%." translation="Warning: Load with lost target(s): %1%%2%." />
+	<label  commandName="SimNoThermalLoad" devLabel="Cannot solve: No temperature based load defined%1%." translation="Cannot solve: No temperature based load defined%1%." />
+	<label  commandName="SimNothingIsSelected" devLabel="Nothing is selected." translation="Nothing is selected." />
+	<label  commandName="SimRadiationLoadName" devLabel="Radiation" translation="Radiation" />
+	<label  commandName="SimRadiationLoadNotSupported" devLabel="Thermal radiation loads used in Fusion are not supported in Ansys Discovery" translation="Thermal radiation loads used in Fusion are not supported in Ansys Discovery" />
+	<label  commandName="SimReportTransientAppliedTemperature" devLabel="Transient Applied Temperature" translation="Transient Applied Temperature" />
+	<label  commandName="SimReportTransientConvection" devLabel="Transient Convection" translation="Transient Convection" />
+	<label  commandName="SimReportTransientInternalHeat" devLabel="Transient Internal Heat" translation="Transient Internal Heat" />
+	<label  commandName="SimReportTransientRadiation" devLabel="Transient Radiation" translation="Transient Radiation" />
+	<label  commandName="SimReportTransientSurfaceHeat" devLabel="Transient Heat Source" translation="Transient Heat Source" />
+	<label  commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Custom" />
+	<label  commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metric (SI)" />
+	<label  commandName="SimStatusInternalHeatNegative" devLabel="Negative Heat Value" translation="Negative Heat Value" />
+	<label  commandName="SimSurfaceHeatLoadName" devLabel="Heat Source" translation="Heat Source" />
+	<label  commandName="SimTemperatureLoadValue" devLabel="Value" translation="Value" />
+	<label  commandName="SimThermalConvectionLoadSingleConvection" devLabel="Convection" translation="Convection" />
+	<label  commandName="SimThermalConvectionLoadTemperature" devLabel="Temperature" translation="Temperature" />
+	<label  commandName="SimThermalEmissivityLoadAbsorptivityEmissivity" devLabel="Absorptivity" translation="Absorptivity" />
+	<label  commandName="SimThermalEmissivityLoadSingleEmissivity" devLabel="Emissivity" translation="Emissivity" />
+	<label  commandName="SimThermalEmissivityLoadTemperature" devLabel="Temperature" translation="Temperature" />
+	<label  commandName="SimThermalInternalHeatLoadIndependent" devLabel="Independent Temperature" translation="Independent Temperature" />
+	<label  commandName="SimThermalInternalHeatLoadPerEntity" devLabel="Load Per Entity" translation="Load Per Entity" />
+	<label  commandName="SimThermalInternalHeatLoadPerUnitVolume" devLabel="Per Unit Volume" translation="Per Unit Volume" />
+	<label  commandName="SimThermalInternalHeatLoadSelectionName" devLabel="Internal Heat" translation="Internal Heat" />
+	<label  commandName="SimThermalInternalHeatLoadSingleValue" devLabel="Internal Heat" translation="Internal Heat" />
+	<label  commandName="SimThermalLoadHierarchy" devLabel="Warning: Two or more Temperature Loads overlap: %1% on %2% and %3% on %4%. Only %5% will be used." translation="Warning: Two or more Temperature Loads overlap: %1% on %2% and %3% on %4%. Only %5% will be used." />
+	<label  commandName="SimThermalNeedsHeatSourceAndSink" devLabel="Load case &quot;%1%&quot; must define a sink of heat in addition to a source of heat." translation="Load case &quot;%1%&quot; must define a sink of heat in addition to a source of heat." />
+	<label  commandName="SimThermalSurfaceHeatLoadIndependent" devLabel="Independent Temperature" translation="Independent Temperature" />
+	<label  commandName="SimThermalSurfaceHeatLoadPerUnit" devLabel="Per Unit" translation="Per Unit" />
+	<label  commandName="SimThermalSurfaceHeatLoadRefEntType" devLabel="Referenced Entity Type" translation="Referenced Entity Type" />
+	<label  commandName="SimThermalSurfaceHeatLoadSingleValue" devLabel="Value" translation="Value" />
+	<label  commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentage" />
+	<label  commandName="SimUnitPieces" devLabel="Pieces" translation="Pieces" />
+	<label  commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Acceleration" />
+	<label  commandName="SimUnitsAngle" devLabel="Angle" translation="Angle" />
+	<label  commandName="SimUnitsCurrent" devLabel="Current" translation="Current" />
+	<label  commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Electrical Resistance" />
+	<label  commandName="SimUnitsEnergy" devLabel="Energy" translation="Energy" />
+	<label  commandName="SimUnitsForce" devLabel="Force" translation="Force" />
+	<label  commandName="SimUnitsLength" devLabel="Length" translation="Length" />
+	<label  commandName="SimUnitsMass" devLabel="Mass" translation="Mass" />
+	<label  commandName="SimUnitsPower" devLabel="Power" translation="Power" />
+	<label  commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressure" />
+	<label  commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperature" />
+	<label  commandName="SimUnitsTime" devLabel="Time" translation="Time" />
+	<label  commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocity" />
+	<label  commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosity" />
+	<label  commandName="SimUnitsVoltage" devLabel="Voltage" translation="Voltage" />
+	<label  commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Flow Rate" />
+	<label  commandName="SimulationStudyIsMissing" devLabel="Simulation Study is missing" translation="Simulation Study is missing" />
+	<label  commandName="Vertex" devLabel="Vertex" translation="Vertex" />
 </Resource>

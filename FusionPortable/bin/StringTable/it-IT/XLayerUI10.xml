@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="RetryButton" devLabel="Retry" translation="Riprova"/>
-	<label commandName="ScriptAuthorUnknown" devLabel="Unknown" translation="Sconosciuto"/>
-	<label commandName="ScriptFutureLoadWarning" devLabel="In the next major Fusion update, you will need to install a new version of the Add-In: '%1%' from '%2%' due to some internal changes being made to the Fusion API." translation="Con il prossimo aggiornamento principale di Fusion, sarà necessario installare una nuova versione del modulo aggiuntivo: '%1%' da '%2%' a causa di alcune modifiche interne apportate all'API di Fusion."/>
-	<label commandName="ScriptFutureLoadWarningLearnMore" devLabel="Learn More" translation="Ulteriori informazioni"/>
-	<label commandName="ScriptFutureLoadWarningTitle" devLabel="API Warning!" translation="Avvertimento API."/>
-	<label commandName="ScriptLoadError" devLabel="Due to some internal changes made to the Fusion API, the Add-In: '%1%' from '%2%' cannot be loaded. You need to install a new version of the Add-In that is compatible with this version of Fusion." translation="A causa di alcune modifiche interne apportate all'API di Fusion, non è possibile caricare il modulo aggiuntivo: '%1%' da '%2%'. È necessario installare una nuova versione del modulo aggiuntivo compatibile con questa versione di Fusion."/>
-	<label commandName="ScriptLoadErrorLearnMore" devLabel="Learn More" translation="Ulteriori informazioni"/>
-	<label commandName="ScriptLoadErrorTitle" devLabel="API Error!" translation="Errore API."/>
-	<label commandName="WorkspaceSuffix" devLabel="Workspace" translation="Area di lavoro"/>
+	<label  commandName="RetryButton" devLabel="Retry" translation="Retry" />
+	<label  commandName="ScriptAuthorUnknown" devLabel="Unknown" translation="Unknown" />
+	<label  commandName="ScriptFutureLoadWarning" devLabel="In the next major Fusion update, you will need to install a new version of the Add-In: '%1%' from '%2%' due to some internal changes being made to the Fusion API." translation="In the next major Fusion update, you will need to install a new version of the Add-In: '%1%' from '%2%' due to some internal changes being made to the Fusion API." />
+	<label  commandName="ScriptFutureLoadWarningLearnMore" devLabel="Learn More" translation="Learn More" />
+	<label  commandName="ScriptFutureLoadWarningTitle" devLabel="API Warning!" translation="API Warning!" />
+	<label  commandName="ScriptLoadError" devLabel="Due to some internal changes made to the Fusion API, the Add-In: '%1%' from '%2%' cannot be loaded. You need to install a new version of the Add-In that is compatible with this version of Fusion." translation="Due to some internal changes made to the Fusion API, the Add-In: '%1%' from '%2%' cannot be loaded. You need to install a new version of the Add-In that is compatible with this version of Fusion." />
+	<label  commandName="ScriptLoadErrorLearnMore" devLabel="Learn More" translation="Learn More" />
+	<label  commandName="ScriptLoadErrorTitle" devLabel="API Error!" translation="API Error!" />
+	<label  commandName="WorkspaceSuffix" devLabel="Workspace" translation="Workspace" />
 </Resource>

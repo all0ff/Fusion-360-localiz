@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="BoundedPointOnPathCommandInput" devLabel="LoftBoundedPOPInput" translation="LoftBoundedPOPInput"/>
-	<label commandName="ChainSelectionId" devLabel="Chain" translation="Catena"/>
-	<label commandName="ExtrudeExtentAll" devLabel="(All)" translation="(Tutto)"/>
-	<label commandName="ExtrudeExtentTo" devLabel="(To)" translation="(A)"/>
-	<label commandName="ExtrudeExtentToNext" devLabel="(To Next)" translation="(Al prossimo)"/>
-	<label commandName="LoftProfilePOPCommandInput" devLabel="LoftProfilePOPInput" translation="InputPOPProfiloLoft"/>
-	<label commandName="RevolveExtentFull" devLabel="(Full)" translation="(Completo)"/>
-	<label commandName="RevolveExtentTo" devLabel="(To)" translation="(A)"/>
-	<label commandName="VisibilityToggleCmd" devLabel="Show/Hide" translation="Mostra/Nascondi"/>
-	<label commandName="visibilityToggleWarningMsg" devLabel="Some of the work features you are trying to set visible are set to invisible currently in Object Visibility Options from Display Settings.They will remain invisible unless set in Object Visibility Options." translation="Alcune delle geometrie di lavoro che si sta tentando di impostare come visibili sono attualmente impostate come invisibili nelle opzioni Visibilità oggetto delle impostazioni di visualizzazione. Le geometrie rimarranno invisibili, a meno che non sia impostato diversamente nelle opzioni Visibilità oggetto."/>
+	<label  commandName="BoundedPointOnPathCommandInput" devLabel="LoftBoundedPOPInput" translation="LoftBoundedPOPInput" />
+	<label  commandName="ChainSelectionId" devLabel="Chain" translation="Chain" />
+	<label  commandName="ExtrudeExtentAll" devLabel="(All)" translation="(All)" />
+	<label  commandName="ExtrudeExtentTo" devLabel="(To)" translation="(To)" />
+	<label  commandName="ExtrudeExtentToNext" devLabel="(To Next)" translation="(To Next)" />
+	<label  commandName="LoftProfilePOPCommandInput" devLabel="LoftProfilePOPInput" translation="LoftProfilePOPInput" />
+	<label  commandName="RevolveExtentFull" devLabel="(Full)" translation="(Full)" />
+	<label  commandName="RevolveExtentTo" devLabel="(To)" translation="(To)" />
+	<label  commandName="VisibilityToggleCmd" devLabel="Show/Hide" translation="Show/Hide" />
+	<label  commandName="visibilityToggleWarningMsg" devLabel="Some of the work features you are trying to set visible are set to invisible currently in Object Visibility Options from Display Settings.They will remain invisible unless set in Object Visibility Options." translation="Some of the work features you are trying to set visible are set to invisible currently in Object Visibility Options from Display Settings.They will remain invisible unless set in Object Visibility Options." />
 </Resource>

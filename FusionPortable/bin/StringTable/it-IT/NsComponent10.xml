@@ -1,196 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="A360ContentNotAvailable" devLabel="This file is being saved currently, please wait" translation="È in corso il salvataggio di questo file, attendere..."/>
-	<label commandName="AddMaterialError" devLabel="Material could not be added to document." translation="Impossibile aggiungere il materiale al documento."/>
-	<label commandName="AddMaterialExistsError" devLabel="Material could not be added. An equivalent material is already present in the document." translation="Impossibile aggiungere il materiale. Nel documento è già presente un materiale equivalente."/>
-	<label commandName="Align" devLabel="Align" translation="Allinea"/>
-	<label commandName="AlignMate" devLabel=" (Align)" translation=" (Allinea)"/>
-	<label commandName="AlignTangent" devLabel=" (Tangent)" translation=" (Tangente)"/>
-	<label commandName="Angle" devLabel="Angle" translation="Angolo"/>
-	<label commandName="AngleConstraint" devLabel="Angle " translation="Angolo "/>
-	<label commandName="AngleMate" devLabel=" (Angle)" translation=" (Angolo)"/>
-	<label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="AppearanceCI"/>
-	<label commandName="AppearanceStr" devLabel="Appearance" translation="Aspetto"/>
-	<label commandName="AssyConstraintsSelectionId" devLabel="Joints" translation="Giunti"/>
-	<label commandName="CenterConstraint" devLabel="Center " translation="Centro "/>
-	<label commandName="ComponentInstanceSelectionCategory" devLabel="Components" translation="Componenti"/>
-	<label commandName="ComponentInstanceSelectionId" devLabel="Component Instance" translation="Istanza del componente"/>
-	<label commandName="ComponentInstancesSelectionId" devLabel="Component Instances" translation="Istanze componente"/>
-	<label commandName="ConstraintSelectionID" devLabel="GeomConstraint" translation="GeomConstraint"/>
-	<label commandName="ConstraintSetDefaultName" devLabel="Constraint Set" translation="Gruppo di vincoli"/>
-	<label commandName="ConstraintSetTooltipMultiComp" devLabel="%1% constraints between %2% components." translation="%1% vincoli tra %2% componenti."/>
-	<label commandName="ConstraintSetTooltipTwoComp" devLabel="%1% constraints between %2% and %3%." translation="%1% vincoli tra %2% e %3%."/>
-	<label commandName="ConstraintTypeCenter" devLabel="Center" translation="Centro"/>
-	<label commandName="ContactSetName" devLabel="ContactSet" translation="GruppoContatti"/>
-	<label commandName="ContactSetSelectionId" devLabel="Contact Set" translation="Gruppo di contatti"/>
-	<label commandName="ContactSetsSelectionId" devLabel="Contact Sets" translation="Gruppi di contatti"/>
-	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Oggetti memorizzati nella cache da un contesto dell'assieme dissolto"/>
-	<label commandName="CoordinateSystemCategory" devLabel="Coordinate Systems" translation="Sistemi di coordinate"/>
-	<label commandName="CoordinateSystemDefaultUserName" devLabel="User Coordinate System" translation="UCS"/>
-	<label commandName="CoordinateSystemSelectionId" devLabel="User Coordinate System" translation="UCS"/>
-	<label commandName="CoordinateSystemsSelectionId" devLabel="User Coordinate Systems" translation="Sistemi di coordinate utente"/>
-	<label commandName="CustomJointOccurrenceSelectionId" devLabel="GeometricRelationship Occurrence" translation="Occorrenza di GeometricRelationship"/>
-	<label commandName="CustomJointOccurrencesSelectionId" devLabel="GeometricRelationship Occurrences" translation="Occorrenze di GeometricRelationship"/>
-	<label commandName="CustomJointSelectionId" devLabel="GeometricRelationship" translation="GeometricRelationship"/>
-	<label commandName="CustomJointSelectionPluralId" devLabel="CustomJoints" translation="CustomJoints"/>
-	<label commandName="CyclicDependencyNotAllowed" devLabel="Cannot insert %1% into %2% because it will create a circular reference." translation="Impossibile inserire %1% in %2% perché creerà un riferimento circolare."/>
-	<label commandName="CyclicDependencyNotAllowed2" devLabel="Cannot insert %1% into %2% because if you undo or redo recent actions in these designs it will create a circular reference.&#xA;&#xA;Save, close, and reopen the designs to clear the undo history." translation="Impossibile inserire %1% in %2% perché se si annullano o si ripetono le azioni recenti in questi progetti, verrà creato un riferimento circolare.&#xA;&#xA;Salvare, chiudere e riaprire i progetti per cancellare la cronologia delle operazioni annullate."/>
-	<label commandName="CyclicDependencyNotAllowedReplace" devLabel="Cannot replace %1% with %2% in %3% because it will create a circular reference." translation="Impossibile sostituire %1% con %2% in %3% perché creerà un riferimento circolare."/>
-	<label commandName="CyclicDependencyNotAllowedReplace2" devLabel="Cannot replace %1% with %2% in %3% because if you undo or redo recent actions in these designs it will create a circular reference.&#xA;&#xA;Save, close, and reopen the designs to clear the undo history." translation="Impossibile sostituire %1% con %2% in %3% perché se si annullano o si ripetono le azioni recenti in questi progetti, verrà creato un riferimento circolare.&#xA;&#xA;Salvare, chiudere e riaprire i progetti per cancellare la cronologia delle operazioni annullate."/>
-	<label commandName="DeleteDocMaterialNotExistError1" devLabel="Material could not be deleted. This material is not present in the document." translation="Impossibile eliminare il materiale. Questo materiale non è presente nel documento."/>
-	<label commandName="DeleteDocMaterialNotExistError2" devLabel="There was a problem in deleting materials. Some of the materials might not be present in the document." translation="Si è verificato un problema durante l'eliminazione di materiali. Alcuni dei materiali potrebbe non essere presente nel documento."/>
-	<label commandName="FailedProjectInfoFetch" devLabel="Failed to fetch project information for document %1%" translation="Impossibile recuperare le informazioni di progetto per il documento %1%."/>
-	<label commandName="FailedToGetProjectInfo" devLabel="Failed to fetch project information for inserted design" translation="Impossibile recuperare le informazioni di progetto per il progetto inserito."/>
-	<label commandName="GetAllLatest" devLabel="Get All Latest" translation="Carica tutte le versioni più recenti"/>
-	<label commandName="GetLatest" devLabel="Get Latest" translation="Carica versione più recente"/>
-	<label commandName="InsertComponentRequest:CyclicReference" devLabel="Target asset is already a parent reference of the source asset." translation="L'asset di destinazione è già un riferimento principale dell'asset di origine."/>
-	<label commandName="InsertComponentRequest:NonCloudDocument" devLabel="Please upload the source document and try again." translation="Caricare il documento di origine e riprovare."/>
-	<label commandName="InsertComponentRequest:ReadOnly" devLabel="Unable to insert source component into a read only asset." translation="Impossibile inserire il componente di origine in un asset di sola lettura."/>
-	<label commandName="InsertComponentRequest:SameSourceTarget" devLabel="The target component is the same as the source component. Please select a different target component and try again." translation="Il componente di destinazione è identico al componente di origine. Selezionare un componente di destinazione diverso e riprovare."/>
-	<label commandName="InsertConstraint" devLabel="Align " translation="Allinea "/>
-	<label commandName="InsertMate" devLabel="Align (Concentric)" translation="Allinea (concentrico)"/>
-	<label commandName="IntersectionAnalysisInvalidBody" devLabel="An invalid body has been selected for Intersection Analysis" translation="È stato selezionato un corpo non valido per l'analisi intersezione"/>
-	<label commandName="InvalidTargetComponent" devLabel="Invalid target component" translation="Componente di destinazione non valido"/>
-	<label commandName="JointAngleConflictMessage" devLabel="Angle conflict due to %1%" translation="Conflitto angoli a causa di %1%"/>
-	<label commandName="JointBallName" devLabel="Ball" translation="Sfera"/>
-	<label commandName="JointBallPlaneName" devLabel="BallPlane" translation="BallPlane"/>
-	<label commandName="JointBallSlotName" devLabel="BallSlot" translation="BallSlot"/>
-	<label commandName="JointCategory" devLabel="Joints" translation="Giunti"/>
-	<label commandName="JointConflictDefinition" devLabel="joint type" translation="tipo di giunto"/>
-	<label commandName="JointConflictLocked" devLabel="locked value" translation="valore bloccato"/>
-	<label commandName="JointConflictMaximum" devLabel="Maximum value limit" translation="Valore limite massimo"/>
-	<label commandName="JointConflictMinimum" devLabel="Minimum value limit" translation="Limite valore minimo"/>
-	<label commandName="JointCylindricalName" devLabel="Cylindrical" translation="Cilindrico"/>
-	<label commandName="JointDOFAngleName" devLabel="Rotate" translation="Ruota"/>
-	<label commandName="JointDOFDistanceName" devLabel="Slide" translation="Scorrimento"/>
-	<label commandName="JointDOFDistanceNamePlanar1" devLabel="Slide 1" translation="Scorrimento 1"/>
-	<label commandName="JointDOFDistanceNamePlanar2" devLabel="Slide 2" translation="Scorrimento 2"/>
-	<label commandName="JointDOFPitchName" devLabel="Pitch" translation="Beccheggio"/>
-	<label commandName="JointDOFRollName" devLabel="Roll" translation="Rollio"/>
-	<label commandName="JointDOFSelectionId" devLabel="Joint DOF" translation="GDL giunto"/>
-	<label commandName="JointDOFSelectionRelationshipId" devLabel="Joint DOF Relationship" translation="Relazione di GDL del giunto"/>
-	<label commandName="JointDOFSelectionRelationshipsId" devLabel="Joint DOF Relationships" translation="Relazioni di GDL del giunto"/>
-	<label commandName="JointDOFYawName" devLabel="Yaw" translation="Imbardata"/>
-	<label commandName="JointDOFsSelectionId" devLabel="Joint DOFs" translation="GDL del giunto"/>
-	<label commandName="JointDistanceConflictMessage" devLabel="Distance conflict due to %1%" translation="Conflitto distanze a causa di %1%"/>
-	<label commandName="JointOccurrenceSelectionId" devLabel="Joint Occurrence" translation="Ricorrenza del giunto"/>
-	<label commandName="JointOccurrencesSelectionId" devLabel="Joint Occurrences" translation="Ricorrenze del giunto"/>
-	<label commandName="JointOriginCategory" devLabel="Joint Origins" translation="Origini del giunto"/>
-	<label commandName="JointOriginDefaultUserName" devLabel="Joint Origin" translation="Origine del giunto"/>
-	<label commandName="JointOriginSelectionId" devLabel="Joint Origin" translation="Origine del giunto"/>
-	<label commandName="JointOriginsSelectionId" devLabel="Joint Origins" translation="Origini del giunto"/>
-	<label commandName="JointPinPlaneName" devLabel="Planar" translation="Piano"/>
-	<label commandName="JointPinSlotName" devLabel="Pin-Slot" translation="Pin-Slot"/>
-	<label commandName="JointPlanarName" devLabel="PlaneSlide" translation="ScorrimentoPiano"/>
-	<label commandName="JointRevoluteName" devLabel="Revolute" translation="Rivoluzione"/>
-	<label commandName="JointRigidGroupName" devLabel="Rigid Group" translation="Gruppo rigido"/>
-	<label commandName="JointRigidName" devLabel="Rigid" translation="Rigido"/>
-	<label commandName="JointRollPlaneName" devLabel="RollPlane" translation="RollPlane"/>
-	<label commandName="JointSelectionId" devLabel="Joint" translation="Giunto"/>
-	<label commandName="JointSelectionPluralId" devLabel="Joints" translation="Giunti"/>
-	<label commandName="JointSliderName" devLabel="Slider" translation="Scorrimento"/>
-	<label commandName="JointTooltip" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% joint between %3% and %4%" translation="%1%&lt;br&gt;&lt;br&gt;%2% giunto tra %3% e %4%"/>
-	<label commandName="JointTooltip1" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% contains &lt;br&gt; %3% components &lt;br&gt;&lt;br&gt; Click to select group." translation="%1%&lt;br&gt;&lt;br&gt;%2% contiene &lt;br&gt; %3% componenti &lt;br&gt;&lt;br&gt; Fare clic per selezionare il gruppo."/>
-	<label commandName="JointTooltip2" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% joint between %3% and %4% &lt;br&gt;&lt;br&gt; Click to select group." translation="%1%&lt;br&gt;&lt;br&gt;%2% giunto tra %3% e %4% &lt;br&gt;&lt;br&gt; Fare clic per selezionare il gruppo."/>
-	<label commandName="MateOffsetAngleConflictMessage" devLabel="%1%’s Offset Angle conflicts with an existing assembly relationship." translation="L'angolo di offset di %1% è in conflitto con una relazione di assieme esistente."/>
-	<label commandName="MateOffsetAngleConflictTitle" devLabel="Offset Angle Conflict" translation="Conflitto angoli offset"/>
-	<label commandName="MateOffsetDistanceConflictMessage" devLabel="%1%’s Offset Distance conflicts with an existing assembly relationship." translation="La distanza di offset di %1% è in conflitto con una relazione di assieme esistente."/>
-	<label commandName="MateOffsetDistanceConflictTitle" devLabel="Offset Distance Conflict" translation="Conflitto distanze offset"/>
-	<label commandName="MateTooltipTwoComp" devLabel="Constraint between %1% &lt;br&gt;and %2%." translation="Vincolo tra %1% &lt;br&gt;e %2%."/>
-	<label commandName="MidplaneMate" devLabel=" (Center)" translation=" (Centro)"/>
-	<label commandName="MotionLinkName" devLabel="Motion Link" translation="Collegamento movimento"/>
-	<label commandName="MotionStudyName" devLabel="MotionStudy-" translation="StudioMovimento:"/>
-	<label commandName="MultiConstraint" devLabel="Constraints" translation="Vincoli"/>
-	<label commandName="NotAllowImportSelf" devLabel="A document cannot be inserted into itself." translation="Impossibile inserire un documento in se stesso."/>
-	<label commandName="OffsetWorkPlaneFromTwoPlanesRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="Impossibile creare il piano di lavoro di offset. Input non valido."/>
-	<label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Materiale fisico"/>
-	<label commandName="PlasticRuleStr" devLabel="Plastic Rule" translation="Regola plastica"/>
-	<label commandName="PositionType" devLabel="Position Type: " translation="Tipo di posizione: "/>
-	<label commandName="Project" devLabel="Project" translation="Progetto"/>
-	<label commandName="PropertiesStr" devLabel="Properties" translation="Proprietà"/>
-	<label commandName="ReplaceDocMaterialError" devLabel="Material could not be replaced in the document." translation="Impossibile sostituire il materiale nel documento."/>
-	<label commandName="ReplaceDocRemoveMaterialError" devLabel="The Old material could not be removed from the document, possibly because it is the default material." translation="Impossibile rimuovere il materiale precedente dal documento, probabilmente perché si tratta del materiale di default."/>
-	<label commandName="SelectedConfigurationStr" devLabel="Insert" translation="Inserisci"/>
-	<label commandName="SelectionGroupRequestWarning" devLabel="Warning: Some selections could not be added to the selection set" translation="Avvertimento: alcune selezioni non possono essere aggiunte al gruppo di selezione"/>
-	<label commandName="SelectionMate" devLabel="Selection: " translation="Selezione: "/>
-	<label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Regola lamiera"/>
-	<label commandName="SingleConstraint" devLabel="Constraint" translation="Vincolo"/>
-	<label commandName="TangentConstraint" devLabel="Tangent " translation="Tangente "/>
-	<label commandName="TangentMate" devLabel="Tangent" translation="Tangente"/>
-	<label commandName="TangentRelationshipConstrName" devLabel="TangentRelationship" translation="Relazione di tangenza"/>
-	<label commandName="TargetDocumentNotFound" devLabel="Target document not found!!" translation="Documento di destinazione non trovato."/>
-	<label commandName="TransitionalRelationshipCategory" devLabel="TransitionalRelationships" translation="TransitionalRelationships"/>
-	<label commandName="TransitionalRelationshipOccurrenceSelectionId" devLabel="TransitionalRelationship Occurrence" translation="Ricorrenza TransitionalRelationship"/>
-	<label commandName="TransitionalRelationshipOccurrencesSelectionId" devLabel="TransitionalRelationship Occurrences" translation="Ricorrenze TransitionalRelationship"/>
-	<label commandName="TransitionalRelationshipSelectionId" devLabel="TransitionalRelationship" translation="TransitionalRelationship"/>
-	<label commandName="TransitionalRelationshipSelectionPluralId" devLabel="TransitionalRelationships" translation="TransitionalRelationships"/>
-	<label commandName="VCS_ADD_ASSEMBLYCONSTR_FAILED" devLabel="Failed to evaluate references to solve Tangent Relationship." translation="Impossibile valutare i riferimenti per la risoluzione della relazione di tangente."/>
-	<label commandName="VCS_JOINT_DRAG_FAILURE" devLabel="drag failed" translation="trascinamento non riuscito"/>
-	<label commandName="VCS_JOINT_DRAG_FAILUREINITERROR" devLabel="drag failed due to initialization error" translation="Errore di inizializzazione. Trascinamento non riuscito."/>
-	<label commandName="VCS_JOINT_DRAG_INCONSISTENT" devLabel="drag failed due to inconsistencies" translation="trascinamento non riuscito a causa di incoerenze"/>
-	<label commandName="VCS_JOINT_DRIVE_FAILURE" devLabel="Joint drive failed unexpectedly" translation="Errore imprevisto animazione giunto"/>
-	<label commandName="VCS_JOINT_DRIVE_INCONSISTENT" devLabel="Joint drive failed due to inconsistencies" translation="Impossibile azionare il giunto. Sono state rilevate delle incoerenze."/>
-	<label commandName="VCS_JOINT_FAILURE" devLabel="Position calculation failed due to initialization error" translation="Impossibile calcolare la posizione. Si è verificato un errore di inizializzazione."/>
-	<label commandName="VCS_JOINT_INCONSISTENT" devLabel="Canât resolve some component positions because there are conflicts with assembly relationships in the design.&#xA;&#xA;Inspect existing assembly relationships." translation="Impossibile risolvere alcune posizioni dei componenti a causa della presenza di conflitti con le relazioni di assieme nella progettazione.&#xA;&#xA;Esaminare le relazioni di assieme esistenti."/>
-	<label commandName="VCS_SKETCH_OVER_CONSTRAINTS" devLabel="Sketch geometry is over constrained" translation="La geometria dello schizzo è ipervincolata"/>
-	<label commandName="VCS_SKETCH_SOLVING_FAILED" devLabel="Failed to solve. Please try revising dimensions or constraints." translation="Impossibile risolvere. Provare la revisione di quote o vincoli."/>
-	<label commandName="VisibilityStr" devLabel="Visibility" translation="Visibilità"/>
-	<label commandName="WorkAxisFromCylinderRequestGenericError" devLabel="Work Axis From Cylinder failed due to invalid input" translation="Asse di lavoro da cilindro non riuscito a causa di un input non valido"/>
-	<label commandName="WorkAxisFromCylinderRequestInputFaceError" devLabel="Work Axis through Cylinder failed:  Face is not a cylinder or a cone" translation="Impossibile creare l'asse di lavoro mediante cilindro. La faccia non è un cilindro o un cono."/>
-	<label commandName="WorkAxisFromFaceAndPointRequestFaceNormalError" devLabel="Axis failed: cannot calculate face normal at selected point" translation="Errore nell'asse: impossibile calcolare la perpendicolare della faccia nel punto selezionato"/>
-	<label commandName="WorkAxisFromFaceAndPointRequestGenericError" devLabel="Axis failed: invalid input" translation="Impossibile creare l'asse. Input non valido."/>
-	<label commandName="WorkAxisFromFaceAndPointRequestPointProjectError" devLabel="Axis failed: no projection from point to face" translation="Errore nell'asse: nessuna proiezione dal punto alla faccia"/>
-	<label commandName="WorkAxisFromLineRequestGenericError" devLabel="Work Axis From Edge failed.  Selected Edge must be linear" translation="Creazione dell'asse di lavoro dallo spigolo non riuscita. Lo spigolo selezionato deve essere lineare."/>
-	<label commandName="WorkAxisFromLocationAndVectorRequestGenericError" devLabel="Work Axis failed due to invalid input" translation="Impossibile creare asse di lavoro. Input non valido."/>
-	<label commandName="WorkAxisFromMidPlaneInvalidInput" devLabel="Midplane Work Plane failed due to invalid input" translation="Impossibile creare il piano di lavoro del piano medio. Input non valido."/>
-	<label commandName="WorkAxisFromTwoPlanesRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="Impossibile creare il piano di lavoro di offset. Input non valido."/>
-	<label commandName="WorkAxisFromTwoPlanesRequestParallelPlanesError" devLabel="Work Axis From Two Planes failed: input planes do not intersect" translation="Impossibile creare l'asse di lavoro mediante due piani. I piani di input non si intersecano."/>
-	<label commandName="WorkPlaneFromFaceAndPointRequestFaceNormalError" devLabel="Work Plane from Face and Point failed: Can't get normal of selected Face at the selected Point" translation="Impossibile creare il piano di lavoro mediante una faccia e un punto. Impossibile ottenere la perpendicolare della faccia selezionata in corrispondenza del punto selezionato."/>
-	<label commandName="WorkPlaneFromFaceAndPointRequestGenericError" devLabel="Work Plane from Face and Point failed due to invalid input" translation="Impossibile creare il piano di lavoro mediante una faccia e un punto. Input non valido."/>
-	<label commandName="WorkPlaneFromFaceAndPointRequestPointProjectError" devLabel="Work Plane from Face and Point failed: No projection from Point to Face" translation="Impossibile creare il piano di lavoro mediante una faccia e un punto. Nessuna proiezione dal punto alla faccia."/>
-	<label commandName="WorkPlaneFromLineAndAngleRequestGenericError" devLabel="Work Plane At Angle failed due to invalid input" translation="Impossibile creare il piano di lavoro in corrispondenza dell'angolo. Input non valido."/>
-	<label commandName="WorkPlaneFromLocationAndVectorRequestGenericError" devLabel="Work Plane failed due to invalid input" translation="Impossibile creare il piano di lavoro. Input non valido."/>
-	<label commandName="WorkPlaneFromPointAndNormalRequestError" devLabel="Work Plane failed due to invalid input" translation="Impossibile creare il piano di lavoro. Input non valido."/>
-	<label commandName="WorkPlaneFromPointAndNormalRequestTargetError" devLabel="Work Plane failed due to invalid target" translation="Impossibile creare il piano di lavoro. Destinazione non valida."/>
-	<label commandName="WorkPlaneFromThreePointsRequestColinearPointsError" devLabel="Work Plane through three points failed:  The points are collinear" translation="Impossibile creare il piano di lavoro attraverso tre punti. I punti sono collineari."/>
-	<label commandName="WorkPlaneFromThreePointsRequestEqualPointsError" devLabel="Work Plane through three points failed:  Two or more of the points are identical" translation="Impossibile creare il piano di lavoro attraverso tre punti. Due o più punti sono identici."/>
-	<label commandName="WorkPlaneFromTwoLinesRequestColinearInputsError" devLabel="Work Plane From Two Lines failed: Input lines are collinear" translation="Impossibile creare il piano di lavoro mediante due linee. Le linee di input sono collineari."/>
-	<label commandName="WorkPlaneFromTwoLinesRequestGenericError" devLabel="Work Plane From Two Lines failed due to invalid input" translation="Impossibile creare il piano di lavoro da due linee. Input non valido."/>
-	<label commandName="WorkPlaneFromTwoLinesRequestLinesNotParallelOrIntersectError" devLabel="Work Plane From Two Lines failed:  Input lines must intersect or be parallel" translation="Impossibile creare il piano di lavoro mediante due linee. Le linee di input devono essere intersecanti o parallele."/>
-	<label commandName="WorkPlaneFromTwoPlanesRequestCoplanarError" devLabel="Mid-Plane Work Plane failed:  Selected planes are coplanar" translation="Impossibile creare il piano di lavoro del piano medio: i piani selezionati sono complanari."/>
-	<label commandName="WorkPlaneInvalidInput" devLabel="Midplane Work Plane failed due to invalid input" translation="Impossibile creare il piano di lavoro del piano medio. Input non valido."/>
-	<label commandName="WorkPlaneOffsetFromPlaneRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="Impossibile creare il piano di lavoro di offset. Input non valido."/>
-	<label commandName="WorkPlanePerpendicularInvalidGeometry" devLabel="Perpendicular Work Plane failed: Invalid geometry" translation="Piano di lavoro perpendicolare non riuscito: geometria non valida"/>
-	<label commandName="WorkPlanePerpendicularNoInput" devLabel="Perpendicular Work Plane failed: No input geometry" translation="Piano di lavoro perpendicolare non riuscito: nessuna geometria di input"/>
-	<label commandName="WorkPlanePerpendicularToFaceRequestFaceNormalError" devLabel="Perpendicular Work Plane failed: Can't get normal of selected Face at the selected Point" translation="Piano di lavoro perpendicolare non riuscito: impossibile ottenere la perpendicolare della faccia selezionata in corrispondenza del punto selezionato"/>
-	<label commandName="WorkPlanePerpendicularToFaceRequestPointProjectError" devLabel="Perpendicular Work Plane failed: No projection from Point to Face" translation="Piano di lavoro perpendicolare non riuscito: nessuna proiezione da punto a faccia"/>
-	<label commandName="WorkPlaneTangentToCylinderRequestGenericError" devLabel="Tangent Work Plane failed due to invalid input" translation="Input non valido. Impossibile creare il piano di lavoro tangente."/>
-	<label commandName="WorkPointFromCircleRequestFaceNotSphereError" devLabel="Work Point From Circular Edge failed:  Selected edge is not circular" translation="Impossibile creare il punto di riferimento dallo spigolo circolare. Lo spigolo selezionato non è circolare."/>
-	<label commandName="WorkPointFromLineAndPlaneRequestEdgeNotLinearError" devLabel="Work Point From Line and Plane failed:  Selected Edge is not linear" translation="Impossibile creare il punto di riferimento dalla linea e dal piano: lo spigolo selezionato non è lineare"/>
-	<label commandName="WorkPointFromLineAndPlaneRequestFaceError" devLabel="Work Point From Line and Plane failed: Selected Face is not planar" translation="Impossibile creare il punto di riferimento da una linea e da un piano. La faccia selezionata non è piana."/>
-	<label commandName="WorkPointFromLineAndPlaneRequestLineAndFaceParallelError" devLabel="Work Point From Line and Plane failed: Selected Face and Line are parallel" translation="Impossibile creare il punto di riferimento mediante una linea e un piano: la faccia e la linea selezionate sono parallele"/>
-	<label commandName="WorkPointFromSphereRequestFaceNotSphereError" devLabel="Work Point From Sphere failed:  Selected face is not spherical" translation="Impossibile creare il punto di riferimento dalla sfera. La faccia selezionata non è sferica."/>
-	<label commandName="WorkPointFromSphereRequestGenericError" devLabel="Cannot create point" translation="Impossibile creare un punto"/>
-	<label commandName="WorkPointFromThreePlanesRequestGenericError" devLabel="Work Point from 3 Planes failed due to invalid input" translation="Impossibile creare il punto di riferimento mediante 3 piani. Input non valido."/>
-	<label commandName="WorkPointFromThreePlanesRequestParallelPlanesError" devLabel="Work Point From Three Planes failed: input planes do not intersect" translation="Impossibile creare il punto di riferimento da tre piani. I piani di input non si intersecano."/>
-	<label commandName="WorkPointFromTwoLinesRequestGenericError" devLabel="Work Point From Two Lines failed due to invalid input" translation="Impossibile creare il punto di riferimento mediante due linee. Input non valido."/>
-	<label commandName="WorkPointFromTwoLinesRequestNoIntersectionError" devLabel="Work Point From Two Lines failed: lines do not intersect" translation="Impossibile creare il punto di riferimento mediante due linee. Le linee non si intersecano."/>
-	<label commandName="XRefDifferentVersionAlreadyExistsSameWillBeInserted" devLabel="The active document is already referencing a different version of the document %1%. The same version will be inserted again." translation="Il documento attivo fa già riferimento ad una versione diversa del documento %1%. Verrà inserita di nuovo la stessa versione."/>
-	<label commandName="XRefDifferentVersionAlreadyExistsSameWillBeInserted_ccy" devLabel="This design already references %1%. The existing reference will be kept and nothing will be inserted." translation="Questa progettazione fa già riferimento a %1%. Il riferimento esistente verrà mantenuto e non verrà inserito alcun elemento."/>
-	<label commandName="XRefUpdateAbortedDueToMissingXRefs" devLabel="The operation failed because it results in some unresolved components. Please open following designs and fix the unresolved components:" translation="Operazione non riuscita perché genera alcuni componenti irrisolti. Aprire i seguenti progetti e correggere i componenti irrisolti:"/>
-	<label commandName="alignComponentsInconsistent" devLabel="No alignment suggested by geometry could be found" translation="Impossibile trovare un allineamento suggerito dalla geometria"/>
-	<label commandName="comp1Name" devLabel="&lt;unknown&gt;" translation="&lt;unknown&gt;"/>
-	<label commandName="comp2Name" devLabel="&lt;unknown&gt;" translation="&lt;unknown&gt;"/>
-	<label commandName="insertDocfaile" devLabel="The document could not be downloaded." translation="Impossibile scaricare il documento."/>
-	<label commandName="jointFailed" devLabel="%1% failed" translation="%1% non riuscito"/>
-	<label commandName="jointFailedMsg1" devLabel="Another assembly relationship may affect a component’s position or one of the component’s geometry may have changed." translation="Un'altra relazione di assieme potrebbe influire sulla posizione di un componente o una delle geometrie del componente potrebbe essere stata modificata."/>
-	<label commandName="jointFailedMsg2" devLabel="Inspect existing assembly relationships, restore any geometry changes, or edit the feature and select new geometry." translation="Esaminare le relazioni di assieme esistenti, ripristinare le modifiche alla geometria o modificare la lavorazione e selezionare una nuova geometria."/>
-	<label commandName="jointName" devLabel="&lt;unknown&gt;" translation="&lt;unknown&gt;"/>
-	<label commandName="jointType" devLabel="&lt;unknown&gt;" translation="&lt;unknown&gt;"/>
-	<label commandName="lclzXREFhasRelations" devLabel="Inserting a distributed design from one %1% to another is not currently supported.&#xA;&#xA;%2% of current design: %3%&#xA;%2% of design being inserted: %4%" translation="L'inserimento di un progetto distribuito da un %1% ad un altro non è attualmente supportato. &#xA;&#xA;%2% del progetto corrente: %3%&#xA;%2% del progetto inserito: %4%"/>
-	<label commandName="mateTimelineMultiCompTooltip" devLabel="%1% between %2% Components." translation="%1% tra %2% componenti."/>
-	<label commandName="mateTwoCompTimelineTooltipSecond" devLabel="and %1%." translation="e %1%."/>
-	<label commandName="mateTwoCompTimelineTooltipfirst" devLabel="%1% between %2%" translation="%1% tra %2%"/>
-	<label commandName="project" devLabel="project" translation="progetto"/>
-	<label commandName="solveContactSetInconsistent" devLabel="Contacts in new set cause a conflict" translation="I contatti nel nuovo gruppo causano un conflitto"/>
-	<label commandName="solveNewJointInconsistent" devLabel="Selected joint type will result in conflict" translation="Il tipo di giunto selezionato causa un conflitto"/>
+	<label  commandName="A360ContentNotAvailable" devLabel="This file is being saved currently, please wait" translation="This file is being saved currently, please wait" />
+	<label  commandName="AddMaterialError" devLabel="Material could not be added to document." translation="Material could not be added to document." />
+	<label  commandName="AddMaterialExistsError" devLabel="Material could not be added. An equivalent material is already present in the document." translation="Material could not be added. An equivalent material is already present in the document." />
+	<label  commandName="Align" devLabel="Align" translation="Align" />
+	<label  commandName="AlignMate" devLabel=" (Align)" translation=" (Align)" />
+	<label  commandName="AlignTangent" devLabel=" (Tangent)" translation=" (Tangent)" />
+	<label  commandName="Angle" devLabel="Angle" translation="Angle" />
+	<label  commandName="AngleConstraint" devLabel="Angle " translation="Angle " />
+	<label  commandName="AngleMate" devLabel=" (Angle)" translation=" (Angle)" />
+	<label  commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="AppearanceCI" />
+	<label  commandName="AppearanceStr" devLabel="Appearance" translation="Appearance" />
+	<label  commandName="AssyConstraintsSelectionId" devLabel="Joints" translation="Joints" />
+	<label  commandName="CenterConstraint" devLabel="Center " translation="Center " />
+	<label  commandName="ComponentInstanceSelectionCategory" devLabel="Components" translation="Components" />
+	<label  commandName="ComponentInstanceSelectionId" devLabel="Component Instance" translation="Component Instance" />
+	<label  commandName="ComponentInstancesSelectionId" devLabel="Component Instances" translation="Component Instances" />
+	<label  commandName="ConstraintSelectionID" devLabel="GeomConstraint" translation="GeomConstraint" />
+	<label  commandName="ConstraintSetDefaultName" devLabel="Constraint Set" translation="Constraint Set" />
+	<label  commandName="ConstraintSetTooltipMultiComp" devLabel="%1% constraints between %2% components." translation="%1% constraints between %2% components." />
+	<label  commandName="ConstraintSetTooltipTwoComp" devLabel="%1% constraints between %2% and %3%." translation="%1% constraints between %2% and %3%." />
+	<label  commandName="ConstraintTypeCenter" devLabel="Center" translation="Center" />
+	<label  commandName="ContactSetName" devLabel="ContactSet" translation="ContactSet" />
+	<label  commandName="ContactSetSelectionId" devLabel="Contact Set" translation="Contact Set" />
+	<label  commandName="ContactSetsSelectionId" devLabel="Contact Sets" translation="Contact Sets" />
+	<label  commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Cached objects from a dissolved Assembly Context" />
+	<label  commandName="CoordinateSystemCategory" devLabel="Coordinate Systems" translation="Coordinate Systems" />
+	<label  commandName="CoordinateSystemDefaultUserName" devLabel="User Coordinate System" translation="User Coordinate System" />
+	<label  commandName="CoordinateSystemSelectionId" devLabel="User Coordinate System" translation="User Coordinate System" />
+	<label  commandName="CoordinateSystemsSelectionId" devLabel="User Coordinate Systems" translation="User Coordinate Systems" />
+	<label  commandName="CustomJointOccurrenceSelectionId" devLabel="GeometricRelationship Occurrence" translation="GeometricRelationship Occurrence" />
+	<label  commandName="CustomJointOccurrencesSelectionId" devLabel="GeometricRelationship Occurrences" translation="GeometricRelationship Occurrences" />
+	<label  commandName="CustomJointSelectionId" devLabel="GeometricRelationship" translation="GeometricRelationship" />
+	<label  commandName="CustomJointSelectionPluralId" devLabel="CustomJoints" translation="CustomJoints" />
+	<label  commandName="CyclicDependencyNotAllowed" devLabel="Cannot insert %1% into %2% because it will create a circular reference." translation="Cannot insert %1% into %2% because it will create a circular reference." />
+	<label  commandName="CyclicDependencyNotAllowed2" devLabel="Cannot insert %1% into %2% because if you undo or redo recent actions in these designs it will create a circular reference.&#xA;&#xA;Save, close, and reopen the designs to clear the undo history." translation="Cannot insert %1% into %2% because if you undo or redo recent actions in these designs it will create a circular reference.&#10;&#10;Save, close, and reopen the designs to clear the undo history." />
+	<label  commandName="CyclicDependencyNotAllowedReplace" devLabel="Cannot replace %1% with %2% in %3% because it will create a circular reference." translation="Cannot replace %1% with %2% in %3% because it will create a circular reference." />
+	<label  commandName="CyclicDependencyNotAllowedReplace2" devLabel="Cannot replace %1% with %2% in %3% because if you undo or redo recent actions in these designs it will create a circular reference.&#xA;&#xA;Save, close, and reopen the designs to clear the undo history." translation="Cannot replace %1% with %2% in %3% because if you undo or redo recent actions in these designs it will create a circular reference.&#10;&#10;Save, close, and reopen the designs to clear the undo history." />
+	<label  commandName="DeleteDocMaterialNotExistError1" devLabel="Material could not be deleted. This material is not present in the document." translation="Material could not be deleted. This material is not present in the document." />
+	<label  commandName="DeleteDocMaterialNotExistError2" devLabel="There was a problem in deleting materials. Some of the materials might not be present in the document." translation="There was a problem in deleting materials. Some of the materials might not be present in the document." />
+	<label  commandName="FailedProjectInfoFetch" devLabel="Failed to fetch project information for document %1%" translation="Failed to fetch project information for document %1%" />
+	<label  commandName="FailedToGetProjectInfo" devLabel="Failed to fetch project information for inserted design" translation="Failed to fetch project information for inserted design" />
+	<label  commandName="GetAllLatest" devLabel="Get All Latest" translation="Get All Latest" />
+	<label  commandName="GetLatest" devLabel="Get Latest" translation="Get Latest" />
+	<label  commandName="InsertComponentRequest:CyclicReference" devLabel="Target asset is already a parent reference of the source asset." translation="Target asset is already a parent reference of the source asset." />
+	<label  commandName="InsertComponentRequest:NonCloudDocument" devLabel="Please upload the source document and try again." translation="Please upload the source document and try again." />
+	<label  commandName="InsertComponentRequest:ReadOnly" devLabel="Unable to insert source component into a read only asset." translation="Unable to insert source component into a read only asset." />
+	<label  commandName="InsertComponentRequest:SameSourceTarget" devLabel="The target component is the same as the source component. Please select a different target component and try again." translation="The target component is the same as the source component. Please select a different target component and try again." />
+	<label  commandName="InsertConstraint" devLabel="Align " translation="Align " />
+	<label  commandName="InsertMate" devLabel="Align (Concentric)" translation="Align (Concentric)" />
+	<label  commandName="IntersectionAnalysisInvalidBody" devLabel="An invalid body has been selected for Intersection Analysis" translation="An invalid body has been selected for Intersection Analysis" />
+	<label  commandName="InvalidTargetComponent" devLabel="Invalid target component" translation="Invalid target component" />
+	<label  commandName="JointAngleConflictMessage" devLabel="Angle conflict due to %1%" translation="Angle conflict due to %1%" />
+	<label  commandName="JointBallName" devLabel="Ball" translation="Ball" />
+	<label  commandName="JointBallPlaneName" devLabel="BallPlane" translation="BallPlane" />
+	<label  commandName="JointBallSlotName" devLabel="BallSlot" translation="BallSlot" />
+	<label  commandName="JointCategory" devLabel="Joints" translation="Joints" />
+	<label  commandName="JointConflictDefinition" devLabel="joint type" translation="joint type" />
+	<label  commandName="JointConflictLocked" devLabel="locked value" translation="locked value" />
+	<label  commandName="JointConflictMaximum" devLabel="Maximum value limit" translation="Maximum value limit" />
+	<label  commandName="JointConflictMinimum" devLabel="Minimum value limit" translation="Minimum value limit" />
+	<label  commandName="JointCylindricalName" devLabel="Cylindrical" translation="Cylindrical" />
+	<label  commandName="JointDOFAngleName" devLabel="Rotate" translation="Rotate" />
+	<label  commandName="JointDOFDistanceName" devLabel="Slide" translation="Slide" />
+	<label  commandName="JointDOFDistanceNamePlanar1" devLabel="Slide 1" translation="Slide 1" />
+	<label  commandName="JointDOFDistanceNamePlanar2" devLabel="Slide 2" translation="Slide 2" />
+	<label  commandName="JointDOFPitchName" devLabel="Pitch" translation="Pitch" />
+	<label  commandName="JointDOFRollName" devLabel="Roll" translation="Roll" />
+	<label  commandName="JointDOFSelectionId" devLabel="Joint DOF" translation="Joint DOF" />
+	<label  commandName="JointDOFSelectionRelationshipId" devLabel="Joint DOF Relationship" translation="Joint DOF Relationship" />
+	<label  commandName="JointDOFSelectionRelationshipsId" devLabel="Joint DOF Relationships" translation="Joint DOF Relationships" />
+	<label  commandName="JointDOFYawName" devLabel="Yaw" translation="Yaw" />
+	<label  commandName="JointDOFsSelectionId" devLabel="Joint DOFs" translation="Joint DOFs" />
+	<label  commandName="JointDistanceConflictMessage" devLabel="Distance conflict due to %1%" translation="Distance conflict due to %1%" />
+	<label  commandName="JointOccurrenceSelectionId" devLabel="Joint Occurrence" translation="Joint Occurrence" />
+	<label  commandName="JointOccurrencesSelectionId" devLabel="Joint Occurrences" translation="Joint Occurrences" />
+	<label  commandName="JointOriginCategory" devLabel="Joint Origins" translation="Joint Origins" />
+	<label  commandName="JointOriginDefaultUserName" devLabel="Joint Origin" translation="Joint Origin" />
+	<label  commandName="JointOriginSelectionId" devLabel="Joint Origin" translation="Joint Origin" />
+	<label  commandName="JointOriginsSelectionId" devLabel="Joint Origins" translation="Joint Origins" />
+	<label  commandName="JointPinPlaneName" devLabel="Planar" translation="Planar" />
+	<label  commandName="JointPinSlotName" devLabel="Pin-Slot" translation="Pin-Slot" />
+	<label  commandName="JointPlanarName" devLabel="PlaneSlide" translation="PlaneSlide" />
+	<label  commandName="JointRevoluteName" devLabel="Revolute" translation="Revolute" />
+	<label  commandName="JointRigidGroupName" devLabel="Rigid Group" translation="Rigid Group" />
+	<label  commandName="JointRigidName" devLabel="Rigid" translation="Rigid" />
+	<label  commandName="JointRollPlaneName" devLabel="RollPlane" translation="RollPlane" />
+	<label  commandName="JointSelectionId" devLabel="Joint" translation="Joint" />
+	<label  commandName="JointSelectionPluralId" devLabel="Joints" translation="Joints" />
+	<label  commandName="JointSliderName" devLabel="Slider" translation="Slider" />
+	<label  commandName="JointTooltip" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% joint between %3% and %4%" translation="%1%&lt;br&gt;&lt;br&gt;%2% joint between %3% and %4%" />
+	<label  commandName="JointTooltip1" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% contains &lt;br&gt; %3% components &lt;br&gt;&lt;br&gt; Click to select group." translation="%1%&lt;br&gt;&lt;br&gt;%2% contains &lt;br&gt; %3% components &lt;br&gt;&lt;br&gt; Click to select group." />
+	<label  commandName="JointTooltip2" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% joint between %3% and %4% &lt;br&gt;&lt;br&gt; Click to select group." translation="%1%&lt;br&gt;&lt;br&gt;%2% joint between %3% and %4% &lt;br&gt;&lt;br&gt; Click to select group." />
+	<label  commandName="MateOffsetAngleConflictMessage" devLabel="%1%’s Offset Angle conflicts with an existing assembly relationship." translation="%1%’s Offset Angle conflicts with an existing assembly relationship." />
+	<label  commandName="MateOffsetAngleConflictTitle" devLabel="Offset Angle Conflict" translation="Offset Angle Conflict" />
+	<label  commandName="MateOffsetDistanceConflictMessage" devLabel="%1%’s Offset Distance conflicts with an existing assembly relationship." translation="%1%’s Offset Distance conflicts with an existing assembly relationship." />
+	<label  commandName="MateOffsetDistanceConflictTitle" devLabel="Offset Distance Conflict" translation="Offset Distance Conflict" />
+	<label  commandName="MateTooltipTwoComp" devLabel="Constraint between %1% &lt;br&gt;and %2%." translation="Constraint between %1% &lt;br&gt;and %2%." />
+	<label  commandName="MidplaneMate" devLabel=" (Center)" translation=" (Center)" />
+	<label  commandName="MotionLinkName" devLabel="Motion Link" translation="Motion Link" />
+	<label  commandName="MotionStudyName" devLabel="MotionStudy-" translation="MotionStudy-" />
+	<label  commandName="MultiConstraint" devLabel="Constraints" translation="Constraints" />
+	<label  commandName="NotAllowImportSelf" devLabel="A document cannot be inserted into itself." translation="A document cannot be inserted into itself." />
+	<label  commandName="OffsetWorkPlaneFromTwoPlanesRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="Offset Work Plane failed due to invalid input" />
+	<label  commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Physical Material" />
+	<label  commandName="PlasticRuleStr" devLabel="Plastic Rule" translation="Plastic Rule" />
+	<label  commandName="PositionType" devLabel="Position Type: " translation="Position Type: " />
+	<label  commandName="Project" devLabel="Project" translation="Project" />
+	<label  commandName="PropertiesStr" devLabel="Properties" translation="Properties" />
+	<label  commandName="ReplaceDocMaterialError" devLabel="Material could not be replaced in the document." translation="Material could not be replaced in the document." />
+	<label  commandName="ReplaceDocRemoveMaterialError" devLabel="The Old material could not be removed from the document, possibly because it is the default material." translation="The Old material could not be removed from the document, possibly because it is the default material." />
+	<label  commandName="SelectedConfigurationStr" devLabel="Insert" translation="Insert" />
+	<label  commandName="SelectionGroupRequestWarning" devLabel="Warning: Some selections could not be added to the selection set" translation="Warning: Some selections could not be added to the selection set" />
+	<label  commandName="SelectionMate" devLabel="Selection: " translation="Selection: " />
+	<label  commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Sheet Metal Rule" />
+	<label  commandName="SingleConstraint" devLabel="Constraint" translation="Constraint" />
+	<label  commandName="TangentConstraint" devLabel="Tangent " translation="Tangent " />
+	<label  commandName="TangentMate" devLabel="Tangent" translation="Tangent" />
+	<label  commandName="TangentRelationshipConstrName" devLabel="TangentRelationship" translation="TangentRelationship" />
+	<label  commandName="TargetDocumentNotFound" devLabel="Target document not found!!" translation="Target document not found!!" />
+	<label  commandName="TransitionalRelationshipCategory" devLabel="TransitionalRelationships" translation="TransitionalRelationships" />
+	<label  commandName="TransitionalRelationshipOccurrenceSelectionId" devLabel="TransitionalRelationship Occurrence" translation="TransitionalRelationship Occurrence" />
+	<label  commandName="TransitionalRelationshipOccurrencesSelectionId" devLabel="TransitionalRelationship Occurrences" translation="TransitionalRelationship Occurrences" />
+	<label  commandName="TransitionalRelationshipSelectionId" devLabel="TransitionalRelationship" translation="TransitionalRelationship" />
+	<label  commandName="TransitionalRelationshipSelectionPluralId" devLabel="TransitionalRelationships" translation="TransitionalRelationships" />
+	<label  commandName="VCS_ADD_ASSEMBLYCONSTR_FAILED" devLabel="Failed to evaluate references to solve Tangent Relationship." translation="Failed to evaluate references to solve Tangent Relationship." />
+	<label  commandName="VCS_JOINT_DRAG_FAILURE" devLabel="drag failed" translation="drag failed" />
+	<label  commandName="VCS_JOINT_DRAG_FAILUREINITERROR" devLabel="drag failed due to initialization error" translation="drag failed due to initialization error" />
+	<label  commandName="VCS_JOINT_DRAG_INCONSISTENT" devLabel="drag failed due to inconsistencies" translation="drag failed due to inconsistencies" />
+	<label  commandName="VCS_JOINT_DRIVE_FAILURE" devLabel="Joint drive failed unexpectedly" translation="Joint drive failed unexpectedly" />
+	<label  commandName="VCS_JOINT_DRIVE_INCONSISTENT" devLabel="Joint drive failed due to inconsistencies" translation="Joint drive failed due to inconsistencies" />
+	<label  commandName="VCS_JOINT_FAILURE" devLabel="Position calculation failed due to initialization error" translation="Position calculation failed due to initialization error" />
+	<label  commandName="VCS_JOINT_INCONSISTENT" devLabel="Canât resolve some component positions because there are conflicts with assembly relationships in the design.&#xA;&#xA;Inspect existing assembly relationships." translation="Canât resolve some component positions because there are conflicts with assembly relationships in the design.&#10;&#10;Inspect existing assembly relationships." />
+	<label  commandName="VCS_SKETCH_OVER_CONSTRAINTS" devLabel="Sketch geometry is over constrained" translation="Sketch geometry is over constrained" />
+	<label  commandName="VCS_SKETCH_SOLVING_FAILED" devLabel="Failed to solve. Please try revising dimensions or constraints." translation="Failed to solve. Please try revising dimensions or constraints." />
+	<label  commandName="VisibilityStr" devLabel="Visibility" translation="Visibility" />
+	<label  commandName="WorkAxisFromCylinderRequestGenericError" devLabel="Work Axis From Cylinder failed due to invalid input" translation="Work Axis From Cylinder failed due to invalid input" />
+	<label  commandName="WorkAxisFromCylinderRequestInputFaceError" devLabel="Work Axis through Cylinder failed:  Face is not a cylinder or a cone" translation="Work Axis through Cylinder failed:  Face is not a cylinder or a cone" />
+	<label  commandName="WorkAxisFromFaceAndPointRequestFaceNormalError" devLabel="Axis failed: cannot calculate face normal at selected point" translation="Axis failed: cannot calculate face normal at selected point" />
+	<label  commandName="WorkAxisFromFaceAndPointRequestGenericError" devLabel="Axis failed: invalid input" translation="Axis failed: invalid input" />
+	<label  commandName="WorkAxisFromFaceAndPointRequestPointProjectError" devLabel="Axis failed: no projection from point to face" translation="Axis failed: no projection from point to face" />
+	<label  commandName="WorkAxisFromLineRequestGenericError" devLabel="Work Axis From Edge failed.  Selected Edge must be linear" translation="Work Axis From Edge failed.  Selected Edge must be linear" />
+	<label  commandName="WorkAxisFromLocationAndVectorRequestGenericError" devLabel="Work Axis failed due to invalid input" translation="Work Axis failed due to invalid input" />
+	<label  commandName="WorkAxisFromMidPlaneInvalidInput" devLabel="Midplane Work Plane failed due to invalid input" translation="Midplane Work Plane failed due to invalid input" />
+	<label  commandName="WorkAxisFromTwoPlanesRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="Offset Work Plane failed due to invalid input" />
+	<label  commandName="WorkAxisFromTwoPlanesRequestParallelPlanesError" devLabel="Work Axis From Two Planes failed: input planes do not intersect" translation="Work Axis From Two Planes failed: input planes do not intersect" />
+	<label  commandName="WorkPlaneFromFaceAndPointRequestFaceNormalError" devLabel="Work Plane from Face and Point failed: Can't get normal of selected Face at the selected Point" translation="Work Plane from Face and Point failed: Can't get normal of selected Face at the selected Point" />
+	<label  commandName="WorkPlaneFromFaceAndPointRequestGenericError" devLabel="Work Plane from Face and Point failed due to invalid input" translation="Work Plane from Face and Point failed due to invalid input" />
+	<label  commandName="WorkPlaneFromFaceAndPointRequestPointProjectError" devLabel="Work Plane from Face and Point failed: No projection from Point to Face" translation="Work Plane from Face and Point failed: No projection from Point to Face" />
+	<label  commandName="WorkPlaneFromLineAndAngleRequestGenericError" devLabel="Work Plane At Angle failed due to invalid input" translation="Work Plane At Angle failed due to invalid input" />
+	<label  commandName="WorkPlaneFromLocationAndVectorRequestGenericError" devLabel="Work Plane failed due to invalid input" translation="Work Plane failed due to invalid input" />
+	<label  commandName="WorkPlaneFromPointAndNormalRequestError" devLabel="Work Plane failed due to invalid input" translation="Work Plane failed due to invalid input" />
+	<label  commandName="WorkPlaneFromPointAndNormalRequestTargetError" devLabel="Work Plane failed due to invalid target" translation="Work Plane failed due to invalid target" />
+	<label  commandName="WorkPlaneFromThreePointsRequestColinearPointsError" devLabel="Work Plane through three points failed:  The points are collinear" translation="Work Plane through three points failed:  The points are collinear" />
+	<label  commandName="WorkPlaneFromThreePointsRequestEqualPointsError" devLabel="Work Plane through three points failed:  Two or more of the points are identical" translation="Work Plane through three points failed:  Two or more of the points are identical" />
+	<label  commandName="WorkPlaneFromTwoLinesRequestColinearInputsError" devLabel="Work Plane From Two Lines failed: Input lines are collinear" translation="Work Plane From Two Lines failed: Input lines are collinear" />
+	<label  commandName="WorkPlaneFromTwoLinesRequestGenericError" devLabel="Work Plane From Two Lines failed due to invalid input" translation="Work Plane From Two Lines failed due to invalid input" />
+	<label  commandName="WorkPlaneFromTwoLinesRequestLinesNotParallelOrIntersectError" devLabel="Work Plane From Two Lines failed:  Input lines must intersect or be parallel" translation="Work Plane From Two Lines failed:  Input lines must intersect or be parallel" />
+	<label  commandName="WorkPlaneFromTwoPlanesRequestCoplanarError" devLabel="Mid-Plane Work Plane failed:  Selected planes are coplanar" translation="Mid-Plane Work Plane failed:  Selected planes are coplanar" />
+	<label  commandName="WorkPlaneInvalidInput" devLabel="Midplane Work Plane failed due to invalid input" translation="Midplane Work Plane failed due to invalid input" />
+	<label  commandName="WorkPlaneOffsetFromPlaneRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="Offset Work Plane failed due to invalid input" />
+	<label  commandName="WorkPlanePerpendicularInvalidGeometry" devLabel="Perpendicular Work Plane failed: Invalid geometry" translation="Perpendicular Work Plane failed: Invalid geometry" />
+	<label  commandName="WorkPlanePerpendicularNoInput" devLabel="Perpendicular Work Plane failed: No input geometry" translation="Perpendicular Work Plane failed: No input geometry" />
+	<label  commandName="WorkPlanePerpendicularToFaceRequestFaceNormalError" devLabel="Perpendicular Work Plane failed: Can't get normal of selected Face at the selected Point" translation="Perpendicular Work Plane failed: Can't get normal of selected Face at the selected Point" />
+	<label  commandName="WorkPlanePerpendicularToFaceRequestPointProjectError" devLabel="Perpendicular Work Plane failed: No projection from Point to Face" translation="Perpendicular Work Plane failed: No projection from Point to Face" />
+	<label  commandName="WorkPlaneTangentToCylinderRequestGenericError" devLabel="Tangent Work Plane failed due to invalid input" translation="Tangent Work Plane failed due to invalid input" />
+	<label  commandName="WorkPointFromCircleRequestFaceNotSphereError" devLabel="Work Point From Circular Edge failed:  Selected edge is not circular" translation="Work Point From Circular Edge failed:  Selected edge is not circular" />
+	<label  commandName="WorkPointFromLineAndPlaneRequestEdgeNotLinearError" devLabel="Work Point From Line and Plane failed:  Selected Edge is not linear" translation="Work Point From Line and Plane failed:  Selected Edge is not linear" />
+	<label  commandName="WorkPointFromLineAndPlaneRequestFaceError" devLabel="Work Point From Line and Plane failed: Selected Face is not planar" translation="Work Point From Line and Plane failed: Selected Face is not planar" />
+	<label  commandName="WorkPointFromLineAndPlaneRequestLineAndFaceParallelError" devLabel="Work Point From Line and Plane failed: Selected Face and Line are parallel" translation="Work Point From Line and Plane failed: Selected Face and Line are parallel" />
+	<label  commandName="WorkPointFromSphereRequestFaceNotSphereError" devLabel="Work Point From Sphere failed:  Selected face is not spherical" translation="Work Point From Sphere failed:  Selected face is not spherical" />
+	<label  commandName="WorkPointFromSphereRequestGenericError" devLabel="Cannot create point" translation="Cannot create point" />
+	<label  commandName="WorkPointFromThreePlanesRequestGenericError" devLabel="Work Point from 3 Planes failed due to invalid input" translation="Work Point from 3 Planes failed due to invalid input" />
+	<label  commandName="WorkPointFromThreePlanesRequestParallelPlanesError" devLabel="Work Point From Three Planes failed: input planes do not intersect" translation="Work Point From Three Planes failed: input planes do not intersect" />
+	<label  commandName="WorkPointFromTwoLinesRequestGenericError" devLabel="Work Point From Two Lines failed due to invalid input" translation="Work Point From Two Lines failed due to invalid input" />
+	<label  commandName="WorkPointFromTwoLinesRequestNoIntersectionError" devLabel="Work Point From Two Lines failed: lines do not intersect" translation="Work Point From Two Lines failed: lines do not intersect" />
+	<label  commandName="XRefDifferentVersionAlreadyExistsSameWillBeInserted" devLabel="The active document is already referencing a different version of the document %1%. The same version will be inserted again." translation="The active document is already referencing a different version of the document %1%. The same version will be inserted again." />
+	<label  commandName="XRefDifferentVersionAlreadyExistsSameWillBeInserted_ccy" devLabel="This design already references %1%. The existing reference will be kept and nothing will be inserted." translation="This design already references %1%. The existing reference will be kept and nothing will be inserted." />
+	<label  commandName="XRefUpdateAbortedDueToMissingXRefs" devLabel="The operation failed because it results in some unresolved components. Please open following designs and fix the unresolved components:" translation="The operation failed because it results in some unresolved components. Please open following designs and fix the unresolved components:" />
+	<label  commandName="alignComponentsInconsistent" devLabel="No alignment suggested by geometry could be found" translation="No alignment suggested by geometry could be found" />
+	<label  commandName="comp1Name" devLabel="&lt;unknown&gt;" translation="&lt;unknown&gt;" />
+	<label  commandName="comp2Name" devLabel="&lt;unknown&gt;" translation="&lt;unknown&gt;" />
+	<label  commandName="insertDocfaile" devLabel="The document could not be downloaded." translation="The document could not be downloaded." />
+	<label  commandName="jointFailed" devLabel="%1% failed" translation="%1% failed" />
+	<label  commandName="jointFailedMsg1" devLabel="Another assembly relationship may affect a component’s position or one of the component’s geometry may have changed." translation="Another assembly relationship may affect a component’s position or one of the component’s geometry may have changed." />
+	<label  commandName="jointFailedMsg2" devLabel="Inspect existing assembly relationships, restore any geometry changes, or edit the feature and select new geometry." translation="Inspect existing assembly relationships, restore any geometry changes, or edit the feature and select new geometry." />
+	<label  commandName="jointName" devLabel="&lt;unknown&gt;" translation="&lt;unknown&gt;" />
+	<label  commandName="jointType" devLabel="&lt;unknown&gt;" translation="&lt;unknown&gt;" />
+	<label  commandName="lclzXREFhasRelations" devLabel="Inserting a distributed design from one %1% to another is not currently supported.&#xA;&#xA;%2% of current design: %3%&#xA;%2% of design being inserted: %4%" translation="Inserting a distributed design from one %1% to another is not currently supported.&#10;&#10;%2% of current design: %3%&#10;%2% of design being inserted: %4%" />
+	<label  commandName="mateTimelineMultiCompTooltip" devLabel="%1% between %2% Components." translation="%1% between %2% Components." />
+	<label  commandName="mateTwoCompTimelineTooltipSecond" devLabel="and %1%." translation="and %1%." />
+	<label  commandName="mateTwoCompTimelineTooltipfirst" devLabel="%1% between %2%" translation="%1% between %2%" />
+	<label  commandName="project" devLabel="project" translation="project" />
+	<label  commandName="solveContactSetInconsistent" devLabel="Contacts in new set cause a conflict" translation="Contacts in new set cause a conflict" />
+	<label  commandName="solveNewJointInconsistent" devLabel="Selected joint type will result in conflict" translation="Selected joint type will result in conflict" />
 </Resource>

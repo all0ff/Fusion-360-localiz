@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="ReactionForceTotal" devLabel="Reaction Force Total" translation="Forza di reazione totale"/>
-	<label commandName="ReactionForceX" devLabel="Reaction Force X" translation="Forza di reazione X"/>
-	<label commandName="ReactionForceY" devLabel="Reaction Force Y" translation="Forza di reazione Y"/>
-	<label commandName="ReactionForceZ" devLabel="Reaction Force Z" translation="Forza di reazione Z"/>
-	<label commandName="ReactionMomentTotal" devLabel="Reaction Moment Total" translation="Momento di reazione totale"/>
-	<label commandName="ReactionMomentX" devLabel="Reaction Moment X" translation="Momento di reazione X"/>
-	<label commandName="ReactionMomentY" devLabel="Reaction Moment Y" translation="Momento di reazione Y"/>
-	<label commandName="ReactionMomentZ" devLabel="Reaction Moment Z" translation="Momento di reazione Z"/>
-	<label commandName="SimAttributeStatus" devLabel="Status" translation="Stato"/>
-	<label commandName="SimAttributeType" devLabel="Type" translation="Tipo"/>
-	<label commandName="SimAttributes" devLabel="Attributes" translation="Attributi"/>
-	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Sostituisci sistema di unità"/>
-	<label commandName="SimFeatureEdgesPlotLabel" devLabel="Feature edges" translation="Spigoli di lavorazione"/>
-	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Stati Uniti (pollici)"/>
-	<label commandName="SimLoadMagnitude" devLabel="Magnitude" translation="Intensità"/>
-	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personalizzato"/>
-	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Unità metriche (SI)"/>
-	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentuale"/>
-	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pezzi"/>
-	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
-	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angolo"/>
-	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Corrente"/>
-	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Resistenza elettrica"/>
-	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
-	<label commandName="SimUnitsForce" devLabel="Force" translation="Forza"/>
-	<label commandName="SimUnitsLength" devLabel="Length" translation="Lunghezza"/>
-	<label commandName="SimUnitsMass" devLabel="Mass" translation="Massa"/>
-	<label commandName="SimUnitsPower" devLabel="Power" translation="Potenza"/>
-	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressione"/>
-	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
-	<label commandName="SimUnitsTime" devLabel="Time" translation="Tempo"/>
-	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocità"/>
-	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosità"/>
-	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tensione"/>
-	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Portata"/>
+	<label  commandName="ReactionForceTotal" devLabel="Reaction Force Total" translation="Reaction Force Total" />
+	<label  commandName="ReactionForceX" devLabel="Reaction Force X" translation="Reaction Force X" />
+	<label  commandName="ReactionForceY" devLabel="Reaction Force Y" translation="Reaction Force Y" />
+	<label  commandName="ReactionForceZ" devLabel="Reaction Force Z" translation="Reaction Force Z" />
+	<label  commandName="ReactionMomentTotal" devLabel="Reaction Moment Total" translation="Reaction Moment Total" />
+	<label  commandName="ReactionMomentX" devLabel="Reaction Moment X" translation="Reaction Moment X" />
+	<label  commandName="ReactionMomentY" devLabel="Reaction Moment Y" translation="Reaction Moment Y" />
+	<label  commandName="ReactionMomentZ" devLabel="Reaction Moment Z" translation="Reaction Moment Z" />
+	<label  commandName="SimAttributeStatus" devLabel="Status" translation="Status" />
+	<label  commandName="SimAttributeType" devLabel="Type" translation="Type" />
+	<label  commandName="SimAttributes" devLabel="Attributes" translation="Attributes" />
+	<label  commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Override Unit System" />
+	<label  commandName="SimFeatureEdgesPlotLabel" devLabel="Feature edges" translation="Feature edges" />
+	<label  commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="U.S. (in)" />
+	<label  commandName="SimLoadMagnitude" devLabel="Magnitude" translation="Magnitude" />
+	<label  commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Custom" />
+	<label  commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metric (SI)" />
+	<label  commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentage" />
+	<label  commandName="SimUnitPieces" devLabel="Pieces" translation="Pieces" />
+	<label  commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Acceleration" />
+	<label  commandName="SimUnitsAngle" devLabel="Angle" translation="Angle" />
+	<label  commandName="SimUnitsCurrent" devLabel="Current" translation="Current" />
+	<label  commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Electrical Resistance" />
+	<label  commandName="SimUnitsEnergy" devLabel="Energy" translation="Energy" />
+	<label  commandName="SimUnitsForce" devLabel="Force" translation="Force" />
+	<label  commandName="SimUnitsLength" devLabel="Length" translation="Length" />
+	<label  commandName="SimUnitsMass" devLabel="Mass" translation="Mass" />
+	<label  commandName="SimUnitsPower" devLabel="Power" translation="Power" />
+	<label  commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressure" />
+	<label  commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperature" />
+	<label  commandName="SimUnitsTime" devLabel="Time" translation="Time" />
+	<label  commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocity" />
+	<label  commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosity" />
+	<label  commandName="SimUnitsVoltage" devLabel="Voltage" translation="Voltage" />
+	<label  commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Flow Rate" />
 </Resource>

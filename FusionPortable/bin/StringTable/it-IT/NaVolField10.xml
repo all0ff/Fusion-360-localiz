@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?><Resource>
-	<label commandName="AVKMeshBodySelectionCategory" devLabel="Volumetric Model Mesh Bodies" translation="Corpi mesh modello volumetrico"/>
-	<label commandName="BoundaryBodyAlreadyHasModel" devLabel="The specified boundary body already has a Volumetric Model." translation="Il corpo di boundary specificato presenta già un modello volumetrico."/>
-	<label commandName="BoundaryBodyNotFound" devLabel="The boundary body of this Volumetric Model was not found." translation="Corpo di boundary di questo modello volumetrico non trovato."/>
-	<label commandName="ComputeSuspendedEditToUpdate" devLabel="Model to mesh feature set to not automatically recompute. Edit the feature to compute." translation="La lavorazione di conversione da modello a mesh non è impostata per il ricalcolo automatico. Modificare la lavorazione per calcolare."/>
-	<label commandName="ElementSizeOutOfRange" devLabel="Element size is out of range." translation="La dimensione dell'elemento non rientra nell'intervallo."/>
-	<label commandName="FailedAddingClearances" devLabel="Failed to add clearances to Volumetric Model." translation="Impossibile aggiungere distanze di sicurezza al modello volumetrico."/>
-	<label commandName="FailedAddingOffsets" devLabel="Failed to add Offsets to Volumetric Model." translation="Impossibile aggiungere offset al modello volumetrico."/>
-	<label commandName="FailedToAddGradientDensity" devLabel="Failed to add Gradient Density to Volumetric Model." translation="Impossibile aggiungere densità gradiente al modello volumetrico."/>
-	<label commandName="FailedToCreateLattice" devLabel="Failed to create the Lattice." translation="Impossibile creare il reticolo."/>
-	<label commandName="FailedToCreateTexture" devLabel="Failed to create the Texture." translation="Creazione della texture non riuscita."/>
-	<label commandName="FailedToCreateVolFieldModel" devLabel="Failed to create the Volumetric Model." translation="Impossibile creare il modello volumetrico."/>
-	<label commandName="FailedToReinitializeVolFieldModel" devLabel="Failed to reinitialize the Volumetric Model." translation="Impossibile reinizializzare il modello volumetrico."/>
-	<label commandName="FeatureVolumetricCreateLattice" devLabel="Create Volumetric Lattice" translation="Crea reticolo volumetrico"/>
-	<label commandName="FeatureVolumetricModel" devLabel="Volumetric Model" translation="Modello volumetrico"/>
-	<label commandName="FeatureVolumetricModelBase" devLabel="Volumetric Model Base Feature" translation="Lavorazione di base modello volumetrico"/>
-	<label commandName="FeatureVolumetricModelCustom" devLabel="Custom Volumetric Model Feature" translation="Lavorazione modello volumetrico personalizzato"/>
-	<label commandName="FeatureVolumetricModelToMesh" devLabel="Volumetric Model To Mesh" translation="Da modello volumetrico a mesh"/>
-	<label commandName="FeatureVolumetricModifyModel" devLabel="Modify Volumetric Lattice" translation="Modifica reticolo volumetrico"/>
-	<label commandName="FeatureVolumetricRemoveModel" devLabel="Remove Volumetric Model" translation="Rimuovi modello volumetrico"/>
-	<label commandName="FeatureVolumetricTexture" devLabel="Volumetric Texture" translation="Texture volumetrica"/>
-	<label commandName="GeneralRangeCheckError" devLabel="General Range Check Error." translation="Errore di controllo dell'intervallo generale."/>
-	<label commandName="LatticeDefaultUserName" devLabel="Volumetric Model" translation="Modello volumetrico"/>
-	<label commandName="MeshBodyParentMismatch" devLabel="The parent component of the mesh body does not match the parent component of the Volumetric Model." translation="Il componente principale del corpo mesh non si accoppia al componente principale del modello volumetrico."/>
-	<label commandName="SmallMeshRemovalMadeEmptyMesh" devLabel="Volumetric Model small mesh shell removal resulted in an empty mesh. Try reducing the threshold size." translation="La rimozione dello svuotamento mesh piccolo del modello volumetrico ha generato una mesh vuota. Provare a ridurre le dimensioni della soglia."/>
-	<label commandName="VF_ENVIRONMENT_NOT_SUPPORTED" devLabel="The environment does not support volumetric models." translation="L'ambiente non supporta i modelli volumetrici."/>
-	<label commandName="VF_MODEL_BAD_BOUNDARY_BODY" devLabel="Inconsistency in the boundary body of the Volumetric Model." translation="Incoerenza nel corpo del contorno del modello volumetrico."/>
-	<label commandName="VF_MODEL_BAD_COMPONENT" devLabel="Error in determining the component holding the Volumetric Model." translation="Errore nella determinazione del componente che mantiene il modello volumetrico."/>
-	<label commandName="VF_MODEL_BAD_INTERNAL_STATE" devLabel="The Volumetric Model is in an invalid internal state." translation="Il modello volumetrico è in uno stato interno non valido."/>
-	<label commandName="VF_MODEL_NO_ROOT_PARENT" devLabel="Failed to find the path to the root Volumetric Models." translation="Impossibile trovare il percorso dei modelli volumetrici principali."/>
-	<label commandName="VF_MODEL_NO_SCENE_NODE" devLabel="The scene node for the Volumetric Model is not created. Toggling the visibility may solve this issue." translation="Il nodo della scena del modello volumetrico non è stato creato. L'attivazione/disattivazione della visibilità potrebbe risolvere il problema."/>
-	<label commandName="VolConfigBaseModelDensity" devLabel="Solidity (Uniform)" translation="Solidità (Uniforme)"/>
-	<label commandName="VolConfigBaseModelScaleX" devLabel="Cell Size X Direction" translation="Direzione X dimensione cella"/>
-	<label commandName="VolConfigBaseModelScaleY" devLabel="Cell Size Y Direction" translation="Direzione Y dimensione cella"/>
-	<label commandName="VolConfigBaseModelScaleZ" devLabel="Cell Size Z Direction" translation="Direzione Z dimensione cella"/>
-	<label commandName="VolConfigCreateLatticeBaseModel" devLabel="Setup" translation="Setup"/>
-	<label commandName="VolConfigCreateLatticeDensityAlongCurve" devLabel="Solidity (Gradient Along Path)" translation="Solidità (Gradiente lungo la traiettoria)"/>
-	<label commandName="VolConfigCreateLatticeDensityOffsetHeading" devLabel="Selection Set " translation="Gruppo di selezione "/>
-	<label commandName="VolConfigCreateLatticeDensityOffsetTrailing" devLabel=" (Offset)" translation=" (Offset)"/>
-	<label commandName="VolConfigDensityAlongCurvePositionEnd" devLabel="End Point Position" translation="Posizione punto finale"/>
-	<label commandName="VolConfigDensityAlongCurvePositionStart" devLabel="Start Point Position" translation="Posizione punto iniziale"/>
-	<label commandName="VolConfigDensityAlongCurveValueEnd" devLabel="End Point Solidity" translation="Solidità punto finale"/>
-	<label commandName="VolConfigDensityAlongCurveValueStart" devLabel="Start Point Solidity" translation="Solidità punto iniziale"/>
-	<label commandName="VolConfigDensityOffsetBaseOffset" devLabel="Thickness" translation="Spessore"/>
-	<label commandName="VolConfigDensityOffsetBlendOffset" devLabel="Blend Distance" translation="Distanza di blend"/>
-	<label commandName="VolConfigDensityOffsetPeakDensity" devLabel="Solidity" translation="Solidità"/>
-	<label commandName="VolFieldBodySelectionCategory" devLabel="Volumetric Model Bodies" translation="Corpi modello volumetrico"/>
-	<label commandName="VolFieldFeatureSelectionId" devLabel="Volumetric Feature" translation="Lavorazione volumetrica"/>
-	<label commandName="VolFieldFeatureSelectionsId" devLabel="Volumetric Features" translation="Lavorazioni volumetriche"/>
-	<label commandName="VolFieldModelBrowserEntry" devLabel="Volumetric Model" translation="Modello volumetrico"/>
-	<label commandName="VolFieldModelSelectionId" devLabel="Volumetric Model" translation="Modello volumetrico"/>
-	<label commandName="VolFieldModelToMeshPostfix" devLabel="Mesh" translation="Mesh"/>
-	<label commandName="VolFieldModelsRootBrowserEntry" devLabel="Volumetric Models" translation="Modelli volumetrici"/>
-	<label commandName="VolFieldModelsRootSelectionId" devLabel="Volumetric Models Root" translation="Radice modelli volumetrici"/>
-	<label commandName="VolFieldModelsRootSelectionsId" devLabel="Volumetric Models Root" translation="Radice modelli volumetrici"/>
-	<label commandName="VolFieldModelsSelectionId" devLabel="Volumetric Models" translation="Modelli volumetrici"/>
-	<label commandName="VolFieldUnknownError" devLabel="Volumetric modeling operation failed." translation="Operazione di modellazione volumetrica non riuscita."/>
-	<label commandName="VolMeshFailedToRemoveSmallMeshes" devLabel="Volumetric Model meshing failed to remove small mesh shells." translation="Con la generazione di mesh del modello volumetrico non è stato possibile rimuovere svuotamenti mesh piccoli."/>
-	<label commandName="VolumetricModelConvertToMeshFailed" devLabel="Volumetric Model to mesh conversion failed." translation="Conversione da modello volumetrico a mesh non riuscita."/>
-	<label commandName="VolumetricModelNotFound" devLabel="The Volumetric Model was not found." translation="Modello volumetrico non trovato."/>
-	<label commandName="VolumetricModelToMeshNotFound" devLabel="Volumetric Model to be meshed was not found." translation="Modello volumetrico a cui applicare la mesh non trovato."/>
-	<label commandName="VolumetricModelToMeshNotVald" devLabel="Volumetric Model to be meshed is not valid." translation="Il modello volumetrico a cui applicare la mesh non è valido."/>
-	<label commandName="VolumetricModifyLatticeDensityOffsetConfigSectionTitle" devLabel="Density Offset" translation="Offset densità"/>
-	<label commandName="VolumetricTextureBaseModelConfigSectionTitle" devLabel="Texture Setup" translation="Impostazione texture"/>
-	<label commandName="VolumetricTextureClearancesConfigSectionTitle" devLabel="Clearances" translation="Distanze di sicurezza"/>
-	<label commandName="VolumetricTextureDepth" devLabel="Depth" translation="Profondità"/>
-	<label commandName="VolumetricTextureScaleX" devLabel="SizeX" translation="SizeX"/>
-	<label commandName="VolumetricTextureScaleY" devLabel="SizeY" translation="SizeY"/>
-	<label commandName="VolumetricTextureScaleZ" devLabel="SizeZ" translation="SizeZ"/>
+	<label  commandName="AVKMeshBodySelectionCategory" devLabel="Volumetric Model Mesh Bodies" translation="Volumetric Model Mesh Bodies" />
+	<label  commandName="BoundaryBodyAlreadyHasModel" devLabel="The specified boundary body already has a Volumetric Model." translation="The specified boundary body already has a Volumetric Model." />
+	<label  commandName="BoundaryBodyNotFound" devLabel="The boundary body of this Volumetric Model was not found." translation="The boundary body of this Volumetric Model was not found." />
+	<label  commandName="ComputeSuspendedEditToUpdate" devLabel="Model to mesh feature set to not automatically recompute. Edit the feature to compute." translation="Model to mesh feature set to not automatically recompute. Edit the feature to compute." />
+	<label  commandName="ElementSizeOutOfRange" devLabel="Element size is out of range." translation="Element size is out of range." />
+	<label  commandName="FailedAddingClearances" devLabel="Failed to add clearances to Volumetric Model." translation="Failed to add clearances to Volumetric Model." />
+	<label  commandName="FailedAddingOffsets" devLabel="Failed to add Offsets to Volumetric Model." translation="Failed to add Offsets to Volumetric Model." />
+	<label  commandName="FailedToAddGradientDensity" devLabel="Failed to add Gradient Density to Volumetric Model." translation="Failed to add Gradient Density to Volumetric Model." />
+	<label  commandName="FailedToCreateLattice" devLabel="Failed to create the Lattice." translation="Failed to create the Lattice." />
+	<label  commandName="FailedToCreateTexture" devLabel="Failed to create the Texture." translation="Failed to create the Texture." />
+	<label  commandName="FailedToCreateVolFieldModel" devLabel="Failed to create the Volumetric Model." translation="Failed to create the Volumetric Model." />
+	<label  commandName="FailedToReinitializeVolFieldModel" devLabel="Failed to reinitialize the Volumetric Model." translation="Failed to reinitialize the Volumetric Model." />
+	<label  commandName="FeatureVolumetricCreateLattice" devLabel="Create Volumetric Lattice" translation="Create Volumetric Lattice" />
+	<label  commandName="FeatureVolumetricModel" devLabel="Volumetric Model" translation="Volumetric Model" />
+	<label  commandName="FeatureVolumetricModelBase" devLabel="Volumetric Model Base Feature" translation="Volumetric Model Base Feature" />
+	<label  commandName="FeatureVolumetricModelCustom" devLabel="Custom Volumetric Model Feature" translation="Custom Volumetric Model Feature" />
+	<label  commandName="FeatureVolumetricModelToMesh" devLabel="Volumetric Model To Mesh" translation="Volumetric Model To Mesh" />
+	<label  commandName="FeatureVolumetricModifyModel" devLabel="Modify Volumetric Lattice" translation="Modify Volumetric Lattice" />
+	<label  commandName="FeatureVolumetricRemoveModel" devLabel="Remove Volumetric Model" translation="Remove Volumetric Model" />
+	<label  commandName="FeatureVolumetricTexture" devLabel="Volumetric Texture" translation="Volumetric Texture" />
+	<label  commandName="GeneralRangeCheckError" devLabel="General Range Check Error." translation="General Range Check Error." />
+	<label  commandName="LatticeDefaultUserName" devLabel="Volumetric Model" translation="Volumetric Model" />
+	<label  commandName="MeshBodyParentMismatch" devLabel="The parent component of the mesh body does not match the parent component of the Volumetric Model." translation="The parent component of the mesh body does not match the parent component of the Volumetric Model." />
+	<label  commandName="SmallMeshRemovalMadeEmptyMesh" devLabel="Volumetric Model small mesh shell removal resulted in an empty mesh. Try reducing the threshold size." translation="Volumetric Model small mesh shell removal resulted in an empty mesh. Try reducing the threshold size." />
+	<label  commandName="VF_ENVIRONMENT_NOT_SUPPORTED" devLabel="The environment does not support volumetric models." translation="The environment does not support volumetric models." />
+	<label  commandName="VF_MODEL_BAD_BOUNDARY_BODY" devLabel="Inconsistency in the boundary body of the Volumetric Model." translation="Inconsistency in the boundary body of the Volumetric Model." />
+	<label  commandName="VF_MODEL_BAD_COMPONENT" devLabel="Error in determining the component holding the Volumetric Model." translation="Error in determining the component holding the Volumetric Model." />
+	<label  commandName="VF_MODEL_BAD_INTERNAL_STATE" devLabel="The Volumetric Model is in an invalid internal state." translation="The Volumetric Model is in an invalid internal state." />
+	<label  commandName="VF_MODEL_NO_ROOT_PARENT" devLabel="Failed to find the path to the root Volumetric Models." translation="Failed to find the path to the root Volumetric Models." />
+	<label  commandName="VF_MODEL_NO_SCENE_NODE" devLabel="The scene node for the Volumetric Model is not created. Toggling the visibility may solve this issue." translation="The scene node for the Volumetric Model is not created. Toggling the visibility may solve this issue." />
+	<label  commandName="VolConfigBaseModelDensity" devLabel="Solidity (Uniform)" translation="Solidity (Uniform)" />
+	<label  commandName="VolConfigBaseModelScaleX" devLabel="Cell Size X Direction" translation="Cell Size X Direction" />
+	<label  commandName="VolConfigBaseModelScaleY" devLabel="Cell Size Y Direction" translation="Cell Size Y Direction" />
+	<label  commandName="VolConfigBaseModelScaleZ" devLabel="Cell Size Z Direction" translation="Cell Size Z Direction" />
+	<label  commandName="VolConfigCreateLatticeBaseModel" devLabel="Setup" translation="Setup" />
+	<label  commandName="VolConfigCreateLatticeDensityAlongCurve" devLabel="Solidity (Gradient Along Path)" translation="Solidity (Gradient Along Path)" />
+	<label  commandName="VolConfigCreateLatticeDensityOffsetHeading" devLabel="Selection Set " translation="Selection Set " />
+	<label  commandName="VolConfigCreateLatticeDensityOffsetTrailing" devLabel=" (Offset)" translation=" (Offset)" />
+	<label  commandName="VolConfigDensityAlongCurvePositionEnd" devLabel="End Point Position" translation="End Point Position" />
+	<label  commandName="VolConfigDensityAlongCurvePositionStart" devLabel="Start Point Position" translation="Start Point Position" />
+	<label  commandName="VolConfigDensityAlongCurveValueEnd" devLabel="End Point Solidity" translation="End Point Solidity" />
+	<label  commandName="VolConfigDensityAlongCurveValueStart" devLabel="Start Point Solidity" translation="Start Point Solidity" />
+	<label  commandName="VolConfigDensityOffsetBaseOffset" devLabel="Thickness" translation="Thickness" />
+	<label  commandName="VolConfigDensityOffsetBlendOffset" devLabel="Blend Distance" translation="Blend Distance" />
+	<label  commandName="VolConfigDensityOffsetPeakDensity" devLabel="Solidity" translation="Solidity" />
+	<label  commandName="VolFieldBodySelectionCategory" devLabel="Volumetric Model Bodies" translation="Volumetric Model Bodies" />
+	<label  commandName="VolFieldFeatureSelectionId" devLabel="Volumetric Feature" translation="Volumetric Feature" />
+	<label  commandName="VolFieldFeatureSelectionsId" devLabel="Volumetric Features" translation="Volumetric Features" />
+	<label  commandName="VolFieldModelBrowserEntry" devLabel="Volumetric Model" translation="Volumetric Model" />
+	<label  commandName="VolFieldModelSelectionId" devLabel="Volumetric Model" translation="Volumetric Model" />
+	<label  commandName="VolFieldModelToMeshPostfix" devLabel="Mesh" translation="Mesh" />
+	<label  commandName="VolFieldModelsRootBrowserEntry" devLabel="Volumetric Models" translation="Volumetric Models" />
+	<label  commandName="VolFieldModelsRootSelectionId" devLabel="Volumetric Models Root" translation="Volumetric Models Root" />
+	<label  commandName="VolFieldModelsRootSelectionsId" devLabel="Volumetric Models Root" translation="Volumetric Models Root" />
+	<label  commandName="VolFieldModelsSelectionId" devLabel="Volumetric Models" translation="Volumetric Models" />
+	<label  commandName="VolFieldUnknownError" devLabel="Volumetric modeling operation failed." translation="Volumetric modeling operation failed." />
+	<label  commandName="VolMeshFailedToRemoveSmallMeshes" devLabel="Volumetric Model meshing failed to remove small mesh shells." translation="Volumetric Model meshing failed to remove small mesh shells." />
+	<label  commandName="VolumetricModelConvertToMeshFailed" devLabel="Volumetric Model to mesh conversion failed." translation="Volumetric Model to mesh conversion failed." />
+	<label  commandName="VolumetricModelNotFound" devLabel="The Volumetric Model was not found." translation="The Volumetric Model was not found." />
+	<label  commandName="VolumetricModelToMeshNotFound" devLabel="Volumetric Model to be meshed was not found." translation="Volumetric Model to be meshed was not found." />
+	<label  commandName="VolumetricModelToMeshNotVald" devLabel="Volumetric Model to be meshed is not valid." translation="Volumetric Model to be meshed is not valid." />
+	<label  commandName="VolumetricModifyLatticeDensityOffsetConfigSectionTitle" devLabel="Density Offset" translation="Density Offset" />
+	<label  commandName="VolumetricTextureBaseModelConfigSectionTitle" devLabel="Texture Setup" translation="Texture Setup" />
+	<label  commandName="VolumetricTextureClearancesConfigSectionTitle" devLabel="Clearances" translation="Clearances" />
+	<label  commandName="VolumetricTextureDepth" devLabel="Depth" translation="Depth" />
+	<label  commandName="VolumetricTextureScaleX" devLabel="SizeX" translation="SizeX" />
+	<label  commandName="VolumetricTextureScaleY" devLabel="SizeY" translation="SizeY" />
+	<label  commandName="VolumetricTextureScaleZ" devLabel="SizeZ" translation="SizeZ" />
 </Resource>

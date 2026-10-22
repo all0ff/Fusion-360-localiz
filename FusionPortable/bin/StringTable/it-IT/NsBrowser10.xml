@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="AlignMate" devLabel=" (Align)" translation=" (Allinea)"/>
-	<label commandName="AlignTangent" devLabel=" (Tangent)" translation=" (Tangente)"/>
-	<label commandName="AlignTransitional" devLabel=" (Transitional)" translation=" (Transitorio)"/>
-	<label commandName="AlignmentsBrowserLabel" devLabel="Object Pairs" translation="Coppie di oggetti"/>
-	<label commandName="AngleMate" devLabel=" (Angle)" translation=" (Angolo)"/>
-	<label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="AppearanceCI"/>
-	<label commandName="AppearanceStr" devLabel="Appearance" translation="Aspetto"/>
-	<label commandName="BodiesBrowserLabel" devLabel="Bodies" translation="Corpi"/>
-	<label commandName="BrokenContextMessage" devLabel="The component has child reference errors. &#xA;Open the child component in its own tab, then &#xA; right-click the errors to fix them." translation="Il componente presenta errori di riferimento subordinato. &#xA;Aprire il componente subordinato nella sua stessa scheda, quindi &#xA; fare clic con il pulsante destro del mouse sugli errori per correggerli."/>
-	<label commandName="BrokenContextRootMessage" devLabel="The design contains one or more errors. &#xA;Expand browser nodes to locate errors, then right-click &#xA;to resolve errors or open components in their own tab first." translation="La progettazione contiene uno o più errori. &#xA;Espandere i nodi del browser per individuare gli errori, quindi fare clic con il pulsante destro del mouse &#xA;per risolvere gli errori o aprire prima i componenti nella scheda corrispondente."/>
-	<label commandName="BrowserConstructionLabel" devLabel="Construction" translation="Costruzione"/>
-	<label commandName="BrowserSelectionGroupsLabel" devLabel="Selection Sets" translation="Gruppi di selezione"/>
-	<label commandName="CBHistoricalRevisionMilestone_ccy" devLabel="There are more changes past this Revision" translation="Dopo questa revisione sono state apportate altre modifiche"/>
-	<label commandName="CBRevisionMilestone_ccy" devLabel="Revision" translation="Revisione"/>
-	<label commandName="ComponentInstanceSelectTooltip" devLabel="%1% is grounded to %2%." translation="%1% è fissato a %2%."/>
-	<label commandName="ComponentInstanceUnselectTooltip" devLabel="%1% is grounded to %2%.&lt;br&gt;&lt;br&gt;%3% is Unselectable." translation="%1% è fissato a %2%.&lt;br&gt;&lt;br&gt;%3% è non selezionabile."/>
-	<label commandName="ComponentInstanceUnselectTooltipInfo" devLabel="%1% is Unselectable." translation="%1% è non selezionabile."/>
-	<label commandName="ContactSetsLabelAll" devLabel="Contact: all" translation="Contatto - Tutti"/>
-	<label commandName="ContactSetsLabelNone" devLabel="Contact: off" translation="Contatto - Off"/>
-	<label commandName="ContactSetsLabelSets" devLabel="Contact: sets" translation="Contatto: gruppi"/>
-	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Oggetti memorizzati nella cache da un contesto di assieme dissolto"/>
-	<label commandName="DirectOODXRefMessage" devLabel="The component has out of date references. &#xA;To update, use Get Latest in the Design workspace." translation="Il componente contiene riferimenti non aggiornati. &#xA;Per eseguire l'aggiornamento, utilizzare Carica versione più recente nell'area di lavoro Progettazione."/>
-	<label commandName="DisableAllContactCmdTooltip" devLabel="No contact" translation="Nessun contatto"/>
-	<label commandName="DisabledBulbInXrefdDoc" devLabel="Visibility cannot be changed." translation="Impossibile modificare la visibilità."/>
-	<label commandName="EditJointDOFLimitsCmdTooltip" devLabel="Edit Motion Limits&lt;br&gt;&lt;br&gt;Lets you enable, disable, and edit the motion limits associated with this joint." translation="Modifica limiti movimento&lt;br&gt;&lt;br&gt;Consente di abilitare, disabilitare e modificare i limiti di movimento associati al giunto."/>
-	<label commandName="EnableAllContactCmdTooltip" devLabel="All bodies contact" translation="Tutti i contatti dei corpi"/>
-	<label commandName="EnableContactSetsCmdTooltip" devLabel="Contact within sets" translation="Contatto all'interno di gruppi"/>
-	<label commandName="IndirectOODXRefMessage" devLabel="The component has out of date references. &#xA;Use &lt;b&gt;Get All Latest&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#xA;or open the child component in its own tab." translation="Il componente contiene riferimenti non aggiornati. &#xA;Utilizzare &lt;b&gt;Carica tutte le versioni più recenti&lt;/b&gt; nella &lt;b&gt;barra dell'applicazione&lt;/b&gt; &#xA;o aprire il componente subordinato nella sua stessa scheda."/>
-	<label commandName="JointOriginsBrowserLabel" devLabel="Joint Origins" translation="Origini del giunto"/>
-	<label commandName="JointsBrowserLabel" devLabel="Joints" translation="Giunti"/>
-	<label commandName="LockJointDOFCmdTooltip" devLabel="Lock Motion &lt;br&gt;&lt;br&gt;Locks this degree of motion and prevents it from moving until you unlock it." translation="Blocca movimento &lt;br&gt;&lt;br&gt;Blocca questo grado di movimento e ne impedisce lo spostamento finché non viene sbloccato."/>
-	<label commandName="MDOutdatedMilestone_CCY" devLabel="New version available. To advance to the new &lt;br&gt;version, edit this component’s parent in place.&lt;br&gt;(Right-click the parent and select Edit In Place.)" translation="Nuova versione disponibile. Per passare alla nuova &lt;br&gt;versione, modificare direttamente l'elemento principale di questo componente.&lt;br&gt;(Fare clic con il pulsante destro del mouse sull'elemento principale e selezionare Modifica diretta)."/>
-	<label commandName="MDVersionMilestone_ccy" devLabel="Version" translation="Versione"/>
-	<label commandName="MSHistoricalMilestone_ccy" devLabel="There are more changes past this version" translation="Dopo questa versione sono state apportate altre modifiche"/>
-	<label commandName="MatesBrowserLabel" devLabel="Constraints" translation="Vincoli"/>
-	<label commandName="MidplaneMate" devLabel=" (Center)" translation=" (Centro)"/>
-	<label commandName="MissingChildXRef" devLabel="Nested unresolved components &#xA;Expand to resolve components nested in this assembly." translation="Componenti irrisolti nidificati &#xA;Espandere per risolvere i componenti nidificati in questo assieme."/>
-	<label commandName="MissingDerivedBrowserTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Componente irrisolto.&lt;br&gt;%1%"/>
-	<label commandName="MotionStudiesBrowserLabel" devLabel="Motion Studies" translation="Studi di movimento"/>
-	<label commandName="NamedViews" devLabel="Named Views" translation="Viste con nome"/>
-	<label commandName="OALOODChildCompMessage" devLabel="Changes have been made to this component. Click Refresh in the application bar to see them." translation="Sono state apportate modifiche a questo componente. Fare clic su Aggiorna nella barra dell'applicazione per visualizzarle."/>
-	<label commandName="OALRefreshAndOODReferencesMessage" devLabel="Changes have been made to external references. Click Refresh in the application bar to see them." translation="Sono state apportate modifiche ai riferimenti esterni. Fare clic su Aggiorna nella barra dell'applicazione per visualizzarle."/>
-	<label commandName="OODCompMessage1" devLabel="The Component is out of date. &#xA;To update, use Get Latest in the Design workspace." translation="Il componente non è aggiornato. &#xA;Per eseguire l'aggiornamento, utilizzare Carica versione più recente nell'area di lavoro Progettazione."/>
-	<label commandName="OODReferencesMessage" devLabel="The design contains one or more out-of-date references &#xA;Use Get All Latest or expand browser nodes to update objects individually." translation="La progettazione contiene uno o più riferimenti non aggiornati. &#xA;Utilizzare Carica tutte le versioni più recenti o espandere i nodi del browser per aggiornare gli oggetti singolarmente."/>
-	<label commandName="OOSCompMessage1" devLabel="The component has out-of-date assembly contexts. &#xA;Use &lt;b&gt;Get All Latest&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#xA;or open the parent component in its own tab." translation="Il componente presenta contesti assieme non aggiornati. &#xA;Utilizzare &lt;b&gt;Carica tutte le versioni più recenti&lt;/b&gt; nella &lt;b&gt;barra dell'applicazione&lt;/b&gt; &#xA;o aprire il componente principale nella sua stessa scheda."/>
-	<label commandName="OOSCompMessageRoot" devLabel="The design contains one or more out-of-date references &#xA;Use Get All Latest or expand browser nodes to update objects individually." translation="La progettazione contiene uno o più riferimenti non aggiornati. &#xA;Utilizzare Carica tutte le versioni più recenti o espandere i nodi del browser per aggiornare gli oggetti singolarmente."/>
-	<label commandName="OOSCompMessageRoot_OAL" devLabel="The design contains one or more out-of-date references &#xA;Use Update or expand browser nodes to update objects individually." translation="La progettazione contiene uno o più riferimenti non aggiornati. &#xA;Utilizzare Aggiorna o espandere i nodi del browser per aggiornare i singoli oggetti."/>
-	<label commandName="OOSPcbCompMessage1" devLabel="PCB 3D out of sync with PCB 2D. &#xA;To update, use Get Latest in the Design workspace." translation="PCB 3D non sincronizzato con PCB 2D. &#xA;Per eseguire l'aggiornamento, utilizzare Carica versione più recente nell'area di lavoro Progettazione."/>
-	<label commandName="ObsoleteConfigMessage" devLabel="Configuration Deleted &#xA;Expand to see one or more Configured Components whose Configurations have been deleted from their Configured Design." translation="Configurazione eliminata &#xA;Espandere per visualizzare uno o più componenti configurati le cui configurazioni sono state eliminate dalla relativa progettazione configurata."/>
-	<label commandName="ObsoleteConfigurationTooltip" devLabel="Configuration Deleted&#xA;This Configuration has been deleted from the Configured Design.&#xA;If you switch or delete this Configured Component, you cannot reference this one again later." translation="Configurazione eliminata&#xA;Questa configurazione è stata eliminata dalla progettazione configurata.&#xA;Se si cambia o si elimina questo componente configurato, non sarà possibile farvi riferimento in un secondo momento."/>
-	<label commandName="OverrideVisibilityInXrefdDoc" devLabel="Visibility Overriden in %1%" translation="Visibilità sostituita in %1%"/>
-	<label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Materiale fisico"/>
-	<label commandName="PlasticRuleStr" devLabel="Plastic Rule" translation="Regola plastica"/>
-	<label commandName="PropertiesStr" devLabel="Properties" translation="Proprietà"/>
-	<label commandName="RefreshAndDirectOODXRefMessage" devLabel="The component has out of date references. &#xA;Refresh to consume the latest change or version." translation="Il componente contiene riferimenti non aggiornati. &#xA;Aggiornare per utilizzare la modifica o la versione più recente."/>
-	<label commandName="RefreshAndIndirectOODXRefMessage" devLabel="The component has out of date references. &#xA;Use &lt;b&gt;Refresh&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#xA;or open the child component in its own tab." translation="Il componente contiene riferimenti non aggiornati. &#xA;Utilizzare &lt;b&gt;Aggiorna&lt;/b&gt; nella &lt;b&gt;barra dell'applicazione&lt;/b&gt; &#xA;o aprire il componente subordinato nella sua stessa scheda."/>
-	<label commandName="RelationshipsBrowserLabel" devLabel="Relationships" translation="Relazioni"/>
-	<label commandName="ReloadAndOODxRefsMessage" devLabel="New version of this design is available and it has out of date external references. &#xA;To update, use Get Latest in the Design workspace." translation="È disponibile una nuova versione di questo progetto che contiene riferimenti esterni non aggiornati. &#xA;Per eseguire l'aggiornamento, utilizzare Carica versione più recente nell'area di lavoro Progettazione."/>
-	<label commandName="ReloadAndOODxRefsMessage_ccy" devLabel="New change to this design is available and it has out of date external references. &#xA;To update, use Get Latest in the Design workspace." translation="È disponibile una nuova modifica a questa progettazione che contiene riferimenti esterni non aggiornati. &#xA;Per eseguire l'aggiornamento, utilizzare Carica versione più recente nell'area di lavoro Progettazione."/>
-	<label commandName="ReloadAndOODxRefsMessage_oal" devLabel="New version to this design is available and it has out of date external references. &#xA;To update, use Refresh in the Design workspace." translation="È disponibile una nuova versione di questa progettazione che contiene riferimenti esterni non aggiornati. &#xA;Per eseguire l'aggiornamento, utilizzare Aggiorna nell'area di lavoro Progettazione."/>
-	<label commandName="ReloadAndOODxRefsMessage_oal_ccy" devLabel="New change to this design is available and it has out of date external references. &#xA;To update, use Refresh in the Design workspace." translation="È disponibile una nuova modifica a questa progettazione che contiene riferimenti esterni non aggiornati. &#xA;Per eseguire l'aggiornamento, utilizzare Aggiorna nell'area di lavoro Progettazione."/>
-	<label commandName="ReloadMessage" devLabel="New version of this design is available. &#xA;To update, use Get Latest in the Design workspace." translation="È disponibile una nuova versione di questo progetto. &#xA;Per eseguire l'aggiornamento, utilizzare Carica versione più recente nell'area di lavoro Progettazione."/>
-	<label commandName="ReloadMessage_ccy" devLabel="A new change to this design is available. &#xA;To update, use Get Latest in the Design workspace." translation="È disponibile una nuova modifica a questa progettazione. &#xA;Per eseguire l'aggiornamento, utilizzare Carica versione più recente nell'area di lavoro Progettazione."/>
-	<label commandName="ReturningChildXRef" devLabel="Nested unresolved components &#xA;Expand to view the status of unresolved components nested in this assembly." translation="Componenti irrisolti nidificati &#xA;Espandere per visualizzare lo stato dei componenti irrisolti nidificati in questo assieme."/>
-	<label commandName="RigidGroupsBrowserLabel" devLabel="Rigid Groups" translation="Gruppi rigidi"/>
-	<label commandName="RigidSubAssemblyAdditionalTooltip" devLabel="&lt;br&gt;&lt;br&gt;%1% is a Rigid Subassembly." translation="&lt;br&gt;&lt;br&gt;%1% è un sottoassieme Rigido."/>
-	<label commandName="RigidSubAssemblyTooltip" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% is a Rigid Subassembly." translation="%1%&lt;br&gt;&lt;br&gt;%2% è un sottoassieme Rigido."/>
-	<label commandName="SelectSelectionGroupCmdTooltip" devLabel="Select" translation="Seleziona"/>
-	<label commandName="SelectedConfigurationStr" devLabel="Insert" translation="Inserisci"/>
-	<label commandName="SheetBodyUnselectTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% è non selezionabile.&lt;br&gt;&lt;br&gt;Fare clic con il pulsante destro del mouse &gt; Selezionabile per attivare la selezione."/>
-	<label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Regola lamiera"/>
-	<label commandName="SketchesBrowserLabel" devLabel="Sketches" translation="Schizzi"/>
-	<label commandName="SolidBodyUnselectTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% è non selezionabile.&lt;br&gt;&lt;br&gt;Fare clic con il pulsante destro del mouse &gt; Selezionabile per attivare la selezione."/>
-	<label commandName="SuppressContactSetCmdTooltip" devLabel="Suppress contact set" translation="Elimina gruppo di contatti"/>
-	<label commandName="SurfaceBodyUnselectTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% è non selezionabile.&lt;br&gt;&lt;br&gt;Fare clic con il pulsante destro del mouse &gt; Selezionabile per attivare la selezione."/>
-	<label commandName="TangentRelationshipsBrowserLabel" devLabel="Tangent Relationships" translation="Relazioni di tangenza"/>
-	<label commandName="UnlockJointDOFCmdTooltip" devLabel="Unlock Motion &lt;br&gt;&lt;br&gt;Unlock this degree of motion to move it." translation="Sblocca movimento &lt;br&gt;&lt;br&gt;Sblocca questo grado di movimento per spostarlo."/>
-	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Non salvato)"/>
-	<label commandName="UnselectableFolderTooltip" devLabel="Bodies is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="Corpi è non selezionabile.&lt;br&gt;&lt;br&gt;Fare clic con il pulsante destro del mouse &gt; Selezionabile per attivare la selezione."/>
-	<label commandName="UnsuppressContactSetCmdTooltip" devLabel="Unsuppress contact set" translation="Scopri gruppo di contatti"/>
-	<label commandName="UpdateSelectionGroupCmdTooltip" devLabel="Update" translation="Aggiorna"/>
-	<label commandName="VisibilityStr" devLabel="Visibility" translation="Visibilità"/>
-	<label commandName="XRefMissingTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Componente irrisolto.&lt;br&gt;%1%"/>
-	<label commandName="XRefUnresolvedTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Componente irrisolto.&lt;br&gt;%1%"/>
+	<label  commandName="AlignMate" devLabel=" (Align)" translation=" (Align)" />
+	<label  commandName="AlignTangent" devLabel=" (Tangent)" translation=" (Tangent)" />
+	<label  commandName="AlignTransitional" devLabel=" (Transitional)" translation=" (Transitional)" />
+	<label  commandName="AlignmentsBrowserLabel" devLabel="Object Pairs" translation="Object Pairs" />
+	<label  commandName="AngleMate" devLabel=" (Angle)" translation=" (Angle)" />
+	<label  commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="AppearanceCI" />
+	<label  commandName="AppearanceStr" devLabel="Appearance" translation="Appearance" />
+	<label  commandName="BodiesBrowserLabel" devLabel="Bodies" translation="Bodies" />
+	<label  commandName="BrokenContextMessage" devLabel="The component has child reference errors. &#xA;Open the child component in its own tab, then &#xA; right-click the errors to fix them." translation="The component has child reference errors. &#10;Open the child component in its own tab, then &#10; right-click the errors to fix them." />
+	<label  commandName="BrokenContextRootMessage" devLabel="The design contains one or more errors. &#xA;Expand browser nodes to locate errors, then right-click &#xA;to resolve errors or open components in their own tab first." translation="The design contains one or more errors. &#10;Expand browser nodes to locate errors, then right-click &#10;to resolve errors or open components in their own tab first." />
+	<label  commandName="BrowserConstructionLabel" devLabel="Construction" translation="Construction" />
+	<label  commandName="BrowserSelectionGroupsLabel" devLabel="Selection Sets" translation="Selection Sets" />
+	<label  commandName="CBHistoricalRevisionMilestone_ccy" devLabel="There are more changes past this Revision" translation="There are more changes past this Revision" />
+	<label  commandName="CBRevisionMilestone_ccy" devLabel="Revision" translation="Revision" />
+	<label  commandName="ComponentInstanceSelectTooltip" devLabel="%1% is grounded to %2%." translation="%1% is grounded to %2%." />
+	<label  commandName="ComponentInstanceUnselectTooltip" devLabel="%1% is grounded to %2%.&lt;br&gt;&lt;br&gt;%3% is Unselectable." translation="%1% is grounded to %2%.&lt;br&gt;&lt;br&gt;%3% is Unselectable." />
+	<label  commandName="ComponentInstanceUnselectTooltipInfo" devLabel="%1% is Unselectable." translation="%1% is Unselectable." />
+	<label  commandName="ContactSetsLabelAll" devLabel="Contact: all" translation="Contact: all" />
+	<label  commandName="ContactSetsLabelNone" devLabel="Contact: off" translation="Contact: off" />
+	<label  commandName="ContactSetsLabelSets" devLabel="Contact: sets" translation="Contact: sets" />
+	<label  commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Cached objects from a dissolved Assembly Context" />
+	<label  commandName="DirectOODXRefMessage" devLabel="The component has out of date references. &#xA;To update, use Get Latest in the Design workspace." translation="The component has out of date references. &#10;To update, use Get Latest in the Design workspace." />
+	<label  commandName="DisableAllContactCmdTooltip" devLabel="No contact" translation="No contact" />
+	<label  commandName="DisabledBulbInXrefdDoc" devLabel="Visibility cannot be changed." translation="Visibility cannot be changed." />
+	<label  commandName="EditJointDOFLimitsCmdTooltip" devLabel="Edit Motion Limits&lt;br&gt;&lt;br&gt;Lets you enable, disable, and edit the motion limits associated with this joint." translation="Edit Motion Limits&lt;br&gt;&lt;br&gt;Lets you enable, disable, and edit the motion limits associated with this joint." />
+	<label  commandName="EnableAllContactCmdTooltip" devLabel="All bodies contact" translation="All bodies contact" />
+	<label  commandName="EnableContactSetsCmdTooltip" devLabel="Contact within sets" translation="Contact within sets" />
+	<label  commandName="IndirectOODXRefMessage" devLabel="The component has out of date references. &#xA;Use &lt;b&gt;Get All Latest&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#xA;or open the child component in its own tab." translation="The component has out of date references. &#10;Use &lt;b&gt;Get All Latest&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#10;or open the child component in its own tab." />
+	<label  commandName="JointOriginsBrowserLabel" devLabel="Joint Origins" translation="Joint Origins" />
+	<label  commandName="JointsBrowserLabel" devLabel="Joints" translation="Joints" />
+	<label  commandName="LockJointDOFCmdTooltip" devLabel="Lock Motion &lt;br&gt;&lt;br&gt;Locks this degree of motion and prevents it from moving until you unlock it." translation="Lock Motion &lt;br&gt;&lt;br&gt;Locks this degree of motion and prevents it from moving until you unlock it." />
+	<label  commandName="MDOutdatedMilestone_CCY" devLabel="New version available. To advance to the new &lt;br&gt;version, edit this component’s parent in place.&lt;br&gt;(Right-click the parent and select Edit In Place.)" translation="New version available. To advance to the new &lt;br&gt;version, edit this component’s parent in place.&lt;br&gt;(Right-click the parent and select Edit In Place.)" />
+	<label  commandName="MDVersionMilestone_ccy" devLabel="Version" translation="Version" />
+	<label  commandName="MSHistoricalMilestone_ccy" devLabel="There are more changes past this version" translation="There are more changes past this version" />
+	<label  commandName="MatesBrowserLabel" devLabel="Constraints" translation="Constraints" />
+	<label  commandName="MidplaneMate" devLabel=" (Center)" translation=" (Center)" />
+	<label  commandName="MissingChildXRef" devLabel="Nested unresolved components &#xA;Expand to resolve components nested in this assembly." translation="Nested unresolved components &#10;Expand to resolve components nested in this assembly." />
+	<label  commandName="MissingDerivedBrowserTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Unresolved component.&lt;br&gt;%1%" />
+	<label  commandName="MotionStudiesBrowserLabel" devLabel="Motion Studies" translation="Motion Studies" />
+	<label  commandName="NamedViews" devLabel="Named Views" translation="Named Views" />
+	<label  commandName="OALOODChildCompMessage" devLabel="Changes have been made to this component. Click Refresh in the application bar to see them." translation="Changes have been made to this component. Click Refresh in the application bar to see them." />
+	<label  commandName="OALRefreshAndOODReferencesMessage" devLabel="Changes have been made to external references. Click Refresh in the application bar to see them." translation="Changes have been made to external references. Click Refresh in the application bar to see them." />
+	<label  commandName="OODCompMessage1" devLabel="The Component is out of date. &#xA;To update, use Get Latest in the Design workspace." translation="The Component is out of date. &#10;To update, use Get Latest in the Design workspace." />
+	<label  commandName="OODReferencesMessage" devLabel="The design contains one or more out-of-date references &#xA;Use Get All Latest or expand browser nodes to update objects individually." translation="The design contains one or more out-of-date references &#10;Use Get All Latest or expand browser nodes to update objects individually." />
+	<label  commandName="OOSCompMessage1" devLabel="The component has out-of-date assembly contexts. &#xA;Use &lt;b&gt;Get All Latest&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#xA;or open the parent component in its own tab." translation="The component has out-of-date assembly contexts. &#10;Use &lt;b&gt;Get All Latest&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#10;or open the parent component in its own tab." />
+	<label  commandName="OOSCompMessageRoot" devLabel="The design contains one or more out-of-date references &#xA;Use Get All Latest or expand browser nodes to update objects individually." translation="The design contains one or more out-of-date references &#10;Use Get All Latest or expand browser nodes to update objects individually." />
+	<label  commandName="OOSCompMessageRoot_OAL" devLabel="The design contains one or more out-of-date references &#xA;Use Update or expand browser nodes to update objects individually." translation="The design contains one or more out-of-date references &#10;Use Update or expand browser nodes to update objects individually." />
+	<label  commandName="OOSPcbCompMessage1" devLabel="PCB 3D out of sync with PCB 2D. &#xA;To update, use Get Latest in the Design workspace." translation="PCB 3D out of sync with PCB 2D. &#10;To update, use Get Latest in the Design workspace." />
+	<label  commandName="ObsoleteConfigMessage" devLabel="Configuration Deleted &#xA;Expand to see one or more Configured Components whose Configurations have been deleted from their Configured Design." translation="Configuration Deleted &#10;Expand to see one or more Configured Components whose Configurations have been deleted from their Configured Design." />
+	<label  commandName="ObsoleteConfigurationTooltip" devLabel="Configuration Deleted&#xA;This Configuration has been deleted from the Configured Design.&#xA;If you switch or delete this Configured Component, you cannot reference this one again later." translation="Configuration Deleted&#xA;This Configuration has been deleted from the Configured Design.&#xA;If you switch or delete this Configured Component, you cannot reference this one again later." />
+	<label  commandName="OverrideVisibilityInXrefdDoc" devLabel="Visibility Overriden in %1%" translation="Visibility Overriden in %1%" />
+	<label  commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Physical Material" />
+	<label  commandName="PlasticRuleStr" devLabel="Plastic Rule" translation="Plastic Rule" />
+	<label  commandName="PropertiesStr" devLabel="Properties" translation="Properties" />
+	<label  commandName="RefreshAndDirectOODXRefMessage" devLabel="The component has out of date references. &#xA;Refresh to consume the latest change or version." translation="The component has out of date references. &#10;Refresh to consume the latest change or version." />
+	<label  commandName="RefreshAndIndirectOODXRefMessage" devLabel="The component has out of date references. &#xA;Use &lt;b&gt;Refresh&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#xA;or open the child component in its own tab." translation="The component has out of date references. &#10;Use &lt;b&gt;Refresh&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#10;or open the child component in its own tab." />
+	<label  commandName="RelationshipsBrowserLabel" devLabel="Relationships" translation="Relationships" />
+	<label  commandName="ReloadAndOODxRefsMessage" devLabel="New version of this design is available and it has out of date external references. &#xA;To update, use Get Latest in the Design workspace." translation="New version of this design is available and it has out of date external references. &#10;To update, use Get Latest in the Design workspace." />
+	<label  commandName="ReloadAndOODxRefsMessage_ccy" devLabel="New change to this design is available and it has out of date external references. &#xA;To update, use Get Latest in the Design workspace." translation="New change to this design is available and it has out of date external references. &#10;To update, use Get Latest in the Design workspace." />
+	<label  commandName="ReloadAndOODxRefsMessage_oal" devLabel="New version to this design is available and it has out of date external references. &#xA;To update, use Refresh in the Design workspace." translation="New version to this design is available and it has out of date external references. &#10;To update, use Refresh in the Design workspace." />
+	<label  commandName="ReloadAndOODxRefsMessage_oal_ccy" devLabel="New change to this design is available and it has out of date external references. &#xA;To update, use Refresh in the Design workspace." translation="New change to this design is available and it has out of date external references. &#10;To update, use Refresh in the Design workspace." />
+	<label  commandName="ReloadMessage" devLabel="New version of this design is available. &#xA;To update, use Get Latest in the Design workspace." translation="New version of this design is available. &#10;To update, use Get Latest in the Design workspace." />
+	<label  commandName="ReloadMessage_ccy" devLabel="A new change to this design is available. &#xA;To update, use Get Latest in the Design workspace." translation="A new change to this design is available. &#10;To update, use Get Latest in the Design workspace." />
+	<label  commandName="ReturningChildXRef" devLabel="Nested unresolved components &#xA;Expand to view the status of unresolved components nested in this assembly." translation="Nested unresolved components &#10;Expand to view the status of unresolved components nested in this assembly." />
+	<label  commandName="RigidGroupsBrowserLabel" devLabel="Rigid Groups" translation="Rigid Groups" />
+	<label  commandName="RigidSubAssemblyAdditionalTooltip" devLabel="&lt;br&gt;&lt;br&gt;%1% is a Rigid Subassembly." translation="&lt;br&gt;&lt;br&gt;%1% is a Rigid Subassembly." />
+	<label  commandName="RigidSubAssemblyTooltip" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% is a Rigid Subassembly." translation="%1%&lt;br&gt;&lt;br&gt;%2% is a Rigid Subassembly." />
+	<label  commandName="SelectSelectionGroupCmdTooltip" devLabel="Select" translation="Select" />
+	<label  commandName="SelectedConfigurationStr" devLabel="Insert" translation="Insert" />
+	<label  commandName="SheetBodyUnselectTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." />
+	<label  commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Sheet Metal Rule" />
+	<label  commandName="SketchesBrowserLabel" devLabel="Sketches" translation="Sketches" />
+	<label  commandName="SolidBodyUnselectTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." />
+	<label  commandName="SuppressContactSetCmdTooltip" devLabel="Suppress contact set" translation="Suppress contact set" />
+	<label  commandName="SurfaceBodyUnselectTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." />
+	<label  commandName="TangentRelationshipsBrowserLabel" devLabel="Tangent Relationships" translation="Tangent Relationships" />
+	<label  commandName="UnlockJointDOFCmdTooltip" devLabel="Unlock Motion &lt;br&gt;&lt;br&gt;Unlock this degree of motion to move it." translation="Unlock Motion &lt;br&gt;&lt;br&gt;Unlock this degree of motion to move it." />
+	<label  commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Unsaved)" />
+	<label  commandName="UnselectableFolderTooltip" devLabel="Bodies is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="Bodies is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." />
+	<label  commandName="UnsuppressContactSetCmdTooltip" devLabel="Unsuppress contact set" translation="Unsuppress contact set" />
+	<label  commandName="UpdateSelectionGroupCmdTooltip" devLabel="Update" translation="Update" />
+	<label  commandName="VisibilityStr" devLabel="Visibility" translation="Visibility" />
+	<label  commandName="XRefMissingTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Unresolved component.&lt;br&gt;%1%" />
+	<label  commandName="XRefUnresolvedTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Unresolved component.&lt;br&gt;%1%" />
 </Resource>

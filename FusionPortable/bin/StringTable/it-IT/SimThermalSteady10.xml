@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="SimAppliedHeatFlow" devLabel="Applied Heat Flow" translation="Flusso termico applicato"/>
-	<label commandName="SimCaseNameThermal" devLabel="Study %1% - Thermal" translation="Studio %1% - Termico"/>
-	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Sostituisci sistema di unità"/>
-	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additivo"/>
-	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Tutti i metodi"/>
-	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="Taglio a 2 assi"/>
-	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Colata"/>
-	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fresatura"/>
-	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Non limitato"/>
-	<label commandName="SimHeatFlux" devLabel="Heat Flux" translation="Flusso termico"/>
-	<label commandName="SimHeatFluxX" devLabel="X" translation="X"/>
-	<label commandName="SimHeatFluxY" devLabel="Y" translation="Y"/>
-	<label commandName="SimHeatFluxZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Stati Uniti (pollici)"/>
-	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personalizzato"/>
-	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Unità metriche (SI)"/>
-	<label commandName="SimSumHeatFlux" devLabel="Total" translation="Totale"/>
-	<label commandName="SimSumThermalGradient" devLabel="Total" translation="Totale"/>
-	<label commandName="SimTargetResult" devLabel=" (target)" translation=" (destinazione)"/>
-	<label commandName="SimTemperature" devLabel="Temperature" translation="Temperatura"/>
-	<label commandName="SimThermalGradient" devLabel="Thermal Gradient" translation="Gradiente termico"/>
-	<label commandName="SimThermalGradientX" devLabel="X" translation="X"/>
-	<label commandName="SimThermalGradientY" devLabel="Y" translation="Y"/>
-	<label commandName="SimThermalGradientZ" devLabel="Z" translation="Z"/>
-	<label commandName="SimThermalSteady" devLabel="Thermal" translation="Termico"/>
-	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentuale"/>
-	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pezzi"/>
-	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
-	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angolo"/>
-	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Corrente"/>
-	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Resistenza elettrica"/>
-	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
-	<label commandName="SimUnitsForce" devLabel="Force" translation="Forza"/>
-	<label commandName="SimUnitsLength" devLabel="Length" translation="Lunghezza"/>
-	<label commandName="SimUnitsMass" devLabel="Mass" translation="Massa"/>
-	<label commandName="SimUnitsPower" devLabel="Power" translation="Potenza"/>
-	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressione"/>
-	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
-	<label commandName="SimUnitsTime" devLabel="Time" translation="Tempo"/>
-	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocità"/>
-	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosità"/>
-	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tensione"/>
-	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Portata"/>
+	<label  commandName="SimAppliedHeatFlow" devLabel="Applied Heat Flow" translation="Applied Heat Flow" />
+	<label  commandName="SimCaseNameThermal" devLabel="Study %1% - Thermal" translation="Study %1% - Thermal" />
+	<label  commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Override Unit System" />
+	<label  commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additive" />
+	<label  commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="All methods" />
+	<label  commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2-axis Cutting" />
+	<label  commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Casting" />
+	<label  commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Milling" />
+	<label  commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Unrestricted" />
+	<label  commandName="SimHeatFlux" devLabel="Heat Flux" translation="Heat Flux" />
+	<label  commandName="SimHeatFluxX" devLabel="X" translation="X" />
+	<label  commandName="SimHeatFluxY" devLabel="Y" translation="Y" />
+	<label  commandName="SimHeatFluxZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="U.S. (in)" />
+	<label  commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Custom" />
+	<label  commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metric (SI)" />
+	<label  commandName="SimSumHeatFlux" devLabel="Total" translation="Total" />
+	<label  commandName="SimSumThermalGradient" devLabel="Total" translation="Total" />
+	<label  commandName="SimTargetResult" devLabel=" (target)" translation=" (target)" />
+	<label  commandName="SimTemperature" devLabel="Temperature" translation="Temperature" />
+	<label  commandName="SimThermalGradient" devLabel="Thermal Gradient" translation="Thermal Gradient" />
+	<label  commandName="SimThermalGradientX" devLabel="X" translation="X" />
+	<label  commandName="SimThermalGradientY" devLabel="Y" translation="Y" />
+	<label  commandName="SimThermalGradientZ" devLabel="Z" translation="Z" />
+	<label  commandName="SimThermalSteady" devLabel="Thermal" translation="Thermal" />
+	<label  commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentage" />
+	<label  commandName="SimUnitPieces" devLabel="Pieces" translation="Pieces" />
+	<label  commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Acceleration" />
+	<label  commandName="SimUnitsAngle" devLabel="Angle" translation="Angle" />
+	<label  commandName="SimUnitsCurrent" devLabel="Current" translation="Current" />
+	<label  commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Electrical Resistance" />
+	<label  commandName="SimUnitsEnergy" devLabel="Energy" translation="Energy" />
+	<label  commandName="SimUnitsForce" devLabel="Force" translation="Force" />
+	<label  commandName="SimUnitsLength" devLabel="Length" translation="Length" />
+	<label  commandName="SimUnitsMass" devLabel="Mass" translation="Mass" />
+	<label  commandName="SimUnitsPower" devLabel="Power" translation="Power" />
+	<label  commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressure" />
+	<label  commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperature" />
+	<label  commandName="SimUnitsTime" devLabel="Time" translation="Time" />
+	<label  commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocity" />
+	<label  commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosity" />
+	<label  commandName="SimUnitsVoltage" devLabel="Voltage" translation="Voltage" />
+	<label  commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Flow Rate" />
 </Resource>

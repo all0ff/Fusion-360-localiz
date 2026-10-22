@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="AreaProperty" devLabel="Area" translation="Area"/>
-	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Oggetti memorizzati nella cache da un contesto dell'assieme dissolto"/>
-	<label commandName="DensityProperty" devLabel="Density" translation="Densità"/>
-	<label commandName="MassProperty" devLabel="Mass" translation="Massa"/>
-	<label commandName="VolumeProperty" devLabel="Volume" translation="Volume"/>
-	<label commandName="frontNamedView" devLabel="FRONT" translation="FRONTE"/>
-	<label commandName="homeNamedView" devLabel="HOME" translation="INIZIO"/>
-	<label commandName="rightNamedView" devLabel="RIGHT" translation="DESTRA"/>
-	<label commandName="topNamedView" devLabel="TOP" translation="ALTO"/>
+	<label  commandName="AreaProperty" devLabel="Area" translation="Area" />
+	<label  commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Cached objects from a dissolved Assembly Context" />
+	<label  commandName="DensityProperty" devLabel="Density" translation="Density" />
+	<label  commandName="MassProperty" devLabel="Mass" translation="Mass" />
+	<label  commandName="VolumeProperty" devLabel="Volume" translation="Volume" />
+	<label  commandName="frontNamedView" devLabel="FRONT" translation="FRONT" />
+	<label  commandName="homeNamedView" devLabel="HOME" translation="HOME" />
+	<label  commandName="rightNamedView" devLabel="RIGHT" translation="RIGHT" />
+	<label  commandName="topNamedView" devLabel="TOP" translation="TOP" />
 </Resource>

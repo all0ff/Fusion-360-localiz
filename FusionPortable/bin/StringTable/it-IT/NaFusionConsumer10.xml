@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><Resource>
-	<label commandName="AGDObstacleBodyName" devLabel="Obstacle%1%" translation="Obstacle%1%"/>
-	<label commandName="AGDOrganicBodyName" devLabel="Organic%1%" translation="Organic%1%"/>
-	<label commandName="AGDPreserveBodyName" devLabel="Preserve%1%" translation="Preserve%1%"/>
-	<label commandName="AGD_DESIGN_DESCRIPTION" devLabel="Created from generative design outcome" translation="Creato da un risultato di progettazione generativa"/>
-	<label commandName="PMINoPaths" devLabel="No paths were found for the given reference" translation="Nessun percorso trovato per il riferimento specificato"/>
+	<label  commandName="AGDObstacleBodyName" devLabel="Obstacle%1%" translation="Obstacle%1%" />
+	<label  commandName="AGDOrganicBodyName" devLabel="Organic%1%" translation="Organic%1%" />
+	<label  commandName="AGDPreserveBodyName" devLabel="Preserve%1%" translation="Preserve%1%" />
+	<label  commandName="AGD_DESIGN_DESCRIPTION" devLabel="Created from generative design outcome" translation="Created from generative design outcome" />
+	<label  commandName="PMINoPaths" devLabel="No paths were found for the given reference" translation="No paths were found for the given reference" />
 </Resource>
