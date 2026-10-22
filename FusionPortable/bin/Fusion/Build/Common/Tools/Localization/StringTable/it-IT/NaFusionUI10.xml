@@ -25,12 +25,12 @@
 	<label  commandName="AMCompleteButtonTxt" devLabel="Complete" translation="Complete" />
 	<label  commandName="AMCompleteGenerationRequestTitle" devLabel="Complete the generation?" translation="Complete the generation?" />
 	<label  commandName="AMDefaultAlternativesCommandGroup" devLabel="Alternatives" translation="Alternatives" />
-	<label  commandName="AMDescDisconnected" devLabel="It looks like you aren't connected to the internet. Your alternatives will appear when the connection is restored." translation="It looks like you aren't connected to the internet. Your alternatives will appear when the connection is restored." />
+	<label  commandName="AMDescDisconnected" devLabel="It looks like you aren't connected to the internet. Your alternatives will appear when the connection is restored." translation="Похоже, подключение к интернету отсутствует. Альтернативные варианты появятся после восстановления соединения." />
 	<label  commandName="AMDescNoAlternatives" devLabel="&lt;p&gt;Try modifying your inputs. Next, generate again.&lt;/p&gt;&#xA;&lt;p&gt;If the issue continues, check out the &lt;a href=" translation="&lt;p&gt;Попробуйте изменить входные данные. Затем сгенерируйте снова.&lt;/p&gt;&#xA;&lt;p&gt;Если проблема сохраняется, ознакомьтесь с &lt;a href=" />
 	<label  commandName="AMDescNoAlternatives1" devLabel="&gt;best practices.&lt;/a&gt;&lt;/p&gt;" translation="&gt;best practices.&lt;/a&gt;&lt;/p&gt;" />
-	<label  commandName="AMDescNoInternet" devLabel="It looks like you aren't connected to the internet. Please check your connection and try again." translation="It looks like you aren't connected to the internet. Please check your connection and try again." />
-	<label  commandName="AMDescOutdatedAlternatives" devLabel="Alternatives are available for two weeks after generating. Please regenerate the alternatives." translation="Alternatives are available for two weeks after generating. Please regenerate the alternatives." />
-	<label  commandName="AMDescServiceUnavailable" devLabel="It looks like the requested service is currently unavailable. Please try again." translation="It looks like the requested service is currently unavailable. Please try again." />
+	<label  commandName="AMDescNoInternet" devLabel="It looks like you aren't connected to the internet. Please check your connection and try again." translation="Похоже, подключение к интернету отсутствует. Проверьте соединение и повторите попытку." />
+	<label  commandName="AMDescOutdatedAlternatives" devLabel="Alternatives are available for two weeks after generating. Please regenerate the alternatives." translation="Альтернативные варианты доступны в течение двух недель после генерации. Создайте варианты заново." />
+	<label  commandName="AMDescServiceUnavailable" devLabel="It looks like the requested service is currently unavailable. Please try again." translation="Запрошенная служба сейчас недоступна. Повторите попытку позже." />
 	<label  commandName="AMDescTimeout" devLabel="&lt;p&gt;Try simplifying your inputs by reducing the number of faces to connect or reducing the number of bodies to avoid. Next, generate again.&lt;/p&gt;&#xA;&lt;p&gt;If the issue continues, check out the &lt;a href=" translation="&lt;p&gt;Попробуйте упростить входные данные, уменьшив количество соединяемых граней или количество исключаемых тел. Затем сгенерируйте снова.&lt;/p&gt;&#xA;&lt;p&gt;Если проблема сохраняется, ознакомьтесь с &lt;a href=" />
 	<label  commandName="AMDescTimeout1" devLabel="&gt;best practices.&lt;/a&gt;&lt;/p&gt;" translation="&gt;best practices.&lt;/a&gt;&lt;/p&gt;" />
 	<label  commandName="AMErrorInsertingResults" devLabel="&lt;p&gt;Unable to create timeline features for this alternative. Please try selecting another alternative.&lt;/p&gt;&#xA;&lt;p&gt;If the issue continues, check out the &lt;a href=" translation="&lt;p&gt;Не удалось создать элементы временной шкалы для этой альтернативы. Попробуйте выбрать другую альтернативу.&lt;/p&gt;&#xA;&lt;p&gt;Если проблема сохраняется, ознакомьтесь с &lt;a href=" />
@@ -534,7 +534,7 @@
 	<label  commandName="ArrangeTable" devLabel="Arrange table" translation="Arrange table" />
 	<label  commandName="ArrangeTipsAndTriksContextIDs" devLabel="NST-ARR-SELECT" translation="NST-ARR-SELECT" />
 	<label  commandName="ArrangeTipsAndTriksDescription" devLabel="Drag around multiple components to marquee select them for arrange.&#xA;Autodesk recommends arranging on sketches rather than planes." translation="Перетащите курсор вокруг нескольких компонентов, чтобы выделить их для компоновки. &#xA;Autodesk рекомендует выполнять компоновку на эскизах, а не на плоскостях." />
-	<label  commandName="ArrangeTipsAndTriksTips" devLabel="With &quot;Objects&quot; set to Select, click components you want to arrange. With &quot;Plane/Sketch&quot; set to Select, click a plane or sketch on which to arrange the components." translation="With &quot;Objects&quot; set to Select, click components you want to arrange. With &quot;Plane/Sketch&quot; set to Select, click a plane or sketch on which to arrange the components." />
+	<label  commandName="ArrangeTipsAndTriksTips" devLabel="With &quot;Objects&quot; set to Select, click components you want to arrange. With &quot;Plane/Sketch&quot; set to Select, click a plane or sketch on which to arrange the components." translation="Если для параметра &quot;Objects&quot; выбрано значение Select, щёлкните компоненты, которые нужно расположить. Если для параметра &quot;Plane/Sketch&quot; выбрано значение Select, щёлкните плоскость или эскиз, на котором нужно разместить компоненты." />
 	<label  commandName="ArrangeTipsAndTriksTitle" devLabel="Arrange Information" translation="Arrange Information" />
 	<label  commandName="ArrangeWidth" devLabel="Width" translation="Width" />
 	<label  commandName="ArrangeWidthDimension" devLabel="Width Dimension" translation="Width Dimension" />
@@ -916,7 +916,7 @@
 	<label  commandName="ChooseVersionCancelledTitle_ccy" devLabel="Canceled Choosing Change" translation="Canceled Choosing Change" />
 	<label  commandName="ChooseVersionCmd" devLabel="Choose Version" translation="Choose Version" />
 	<label  commandName="ChordFilletFeatureRadius" devLabel="Chord Length" translation="Chord Length" />
-	<label  commandName="ChordFilletFeatureRadiusDesc" devLabel="Applies a chord length value along an entire fillet to determine its size." translation="Applies a chord length value along an entire fillet to determine its size." />
+	<label  commandName="ChordFilletFeatureRadiusDesc" devLabel="Applies a chord length value along an entire fillet to determine its size." translation="Задаёт длину хорды вдоль всей скруглённой кромки, определяющую размер скругления." />
 	<label  commandName="ChordFilletFeatureRadiusInfo" devLabel="Chord Length" translation="Chord Length" />
 	<label  commandName="CircleDiameterInput" devLabel="Inner Diameter" translation="Inner Diameter" />
 	<label  commandName="Circular" devLabel="Circular" translation="Circular" />
@@ -1365,7 +1365,7 @@
 	<label  commandName="ConstructionAxisThroughTwoPointsInput1" devLabel="Point 1" translation="Point 1" />
 	<label  commandName="ConstructionAxisThroughTwoPointsInput2" devLabel="Point 2" translation="Point 2" />
 	<label  commandName="ConstructionAxisThroughTwoPointsMethod" devLabel="Through Two Points" translation="Through Two Points" />
-	<label  commandName="ConstructionAxisThroughTwoPointsMethodDesc" devLabel="Creates a Construction Axis that passes through two points or vertices." translation="Creates a Construction Axis that passes through two points or vertices." />
+	<label  commandName="ConstructionAxisThroughTwoPointsMethodDesc" devLabel="Creates a Construction Axis that passes through two points or vertices." translation="Создаёт конструкционную ось, проходящую через две точки или вершины." />
 	<label  commandName="ConstructionGeom" devLabel="Construction Geometry" translation="Construction Geometry" />
 	<label  commandName="ConstructionGeometryDialogName" devLabel="Construction Geometry" translation="Construction Geometry" />
 	<label  commandName="ConstructionGeometryMethod" devLabel="Method" translation="Method" />
@@ -1482,7 +1482,7 @@
 	<label  commandName="ContinuityType" devLabel="Continuity Type" translation="Continuity Type" />
 	<label  commandName="ContinuityTypeDesc" devLabel="Select the type of continuity to apply to fillet transitions." translation="Select the type of continuity to apply to fillet transitions." />
 	<label  commandName="ContinuityTypeUnavailable" devLabel="Continuity Type (unavailable)" translation="Continuity Type (unavailable)" />
-	<label  commandName="ContinuityTypeUnavailableDesc" devLabel="Unavailable because Asymmetric fillets only supports Tangent (G1) continuity." translation="Unavailable because Asymmetric fillets only supports Tangent (G1) continuity." />
+	<label  commandName="ContinuityTypeUnavailableDesc" devLabel="Unavailable because Asymmetric fillets only supports Tangent (G1) continuity." translation="Недоступно: асимметричное скругление поддерживает только касательную непрерывность (G1)." />
 	<label  commandName="ConversionAnalysisCmdDef" devLabel="Check Conversion" translation="Check Conversion" />
 	<label  commandName="ConversionFailedError" devLabel="Failed to convert document to Assembly" translation="Failed to convert document to Assembly" />
 	<label  commandName="Convert2BREPFailed" devLabel="Failed to convert T-Spline to BREP" translation="Failed to convert T-Spline to BREP" />
@@ -2019,13 +2019,13 @@
 	<label  commandName="DoNotShowThisAgainCheckBoxStr" devLabel="Don't show this again." translation="Don't show this again." />
 	<label  commandName="DocDownloadError" devLabel="Source Design download failed" translation="Source Design download failed" />
 	<label  commandName="DocToSaveError" devLabel="Failed to get document for save to cloud" translation="Failed to get document for save to cloud" />
-	<label  commandName="DocType_Assembly_TT_Desc" devLabel="A design where you create or insert other designs as external components, then define relationships between them to create an assembly." translation="A design where you create or insert other designs as external components, then define relationships between them to create an assembly." />
+	<label  commandName="DocType_Assembly_TT_Desc" devLabel="A design where you create or insert other designs as external components, then define relationships between them to create an assembly." translation="Проект, в котором другие проекты создаются или вставляются как внешние компоненты, а затем между ними задаются связи для формирования сборки." />
 	<label  commandName="DocType_Assembly_TT_Title" devLabel="Assembly" translation="Assembly" />
-	<label  commandName="DocType_Hybrid_TT_Desc" devLabel="A flexible design where you create and model internal components, insert other designs as external components, then define relationships between them." translation="A flexible design where you create and model internal components, insert other designs as external components, then define relationships between them." />
+	<label  commandName="DocType_Hybrid_TT_Desc" devLabel="A flexible design where you create and model internal components, insert other designs as external components, then define relationships between them." translation="Гибкий проект, в котором можно создавать и моделировать внутренние компоненты, вставлять другие проекты как внешние компоненты и задавать между ними связи." />
 	<label  commandName="DocType_Hybrid_TT_Title" devLabel="Hybrid" translation="Hybrid" />
-	<label  commandName="DocType_Part_TT_Desc" devLabel="A design where you model a single component to manufacture or use in an assembly." translation="A design where you model a single component to manufacture or use in an assembly." />
+	<label  commandName="DocType_Part_TT_Desc" devLabel="A design where you model a single component to manufacture or use in an assembly." translation="Проект, в котором моделируется один компонент для изготовления или использования в составе сборки." />
 	<label  commandName="DocType_Part_TT_Title" devLabel="Part" translation="Part" />
-	<label  commandName="DocType_Part_TT_Unavailable_Desc" devLabel="Unavailable because this design contains components and can't be converted to a part." translation="Unavailable because this design contains components and can't be converted to a part." />
+	<label  commandName="DocType_Part_TT_Unavailable_Desc" devLabel="Unavailable because this design contains components and can't be converted to a part." translation="Недоступно: этот проект содержит компоненты, поэтому преобразовать его в деталь нельзя." />
 	<label  commandName="DocType_Part_TT_Unavailable_Title" devLabel="Part (unavailable)" translation="Part (unavailable)" />
 	<label  commandName="DoneBtn" devLabel="Done" translation="Done" />
 	<label  commandName="DonnotShowMeAgainCheckBoxCaption" devLabel="Don't show this again" translation="Don't show this again" />
@@ -2195,7 +2195,7 @@
 	<label  commandName="EditFaceCommand" devLabel="Edit Face" translation="Edit Face" />
 	<label  commandName="EditHoleThreadNote" devLabel="Edit PMI" translation="Edit PMI" />
 	<label  commandName="EditJointDOF" devLabel="Edit Motion Limits" translation="Edit Motion Limits" />
-	<label  commandName="EditJointDOFLimitsCmdTipsAndTricks" devLabel="Edit Motion Limits allows you to specify dimensions for each degree of motion to define the range of a joint." translation="Edit Motion Limits allows you to specify dimensions for each degree of motion to define the range of a joint." />
+	<label  commandName="EditJointDOFLimitsCmdTipsAndTricks" devLabel="Edit Motion Limits allows you to specify dimensions for each degree of motion to define the range of a joint." translation="Команда Edit Motion Limits позволяет задать пределы перемещения для каждой степени свободы соединения." />
 	<label  commandName="EditJointDOFLimitsCmdTipsAndTricksContextIDs" devLabel="ASM-JOINT-LIMIT" translation="ASM-JOINT-LIMIT" />
 	<label  commandName="EditJointDOFLimitsCmdTipsAndTricksDescription" devLabel="Use Contact Sets in tandem with Joint Motion Limits to restrict physical contact between components and limit movement to create more realistic joints." translation="Используйте Наборы контактов совместно с Ограничениями движения шарнира для ограничения физического контакта между компонентами и ограничения движения для создания более реалистичных шарниров." />
 	<label  commandName="EditJointDOFLimitsCmdTipsAndTricksTitle" devLabel="MOTION LIMITS INFORMATION" translation="MOTION LIMITS INFORMATION" />
@@ -2203,7 +2203,7 @@
 	<label  commandName="EditJointSnapUnavailableDueToSuppressed" devLabel="&lt;b&gt;Joint Snap (unavailable)&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Cannot edit this snap because the joint is&lt;br/&gt;suppressed in this configuration.&lt;br/&gt;&lt;br/&gt;Unsuppress the joint in this configuration,&lt;br/&gt;then edit the snap." translation="&lt;b&gt;Joint Snap (unavailable)&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Cannot edit this snap because the joint is&lt;br/&gt;suppressed in this configuration.&lt;br/&gt;&lt;br/&gt;Unsuppress the joint in this configuration,&lt;br/&gt;then edit the snap." />
 	<label  commandName="EditLeaderLineNote" devLabel="Edit PMI" translation="Edit PMI" />
 	<label  commandName="EditMotionLimits" devLabel="Edit Motion Limits" translation="Edit Motion Limits" />
-	<label  commandName="EditMotionLimitsDesc" devLabel="Lets you enable, disable, and edit the motion limits associated with this joint." translation="Lets you enable, disable, and edit the motion limits associated with this joint." />
+	<label  commandName="EditMotionLimitsDesc" devLabel="Lets you enable, disable, and edit the motion limits associated with this joint." translation="Позволяет включать, отключать и изменять ограничения движения, заданные для этого соединения." />
 	<label  commandName="EditMotionRelationship" devLabel="Edit" translation="Edit" />
 	<label  commandName="EditMotionRelationship2" devLabel="Edit Feature" translation="Edit Feature" />
 	<label  commandName="EditMotionStudyCmd" devLabel="Edit" translation="Edit" />
@@ -2547,7 +2547,7 @@
 	<label  commandName="FilletFeatureRadius" devLabel="Radius" translation="Radius" />
 	<label  commandName="FilletFeatureRadiusDesc" devLabel="Specify the radius value" translation="Specify the radius value" />
 	<label  commandName="FilletFeatureRoundsFillets" devLabel="Rounds and Fillets" translation="Rounds and Fillets" />
-	<label  commandName="FilletFeatureRoundsFilletsDesc" devLabel="Creates convex rounds on all outside corners and concave fillets on all inside corners." translation="Creates convex rounds on all outside corners and concave fillets on all inside corners." />
+	<label  commandName="FilletFeatureRoundsFilletsDesc" devLabel="Creates convex rounds on all outside corners and concave fillets on all inside corners." translation="Создаёт выпуклые скругления на внешних углах и вогнутые скругления на внутренних углах." />
 	<label  commandName="FilletFeatureRoundsOnly" devLabel="Rounds Only" translation="Rounds Only" />
 	<label  commandName="FilletFeatureRoundsOnlyDesc" devLabel="Creates convex rounds on all outside corners." translation="Creates convex rounds on all outside corners." />
 	<label  commandName="FilletFeatureRuleFilletAllEdges" devLabel="All Edges" translation="All Edges" />
@@ -2847,7 +2847,7 @@
 	<label  commandName="FusionDraftCommandSelectBodyTSplineBodyToAnalyze" devLabel="Select a solid body or T-Spline body to analyze" translation="Select a solid body or T-Spline body to analyze" />
 	<label  commandName="FusionDraftCommandSelectEdgePullDirection" devLabel="Select edge (pull direction)" translation="Select edge (pull direction)" />
 	<label  commandName="FusionDraftType" devLabel="Type" translation="Type" />
-	<label  commandName="FusionDragCompControlsCmdDefDesc1" devLabel="Enables or disables the movement of components by dragging in the canvas." translation="Enables or disables the movement of components by dragging in the canvas." />
+	<label  commandName="FusionDragCompControlsCmdDefDesc1" devLabel="Enables or disables the movement of components by dragging in the canvas." translation="Включает или отключает перемещение компонентов перетаскиванием в рабочей области." />
 	<label  commandName="FusionDragCompControlsCmdDefDesc2" devLabel="Hold Alt to drag components when Component Drag is disabled." translation="Hold Alt to drag components when Component Drag is disabled." />
 	<label  commandName="FusionDragCompCtrlsCmd" devLabel="Component Drag" translation="Component Drag" />
 	<label  commandName="FusionDragComponents" devLabel="Drag Components" translation="Drag Components" />
@@ -2922,7 +2922,7 @@
 	<label  commandName="FusionFirstTangentSelection" devLabel="Select first tangent of circle" translation="Select first tangent of circle" />
 	<label  commandName="FusionGapFill" devLabel="Gap Fill" translation="Gap Fill" />
 	<label  commandName="FusionGapFillCommandDefDesc1" devLabel="Fills gaps in surfaces and shells." translation="Fills gaps in surfaces and shells." />
-	<label  commandName="FusionGapFillCommandDefDesc2" devLabel="Improves geometry by filling gaps between selected object edges. Choose the Extend or Patch options appropriate for the gap." translation="Improves geometry by filling gaps between selected object edges. Choose the Extend or Patch options appropriate for the gap." />
+	<label  commandName="FusionGapFillCommandDefDesc2" devLabel="Improves geometry by filling gaps between selected object edges. Choose the Extend or Patch options appropriate for the gap." translation="Улучшает геометрию, заполняя зазоры между выбранными рёбрами объектов. Выберите подходящий для зазора вариант Extend или Patch." />
 	<label  commandName="FusionGapFillFaceSelection" devLabel="Select first face" translation="Select first face" />
 	<label  commandName="FusionGapFillFirstEdgeSelection" devLabel="Select first edge" translation="Select first edge" />
 	<label  commandName="FusionGapFillProfileSelection" devLabel="Select loft inputs" translation="Select loft inputs" />
@@ -3027,9 +3027,9 @@
 	<label  commandName="FusionRectangleCenter" devLabel="Center Rectangle" translation="Center Rectangle" />
 	<label  commandName="FusionReleaseToSelectPoint" devLabel="Release to select point" translation="Release to select point" />
 	<label  commandName="FusionRemoveFacesCommandDefDesc1" devLabel="Deletes selected faces." translation="Deletes selected faces." />
-	<label  commandName="FusionRemoveFacesCommandDefDesc2" devLabel="Select faces to remove. Neighboring faces are automatically deleted, as appropriate, in order to heal the model." translation="Select faces to remove. Neighboring faces are automatically deleted, as appropriate, in order to heal the model." />
+	<label  commandName="FusionRemoveFacesCommandDefDesc2" devLabel="Select faces to remove. Neighboring faces are automatically deleted, as appropriate, in order to heal the model." translation="Выберите грани для удаления. При необходимости соседние грани также будут удалены, чтобы восстановить целостность модели." />
 	<label  commandName="FusionRemoveFeaturesCommandDefDesc1" devLabel="Automatically deletes features from selected objects." translation="Automatically deletes features from selected objects." />
-	<label  commandName="FusionRemoveFeaturesCommandDefDesc2" devLabel="Select objects, from which to delete features, and choose appropriate settings. Associated features are selected and deleted accordingly." translation="Select objects, from which to delete features, and choose appropriate settings. Associated features are selected and deleted accordingly." />
+	<label  commandName="FusionRemoveFeaturesCommandDefDesc2" devLabel="Select objects, from which to delete features, and choose appropriate settings. Associated features are selected and deleted accordingly." translation="Выберите объекты, из которых нужно удалить элементы, и задайте подходящие параметры. Связанные элементы будут выбраны и удалены соответствующим образом." />
 	<label  commandName="FusionRemoveOverrideCommand" devLabel="Remove Appearance Override" translation="Remove Appearance Override" />
 	<label  commandName="FusionRenameTimelineEntry" devLabel="Rename" translation="Rename" />
 	<label  commandName="FusionRenameTimelineEntryName" devLabel="Name" translation="Name" />
@@ -3061,7 +3061,7 @@
 	<label  commandName="FusionSelectBREPCurveForCurvatureAnalysis" devLabel="Select edges to analyze" translation="Select edges to analyze" />
 	<label  commandName="FusionSelectBodiesAndPlanes" devLabel="Select bodies &amp; planes" translation="Select bodies &amp; planes" />
 	<label  commandName="FusionSelectBodiesBySizeCommandDefDesc1" devLabel="Selects bodies or components within a size range that you specify." translation="Selects bodies or components within a size range that you specify." />
-	<label  commandName="FusionSelectBodiesBySizeCommandDefDesc2" devLabel="Use the slider controls or specify the minimum and maximum size values. The size value is the distance between the opposing diagonal corners of the body or component bounding box." translation="Use the slider controls or specify the minimum and maximum size values. The size value is the distance between the opposing diagonal corners of the body or component bounding box." />
+	<label  commandName="FusionSelectBodiesBySizeCommandDefDesc2" devLabel="Use the slider controls or specify the minimum and maximum size values. The size value is the distance between the opposing diagonal corners of the body or component bounding box." translation="Используйте ползунки или укажите минимальный и максимальный размеры. Размер определяется расстоянием между противоположными диагональными вершинами ограничивающего параллелепипеда тела или компонента." />
 	<label  commandName="FusionSelectBodiesEntityForScale1" devLabel="Select bodies, mesh bodies, sketches or components to scale" translation="Select bodies, mesh bodies, sketches or components to scale" />
 	<label  commandName="FusionSelectBodiesEntityForScale2" devLabel="Select bodies, mesh bodies or sketches to scale" translation="Select bodies, mesh bodies or sketches to scale" />
 	<label  commandName="FusionSelectBodiesEntityForScale3" devLabel="Select bodies or sketches to scale" translation="Select bodies or sketches to scale" />
@@ -3128,7 +3128,7 @@
 	<label  commandName="FusionSelectSecondPointCircle" devLabel="Place second point on circle" translation="Place second point on circle" />
 	<label  commandName="FusionSelectSecondPointCurve" devLabel="Place second point on conic curve" translation="Place second point on conic curve" />
 	<label  commandName="FusionSelectSecondPointEllipse" devLabel="Place point on ellipse" translation="Place point on ellipse" />
-	<label  commandName="FusionSelectSeedAndBoundaryFacesCommandDefDesc1" devLabel="Automatically creates a selection set that includes faces on a solid or surface body that are located between a set of boundary objects and a seed object." translation="Automatically creates a selection set that includes faces on a solid or surface body that are located between a set of boundary objects and a seed object." />
+	<label  commandName="FusionSelectSeedAndBoundaryFacesCommandDefDesc1" devLabel="Automatically creates a selection set that includes faces on a solid or surface body that are located between a set of boundary objects and a seed object." translation="Автоматически создаёт набор выбора, включающий грани твёрдого тела или поверхности, расположенные между граничными объектами и исходным объектом." />
 	<label  commandName="FusionSelectSeedAndBoundaryFacesCommandDefDesc2" devLabel="Select faces or edges on a solid or surface body to define the selection boundary, then select a face on the body to use as the seed object for the selection set. Click Update to refresh the selection set based on the current boundary and seed objects." translation="Выберите грани или ребра на твердом или поверхностном теле для определения границы выбора, затем выберите грань на теле для использования как исходный объект для набора выбора. Нажмите &quot;Обновить&quot;, чтобы обновить набор выбора на основе текущей границы и исходных объектов." />
 	<label  commandName="FusionSelectSingleForHole" devLabel="Select face or plane to locate hole" translation="Select face or plane to locate hole" />
 	<label  commandName="FusionSelectSketchGeometry" devLabel="Select sketch objects or constraint type" translation="Select sketch objects or constraint type" />
@@ -3542,7 +3542,7 @@
 	<label  commandName="InsertDesignSystemLoadTitle" devLabel="Insert Failed" translation="Insert Failed" />
 	<label  commandName="InsertDialogCommand" devLabel="Insert Design" translation="Insert Design" />
 	<label  commandName="InsertDialogCommandDefDesc1" devLabel="Insert another design into the current document." translation="Insert another design into the current document." />
-	<label  commandName="InsertDialogCommandDefDesc2" devLabel="If the other design is modified, its changes will show in the current document." translation="If the other design is modified, its changes will show in the current document." />
+	<label  commandName="InsertDialogCommandDefDesc2" devLabel="If the other design is modified, its changes will show in the current document." translation="Если другой проект будет изменён, эти изменения отобразятся в текущем документе." />
 	<label  commandName="InsertDialogControllerCancel" devLabel="Cancel" translation="Cancel" />
 	<label  commandName="InsertDialogControllerInsert" devLabel="Insert" translation="Insert" />
 	<label  commandName="InsertDownloadFileFailed" devLabel="&lt;b&gt;%1%&lt;/b&gt; cannot be inserted into &lt;b&gt;%2%&lt;/b&gt;,because we are currently unable to download it. &lt;br&gt;&lt;br&gt;Please try again later." translation="&lt;b&gt;%1%&lt;/b&gt; cannot be inserted into &lt;b&gt;%2%&lt;/b&gt;,because we are currently unable to download it. &lt;br&gt;&lt;br&gt;Please try again later." />
@@ -3635,15 +3635,15 @@
 	<label  commandName="IsoCurveVToolTip" devLabel="V" translation="V" />
 	<label  commandName="IsoCurveVToolTipDesc" devLabel="Displays isocurves in the V direction." translation="Отображает изокривые в направлении V." />
 	<label  commandName="IsocurveDistancePhy" devLabel="Physical" translation="Physical" />
-	<label  commandName="IsocurveDistancePhyDesc" devLabel="The position of the curve is based on an absolute distance from the origin." translation="The position of the curve is based on an absolute distance from the origin." />
+	<label  commandName="IsocurveDistancePhyDesc" devLabel="The position of the curve is based on an absolute distance from the origin." translation="Положение изопараметрической кривой задаётся абсолютным расстоянием от начала координат." />
 	<label  commandName="IsocurveDistanceProp" devLabel="Proportional" translation="Proportional" />
-	<label  commandName="IsocurveDistancePropDesc" devLabel="The position of the curve is based on a relative distance as a proportion of the face length." translation="The position of the curve is based on a relative distance as a proportion of the face length." />
+	<label  commandName="IsocurveDistancePropDesc" devLabel="The position of the curve is based on a relative distance as a proportion of the face length." translation="Положение изопараметрической кривой задаётся относительным расстоянием, выраженным как доля длины грани." />
 	<label  commandName="IsocurveDistributed" devLabel="Distributed" translation="Distributed" />
 	<label  commandName="IsocurveDistributedDesc" devLabel="Creates a series of curves on the selected face." translation="Creates a series of curves on the selected face." />
 	<label  commandName="IsocurvePhyDistance" devLabel="Distance" translation="Distance" />
 	<label  commandName="IsocurvePhyDistanceDesc" devLabel="Specify the distance value." translation="Specify the distance value." />
 	<label  commandName="IsocurveProjectionLink" devLabel="Projection Link" translation="Projection Link" />
-	<label  commandName="IsocurveProjectionLinkDesc" devLabel="Links the projected geometry to the size or shape of the selected geometry." translation="Links the projected geometry to the size or shape of the selected geometry." />
+	<label  commandName="IsocurveProjectionLinkDesc" devLabel="Links the projected geometry to the size or shape of the selected geometry." translation="Связывает проецированную геометрию с размером или формой выбранной геометрии." />
 	<label  commandName="IsocurvePropDistance" devLabel="Distance" translation="Distance" />
 	<label  commandName="IsocurvePropDistanceDesc" devLabel="Specify the distance value." translation="Specify the distance value." />
 	<label  commandName="IsocurveQuantity" devLabel="Quantity" translation="Quantity" />
@@ -3786,9 +3786,9 @@
 	<label  commandName="LockJOOrientationMac2" devLabel="Press Command key to lock primary axis orientation" translation="Press Command key to lock primary axis orientation" />
 	<label  commandName="LockJOOrientationWin1" devLabel="Select a snap point to place the joint origin. (hold CTRL key to lock snaps)" translation="Select a snap point to place the joint origin. (hold CTRL key to lock snaps)" />
 	<label  commandName="LockJOOrientationWin2" devLabel="Press CTRL key to lock primary axis orientation" translation="Press CTRL key to lock primary axis orientation" />
-	<label  commandName="LockJointCmdDesc" devLabel="Locks the joint in place and prevents it from moving until you unlock it." translation="Locks the joint in place and prevents it from moving until you unlock it." />
+	<label  commandName="LockJointCmdDesc" devLabel="Locks the joint in place and prevents it from moving until you unlock it." translation="Фиксирует соединение и не позволяет ему перемещаться, пока блокировка не будет снята." />
 	<label  commandName="LockJointCmdTooltip" devLabel="Lock Motion" translation="Блокировать движение" />
-	<label  commandName="LockJointDOFCmdDesc" devLabel="Locks this degree of motion and prevents it from moving until you unlock it." translation="Locks this degree of motion and prevents it from moving until you unlock it." />
+	<label  commandName="LockJointDOFCmdDesc" devLabel="Locks this degree of motion and prevents it from moving until you unlock it." translation="Блокирует эту степень свободы и не позволяет выполнять соответствующее движение, пока блокировка не будет снята." />
 	<label  commandName="LockedThicknessToConvertedBody" devLabel="Thickness is locked to a converted body." translation="Thickness is locked to a converted body." />
 	<label  commandName="LoftAlignedEdges" devLabel="Align Edges" translation="Align Edges" />
 	<label  commandName="LoftCenterline" devLabel="Centerline" translation="Centerline" />
@@ -4339,7 +4339,7 @@
 	<label  commandName="OpenAnyCADDownloadDocumentError" devLabel="An unexpected error occurred while downloading and opening this document" translation="An unexpected error occurred while downloading and opening this document" />
 	<label  commandName="OpenAnyCADMustBeLoggedIn" devLabel="You must be logged in to perform this action." translation="You must be logged in to perform this action." />
 	<label  commandName="OpenCommandDefDesc1" devLabel="Opens a design or drawing from your projects or local computer." translation="Opens a design or drawing from your projects or local computer." />
-	<label  commandName="OpenCommandDefDesc2" devLabel="Select a design or drawing from the project browser and click Open, or click “Open from my computer” and select a supported file." translation="Select a design or drawing from the project browser and click Open, or click “Open from my computer” and select a supported file." />
+	<label  commandName="OpenCommandDefDesc2" devLabel="Select a design or drawing from the project browser and click Open, or click “Open from my computer” and select a supported file." translation="Выберите проект или чертёж в браузере проектов и нажмите Open либо нажмите Open from my computer и выберите файл поддерживаемого формата." />
 	<label  commandName="OpenDeriveDocumentCommand" devLabel="Open Source" translation="Open Source" />
 	<label  commandName="OpenDocFilterValue" devLabel="Alias files (*.wire);;AutoCAD DWG file (*.dwg);;Autodesk Fusion files (*.f3d *.f3z);;Autodesk Inventor files (*.iam *.ipt);;Catia V5 files (*.CATProduct *.CATPart);;DXF files (*.dxf);;FBX files (*.fbx);;IGES files (*.iges *.ige *.igs);;JT files (*.jt);;NX files (*.prt);;OBJ files (*.obj);;Parasolid Binary files (*.x_b);;Parasolid Text files (*.x_t);;Pro/ENGINEER and Creo Parametric files (*.asm *.prt);;Pro/ENGINEER Granite files (*.g);;Pro/ENGINEER Neutral files (*.neu);;Rhino files (*.3dm);;SAT/SMT files (*.sab *.sat *.smb *.smt);;SketchUp files (*.skp);;SolidEdge files(*.par);;SolidWorks files (*.prt *.asm *.sldprt *.sldasm);; STEP files (*.ste *.step *.stp);;STL files (*.stl);;T-Spline files (*.tsm *.tss);;123D files (*.123dx);; 3MF files (*.3mf)" translation="Файлы Alias (*.wire);;Файлы AutoCAD DWG (*.dwg);;Файлы Autodesk Fusion (*.f3d *.f3z);;Файлы Autodesk Inventor (*.iam *.ipt);;Файлы Catia V5 (*.CATProduct *.CATPart);;Файлы DXF (*.dxf);;Файлы FBX (*.fbx);;Файлы IGES (*.iges *.ige *.igs);;Файлы JT (*.jt);;Файлы NX (*.prt);;Файлы OBJ (*.obj);;Файлы Parasolid Binary (*.x_b);;Файлы Parasolid Text (*.x_t);;Файлы Pro/ENGINEER и Creo Parametric (*.asm *.prt);;Файлы Pro/ENGINEER Granite (*.g);;Файлы Pro/ENGINEER Neutral (*.neu);;Файлы Rhino (*.3dm);;Файлы SAT/SMT (*.sab *.sat *.smb *.smt);;Файлы SketchUp (*.skp);;Файлы SolidEdge (*.par);;Файлы SolidWorks (*.prt *.asm *.sldprt *.sldasm);;Файлы STEP (*.ste *.step *.stp);;Файлы STL (*.stl);;Файлы T-Spline (*.tsm *.tss);;Файлы 123D (*.123dx);;Файлы 3MF (*.3mf)" />
 	<label  commandName="OpenDocFilterValueHobbyist" devLabel="Autodesk Fusion files (*.f3d *.f3z);;DXF files (*.dxf);;IGES files (*.iges *.ige *.igs);;OBJ files (*.obj);;STEP files (*.ste *.step *.stp);;STL files (*.stl);;123D files (*.123dx)" translation="Autodesk Fusion files (*.f3d *.f3z);;DXF files (*.dxf);;IGES files (*.iges *.ige *.igs);;OBJ files (*.obj);;STEP files (*.ste *.step *.stp);;STL files (*.stl);;123D files (*.123dx)" />
@@ -4501,7 +4501,7 @@
 	<label  commandName="PatternOnPathEdit" devLabel="Edit Pattern on Path" translation="Edit Pattern on Path" />
 	<label  commandName="PatternOnPathPOP" devLabel="Pattern on Path" translation="Pattern on Path" />
 	<label  commandName="PatternPathInput" devLabel="Path" translation="Path" />
-	<label  commandName="PatternPathInputDesc" devLabel="Select an object to define the path to distribute pattern instances along." translation="Select an object to define the path to distribute pattern instances along." />
+	<label  commandName="PatternPathInputDesc" devLabel="Select an object to define the path to distribute pattern instances along." translation="Выберите объект, задающий траекторию размещения экземпляров массива." />
 	<label  commandName="PatternRectangular" devLabel="Rectangular Pattern" translation="Rectangular Pattern" />
 	<label  commandName="PatternRectangularToolTip" devLabel="Duplicates faces, bodies, features, or components in a design and distributes them along linear axes in rows and columns to create a rectangular pattern." translation="Устанавливает направление волокон на оболочке, измеряемое от оси X оболочки против часовой стрелки. &#xA;Все объекты на оболочке изменяют свою ориентацию, чтобы выровняться с направлением волокон. Ниже показана ориентация объектов при изменении направления волокон с 0 градусов до 45 градусов и при установке запрещенных вращений объектов на None." />
 	<label  commandName="PatternSelBodies" devLabel="Select solid or surface bodies in the canvas or browser to pattern." translation="Select solid or surface bodies in the canvas or browser to pattern." />
@@ -4523,7 +4523,7 @@
 	<label  commandName="PhyMatOverrideErrForCIAndBody" devLabel="Remove physical material applied to child components &amp; bodies?" translation="Remove physical material applied to child components &amp; bodies?" />
 	<label  commandName="PhysicalDistance" devLabel="Distance" translation="Distance" />
 	<label  commandName="PhysicalMatThemeNamesHeader" devLabel="&lt;b&gt;Physical Material Theme Names&lt;/b&gt;" translation="&lt;b&gt;Physical Material Theme Names&lt;/b&gt;" />
-	<label  commandName="PhysicalMatThemeNamesTooltip" devLabel="In the Browser, right-click a component or body to configure its Physical Material.&#xA;&#xA;Right-click a Theme to rename, duplicate, or delete it." translation="In the Browser, right-click a component or body to configure its Physical Material.&#xA;&#xA;Right-click a Theme to rename, duplicate, or delete it." />
+	<label  commandName="PhysicalMatThemeNamesTooltip" devLabel="In the Browser, right-click a component or body to configure its Physical Material.&#xA;&#xA;Right-click a Theme to rename, duplicate, or delete it." translation="В Browser щёлкните компонент или тело правой кнопкой мыши, чтобы настроить его Physical Material.&#xA;&#xA;Щёлкните тему правой кнопкой мыши, чтобы переименовать, дублировать или удалить её." />
 	<label  commandName="PhysicalMaterialCmd" devLabel="&lt;b&gt;Physical Material&lt;/b&gt;&#xA;&#xA;Assigns physical materials to components and bodies&#xA; in a design to control their thermal,&#xA; mechanical, strength, and advanced engineering&#xA; properties, as well as their appearance.&#xA;&#xA; Drag physical materials onto components or&#xA; bodies in the canvas or the Browser. In the In This&#xA; Design section, right-click physical materials to&#xA; edit, duplicate, delete, or add them as favorites." translation="&lt;b&gt;Physical Material&lt;/b&gt;&#xA;&#xA;Assigns physical materials to components and bodies&#xA; in a design to control their thermal,&#xA; mechanical, strength, and advanced engineering&#xA; properties, as well as their appearance.&#xA;&#xA; Drag physical materials onto components or&#xA; bodies in the canvas or the Browser. In the In This&#xA; Design section, right-click physical materials to&#xA; edit, duplicate, delete, or add them as favorites." />
 	<label  commandName="PhysicalMaterialCommand" devLabel="Physical Material" translation="Physical Material" />
 	<label  commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Physical Material" />
@@ -4551,7 +4551,7 @@
 	<label  commandName="PlasticRuleTableTooltip" devLabel="Select a Plastic Rule for the component in each theme.&#xA;&#xA;Active Theme Rule: " translation="Select a Plastic Rule for the component in each theme.&#xA;&#xA;Active Theme Rule: " />
 	<label  commandName="PlasticRuleThemeHeader" devLabel="&lt;b&gt;Plastic Rule Theme&lt;/b&gt;" translation="&lt;b&gt;Plastic Rule Theme&lt;/b&gt;" />
 	<label  commandName="PlasticRuleThemeNamesHeader" devLabel="&lt;b&gt;Plastic Rule Theme Names&lt;/b&gt;" translation="&lt;b&gt;Plastic Rule Theme Names&lt;/b&gt;" />
-	<label  commandName="PlasticRuleThemeNamesTooltip" devLabel="In the Browser, right-click a component with a Plastic Rule assigned to configure it.&#xA;&#xA;Right-click a Theme to rename, copy, or delete it." translation="In the Browser, right-click a component with a Plastic Rule assigned to configure it.&#xA;&#xA;Right-click a Theme to rename, copy, or delete it." />
+	<label  commandName="PlasticRuleThemeNamesTooltip" devLabel="In the Browser, right-click a component with a Plastic Rule assigned to configure it.&#xA;&#xA;Right-click a Theme to rename, copy, or delete it." translation="В Browser щёлкните правой кнопкой мыши компонент, которому назначено правило Plastic Rule, чтобы настроить его.&#xA;&#xA;Щёлкните тему правой кнопкой мыши, чтобы переименовать, скопировать или удалить её." />
 	<label  commandName="PlasticRuleThemeTooltip" devLabel="Select a Theme for each configuration.&#xA;&#xA;Active Theme: " translation="Выберите тему для каждой конфигурации.&#xA;&#xA;Активная тема: " />
 	<label  commandName="PlasticRulesAndSheetMetalComponentsText" devLabel="Cannot move or copy bodies to a sheet metal component, because the following components have a plastic rule assigned to them:&lt;br/&gt;%1%&lt;br/&gt;&lt;br/&gt;Move or copy the bodies to a standard component or remove the plastic rule." translation="Cannot move or copy bodies to a sheet metal component, because the following components have a plastic rule assigned to them:&lt;br/&gt;%1%&lt;br/&gt;&lt;br/&gt;Move or copy the bodies to a standard component or remove the plastic rule." />
 	<label  commandName="PlasticRulesAndSheetMetalComponentsTitle" devLabel="Plastic rules and sheet metal components" translation="Plastic rules and sheet metal components" />
@@ -4683,15 +4683,15 @@
 	<label  commandName="ProportionalDistance" devLabel="Distance" translation="Distance" />
 	<label  commandName="PublishLibraryItemErrorMessageTitle" devLabel="Can't save &lt;b&gt;Fastener Family&lt;/b&gt; changes" translation="Can't save &lt;b&gt;Fastener Family&lt;/b&gt; changes" />
 	<label  commandName="PullDerive" devLabel="Insert Derive" translation="Insert Derive" />
-	<label  commandName="PullDeriveCommandDefDesc1" devLabel="Pulls and links design features from another design into the active design. When you update the derived features in the original design, the changes are reflected in the destination design." translation="Pulls and links design features from another design into the active design. When you update the derived features in the original design, the changes are reflected in the destination design." />
+	<label  commandName="PullDeriveCommandDefDesc1" devLabel="Pulls and links design features from another design into the active design. When you update the derived features in the original design, the changes are reflected in the destination design." translation="Импортирует и связывает элементы проекта из другого проекта с активным проектом. При обновлении производных элементов в исходном проекте изменения отражаются в проекте назначения." />
 	<label  commandName="PullDeriveCommandDefDesc2" devLabel="Before you start, activate the component that you want to contain the derived design features. Select a design, then select a set of components, bodies, sketches, construction geometry, flat patterns, or parameters to derive into the current design." translation="Прежде чем начать, активируйте компонент, в который вы хотите поместить производные параметры проектирования. Выберите проект, затем выберите набор компонентов, тел, эскизов, конструктивной геометрии, плоских разверток или параметров для вывода в текущий проект." />
 	<label  commandName="PullDeriveSaveTitle" devLabel="&lt;b&gt;Derive requires saved target design.&lt;/b&gt;" translation="&lt;b&gt;Derive requires saved target design.&lt;/b&gt;" />
 	<label  commandName="PullDeriveSelectSource" devLabel="Select Source" translation="Select Source" />
 	<label  commandName="PushDerive" devLabel="Derive" translation="Derive" />
 	<label  commandName="PushDeriveAddObject" devLabel="Restore Object" translation="Restore Object" />
 	<label  commandName="PushDeriveAddObjectToolTip" devLabel="Restore selected objects." translation="Восстановить выбранные объекты." />
-	<label  commandName="PushDeriveCommandDefDesc1" devLabel="Pushes and links design features from the active design into a new or existing design. When you update the derived features in the original design, the changes are reflected in the destination design." translation="Pushes and links design features from the active design into a new or existing design. When you update the derived features in the original design, the changes are reflected in the destination design." />
-	<label  commandName="PushDeriveCommandDefDesc2" devLabel="Select a single component or a set of components, bodies, sketches, construction geometry, flat patterns, or parameters to derive from the active design." translation="Select a single component or a set of components, bodies, sketches, construction geometry, flat patterns, or parameters to derive from the active design." />
+	<label  commandName="PushDeriveCommandDefDesc1" devLabel="Pushes and links design features from the active design into a new or existing design. When you update the derived features in the original design, the changes are reflected in the destination design." translation="Передаёт и связывает элементы активного проекта с новым или существующим проектом. При обновлении производных элементов в исходном проекте изменения отражаются в проекте назначения." />
+	<label  commandName="PushDeriveCommandDefDesc2" devLabel="Select a single component or a set of components, bodies, sketches, construction geometry, flat patterns, or parameters to derive from the active design." translation="Выберите один компонент или набор компонентов, тел, эскизов, конструктивной геометрии, развёрток или параметров для создания производных элементов из активного проекта." />
 	<label  commandName="PushDeriveComponentSelection" devLabel="Component" translation="Component" />
 	<label  commandName="PushDeriveDeriveType" devLabel="Type" translation="Type" />
 	<label  commandName="PushDeriveDestination" devLabel="Destination" translation="Destination" />
@@ -4874,7 +4874,7 @@
 	<label  commandName="ReplaceFaceFail" devLabel="Please make sure the new face is large enough to cover the source face!" translation="Please make sure the new face is large enough to cover the source face!" />
 	<label  commandName="ReplaceWithPrimitives" devLabel="Replace with Primitives" translation="Replace with Primitives" />
 	<label  commandName="ReplaceWithPrimitivesCommandDefDesc1" devLabel="Replaces selected objects with primitive shapes." translation="Replaces selected objects with primitive shapes." />
-	<label  commandName="ReplaceWithPrimitivesCommandDefDesc2" devLabel="Choose appropriate objects and define the replacement shape. The default primitive shape bounds all selected objects and the original objects are suppressed." translation="Choose appropriate objects and define the replacement shape. The default primitive shape bounds all selected objects and the original objects are suppressed." />
+	<label  commandName="ReplaceWithPrimitivesCommandDefDesc2" devLabel="Choose appropriate objects and define the replacement shape. The default primitive shape bounds all selected objects and the original objects are suppressed." translation="Выберите нужные объекты и задайте форму для замены. Примитив по умолчанию охватывает все выбранные объекты, а исходные объекты скрываются." />
 	<label  commandName="ReplaceWithPrimitives_SelectBodies" devLabel="Select Bodies" translation="Select Bodies" />
 	<label  commandName="ReplaceWithPrimitives_SelectComponents" devLabel="Select Components" translation="Select Components" />
 	<label  commandName="ReplaceWithSpline" devLabel="Fit Spline for small curve chains" translation="Fit Spline for small curve chains" />
@@ -5244,9 +5244,9 @@
 	<label  commandName="SecondaryUnitInput" devLabel="Unit system" translation="Unit system" />
 	<label  commandName="Section" devLabel="Section" translation="Section" />
 	<label  commandName="SectionColorCustom" devLabel="Custom" translation="Custom" />
-	<label  commandName="SectionColorCustomDesc" devLabel="Displays a custom color on the faces where the cut plane creates the section analysis." translation="Displays a custom color on the faces where the cut plane creates the section analysis." />
+	<label  commandName="SectionColorCustomDesc" devLabel="Displays a custom color on the faces where the cut plane creates the section analysis." translation="Отображает пользовательский цвет на гранях, где секущая плоскость формирует анализ сечения." />
 	<label  commandName="SectionColorFromComponent" devLabel="From Component" translation="From Component" />
-	<label  commandName="SectionColorFromComponentDesc" devLabel="Displays component colors on the faces where the cut plane creates the section analysis." translation="Displays component colors on the faces where the cut plane creates the section analysis." />
+	<label  commandName="SectionColorFromComponentDesc" devLabel="Displays component colors on the faces where the cut plane creates the section analysis." translation="Отображает цвета компонентов на гранях, где секущая плоскость формирует анализ сечения." />
 	<label  commandName="SectionPosition" devLabel="Section Position" translation="Section Position" />
 	<label  commandName="SectionRadiusInput" devLabel="Section Size" translation="Section Size" />
 	<label  commandName="SectionSizeInput" devLabel="Section Size" translation="Section Size" />
@@ -5257,7 +5257,7 @@
 	<label  commandName="SectionViewFacesInputDesc" devLabel="Select a planar object to define the cut plane." translation="Select a planar object to define the cut plane." />
 	<label  commandName="SectionViewSectionColorSourceInput" devLabel="Section Color" translation="Section Color" />
 	<label  commandName="SectionViewShowHatchInput" devLabel="Show Hatch" translation="Show Hatch" />
-	<label  commandName="SectionViewShowHatchInputDesc" devLabel="Displays diagonal hatch lines on the faces where the cut plane creates the section analysis." translation="Displays diagonal hatch lines on the faces where the cut plane creates the section analysis." />
+	<label  commandName="SectionViewShowHatchInputDesc" devLabel="Displays diagonal hatch lines on the faces where the cut plane creates the section analysis." translation="Отображает диагональную штриховку на гранях, где секущая плоскость формирует анализ сечения." />
 	<label  commandName="SectionViewTransformInput" devLabel="Distance" translation="Distance" />
 	<label  commandName="SeedAndBoundaryDone" devLabel="Add or remove faces or modify seed and boundary objects to update the selection set" translation="Add or remove faces or modify seed and boundary objects to update the selection set" />
 	<label  commandName="SeedAndBoundaryModifyBoundary" devLabel="Select more boundary objects or switch to seed object selection" translation="Select more boundary objects or switch to seed object selection" />
@@ -5296,10 +5296,10 @@
 	<label  commandName="SelectAllproperties" devLabel="All" translation="All" />
 	<label  commandName="SelectBodiesBySize" devLabel="Select By Size" translation="Select By Size" />
 	<label  commandName="SelectBodyPriorityCommandDefDesc1" devLabel="Sets the selection filter to Bodies, and prevents selection of other object types." translation="Sets the selection filter to Bodies, and prevents selection of other object types." />
-	<label  commandName="SelectBodyPriorityCommandDefDesc2" devLabel="Click a body to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Body Priority again to restore selection of any object type." translation="Click a body to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Body Priority again to restore selection of any object type." />
+	<label  commandName="SelectBodyPriorityCommandDefDesc2" devLabel="Click a body to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Body Priority again to restore selection of any object type." translation="Щёлкните тело, чтобы выбрать его. Удерживайте Ctrl (Windows) или Command (macOS), чтобы добавлять объекты в выбор или удалять их из неё. Повторно выберите Select Body Priority, чтобы снова разрешить выбор объектов любого типа." />
 	<label  commandName="SelectByBoundaryCommand" devLabel="Select By Boundary" translation="Select By Boundary" />
 	<label  commandName="SelectByBoundaryCommandDefDesc1" devLabel="Selects objects using a boundary shape you choose." translation="Selects objects using a boundary shape you choose." />
-	<label  commandName="SelectByBoundaryCommandDefDesc2" devLabel="Select a body to set the centroid, boundary shape, Selection Type, and whether intersected objects are selected." translation="Select a body to set the centroid, boundary shape, Selection Type, and whether intersected objects are selected." />
+	<label  commandName="SelectByBoundaryCommandDefDesc2" devLabel="Select a body to set the centroid, boundary shape, Selection Type, and whether intersected objects are selected." translation="Выберите тело, чтобы задать центроид, форму границы, тип выбора и определить, следует ли выбирать пересекаемые объекты." />
 	<label  commandName="SelectByInvertCommand" devLabel="Invert Selection" translation="Invert Selection" />
 	<label  commandName="SelectByNameCmdBodies" devLabel="Bodies" translation="Bodies" />
 	<label  commandName="SelectByNameCmdComponents" devLabel="Components" translation="Components" />
@@ -5307,7 +5307,7 @@
 	<label  commandName="SelectByNameCmdSelectionCount" devLabel="Selected Items" translation="Selected Items" />
 	<label  commandName="SelectByNameCmdText" devLabel="Name" translation="Name" />
 	<label  commandName="SelectByNameCommandDefDesc1" devLabel="Selects bodies or components by the name used in the Browser." translation="Selects bodies or components by the name used in the Browser." />
-	<label  commandName="SelectByNameCommandDefDesc2" devLabel="Enter a portion of the object name, check the object types to include, then click Find. You can search using one or more characters or words, finding only objects having that string in the name." translation="Enter a portion of the object name, check the object types to include, then click Find. You can search using one or more characters or words, finding only objects having that string in the name." />
+	<label  commandName="SelectByNameCommandDefDesc2" devLabel="Enter a portion of the object name, check the object types to include, then click Find. You can search using one or more characters or words, finding only objects having that string in the name." translation="Введите часть имени объекта, отметьте типы объектов для поиска и нажмите Find. Можно искать по одному или нескольким символам либо словам; будут найдены только объекты, в имени которых содержится указанная строка." />
 	<label  commandName="SelectBySizeCmdNItems" devLabel="Selected Items" translation="Selected Items" />
 	<label  commandName="SelectBySizeCmdSelectedItemCountValue" devLabel="%1%" translation="%1%" />
 	<label  commandName="SelectBySizeCmdSelection" devLabel="Selection" translation="Selection" />
@@ -5326,17 +5326,17 @@
 	<label  commandName="SelectCompForInterferenceCheck" devLabel="Select bodies or components" translation="Select bodies or components" />
 	<label  commandName="SelectComplexPatternFeatureInput" devLabel="Complex Pattern" translation="Complex Pattern" />
 	<label  commandName="SelectComponentPriorityDesc1" devLabel="Sets the selection filter to Components, and prevents selection of other object types." translation="Sets the selection filter to Components, and prevents selection of other object types." />
-	<label  commandName="SelectComponentPriorityDesc2" devLabel="Click a component to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Component Priority again to restore selection of any object type." translation="Click a component to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Component Priority again to restore selection of any object type." />
+	<label  commandName="SelectComponentPriorityDesc2" devLabel="Click a component to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Component Priority again to restore selection of any object type." translation="Щёлкните компонент, чтобы выбрать его. Удерживайте Ctrl (Windows) или Command (macOS), чтобы добавлять объекты в выбор или удалять их из неё. Повторно выберите Select Component Priority, чтобы снова разрешить выбор объектов любого типа." />
 	<label  commandName="SelectComponentsBySize" devLabel="Select Components By Size" translation="Select Components By Size" />
 	<label  commandName="SelectComponentsCmdConstraintTooltip" devLabel="Selects the components involved in this constraint." translation="28. Выбирает компоненты, участвующие в этом ограничении." />
 	<label  commandName="SelectComponentsCmdJointTooltip" devLabel="Selects the components involved in this joint." translation="29. Выбирает компоненты, участвующие в этом соединении." />
 	<label  commandName="SelectCurve" devLabel="Select Curve" translation="Select Curve" />
 	<label  commandName="SelectDxfFile" devLabel="Select DXF file" translation="Select DXF file" />
 	<label  commandName="SelectEdgePriorityCommandDefDesc1" devLabel="Sets the selection filter to Body Edges, and prevents selection of other object types." translation="Sets the selection filter to Body Edges, and prevents selection of other object types." />
-	<label  commandName="SelectEdgePriorityCommandDefDesc2" devLabel="Click an edge on a body to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Edge Priority again to restore selection of any object type." translation="Click an edge on a body to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Edge Priority again to restore selection of any object type." />
+	<label  commandName="SelectEdgePriorityCommandDefDesc2" devLabel="Click an edge on a body to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Edge Priority again to restore selection of any object type." translation="Щёлкните ребро тела, чтобы выбрать его. Удерживайте Ctrl (Windows) или Command (macOS), чтобы добавлять объекты в выбор или удалять их из неё. Повторно выберите Select Edge Priority, чтобы снова разрешить выбор объектов любого типа." />
 	<label  commandName="SelectExtrudeFeatureInput" devLabel="Extrude" translation="Extrude" />
 	<label  commandName="SelectFacePriorityCommandDefDesc1" devLabel="Sets the selection filter to Body Faces, and prevents selection of other object types." translation="Sets the selection filter to Body Faces, and prevents selection of other object types." />
-	<label  commandName="SelectFacePriorityCommandDefDesc2" devLabel="Click a face to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Face Priority again to restore selection of any object type." translation="Click a face to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Face Priority again to restore selection of any object type." />
+	<label  commandName="SelectFacePriorityCommandDefDesc2" devLabel="Click a face to select it. Hold Ctrl (Windows) or Command (MacOS) to add objects to or remove objects from the selection. Click Select Face Priority again to restore selection of any object type." translation="Щёлкните грань тела, чтобы выбрать её. Удерживайте Ctrl (Windows) или Command (macOS), чтобы добавлять объекты в выбор или удалять их из неё. Повторно выберите Select Face Priority, чтобы снова разрешить выбор объектов любого типа." />
 	<label  commandName="SelectFaces" devLabel="Select Faces" translation="Select Faces" />
 	<label  commandName="SelectFilletFeatureInput" devLabel="Fillet" translation="Fillet" />
 	<label  commandName="SelectFromLibrary" devLabel="Select from library..." translation="Select from library..." />
@@ -5388,7 +5388,7 @@
 	<label  commandName="Selection" devLabel="Selection" translation="Selection" />
 	<label  commandName="Selection invalid" devLabel="Cannot select feature being edited" translation="Cannot select feature being edited" />
 	<label  commandName="SelectionFilterDesc1" devLabel="Specifies which object types can be selected." translation="Specifies which object types can be selected." />
-	<label  commandName="SelectionFilterDesc2" devLabel="Use Select All to include or exclude all object types. Check only specific types to limit selection to those types. Check Select Through to enable selection of hidden objects during Window or Freeform selection." translation="Use Select All to include or exclude all object types. Check only specific types to limit selection to those types. Check Select Through to enable selection of hidden objects during Window or Freeform selection." />
+	<label  commandName="SelectionFilterDesc2" devLabel="Use Select All to include or exclude all object types. Check only specific types to limit selection to those types. Check Select Through to enable selection of hidden objects during Window or Freeform selection." translation="Используйте Select All, чтобы включить или исключить все типы объектов. Отметьте только нужные типы, чтобы ограничить выбор. Включите Select Through, чтобы выбирать скрытые объекты при выделении рамкой или произвольной областью." />
 	<label  commandName="SelectionInputSimpleStyleTail" devLabel="selected" translation="selected" />
 	<label  commandName="SelectionPanelOption" devLabel="Show/Hide Selection Panel" translation="Show/Hide Selection Panel" />
 	<label  commandName="SelectionPanelOptionUserName" devLabel="Show Selection Panel" translation="Show Selection Panel" />
@@ -5552,7 +5552,7 @@
 	<label  commandName="SketchLine" devLabel="Selected Lines" translation="Selected Lines" />
 	<label  commandName="SketchLinearDiameterDimTypeInput" devLabel="Diameter Dimension" translation="Diameter Dimension" />
 	<label  commandName="SketchLinkOffsetsOption" devLabel="Link Offsets" translation="Link Offsets" />
-	<label  commandName="SketchLinkOffsetsOptionDesc" devLabel="Links the offset parameter dimensions of the two sides so when you change one the other updates to match." translation="Links the offset parameter dimensions of the two sides so when you change one the other updates to match." />
+	<label  commandName="SketchLinkOffsetsOptionDesc" devLabel="Links the offset parameter dimensions of the two sides so when you change one the other updates to match." translation="Связывает значения смещения с обеих сторон: при изменении одного значения второе автоматически обновляется до такого же значения." />
 	<label  commandName="SketchMove" devLabel="Move" translation="Move" />
 	<label  commandName="SketchMoveText" devLabel="Move sketch text" translation="Move sketch text" />
 	<label  commandName="SketchName" devLabel="Sketch" translation="Sketch" />
@@ -5565,7 +5565,7 @@
 	<label  commandName="SketchOffsetFlip" devLabel="Flip" translation="Flip" />
 	<label  commandName="SketchOffsetFlipDesc" devLabel="Flips which side the offset curve is on." translation="Flips which side the offset curve is on." />
 	<label  commandName="SketchOffsetMatchTopologyOption" devLabel="Match Topology" translation="Match Topology" />
-	<label  commandName="SketchOffsetMatchTopologyOptionDesc" devLabel="Limits the offset distance range and maintains the topology of the offset so it matches the selected curve." translation="Limits the offset distance range and maintains the topology of the offset so it matches the selected curve." />
+	<label  commandName="SketchOffsetMatchTopologyOptionDesc" devLabel="Limits the offset distance range and maintains the topology of the offset so it matches the selected curve." translation="Ограничивает диапазон расстояния смещения и сохраняет топологию смещённой геометрии, чтобы она соответствовала выбранной кривой." />
 	<label  commandName="SketchOffsetTwoSidesOption" devLabel="Two Sides" translation="Two Sides" />
 	<label  commandName="SketchOffsetTwoSidesOptionDesc" devLabel="Offsets an equal distance on both sides of the selected curves." translation="Offsets an equal distance on both sides of the selected curves." />
 	<label  commandName="SketchPalette" devLabel="Sketch Palette" translation="Sketch Palette" />
@@ -5609,8 +5609,8 @@
 	<label  commandName="Snap" devLabel="Snap" translation="Snap" />
 	<label  commandName="SnapName" devLabel="Snap Name" translation="Snap Name" />
 	<label  commandName="SnapPointSelectedCmdInput" devLabel="SnapPointSelectedCmdInput" translation="SnapPointSelectedCmdInput" />
-	<label  commandName="SnapshotCmdDesc1" devLabel="Captures the positions of recently moved/rotated components as an event in your timeline. This information is used by geometry and assemble commands." translation="Captures the positions of recently moved/rotated components as an event in your timeline. This information is used by geometry and assemble commands." />
-	<label  commandName="SnapshotCmdDesc2" devLabel="Use this if you intend to continue modeling/assembling while keeping components at their current positions." translation="Use this if you intend to continue modeling/assembling while keeping components at their current positions." />
+	<label  commandName="SnapshotCmdDesc1" devLabel="Captures the positions of recently moved/rotated components as an event in your timeline. This information is used by geometry and assemble commands." translation="Сохраняет положения недавно перемещённых или повёрнутых компонентов как событие на временной шкале. Эти данные используются командами работы с геометрией и сборками." />
+	<label  commandName="SnapshotCmdDesc2" devLabel="Use this if you intend to continue modeling/assembling while keeping components at their current positions." translation="Используйте эту команду, если собираетесь продолжить моделирование или работу со сборкой, сохранив текущие положения компонентов." />
 	<label  commandName="SnowField" devLabel="Snow Field" translation="Snow Field" />
 	<label  commandName="SoftDelete" devLabel="Remove" translation="Remove" />
 	<label  commandName="Solid Environment Design" devLabel="Design" translation="Design" />
@@ -5945,11 +5945,11 @@
 	<label  commandName="ThreadDepthLowerToleranceTooltip" devLabel="Sets the lower deviation value of the nominal thread depth shown in the PMI note." translation="Sets the lower deviation value of the nominal thread depth shown in the PMI note." />
 	<label  commandName="ThreadDepthLowerValueTooltip" devLabel="Sets the minimum allowable thread depth shown in the PMI note." translation="Показать/скрыть 3D-ручки вращения триплана" />
 	<label  commandName="ThreadDepthSymmetricTooltip" devLabel="Sets an equal positive and negative tolerance on the nominal thread depth shown in the PMI note." translation="Sets an equal positive and negative tolerance on the nominal thread depth shown in the PMI note." />
-	<label  commandName="ThreadDepthToleranceTypeTooltip" devLabel="Sets how the thread depth tolerance is specified and displayed in the PMI note.&#xA;&#xA;Choose Symmetric or Deviation to specify tolerance relative to the nominal thread depth. Choose Limits - Stacked or Limits - Linear to show explicit minimum and maximum thread depth values in different layouts. Choose MAX or MIN to specify a single limiting size." translation="Sets how the thread depth tolerance is specified and displayed in the PMI note.&#xA;&#xA;Choose Symmetric or Deviation to specify tolerance relative to the nominal thread depth. Choose Limits - Stacked or Limits - Linear to show explicit minimum and maximum thread depth values in different layouts. Choose MAX or MIN to specify a single limiting size." />
+	<label  commandName="ThreadDepthToleranceTypeTooltip" devLabel="Sets how the thread depth tolerance is specified and displayed in the PMI note.&#xA;&#xA;Choose Symmetric or Deviation to specify tolerance relative to the nominal thread depth. Choose Limits - Stacked or Limits - Linear to show explicit minimum and maximum thread depth values in different layouts. Choose MAX or MIN to specify a single limiting size." translation="Задаёт способ указания и отображения допуска глубины резьбы в примечании PMI.&#xA;&#xA;Выберите Symmetric или Deviation, чтобы задать допуск относительно номинальной глубины резьбы. Выберите Limits - Stacked или Limits - Linear, чтобы отобразить явные минимальное и максимальное значения глубины в разных форматах. Выберите MAX или MIN, чтобы задать только один предельный размер." />
 	<label  commandName="ThreadDepthUpperToleranceTooltip" devLabel="Sets the upper deviation value of the nominal thread depth shown in the PMI note." translation="Показать результат преобразования T-Spline в параметрическую форму" />
 	<label  commandName="ThreadDepthUpperValueTooltip" devLabel="Sets the maximum allowable thread depth shown in the PMI note." translation="Устанавливает максимальную допустимую глубину резьбы, отображаемую в примечании PMI." />
 	<label  commandName="ThreadDepthUserOverrideTooltip" devLabel="Changes the thread depth value shown in the PMI note.&#xA;&#xA;Use this when the PMI note needs to show a thread depth that differs from the modeled thread depth." translation="Изменяет значение глубины резьбы, отображаемое в примечании PMI.&#xA;&#xA;Используйте это, когда в примечании PMI необходимо указать глубину резьбы, отличающуюся от смоделированной глубины резьбы." />
-	<label  commandName="ThreadDepthUserValueTooltip" devLabel="Sets the thread depth value shown in the PMI note.&#xA;&#xA;This value does not change the modeled thread depth." translation="Sets the thread depth value shown in the PMI note.&#xA;&#xA;This value does not change the modeled thread depth." />
+	<label  commandName="ThreadDepthUserValueTooltip" devLabel="Sets the thread depth value shown in the PMI note.&#xA;&#xA;This value does not change the modeled thread depth." translation="Задаёт значение глубины резьбы, отображаемое в примечании PMI.&#xA;&#xA;Это значение не изменяет глубину резьбы в модели." />
 	<label  commandName="ThreadDirection" devLabel="Direction" translation="Direction" />
 	<label  commandName="ThreadExternal" devLabel="external" translation="external" />
 	<label  commandName="ThreadFacesInput" devLabel="Faces" translation="Faces" />
@@ -7673,7 +7673,7 @@
 	<label  commandName="lclzSketchConstrainerCmd1" devLabel="Sketch Constrainer command." translation="Sketch Constrainer command." />
 	<label  commandName="lclzSketchConstrainerCmd2" devLabel="Select a sketch entity to apply constraints automatically." translation="Select a sketch entity to apply constraints automatically." />
 	<label  commandName="lclzSketchCreate1" devLabel="Enters Sketch mode, where you create geometric profiles that define the foundation of a design. Then use commands like Extrude, Revolve, and Loft to create 3D bodies from sketches." translation="Enters Sketch mode, where you create geometric profiles that define the foundation of a design. Then use commands like Extrude, Revolve, and Loft to create 3D bodies from sketches." />
-	<label  commandName="lclzSketchCreate2" devLabel="Select a construction plane, then create lines, arcs, or points to create sketch and construction geometry. Constrain sketches with dimensions and constraints. Select Finish Sketch to exit Sketch mode." translation="Select a construction plane, then create lines, arcs, or points to create sketch and construction geometry. Constrain sketches with dimensions and constraints. Select Finish Sketch to exit Sketch mode." />
+	<label  commandName="lclzSketchCreate2" devLabel="Select a construction plane, then create lines, arcs, or points to create sketch and construction geometry. Constrain sketches with dimensions and constraints. Select Finish Sketch to exit Sketch mode." translation="Выберите конструктивную плоскость, затем создайте линии, дуги или точки для построения эскиза и конструктивной геометрии. Задайте ограничения эскиза с помощью размеров и зависимостей. Нажмите Finish Sketch, чтобы выйти из режима эскиза." />
 	<label  commandName="lclzSketchDimension1" devLabel="Create sketch dimensions for sketch geometries. Use dimensions to control the size or position of sketch objects." translation="Create sketch dimensions for sketch geometries. Use dimensions to control the size or position of sketch objects." />
 	<label  commandName="lclzSketchDimension2" devLabel="Select the sketch curves to dimension then select an area to position the dimension." translation="Select the sketch curves to dimension then select an area to position the dimension." />
 	<label  commandName="lclzSketchExportToDXF" devLabel="&lt;b&gt;Export DXF&lt;/b&gt;&lt;p&gt;Exports %1% as a DXF and saves it to your computer or to a project in the cloud." translation="&lt;b&gt;Export DXF&lt;/b&gt;&lt;p&gt;Exports %1% as a DXF and saves it to your computer or to a project in the cloud." />
