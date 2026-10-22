@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CalloutCommand" devLabel="Create Callout" translation="Crea richiamo"/>
+	<label commandName="CalloutEditCommand" devLabel="Edit Callout" translation="Modifica richiamo"/>
+	<label commandName="DragCalloutCmd" devLabel="Move Callout" translation="Sposta richiamo"/>
+	<label commandName="PublisherTrailHideAllCommand" devLabel="Hide All Trail Lines" translation="Nascondi tutte le linee finali"/>
+	<label commandName="PublisherTrailShowAllCommand" devLabel="Show All Trail Lines" translation="Mostra tutte le linee finali"/>
+	<label commandName="PublisherTrailVisibilityCommand" devLabel="Show/Hide Trail Lines" translation="Mostra/nascondi linee finali"/>
+	<label commandName="TrailDragCmd" devLabel="Move Trail Line" translation="Sposta linea finale"/>
+	<label commandName="infoCancel" devLabel="Cancel" translation="Annulla"/>
+	<label commandName="infoLink" devLabel="Link" translation="Collegamento"/>
+	<label commandName="infoOK" devLabel="OK" translation="OK"/>
+	<label commandName="lclzCallout" devLabel="Drop the pin onto a component and enter text to add an associated 3D annotation." translation="Rilasciare la puntina su un componente e immettere il testo per aggiungere un'annotazione 3D associata."/>
+	<label commandName="select" devLabel="Component:" translation="Componente:"/>
+</Resource>

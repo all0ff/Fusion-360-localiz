@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="QSimStudyDialog__IWantToThermalSteady" devLabel="How is the temperature distributed throughout my design when it is heated or cooled?" translation="In che modo la temperatura viene distribuita in tutto il progetto quando viene riscaldato o raffreddato?"/>
+	<label commandName="ResultsCommand" devLabel="Simulation Results" translation="Risultati simulazione"/>
+	<label commandName="SimAutoRefinementsControlCustomLabel" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="SimAutoRefinementsControlHighLabel" devLabel="High" translation="Alto"/>
+	<label commandName="SimAutoRefinementsControlLowLabel" devLabel="Low" translation="Basso"/>
+	<label commandName="SimAutoRefinementsControlMediumLabel" devLabel="Medium" translation="Medio"/>
+	<label commandName="SimAutoRefinementsControlNoneLabel" devLabel="None" translation="Nessuno"/>
+	<label commandName="SimAutoRefinementsControlRefinementControlLabel" devLabel="Refinement Control" translation="Controllo affinamento"/>
+	<label commandName="SimCaseName" devLabel="Name" translation="Nome"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Sostituisci sistema di unità"/>
+	<label commandName="SimConvergenceSectionLabel" devLabel="Adaptive Mesh Refinement" translation="Affinamento mesh adattiva"/>
+	<label commandName="SimConvergenceTargetLabel" devLabel="Results Convergence Tolerance (%)" translation="Tolleranza di convergenza risultati (%)"/>
+	<label commandName="SimConvergenceTargetTooltip" devLabel="The % difference between consecutive iteration results that will trigger the refinement process to stop." translation="La differenza % tra risultati di iterazione consecutivi che attiverà l'arresto del processo di affinamento."/>
+	<label commandName="SimDisplayResultsCommmand" devLabel="Display model using calculated results." translation="Visualizza il modello utilizzando i risultati calcolati."/>
+	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="Il nome dello studio è vuoto"/>
+	<label commandName="SimGeneralSectionLabel" devLabel="General" translation="Generale"/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additivo"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Tutti i metodi"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="Taglio a 2 assi"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Colata"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fresatura"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Non limitato"/>
+	<label commandName="SimGlobalInitialTemperature" devLabel="Global Initial Temperature" translation="Temperatura iniziale globale"/>
+	<label commandName="SimGlobalInitialTemperatureTooltip" devLabel="A blank field means 20 deg. C or the max defined by any applied Radiation Load." translation="Un campo vuoto indica 20 gradi C o il massimo definito da qualsiasi carico di irraggiamento applicato."/>
+	<label commandName="SimHeatFlux" devLabel="Heat Flux" translation="Flusso termico"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Stati Uniti (pollici)"/>
+	<label commandName="SimInvalidValue" devLabel="There are some invalid values!" translation="Sono presenti alcuni valori non validi."/>
+	<label commandName="SimLSSAutoContactType" devLabel="Default Contact Type" translation="Tipo di contatto di default"/>
+	<label commandName="SimLSSAutoContactTypeTooltip" devLabel="Default contact type." translation="Tipo di contatto di default."/>
+	<label commandName="SimLSSGenerateAutoContacts" devLabel="Generate Automatic Contacts" translation="Genera contatti automatici"/>
+	<label commandName="SimLSSGenerateAutoContactsTooltip" devLabel="Generate automatic contacts during solve." translation="Genera contatti automatici durante la risoluzione."/>
+	<label commandName="SimLSSResultsToConvergeLabel" devLabel="Results for Baseline Accuracy" translation="Risultati per la precisione di riferimento"/>
+	<label commandName="SimLSSResultsToConvergeTooltip" devLabel="Which result type to use for calculating convergence criteria." translation="Il tipo di risultato da utilizzare per calcolare i criteri di convergenza."/>
+	<label commandName="SimMaximumRefinementsLabel" devLabel="Maximum Number of Mesh Refinements" translation="Numero massimo di affinamenti mesh"/>
+	<label commandName="SimMaximumRefinementsTooltip" devLabel="The number of iterative h and p refinements made to attempt results convergence." translation="Il numero di affinamenti iterativi H e P eseguiti per cercare di ottenere la convergenza dei risultati."/>
+	<label commandName="SimNastranAutoContactCAPTOL" devLabel="Tolerance" translation="Tolleranza"/>
+	<label commandName="SimNastranAutoContactCAPTOLTooltip" devLabel="Tolerance." translation="Tolleranza."/>
+	<label commandName="SimNastranAutoContactSFACT" devLabel="Stiffness Factor" translation="Fattore di rigidità"/>
+	<label commandName="SimNastranAutoContactSFACTTooltip" devLabel="Stiffness Factor." translation="Fattore di rigidità."/>
+	<label commandName="SimNastranPenetrationSurfaceOffset" devLabel="Penetration surface offset" translation="Offset superficie di penetrazione"/>
+	<label commandName="SimNastranPenetrationSurfaceOffsetTooltip" devLabel="Penetration surface offset." translation="Offset superficie di penetrazione."/>
+	<label commandName="SimNastran_CONTACTGENERATE_MAXAD" devLabel="Maximum Activation Distance" translation="Distanza di attivazione massima"/>
+	<label commandName="SimRefinementTresholdLabel" devLabel="Portion of Elements to Refine (%)" translation="Parte di elementi da affinare (%)"/>
+	<label commandName="SimRefinementTresholdTooltip" devLabel="Only areas of the model within this percentage of the maximum result will be refined and iterated." translation="Solo le aree del modello all'interno di questa percentuale del risultato massimo verranno affinate e ripetute."/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Unità metriche (SI)"/>
+	<label commandName="SimSmallMeshSize" devLabel="An overly fine mesh (&lt;3%) leads to high memory consumption computation with no guarantee of better results. Instead, you may be interested in using Adaptive Mesh Refinement to refine the mesh only in critical areas. &#xA;&#xA;Do you want to continue?" translation="Una mesh troppo fine (&lt;3%) genera un calcolo di elevato consumo di memoria senza garantire risultati migliori. È invece possibile che si sia interessati ad utilizzare Affinamento mesh adattiva per affinare la mesh solo nelle aree critiche. &#xA;Continuare?"/>
+	<label commandName="SimTStressAverageElementSizeAftText" devLabel=" % of model size" translation=" % delle dimensioni del modello"/>
+	<label commandName="SimTStressAverageElementSizeText" devLabel="Average Element Size is " translation="La dimensione media dell'elemento è "/>
+	<label commandName="SimTemperature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimThermalContactGeneration" devLabel="Contacts" translation="Contatti"/>
+	<label commandName="SimThermalSteady" devLabel="Thermal" translation="Termico"/>
+	<label commandName="SimThermalSteadyDesc" devLabel="Determine how the model responds to Heat Loads and Thermal Boundary Conditions under steady state conditions.&lt;br&gt;&lt;br&gt;The Results include Temperatures and Heat Flux." translation="Determinare la risposta del modello ai carichi di calore e alle condizioni di contorno termico in condizioni stazionarie.&lt;br&gt;&lt;br&gt;I risultati includono temperature e flusso termico."/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentuale"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pezzi"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angolo"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Corrente"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Resistenza elettrica"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Forza"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Lunghezza"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Massa"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Potenza"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressione"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Tempo"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocità"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosità"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tensione"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Portata"/>
+	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="Il nome dello studio è già stato utilizzato."/>
+</Resource>

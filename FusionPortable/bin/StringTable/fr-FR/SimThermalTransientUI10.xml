@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="SimAutoRefinementsControlCustomLabel" devLabel="Custom" translation="Personnalisé(e)"/>
+	<label commandName="SimAutoRefinementsControlHighLabel" devLabel="High" translation="Elevé"/>
+	<label commandName="SimAutoRefinementsControlLowLabel" devLabel="Low" translation="Faible"/>
+	<label commandName="SimAutoRefinementsControlMediumLabel" devLabel="Medium" translation="Moyen"/>
+	<label commandName="SimAutoRefinementsControlNoneLabel" devLabel="None" translation="Aucun"/>
+	<label commandName="SimAutoRefinementsControlRefinementControlLabel" devLabel="Refinement Control" translation="Contrôle de l'affinement"/>
+	<label commandName="SimCaseName" devLabel="Name" translation="Nom"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Remplacer le système d'unités"/>
+	<label commandName="SimConvergenceSectionLabel" devLabel="Adaptive Mesh Refinement" translation="Affinement du maillage adaptatif"/>
+	<label commandName="SimConvergenceTargetLabel" devLabel="Results Convergence Tolerance (%)" translation="Tolérance de convergence des résultats (%)"/>
+	<label commandName="SimConvergenceTargetTooltip" devLabel="The % difference between consecutive iteration results that will trigger the refinement process to stop." translation="Différence en % entre les résultats d'itération consécutifs qui déclenchera l'arrêt du processus d'affinement."/>
+	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="Le nom de l'étude est vide"/>
+	<label commandName="SimEndTimeLabel" devLabel="Problem End Time" translation="Heure de fin du problème"/>
+	<label commandName="SimEndTimeTooltip" devLabel="Problem end time" translation="Heure de fin du problème"/>
+	<label commandName="SimGeneralSectionLabel" devLabel="General" translation="Général"/>
+	<label commandName="SimHeatFlux" devLabel="Heat Flux" translation="Flux thermique"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Américain (po)"/>
+	<label commandName="SimInitialTemeratureLabel" devLabel="Initial Temperature" translation="Température initiale"/>
+	<label commandName="SimInitialTemeratureTooltip" devLabel="Initial Temperature of Nodes" translation="Température initiale des noeuds"/>
+	<label commandName="SimInvalidProblemEndtime" devLabel="Output interval is greater than the problem end time!" translation="L'intervalle de sortie est supérieur à l'heure de fin du problème."/>
+	<label commandName="SimInvalidValue" devLabel="There are some invalid values!" translation="Il existe des valeurs non valides!"/>
+	<label commandName="SimLSSResultsToConvergeLabel" devLabel="Results for Baseline Accuracy" translation="Résultats de la précision de référence"/>
+	<label commandName="SimLSSResultsToConvergeTooltip" devLabel="Which result type to use for calculating convergence criteria." translation="Type de résultat à utiliser pour le calcul des critères de convergence."/>
+	<label commandName="SimMaximumRefinementsLabel" devLabel="Maximum Number of Mesh Refinements" translation="Nombre maximal d'affinements du maillage"/>
+	<label commandName="SimMaximumRefinementsTooltip" devLabel="The number of iterative h and p refinements made to attempt results convergence." translation="Nombre de h itératifs et d'affinements p effectués pour tenter la convergence des résultats"/>
+	<label commandName="SimOutputIntervalActualTimeTooltip" devLabel="Actual time for each interval" translation="Temps réel pour chaque intervalle"/>
+	<label commandName="SimOutputIntervalLabel" devLabel="Output Interval" translation="Intervalle de sortie"/>
+	<label commandName="SimOutputIntervalTooltip" devLabel="Results Output Interval" translation="Intervalle de sortie des résultats"/>
+	<label commandName="SimOutputIntervalTypeLabel" devLabel="Output Interval Type" translation="Type d'intervalle de sortie"/>
+	<label commandName="SimRefinementTresholdLabel" devLabel="Portion of Elements to Refine (%)" translation="Partie d'éléments à affiner (%)"/>
+	<label commandName="SimRefinementTresholdTooltip" devLabel="Only areas of the model within this percentage of the maximum result will be refined and iterated." translation="Seules les aires du modèle comprises dans le pourcentage du résultat maximal seront affinées et itérées."/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personnalisé(e)"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Métrique (SI)"/>
+	<label commandName="SimSmallMeshSize2" devLabel="An overly fine mesh(&lt;3%) leads to high memory consumption computation with no guarantee of better results. Instead, you may want to use a coarser mesh by increasing the mesh size. &#xA;&#xA;Do you want to continue?" translation="Un maillage trop fin (&lt;3%) entraîne un calcul qui consomme beaucoup de mémoire sans garantir de meilleurs résultats. Utilisez plutôt un maillage plus grossier en augmentant la taille du maillage. &#xA;&#xA;Voulez-vous continuer?"/>
+	<label commandName="SimTStressAverageElementSizeText" devLabel="Average Element Size is " translation="La taille moyenne de l'élément est "/>
+	<label commandName="SimTemperature" devLabel="Temperature" translation="Température"/>
+	<label commandName="SimThermalTransient" devLabel="Transient Thermal" translation="Thermique transitoire"/>
+	<label commandName="SimThermalTransientDesc" devLabel="Determine how the model responds to Heat Loads and Thermal Boundary Conditions under transient conditions.&lt;br&gt;&lt;br&gt;The Results include Temperatures and Heat Flux." translation="Déterminez la façon dont le modèle répond aux charges thermiques et aux conditions aux limites thermiques dans des conditions transitoires.&lt;br&gt;&lt;br&gt;Les résultats incluent les températures et le flux thermique."/>
+	<label commandName="SimTotalOutputIntervalTooltip" devLabel="Total number of intervals" translation="Nombre total d'intervalles"/>
+	<label commandName="SimTotalOutputIntervalsLabel" devLabel="Output Interval" translation="Intervalle de sortie"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Pourcentage"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pièces"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accélération"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angle"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Courant"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Résistance électrique"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Force"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Longueur"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Puissance"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pression"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Température"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Temps"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Vitesse"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosité"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tension"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Débit"/>
+	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="Le nom de l'étude est déjà utilisé."/>
+</Resource>

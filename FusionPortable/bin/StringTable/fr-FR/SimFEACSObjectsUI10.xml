@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="2AxisCuttingGroup" devLabel="2-axis Cutting" translation="Découpe 2-axes"/>
+	<label commandName="2AxisCuttingGroupToolTip" devLabel="Specifies a process where a part is manufactured using 2-axis cutting methods, such as laser, waterjet, or plasma cutting.&#xA;&#xA;Select 2-axis cutting to generate outcomes showing the design problem solved by a single extrusion along the cutting direction." translation="Spécifie un processus dans lequel une pièce est fabriquée à l'aide de méthodes de découpe 2 axes, telles que la découpe au laser, au jet d'eau ou au jet de plasma.&#xA;&#xA;Sélectionnez la découpe 2 axes pour générer les résultats indiquant le problème de conception résolu par une seule extrusion le long de la direction de découpe."/>
+	<label commandName="2AxisCuttingOrientation" devLabel="Cutting Direction" translation="Direction de découpe"/>
+	<label commandName="2AxisCuttingOrientationX" devLabel="X" translation="X"/>
+	<label commandName="2AxisCuttingOrientationXToolTip" devLabel="Orients the cutting tool in the direction parallel to the X axis of the triad.&#xA;&#xA;The cutting tool direction is a tool orientation for a cutting operation. It is oriented with reference to the Global Coordinate System." translation="Oriente l'outil de découpe dans la direction parallèle à l'axe X du trièdre.&#xA;&#xA;La direction de l'outil de découpe est une orientation d'outil pour une opération de découpe. Elle est orientée par rapport au système de coordonnées global."/>
+	<label commandName="2AxisCuttingOrientationY" devLabel="Y" translation="Y"/>
+	<label commandName="2AxisCuttingOrientationYToolTip" devLabel="Orients the cutting tool in the direction parallel to the Y axis of the triad.&#xA;&#xA;The cutting tool direction is a tool orientation for a cutting operation. It is oriented with reference to the Global Coordinate System." translation="Oriente l'outil de découpe dans la direction parallèle à l'axe Y du trièdre.&#xA;&#xA;La direction de l'outil de découpe est une orientation d'outil pour une opération de découpe. Elle est orientée par rapport au système de coordonnées global."/>
+	<label commandName="2AxisCuttingOrientationZ" devLabel="Z" translation="Z"/>
+	<label commandName="2AxisCuttingOrientationZToolTip" devLabel="Orients the cutting tool in the direction parallel to the Z axis of the triad.&#xA;&#xA;The cutting tool direction is a tool orientation for a cutting operation. It is oriented with reference to the Global Coordinate System." translation="Oriente l'outil de découpe dans la direction parallèle à l'axe Z du trièdre.&#xA;&#xA;La direction de l'outil de découpe est une orientation d'outil pour une opération de découpe. Elle est orientée par rapport au système de coordonnées global."/>
+	<label commandName="AddLocationTCI" devLabel="Add" translation="Ajouter"/>
+	<label commandName="AddLocationTableButton" devLabel="Add new location" translation="Ajouter un emplacement"/>
+	<label commandName="AddMillingTCI" devLabel="Add" translation="Ajouter"/>
+	<label commandName="AddMillingTableButton" devLabel="Add new configuration" translation="Ajouter une configuration"/>
+	<label commandName="AverageElementSizeGroupBox " devLabel="Average Element Size" translation="Taille moyenne de l'élément"/>
+	<label commandName="CloudPreviewerConvergedButObjectiveNotReachedErrorMessage" devLabel="The generated shape is divided into multiple parts.&lt;br&gt;&lt;br&gt;To resolve the problem, try one or more of the following steps in this order:&lt;ol&gt;&lt;li&gt; Create a starting shape.&lt;li&gt; Ensure that the thickness of the preserve, obstacle and starting shape geometries is proportional and not too thin relative to the entire model.&lt;/ol&gt;&lt;br&gt;Next, generate the preview again." translation="La forme générée est divisée en plusieurs parties.&lt;br&gt;&lt;br&gt;Pour résoudre ce problème, suivez une ou plusieurs des étapes suivantes, dans cet ordre :&lt;ol&gt;&lt;li&gt; Créez une forme de départ.&lt;li&gt; Assurez-vous que l'épaisseur des géométries conservées, obstacle et de la forme de départ respecte les proportions et qu'elle n'est pas trop réduite par rapport au reste du modèle.&lt;/ol&gt;&lt;br&gt;Ensuite, générez à nouveau l'aperçu."/>
+	<label commandName="CloudPreviewerDisconnectionErrorMessage" devLabel="Preserve geometries have separated. Check that preserves are loaded or constrained in all load cases.&lt;br&gt;&lt;br&gt;Next, generate the preview again." translation="Les géométries conservées ont été séparées. Vérifiez que les éléments conservés sont chargés ou contraints dans tous les cas de charge.&lt;br&gt;&lt;br&gt;Ensuite, générez à nouveau l'aperçu."/>
+	<label commandName="CloudPreviewerGenericErrorMessage" devLabel="Previewer encountered a problem and failed to generate the outcome preview.&lt;br&gt;&lt;br&gt;Contact technical support to diagnose and solve this problem." translation="Le prévisualiseur a rencontré un problème et n'a pas pu générer l'aperçu du résultat.&lt;br&gt;&lt;br&gt;Contactez l'assistance technique pour diagnostiquer et résoudre ce problème."/>
+	<label commandName="CloudPreviewerInitialShapeDisconnectionErrorMessage" devLabel="The generated shape is divided into multiple parts.&lt;br&gt;&lt;br&gt;To resolve the problem, try one or more of the following steps in this order:&lt;ol&gt;&lt;li&gt; Ensure that the obstacle geometries are not blocking the line of sight between the preserve geometries. Consider using a starting shape.&lt;li&gt; Ensure that the thickness of the preserve, obstacle and starting shape geometries is proportional and not too thin relative to the entire model.&lt;li&gt; Simplify the geometry.&lt;/ol&gt;&lt;br&gt;Next, generate the preview again." translation="La forme générée est divisée en plusieurs parties.&lt;br&gt;&lt;br&gt;Pour résoudre ce problème, suivez une ou plusieurs des étapes suivantes, dans cet ordre :&lt;ol&gt;&lt;li&gt; Assurez-vous que les géométries obstacle ne bloquent pas la ligne de visée entre les géométries conservées. Vous pouvez utiliser une forme de départ.&lt;li&gt; Assurez-vous que l'épaisseur des géométries conservées, obstacle et de la forme de départ respecte les proportions et qu'elle n'est pas trop réduite par rapport au reste du modèle.&lt;li&gt; Simplifiez la géométrie.&lt;/ol&gt;&lt;br&gt;Ensuite, générez à nouveau l'aperçu."/>
+	<label commandName="CloudPreviewerLineOfSightAdjustmentErrorMessage" devLabel="A potential problem has been detected in your setup that may affect the results.&lt;br&gt;&lt;br&gt;It looks like the obstacle geometry is blocking the line of sight between the preserve geometry bodies. To improve the results, consider one or more of the following:&lt;ol&gt;&lt;li&gt;Ensure that there is a clear line of sight between preserve geometries.&lt;br&gt;If it's not possible, create a starting shape.&lt;li&gt;Simplify the model by modifying preserve or obstacle geometries.&lt;/ol&gt;&lt;br&gt;Next, generate the preview again." translation="Un problème potentiel a été détecté dans votre configuration et peut affecter les résultats.&lt;br&gt;&lt;br&gt;La géométrie obstacle bloque la ligne de visée entre les corps de géométrie conservés. Pour améliorer les résultats, considérez une ou plusieurs des options suivantes: &lt;ol&gt;&lt;li&gt;Assurez-vous qu'il existe une ligne de visée claire entre les géométries conservées.&lt;br&gt;Si ce n'est pas possible, créez une forme de départ.&lt;li&gt;Simplifiez le modèle en modifiant les géométries conservées ou obstacle.&lt;/ol&gt;&lt;br&gt;Générez à nouveau l'aperçu."/>
+	<label commandName="CloudPreviewerNoInternetBeforeStartErrorMessage" devLabel="It looks like you aren't connected to the internet. Check your connection and try again." translation="Il semble que vous ne soyez pas connecté à Internet. Vérifiez votre connexion et réessayez."/>
+	<label commandName="CloudPreviewerOutcomeNotAvailableMessage" devLabel="The outcome preview is no longer available.&lt;br&gt;&lt;br&gt;Generate the preview again." translation="L'aperçu du résultat n'est plus disponible.&lt;br&gt;&lt;br&gt;Générez à nouveau l'aperçu."/>
+	<label commandName="CloudPreviewerTimeoutErrorMessage" devLabel="The outcome preview could not be generated within the specified timeframe.&lt;br&gt;&lt;br&gt;This may be due to connection problems or model complexity. Check your connection or study setup and try again." translation="L'aperçu du résultat n'a pas pu être généré dans le délai spécifié.&lt;br&gt;&lt;br&gt;Cela peut être dû à des problèmes de connexion ou à la complexité du modèle. Vérifiez votre connexion ou la configuration de l'étude et réessayez."/>
+	<label commandName="CloudPreviewerTooCoarseVoxelizationErrorMessage" devLabel="Previewer cannot fully capture the complexity of this study setup. Simplify the geometry or change the outcome resolution settings.&lt;br&gt;&lt;br&gt;Next, generate the preview again." translation="Le prévisualiseur ne peut pas saisir toute la complexité de cette configuration d'étude. Simplifiez la géométrie ou modifiez les paramètres de résolution des résultats.&lt;br&gt;&lt;br&gt;Ensuite, générez à nouveau l'aperçu."/>
+	<label commandName="CloudPreviewerTooManyVoxelsErrorMessage" devLabel="The model geometry is too complex.&lt;br&gt;&lt;br&gt;To resolve the problem, try one or more of the following steps in this order:&lt;ol&gt;&lt;li&gt; Use the ‘Remove Material’ option when creating a starting shape.&lt;li&gt; Simplify the geometry.&lt;/ol&gt;&lt;br&gt;Next, generate the preview again." translation="La géométrie du modèle est trop complexe. &lt;br&gt;&lt;br&gt;Pour résoudre ce problème, suivez une ou plusieurs des étapes suivantes, dans cet ordre :&lt;ol&gt;&lt;li&gt; Utilisez l'option &quot;Supprimer la matière&quot; lors de la création d'une forme de départ.&lt;li&gt; Simplifiez la géométrie.&lt;/ol&gt;&lt;br&gt;Ensuite, générez à nouveau l'aperçu."/>
+	<label commandName="DraftSchemeType" devLabel="Draft Scheme Type" translation="Type de schéma de dépouille"/>
+	<label commandName="DraftSchemeTypeAutomatic" devLabel="Automatic" translation="Automatique"/>
+	<label commandName="DraftSchemeTypeOff" devLabel="Off" translation="Inactif"/>
+	<label commandName="DraftSchemeTypeUnderCutDepth" devLabel="Undercut Depth" translation="Profondeur de contre-dépouille"/>
+	<label commandName="DraftSchemeTypeUnderCutLength" devLabel="Undercut Length" translation="Longueur de contre-dépouille"/>
+	<label commandName="FEACSManualContactsCmdGenerate" devLabel="Generate" translation="Générer"/>
+	<label commandName="GenFEACSPreSolveCheckCmd" devLabel="Pre-check" translation="Vérification préalable"/>
+	<label commandName="GenFEACSPreSolveCheckDesc1" devLabel="Checks the active generative study to ensure the setup meets the requirements to generate outcomes. The icon changes color according to the study status." translation="Vérifie que la configuration de l'étude générative active répond aux exigences requises pour générer les résultats. L'icône change de couleur en fonction de l'état de l'étude."/>
+	<label commandName="GenFEACSPreSolveCheckDesc2" devLabel="&lt;img src=&quot;ERROR_ICON_PATH&quot;&gt; Red" translation="&lt;img src=&quot;ERROR_ICON_PATH&quot;&gt; Rouge"/>
+	<label commandName="GenFEACSPreSolveCheckDesc3" devLabel="You can't generate outcomes because the study setup doesn’t meet some requirements. For example, there is less than the minimum number of preserve geometries or a material is missing." translation="Vous ne pouvez pas générer de résultats car la configuration de l'étude ne répond pas à certains critères. Par exemple, il existe moins de géométries conservées que le nombre minimum ou un matériau manque."/>
+	<label commandName="GenFEACSPreSolveCheckDesc4" devLabel="&lt;img src=&quot;WARNING_ICON_PATH&quot;&gt; Orange" translation="&lt;img src=&quot;WARNING_ICON_PATH&quot;&gt; Orange"/>
+	<label commandName="GenFEACSPreSolveCheckDesc5" devLabel="You can generate outcomes, but there are potential issues with the study. For example, a preserve, obstacle, or starting shape body is missing, but the study includes the minimum number of preserve geometries." translation="Vous pouvez générer des résultats, mais l'étude comporte des problèmes potentiels. Par exemple, une géométrie conservée, un obstacle ou un corps de forme de départ manque, mais l'étude inclut le nombre minimal de géométries conservées."/>
+	<label commandName="GenFEACSPreSolveCheckDesc6" devLabel="&lt;img src=&quot;SUCCESS_ICON_PATH&quot;&gt; Green" translation="&lt;img src=&quot;SUCCESS_ICON_PATH&quot;&gt; Vert"/>
+	<label commandName="GenFEACSPreSolveCheckDesc7" devLabel="The study setup meets the requirements." translation="La configuration de l'étude répond aux exigences requises."/>
+	<label commandName="GenShowJobsDlgCmdDesc1" devLabel="Displays a list of all the generative jobs that have completed, or are in progress, in all your open documents." translation="Affiche une liste de toutes les tâches génératives terminées ou en cours dans tous vos documents ouverts."/>
+	<label commandName="GenShowJobsDlgCmdDesc2" devLabel="Track the processing status of each generative job, view outcomes, and open designs for the successfully completed jobs." translation="Suivez l'état de traitement de chaque tâche générative, affichez les résultats et ouvrez les conceptions pour les tâches terminées avec succès."/>
+	<label commandName="GenShowJobsDlgCmdDesc3" devLabel="You can cancel a generative job before one iteration of any outcome is generated." translation="Vous pouvez annuler une tâche générative avant qu'une itération ne soit générée pour un résultat."/>
+	<label commandName="GenSolveCmd" devLabel="Generate" translation="Générer"/>
+	<label commandName="GenSolveDesc1" devLabel="Generates outcomes that satisfy the design requirements specified in the generative study." translation="Génère les résultats qui répondent aux exigences de conception spécifiées dans l'étude générative."/>
+	<label commandName="GenSolveDesc2" devLabel="You can select one or more studies in your design. Track the processing status in the Job Status dialog." translation="Vous pouvez sélectionner une ou plusieurs études dans votre conception. Suivez l'état du traitement dans la boîte de dialogue État de la tâche."/>
+	<label commandName="GenSolveFluidsCmd" devLabel="Generate" translation="Générer"/>
+	<label commandName="GenSolveFluidsDesc1" devLabel="Generates outcomes that satisfy the design requirements specified in the generative study." translation="Génère les résultats qui répondent aux exigences de conception spécifiées dans l'étude générative."/>
+	<label commandName="GenSolveFluidsDesc2" devLabel="You can select one or more studies in your project. Track the processing status in the Job Status dialog." translation="Vous pouvez sélectionner une ou plusieurs études dans votre projet. Suivez l'état du traitement dans la boîte de dialogue Etat de la tâche."/>
+	<label commandName="JM cancelling" devLabel="Canceling" translation="Annulation"/>
+	<label commandName="JMGenerativeDesigns" devLabel="Generative Designs" translation="Conceptions génératives"/>
+	<label commandName="LocationNumberString" devLabel="LocationNumberString" translation="Chaîne du numéro d'emplacement"/>
+	<label commandName="LocationRow" devLabel="Location %1%" translation="Emplacement %1%"/>
+	<label commandName="ManualContactPrimaryBodyPrompt" devLabel="Select two parts or bodies for contact" translation="Sélectionner deux pièces ou corps pour le contact"/>
+	<label commandName="ManualContactPromptPenetratable" devLabel="Select penetrable group of faces" translation="Sélectionner un groupe de faces pénétrables"/>
+	<label commandName="ManualContactPromptPenetrating" devLabel="Select penetrating group of faces" translation="Sélectionner un groupe de faces pénétrantes"/>
+	<label commandName="ManualContactPromptSide1" devLabel="Select first group of faces" translation="Sélectionner le premier groupe de faces"/>
+	<label commandName="ManualContactPromptSide2" devLabel="Select second group of faces" translation="Sélectionner le deuxième groupe de faces"/>
+	<label commandName="ManualContactSecondaryBodyPrompt" devLabel="Select two parts or bodies for contact" translation="Sélectionner deux pièces ou corps pour le contact"/>
+	<label commandName="ManufacturingMilling25AxisOption" devLabel="2.5-axis" translation="2,5 axes"/>
+	<label commandName="ManufacturingMilling25AxisOptionToolTip" devLabel="Specifies a cutting operation using a machine that has three moving axes; two axes move together and the cutting tool moves along them in a synchronized manner, using flank milling to produce a layered geometry.&#xA;&#xA;Using 2.5-axis milling, you can manufacture shapes that are a series of 2D profile extrusions." translation="Spécifie une opération de découpe à l'aide d'une machine qui comporte trois axes mobiles; deux axes se déplacent ensemble et l'outil de découpe se déplace le long de ces axes de manière synchronisée, en utilisant le fraisage de flanc pour produire une géométrie en couches.&#xA;&#xA;Avec le fraisage 2,5 axes, vous pouvez fabriquer des formes qui sont une série d'extrusions de profil 2D."/>
+	<label commandName="ManufacturingMilling3AxisOption" devLabel="3-axis" translation="3 axes"/>
+	<label commandName="ManufacturingMilling3AxisOptionToolTip" devLabel="Specifies a milling operation where a part is machined using coordinated motion of all three axes of the machine coordinate system; also called contour machining.&#xA;&#xA;Select one or more Tool Directions. Multiple tool directions correspond to multiple machining steps for the design. Using 3-axis milling, you can create more complex parts than 2.5 axis milling, but simpler than 5-axis milling." translation="Spécifie une opération de fraisage où une pièce est usinée en utilisant le mouvement coordonné des trois axes du système de coordonnées de la machine, également appelé usinage de contour.&#xA;&#xA;Sélectionnez une ou plusieurs directions d'outil. Plusieurs directions d'outil correspondent à plusieurs étapes d'usinage pour la conception. Avec le fraisage 3 axes, vous pouvez créer des pièces plus complexes qu'avec le fraisage 2,5 axes, mais plus simples qu'avec le fraisage 5 axes."/>
+	<label commandName="ManufacturingMilling5AxisOption" devLabel="5-axis" translation="5 axes"/>
+	<label commandName="ManufacturingMilling5AxisOptionToolTip" devLabel="Specifies a milling operation where a part or the cutting tool moves along five different axes simultaneously, enabling the tool to approach the part from any direction.&#xA;&#xA;Using 5-axis milling, you can manufacture free-form shapes with geometries that are difficult or impossible to make using 3-axis milling." translation="Spécifie une opération de fraisage où une pièce ou l'outil de coupe se déplace le long de cinq axes différents simultanément, ce qui permet à l'outil d'approcher la pièce dans n'importe quelle direction.&#xA;&#xA;Le fraisage 5 axes vous permet de fabriquer des formes libres avec des géométries difficiles ou impossibles à réaliser à l'aide du fraisage 3 axes."/>
+	<label commandName="ManufacturingMillingAxisDropDownOptions" devLabel="Milling Axis" translation="Axe de fraisage"/>
+	<label commandName="MeshElementOrder" devLabel="Element Order" translation="Ordre des éléments"/>
+	<label commandName="MeshElementOrderTooltip" devLabel="Parabolic adds mid-side nodes and conforms mesh to curved surfaces" translation="Parabolique ajoute des noeuds intermédiaires et ajuste le maillage aux surfaces incurvées"/>
+	<label commandName="MillingNumberString" devLabel="MillingNumberString" translation="Chaîne de numéro de fraisage"/>
+	<label commandName="MillingRow" devLabel="Configuration %1%" translation="Configuration %1%"/>
+	<label commandName="NoGenerativeDesignJobs" devLabel="There are no generative design jobs in progress for open documents." translation="Aucune tâche de Generative Design n'est en cours pour les documents ouverts."/>
+	<label commandName="PreviewerContinueButtonTxt" devLabel="Continue" translation="Continuer"/>
+	<label commandName="PreviewerEndConfirmation" devLabel="It looks like the Previewer tool is currently in use.&lt;br&gt;&lt;br&gt;To keep using it, click &lt;b&gt;Continue&lt;/b&gt;.&lt;br&gt;&lt;br&gt;To exit Previewer and use other tools, click &lt;b&gt;Quit&lt;/b&gt;." translation="Il semble que l'outil Prévisualiseur est en cours d'utilisation.&lt;br&gt;&lt;br&gt;Pour continuer à l'utiliser, cliquez sur &lt;b&gt;Continuer&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Pour quitter le prévisualiseur et utiliser d'autres outils, cliquez sur &lt;b&gt;Quitter&lt;/b&gt;."/>
+	<label commandName="PreviewerEndConfirmationTitle" devLabel="Continue using Previewer?" translation="Continuer à utiliser le prévisualiseur?"/>
+	<label commandName="PreviewerErrorMessageNotAvailableTitle" devLabel="Preview not available" translation="Aperçu non disponible"/>
+	<label commandName="PreviewerErrorMessageTitle" devLabel="Preview failed" translation="Échec de l'aperçu"/>
+	<label commandName="PreviewerQuitButtonText" devLabel="Quit" translation="Quitter"/>
+	<label commandName="RemoveLocationTCI" devLabel="Remove" translation="Supprimer"/>
+	<label commandName="RemoveLocationTableButton" devLabel="Remove location" translation="Supprimer l'emplacement"/>
+	<label commandName="RemoveMillingTCI" devLabel="Remove" translation="Supprimer"/>
+	<label commandName="RemoveMillingTableButton" devLabel="Remove configuration" translation="Supprimer la configuration"/>
+	<label commandName="SelectLocation" devLabel="Select Location" translation="Sélectionner un emplacement"/>
+	<label commandName="Sim1stPrincipalStress" devLabel="1st Principal Stress" translation="1re contrainte principale"/>
+	<label commandName="Sim3rdPrincipalStress" devLabel="3rd Principal Stress" translation="3e contrainte principale"/>
+	<label commandName="SimAbsoluteSizeLabel" devLabel="Absolute Size" translation="Taille absolue"/>
+	<label commandName="SimAdvancedMeshSettingsGroupBox " devLabel="Advanced Settings" translation="Paramètres avancés"/>
+	<label commandName="SimAdvancedOptionsGroup" devLabel="Advanced Options" translation="Options avancées"/>
+	<label commandName="SimAllEntityToggleInput" devLabel="Apply to All Entities" translation="Appliquer à toutes les entités"/>
+	<label commandName="SimAutoContacts" devLabel="Automatic Contacts" translation="Contacts automatiques"/>
+	<label commandName="SimAutoMaxActivationDistance" devLabel="Automatic Max. Activation Distance" translation="Distance d'activation max. automatique"/>
+	<label commandName="SimAutoRefinementsControlCustomLabel" devLabel="Custom" translation="Personnalisé(e)"/>
+	<label commandName="SimAutoRefinementsControlHighLabel" devLabel="High" translation="Elevé"/>
+	<label commandName="SimAutoRefinementsControlLowLabel" devLabel="Low" translation="Faible"/>
+	<label commandName="SimAutoRefinementsControlMediumLabel" devLabel="Medium" translation="Moyen"/>
+	<label commandName="SimAutoRefinementsControlNoneLabel" devLabel="None" translation="Aucun"/>
+	<label commandName="SimAutoRefinementsControlRefinementControlLabel" devLabel="Refinement Control" translation="Contrôle de l'affinement"/>
+	<label commandName="SimAverageElementSizeTooltip" devLabel="Average element length relative to the diagonal measurement of the model bounding box. 5% to 10% recommended." translation="Mesure de la longueur moyenne de l'élément par rapport à la diagonale de la zone de délimitation du modèle. Valeur de 5 % à 10 % recommandée."/>
+	<label commandName="SimBlankDefaultWeldFailureModel" devLabel="Default" translation="Par défaut"/>
+	<label commandName="SimBondedManualContactDesc1" devLabel="Bonded surfaces mean the two surfaces are in full contact." translation="Les surfaces liées indiquent que les deux surfaces sont en contact."/>
+	<label commandName="SimBondedManualContactDesc2" devLabel="All loads from a surface will be fully transferred to another surface in contact. This means that deflections and temperatures are identical where the parts meet, and heat flows without resistance between the adjacent parts." translation="Toutes les charges d'une surface seront entièrement transférées vers une autre surface en contact. Cela signifie que les flexions et les températures sont identiques à l'endroit où les pièces se rencontrent, et que la chaleur circule sans rencontrer de résistance entre les pièces adjacentes."/>
+	<label commandName="SimBondedManualContactDesc3" devLabel="Please note that before manually applying contacts, you should run Automatic Contacts." translation="Remarque: avant d'appliquer manuellement des contacts, vous devez exécuter la fonction Contacts automatiques."/>
+	<label commandName="SimButtonCopyToClipboard" devLabel="Copy to Clipboard" translation="Copier dans le presse-papiers"/>
+	<label commandName="SimCSVExportWindowTitle" devLabel="CSV Export" translation="Exportation CSV"/>
+	<label commandName="SimCSVImportCancelButton" devLabel="&amp;Cancel" translation="&amp;Annuler"/>
+	<label commandName="SimCSVImportColumnSeparator" devLabel="&amp;Column separator" translation="&amp;Séparateur de colonne"/>
+	<label commandName="SimCSVImportColumnSeparatorTab" devLabel="Tab" translation="Onglet"/>
+	<label commandName="SimCSVImportColumnsSpinner" devLabel="Columns to &amp;skip" translation="&amp;Pour supprimer des colonnes"/>
+	<label commandName="SimCSVImportDecimalSeparator" devLabel="&amp;Decimal separator" translation="&amp;Séparateur décimal"/>
+	<label commandName="SimCSVImportOKButton" devLabel="&amp;OK" translation="&amp;OK"/>
+	<label commandName="SimCSVImportRows" devLabel="Rows to be imported:" translation="Lignes à importer:"/>
+	<label commandName="SimCSVImportWindowTitle" devLabel="CSV Import" translation="Importation CSV"/>
+	<label commandName="SimCaseName" devLabel="Name" translation="Nom"/>
+	<label commandName="SimCeneterOfMassSeparator" devLabel="separator" translation="séparateur"/>
+	<label commandName="SimCenterOfMassBodiesInput" devLabel="Bodies" translation="Corps"/>
+	<label commandName="SimCenterOfMassCmd" devLabel="Center of Mass" translation="Centre de gravité"/>
+	<label commandName="SimCenterOfMassDeltaGroup" devLabel="Displacement vector" translation="Vecteur de déplacement"/>
+	<label commandName="SimCenterOfMassDeltaX" devLabel="x" translation="x"/>
+	<label commandName="SimCenterOfMassDeltaY" devLabel="y" translation="y"/>
+	<label commandName="SimCenterOfMassDeltaZ" devLabel="z" translation="z"/>
+	<label commandName="SimCenterOfMassDisplacedGroup" devLabel="Displaced" translation="Déplacé"/>
+	<label commandName="SimCenterOfMassDisplacedX" devLabel="x" translation="x"/>
+	<label commandName="SimCenterOfMassDisplacedY" devLabel="y" translation="y"/>
+	<label commandName="SimCenterOfMassDisplacedZ" devLabel="z" translation="z"/>
+	<label commandName="SimCenterOfMassUndisplacedGroup" devLabel="Undisplaced" translation="Non déplacé"/>
+	<label commandName="SimCenterOfMassUndisplacedX" devLabel="x" translation="x"/>
+	<label commandName="SimCenterOfMassUndisplacedY" devLabel="y" translation="y"/>
+	<label commandName="SimCenterOfMassUndisplacedZ" devLabel="z" translation="z"/>
+	<label commandName="SimChangeStudyTypeRemovedAllContacts" devLabel="&#xA;- All contacts will be removed" translation="&#xA;- Tous les contacts seront supprimés"/>
+	<label commandName="SimChangeStudyTypeRemovedBaseExcitation" devLabel="&#xA;- Base excitation will be removed" translation="&#xA;- L'excitation de base sera supprimée"/>
+	<label commandName="SimChangeStudyTypeRemovedConnectors" devLabel="&#xA;- All connectors will be removed" translation="&#xA;- Tous les connecteurs seront supprimés"/>
+	<label commandName="SimChangeStudyTypeRemovedConstraintOnRigidBody" devLabel="&#xA;- Constraints on rigid bodies will be removed" translation="&#xA;- Les contraintes sur les corps rigides seront supprimées"/>
+	<label commandName="SimChangeStudyTypeRemovedConstraints" devLabel="&#xA;- All constraints will be removed" translation="&#xA;- Toutes les contraintes seront supprimées"/>
+	<label commandName="SimChangeStudyTypeRemovedInitialAngularVelocity" devLabel="&#xA;- Initial Angular Velocity will be removed" translation="&#xA;- La vitesse angulaire initiale sera supprimée"/>
+	<label commandName="SimChangeStudyTypeRemovedInitialLinearVelocity" devLabel="&#xA;- Initial Linear Velocity will be removed" translation="&#xA;- La vitesse linéaire initiale sera supprimée"/>
+	<label commandName="SimChangeStudyTypeRemovedLoadCases" devLabel="&#xA;- Additional load cases will be removed" translation="&#xA;- Les cas de charge supplémentaires seront supprimés"/>
+	<label commandName="SimChangeStudyTypeRemovedLoads" devLabel="&#xA;- All loads will be removed" translation="&#xA;- Toutes les charges seront supprimées"/>
+	<label commandName="SimChangeStudyTypeRemovedNonBondedContacts" devLabel="&#xA;- All non-bonded contacts will change to 'Bonded'" translation="&#xA;- Tous les contacts non-liés seront liés"/>
+	<label commandName="SimChangeStudyTypeRemovedNonThermalLoads" devLabel="&#xA;- All non-thermal loads will be removed" translation="&#xA;- Toutes les charges non thermiques seront supprimées"/>
+	<label commandName="SimChangeStudyTypeRemovedPoinMasses" devLabel="&#xA;- All point masses will be removed" translation="&#xA;- Toutes les masses ponctuelles seront supprimées"/>
+	<label commandName="SimChangeStudyTypeRemovedPrescribedDisplacement" devLabel="&#xA;- Prescribed displacement constraint will be removed" translation="&#xA;- La contrainte de déplacement imposé sera supprimée"/>
+	<label commandName="SimChangeStudyTypeRemovedPrescribedRotation" devLabel="&#xA;- All prescribed rotations will be removed" translation="&#xA;- Toutes les rotations imposées seront supprimées"/>
+	<label commandName="SimChangeStudyTypeRemovedPrescribedRotationAcceleration" devLabel="&#xA;- Prescribed Rotation (Rotational Acceleration) will be removed" translation="&#xA;- La rotation imposée (accélération de rotation) sera supprimée"/>
+	<label commandName="SimChangeStudyTypeRemovedPrescribedRotationVelocity" devLabel="&#xA;- Prescribed Rotation (Rotational Velocity) will be removed" translation="&#xA;- La rotation imposée (vitesse de rotation) sera supprimée"/>
+	<label commandName="SimChangeStudyTypeRemovedPrescribedTranslation" devLabel="&#xA;- All prescribed translations will be removed" translation="&#xA;- Toutes les translations imposées seront supprimées"/>
+	<label commandName="SimChangeStudyTypeRemovedPrescribedTranslationAcceleration" devLabel="&#xA;- Prescribed Translation (Acceleration) will be removed" translation="&#xA;- La translation imposée (accélération) sera supprimée"/>
+	<label commandName="SimChangeStudyTypeRemovedPrescribedTranslationVelocity" devLabel="&#xA;- Prescribed Translation (Velocity) will be removed" translation="&#xA;- La translation imposée (vitesse) sera supprimée"/>
+	<label commandName="SimChangeStudyTypeRemovedRemoteConstraint" devLabel="&#xA;- Remote constraint will be removed" translation="&#xA;- La contrainte distante sera supprimée"/>
+	<label commandName="SimChangeStudyTypeRemovedResults" devLabel="&#xA;- Existing results will be removed" translation="&#xA;- Les résultats existants seront supprimés"/>
+	<label commandName="SimChangeStudyTypeRemovedRigidBodyModes" devLabel="&#xA;- Remove rigid body modes will be disabled" translation="&#xA;- L'option Supprimer les modes de corps rigide sera désactivée"/>
+	<label commandName="SimChangeStudyTypeRemovedThermalLoads" devLabel="&#xA;- All thermal loads will be removed" translation="&#xA;- Toutes les charges thermiques seront supprimées"/>
+	<label commandName="SimClearCacheAllLabel" devLabel="Delete all local cached results" translation="Supprimer tous les résultats locaux mis en cache"/>
+	<label commandName="SimClearCacheDaysLabel" devLabel="Delete local cached results older than days defined" translation="Supprimer les résultats locaux du cache plus anciens que le nombre de jours défini"/>
+	<label commandName="SimClearCacheWarningLabel" devLabel="There is less then 100MB free space available for local cache, do you want clear old cached results?" translation="Il y a moins de 100 Mo d'espace disponible dans le cache local, voulez-vous effacer les anciens résultats mis en cache?"/>
+	<label commandName="SimClearCacheWindowTitle" devLabel="Clear Cache" translation="Effacer le cache"/>
+	<label commandName="SimCoefficientOfStaticFriction" devLabel="Coefficient of Static Friction" translation="Coefficient de frottement statique"/>
+	<label commandName="SimCohesiveZoneModel" devLabel="Cohesive Zone Model" translation="Modèle de zone de cohésion"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Remplacer le système d'unités"/>
+	<label commandName="SimContactDetectionToleranceShells" devLabel="Shells (fraction of thickness)" translation="Coques (fraction de l'épaisseur)"/>
+	<label commandName="SimContactDetectionToleranceSolids" devLabel="Solids" translation="Solides"/>
+	<label commandName="SimContactOffsetBondedContactDesc1" devLabel="Offset Bonded Contact." translation="Contact de décalage lié."/>
+	<label commandName="SimContactOffsetBondedContactDesc2" devLabel="Please note that before manually applying contacts, you should run Automatic Contacts." translation="Remarque: avant d'appliquer manuellement des contacts, vous devez exécuter la fonction Contacts automatiques."/>
+	<label commandName="SimContactPrimaryBodyInput" devLabel="Primary Body" translation="Corps principal"/>
+	<label commandName="SimContactSecondaryBodyInput" devLabel="Secondary Body" translation="Corps secondaire"/>
+	<label commandName="SimContactSelectEntityForOneOfTheContactSides" devLabel="Select entities for one of the contact sides" translation="Sélectionnez les entités pour l'un des côtés de contact"/>
+	<label commandName="SimContactSelectPrimaryBody" devLabel="Select the primary part/body in contact" translation="Sélectionnez la pièce/le corps principal(e) en contact"/>
+	<label commandName="SimContactSelectSecondaryBody" devLabel="Select the secondary part/body in contact" translation="Sélectionnez la pièce/le corps secondaire en contact"/>
+	<label commandName="SimContactTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="SimContactTipsAndTricksTips" devLabel="Select the two bodies or components that participate in the contact first. This will isolate those two bodies. The command automatically toggles between the selected bodies when you click the geometric entities where the contact applies." translation="Sélectionnez les deux corps ou composants qui font partie du contact en premier. Ces deux corps sont ainsi isolés. La commande permet de basculer automatiquement entre les corps sélectionnés lorsque vous cliquez sur les entités géométriques au niveau desquelles le contact s'applique."/>
+	<label commandName="SimContactTipsAndTricksTitle" devLabel="Manual Contacts Information" translation="Informations sur les contacts manuels"/>
+	<label commandName="SimContactTypeInput" devLabel="Contact Type" translation="Type de contact"/>
+	<label commandName="SimContactsManagerCmd" devLabel="Manage Contacts" translation="Gérer les contacts"/>
+	<label commandName="SimContactsManagerDesc1" devLabel="View the list of all contacts." translation="Affichez la liste de tous les contacts."/>
+	<label commandName="SimContactsManagerDesc2" devLabel="The list allows you to sort, edit, rename, suppress, and isolate contacts." translation="La liste vous permet de trier, modifier, renommer, masquer et isoler des contacts."/>
+	<label commandName="SimContactsManagerSetupWidgetInput" devLabel="Setup" translation="Configuration"/>
+	<label commandName="SimContactsmanagerDialogName" devLabel="Contacts Manager" translation="Gestionnaire de contacts"/>
+	<label commandName="SimConvergenceSectionLabel" devLabel="Adaptive Mesh Refinement" translation="Affinement du maillage adaptatif"/>
+	<label commandName="SimConvergenceSubsequentTargetTooltip" devLabel="The % difference between subsequent iterations that will trigger the iteration process to stop." translation="Différence de pourcentage entre les itérations suivantes entraînant l'arrêt du processus d'itération"/>
+	<label commandName="SimConvergenceTargetLabel" devLabel="Results Convergence Tolerance (%)" translation="Tolérance de convergence des résultats (%)"/>
+	<label commandName="SimConvergenceTargetTooltip" devLabel="The % difference between consecutive iteration results that will trigger the refinement process to stop." translation="Différence en % entre les résultats d'itération consécutifs qui déclenchera l'arrêt du processus d'affinement."/>
+	<label commandName="SimCopyToClipBoard" devLabel="Copy to ClipBoard" translation="Copier dans le presse-papiers"/>
+	<label commandName="SimCreateFatigueCase" devLabel="New Fatigue Case" translation="Nouveau cas de fatigue"/>
+	<label commandName="SimCreateSimStudyPrompt" devLabel="The following problem is found:" translation="Le problème suivant a été détecté:"/>
+	<label commandName="SimCurveEditorDependentTitle" devLabel="Stress" translation="Contrainte"/>
+	<label commandName="SimCurveEditorIndependentTitle" devLabel="Cycles" translation="Cycles"/>
+	<label commandName="SimCurveEditorTitle" devLabel="Graph" translation="Graphique"/>
+	<label commandName="SimCurvedMeshElementsCheckBox" devLabel="Create Curved Mesh Elements" translation="Créer des éléments de maillage courbés"/>
+	<label commandName="SimCurvedMeshElementsTooltip" devLabel="Elements shapes will better follow curved and rounded faces." translation="Les formes des éléments respecteront mieux les faces courbes et arrondies."/>
+	<label commandName="SimCustomProbes" devLabel="Show Probes" translation="Afficher les contrôles"/>
+	<label commandName="SimDataCheckHasError" devLabel="Data-check validation found errors.&#xA;&#xA;Please check the errors in Solve details dialog." translation="La validation de la vérification des données a détecté des erreurs.&#xA;&#xA;Vérifiez les erreurs dans la boîte de dialogue Détails de la résolution."/>
+	<label commandName="SimDataCheckHasWarning" devLabel="Data-check validation found warnings.&#xA;&#xA;Please check the warnings in Solve details dialog." translation="La validation de la vérification des données a détecté des avertissements.&#xA;&#xA;Vérifiez les avertissements dans la boîte de dialogue Détails de la résolution."/>
+	<label commandName="SimDataCheckPassed" devLabel="Data-check validation passed successfully." translation="Validation du contrôle de données transmise."/>
+	<label commandName="SimDaysLabel" devLabel="Days(1..100):" translation="Jours (1..100):"/>
+	<label commandName="SimDetectionToleranceGroup" devLabel="Contact Detection Tolerance" translation="Tolérance de détection des contacts"/>
+	<label commandName="SimDomainStep" devLabel="Step" translation="Pas"/>
+	<label commandName="SimEditContact" devLabel="Edit Contact" translation="Modifier le contact"/>
+	<label commandName="SimEditContactTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="SimEditContactTipsAndTricksTips" devLabel="Select a new contact type.&lt;br&gt;For manual contacts, unselect the target geometries or bodies, and select new ones." translation="Sélectionnez un nouveau type de contact.&lt;br&gt;Pour les contacts manuels, désélectionnez les corps ou les géométries cible, puis sélectionnez-en de nouveaux."/>
+	<label commandName="SimEditContactTipsAndTricksTitle" devLabel="Manual Contacts Information" translation="Informations sur les contacts manuels"/>
+	<label commandName="SimEditExplicitElementDeletionCmd" devLabel="Edit Element Deletion Criteria" translation="Modifier le critère de suppression d'éléments"/>
+	<label commandName="SimEditGenerativeObjectivesCmd" devLabel="Edit Objectives" translation="Modifier les objectifs"/>
+	<label commandName="SimEditMeshRefinementByEntitiesCmd" devLabel="Edit Local Mesh Control" translation="Modifier le contrôle local de maillage"/>
+	<label commandName="SimElementOrderLinear" devLabel="Linear" translation="Linéaire"/>
+	<label commandName="SimElementOrderParabolic" devLabel="Parabolic" translation="Parabolique"/>
+	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="Le nom de l'étude est vide"/>
+	<label commandName="SimEntityAlreadyReferencedByContact" devLabel="The selected entities are already referenced by contact &quot;%1%&quot;" translation="Les entités sélectionnées sont déjà référencées par le contact &quot;%1%&quot;."/>
+	<label commandName="SimEntityAlreadyReferencedByContacts" devLabel="The selected entities are already referenced by multiple contacts" translation="Les entités sélectionnées sont déjà référencées par plusieurs contacts"/>
+	<label commandName="SimExplicitElementDeletionCmd" devLabel="Element Deletion Criteria" translation="Critère de suppression d'éléments"/>
+	<label commandName="SimExplicitElementDeletionCmdDropdownCriteria" devLabel="Deletion Criteria" translation="Critère de suppression"/>
+	<label commandName="SimExplicitElementDeletionCmdSelection" devLabel="Body Selection" translation="Sélection de corps"/>
+	<label commandName="SimExplicitElementDeletionCriteriaEffectiveStrain" devLabel="Effective Strain" translation="Déformation effective"/>
+	<label commandName="SimExplicitElementDeletionCriteriaEqPlasticStrain" devLabel="Equivalent Plastic Strain" translation="Déformation plastique équivalente"/>
+	<label commandName="SimExplicitElementDeletionCriteriaNegativeVolume" devLabel="Negative Volume" translation="Volume négatif"/>
+	<label commandName="SimExplicitElementDeletionCriteriaPrincipalStrain" devLabel="Principal Strain" translation="Déformation principale"/>
+	<label commandName="SimExplicitElementDeletionDesc1" devLabel="Deletes elements from the mesh that, during the event simulation, fall into the region of emerging cracks, breaks, and holes." translation="Supprime des éléments du maillage qui, pendant la simulation des événements, tombent dans la région des fissures, coupures et trous émergents."/>
+	<label commandName="SimExplicitElementDeletionDesc2" devLabel="Define the criteria that must be met for elements to be deleted. Select the target body, the deletion criterion, and the value. Only mesh elements of the selected body that meet the deletion criteria are deleted." translation="Définissez les critères qui doivent être remplis pour que les éléments soient supprimés. Sélectionnez le corps cible, le critère de suppression et la valeur. Seuls les éléments de maillage du corps sélectionné correspondant aux critères de suppression sont supprimés."/>
+	<label commandName="SimExplicitElementDeletionSelectionTooltip" devLabel="Select at least one body." translation="Sélectionnez au moins un corps."/>
+	<label commandName="SimExplicitElementDeletionTipsAndTricksTips" devLabel="Provides options for deleting elements from the mesh based upon criteria defined." translation="Fournit des options permettant de supprimer des éléments du maillage en fonction des critères définis."/>
+	<label commandName="SimExplicitElementDeletionTipsAndTricksTitle" devLabel="Element Deletion Information" translation="Informations sur la suppression d'éléments"/>
+	<label commandName="SimExplicitElementDeletionValue" devLabel="Value" translation="Valeur"/>
+	<label commandName="SimExploreThumbnailsMsg" devLabel="Thumbnails for your Outcomes will appear when they are processing." translation="Des miniatures des résultats s'affichent lors du traitement."/>
+	<label commandName="SimExportAsCSV" devLabel="Export as CSV" translation="Exporter au format CSV"/>
+	<label commandName="SimFEACSAutoContactsDesc1" devLabel="Automatically calculates the contact types between all bodies and components that overlap or touch each other." translation="Calcule automatiquement les types de contact entre tous les corps et composants qui se chevauchent ou se touchent."/>
+	<label commandName="SimFEACSAutoContactsDesc2" devLabel="To ensure all contacts are included in the simulation, run Automatic Contacts before assigning manual contacts. Note, you can then later change the contact types from the automatically generated one to the desired type. Also, you can suppress contacts to be excluded from the simulation." translation="Pour vous assurer que tous les contacts sont inclus dans la simulation, lancez Contacts automatiques avant d'attribuer des contacts manuels. Notez que vous pouvez ensuite modifier les types de contact à partir de ceux générés automatiquement et selon le type souhaité. Vous pouvez également supprimer les contacts à exclure de la simulation."/>
+	<label commandName="SimFEACSCenterOfMassDesc1" devLabel="Shows both displaced and undisplaced center of mass for bodies." translation="Affiche les centres de gravité déplacés et non déplacés des corps."/>
+	<label commandName="SimFEACSCloudSolveCmd" devLabel="Cloud Solve" translation="Résolution dans le cloud"/>
+	<label commandName="SimFEACSCloudSolveDesc1" devLabel="Runs your simulations on cloud based on the settings you select." translation="Exécute vos simulations sur le cloud en fonction des paramètres sélectionnés."/>
+	<label commandName="SimFEACSDataCheckCmd" devLabel="Data Check" translation="Vérification des données"/>
+	<label commandName="SimFEACSDataCheckDesc1" devLabel="Check explicit solve." translation="Vérifiez la résolution explicite."/>
+	<label commandName="SimFEACSEditSolveCmd" devLabel="Export Nastran File" translation="Exporter le fichier Nastran"/>
+	<label commandName="SimFEACSMeshCloudSolveCmd" devLabel="Generate Mesh" translation="Générer le maillage"/>
+	<label commandName="SimFEACSMeshCloudSolveDesc1" devLabel="Use this command to generate and inspect the mesh prior to solving on the cloud, especially if you have customized the mesh settings." translation="Utilisez cette commande pour générer et examiner le maillage avant d'effectuer la résolution sur le cloud, en particulier si vous avez personnalisé les paramètres de maillage."/>
+	<label commandName="SimFEACSMeshCloudSolveDesc2" devLabel="Because the mesh is automatically created when you start solving on the cloud, this step is optional. In many cases, however, it is good to inspect the mesh and make adjustments before solving." translation="Le maillage étant créé automatiquement lors du démarrage de la résolution sur le cloud, cette étape est facultative. Dans de nombreux cas, il s'avère cependant utile de vérifier le maillage et de procéder à des ajustements avant la résolution."/>
+	<label commandName="SimFEACSMeshCloudSolveDesc3" devLabel="Note that you can monitor the mesh generation progress in the Simulation Job Manager." translation="Notez que vous pouvez surveiller la progression de la génération du maillage dans Simulation Job Manager."/>
+	<label commandName="SimFEACSMeshSolveCmd" devLabel="Generate Mesh" translation="Générer le maillage"/>
+	<label commandName="SimFEACSMeshSolveDesc1" devLabel="Computes a mesh for your simulation model based on settings specified. Automatic contacts are generated first." translation="Calcule un maillage pour votre modèle de simulation en fonction des paramètres spécifiés. Les contacts automatiques sont générés en premier."/>
+	<label commandName="SimFEACSMeshSolveDesc2" devLabel="Your computer will be used to perform the compute process." translation="Votre ordinateur sera utilisé pour effectuer le calcul."/>
+	<label commandName="SimFEACSOptimizationCloudSolveCmd" devLabel="Optimize" translation="Optimiser"/>
+	<label commandName="SimFEACSPreSolveCheckCmd" devLabel="Pre-check" translation="Vérification préalable"/>
+	<label commandName="SimFEACSPreSolveCheckDesc1" devLabel="Checks the study setup to ensure it has all the information required to solve. The icon color indicates the setup status:" translation="Vérifie la configuration de l'étude pour s'assurer qu'elle dispose de toutes les informations requises pour la résolution. La couleur de l'icône indique l'état de la configuration:"/>
+	<label commandName="SimFEACSPreSolveCheckDesc2" devLabel="&lt;img src=&quot;ERROR_ICON_PATH&quot;&gt; Red" translation="&lt;img src=&quot;ERROR_ICON_PATH&quot;&gt; Rouge"/>
+	<label commandName="SimFEACSPreSolveCheckDesc3" devLabel="The Study cannot be solved because vital information is missing, such as valid material data." translation="Impossible de résoudre l'étude, car il manque des informations essentielles, telles que des données valides sur les matières."/>
+	<label commandName="SimFEACSPreSolveCheckDesc4" devLabel="&lt;img src=&quot;WARNING_ICON_PATH&quot;&gt; Orange" translation="&lt;img src=&quot;WARNING_ICON_PATH&quot;&gt; Orange"/>
+	<label commandName="SimFEACSPreSolveCheckDesc5" devLabel="The solver can run, but may produce unexpected results. Check the setup to ensure it is as you intend." translation="Le contrôleur peut s'exécuter, mais peut produire des résultats inattendus. Vérifiez la configuration pour vous assurer qu'elle est conforme à vos attentes."/>
+	<label commandName="SimFEACSPreSolveCheckDesc6" devLabel="&lt;img src=&quot;SUCCESS_ICON_PATH&quot;&gt; Green" translation="&lt;img src=&quot;SUCCESS_ICON_PATH&quot;&gt; Vert"/>
+	<label commandName="SimFEACSPreSolveCheckDesc7" devLabel="The study can be solved and has no predictable issues." translation="L'étude peut être résolue et ne présente aucun problème prévisible."/>
+	<label commandName="SimFEACSReactionForceDesc1" devLabel="Shows resulting reaction forces and moments." translation="Affiche les forces et les moments de réaction résultants."/>
+	<label commandName="SimFEACSReactionForceExportFailed" devLabel="Failed to save CSV file." translation="Échec de l'enregistrement du fichier CSV."/>
+	<label commandName="SimFEACSReactionForceExportFileExists" devLabel="%1% already exists.&#xA;Do you want to replace it?" translation="%1% existe déjà.&#xA;Voulez-vous le remplacer?"/>
+	<label commandName="SimFEACSReactionForceExportFileExistsTitle" devLabel="Confirm Save As" translation="Confirmer l'enregistrement sous"/>
+	<label commandName="SimFEACSReactionForceTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="SimFEACSReactionForceTipsAndTricksTips" devLabel="Select a constrained face, edge or vertex to see reaction values." translation="Sélectionnez une face, une arête ou un sommet contraint pour afficher les valeurs de réaction."/>
+	<label commandName="SimFEACSReactionForceTipsAndTricksTitle" devLabel="Reactions Information" translation="Informations sur les réactions"/>
+	<label commandName="SimFEACSSolveCmd" devLabel="Local Solve" translation="Résolution locale"/>
+	<label commandName="SimFEACSSolveDesc1" devLabel="Runs your simulations based on the settings you select. Progress bar displays to view the state of the solve. Automatic contacts and mesh are generated first." translation="Exécute vos simulations en fonction des paramètres que vous avez sélectionnés. La barre de progression s'affiche pour représenter l'état d'avancement de la résolution. Les contacts automatiques et le maillage sont générés en premier."/>
+	<label commandName="SimFEACSTopologyOptimizationSolveCmd" devLabel="Optimize Shape" translation="Optimiser la forme"/>
+	<label commandName="SimFEACSTopologyOptimizationSolveDesc1" devLabel="Runs your simulations based on the settings you select. Progress bar displays to view the state of the solve." translation="Exécute vos simulations en fonction des paramètres que vous avez sélectionnés. La barre de progression s'affiche pour montrer l'état de la résolution."/>
+	<label commandName="SimFEACSTopologyOptimizationSynchronousSolveCmd" devLabel="Synchronous Optimize Topology" translation="Topologie d'optimisation synchrone"/>
+	<label commandName="SimFTGCreateStudyFailed" devLabel="Failed to create fatigue study" translation="Echec de la création de l'étude de fatigue"/>
+	<label commandName="SimFTGGeneralSettingsDlgTitle" devLabel="Settings" translation="Paramètres"/>
+	<label commandName="SimFTGLinkEditStudyDlgTitle" devLabel="Edit input studies" translation="Modifier les études d'entrée"/>
+	<label commandName="SimFTGLinkStudyDlgMeshLabel" devLabel="Select mesh to use" translation="Sélectionner le maillage à utiliser"/>
+	<label commandName="SimFTGLinkStudyDlgStudyTreeLabel" devLabel="Select studies" translation="Sélectionner les études"/>
+	<label commandName="SimFTGLinkStudyDlgTitle" devLabel="New fatigue study" translation="Nouvelle étude de fatigue"/>
+	<label commandName="SimFailureTheory" devLabel="Failure Theory" translation="Théorie du critère de rupture"/>
+	<label commandName="SimFatigueActivateCase" devLabel="Activate fatigue case" translation="Activer le cas de fatigue"/>
+	<label commandName="SimFatigueAnalsysNameLabel" devLabel="Name" translation="Nom"/>
+	<label commandName="SimFatigueAnalsysTypeDescriptEN" devLabel="Strain based fatigue analysis can account for local plastic deformation. This method is suited for low cycle and high cycle fatigue." translation="L'analyse de fatigue basée sur la déformation peut être prise en compte pour la déformation plastique locale. Cette méthode est pratique pour les cycles de fatigue bas et élevé."/>
+	<label commandName="SimFatigueAnalsysTypeDescriptSF" devLabel="This calculates a safety factor based on the method of constant stress ratio (R) or the method of constant mean stress (M). Note that this is different than the safety factors calculated with the stress or strain based methods." translation="Cette option calcule un facteur de sécurité en fonction de la méthode de rapport de contrainte constante (R) ou de la méthode de contrainte moyenne constante (M). Notez que ce facteur est différent des facteurs de sécurité calculés à l'aide des méthodes basées sur la contrainte ou la déformation."/>
+	<label commandName="SimFatigueAnalsysTypeDescriptSN" devLabel="Stress based fatigue analysis assumes that the stress remains in the elastic region of the material. No correction is made for plasticity. Therefore, this method is suited only for high cycle fatigue (more than 100000 cycles)." translation="Analyse de fatigue basée sur des contraintes suppose que la contrainte reste dans la zone élastique du matériau. Aucune correction n'est créée pour la plasticité. Par conséquent, cette méthode permet uniquement de cycle de (plus de 100 000 cycles)."/>
+	<label commandName="SimFatigueAnalsysTypeEN" devLabel="Strain based (EN)" translation="Basée sur la déformation (EN)"/>
+	<label commandName="SimFatigueAnalsysTypeLabel" devLabel="Fatigue Life Calculation" translation="Calcul de la durée de vie"/>
+	<label commandName="SimFatigueAnalsysTypeSF" devLabel="Fatigue Safety Factor" translation="Facteur de sécurité de fatigue"/>
+	<label commandName="SimFatigueAnalsysTypeSN" devLabel="Stress based (SN)" translation="Basée sur les contraintes (SN)"/>
+	<label commandName="SimFatigueAnalysisSettings" devLabel="General" translation="Général"/>
+	<label commandName="SimFatigueAnalysisTypeSFGoodman" devLabel="Goodman diagram" translation="Diagramme de Goodman"/>
+	<label commandName="SimFatigueAnalysisTypeSFHaigh" devLabel="Haigh diagram" translation="Diagramme de Haigh"/>
+	<label commandName="SimFatigueCalcOpt" devLabel="Calculation Options" translation="Options de calcul"/>
+	<label commandName="SimFatigueCalcOptDescrption" devLabel="Calculation Options" translation="Options de calcul"/>
+	<label commandName="SimFatigueCalcOptDlgAvgStress" devLabel="Average Stresses at Nodes" translation="Moyenne des contraintes au niveau des noeuds"/>
+	<label commandName="SimFatigueCalcOptDlgCaption" devLabel="Calculation Options" translation="Options de calcul"/>
+	<label commandName="SimFatigueCalcOptDlgCriticalPlane" devLabel="Critical Plane" translation="Plan critique"/>
+	<label commandName="SimFatigueCalcOptDlgMaxAbsPrincipal" devLabel="Max Abs Principal" translation="Contrainte principale maximale absolue"/>
+	<label commandName="SimFatigueCalcOptDlgMaxShear" devLabel="Max Shear (Tresca)" translation="Cisaillement maximal (Tresca)"/>
+	<label commandName="SimFatigueCalcOptDlgNormalStress" devLabel="Normal Stress (Critical Plane)" translation="Contrainte normale (plan critique)"/>
+	<label commandName="SimFatigueCalcOptDlgShearStress" devLabel="Shear Stress (Critical Plane)" translation="Contrainte de cisaillement (plan critique)"/>
+	<label commandName="SimFatigueCalcOptDlgSignedVonMisses" devLabel="Signed VonMises" translation="Von Mises signé"/>
+	<label commandName="SimFatigueCalcOptDlgTabRuntimeReduction" devLabel="Runtime Reduction" translation="Réduction du délai d'exécution"/>
+	<label commandName="SimFatigueCalcOptDlgTabStressOpt" devLabel="Stress Options" translation="Options de contrainte"/>
+	<label commandName="SimFatigueCalcOptionsThresholdPercentFormat" devLabel="Only analyze the top %1%%% of model stress" translation="Analyser uniquement les premiers %1%%% de la contrainte du modèle"/>
+	<label commandName="SimFatigueCalcOptionsThresholdValueFormat" devLabel="Stress threshold set at %1%" translation="Seuil de contrainte défini sur %1%"/>
+	<label commandName="SimFatigueCaseClone" devLabel="Clone Fatigue Case" translation="Cloner le cas de fatigue"/>
+	<label commandName="SimFatigueCaseOvMaterial" devLabel="Fatigue Materials" translation="Matériaux pour l'analyse de fatigue"/>
+	<label commandName="SimFatigueCaseSetting" devLabel="Settings" translation="Paramètres"/>
+	<label commandName="SimFatigueCaseSettingDescription" devLabel="Edit fatigue case" translation="Modifier le cas de fatigue"/>
+	<label commandName="SimFatigueCaseSurfaceFinish" devLabel="Fatigue Life Factors" translation="Facteurs de durée de vie"/>
+	<label commandName="SimFatigueCycleHistory" devLabel="Cycle History" translation="Historique de cycles"/>
+	<label commandName="SimFatigueCycleHistoryDescrption" devLabel="Cycle History" translation="Historique de cycles"/>
+	<label commandName="SimFatigueCycleHistoryDlgCycles" devLabel="# Cycles" translation="Nombre de cycles"/>
+	<label commandName="SimFatigueCycleHistoryDlgDefaultLoadCaseName" devLabel="Load case" translation="Cas de charge"/>
+	<label commandName="SimFatigueDeleteLinkedStudy" devLabel="Delete Input Study" translation="Supprimer l'étude d'entrée"/>
+	<label commandName="SimFatigueDeleteLinkedStudyCmd" devLabel="Remove Input Study" translation="Supprimer l'étude d'entrée"/>
+	<label commandName="SimFatigueDeleteLinkedStudyDescrption" devLabel="Delete Input Study" translation="Supprimer l'étude d'entrée"/>
+	<label commandName="SimFatigueEditCaseSetting" devLabel="Edit fatigue case" translation="Modifier le cas de fatigue"/>
+	<label commandName="SimFatigueEditLinkedStudies" devLabel="Edit Input Studies" translation="Modifier les études d'entrée"/>
+	<label commandName="SimFatigueEditLinkedStudiesCmd" devLabel="Edit Input Studies" translation="Modifier les études d'entrée"/>
+	<label commandName="SimFatigueEditLinkedStudiesDescrption" devLabel="Edit Input Studies" translation="Modifier les études d'entrée"/>
+	<label commandName="SimFatigueExcludeParts" devLabel="Exclude Fatigue Parts" translation="Exclure les pièces de la fatigue"/>
+	<label commandName="SimFatigueLoadHistoryAddLoadHistory" devLabel="+ Load History" translation="+ Historique de charge"/>
+	<label commandName="SimFatigueLoadHistoryCanvasTitle" devLabel="Definition of One Fatigue Cycle" translation="Définition d'un cycle de fatigue"/>
+	<label commandName="SimFatigueLoadHistoryCycleTitle" devLabel="Load Cycle Sequence" translation="Séquence de cas de charge"/>
+	<label commandName="SimFatigueLoadHistoryDlgCaption" devLabel="Cycle History" translation="Historique de cycles"/>
+	<label commandName="SimFatigueLoadHistoryDlgCombinationLabel" devLabel="Load Case Combination Method" translation="Méthode de combinaison de cas de charge"/>
+	<label commandName="SimFatigueLoadHistoryDlgSequential" devLabel="Sequential" translation="Séquentiel"/>
+	<label commandName="SimFatigueLoadHistoryDlgSuperPosition" devLabel="Combine &amp; Add" translation="&amp; Combiner Ajouter"/>
+	<label commandName="SimFatigueLoadHistoryExport" devLabel="Export" translation="Exporter"/>
+	<label commandName="SimFatigueLoadHistoryExportCurve" devLabel="Export Curve" translation="Exporter la courbe"/>
+	<label commandName="SimFatigueLoadHistoryFormat" devLabel="Load History %1%" translation="Historique de charges %1%"/>
+	<label commandName="SimFatigueLoadHistoryImport" devLabel="Import" translation="Importer"/>
+	<label commandName="SimFatigueLoadHistoryImportCurve" devLabel="Import Curve" translation="Importer la courbe"/>
+	<label commandName="SimFatigueMaterialDlgCompressiveStrength" devLabel="Compressive Strength" translation="Résistance à la compression"/>
+	<label commandName="SimFatigueMaterialDlgCompressiveYield" devLabel="Compressive Yield" translation="Plastification en compression"/>
+	<label commandName="SimFatigueMaterialDlgFatigueData" devLabel="Fatigue Material" translation="Matériau pour l'analyse de fatigue"/>
+	<label commandName="SimFatigueMaterialDlgLibraryLabel" devLabel="Material Library" translation="Bibliothèque de matériaux"/>
+	<label commandName="SimFatigueMaterialDlgPart" devLabel="Component" translation="Composant"/>
+	<label commandName="SimFatigueMaterialDlgSelectAll" devLabel="Select All" translation="Tout sélectionner"/>
+	<label commandName="SimFatigueMaterialDlgSteel" devLabel="Steel" translation="Acier"/>
+	<label commandName="SimFatigueMaterialDlgStress" devLabel="Original Material" translation="Matériau d'origine"/>
+	<label commandName="SimFatigueMaterialDlgUpdate" devLabel="Update" translation="Mettre à jour"/>
+	<label commandName="SimFatigueMaterialDlgUpdateTT" devLabel="Update selected component materials to match library" translation="Mettre à jour les matériaux des composants sélectionnés pour les faire correspondre à la bibliothèque"/>
+	<label commandName="SimFatigueMaterialDlgWindowTitle" devLabel="Fatigue Materials" translation="Matériaux pour l'analyse de fatigue"/>
+	<label commandName="SimFatigueMaterialView" devLabel="Fatigue Material Properties" translation="Propriétés du matériau pour l'analyse de fatigue"/>
+	<label commandName="SimFatigueMaterialViewDescrption" devLabel="Fatigue Material Properties" translation="Propriétés du matériau pour l'analyse de fatigue"/>
+	<label commandName="SimFatigueMaterialViewSNProperties" devLabel="Fatigue Material Properties" translation="Propriétés du matériau pour l'analyse de fatigue"/>
+	<label commandName="SimFatigueOutoutDlgCaption" devLabel="Output Options" translation="Options de sortie"/>
+	<label commandName="SimFatigueOutoutDlgCyclesLabel" devLabel="Cycles to Failure and Damage" translation="Cycles avant l'erreur ou l'endommagement"/>
+	<label commandName="SimFatigueOutoutDlgDesiredLifeLabel" devLabel="Desired life (cycles)" translation="Durée de vie souhaitée (cycles)"/>
+	<label commandName="SimFatigueOutoutDlgFsfConstMeanOption" devLabel="Constant Mean" translation="Moyenne constante"/>
+	<label commandName="SimFatigueOutoutDlgFsfConstStressRatioOption" devLabel="Constant Stress Ratio" translation="Rapport de contrainte constante"/>
+	<label commandName="SimFatigueOutoutDlgLifeGroup" devLabel="Life" translation="Durée de vie"/>
+	<label commandName="SimFatigueOutoutDlgSafetyFactorCalculationLabel" devLabel="Fatigue Safety Factor calculation" translation="Calcul du facteur de sécurité de fatigue"/>
+	<label commandName="SimFatigueOutoutDlgSafetyFactorCyclesLabel" devLabel="Safety Factor based on cycles" translation="Facteur de sécurité en fonction des cycles"/>
+	<label commandName="SimFatigueOutoutDlgSafetyFactorLoadsLabel" devLabel="Safety Factor based on loads" translation="Facteur de sécurité en fonction des charges"/>
+	<label commandName="SimFatigueOutoutDlgStrainMorrowCorrectionOption" devLabel="Morrow Correction" translation="Correction de Morrow"/>
+	<label commandName="SimFatigueOutoutDlgStrainNoCorrectionOption" devLabel="No correction" translation="Aucune correction"/>
+	<label commandName="SimFatigueOutoutDlgStrainSWTCorrectionOption" devLabel="Smith-Watson-Topper Correction" translation="Correction de Smith-Watson-Topper"/>
+	<label commandName="SimFatigueOutoutDlgStressCorrectionLabel" devLabel="Mean Stress Corrections" translation="Corrections de contrainte moyenne"/>
+	<label commandName="SimFatigueOutoutDlgStressGerberCorrectionOption" devLabel="Gerber Correction" translation="Correction de Gerber"/>
+	<label commandName="SimFatigueOutoutDlgStressGoodmanCorrectionOption" devLabel="Goodman Correction" translation="Correction de Goodman"/>
+	<label commandName="SimFatigueOutoutDlgStressNoCorrectionOption" devLabel="No correction" translation="Aucune correction"/>
+	<label commandName="SimFatigueOutputDlgCycleNumberTip" devLabel="Please input a value greater or equal to 1" translation="Veuillez entrer une valeur supérieure ou égale à 1"/>
+	<label commandName="SimFatigueOutputOpt" devLabel="Output Options" translation="Options de sortie"/>
+	<label commandName="SimFatigueOutputOptDescrption" devLabel="Output Options" translation="Options de sortie"/>
+	<label commandName="SimFatigueSetExcludedParts" devLabel="Set fatigue case excluded Parts" translation="Définir les pièces exclues du cas de fatigue"/>
+	<label commandName="SimFatigueSuppressPartDescrption" devLabel="Set Parts to exclude for the fatigue case." translation="Définissez les pièces à exclure pour le cas de fatigue."/>
+	<label commandName="SimFatigueSuppressionDlgTitle" devLabel="Exclude parts for %1%" translation="Exclure des pièces de %1%"/>
+	<label commandName="SimFatigueSurfaceFinishDlgCustom" devLabel="Custom" translation="Personnalisé(e)"/>
+	<label commandName="SimFatigueSurfaceFinishDlgForged" devLabel="Forged" translation="Forgée"/>
+	<label commandName="SimFatigueSurfaceFinishDlgGround" devLabel="Ground" translation="Terre"/>
+	<label commandName="SimFatigueSurfaceFinishDlgHeaderComponent" devLabel="Body" translation="Corps"/>
+	<label commandName="SimFatigueSurfaceFinishDlgHeaderConcentration" devLabel="Stress Concentration &#xA;Factor Kf&#xA;(&gt;=1.0)" translation="Facteur de concentration &#xA;des contraintes Kf&#xA;(&gt;= 1)"/>
+	<label commandName="SimFatigueSurfaceFinishDlgHeaderEndurance" devLabel="Surface Finish &#xA;Endurance Limit Factor &#xA;(&lt;=1.0)" translation="Facteur limite &#xA;d'endurance de l'état de surface &#xA;(&lt;= 1)"/>
+	<label commandName="SimFatigueSurfaceFinishDlgHeaderMisc" devLabel="Other Endurance &#xA;Limit Factors" translation="Autres facteurs &#xA;limites d'endurance"/>
+	<label commandName="SimFatigueSurfaceFinishDlgMachined" devLabel="Machined" translation="Usiné"/>
+	<label commandName="SimFatigueSurfaceFinishDlgNotAvaiable" devLabel="N/A" translation="S/O"/>
+	<label commandName="SimFatigueSurfaceFinishDlgPolished" devLabel="Polished" translation="Polie"/>
+	<label commandName="SimFatigueSurfaceFinishDlgRolled" devLabel="Rolled" translation="Laminée"/>
+	<label commandName="SimFatigueSurfaceFinishDlgSelectAll" devLabel="Select All" translation="Tout sélectionner"/>
+	<label commandName="SimFatigueSurfaceFinishDlgTitle" devLabel="Fatigue Life Factors" translation="Facteurs de durée de vie"/>
+	<label commandName="SimFatigueType" devLabel="Fatigue type is " translation="Le type de fatigue est "/>
+	<label commandName="SimFatigueUpdateMaterialCmd" devLabel="Update Material" translation="Mettre à jour le matériau"/>
+	<label commandName="SimFlipContactRefsCmdLabel" devLabel="Flip Contact References" translation="Inverser les références de contact"/>
+	<label commandName="SimFluxSCVImportOpenFileDialogFilter" devLabel="CSV Files (*.csv);;All Files (*)" translation="Fichiers CSV (*.csv);;Tous les fichiers (*)"/>
+	<label commandName="SimForce" devLabel="Force" translation="Force"/>
+	<label commandName="SimForceGroup" devLabel="Force" translation="Force"/>
+	<label commandName="SimFractionOfMaxAllowablePenetration" devLabel="Fraction of Max. Allowable Penetration" translation="Fraction de pénétration max. admissible"/>
+	<label commandName="SimFrequencyStep" devLabel="Frequency (Hz)" translation="Fréquence (Hz)"/>
+	<label commandName="SimFrictionalStiffnessForStick" devLabel="Frictional Stiffness For Stick" translation="Rigidité de friction pour coller"/>
+	<label commandName="SimFtgCycleLoadMultiplier" devLabel="Load Multiplier" translation="Multiplicateur de charge"/>
+	<label commandName="SimFtgLoadHistoryDlgBatchDelete" devLabel="Delete load history" translation="Supprimer l'historique des charges"/>
+	<label commandName="SimFtgLoadHistoryDlgDelete" devLabel="Delete this load history" translation="Supprimer cet historique de charges"/>
+	<label commandName="SimFtgLoadHistoryDlgIncorrectColumnCnt" devLabel="The total number of columns must match the number in the first cell." translation="Le nombre total de colonnes doit correspondre à la valeur dans la première cellule."/>
+	<label commandName="SimFtgLoadHistoryDlgLoadCaseTreeRoot" devLabel="Load Cases" translation="Cas de charge"/>
+	<label commandName="SimFtgLoadHistoryDlgNoValidData" devLabel="The file doesn't contain valid data" translation="Le fichier ne contient pas de données valides."/>
+	<label commandName="SimFtgLoadHistoryDlgNotMatchCheckedLoadCases" devLabel="The number of rows in the file must match the number of checked Input Studies " translation="Le nombre de lignes dans le fichier doit correspondre au nombre d'études d'entrée vérifiées "/>
+	<label commandName="SimFtgLoadHistoryDlgWrongLineEndChar" devLabel="$ must be used in the last column as a line terminator." translation="$ doit être utilisée dans la dernière colonne en tant que marqueur de fin de ligne."/>
+	<label commandName="SimFtgLoadHistoryDlgWrongTotalNumberOfColumns" devLabel="The first row is empty. It should contain the total number of discrete loads that make up the spectrum file." translation="La première ligne est vide. Elle doit contenir le nombre total de charges discrètes du fichier de spectre."/>
+	<label commandName="SimFtgMatEmptySelection" devLabel="(No component selected)" translation="(aucun composant sélectionné)"/>
+	<label commandName="SimFtgMatPropsCollapse" devLabel="&lt;&lt; Properties" translation="&lt;&lt; Propriétés"/>
+	<label commandName="SimFtgMatPropsExpand" devLabel="Properties &gt;&gt;" translation="Propriétés &gt;&gt;"/>
+	<label commandName="SimFtgMaterialAsOriginal" devLabel="(As Original)" translation="(D'origine)"/>
+	<label commandName="SimFtgMaterialCombo" devLabel="Material" translation="Matériau"/>
+	<label commandName="SimFtgMaterialDifferent" devLabel="Material does not match library" translation="Le matériau ne correspond pas à la bibliothèque"/>
+	<label commandName="SimFtgMaterialFatigue" devLabel="Material contains fatigue values" translation="Le matériau contient des valeurs de fatigue"/>
+	<label commandName="SimFtgMaterialInvalid" devLabel="Material contains invalid values" translation="Le matériau contient des valeurs non valides"/>
+	<label commandName="SimFtgMaterialName" devLabel="Material Name" translation="Nom du matériau"/>
+	<label commandName="SimFtgMaterialNotFound" devLabel="Material not found in library" translation="Matériau non trouvé dans la bibliothèque"/>
+	<label commandName="SimFtgOverrideMaterialName" devLabel="Fatigue Material" translation="Matériau pour l'analyse de fatigue"/>
+	<label commandName="SimFtgStressMaterialName" devLabel="Stress Material" translation="Matériau de la contrainte"/>
+	<label commandName="SimGeneralOptionsGroup" devLabel="General Options" translation="Options générales"/>
+	<label commandName="SimGeneralSectionLabel" devLabel="General" translation="Général"/>
+	<label commandName="SimGenerative2AxisCuttingMinWallThicknessCommandInput" devLabel="Minimum Wall Thickness" translation="Épaisseur de paroi minimale"/>
+	<label commandName="SimGenerative2AxisCuttingMinWallThicknessToolTip" devLabel="Specifies the minimum thickness of a wall after cutting, considered in the setup of a generative study." translation="Spécifie l'épaisseur minimale d'une paroi après la découpe envisagée dans la configuration d'une étude générative."/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additif"/>
+	<label commandName="SimGenerativeAdditiveOrientationAllCommandInput" devLabel="Include all directions" translation="Inclure toutes les directions"/>
+	<label commandName="SimGenerativeAdditiveOrientationNegativeCommandInput" devLabel="" translation=""/>
+	<label commandName="SimGenerativeAdditiveOrientationNegativeX" devLabel="X-" translation="X-"/>
+	<label commandName="SimGenerativeAdditiveOrientationNegativeXToolTip" devLabel="Sets the 3D printing build direction parallel to the X axis and builds the design in the negative direction of this axis. It influences creation of supporting geometry with respect to overhang angle constraints.&#xA;&#xA;The Orientation buttons enable you to set 3D printing build directions with reference to the Global Coordinate System." translation="Définit la direction de construction de l'impression 3D parallèlement à l'axe X et crée la conception dans la direction négative de cet axe. Elle influence la création de la géométrie de support par rapport aux contraintes d'angle de saillie.&#xA;&#xA;Les boutons Orientation vous permettent de définir les directions de construction de l'impression 3D par rapport au système de coordonnées global."/>
+	<label commandName="SimGenerativeAdditiveOrientationNegativeY" devLabel="Y-" translation="Y-"/>
+	<label commandName="SimGenerativeAdditiveOrientationNegativeYToolTip" devLabel="Sets the 3D printing build direction parallel to the Y axis and builds the design in the negative direction of this axis. It influences creation of supporting geometry with respect to overhang angle constraints.&#xA;&#xA;The Orientation buttons enable you to set 3D printing build directions with reference to the Global Coordinate System." translation="Définit la direction de construction de l'impression 3D parallèlement à l'axe Y et crée la conception dans la direction négative de cet axe. Elle influence la création de la géométrie de support par rapport aux contraintes d'angle de saillie.&#xA;&#xA;Les boutons Orientation vous permettent de définir les directions de construction de l'impression 3D par rapport au système de coordonnées global."/>
+	<label commandName="SimGenerativeAdditiveOrientationNegativeZ" devLabel="Z-" translation="Z-"/>
+	<label commandName="SimGenerativeAdditiveOrientationNegativeZToolTip" devLabel="Sets the 3D printing build direction parallel to the Z axis and builds the design in the negative direction of this axis. It influences creation of supporting geometry with respect to overhang angle constraints.&#xA;&#xA;The Orientation buttons enable you to set 3D printing build directions with reference to the Global Coordinate System." translation="Définit la direction de construction de l'impression 3D parallèlement à l'axe Z et crée la conception dans la direction négative de cet axe. Elle influence la création de la géométrie de support par rapport aux contraintes d'angle de saillie.&#xA;&#xA;Les boutons Orientation vous permettent de définir les directions de construction de l'impression 3D par rapport au système de coordonnées global."/>
+	<label commandName="SimGenerativeAdditiveOrientationPositiveCommandInput" devLabel="Orientation" translation="Orientation"/>
+	<label commandName="SimGenerativeAdditiveOrientationPositiveX" devLabel="X+" translation="X+"/>
+	<label commandName="SimGenerativeAdditiveOrientationPositiveXToolTip" devLabel="Sets the 3D printing build direction parallel to the X axis and builds the design in the positive direction of this axis. It influences creation of supporting geometry with respect to overhang angle constraints.&#xA;&#xA;The Orientation buttons enable you to set 3D printing build directions with reference to the Global Coordinate System." translation="Définit la direction de construction de l'impression 3D parallèlement à l'axe X et construit la conception dans la direction positive de cet axe. Elle influence la création de la géométrie de support par rapport aux contraintes d'angle de saillie.&#xA;&#xA;Les boutons Orientation vous permettent de définir les directions de construction de l'impression 3D par rapport au système de coordonnées global."/>
+	<label commandName="SimGenerativeAdditiveOrientationPositiveY" devLabel="Y+" translation="Y+"/>
+	<label commandName="SimGenerativeAdditiveOrientationPositiveYToolTip" devLabel="Sets the 3D printing build direction parallel to the Y axis and builds the design in the positive direction of this axis. It influences creation of supporting geometry with respect to overhang angle constraints.&#xA;&#xA;The Orientation buttons enable you to set 3D printing build directions with reference to the Global Coordinate System." translation="Définit la direction de construction de l'impression 3D parallèlement à l'axe Y et construit la conception dans la direction positive de cet axe. Elle influence la création de la géométrie de support par rapport aux contraintes d'angle de saillie.&#xA;&#xA;Les boutons Orientation vous permettent de définir les directions de construction de l'impression 3D par rapport au système de coordonnées global."/>
+	<label commandName="SimGenerativeAdditiveOrientationPositiveZ" devLabel="Z+" translation="Z+"/>
+	<label commandName="SimGenerativeAdditiveOrientationPositiveZToolTip" devLabel="Sets the 3D printing build direction parallel to the Z axis and builds the design in the positive direction of this axis. It influences creation of supporting geometry with respect to overhang angle constraints.&#xA;&#xA;The Orientation buttons enable you to set 3D printing build directions with reference to the Global Coordinate System." translation="Définit la direction de construction de l'impression 3D parallèlement à l'axe Z et construit la conception dans la direction positive de cet axe. Elle influence la création de la géométrie de support par rapport aux contraintes d'angle de saillie.&#xA;&#xA;Les boutons Orientation vous permettent de définir les directions de construction de l'impression 3D par rapport au système de coordonnées global."/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Toutes les méthodes"/>
+	<label commandName="SimGenerativeBucklingCommandInput" devLabel="Buckling" translation="Flambage"/>
+	<label commandName="SimGenerativeBucklingSafetyFactorCommandInput" devLabel="Safety Factor" translation="Facteur de sécurité"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="Découpe 2-axes"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Moulage"/>
+	<label commandName="SimGenerativeDisplacementCommandInput" devLabel="Displacement" translation="Déplacement"/>
+	<label commandName="SimGenerativeDisplacementDirectionCommandInput" devLabel="Direction" translation="Direction"/>
+	<label commandName="SimGenerativeDisplacementDirectionX" devLabel="X" translation="X"/>
+	<label commandName="SimGenerativeDisplacementDirectionY" devLabel="Y" translation="Y"/>
+	<label commandName="SimGenerativeDisplacementDirectionZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimGenerativeFirstModeFrequencyCommandInput" devLabel="Min. First Mode Frequency [Hz]" translation="Fréquence min. du premier mode [Hz]"/>
+	<label commandName="SimGenerativeGlobalDisplacementCommandInput" devLabel="Global" translation="Global"/>
+	<label commandName="SimGenerativeLimitsGroup" devLabel="Limits" translation="Limites"/>
+	<label commandName="SimGenerativeLimitsMassTargetCommandInput" devLabel="Mass Target" translation="Masse cible"/>
+	<label commandName="SimGenerativeLimitsSafetyFactorCommandInput" devLabel="Safety Factor" translation="Facteur de sécurité"/>
+	<label commandName="SimGenerativeLimitsTargetVolumeCommandInput" devLabel="Target Volume" translation="Volume cible"/>
+	<label commandName="SimGenerativeLimitsVolumePercentCommandInput" devLabel="% of Design Volume" translation="% du volume de conception"/>
+	<label commandName="SimGenerativeLocalDisplacementCommandInput" devLabel="Local" translation="Local"/>
+	<label commandName="SimGenerativeLocationInput" devLabel="Location" translation="Emplacement"/>
+	<label commandName="SimGenerativeManufacturingAdditiveCommandInput" devLabel="Additive" translation="Additif"/>
+	<label commandName="SimGenerativeManufacturingAdditiveMinimumThicknessCommandInput" devLabel="Minimum Thickness" translation="Épaisseur minimale"/>
+	<label commandName="SimGenerativeManufacturingAdditiveMinimumThicknessToolTip" devLabel="Specifies the minimum typical value of the beam diameter and wall thickness in outcomes.&#xA;&#xA;This value depends on the machine, material, process settings, and post-processing requirements." translation="Spécifie la valeur minimale standard du diamètre de la poutre et de l'épaisseur de la paroi dans les résultats.&#xA;&#xA;Cette valeur dépend des exigences de la machine, de la matière, des paramètres de traitement et du post-traitement."/>
+	<label commandName="SimGenerativeManufacturingAdditiveOverhangAngleCommandInput" devLabel="Overhang Angle" translation="Angle de saillie"/>
+	<label commandName="SimGenerativeManufacturingAdditiveOverhangAngleToolTip" devLabel="Specifies the largest angle between a face of the shape and the build direction for which an object can be 3D printed without supports.&#xA;&#xA;The angle size depends on the material, machine, and process settings. The default size of 45Â° works well for most additive processes." translation="Spécifie l'angle maximal entre une face de la forme et la direction de fabrication pour laquelle un objet peut être imprimé en 3D sans supports.&#xA;&#xA;La taille de l'angle dépend des paramètres de matériau, de machine et de processus. La taille par défaut de 45° convient à la plupart des processus additifs."/>
+	<label commandName="SimGenerativeManufacturingAdditiveToolTip" devLabel="Specifies a process that builds the part by adding material layer on layer; also called 3D printing.&#xA;&#xA;Select Additive to generate outcomes showing the design problem solved with that manufacturing method in mind. Select one or more printing build directions (X, Y, Z) to control how the part is oriented on the build plate. Each selected build direction generates a separate set of outcomes. Before manufacturing, outcomes may require modifications for a specific additive process such as SLS or FDM." translation="Spécifie un processus qui crée la pièce en ajoutant une couche de matériau sur la couche; également appelé impression 3D.&#xA;&#xA;Sélectionnez Additif pour générer des résultats montrant le problème de conception résolu avec cette méthode de fabrication en tête. Sélectionnez une ou plusieurs directions de fabrication d'impression (X, Y, Z) pour contrôler la façon dont la pièce est orientée sur la plaque de fabrication. Chaque direction de fabrication sélectionnée génère un ensemble de résultats distinct. Avant la fabrication, les résultats peuvent nécessiter des modifications pour un processus additif spécifique tel que SLS ou FDM."/>
+	<label commandName="SimGenerativeManufacturingCmd" devLabel="Manufacturing" translation="Fabrication"/>
+	<label commandName="SimGenerativeManufacturingCommandDesc1" devLabel="Specifies the manufacturing constraints for the design process." translation="Spécifie les contraintes de fabrication pour le processus de conception."/>
+	<label commandName="SimGenerativeManufacturingCommandDesc2" devLabel="Select at least one method and specify its constraints. Each method generates additional outcomes, which you can compare to identify the optimal one for manufacturing." translation="Sélectionnez au moins une méthode et spécifiez ses contraintes. Chaque méthode génère des résultats supplémentaires que vous pouvez comparer pour identifier la meilleure méthode de fabrication."/>
+	<label commandName="SimGenerativeManufacturingCommandTipsAndTricksDesc" devLabel="Outcomes are generated for each manufacturing option that you select." translation="Les résultats sont générés pour chaque option de fabrication sélectionnée."/>
+	<label commandName="SimGenerativeManufacturingCommandTipsAndTricksTips" devLabel="To include additive constraints, select Additive and specify the Overhang Angle and Minimum Thickness. To include milling constraints, select Milling and specify the Tool Direction, Minimum Tool Diameter, Tool Shoulder Length, and Head Diameter. To avoid manufacturing constraints during the design process, select Unrestricted." translation="Pour inclure des contraintes additives, sélectionnez Additif et spécifiez l'angle de saillie et l'épaisseur minimale. Pour inclure des contraintes de fraisage, sélectionnez Fraisage et spécifiez la direction de l'outil, le diamètre d'outil minimum, la longueur d'épaulement de l'outil et le diamètre de tête. Pour éviter les contraintes de fabrication pendant le processus de conception, sélectionnez Sans restriction."/>
+	<label commandName="SimGenerativeManufacturingCommandTipsAndTricksTitle" devLabel="Manufacturing Information" translation="Informations de fabrication"/>
+	<label commandName="SimGenerativeManufacturingCostingCommandInput" devLabel="Cost Estimation" translation="Estimation des coûts"/>
+	<label commandName="SimGenerativeManufacturingDieCastingAllOrientationsCommandInput" devLabel="Include all nine directions" translation="Inclure les neuf directions"/>
+	<label commandName="SimGenerativeManufacturingDieCastingCommandInput" devLabel="Casting" translation="Moulage"/>
+	<label commandName="SimGenerativeManufacturingDieCastingDraftAngleCommandInput" devLabel="Minimum Draft Angle" translation="Angle de dépouille minimum"/>
+	<label commandName="SimGenerativeManufacturingDieCastingDraftAngleToolTip" devLabel="Specifies the angle, or amount of slope, given to walls and other faces to enable easy removal of the part from the mold.&#xA;&#xA;All cast surfaces that are parallel to the ejection direction (perpendicular to the parting plane) must be drafted for proper ejection of the part from the mold." translation="Spécifie l'angle, ou le degré d'inclinaison, donné aux parois et autres faces pour faciliter le retrait de la pièce du moule.&#xA;&#xA;Toutes les surfaces coulées qui sont parallèles à la direction d'éjection (perpendiculaires au plan de joint) doivent être dépouillées pour une éjection correcte de la pièce du moule."/>
+	<label commandName="SimGenerativeManufacturingDieCastingMaximumThicknessCommandInput" devLabel="Maximum Thickness" translation="Épaisseur maximale"/>
+	<label commandName="SimGenerativeManufacturingDieCastingMaximumThicknessToolTip" devLabel="Specifies the maximum thickness that you anticipate using for the part. Typical wall thicknesses depend on the size of the part, its application, its configuration, and the alloy used.&#xA;&#xA;Minimize wall thickness variations around the casting for better metal flow and complete casting filling. Different wall thicknesses can result in different rates of cooling along the casting walls, and variation in the dimensions of your part.&#xA;&#xA;The solver uses the maximum thickness, in conjunction with other constraints and objectives such as draft angle, ejection direction, stiffness, safety factor and target mass. In some cases, the resultant thickness may exceed the set maximum thickness value, so that other constraints can be satisfied." translation="Spécifie l'épaisseur maximale que vous prévoyez d'utiliser pour la pièce. L'épaisseur de paroi type dépend de la taille de la pièce, de son application, de sa configuration et de l'alliage utilisé.&#xA;&#xA;Minimisez les variations d'épaisseur de paroi autour du moulage pour un meilleur écoulement du métal et un remplissage complet. Des épaisseurs de paroi différentes peuvent entraîner des vitesses de refroidissement différentes le long des parois de moulage et des variations dans les dimensions de la pièce.&#xA;&#xA;Le solveur se sert de la direction d'éjection, de la rigidité, du facteur de sécurité et de la masse cible. Dans certains cas, l'épaisseur résultante peut dépasser la valeur d'épaisseur maximale définie, de sorte que d'autres contraintes peuvent être satisfaites."/>
+	<label commandName="SimGenerativeManufacturingDieCastingMinimumThicknessCommandInput" devLabel="Minimum Thickness" translation="Épaisseur minimale"/>
+	<label commandName="SimGenerativeManufacturingDieCastingMinimumThicknessToolTip" devLabel="Specifies the expected minimum thickness for the part. Keep the walls as thin as possible to meet the functional requirements. The typical wall thickness depends on factors such as part size, application, configuration, casting process, and materials used. &#xA;&#xA;The solver uses the minimum thickness along with other constraints and objectives, such as draft angle, ejection direction, stiffness, safety factor, and target mass. In some cases, the casting outcomes may have areas smaller than the target minimum thickness to meet  other constraints." translation="Spécifie l'épaisseur minimale attendue pour la pièce. Maintenez les parois aussi fines que possible pour répondre aux exigences fonctionnelles. L'épaisseur de paroi type dépend de facteurs tels que la taille de la pièce, l'application, la configuration, le processus de moulage et les matériaux utilisés.&#xA;&#xA;Le solveur utilise l'épaisseur minimale avec d'autres contraintes et objectifs, tels que l'angle de dépouille, la direction d'éjection, la rigidité, le facteur de sécurité et la masse cible. Dans certains cas, les résultats du moulage peuvent avoir des zones plus petites que l'épaisseur minimale cible pour respecter d'autres contraintes."/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNegativeCommandInput" devLabel=" " translation=" "/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNegativeX" devLabel="X-" translation="X-"/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNegativeXToolTip" devLabel="Orients the casting in the center of the mold parallel to the X axis of the triad, so that the part can be ejected along the negative X axis.&#xA;&#xA;Use the Ejection Direction buttons to set the mold opening directions for the casting operation with reference to the Global Coordinate System. &#xA;&#xA;Note: You can select multiple mold opening directions for a single casting configuration to generate multiple sets of outcomes." translation="Oriente la pièce moulée au centre du moule parallèlement à l'axe X du trièdre, de sorte que la pièce puisse être éjectée le long de l'axe X négatif.&#xA;&#xA;Utilisez les boutons Direction d'éjection pour définir les directions d'ouverture du moule pour l'opération de moulage par rapport au système de coordonnées global. &#xA;&#xA;Remarque: vous pouvez sélectionner plusieurs directions d'ouverture du moule pour une configuration de moulage unique afin de générer plusieurs jeux de résultats."/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNegativeY" devLabel="Y-" translation="Y-"/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNegativeYToolTip" devLabel="Orients the casting in the center of the mold parallel to the Y axis of the triad, so that the part can be ejected along the negative Y axis.&#xA;&#xA;Use the Ejection Direction buttons to set the mold opening directions for the casting operation with reference to the Global Coordinate System. &#xA;&#xA;Note: You can select multiple mold opening directions for a single casting configuration to generate multiple sets of outcomes." translation="Oriente la pièce moulée au centre du moule parallèlement à l'axe Y du trièdre, de sorte que la pièce puisse être éjectée le long de l'axe Y négatif.&#xA;&#xA;Utilisez les boutons Direction d'éjection pour définir les directions d'ouverture du moule pour l'opération de moulage par rapport au système de coordonnées global. &#xA;&#xA;Remarque: vous pouvez sélectionner plusieurs directions d'ouverture du moule pour une configuration de moulage unique afin de générer plusieurs jeux de résultats."/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNegativeZ" devLabel="Z-" translation="Z-"/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNegativeZToolTip" devLabel="Orients the casting in the center of the mold parallel to the Z axis of the triad, so that the part can be ejected along the negative Z axis.&#xA;&#xA;Use the Ejection Direction buttons to set the mold opening directions for the casting operation with reference to the Global Coordinate System. &#xA;&#xA;Note: You can select multiple mold opening directions for a single casting configuration to generate multiple sets of outcomes." translation="Oriente la pièce moulée au centre du moule parallèlement à l'axe Z du trièdre, de sorte que la pièce puisse être éjectée le long de l'axe Z négatif.&#xA;&#xA;Utilisez les boutons Direction d'éjection pour définir les directions d'ouverture du moule pour l'opération de moulage par rapport au système de coordonnées global. &#xA;&#xA;Remarque: vous pouvez sélectionner plusieurs directions d'ouverture du moule pour une configuration de moulage unique afin de générer plusieurs jeux de résultats."/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNeutralCommandInput" devLabel="Ejection Direction" translation="Direction d'éjection"/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNeutralX" devLabel="X" translation="X"/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNeutralXToolTip" devLabel="Orients the casting in the center of the mold parallel to the X axis of the triad, so that the part can be ejected along the X axis.&#xA;&#xA;Use the Ejection Direction buttons to set the mold opening directions for the casting operation with reference to the Global Coordinate System. &#xA;&#xA;Note: You can select multiple mold opening directions for a single casting configuration to generate multiple sets of outcomes." translation="Oriente la pièce moulée au centre du moule parallèlement à l'axe X du trièdre, de sorte que la pièce puisse être éjectée le long de l'axe X.&#xA;&#xA;Utilisez les boutons Direction d'éjection pour définir les directions d'ouverture du moule pour l'opération de moulage par rapport au système de coordonnées global. &#xA;&#xA;Remarque: vous pouvez sélectionner plusieurs directions d'ouverture du moule pour une configuration de moulage unique afin de générer plusieurs jeux de résultats."/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNeutralY" devLabel="Y" translation="Y"/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNeutralYToolTip" devLabel="Orients the casting in the center of the mold parallel to the Y axis of the triad, so that the part can be ejected along the Y axis.&#xA;&#xA;Use the Ejection Direction buttons to set the mold opening directions for the casting operation with reference to the Global Coordinate System. &#xA;&#xA;Note: You can select multiple mold opening directions for a single casting configuration to generate multiple sets of outcomes." translation="Oriente la pièce moulée au centre du moule parallèlement à l'axe Y du trièdre, de sorte que la pièce puisse être éjectée le long de l'axe Y.&#xA;&#xA;Utilisez les boutons Direction d'éjection pour définir les directions d'ouverture du moule pour l'opération de moulage par rapport au système de coordonnées global. &#xA;&#xA;Remarque: vous pouvez sélectionner plusieurs directions d'ouverture du moule pour une configuration de moulage unique afin de générer plusieurs jeux de résultats."/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNeutralZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationNeutralZToolTip" devLabel="Orients the casting in the center of the mold parallel to the Z axis of the triad, so that the part can be ejected along the Z axis.&#xA;&#xA;Use the Ejection Direction buttons to set the mold opening directions for the casting operation with reference to the Global Coordinate System. &#xA;&#xA;Note: You can select multiple mold opening directions for a single casting configuration to generate multiple sets of outcomes." translation="Oriente la pièce moulée au centre du moule parallèlement à l'axe Z du trièdre, de sorte que la pièce puisse être éjectée le long de l'axe Z.&#xA;&#xA;Utilisez les boutons Direction d'éjection pour définir les directions d'ouverture du moule pour l'opération de moulage par rapport au système de coordonnées global. &#xA;&#xA;Remarque: vous pouvez sélectionner plusieurs directions d'ouverture du moule pour une configuration de moulage unique afin de générer plusieurs jeux de résultats."/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationPositiveCommandInput" devLabel="" translation=""/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationPositiveX" devLabel="X+" translation="X+"/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationPositiveXToolTip" devLabel="Orients the casting in the center of the mold parallel to the X axis of the triad, so that the part can be ejected along the positive X axis.&#xA;&#xA;Use the Ejection Direction buttons to set the mold opening directions for the casting operation with reference to the Global Coordinate System. &#xA;&#xA;Note: You can select multiple mold opening directions for a single casting configuration to generate multiple sets of outcomes." translation="Oriente la pièce moulée au centre du moule parallèlement à l'axe X du trièdre, de sorte que la pièce puisse être éjectée le long de l'axe X positif.&#xA;&#xA;Utilisez les boutons Direction d'éjection pour définir les directions d'ouverture du moule pour l'opération de moulage par rapport au système de coordonnées global. &#xA;&#xA;Remarque: vous pouvez sélectionner plusieurs directions d'ouverture du moule pour une configuration de moulage unique afin de générer plusieurs jeux de résultats."/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationPositiveY" devLabel="Y+" translation="Y+"/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationPositiveYToolTip" devLabel="Orients the casting in the center of the mold parallel to the Y axis of the triad, so that the part can be ejected along the positive Y axis.&#xA;&#xA;Use the Ejection Direction buttons to set the mold opening directions for the casting operation with reference to the Global Coordinate System. &#xA;&#xA;Note: You can select multiple mold opening directions for a single casting configuration to generate multiple sets of outcomes." translation="Oriente la pièce moulée au centre du moule parallèlement à l'axe Y du trièdre, de sorte que la pièce puisse être éjectée le long de l'axe Y positif.&#xA;&#xA;Utilisez les boutons Direction d'éjection pour définir les directions d'ouverture du moule pour l'opération de moulage par rapport au système de coordonnées global. &#xA;&#xA;Remarque: vous pouvez sélectionner plusieurs directions d'ouverture du moule pour une configuration de moulage unique afin de générer plusieurs jeux de résultats."/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationPositiveZ" devLabel="Z+" translation="Z+"/>
+	<label commandName="SimGenerativeManufacturingDieCastingSetupOrientationPositiveZToolTip" devLabel="Orients the casting in the center of the mold parallel to the Z axis of the triad, so that the part can be ejected along the positive Z axis.&#xA;&#xA;Use the Ejection Direction buttons to set the mold opening directions for the casting operation with reference to the Global Coordinate System. &#xA;&#xA;Note: You can select multiple mold opening directions for a single casting configuration to generate multiple sets of outcomes." translation="Oriente la pièce moulée au centre du moule parallèlement à l'axe Z du trièdre, de sorte que la pièce puisse être éjectée le long de l'axe Z positif.&#xA;&#xA;Utilisez les boutons Direction d'éjection pour définir les directions d'ouverture du moule pour l'opération de moulage par rapport au système de coordonnées global. &#xA;&#xA;Remarque: vous pouvez sélectionner plusieurs directions d'ouverture du moule pour une configuration de moulage unique afin de générer plusieurs jeux de résultats."/>
+	<label commandName="SimGenerativeManufacturingDieCastingToolTip" devLabel="Specifies a casting process in which molten or liquid material enters into a cavity between two mold halves and hardens to form a part. The mold halves are then removed from the final part along the ejection direction.&#xA;&#xA;Select Casting to generate outcomes that meet the constraints of minimum thickness, uniform overall thickness, and draft angle applied above/below the parting plane." translation="Spécifie un processus de moulage dans lequel la matière fluide ou liquide pénètre dans une empreinte entre deux moitiés de moule et se solidifie pour former une pièce. Les moitiés de moule sont ensuite retirées de la pièce finale le long de la direction d'éjection.&#xA;&#xA;Sélectionnez Moulage pour générer des résultats qui respectent les contraintes d'épaisseur minimale, d'épaisseur globale uniforme et d'angle de dépouille appliquées au-dessus/en dessous du plan de séparation."/>
+	<label commandName="SimGenerativeManufacturingMillingAllOrientationsCommandInput" devLabel="Include all directions" translation="Inclure toutes les directions"/>
+	<label commandName="SimGenerativeManufacturingMillingCommandInput" devLabel="Milling" translation="Fraisage"/>
+	<label commandName="SimGenerativeManufacturingMillingHeadDiameterCommandInput" devLabel="Head Diameter" translation="Diamètre de tête"/>
+	<label commandName="SimGenerativeManufacturingMillingHeadDiameterToolTip" devLabel="Specifies a substitutive diameter of the machine head. It is a diameter of a simplified head that contains the shaft and holder.&#xA;&#xA;For shape generation, an infinite length of the head is considered. It's assumed that the shaft and holder are within a simplified hemisphere defined by the head diameter.&#xA;&#xA;(1) Tool diameter, (2) Shoulder length, (3) Shaft, (4) Holder, (5) Head diameter, and (6) Head." translation="Spécifie un diamètre de substitution de la tête de la machine. Il s'agit du diamètre d'une tête simplifiée qui contient l'arbre et le porte-outil.&#xA;&#xA;Pour la génération de forme, une longueur infinie de la tête est prise en compte. On suppose que l'arbre et le porte-outil se trouvent dans un hémisphère simplifié défini par le diamètre de la tête.&#xA;&#xA;(1) Diamètre de l'outil, (2) Longueur d'épaulement, (3) Arbre, (4) Porte-outil, (5) Diamètre de tête et (6) Tête."/>
+	<label commandName="SimGenerativeManufacturingMillingMinWallThicknessCommandInput" devLabel="Minimum Wall Thickness" translation="Épaisseur de paroi minimale"/>
+	<label commandName="SimGenerativeManufacturingMillingMinWallThicknessToolTip" devLabel="Specifies the minimum thickness of a wall after milling, considered in the setup of a generative study." translation="Spécifie l'épaisseur minimale d'une paroi après le fraisage envisagée dans la configuration d'une étude générative."/>
+	<label commandName="SimGenerativeManufacturingMillingPointTwoFiveAxisX" devLabel="X" translation="X"/>
+	<label commandName="SimGenerativeManufacturingMillingPointTwoFiveAxisXToolTip" devLabel="Orients the tool in the direction parallel to the X axis of the triad.&#xA;&#xA;Three outcomes are generated, one for each attack direction: +X, -X, and +/- X." translation="Oriente l'outil dans la direction parallèle à l'axe X du trièdre.&#xA;&#xA;Trois résultats sont générés, un pour chaque direction d'attaque: +X, -X et +/- X."/>
+	<label commandName="SimGenerativeManufacturingMillingPointTwoFiveAxisY" devLabel="Y" translation="Y"/>
+	<label commandName="SimGenerativeManufacturingMillingPointTwoFiveAxisYToolTip" devLabel="Orients the tool in the direction parallel to the Y axis of the triad.&#xA;&#xA;Three outcomes are generated, one for each attack direction: +Y, -Y, and +/- Y." translation="Oriente l'outil dans la direction parallèle à l'axe Y du trièdre.&#xA;&#xA;Trois résultats sont générés, un pour chaque direction d'attaque: +Y, -Y et +/- Y."/>
+	<label commandName="SimGenerativeManufacturingMillingPointTwoFiveAxisZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimGenerativeManufacturingMillingPointTwoFiveAxisZToolTip" devLabel="Orients the tool in the direction parallel to the Z axis of the triad.&#xA;&#xA;Three outcomes are generated, one for each attack direction: +Z, -Z, and +/- Z." translation="Oriente l'outil dans la direction parallèle à l'axe Z du trièdre.&#xA;&#xA;Trois résultats sont générés, un pour chaque direction d'attaque: +Z, -Z et +/- Z."/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationNegativeCommandInput" devLabel="" translation=""/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationNegativeX" devLabel="X-" translation="X-"/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationNegativeXToolTip" devLabel="Orients the tool in the direction parallel to the X axis of the triad and pointing to the negative end of the X axis.&#xA;&#xA;The Tool direction buttons enable you to set tool orientations for a milling operation. The tool direction is oriented with reference to the Global Coordinate System.&#xA;&#xA;You can select several tool directions for one milling configuration to allow for multi-sided machining." translation="Oriente l'outil dans la direction parallèle à l'axe X du trièdre et pointe vers l'extrémité négative de l'axe X.&#xA;Les boutons de direction de l'outil vous permettent de définir les orientations de l'outil pour une opération de fraisage. La direction de l'outil est orientée par rapport au système de coordonnées global.&#xA;&#xA;Vous pouvez sélectionner plusieurs directions d'outil pour une configuration de fraisage pour permettre un usinage sur plusieurs côtés."/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationNegativeY" devLabel="Y-" translation="Y-"/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationNegativeYToolTip" devLabel="Orients the tool in the direction parallel to the Y axis of the triad and pointing to the negative end of the Y axis.&#xA;&#xA;The Tool direction buttons enable you to set tool orientations for a milling operation. The tool direction is oriented with reference to the Global Coordinate System.&#xA;&#xA;You can select several tool directions for one milling configuration to allow for multi-sided machining." translation="Oriente l'outil dans la direction parallèle à l'axe Y du trièdre et pointe vers l'extrémité négative de l'axe Y.&#xA;&#xA;Les boutons de direction de l'outil vous permettent de définir les orientations de l'outil pour une opération de fraisage. La direction de l'outil est orientée par rapport au système de coordonnées global.&#xA;&#xA;Vous pouvez sélectionner plusieurs directions d'outil pour une configuration de fraisage pour permettre un usinage sur plusieurs côtés."/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationNegativeZ" devLabel="Z-" translation="Z-"/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationNegativeZToolTip" devLabel="Orients the tool in the direction parallel to the Z axis of the triad and pointing to the negative end of the Z axis.&#xA;&#xA;The Tool direction buttons enable you to set tool orientations for a milling operation. The tool direction is oriented with reference to the Global Coordinate System.&#xA;&#xA;You can select several tool directions for one milling configuration to allow for multi-sided machining." translation="Oriente l'outil dans la direction parallèle à l'axe Z du trièdre et pointe vers l'extrémité négative de l'axe Z.&#xA;&#xA;Les boutons de direction de l'outil vous permettent de définir les orientations de l'outil pour une opération de fraisage. La direction de l'outil est orientée par rapport au système de coordonnées global.&#xA;&#xA;Vous pouvez sélectionner plusieurs directions d'outil pour une configuration de fraisage pour permettre un usinage sur plusieurs côtés."/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationPositiveCommandInput" devLabel="Tool Direction" translation="Direction d'outil"/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationPositiveX" devLabel="X+" translation="X+"/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationPositiveXToolTip" devLabel="Orients the tool in the direction parallel to the X axis of the triad and pointing to the positive end of the X axis.&#xA;&#xA;The Tool direction buttons enable you to set tool orientations for a milling operation. The tool direction is oriented with reference to the Global Coordinate System.&#xA;&#xA;You can select several tool directions for one milling configuration to allow for multi-sided machining." translation="Oriente l'outil dans la direction parallèle à l'axe X du trièdre et pointe vers l'extrémité positive de l'axe X.&#xA;&#xA;Les boutons de direction de l'outil vous permettent de définir les orientations de l'outil pour une opération de fraisage. La direction de l'outil est orientée par rapport au système de coordonnées global.&#xA;&#xA;Vous pouvez sélectionner plusieurs directions d'outil pour une configuration de fraisage pour permettre un usinage sur plusieurs côtés."/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationPositiveY" devLabel="Y+" translation="Y+"/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationPositiveYToolTip" devLabel="Orients the tool in the direction parallel to the Y axis of the triad and pointing to the positive end of the Y axis.&#xA;&#xA;The Tool direction buttons enable you to set tool orientations for a milling operation. The tool direction is oriented with reference to the Global Coordinate System.&#xA;&#xA;You can select several tool directions for one milling configuration to allow for multi-sided machining." translation="Oriente l'outil dans la direction parallèle à l'axe Y du trièdre et pointe vers l'extrémité positive de l'axe Y.&#xA;&#xA;Les boutons de direction de l'outil vous permettent de définir les orientations de l'outil pour une opération de fraisage. La direction de l'outil est orientée par rapport au système de coordonnées global.&#xA;&#xA;Vous pouvez sélectionner plusieurs directions d'outil pour une configuration de fraisage pour permettre un usinage sur plusieurs côtés."/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationPositiveZ" devLabel="Z+" translation="Z+"/>
+	<label commandName="SimGenerativeManufacturingMillingSetupOrientationPositiveZToolTip" devLabel="Orients the tool in the direction parallel to the Z axis of the triad and pointing to the positive end of the Z axis.&#xA;&#xA;The Tool direction buttons enable you to set tool orientations for a milling operation. The tool direction is oriented with reference to the Global Coordinate System.&#xA;&#xA;You can select several tool directions for one milling configuration to allow for multi-sided machining." translation="Oriente l'outil dans la direction parallèle à l'axe Z du trièdre et pointe vers l'extrémité positive de l'axe Z.&#xA;&#xA;Les boutons de direction de l'outil vous permettent de définir les orientations de l'outil pour une opération de fraisage. La direction de l'outil est orientée par rapport au système de coordonnées global.&#xA;&#xA;Vous pouvez sélectionner plusieurs directions d'outil pour une configuration de fraisage pour permettre un usinage sur plusieurs côtés."/>
+	<label commandName="SimGenerativeManufacturingMillingToolDiameterCommandInput" devLabel="Minimum Tool Diameter" translation="Diamètre d'outil minimal"/>
+	<label commandName="SimGenerativeManufacturingMillingToolDiameterToolTip" devLabel="Specifies a diameter of the smallest cutting tool considered for a milling operation.&#xA;&#xA;Sizes of outcome features, like pockets, slots, and fillets, depend on the minimum tool diameter. While many tools may be used in the manufacturing process, enter the diameter of the smallest tool you plan to use.&#xA;&#xA;(1) Tool diameter, (2) Shoulder length, (3) Shaft, and (4) Holder." translation="Spécifie le diamètre de l'outil de coupe le plus petit pris en compte pour une opération de fraisage.&#xA;&#xA;Les tailles des fonctions de résultat, telles que les poches, les fentes et les congés, dépendent du diamètre d'outil minimal. Bien que de nombreux outils puissent être utilisés dans le processus de fabrication, entrez le diamètre de l'outil le plus petit que vous prévoyez d'utiliser.&#xA;&#xA;(1) Diamètre d'outil, (2) Longueur d'épaulement, (3) Arbre et (4) Porte-outil."/>
+	<label commandName="SimGenerativeManufacturingMillingToolLengthCommandInput" devLabel="Tool Shoulder Length" translation="Longueur d'épaulement d'outil"/>
+	<label commandName="SimGenerativeManufacturingMillingToolLengthToolTip" devLabel="Specifies the length of the part of the tool considered in the setup of the generative study.&#xA;&#xA;(1) Tool diameter, (2) Shoulder length, (3) Shaft, and (4) Holder." translation="Indique la longueur de la partie de l'outil prise en compte dans la configuration de l'étude générative.&#xA;&#xA; (1) Diamètre de l'outil, (2) Longueur d'épaulement, (3) Arbre et (4) Porte-outil."/>
+	<label commandName="SimGenerativeManufacturingMillingToolTip" devLabel="Specifies a subtractive manufacturing process where a part is machined using 2.5-, 3-, or 5-axis milling operations.&#xA;&#xA;Select Milling to generate outcomes showing the design problem solved with that manufacturing method in mind. Next, specify one or more milling configurations. Milling is suitable for manufacturing complex parts in small or large batches." translation="Spécifie un processus de fabrication soustractif dans lequel une pièce est usinée à l'aide d'opérations de fraisage 2,5, 3 ou 5 axes.&#xA;&#xA;Sélectionnez Fraisage pour générer les résultats indiquant le problème de conception résolu en gardant cette méthode de fabrication à l'esprit. Ensuite, spécifiez une ou plusieurs configurations de fraisage. Le fraisage est adapté à la fabrication de pièces complexes en petits ou grands lots."/>
+	<label commandName="SimGenerativeManufacturingMillingTwoPointFiveAxisCommandInput" devLabel="Tool Direction" translation="Direction d'outil"/>
+	<label commandName="SimGenerativeManufacturingMillingTwoPointFiveAxisToolDiameterCommandInput" devLabel="Minimum Tool Diameter" translation="Diamètre d'outil minimal"/>
+	<label commandName="SimGenerativeManufacturingMillingTwoPointFiveAxisToolDiameterToolTip" devLabel="Specifies a diameter of the smallest cutting tool considered for a milling operation.&#xA;&#xA;Sizes of outcome features, like pockets, slots, and fillets, depend on the minimum tool diameter. While many tools may be used in the manufacturing process, enter the diameter of the smallest tool you plan to use.&#xA;&#xA;(1) Tool diameter, (2) Flute length." translation="Spécifie le diamètre de l'outil de coupe le plus petit pris en compte pour une opération de fraisage.&#xA;&#xA;Les tailles des fonctions de résultat, telles que les poches, les fentes et les congés, dépendent du diamètre d'outil minimal. Bien que de nombreux outils puissent être utilisés dans le processus de fabrication, entrez le diamètre de l'outil le plus petit que vous prévoyez d'utiliser.&#xA;&#xA;(1) Diamètre d'outil, (2) Longueur de dent."/>
+	<label commandName="SimGenerativeManufacturingUnrestrictedCommandInput" devLabel="Unrestricted" translation="Illimité"/>
+	<label commandName="SimGenerativeManufacturingUnrestrictedToolTip" devLabel="Excludes manufacturing constraints from the outcome generation to support exploration and prototyping in the design process.&#xA;&#xA;Unrestricted designs typically have higher performance and/or lower weight than designs constrained by a manufacturing process, but can be harder to manufacture. Use unrestricted outcomes as a baseline against which to evaluate outcomes for other methods." translation="Exclut les contraintes de fabrication de la génération des résultats pour prendre en charge l'exploration et le prototypage dans le processus de conception.&#xA;&#xA;Les conceptions sans restriction ont généralement des performances et/ou un poids plus faibles que les conceptions contraintes par un processus de fabrication, mais peuvent être plus difficiles à fabriquer. Utilisez les résultats sans restriction comme référence pour évaluer les résultats d'autres méthodes."/>
+	<label commandName="SimGenerativeMaximumDisplacementXCommandInput" devLabel="Maximum X" translation="Maximum X"/>
+	<label commandName="SimGenerativeMaximumDisplacementYCommandInput" devLabel="Maximum Y" translation="Maximum Y"/>
+	<label commandName="SimGenerativeMaximumDisplacementZCommandInput" devLabel="Maximum Z" translation="Maximum Z"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fraisage"/>
+	<label commandName="SimGenerativeModalFrequencyCommandInput" devLabel="Modal Frequency" translation="Fréquence modale"/>
+	<label commandName="SimGenerativeObjectivesAndLimitsCmd" devLabel="Objectives and Limits" translation="Objectifs et limites"/>
+	<label commandName="SimGenerativeObjectivesCmd" devLabel="Objectives" translation="Objectifs"/>
+	<label commandName="SimGenerativeObjectivesCommandDesc1" devLabel="Specifies the optimization objectives and limits that the outcomes should satisfy." translation="Spécifie les objectifs d'optimisation et les limites que les résultats doivent satisfaire."/>
+	<label commandName="SimGenerativeObjectivesCommandDesc2" devLabel="You can specify the Safety Factor for the objectives. For the Maximize Stiffness objective, you can also specify the Mass Target." translation="Vous pouvez spécifier le facteur de sécurité des objectifs. Pour l'objectif Augmenter la rigidité, vous pouvez également spécifier la masse cible."/>
+	<label commandName="SimGenerativeObjectivesCommandTipsAndTricksTips" devLabel="If you select Minimize Mass, enter a Safety Factor or accept the default value. If you select Maximize Stiffness, specify a Safety Factor and Mass Target." translation="Si vous sélectionnez Réduire la masse, entrez un facteur de sécurité ou acceptez la valeur par défaut. Si vous sélectionnez Augmenter la rigidité, spécifiez un facteur de sécurité et une masse cible."/>
+	<label commandName="SimGenerativeObjectivesCommandTipsAndTricksTitle" devLabel="Objectives and Limits Information" translation="Objectifs et limites – Informations"/>
+	<label commandName="SimGenerativeObjectivesFluidsCommandDesc1" devLabel="Specifies the volume limit that the outcome should satisfy for the Minimize Pressure Drop optimization objective." translation="Spécifie la limite de volume que le résultat doit satisfaire pour l'objectif d'optimisation Réduire la chute de pression."/>
+	<label commandName="SimGenerativeObjectivesFluidsCommandDesc2" devLabel="Specify the volume limit as a percent of the Design Volume." translation="Spécifiez la limite du volume en pourcentage du volume de conception."/>
+	<label commandName="SimGenerativeObjectivesGroup" devLabel="Objectives" translation="Objectifs"/>
+	<label commandName="SimGenerativeObjectivesLocalDisplacementTooltip" devLabel="Select location(s) for local displacement (face, edge, or vertex)." translation="Sélectionnez les emplacements pour le déplacement local (face, arête ou sommet)."/>
+	<label commandName="SimGenerativeObjectivesMaximizeStiffnessCommandInput" devLabel="Maximize Stiffness" translation="Augmenter la rigidité"/>
+	<label commandName="SimGenerativeObjectivesMinimizeMassCommandInput" devLabel="Minimize Mass" translation="Réduire la masse"/>
+	<label commandName="SimGenerativeObjectivesMinimizePressureDropCommandInput" devLabel="Minimize Pressure Drop" translation="Réduire la chute de pression"/>
+	<label commandName="SimGenerativePreviewCmdDesc2" devLabel="Use Previewer to see how the setup affects outcomes. Then adjust the setup, if needed. Previewer ignores manufacturing and material settings. It generates the preview after Pre-check verifies that the study is ready to generate." translation="Utilisez le prévisualiseur pour voir comment la configuration a une incidence sur les résultats. Ajustez ensuite la configuration si nécessaire. Le prévisualiseur ignore les paramètres de fabrication et de matériau. Il génère l'aperçu après vérification préalable, pour vérifier que l'étude est prête à être générée."/>
+	<label commandName="SimGenerativePreviewCmdStart" devLabel="Previewer" translation="Prévisualiseur"/>
+	<label commandName="SimGenerativePreviewCmdStop" devLabel="Stop Previewer" translation="Arrêter le prévisualiseur"/>
+	<label commandName="SimGenerativePreviewCmdStopTooltip" devLabel="Stops generating an outcome preview for the active generative study.&lt;br&gt;" translation="Arrête la génération d'un aperçu du résultat pour l'étude générative active.&lt;br&gt;"/>
+	<label commandName="SimGenerativePreviewCmddDesc1" devLabel="Generates an outcome preview based on the study setup before you run a job." translation="Génère un aperçu du résultat en fonction de la configuration de l'étude avant d'exécuter une tâche."/>
+	<label commandName="SimGenerativePreviewControllerContactSupportLabel" devLabel="Contact support" translation="Contacter l'assistance"/>
+	<label commandName="SimGenerativePreviewControllerLabelPreview" devLabel="PREVIEW" translation="APERÇU"/>
+	<label commandName="SimGenerativePreviewControllerPauseToolTip" devLabel="Pause preview" translation="Suspendre l'aperçu"/>
+	<label commandName="SimGenerativePreviewControllerPlayContinueToolTip" devLabel="Continue preview" translation="Continuer l'aperçu"/>
+	<label commandName="SimGenerativePreviewControllerPlayRestartToolTip" devLabel="Regenerate" translation="Régénérer"/>
+	<label commandName="SimGenerativePreviewControllerRegenerateLabel" devLabel="Regenerate" translation="Régénérer"/>
+	<label commandName="SimGenerativePreviewControllerStatusToolTipError" devLabel="Preview failed" translation="Échec de l'aperçu"/>
+	<label commandName="SimGenerativePreviewControllerStatusToolTipProgress" devLabel="Preview in progress" translation="Aperçu en cours"/>
+	<label commandName="SimGenerativePreviewControllerStatusToolTipSuccess" devLabel="Preview completed" translation="Aperçu terminé"/>
+	<label commandName="SimGenerativePreviewControllerStatusToolTipWarningOffline" devLabel="No connection" translation="Aucune connexion"/>
+	<label commandName="SimGenerativePreviewControllerStatusToolTipWarningOfflineText" devLabel="Previewer is not available in offline mode. It will become available as soon as the connection is restored." translation="Le prévisualiseur n'est pas disponible en mode hors ligne. Il le sera disponible dès que la connexion sera rétablie."/>
+	<label commandName="SimGenerativePreviewControllerStatusToolTipWarningOutOfDate" devLabel="Preview out of date" translation="Aperçu obsolète"/>
+	<label commandName="SimGenerativePreviewControllerStatusToolTipWarningOutOfDateText" devLabel="It looks like your study settings have changed. Generate the preview again." translation="Il semble que les paramètres de votre étude ont été modifiés. Générez à nouveau l'aperçu."/>
+	<label commandName="SimGenerativeSimCaseWithoutKeepinForLocalDisplacemet" devLabel="&lt;p&gt;&lt;b&gt;No Preserve Geometry assigned&lt;/b&gt;&lt;br&gt;&lt;br&gt;Local Displacement can only be applied to Preserve Geometry bodies representing the minimum geometry that you need in the final shape of your design.&lt;br&gt;&lt;br&gt;To assign a body as Preserve Geometry, click &lt;b&gt;OK&lt;/b&gt; and select a body in your model. You can then apply Local Displacement to that body.&lt;br&gt;&lt;br&gt;&lt;a href='%1%'&gt;Learn more&lt;/a&gt;" translation="&lt;p&gt;&lt;b&gt;Aucune géométrie conservée n'est affectée&lt;/b&gt;&lt;br&gt;&lt;br&gt;Le déplacement local ne peut être appliqué qu'aux corps de géométrie conservée correspondant à la géométrie minimale nécessaire pour la forme finale de votre conception.&lt;br&gt;&lt;br&gt;Pour affecter un corps en tant que géométrie conservée, cliquez sur &lt;b&gt;OK&lt;/b&gt; et sélectionnez un corps dans votre modèle. Vous pourrez ensuite lui appliquer un déplacement local.&lt;br&gt;&lt;br&gt;&lt;a href='%1%'&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Illimité"/>
+	<label commandName="SimGlobalAnalysisSpecificContactsCommand" devLabel="Contact Pairs" translation="Paires de contacts"/>
+	<label commandName="SimGradingFactorTooltip" devLabel="Adjusts the rate of change in size between large and small elements" translation="Ajuste le taux de variation de taille entre les éléments de petite et de grande taille"/>
+	<label commandName="SimHideMeshingIssuesCmd" devLabel="Hide Meshing Issues" translation="Masquer les problèmes de maillage"/>
+	<label commandName="SimHideMeshingIssuesDesc1" devLabel="Hides meshing issues." translation="Masque les problèmes de maillage."/>
+	<label commandName="SimHideMeshingIssuesDesc2" devLabel="Meshing issues." translation="Problèmes de maillage."/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Américain (po)"/>
+	<label commandName="SimJobOrganizerNotAvailable" devLabel="JobOrganizer not available." translation="JobOrganizer non disponible."/>
+	<label commandName="SimJobProgressCancelBtn" devLabel="Cancel" translation="Annuler"/>
+	<label commandName="SimJobProgressCancelBtnToolTip" devLabel="Cancel" translation="Annuler"/>
+	<label commandName="SimKfInputValidationError" devLabel="Please input a value greater or equal to 1" translation="Veuillez entrer une valeur supérieure ou égale à 1"/>
+	<label commandName="SimLSSResultsToConvergeLabel" devLabel="Results for Baseline Accuracy" translation="Résultats de la précision de référence"/>
+	<label commandName="SimLSSResultsToConvergeTooltip" devLabel="Which result type to use for calculating convergence criteria." translation="Type de résultat à utiliser pour le calcul des critères de convergence."/>
+	<label commandName="SimLoadCaseConstraints" devLabel="Constraints" translation="Contraintes"/>
+	<label commandName="SimLoadCaseLoads" devLabel="Loads" translation="Charges"/>
+	<label commandName="SimLoadCaseReportReset" devLabel="Reset" translation="Réinitialiser"/>
+	<label commandName="SimLoadCaseReportResetTT" devLabel="Reset all partially checked studies to default states" translation="Réinitialisez toutes les études partiellement vérifiées sur les valeurs par défaut"/>
+	<label commandName="SimLoadCaseReportSelectAll" devLabel="Select All" translation="Tout sélect."/>
+	<label commandName="SimLoadCaseReportUnSelectAll" devLabel="Unselect All" translation="Tout désélect."/>
+	<label commandName="SimLoadCaseReportWarning" devLabel=" Solve result of this load case is out of date." translation=" Le résultat de la résolution de ce cas de charge est obsolète."/>
+	<label commandName="SimManualContactDesc1" devLabel="Applies contact conditions to component geometries." translation="Applique les conditions de contact aux géométries du composant."/>
+	<label commandName="SimManualContactDesc2" devLabel="After you detect all automatic contacts, you can create additional contacts between components. The simulation type determines the availability of contact types." translation="Une fois que vous avez détecté tous les contacts automatiques, vous pouvez créer des contacts supplémentaires entre les composants. Le type de simulation détermine la disponibilité des types de contacts."/>
+	<label commandName="SimManualContacts" devLabel="Manual Contacts" translation="Contacts manuels"/>
+	<label commandName="SimMaterialCombo" devLabel="Material" translation="Matériau"/>
+	<label commandName="SimMaterialLibraryAll" devLabel="All libraries" translation="Toutes les bibliothèques"/>
+	<label commandName="SimMaterialSelectionCombo" devLabel="Select Material" translation="Sélectionner un matériau"/>
+	<label commandName="SimMaxActivationDistance" devLabel="Max. Activation Distance" translation="Distance d'activation max."/>
+	<label commandName="SimMaxAdjacentMaxlabel" devLabel="Large" translation="Grand"/>
+	<label commandName="SimMaxAdjacentMeshSizeRatioSliderLabel" devLabel="Max. Adjacent Mesh Size Ratio" translation="Rapport de taille de maillage adjacent max."/>
+	<label commandName="SimMaxAdjacentMinlabel" devLabel="Small" translation="Petit"/>
+	<label commandName="SimMaxAllowableAdjustmentRatio" devLabel="Max. Allowable Adjustment Ratio" translation="Rapport d'ajustement max. admissible"/>
+	<label commandName="SimMaxAllowablePenetration" devLabel="Max. Allowable Penetration" translation="Pénétration max. admissible"/>
+	<label commandName="SimMaxAllowableSlip" devLabel="Max. Allowable Slip" translation="Glissement max. admissible"/>
+	<label commandName="SimMaxAspectRatioMinlabel" devLabel="Small" translation="Petit"/>
+	<label commandName="SimMaxAspectRatioSliderLabel" devLabel="Max. Aspect Ratio" translation="Rapport de forme max."/>
+	<label commandName="SimMaxAspectRatioTooltip" devLabel="The ratio of the longest dimension to the shortest dimension in an element" translation="Rapport entre la cote la plus longue et la cote la plus courte d'un élément"/>
+	<label commandName="SimMaxAspectRatiotMaxlabel" devLabel="Large" translation="Grand"/>
+	<label commandName="SimMaxNodalAngleMinlabel" devLabel="60" translation="60"/>
+	<label commandName="SimMaxNodalAngleSliderLabel" devLabel="Max. Turn Angle on Curves (Deg.)" translation="Angle max. des courbes (degrés)"/>
+	<label commandName="SimMaxNormalActivationDistance" devLabel="Max. Normal Activation Distance" translation="Distance d'activation normale max."/>
+	<label commandName="SimMaxRadialActivationDistance" devLabel="Max. Radial Activation Distance" translation="Distance d'activation radiale max."/>
+	<label commandName="SimMaximumRefinementsLabel" devLabel="Maximum Number of Mesh Refinements" translation="Nombre maximal d'affinements du maillage"/>
+	<label commandName="SimMaximumRefinementsTooltip" devLabel="The number of iterative h and p refinements made to attempt results convergence." translation="Nombre de h itératifs et d'affinements p effectués pour tenter la convergence des résultats"/>
+	<label commandName="SimMaximumTurnAngleTooltip" devLabel="A smaller angle produces a finer mesh on curved surfaces" translation="Un angle plus petit produit un maillage plus fin sur les surfaces courbes"/>
+	<label commandName="SimMeshConformingMeshAtShellContactsCheckBox" devLabel="Conformal meshing at shell intersections" translation="Maillage conforme aux intersections de coque"/>
+	<label commandName="SimMeshConformingMeshAtShellContactsCheckBoxTooltip" devLabel="Create mesh imprinting at edge-to-face contacts for shell-like structures (quadrilaterals or triangles) that are in contact with the face(s) of solids (tetrahedral mesh)." translation="Créez une empreinte de maillage au niveau des contacts arête à face pour des structures de type coque (quadrilatères ou triangles) en contact avec les faces des solides (maillage tétraédrique)."/>
+	<label commandName="SimMeshRefinementByEntitiesCmd" devLabel="Local Mesh Control" translation="Contrôle local de maillage"/>
+	<label commandName="SimMeshRefinementByEntitiesCmdBodiesSelection" devLabel="Body Selection" translation="Sélection de corps"/>
+	<label commandName="SimMeshRefinementByEntitiesCmdDesc1" devLabel="Refine the mesh in specific locations by modifying the mesh distribution on Faces and edges." translation="Affinez le maillage à des emplacements spécifiques en modifiant la distribution du maillage sur les faces et les arêtes."/>
+	<label commandName="SimMeshRefinementByEntitiesCmdDesc2" devLabel="To improve results fidelity, strategically refine the mesh at certain locations. Refine the mesh in areas that have a large result gradient or have small geometric features that the global mesh size may not capture. Select Surfaces or edges, and drag the slider. Validate that the mesh is sufficient before running the simulation using the Generate Mesh command." translation="Pour améliorer la fidélité des résultats, affinez le maillage de manière stratégique à certains emplacements. Affinez le maillage dans des zones qui présentent un gradient de résultats élevé ou qui présentent de petites fonctions géométriques que la taille du maillage global ne peut pas capturer. Sélectionnez des surfaces ou des arêtes et faites glisser le curseur. Vérifiez que le maillage est suffisant avant d'exécuter la simulation à l'aide de la commande Générer le maillage."/>
+	<label commandName="SimMeshRefinementByEntitiesCmdLength" devLabel="Length" translation="Longueur"/>
+	<label commandName="SimMeshRefinementByEntitiesCmdRefinement" devLabel="Mesh size" translation="Taille du maillage"/>
+	<label commandName="SimMeshRefinementByEntitiesCmdSelection" devLabel="Face/Edge Selection" translation="Sélection face/arête"/>
+	<label commandName="SimMeshRefinementByEntitiesCmdTipsAndTricksDesc" devLabel="To improve results fidelity, strategically refine the mesh at specific locations. Refine the mesh in areas that have a large result gradient or have small geometric features that the global mesh size may not capture. Select Surfaces or edges, and drag the slider. Validate that the mesh is sufficient before running the simulation using the Generate Mesh command." translation="Pour améliorer la fidélité des résultats, affinez le maillage de façon stratégique à des emplacements spécifiques. Affinez le maillage dans des zones qui présentent un gradient de résultats élevé ou qui présentent de petites fonctions géométriques que la taille du maillage global ne peut pas capturer. Sélectionnez des surfaces ou des arêtes et faites glisser le curseur. Vérifiez que le maillage est suffisant avant d'exécuter la simulation à l'aide de la commande Générer le maillage."/>
+	<label commandName="SimMeshRefinementByEntitiesCmdTipsAndTricksTips" devLabel="Select a surface or edge and drag the slider to modify the local mesh distribution. You can also manually enter the element length. The green dots provide an approximate nodal distribution on edges, but the final mesh may differ slightly due to neighboring features." translation="Sélectionnez une surface ou une arête et faites glisser le curseur pour modifier la distribution du maillage local. Vous pouvez également saisir manuellement la longueur de l'élément. Les points verts fournissent une distribution nodale approximative sur les arêtes, mais le maillage final peut différer légèrement en raison des caractéristiques voisines."/>
+	<label commandName="SimMeshRefinementByEntitiesCmdTipsAndTricksTitle" devLabel="Local Mesh Control Information" translation="Informations sur le contrôle du maillage local"/>
+	<label commandName="SimMeshRefinementByEntitiesCoarse" devLabel="Coarse" translation="Grossier"/>
+	<label commandName="SimMeshRefinementByEntitiesFine" devLabel="Fine" translation="Fin"/>
+	<label commandName="SimMeshSectionLabel" devLabel="Mesh" translation="Maillage"/>
+	<label commandName="SimMessageNoResultsManifestFound" devLabel="No applied job found in SimJobOrganizer. The job info is already removed or does not exist for this sim-case.&#xA;You better compare results data structure stored in the document rather than rely on some temporary file exchanged with the server." translation="Aucune tâche appliquée n'a été trouvée dans SimJobOrganizer. Les informations sur la tâche sont déjà supprimées ou n'existent pas pour ce cas de simulation.&#xA;Vous pouvez comparer la structure des données de résultats stockées dans le document au lieu de vous baser sur un fichier temporaire échangé avec le serveur."/>
+	<label commandName="SimMinNodalAngleMinlabel" devLabel="10" translation="10"/>
+	<label commandName="SimMinimumElementSizeLabel" devLabel="Minimum Element Size (% of average size)" translation="Taille minimale de l'élément (% de la taille moyenne)"/>
+	<label commandName="SimMinimumElementSizeTooltip" devLabel="The mesh size lower limit, while obeying all other mesh settings." translation="La limite inférieure de la taille du maillage, tout en respectant tous les autres paramètres de maillage."/>
+	<label commandName="SimModelBaseSizeSlider1%" devLabel="1%" translation="1%"/>
+	<label commandName="SimModelBaseSizeSlider10%" devLabel="10%" translation="10%"/>
+	<label commandName="SimModelBaseSizeSliderLabel" devLabel="Model-based Size" translation="Taille basée sur le modèle"/>
+	<label commandName="SimMomentGroup" devLabel="Moment" translation="Moment"/>
+	<label commandName="SimNoAutoContactsNeeded" devLabel="No contacts detected because there is only one body in this design." translation="Aucun contact détecté car il n'y a qu'un corps dans cette conception."/>
+	<label commandName="SimOptimizationSetupCmd" devLabel="Shape Optimization Criteria" translation="Critères d'optimisation de la forme"/>
+	<label commandName="SimOptimizationSetupCommandDesc1" devLabel="Specify the optimization objectives and load case constraints." translation="Spécifiez les objectifs d'optimisation et les contraintes de cas de charge."/>
+	<label commandName="SimOptimizationSetupCommandDesc2" devLabel="Set the target mass, objectives, manufacturing constraints, and maximum allowed displacement." translation="Définissez la masse cible, les objectifs, les contraintes de fabrication et le déplacement maximal autorisé."/>
+	<label commandName="SimOptimizationSetupEditCommand" devLabel="Edit Shape Optimization Settings" translation="Modifier les paramètres d'optimisation de forme"/>
+	<label commandName="SimOptimizationSetupPreserveLCEntsInput" devLabel="Preserve Entities with Loads and Constraints" translation="Conserver les entités avec charges et contraintes"/>
+	<label commandName="SimOptimizationSetupWarningMessageText" devLabel="Min Member Size is smaller than the estimated min mesh size of %1%. Min Member Size must be greater than or equal to this value." translation="La taille de membre min. est inférieure à la taille de maillage minimale estimée %1%. La taille de membre min. doit être supérieure ou égale à cette valeur."/>
+	<label commandName="SimOptimizationSetupWarningMessageTitle" devLabel="Warning: Min Member Size is too small." translation="Avertissement: la taille min. du membre est trop petite."/>
+	<label commandName="SimOptimizationSetupWidgetInput" devLabel="Setup" translation="Configuration"/>
+	<label commandName="SimPenetrationSurfaceOffset" devLabel="Penetration Surface Offset" translation="Décalage de surface de pénétration"/>
+	<label commandName="SimPenetrationTypeInput" devLabel="Penetration Type" translation="Type de pénétration"/>
+	<label commandName="SimProgressBarUpdateCmd" devLabel="ProgressBarUpdate" translation="Mise à jour de la barre de progression"/>
+	<label commandName="SimReactionForceCmd" devLabel="Reactions" translation="Réactions"/>
+	<label commandName="SimReactionForceComponentsInput" devLabel="Entity" translation="Entité"/>
+	<label commandName="SimReactionForceDlgTitle" devLabel="Reaction Force" translation="Force de réaction"/>
+	<label commandName="SimReactionForceExportStep" devLabel="Step" translation="Pas"/>
+	<label commandName="SimReactionForceExportSum" devLabel="Force Sum (%1%)" translation="Somme des forces (%1%)"/>
+	<label commandName="SimReactionForceExportX" devLabel="Force X (%1%)" translation="Force X (%1%)"/>
+	<label commandName="SimReactionForceExportY" devLabel="Force Y (%1%)" translation="Force Y (%1%)"/>
+	<label commandName="SimReactionForceExportZ" devLabel="Force Z (%1%)" translation="Force Z (%1%)"/>
+	<label commandName="SimReactionForceSum" devLabel="sum" translation="somme"/>
+	<label commandName="SimReactionForceX" devLabel="x" translation="x"/>
+	<label commandName="SimReactionForceY" devLabel="y" translation="y"/>
+	<label commandName="SimReactionForceZ" devLabel="z" translation="z"/>
+	<label commandName="SimReactionMomentExportSum" devLabel="Moment Sum (%1%)" translation="Somme des moments (%1%)"/>
+	<label commandName="SimReactionMomentExportX" devLabel="Moment X (%1%)" translation="Moment X (%1%)"/>
+	<label commandName="SimReactionMomentExportY" devLabel="Moment Y (%1%)" translation="Moment Y (%1%)"/>
+	<label commandName="SimReactionMomentExportZ" devLabel="Moment Z (%1%)" translation="Moment Z (%1%)"/>
+	<label commandName="SimReactionMomentX" devLabel="x" translation="x"/>
+	<label commandName="SimReactionMomentY" devLabel="y" translation="y"/>
+	<label commandName="SimReactionMomentZ" devLabel="z" translation="z"/>
+	<label commandName="SimReactionMommentSum" devLabel="sum" translation="somme"/>
+	<label commandName="SimRefinementTresholdLabel" devLabel="Portion of Elements to Refine (%)" translation="Partie d'éléments à affiner (%)"/>
+	<label commandName="SimRefinementTresholdTooltip" devLabel="Only areas of the model within this percentage of the maximum result will be refined and iterated." translation="Seules les aires du modèle comprises dans le pourcentage du résultat maximal seront affinées et itérées."/>
+	<label commandName="SimRemoveRBMCheckBox" devLabel="Remove rigid body modes" translation="Supprimer les modes de corps rigides"/>
+	<label commandName="SimRemoveRBMLearnMore" devLabel="&lt;div&gt;&lt;a href=&quot;nothing&quot;&gt;Learn More&lt;/a&gt;&lt;/div&gt;" translation="&lt;div&gt;&lt;a href=&quot;nothing&quot;&gt;En savoir plus&lt;/a&gt;&lt;/div&gt;"/>
+	<label commandName="SimRemoveRigidBodyModeTooltip" devLabel="Learn what the Remove rigid body modes option does, and understand important restrictions on its use." translation="Découvrez ce que fait l'option Supprimer les modes de corps rigides et comprenez les restrictions importantes pour son utilisation."/>
+	<label commandName="SimReportContactForceItem" devLabel="Contact Force" translation="Force de contact"/>
+	<label commandName="SimReportContactPressureItem" devLabel="Contact Pressure" translation="Pression de contact"/>
+	<label commandName="SimReportDisplacementItem" devLabel="Displacement" translation="Déplacement"/>
+	<label commandName="SimReportEquivalentStrainItem" devLabel="Equivalent Strain" translation="Déformation équivalente"/>
+	<label commandName="SimReportFirstPricipalStressItem" devLabel="1st Principal" translation="1re contrainte principale"/>
+	<label commandName="SimReportFirstPrincipalStrainItem" devLabel="1st Principal" translation="1re déformation principale"/>
+	<label commandName="SimReportGuidedResultsItem" devLabel="Guided Results" translation="Résultats guidés"/>
+	<label commandName="SimReportHeatFluxItem" devLabel="Heat Flux" translation="Flux thermique"/>
+	<label commandName="SimReportItemCalculationOptions" devLabel="Calculation Options" translation="Options de calcul"/>
+	<label commandName="SimReportItemCenterOfMass" devLabel="Universal Center of Mass" translation="Centre de gravité universel"/>
+	<label commandName="SimReportItemConnectors" devLabel="Connectors" translation="Connecteurs"/>
+	<label commandName="SimReportItemConnectorsView" devLabel="Graphics View" translation="Vue graphique"/>
+	<label commandName="SimReportItemConstraints" devLabel="Constraints" translation="Contraintes"/>
+	<label commandName="SimReportItemConstraintsView" devLabel="Glyphs View" translation="Vue de glyphes"/>
+	<label commandName="SimReportItemContacts" devLabel="Contacts" translation="Contacts"/>
+	<label commandName="SimReportItemContactsView" devLabel="Graphics View" translation="Vue graphique"/>
+	<label commandName="SimReportItemElementDeletion" devLabel="Element Deletion Criteria" translation="Critère de suppression d'éléments"/>
+	<label commandName="SimReportItemFatigueCases" devLabel="Fatigue Cases" translation="Cas de fatigue"/>
+	<label commandName="SimReportItemFatigueCycleHistory" devLabel="Cycle History" translation="Historique de cycles"/>
+	<label commandName="SimReportItemFatigueLifeFactors" devLabel="Fatigue Life Factors" translation="Facteurs de durée de vie"/>
+	<label commandName="SimReportItemLoads" devLabel="Loads" translation="Charges"/>
+	<label commandName="SimReportItemLoadsView" devLabel="Glyphs View" translation="Vue de glyphes"/>
+	<label commandName="SimReportItemLocalMeshControls" devLabel="Local Mesh Controls" translation="Contrôles du maillage local"/>
+	<label commandName="SimReportItemLocalMeshControlsView" devLabel="Selections View" translation="Vue des sélections"/>
+	<label commandName="SimReportItemMaterial" devLabel="Material" translation="Matériau"/>
+	<label commandName="SimReportItemMesh" devLabel="Mesh" translation="Maillage"/>
+	<label commandName="SimReportItemNLSS2DCharts" devLabel="2D Charts" translation="Graphiques 2D"/>
+	<label commandName="SimReportItemNLSSAtProbedLocations" devLabel="At probed locations" translation="Aux emplacements contrôlés"/>
+	<label commandName="SimReportItemNLSSMinMaxWholeModel" devLabel="Min/Max, whole model" translation="Min/Max, modèle entier"/>
+	<label commandName="SimReportItemNLSSResultSteps" devLabel="Results Steps" translation="Étapes des résultats"/>
+	<label commandName="SimReportItemNLSSSCustom" devLabel="Custom" translation="Personnalisé(e)"/>
+	<label commandName="SimReportItemNLSSShowAll" devLabel="Show All" translation="Afficher tout"/>
+	<label commandName="SimReportItemNodesAndElements" devLabel="Nodes and Elements" translation="Noeuds et éléments"/>
+	<label commandName="SimReportItemOppositeCamera" devLabel="Add Opposite Camera View" translation="Ajouter une vue de caméra opposée"/>
+	<label commandName="SimReportItemOutputOptions" devLabel="Output Options" translation="Options de sortie"/>
+	<label commandName="SimReportItemParameters" devLabel="Parameters" translation="Paramètres"/>
+	<label commandName="SimReportItemPointMassView" devLabel="Glyphs View" translation="Vue de glyphes"/>
+	<label commandName="SimReportItemPointMasses" devLabel="Point Masses" translation="Masses ponctuelles"/>
+	<label commandName="SimReportItemProperties" devLabel="Properties" translation="Propriétés"/>
+	<label commandName="SimReportItemRTSSFloor" devLabel="Floor" translation="Sol"/>
+	<label commandName="SimReportItemRTSSFloorView" devLabel="Glyphs View" translation="Vue de glyphes"/>
+	<label commandName="SimReportItemRTSSPosition" devLabel="Position" translation="Position"/>
+	<label commandName="SimReportItemRTSSVelocity" devLabel="Velocity" translation="Vitesse"/>
+	<label commandName="SimReportItemResultReactionForces" devLabel="Reaction Forces" translation="Forces de réaction"/>
+	<label commandName="SimReportItemResults" devLabel="Results" translation="Résultats"/>
+	<label commandName="SimReportItemResultsCustomProbes" devLabel="Show Probes" translation="Afficher les contrôles"/>
+	<label commandName="SimReportItemResultsMaxProbe" devLabel="Show Max" translation="Afficher max."/>
+	<label commandName="SimReportItemResultsMinProbe" devLabel="Show Min" translation="Afficher min."/>
+	<label commandName="SimReportItemResultsSummary" devLabel="Results Summary" translation="Synthèse des résultats"/>
+	<label commandName="SimReportItemSettings" devLabel="Settings" translation="Paramètres"/>
+	<label commandName="SimReportItemShels" devLabel="Shells" translation="Coques"/>
+	<label commandName="SimReportItemTOResults" devLabel="Optimization Results" translation="Résultats d'optimisation"/>
+	<label commandName="SimReportItemTOResultsSummary" devLabel="Optimization Summary" translation="Résumé de l'optimisation"/>
+	<label commandName="SimReportNormalXXStrainItem" devLabel="Normal XX" translation="Normale XX"/>
+	<label commandName="SimReportNormalXXStressItem" devLabel="Normal XX" translation="Normale XX"/>
+	<label commandName="SimReportNormalYYStrainItem" devLabel="Normal YY" translation="Normale YY"/>
+	<label commandName="SimReportNormalYYStressItem" devLabel="Normal YY" translation="Normale YY"/>
+	<label commandName="SimReportNormalZZStrainItem" devLabel="Normal ZZ" translation="Normale ZZ"/>
+	<label commandName="SimReportNormalZZStressItem" devLabel="Normal ZZ" translation="Normale ZZ"/>
+	<label commandName="SimReportReactionForceItem" devLabel="Reaction Force" translation="Force de réaction"/>
+	<label commandName="SimReportReset" devLabel="Reset" translation="Réinitialiser"/>
+	<label commandName="SimReportResetTT" devLabel="Reset all partially checked studies to default states" translation="Réinitialisez toutes les études partiellement vérifiées sur les valeurs par défaut"/>
+	<label commandName="SimReportResultsItem" devLabel="Results" translation="Résultats"/>
+	<label commandName="SimReportSafetyFactorGuidedResultsItem" devLabel="Safety Factor" translation="Facteur de sécurité"/>
+	<label commandName="SimReportSafetyFactorItem" devLabel="Safety Factor" translation="Facteur de sécurité"/>
+	<label commandName="SimReportSelectAll" devLabel="Select All" translation="Tout sélect."/>
+	<label commandName="SimReportShearXYStrainItem" devLabel="Shear XY" translation="Cisaillement XY"/>
+	<label commandName="SimReportShearXYStressItem" devLabel="Shear XY" translation="Cisaillement XY"/>
+	<label commandName="SimReportShearXZStrainItem" devLabel="Shear XZ" translation="Cisaillement XZ"/>
+	<label commandName="SimReportShearXZStressItem" devLabel="Shear XZ" translation="Cisaillement XZ"/>
+	<label commandName="SimReportShearYZStrainItem" devLabel="Shear YZ" translation="Cisaillement YZ"/>
+	<label commandName="SimReportShearYZStressItem" devLabel="Shear YZ" translation="Cisaillement YZ"/>
+	<label commandName="SimReportStrainItem" devLabel="Strain" translation="Déformation"/>
+	<label commandName="SimReportStressItem" devLabel="Stress" translation="Contrainte"/>
+	<label commandName="SimReportTemperatureItem" devLabel="Temperature" translation="Température"/>
+	<label commandName="SimReportThermalGradientItem" devLabel="Thermal Gradient" translation="Gradient thermique"/>
+	<label commandName="SimReportThirdPricipalStressItem" devLabel="3rd Principal" translation="3e contrainte principale"/>
+	<label commandName="SimReportThirdPrincipalStrainItem" devLabel="3rd Principal" translation="3e déformation principale"/>
+	<label commandName="SimReportTotalItem" devLabel="Total" translation="Total"/>
+	<label commandName="SimReportUnSelectAll" devLabel="Unselect All" translation="Tout désélect."/>
+	<label commandName="SimReportVMStressItem" devLabel="Von Mises" translation="Von Mises"/>
+	<label commandName="SimReportXItem" devLabel="X" translation="X"/>
+	<label commandName="SimReportYItem" devLabel="Y" translation="Y"/>
+	<label commandName="SimReportZItem" devLabel="Z" translation="Z"/>
+	<label commandName="SimResolveForValidCenterOfMass" devLabel="The study must be re-solved to view the center of mass." translation="L'étude doit être résolue à nouveau pour afficher le centre de gravité."/>
+	<label commandName="SimResolveForValidCenterOfMassTitle" devLabel="Center of mass is not available" translation="Centre de gravité non disponible"/>
+	<label commandName="SimResolveForValidReactions" devLabel="The study must be re-solved to view the reactions." translation="L'étude doit être résolue à nouveau pour afficher les réactions."/>
+	<label commandName="SimResolveForValidReactionsTitle" devLabel="Reactions are not available" translation="Réactions non disponibles"/>
+	<label commandName="SimRosettaNotInstalledMessage" devLabel="Mesh generation requires Rosetta 2 to be installed on your system. Please install it first to continue." translation="La génération du maillage nécessite l'installation de Rosetta 2 sur votre système. Veuillez l'installer pour continuer."/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personnalisé(e)"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Métrique (SI)"/>
+	<label commandName="SimSNCurveGraph" devLabel="Graph" translation="Graphique"/>
+	<label commandName="SimSaveForCloudGenerateLabel" devLabel="Saved because of generative solve" translation="Enregistré en raison de la résolution générative"/>
+	<label commandName="SimSaveForCloudLabel" devLabel="Saved because of simulation solve" translation="Enregistré en raison de la résolution de la simulation"/>
+	<label commandName="SimSaveSolverData" devLabel="Save As" translation="Enregistrer au format"/>
+	<label commandName="SimSelectEntitiesInput1" devLabel="Selection Set 1" translation="Jeu de sélections 1"/>
+	<label commandName="SimSelectEntitiesInput2" devLabel="Selection Set 2" translation="Jeu de sélections 2"/>
+	<label commandName="SimSelectPenetrableEntities_SInput" devLabel="Select Penetrable Entities" translation="Sélectionner les entités pénétrables"/>
+	<label commandName="SimSelectPenetratingEntities_PInput" devLabel="Select Penetrating Entities" translation="Sélectionner les entités pénétrantes"/>
+	<label commandName="SimSelectRelatedContactsCommand" devLabel="Select Related Contacts" translation="Sélectionner des contacts associés"/>
+	<label commandName="SimSeparationNoSlidingManualContactDesc1" devLabel="Contact surfaces can move freely away from each other (but not pass through each other) in the normal direction, and cannot move in the relative tangential direction once they come in contact." translation="Les surfaces de contact peuvent s'éloigner librement l'une de l'autre (mais pas se traverser) dans la direction normale. Elles ne peuvent pas se déplacer dans la direction tangentielle relative lorsqu'elles entrent en contact."/>
+	<label commandName="SimSeparationNoSlidingManualContactDesc2" devLabel="Please note that before manually applying contacts, you should run Automatic Contacts." translation="Remarque: avant d'appliquer manuellement des contacts, vous devez exécuter la fonction Contacts automatiques."/>
+	<label commandName="SimSeparationNormalDmg" devLabel="Separation Normal (Damage Initiation)" translation="Normale de séparation (début des dommages)"/>
+	<label commandName="SimSeparationNormalFail" devLabel="Separation Normal (Complete Failure)" translation="Normale de séparation (échec complet)"/>
+	<label commandName="SimSeparationSlidingManualContactDesc1" devLabel="Contact surfaces can separate freely from each other in the normal direction and move freely relative to each other in the tangential direction." translation="Les surfaces de contact peuvent se séparer librement l'une de l'autre dans la direction normale et se déplacer librement l'une par rapport à l'autre dans la direction tangentielle."/>
+	<label commandName="SimSeparationSlidingManualContactDesc2" devLabel="Please note that before manually applying contacts, you should run Automatic Contacts." translation="Remarque: avant d'appliquer manuellement des contacts, vous devez exécuter la fonction Contacts automatiques."/>
+	<label commandName="SimSettingsConvergence" devLabel="Adaptive Mesh Refinement" translation="Affinement du maillage adaptatif"/>
+	<label commandName="SimSettingsGeneral" devLabel="Settings" translation="Paramètres"/>
+	<label commandName="SimSettingsMesh" devLabel="Mesh Settings" translation="Paramètres de maillage"/>
+	<label commandName="SimSettingsMultipleLoadcasesWarning" devLabel="Warning: Since you have defined multiple Load Cases, we are unable to allow &#xA;mesh refinement for your Study. This is because the mesh is global &#xA;and we are not able to change the mesh based on the Load Case." translation="Avertissement: étant donné que vous avez défini plusieurs cas de charge, vous ne pouvez pas autoriser&#xA;l'affinement du maillage pour votre étude. Cela est dû au fait que le maillage est global &#xA;et que vous ne pouvez pas modifier le maillage en fonction du cas de charge."/>
+	<label commandName="SimShearStress" devLabel="Shear Stress (Damage Initiation)" translation="Contrainte de cisaillement (début des dommages)"/>
+	<label commandName="SimShowJobsDlgCmdDesc1" devLabel="Displays a list of all the studies that have solved, or are in progress, in all your open documents." translation="Affiche une liste de toutes les études qui ont été résolues ou sont en cours d'exécution dans tous vos documents ouverts."/>
+	<label commandName="SimShowJobsDlgCmdDesc2" devLabel="Track the progress of running jobs, cancel them, or access the results of completed studies." translation="Suivez la progression des tâches en cours, annulez-les ou accédez aux résultats des études terminées."/>
+	<label commandName="SimShowMeshingIssuesCmd" devLabel="Show Meshing Issues" translation="Afficher les problèmes de maillage"/>
+	<label commandName="SimShowMeshingIssuesDesc1" devLabel="Shows meshing issues on the model." translation="Affiche les problèmes de maillage sur le modèle."/>
+	<label commandName="SimShowMeshingIssuesDesc2" devLabel="Meshing issues." translation="Problèmes de maillage."/>
+	<label commandName="SimSlidingNoSeparationManualContactDesc1" devLabel="Contact surfaces can move freely in the relative tangential direction, but cannot move relative to each other in the normal direction." translation="Les surfaces de contact peuvent se déplacer librement dans la direction tangentielle relative, mais pas l'une par rapport à l'autre dans la direction normale."/>
+	<label commandName="SimSlidingNoSeparationManualContactDesc2" devLabel="Please note that before manually applying contacts, you should run Automatic Contacts." translation="Remarque: avant d'appliquer manuellement des contacts, vous devez exécuter la fonction Contacts automatiques."/>
+	<label commandName="SimSlipTangentialDmg" devLabel="Slip Tangential (Damage Initiation)" translation="Glissement tangentiel (Début des dommages)"/>
+	<label commandName="SimSlipTangentialFail" devLabel="Slip Tangential (Complete Failure)" translation="Glissement tangentiel (échec complet)"/>
+	<label commandName="SimSolve" devLabel="Solve" translation="Résoudre"/>
+	<label commandName="SimSolveActions" devLabel="Action" translation="Action"/>
+	<label commandName="SimSolveAutoContacts" devLabel="Solve Automatic Contacts" translation="Résoudre les contacts automatiques"/>
+	<label commandName="SimSolveCmd" devLabel="Solve" translation="Résoudre"/>
+	<label commandName="SimSolveConfiguration" devLabel="Configuration" translation="Configuration"/>
+	<label commandName="SimSolveDesc1" devLabel="Solves the simulation using the study setup conditions you defined." translation="Résout la simulation à l'aide des conditions de configuration de l'étude que vous avez définies."/>
+	<label commandName="SimSolveDesc2" devLabel="Run Pre-check before solving, to verify that the study setup is complete. Solve one or more studies simultaneously. Track the progress in the Job Status dialog." translation="Exécutez la vérification préalable avant la résolution pour vérifier si la configuration de l'étude est terminée. Résolvez une ou plusieurs études simultanément. Suivez la progression dans la boîte de dialogue État de la tâche."/>
+	<label commandName="SimSolveDocument" devLabel="Document" translation="Document"/>
+	<label commandName="SimSolveModel" devLabel="Model" translation="Modèle"/>
+	<label commandName="SimSolveName" devLabel="Name" translation="Nom"/>
+	<label commandName="SimSolveSectionLabel" devLabel="Solve" translation="Résoudre"/>
+	<label commandName="SimSolveStatus" devLabel="Status" translation="Etat"/>
+	<label commandName="SimSolverMeshTypeHexQuadDominant" devLabel="Hybrid (Hex/Quad Dominant)" translation="Hybride (dominante hex/quadr.)"/>
+	<label commandName="SimSolverMeshTypeHexQuadOnly" devLabel="Hex/Quad Only" translation="Hex/quadr. uniquement"/>
+	<label commandName="SimSolverMeshTypeLabel" devLabel="Solid Mesh Type" translation="Type de maillage de solide"/>
+	<label commandName="SimSolverMeshTypeLabelToltip" devLabel="Select Solid Mesh Type" translation="Sélectionner le type de maillage de solide"/>
+	<label commandName="SimSolverMeshTypeQuadsOnly" devLabel="Quads Only" translation="Quadr. uniquement"/>
+	<label commandName="SimSolverMeshTypeTetTriOnly" devLabel="Tetrahedra/Triangles Only" translation="Tétraèdres/triangles uniquement"/>
+	<label commandName="SimSolverMeshTypeTriOnly" devLabel="Triangles Only" translation="Triangles uniquement"/>
+	<label commandName="SimSolverSelectionLabel" devLabel="Solver Selection" translation="Sélection du solveur"/>
+	<label commandName="SimSolverSelectionTooltip" devLabel="Solver Selection" translation="Sélection du solveur"/>
+	<label commandName="SimSolverShellMeshTypeLabel" devLabel="Shell Mesh Type" translation="Type de maillage de coque"/>
+	<label commandName="SimSolverShellMeshTypeLabelToltip" devLabel="Select Shell Mesh Type" translation="Sélectionner le type de maillage de coque"/>
+	<label commandName="SimStiffnessFactor" devLabel="Stiffness Factor" translation="Facteur de raideur"/>
+	<label commandName="SimStudyBrowserConnectors" devLabel="Connectors" translation="Connecteurs"/>
+	<label commandName="SimStudyBrowserPointMasses" devLabel="Point Masses" translation="Masses ponctuelles"/>
+	<label commandName="SimSurfaceFinishValueNotAvailableMsg" devLabel="Fatigue Material must be defined before this value can be calculated" translation="Le matériau pour l'analyse de fatigue doit être défini avant le calcul de cette valeur"/>
+	<label commandName="SimSymmetricPenetrationType" devLabel="Symmetric" translation="Symétrique"/>
+	<label commandName="SimTemplateConstraints" devLabel="Constraints" translation="Contraintes"/>
+	<label commandName="SimTemplateDecisionCenter" devLabel="Decision Center Comparisions" translation="Comparaisons du centre de décision"/>
+	<label commandName="SimTemplateDeformationScale" devLabel="Deformation Scale" translation="Echelle de déformation"/>
+	<label commandName="SimTemplateFatigue" devLabel="Fatigue" translation="Fatigue"/>
+	<label commandName="SimTemplateLegendSettins" devLabel="Results Legend Settings" translation="Paramètres de légende des résultats"/>
+	<label commandName="SimTemplateLoads" devLabel="Loads" translation="Charges"/>
+	<label commandName="SimTemplateMaterialOverrides" devLabel="Material Overrides" translation="Remplacements de matériaux"/>
+	<label commandName="SimTemplateResultsunits" devLabel="Results Units" translation="Unités de résultat"/>
+	<label commandName="SimTemplateSurfaceFinish" devLabel="Surface Finishes" translation="Etats de surface"/>
+	<label commandName="SimTensileStress" devLabel="Tensile Stress (Damage Initiation)" translation="Contrainte de tension (début des dommages)"/>
+	<label commandName="SimThermalConductance" devLabel="Thermal Conductance" translation="Conductance thermique"/>
+	<label commandName="SimTimeStep" devLabel="Time (s)" translation="Temps (s)"/>
+	<label commandName="SimTopOptNoTargetBodyFoundForCommand" devLabel="&lt;b&gt;No Target Body Found&lt;/b&gt;&lt;br&gt;&lt;br&gt;%1% can only be used after a target body is selected.&lt;br&gt;" translation="&lt;b&gt;Aucun corps cible n'a été trouvé&lt;/b&gt;&lt;br&gt;&lt;br&gt; %1% ne peut s'utiliser qu'après la sélection d'un corps cible.&lt;br&gt;"/>
+	<label commandName="SimTotal" devLabel="Sum" translation="Somme"/>
+	<label commandName="SimTotalDisplacement" devLabel="Displacement, Total" translation="Déplacement, total"/>
+	<label commandName="SimTransientResultsCustom" devLabel="Custom" translation="Personnalisé(e)"/>
+	<label commandName="SimTransientResultsSummary" devLabel="Results summary" translation="Synthèse des résultats"/>
+	<label commandName="SimTransientReusltType" devLabel="Result type" translation="Type de résultat"/>
+	<label commandName="SimUnableToObtainSimulationCase" devLabel="Unable to obtain Simulation Study." translation="Impossible d'obtenir l'étude de simulation."/>
+	<label commandName="SimUnableToObtainSimulationCaseResults" devLabel="Unable to obtain Simulation Study results." translation="Impossible d'obtenir les résultats de l'étude de simulation."/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Pourcentage"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pièces"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accélération"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angle"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Courant"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Résistance électrique"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Force"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Longueur"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Puissance"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pression"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Température"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Temps"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Vitesse"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosité"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tension"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Débit"/>
+	<label commandName="SimUnsymmetricPenetrationType" devLabel="Unsymmetric" translation="Asymétrique"/>
+	<label commandName="SimUsePartBasedMeasureForAsmMeshCheckBox" devLabel="Scale mesh size per part" translation="Mettre à l'échelle la taille du maillage par composant"/>
+	<label commandName="SimUsePartBasedMeasureForAsmMeshTooltip" devLabel="Element length is relative to each part bounding box rather than the assembly bounding box." translation="La longueur de l'élément dépend de la zone de délimitation de chaque pièce et non de celle de l'ensemble."/>
+	<label commandName="SimVonMisesStress" devLabel="von Mises Stress" translation="Contrainte de von Mises"/>
+	<label commandName="SimWeldDamageGroup" devLabel="Weld Damage" translation="Dommage de la soudure"/>
+	<label commandName="SimWeldFailureModel" devLabel="Weld Failure Model" translation="Modèle d'échec de soudure"/>
+	<label commandName="SimX" devLabel="X" translation="X"/>
+	<label commandName="SimY" devLabel="Y" translation="Y"/>
+	<label commandName="SimZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimcvsFilesFilter" devLabel="csv Files (*.csv)" translation="Fichiers csv (*.csv)"/>
+	<label commandName="SiminfoSeparatorInput" devLabel="separator" translation="séparateur"/>
+	<label commandName="SimtitleFtgENMaterialProperties" devLabel="Fatigue Material Properties" translation="Propriétés du matériau pour l'analyse de fatigue"/>
+	<label commandName="SimtitleProgress" devLabel="Progress" translation="Progression"/>
+	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="Le nom de l'étude est déjà utilisé."/>
+	<label commandName="ThicknesschemeType" devLabel="Thickness Scheme Type" translation="Type de schéma d'épaisseur"/>
+	<label commandName="ThicknesschemeTypeAutomatic" devLabel="Automatic" translation="Automatique"/>
+	<label commandName="ThicknesschemeTypeCalculatedThickness" devLabel="Calculated Thickness" translation="Épaisseur calculée"/>
+	<label commandName="ThicknesschemeTypeOff" devLabel="Off" translation="Inactif"/>
+	<label commandName="ThicknesschemeTypeSensitivityFiltering" devLabel="Sensitivity Filtering" translation="Filtrage de sensibilité"/>
+	<label commandName="ThicknesschemeTypeSignedDistance" devLabel="Signed Distance" translation="Distance signée"/>
+	<label commandName="simGenerateDlgTitle" devLabel="Job" translation="Tâche"/>
+</Resource>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AGDObstacleBodyName" devLabel="Obstacle%1%" translation="Obstacle%1%"/>
+	<label commandName="AGDOrganicBodyName" devLabel="Organic%1%" translation="Organique%1%"/>
+	<label commandName="AGDPreserveBodyName" devLabel="Preserve%1%" translation="Conserver%1%"/>
+	<label commandName="AGD_DESIGN_DESCRIPTION" devLabel="Created from generative design outcome" translation="Créé à partir du résultat de la conception générative"/>
+	<label commandName="PMINoPaths" devLabel="No paths were found for the given reference" translation="Aucun chemin trouvé pour la référence indiquée"/>
+</Resource>

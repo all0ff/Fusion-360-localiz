@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="EagleFileFilterDescription" devLabel="EAGLE Schematic Files (*.sch);;EAGLE Board Files (*.brd);;EAGLE Libraries Files (*.lbr)" translation="Fichiers de schéma EAGLE (*.sch);;Fichiers de circuit imprimé EAGLE (*.brd);;Fichiers de bibliothèque EAGLE (*.lbr)"/>
+	<label commandName="EagleFileLoadFailurePrompt" devLabel=" has errors and cannot be opened. Close the empty design file without saving and continue working." translation=" comporte des erreurs et ne peut pas être ouvert. Fermez le fichier de conception vide sans l'enregistrer et continuez à travailler."/>
+</Resource>

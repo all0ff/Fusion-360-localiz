@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="SimAverageElementSizeTooltip" devLabel="Average element length relative to the diagonal measurement of the model bounding box. 5% to 10% recommended." translation="Lunghezza media dell'elemento rispetto alla misura della diagonale del riquadro d'ingombro del modello (valore consigliato: da 5% a 10%)."/>
+	<label commandName="SimCFD" devLabel="CFD" translation="CFD"/>
+	<label commandName="SimCFDAverageElementSize2DLabel" devLabel="Average Element Size - Shells (% of model size)" translation="Dimensione media dell'elemento - Shell (% della dimensione del modello)"/>
+	<label commandName="SimCFDAverageElementSizeLabel" devLabel="Average Element Size - Solids (% of model size)" translation="Dimensione media dell'elemento - Solidi (% delle dimensioni del modello)"/>
+	<label commandName="SimCFDAverageElementSizeTooltip" devLabel="Average element length relative to the diagonal measurement of the model bounding box. 5% to 10% recommended." translation="Lunghezza media dell'elemento rispetto alla misura della diagonale del riquadro d'ingombro del modello (valore consigliato: da 5% a 10%)."/>
+	<label commandName="SimCFDCloudSolveCmd" devLabel="Solve" translation="Risolvi"/>
+	<label commandName="SimCFDCloudSolveCmdTextDesc1" devLabel="Runs your simulations in the cloud." translation="Consente di eseguire le simulazioni nel cloud."/>
+	<label commandName="SimCFDCloudSolveCmdTextDesc2" devLabel="If you are signed into your Autodesk account, the Simulation Job Manager automatically starts the solve; otherwise, you are prompted to log into your Autodesk account." translation="Se si accede al proprio account Autodesk, Simulation Job Manager avvia automaticamente la risoluzione. In caso contrario, verrà chiesto di accedere al proprio account Autodesk."/>
+	<label commandName="SimCFDCurvedMeshElementsCheckBox" devLabel="Enhancement Layers" translation="Livelli di miglioramento"/>
+	<label commandName="SimCFDDesc" devLabel="Study fluid flow and heat transfer phenomena in applications such as electronics cooling, valve design, LED thermal management, thermal comfort, and product packaging." translation="Studia i fenomeni del trasferimento termico e del flusso di fluido in applicazioni come il raffreddamento di componenti elettronici, la progettazione di valvole, la gestione termica dei LED, il comfort termico e l'imballaggio del prodotto."/>
+	<label commandName="SimCFDEditMeshRefinementByEntitiesCmd" devLabel="Edit Local Mesh Control" translation="Modifica controllo mesh locale"/>
+	<label commandName="SimCFDGeneralSectionLabel" devLabel="General" translation="Generale"/>
+	<label commandName="SimCFDGeneralSolveOptionsAutoForcedConvention" devLabel="Auto Forced Convection" translation="Convezione forzata automaticamente"/>
+	<label commandName="SimCFDGeneralSolveOptionsCompressibility" devLabel="Compressibility" translation="Comprimibilità"/>
+	<label commandName="SimCFDGeneralSolveOptionsFlow" devLabel="Flow" translation="Flusso"/>
+	<label commandName="SimCFDGeneralSolveOptionsGravity" devLabel="Gravity" translation="Gravità"/>
+	<label commandName="SimCFDGeneralSolveOptionsGravityDirection" devLabel="Gravity direction" translation="Direzione della gravità"/>
+	<label commandName="SimCFDGeneralSolveOptionsHeat" devLabel="Heat" translation="Calore"/>
+	<label commandName="SimCFDGeneralSolveOptionsRadiation" devLabel="Radiation" translation="Radiazione"/>
+	<label commandName="SimCFDGeneralSolveOptionsTotalTemperature" devLabel="Total Temperature" translation="Temperatura totale"/>
+	<label commandName="SimCFDMeshRefinementByEntitiesCmd" devLabel="Local Mesh Control" translation="Controllo mesh locale"/>
+	<label commandName="SimCFDMeshSectionLabelMesh" devLabel="Mesh" translation="Mesh"/>
+	<label commandName="SimCFDMinimumElementSizeLabel" devLabel="Minimum Element Size (% of average size)" translation="Dimensione minima dell'elemento (% della dimensione media)"/>
+	<label commandName="SimCFDMinimumElementSizeTooltip" devLabel="The mesh size lower limit, while obeying all other mesh settings." translation="Limite inferiore della dimensione mesh, mantenendo tutte le altre impostazioni della mesh."/>
+	<label commandName="SimCFDPreCheckCmd" devLabel="Pre-check" translation="Verifica preliminare"/>
+	<label commandName="SimCFDPreCheckCmdTextDesc" devLabel="Check your model prior to running to ensure it has all the settings required for the active simulation type." translation="Prima dell'esecuzione, verificare che il modello presenti tutte le impostazioni richieste per il tipo di simulazione attivo."/>
+	<label commandName="SimCFDSolveCmd" devLabel="Solve" translation="Risolvi"/>
+	<label commandName="SimCFDSolveCmdTextDesc" devLabel="Runs your simulations based on the settings you select. Progress bar displays to view the state of the solve." translation="Esegue le simulazioni in base alle impostazioni selezionate. Viene visualizzata una barra di avanzamento che mostra lo stato della risoluzione."/>
+	<label commandName="SimCFDThicknessFactorLabel" devLabel="Thickness Factor" translation="Fattore di spessore"/>
+	<label commandName="SimCaseDefaultName" devLabel="Study" translation="Studio"/>
+	<label commandName="SimCaseName" devLabel="Name" translation="Nome"/>
+	<label commandName="SimChangeCaseThermalStressToBuckling" devLabel="&#xA;- All thermal loads will be removed&#xA;- All non-bonded contacts will change to 'Bonded' contact" translation="&#xA;- Tutti i carichi termici verranno rimossi&#xA; - Tutti i contatti non accoppiati verranno cambiati in contatti accoppiati"/>
+	<label commandName="SimChangeCaseThermalStressToLSS" devLabel="&#xA;- All thermal loads will be removed" translation="&#xA;- Tutti i carichi termici verranno rimossi"/>
+	<label commandName="SimChangeCaseThermalStressToModal" devLabel="&#xA;- All thermal loads will be removed&#xA;- All non-bonded contacts will change to 'Bonded' contact" translation="&#xA;- Tutti i carichi termici verranno rimossi&#xA;- Tutti i contatti non accoppiati verranno cambiati in contatti accoppiati"/>
+	<label commandName="SimChangeCaseThermalStressToThermal" devLabel="&#xA;- All constraints and non-thermal loads will be removed&#xA;- All non-bonded contacts will change to 'Bonded' contact" translation="&#xA;- Tutti i vincoli e i carichi non termici verranno rimossi&#xA;- Tutti i contatti non accoppiati verranno cambiati in contatti accoppiati"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Sostituisci sistema di unità"/>
+	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="Il nome dello studio è vuoto"/>
+	<label commandName="SimGeneralSolveOptionsAutomaticConvergence" devLabel="Automatic Convergence Assessment" translation="Valutazione della convergenza automatica"/>
+	<label commandName="SimGeneralSolveOptionsConvergenceTolerance" devLabel="Convergence Tolerance (%)" translation="Tolleranza di convergenza (%)"/>
+	<label commandName="SimGeneralSolveOptionsIterations" devLabel="Iterations" translation="Iterazioni"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Stati Uniti (pollici)"/>
+	<label commandName="SimInvalidValue" devLabel="There are some invalid values!" translation="Sono presenti alcuni valori non validi."/>
+	<label commandName="SimJobProgressCancelBtn" devLabel="Cancel" translation="Annulla"/>
+	<label commandName="SimJobProgressCancelBtnToolTip" devLabel="Cancel the simulation" translation="Annulla la simulazione"/>
+	<label commandName="SimMeshRefinementByEntitiesCmdMultiplier" devLabel="Multiplier" translation="Moltiplicatore"/>
+	<label commandName="SimMeshRefinementByEntitiesCmdRefinement" devLabel="Mesh size" translation="Dimensione mesh"/>
+	<label commandName="SimMeshRefinementByEntitiesCmdSelection" devLabel="Selection" translation="Selezione"/>
+	<label commandName="SimMeshRefinementByEntitiesCoarse" devLabel="Coarse" translation="Grossolana"/>
+	<label commandName="SimMeshRefinementByEntitiesFine" devLabel="Fine" translation="Fine"/>
+	<label commandName="SimResultsStatusUpToDateSolve" devLabel="Results are already available and up-to-date.  Are you sure you want to re-solve?" translation="I risultati sono già disponibili e aggiornati. Risolvere di nuovo?"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Unità metriche (SI)"/>
+	<label commandName="SimSettingsGeneral" devLabel="Settings" translation="Impostazioni"/>
+	<label commandName="SimSettingsMesh" devLabel="Mesh Settings" translation="Impostazioni mesh"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentuale"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pezzi"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angolo"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Corrente"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Resistenza elettrica"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Forza"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Lunghezza"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Massa"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Potenza"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressione"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Tempo"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocità"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tensione"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Portata"/>
+	<label commandName="SimtitleProgress" devLabel="Progress" translation="Avanzamento"/>
+	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="Il nome dello studio è già stato utilizzato."/>
+</Resource>

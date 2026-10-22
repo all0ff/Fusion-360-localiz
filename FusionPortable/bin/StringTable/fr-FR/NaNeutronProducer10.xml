@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AreaProperty" devLabel="Area" translation="Aire"/>
+	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Objets mis en cache à partir d'un contexte d'assemblage dissous"/>
+	<label commandName="DensityProperty" devLabel="Density" translation="Densité"/>
+	<label commandName="MassProperty" devLabel="Mass" translation="Masse"/>
+	<label commandName="VolumeProperty" devLabel="Volume" translation="Volume"/>
+	<label commandName="frontNamedView" devLabel="FRONT" translation="AVANT"/>
+	<label commandName="homeNamedView" devLabel="HOME" translation="DÉBUT"/>
+	<label commandName="rightNamedView" devLabel="RIGHT" translation="DROITE"/>
+	<label commandName="topNamedView" devLabel="TOP" translation="HAUT"/>
+</Resource>

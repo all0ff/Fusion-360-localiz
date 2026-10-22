@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="SimCloudCreditsInvalidAuthorization" devLabel="Sorry, your authorization failed." translation="Désolé, votre autorisation a échoué."/>
+	<label commandName="SimCloudCreditsInvalidCloudCredits" devLabel="Sorry, access validation failed." translation="Désolé, la validation de l'accès a échoué."/>
+	<label commandName="SimCloudCreditsInvalidUser" devLabel="Sorry, you don't have access to the resource." translation="Désolé, vous n'avez pas accès à la ressource."/>
+	<label commandName="SimCloudCreditsNoContract" devLabel="Sorry, your contract isn't configured or the contract has expired." translation="Désolé, votre contrat n'est pas configuré ou il a expiré."/>
+	<label commandName="SimCloudCreditsNoEntitlement" devLabel="Sorry, you don't have an entitlement." translation="Désolé, vous ne bénéficiez pas de droits d'accès."/>
+	<label commandName="SimCloudCreditsNotEnough" devLabel="Sorry, you don't have enough tokens or cloud credits." translation="Désolé, vous ne disposez pas de suffisamment de jetons ou de crédits cloud."/>
+</Resource>

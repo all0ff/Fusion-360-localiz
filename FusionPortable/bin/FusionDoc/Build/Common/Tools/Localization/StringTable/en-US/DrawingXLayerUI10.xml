@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AlignedDimDirAndLengthSamePriorityAlgo" devLabel="Aligned Dimension Dir And Length Same Priority Algorithm" translation="" />
+	<label commandName="AlignedDimGenAlgo" devLabel="Aligned Dimension Generator Algorithm" translation="" />
+	<label commandName="AlignedDimSameLengthAndEndPointsWithSameXorYPriorityAlgo" devLabel="Aligned Dimension SameLength And EndPoints With Same XorY PriorityAlgo Algorithm" translation="" />
+	<label commandName="AllSheetsMulti" devLabel="All Sheets (Multi-File)" translation="" />
+	<label commandName="AllSheetsSingle" devLabel="All Sheets (Single File)" translation="" />
+	<label commandName="AngularDimEdgeLengthThreshold_ASME" devLabel="Angular dimension Edge length threshold" translation="" />
+	<label commandName="AngularDimEdgeLengthThreshold_ISO" devLabel="Angular dimension Edge length threshold" translation="" />
+	<label commandName="AngularDimGenAlgo" devLabel="Angular Dimension Generator Algorithm" translation="" />
+	<label commandName="AnimationCreateStoryboardSheet" devLabel="Create Storyboard Sheet" translation="" />
+	<label commandName="AnimationDefaultPartListLoc" devLabel="Default Parts List Loc" translation="" />
+	<label commandName="AnimationIncludePartList" devLabel="Include Parts List" translation="" />
+	<label commandName="AnimationWithSingleISO" devLabel="Sheet with Single ISO View" translation="" />
+	<label commandName="Animationroup" devLabel="Animation" translation="" />
+	<label commandName="AspectRatio" devLabel="Aspect Ratio" translation="" />
+	<label commandName="AutoArrangeDimensions" devLabel="Auto Arrange Dimensions:Main Assembly" translation="" />
+	<label commandName="AutoArrangeDimensions_Component" devLabel="Auto Arrange Dimensions:Component" translation="" />
+	<label commandName="AutoArrangeDimensions_FlatPattern" devLabel="Auto Arrange Dimensions:Sheet Metal Flat Pattern" translation="" />
+	<label commandName="AutoArrangeDimensions_Folded" devLabel="Auto Arrange Dimensions:Sheet Metal Folded" translation="" />
+	<label commandName="AutoArrangeDimensions_SA" devLabel="Auto Arrange Dimensions:Sub Assembly" translation="" />
+	<label commandName="AutoArrangeDimensions_TidyUp" devLabel="Auto Arrange Dimensions:Tidy Up" translation="" />
+	<label commandName="AutoArrangeGroup" devLabel="Auto Arrange Setings" translation="" />
+	<label commandName="AutoBreakGroup" devLabel="Auto Break Setings" translation="" />
+	<label commandName="AutoCenterLine" devLabel="Auto centerline" translation="" />
+	<label commandName="AutoCenterLineForHole" devLabel="Holes" translation="" />
+	<label commandName="AutoCenterLineForRoundCuts" devLabel="Round Cuts" translation="" />
+	<label commandName="AutoCenterLineForRoundExtrude" devLabel="Round Extrude" translation="" />
+	<label commandName="AutoCenterLineGroup" devLabel="Auto Centerline Setings" translation="" />
+	<label commandName="AutoCenterMark" devLabel="Auto centermark" translation="" />
+	<label commandName="AutoCenterMarkForFilet" devLabel="Fillet" translation="" />
+	<label commandName="AutoCenterMarkForHole" devLabel="Holes" translation="" />
+	<label commandName="AutoCenterMarkForRoundCuts" devLabel="Round Cuts" translation="" />
+	<label commandName="AutoCenterMarkForRoundExtrude" devLabel="Round Extrude" translation="" />
+	<label commandName="AutoCenterMarkGroup" devLabel="Auto Centermark Setings" translation="" />
+	<label commandName="AutoCenterMarkPattern" devLabel="Pattern" translation="" />
+	<label commandName="AutoCmFilletMaxRadius" devLabel="Fillet Max Radius" translation="" />
+	<label commandName="AutoCmFilletMinRadius" devLabel="Fillet Min Radius" translation="" />
+	<label commandName="AutoCutGroup" devLabel="Auto Cut Setings" translation="" />
+	<label commandName="AutoDrawingGenerationGoup" devLabel="Automated Drawing Generation" translation="" />
+	<label commandName="AutoHoleNote" devLabel="Auto Hole Note" translation="" />
+	<label commandName="AutoHoletGroup" devLabel="Auto Hole Note Setings" translation="" />
+	<label commandName="AutoNestGroup" devLabel="Auto Nest Setings" translation="" />
+	<label commandName="AutoRotateForManualView" devLabel="Enable for Manual View" translation="" />
+	<label commandName="AutoRotateGroup" devLabel="Auto Rotate Setings" translation="" />
+	<label commandName="AutoScaleFitOption" devLabel="Fit Option" translation="" />
+	<label commandName="AutoScaleFitOption_MOVE_TO_BIGGER_SHEET" devLabel="Move To Bigger Sheet" translation="" />
+	<label commandName="AutoScaleFitOption_NO_OP" devLabel="None" translation="" />
+	<label commandName="AutoScaleFitOption_SCALE_DOWN" devLabel="Scale Down" translation="" />
+	<label commandName="AutoScaleGroup" devLabel="Auto Scale Setings" translation="" />
+	<label commandName="AutoSheetSizeGroup" devLabel="Auto Sheet Size Setings" translation="" />
+	<label commandName="AutoViewGroup" devLabel="Auto View Setings" translation="" />
+	<label commandName="BreakDistance_ASME" devLabel="Break Distance" translation="" />
+	<label commandName="BreakDistance_ISO" devLabel="Break Distance" translation="" />
+	<label commandName="CellMapBasedLoopGeneratorAlgorithm" devLabel="Loop Generator Algorithm" translation="" />
+	<label commandName="CenterMarkDimGenAlgo" devLabel="Center Mark Dim Genrator Algorithm" translation="" />
+	<label commandName="ChamferDimGenAlgo" devLabel="Chamfer Dimension Generator Algorithm" translation="" />
+	<label commandName="ChamferDimPriorityAlgo" devLabel="Chamfer Dimension Priority Algorithm" translation="" />
+	<label commandName="CircularDimGenAlgorithm" devLabel="Circular Dim Algorithm" translation="" />
+	<label commandName="CompISOWithOrthoViews" devLabel="Add ISO View with Ortho Views" translation="" />
+	<label commandName="CompSheetCreate" devLabel="Create Component Sheet" translation="" />
+	<label commandName="CompWithOrthoViews" devLabel="Sheet With Orthogonal Views" translation="" />
+	<label commandName="ComponentGroup" devLabel="Component" translation="" />
+	<label commandName="CurrentSheet" devLabel="Current Sheet" translation="" />
+	<label commandName="DiffenentXYPriorityReducingAlgo" devLabel="Diffenent XY Priority Reducing Algorithm" translation="" />
+	<label commandName="DimToDimDistance" devLabel="Dim to Dim Distance" translation="" />
+	<label commandName="DimensionAlgos" devLabel="Disabled Dimension Algorithms" translation="" />
+	<label commandName="DimensionEdgeGeneratorAlgorithm" devLabel="Edge Generator Algorithm" translation="" />
+	<label commandName="DimensionGroup" devLabel="Dimension Settings" translation="" />
+	<label commandName="DimensionPointGeneratorAlgorithm" devLabel="Point Generator Algorithm" translation="" />
+	<label commandName="DimensionPriorityModifierByStrategyAlgo" devLabel="Dimension Priority Modifier By Strategy" translation="" />
+	<label commandName="DimensionRange" devLabel="Dimension Range (0-100)" translation="" />
+	<label commandName="DimensionRegionBasedFilterAlgorithm" devLabel="Dimension Region Based Filter Algorithm" translation="" />
+	<label commandName="DrawingFormat" devLabel="Format" translation="" />
+	<label commandName="DrawingSheets" devLabel="Sheets" translation="" />
+	<label commandName="EdgeDimGenAlgo" devLabel="Edge Dim Generator Algorithm" translation="" />
+	<label commandName="EnableInterviewDatums" devLabel="Enable Interview datums" translation="" />
+	<label commandName="ExistingDimGeneratorAlgorithm" devLabel="Existing Dimension Generator Algorithm" translation="" />
+	<label commandName="ForceNestISO" devLabel="Force Nest Isometric -1Dont 0UL 1UR 2LL 3LR 4UC 5LC 6MC" translation="" />
+	<label commandName="FusDocAutoBreak" devLabel="Auto Break" translation="" />
+	<label commandName="FusDocAutoDimension" devLabel="Auto Dimension" translation="" />
+	<label commandName="FusDocAutoRotate" devLabel="Auto Rotate" translation="" />
+	<label commandName="FusDocAutomaticDimension" devLabel="Automatic Dimension" translation="" />
+	<label commandName="FusDocBaselineDimension" devLabel="Baseline Dimension" translation="" />
+	<label commandName="FusDocBodiesForAutoRotate" devLabel="Maximum Number Of Bodies For Auto Rotate" translation="" />
+	<label commandName="FusDocChainDimension" devLabel="Chain Dimension" translation="" />
+	<label commandName="FusDocCircularPatternDimensions" devLabel="Circular Pattern Dimensions" translation="" />
+	<label commandName="FusDocCustomLineWidth1" devLabel="0.00mm" translation="" />
+	<label commandName="FusDocCustomLineWidth10" devLabel="0.35mm" translation="" />
+	<label commandName="FusDocCustomLineWidth11" devLabel="0.40mm" translation="" />
+	<label commandName="FusDocCustomLineWidth12" devLabel="0.50mm" translation="" />
+	<label commandName="FusDocCustomLineWidth13" devLabel="0.53mm" translation="" />
+	<label commandName="FusDocCustomLineWidth14" devLabel="0.60mm" translation="" />
+	<label commandName="FusDocCustomLineWidth15" devLabel="0.70mm" translation="" />
+	<label commandName="FusDocCustomLineWidth16" devLabel="0.80mm" translation="" />
+	<label commandName="FusDocCustomLineWidth17" devLabel="0.90mm" translation="" />
+	<label commandName="FusDocCustomLineWidth18" devLabel="1.00mm" translation="" />
+	<label commandName="FusDocCustomLineWidth19" devLabel="1.06mm" translation="" />
+	<label commandName="FusDocCustomLineWidth2" devLabel="0.05mm" translation="" />
+	<label commandName="FusDocCustomLineWidth20" devLabel="1.20mm" translation="" />
+	<label commandName="FusDocCustomLineWidth21" devLabel="1.40mm" translation="" />
+	<label commandName="FusDocCustomLineWidth22" devLabel="1.58mm" translation="" />
+	<label commandName="FusDocCustomLineWidth23" devLabel="2.00mm" translation="" />
+	<label commandName="FusDocCustomLineWidth24" devLabel="2.11mm" translation="" />
+	<label commandName="FusDocCustomLineWidth3" devLabel="0.09mm" translation="" />
+	<label commandName="FusDocCustomLineWidth4" devLabel="0.13mm" translation="" />
+	<label commandName="FusDocCustomLineWidth5" devLabel="0.15mm" translation="" />
+	<label commandName="FusDocCustomLineWidth6" devLabel="0.18mm" translation="" />
+	<label commandName="FusDocCustomLineWidth7" devLabel="0.20mm" translation="" />
+	<label commandName="FusDocCustomLineWidth8" devLabel="0.25mm" translation="" />
+	<label commandName="FusDocCustomLineWidth9" devLabel="0.30mm" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue0" devLabel="A0 (1189mm x 841mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue1" devLabel="A1 (841mm x 594mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue10" devLabel="D (34in x 22in)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue11" devLabel="E (44in x 34in)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue2" devLabel="A2 (594mm x 420mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue3" devLabel="A3 (420mm x 297mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue4" devLabel="A4 (210mm x 297mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue5" devLabel="A4 (297mm x 210mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue6" devLabel="A (8.5in x 11in)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue7" devLabel="A (11in x 8.5in)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue8" devLabel="B (17in x 11in)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue9" devLabel="C (22in x 17in)" translation="" />
+	<label commandName="FusDocDimensionDirection1" devLabel="Bottom left" translation="" />
+	<label commandName="FusDocDimensionDirection2" devLabel="Bottom right" translation="" />
+	<label commandName="FusDocDimensionDirection3" devLabel="Top left" translation="" />
+	<label commandName="FusDocDimensionDirection4" devLabel="Top right" translation="" />
+	<label commandName="FusDocDimensionHDirection" devLabel="Dimension Datum" translation="" />
+	<label commandName="FusDocDimensionStrategy" devLabel="Dimension Strategy" translation="" />
+	<label commandName="FusDocFacesForAutoRotate" devLabel="Maximum Number Of Faces For Auto Rotate" translation="" />
+	<label commandName="FusDocHighlightDimensionset" devLabel="Highlight Dimensionset" translation="" />
+	<label commandName="FusDocInterLoopDimensionStrategy" devLabel="Inter Loop Dimension Strategy" translation="" />
+	<label commandName="FusDocMinimumIndividualBreakPercentage" devLabel="Minimum Individual Break Percentage" translation="" />
+	<label commandName="FusDocMinimumTotalBreakPercentage" devLabel="Minimum Total Break Percentage" translation="" />
+	<label commandName="FusDocOrdinateDimension" devLabel="Ordinate Dimension" translation="" />
+	<label commandName="FusDocOverallDimension" devLabel="Overall Dimension" translation="" />
+	<label commandName="FusDocPreferHnTNoteOverDims" devLabel="Prefer hole and thread note over dimensions" translation="" />
+	<label commandName="FusDocPreferSymmetricDims" devLabel="Prefer Symmetric Dims for Symmertic Part" translation="" />
+	<label commandName="FusDocPreferredSheetSize" devLabel="Preferred Sheet Sizes" translation="" />
+	<label commandName="FusDocSymmetricDimension" devLabel="Symmetric Dimension" translation="" />
+	<label commandName="FusDocSymmetricWithBaseLineDimension" devLabel="Symmetric With Baseline Dimension" translation="" />
+	<label commandName="FusDocSymmetricWithOrdinateDimension" devLabel="Symmetric With Ordinate Dimension" translation="" />
+	<label commandName="FusDocTextHeightASME0" devLabel="0.07in" translation="" />
+	<label commandName="FusDocTextHeightASME1" devLabel="0.1in" translation="" />
+	<label commandName="FusDocTextHeightASME2" devLabel="0.12in" translation="" />
+	<label commandName="FusDocTextHeightASME3" devLabel="0.24in" translation="" />
+	<label commandName="FusDocTextHeightASME4" devLabel="0.35in" translation="" />
+	<label commandName="FusDocTextHeightASME5" devLabel="0.5in" translation="" />
+	<label commandName="FusDocTextHeightASME6" devLabel="0.75in" translation="" />
+	<label commandName="FusDocTextHeightISO0" devLabel="1.8mm" translation="" />
+	<label commandName="FusDocTextHeightISO1" devLabel="2.5mm" translation="" />
+	<label commandName="FusDocTextHeightISO2" devLabel="3.5mm" translation="" />
+	<label commandName="FusDocTextHeightISO3" devLabel="5mm" translation="" />
+	<label commandName="FusDocTextHeightISO4" devLabel="7mm" translation="" />
+	<label commandName="FusDocTextHeightISO5" devLabel="10mm" translation="" />
+	<label commandName="FusDocTextHeightISO6" devLabel="14mm" translation="" />
+	<label commandName="FusDocTextHeightISO7" devLabel="20mm" translation="" />
+	<label commandName="FusionDocAutoCutView" devLabel="Auto Cut View" translation="" />
+	<label commandName="FusionDocAutoDetailedView" devLabel="Auto Detailed View" translation="" />
+	<label commandName="FusionDocAutoNest" devLabel="Auto Nest" translation="" />
+	<label commandName="FusionDocAutoScale" devLabel="Auto Scale" translation="" />
+	<label commandName="FusionDocAutoSectionalView" devLabel="Auto Sectional View" translation="" />
+	<label commandName="FusionDocAutoView" devLabel="Auto View" translation="" />
+	<label commandName="FusionDocAutoViewMaxBodiesToConsider" devLabel="Max Bodies To Consider for Auto View" translation="" />
+	<label commandName="FusionDocAutoViewPercentDiffInViews" devLabel="Percentage Difference In Views" translation="" />
+	<label commandName="FusionDocCreateIsometricView" devLabel="Isometric View" translation="" />
+	<label commandName="FusionDocForcePreferredIsoView" devLabel="Force Preferred Isometric View" translation="" />
+	<label commandName="FusionDocOnlyConsiderVisibleEdges" devLabel="Only Consider Visible Edges Auto View" translation="" />
+	<label commandName="FusionDocSingleBodySection" devLabel="Only Single Body Sectional View" translation="" />
+	<label commandName="GeneralGroup" devLabel="General Settings" translation="" />
+	<label commandName="HoleAndThreadNoteGeneratorAlgo" devLabel="Hole And Thread Note Generator Algorithm" translation="" />
+	<label commandName="HorizontalBaseLineDimGenAlgorithm" devLabel="Horizontal Base Line Dim Algorithm" translation="" />
+	<label commandName="HorizontalChainDimGenAlgorithm" devLabel="Horizontal Chain Dim Algorithm" translation="" />
+	<label commandName="InputRange" devLabel="Range" translation="" />
+	<label commandName="InterLoopDimGeneratorAlgo" devLabel="InterLoop Dim Generator Algorithm" translation="" />
+	<label commandName="InterViewDimensionFungibleAlgorithm" devLabel="Inter View Dimension Fungible Algorithm" translation="" />
+	<label commandName="Isometric View Preference ASME" devLabel="Isometric View Preference 0TR 1TL 2BL 3BR" translation="" />
+	<label commandName="Isometric View Preference ISO" devLabel="Isometric View Preference 0TR 1TL 2BL 3BR" translation="" />
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="" />
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="" />
+	<label commandName="LinearUnitFormat2" devLabel="Engineering" translation="" />
+	<label commandName="LinearUnitFormat3" devLabel="Architectural" translation="" />
+	<label commandName="LoopSymmetryGeneratorAlgorithm" devLabel="Loop Symmetry Generator Algorithm" translation="" />
+	<label commandName="MainASMGroup" devLabel="Main Assembly" translation="" />
+	<label commandName="MainASMISOGroup" devLabel="Main Assembly ISO" translation="" />
+	<label commandName="MainASMOrthoGroup" devLabel="Main Assembly Ortho" translation="" />
+	<label commandName="MainASMSheetCreate" devLabel="Create Main Assembly" translation="" />
+	<label commandName="MainAsmISOPartList" devLabel="Include Parts List" translation="" />
+	<label commandName="MainAsmOrthoPartList" devLabel="Include Parts List" translation="" />
+	<label commandName="MainAsmOrthoPartListLocation" devLabel="Default Parts List Location" translation="" />
+	<label commandName="MainAsmSheetOrthoViesw" devLabel="Sheet with Ortho Views" translation="" />
+	<label commandName="MainAsmSheetPartListLocation" devLabel="Default Parts List Location" translation="" />
+	<label commandName="MainAsmSheetSingleISOView" devLabel="Sheet with Single ISO View" translation="" />
+	<label commandName="MaxBodiesToDimension" devLabel="Max Bodies To Dimension" translation="" />
+	<label commandName="MaxNumberOfDims" devLabel="Max Number of Dimensions" translation="" />
+	<label commandName="MinLeaderLength_ASME" devLabel="Minimum Leader Length" translation="" />
+	<label commandName="MinLeaderLength_ISO" devLabel="Minimum Leader Length" translation="" />
+	<label commandName="MinMovementForArrangeAnnotation" devLabel="Minimum Movement For Arrange Annotation" translation="" />
+	<label commandName="MoveDimsWithNoCommonEdgeAndDifferentZToYellowZone" devLabel="Move Dims With No Common Edge And DifferentZ To YellowZone" translation="" />
+	<label commandName="MoveRadialDimsWithSmallArcLengthAndAngleToYellowZoneAlgo" devLabel="Move Radial Dims With Small Arc Length And Angle To Yellow Zone" translation="" />
+	<label commandName="OrdinateDimGenAlgorithm" devLabel="Ordinate Dim Generator Algorithm" translation="" />
+	<label commandName="OverallDimsGeneratorAlgo" devLabel="Overall Dim Generator Algorithm" translation="" />
+	<label commandName="PaddAsPerAnnotations" devLabel="Padd As Per Annotations" translation="" />
+	<label commandName="PaddAsPerDetails" devLabel="Padd As Per Details" translation="" />
+	<label commandName="PartListLoc1" devLabel="Bottom Left" translation="" />
+	<label commandName="PartListLoc2" devLabel="Bottom Right" translation="" />
+	<label commandName="PartListLoc3" devLabel="Top Left" translation="" />
+	<label commandName="PartListLoc4" devLabel="Top Right" translation="" />
+	<label commandName="PreferHZ" devLabel="Prefer Horizontal" translation="" />
+	<label commandName="ProjecteAnd3dLengthCheckAlgorithm" devLabel="Projected And 3d Length Check Algorithm" translation="" />
+	<label commandName="RadialArcAnglehreshold_ASME" devLabel="Radial Arc Angle threshold" translation="" />
+	<label commandName="RadialArcLengthThreshold_ASME" devLabel="Radial Arc length threshold" translation="" />
+	<label commandName="RadialArcLengthThreshold_ISO" devLabel="Radial Arc length threshold" translation="" />
+	<label commandName="Range" devLabel="Range (Multi-File)" translation="" />
+	<label commandName="RedundantDimensionRemovalAlgorithm" devLabel="Redundant Dimension Removal Algorithm(Graph)" translation="" />
+	<label commandName="RelativeSmallDim" devLabel="Relative small dim percentage" translation="" />
+	<label commandName="RelativelySmallDimWithDifferentXorYAlgo" devLabel="Relatively Small Dims With Different XY Algorithm" translation="" />
+	<label commandName="RemoveDimsInTemplateWorkflow" devLabel="Remove Quick Dims In Template Workflow" translation="" />
+	<label commandName="RemoveDisassociatedDims" devLabel="Remove Disassociated Dims" translation="" />
+	<label commandName="RunAutoCmdsDuringTests" devLabel="Run Auto-Cmds during automation tests" translation="" />
+	<label commandName="SameCircularDimFungibilityAlgo" devLabel="Same Circular Dim Fungibility Algorithm" translation="" />
+	<label commandName="SameLoopCheckerAlgorithm" devLabel="Same Loop Checker Algorithm" translation="" />
+	<label commandName="SameLoopFungibilityAlgo" devLabel="Same Loop Fungibility Algorithm" translation="" />
+	<label commandName="SelectedSheets" devLabel="Selected Sheets (Multi-File)" translation="" />
+	<label commandName="SheetMetalFlatGroup" devLabel="Sheet Metal : Flat" translation="" />
+	<label commandName="SheetMetalFlatPCreateSheet" devLabel="SheetMetal: Flat Pattern" translation="" />
+	<label commandName="SheetMetalFlatPISOWithOrthoViews" devLabel="Add Folded Metal Isometric View" translation="" />
+	<label commandName="SheetMetalFlatPIncludeBendTable" devLabel="Include Bend Table" translation="" />
+	<label commandName="SheetMetalFlatPIncludeBendTableLoc" devLabel="Bend Table Location" translation="" />
+	<label commandName="SheetMetalFlatPWithOrthoViews" devLabel="SheetMetal: Sheet With Orthogonal Views" translation="" />
+	<label commandName="SheetMetalFoldedCreateSheet" devLabel="Create Sheet" translation="" />
+	<label commandName="SheetMetalFoldedGroup" devLabel="Sheet Metal : Folded" translation="" />
+	<label commandName="SheetMetalFoldedISOWithOrthoViews" devLabel="Add ISO View with Ortho Views" translation="" />
+	<label commandName="SheetMetalFoldedWithOrthoViews" devLabel="Sheet With Orthogonal Views" translation="" />
+	<label commandName="SimilarHoleIdentifierAlgo" devLabel="Similar Hole Identifier Algorithm" translation="" />
+	<label commandName="SliderValue" devLabel="Slider Value" translation="" />
+	<label commandName="SmallDimPriorityModifierAlgo" devLabel="Small Dimension Priority Modifier" translation="" />
+	<label commandName="SmallDimThreshold_ASME" devLabel="Small dimension threshold" translation="" />
+	<label commandName="SmallDimThreshold_ISO" devLabel="Small dimension threshold" translation="" />
+	<label commandName="SubASMCreateSheetOrtho" devLabel="Sheet with Ortho Views" translation="" />
+	<label commandName="SubASMGroup" devLabel="Sub Assemblies" translation="" />
+	<label commandName="SubASMISOGroup" devLabel="Sub Assemblies ISO" translation="" />
+	<label commandName="SubASMOrthoGroup" devLabel="Sub Assemblies Ortho" translation="" />
+	<label commandName="SubASMOrthoPartListLocation" devLabel="Default Parts List Location" translation="" />
+	<label commandName="SubASMSheetCreate" devLabel="Create Sub Assembly" translation="" />
+	<label commandName="SubASMSheetISOPartList" devLabel="Include Parts List" translation="" />
+	<label commandName="SubASMSheetOrthoPartList" devLabel="Include Parts List" translation="" />
+	<label commandName="SubASMSheetSingleISO" devLabel="Sheet with Single ISO View" translation="" />
+	<label commandName="SubASmSheetISOPartListLocation" devLabel="Default Parts List Location" translation="" />
+	<label commandName="SymmetricDimsGeneratorAlgo" devLabel="Symmetric Dim Generator Algorithm" translation="" />
+	<label commandName="SymmetricRecipeSettingAlgo" devLabel="Symmetric Recipe Setting Algorithm" translation="" />
+	<label commandName="SymmetricWithBaselineDimsGenerator" devLabel="Symmetric With Baseline Dim Generator Algorithm" translation="" />
+	<label commandName="SymmetryDimFungibilityAlgo" devLabel="Symmetry Dim Fungibility Algorithm" translation="" />
+	<label commandName="TangencyPointPriorityAlgo" devLabel="G1 Continuity Algorithm" translation="" />
+	<label commandName="TemplateGroup" devLabel="Template Setings" translation="" />
+	<label commandName="TextHeightCustom" devLabel="Custom" translation="" />
+	<label commandName="TextHeightLarge" devLabel="Large" translation="" />
+	<label commandName="TextHeightMedium" devLabel="Medium" translation="" />
+	<label commandName="TextHeightSmall" devLabel="Small" translation="" />
+	<label commandName="ThreeEdgesIntersectionDimPriorityAlgo" devLabel="Three Edges Intersection DimPriority Algorithm" translation="" />
+	<label commandName="TurnedComponentDimPriorityAlgo" devLabel="Turned Component Dim Priority Algorithm" translation="" />
+	<label commandName="UniqueSectionGeneratorAlgorithm" devLabel="Unique Section Generator Algorithm" translation="" />
+	<label commandName="UniqueSectionPriorityReducingAlgo" devLabel="Unique Section Dim Priority Reducing Algorithm" translation="" />
+	<label commandName="VerticalBaseLineDimGenAlgorithm" devLabel="Vertical Base Line Dim Algorithm" translation="" />
+	<label commandName="VerticalChainDimGenAlgorithm" devLabel="Vertical Chain Dim Algorithm" translation="" />
+	<label commandName="ViewDefaultPadding" devLabel="View Default Padding val * textHeight" translation="" />
+	<label commandName="ViewNestCorner" devLabel="View Nest corner 0UL 1UR 2LL 3LR 4UC 5LC 6MC" translation="" />
+	<label commandName="ViewNestDirection" devLabel="View Nest Direction 0-HZ" translation="" />
+	<label commandName="ViewPreference_ASME" devLabel="Auto View Preference 0T 1L 2B 3R" translation="" />
+	<label commandName="ViewPreference_ISO" devLabel="Auto View Preference 0T 1L 2B 3R" translation="" />
+	<label commandName="minDistToDim_ASME" devLabel="Minimum distance to dimension (ASME)" translation="" />
+	<label commandName="minDistToDim_ISO" devLabel="Minimum distance to dimension (ISO)" translation="" />
+</Resource>

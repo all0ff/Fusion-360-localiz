@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ASSEMBLYSOURCETYPE" devLabel="Assembly" translation="Assemblage"/>
+	<label commandName="AlignedDimDirAndLengthSamePriorityAlgo" devLabel="Aligned Dimension Dir And Length Same Priority Algorithm" translation="Algorithme de même priorité de direction et de longueur des cotes alignées"/>
+	<label commandName="AlignedDimGenAlgo" devLabel="Aligned Dimension Generator Algorithm" translation="Algorithme du générateur de cotes alignées"/>
+	<label commandName="AlignedDimSameLengthAndEndPointsWithSameXorYPriorityAlgo" devLabel="Aligned Dimension SameLength And EndPoints With Same XorY PriorityAlgo Algorithm" translation="Algorithme de même priorité X ou Y et extrémités et longueur identique des cotes alignées"/>
+	<label commandName="AngularDimEdgeLengthThreshold_ASME" devLabel="Angular dimension Edge length threshold" translation="Seuil de longueur d'arête de cote angulaire"/>
+	<label commandName="AngularDimEdgeLengthThreshold_ISO" devLabel="Angular dimension Edge length threshold" translation="Seuil de longueur d'arête de cote angulaire"/>
+	<label commandName="AngularDimGenAlgo" devLabel="Angular Dimension Generator Algorithm" translation="Algorithme du générateur de cotes angulaires"/>
+	<label commandName="AnimationCreateStoryboardSheet" devLabel="Create Storyboard Sheet" translation="Créer une feuille de scénario"/>
+	<label commandName="AnimationDefaultPartListLoc" devLabel="Default Parts List Loc" translation="Emplacement de liste de pièces par défaut"/>
+	<label commandName="AnimationIncludePartList" devLabel="Include Parts List" translation="Inclure la liste de pièces"/>
+	<label commandName="AnimationWithSingleISO" devLabel="Sheet with Single ISO View" translation="Feuille avec vue ISO unique"/>
+	<label commandName="Animationroup" devLabel="Animation" translation="Animation"/>
+	<label commandName="AspectRatio" devLabel="Aspect Ratio" translation="Rapport de linéarité"/>
+	<label commandName="AutoArrangeDimensions" devLabel="Auto Arrange Dimensions:Main Assembly" translation="Réorganiser automatiquement les cotes:Assemblage principal"/>
+	<label commandName="AutoArrangeDimensions_Component" devLabel="Auto Arrange Dimensions:Component" translation="Réorganiser automatiquement les cotes:Composant"/>
+	<label commandName="AutoArrangeDimensions_FlatPattern" devLabel="Auto Arrange Dimensions:Sheet Metal Flat Pattern" translation="Réorganiser automatiquement les cotes:Mise à plat de tôlerie"/>
+	<label commandName="AutoArrangeDimensions_Folded" devLabel="Auto Arrange Dimensions:Sheet Metal Folded" translation="Réorganiser automatiquement les cotes:Tôlerie pliée"/>
+	<label commandName="AutoArrangeDimensions_SA" devLabel="Auto Arrange Dimensions:Sub Assembly" translation="Réorganiser automatiquement les cotes: Sous-assemblage"/>
+	<label commandName="AutoArrangeDimensions_TidyUp" devLabel="Auto Arrange Dimensions:Tidy Up" translation="Réorganiser automatiquement les cotes: Cadrer"/>
+	<label commandName="AutoArrangeGroup" devLabel="Auto Arrange Setings" translation="Réorganiser automatiquement les paramètres"/>
+	<label commandName="AutoBreakGroup" devLabel="Auto Break Setings" translation="Paramètres de coupure automatique"/>
+	<label commandName="AutoCenterLine" devLabel="Auto centerline" translation="Trait d'axe automatique"/>
+	<label commandName="AutoCenterLineForHole" devLabel="Holes" translation="Perçages"/>
+	<label commandName="AutoCenterLineForRoundCuts" devLabel="Round Cuts" translation="Coupes arrondies"/>
+	<label commandName="AutoCenterLineForRoundExtrude" devLabel="Round Extrude" translation="Extrusion circulaire"/>
+	<label commandName="AutoCenterLineGroup" devLabel="Auto Centerline Setings" translation="Paramètres de trait d'axe automatique"/>
+	<label commandName="AutoCenterMark" devLabel="Auto centermark" translation="Marque de centre automatique"/>
+	<label commandName="AutoCenterMarkForFilet" devLabel="Fillet" translation="Congé"/>
+	<label commandName="AutoCenterMarkForHole" devLabel="Holes" translation="Perçages"/>
+	<label commandName="AutoCenterMarkForRoundCuts" devLabel="Round Cuts" translation="Coupes arrondies"/>
+	<label commandName="AutoCenterMarkForRoundExtrude" devLabel="Round Extrude" translation="Extrusion circulaire"/>
+	<label commandName="AutoCenterMarkGroup" devLabel="Auto Centermark Setings" translation="Paramètres de marque de centre automatique"/>
+	<label commandName="AutoCenterMarkPattern" devLabel="Pattern" translation="Réseau"/>
+	<label commandName="AutoCmFilletMaxRadius" devLabel="Fillet Max Radius" translation="Rayon max. du congé"/>
+	<label commandName="AutoCmFilletMinRadius" devLabel="Fillet Min Radius" translation="Rayon min. du congé"/>
+	<label commandName="AutoCutGroup" devLabel="Auto Cut Setings" translation="Paramètres de coupe automatique"/>
+	<label commandName="AutoDrawingGenerationGoup" devLabel="Automated Drawing Generation" translation="Génération automatique de dessins"/>
+	<label commandName="AutoHoleNote" devLabel="Auto Hole Note" translation="Note de perçage automatique"/>
+	<label commandName="AutoHoletGroup" devLabel="Auto Hole Note Setings" translation="Paramètres de note de perçage automatique"/>
+	<label commandName="AutoNestGroup" devLabel="Auto Nest Setings" translation="Paramètres d'imbrication automatique"/>
+	<label commandName="AutoRotateForManualView" devLabel="Enable for Manual View" translation="Activer pour la vue manuelle"/>
+	<label commandName="AutoRotateGroup" devLabel="Auto Rotate Setings" translation="Paramètres de rotation automatique"/>
+	<label commandName="AutoScaleFitOption" devLabel="Fit Option" translation="Option d'ajustement"/>
+	<label commandName="AutoScaleFitOption_MOVE_TO_BIGGER_SHEET" devLabel="Move To Bigger Sheet" translation="Déplacer vers une feuille plus grande"/>
+	<label commandName="AutoScaleFitOption_NO_OP" devLabel="None" translation="Aucun"/>
+	<label commandName="AutoScaleFitOption_SCALE_DOWN" devLabel="Scale Down" translation="Réduire"/>
+	<label commandName="AutoScaleGroup" devLabel="Auto Scale Setings" translation="Paramètres d'échelle automatique"/>
+	<label commandName="AutoSheetSizeGroup" devLabel="Auto Sheet Size Setings" translation="Paramètres de taille de feuille automatique"/>
+	<label commandName="AutoViewGroup" devLabel="Auto View Setings" translation="Paramètres de vue automatique"/>
+	<label commandName="BreakDistance_ASME" devLabel="Break Distance" translation="Distance de coupure"/>
+	<label commandName="BreakDistance_ISO" devLabel="Break Distance" translation="Distance de coupure"/>
+	<label commandName="COMPONENTSOURCETYPE" devLabel="Component" translation="Composant"/>
+	<label commandName="CellMapBasedLoopGeneratorAlgorithm" devLabel="Loop Generator Algorithm" translation="Algorithme du générateur de boucles"/>
+	<label commandName="CenterMarkDimGenAlgo" devLabel="Center Mark Dim Genrator Algorithm" translation="Algorithme du générateur de cotes de la marque de centre"/>
+	<label commandName="ChamferDimGenAlgo" devLabel="Chamfer Dimension Generator Algorithm" translation="Algorithme du générateur de cotes de chanfrein"/>
+	<label commandName="ChamferDimPriorityAlgo" devLabel="Chamfer Dimension Priority Algorithm" translation="Algorithme de priorité des cotes de chanfrein"/>
+	<label commandName="CircularDimGenAlgorithm" devLabel="Circular Dim Algorithm" translation="Algorithme de cote circulaire"/>
+	<label commandName="CompISOWithOrthoViews" devLabel="Add ISO View with Ortho Views" translation="Ajouter une vue ISO avec des vues ortho"/>
+	<label commandName="CompSheetCreate" devLabel="Create Component Sheet" translation="Créer une feuille de composant"/>
+	<label commandName="CompWithOrthoViews" devLabel="Sheet With Orthogonal Views" translation="Feuille avec vues orthogonales"/>
+	<label commandName="ComponentGroup" devLabel="Component" translation="Composant"/>
+	<label commandName="ConfigTable_ConfigName_Column" devLabel="Configuration Name" translation="Nom de la configuration"/>
+	<label commandName="ConfigurationGroup" devLabel="" translation=""/>
+	<label commandName="ContextBodyClientType" devLabel="Context Body" translation="Corps de contexte"/>
+	<label commandName="CustomKeyword" devLabel="Custom" translation="Personnalisé"/>
+	<label commandName="DiffenentXYPriorityReducingAlgo" devLabel="Diffenent XY Priority Reducing Algorithm" translation="Algorithme de réduction de priorité XY différente"/>
+	<label commandName="DimToDimDistance" devLabel="Dim to Dim Distance" translation="Distance entre les cotes"/>
+	<label commandName="DimensionAlgos" devLabel="Disabled Dimension Algorithms" translation="Algorithmes de cotation désactivés"/>
+	<label commandName="DimensionEdgeGeneratorAlgorithm" devLabel="Edge Generator Algorithm" translation="Algorithme du générateur d'arêtes"/>
+	<label commandName="DimensionGroup" devLabel="Dimension Settings" translation="Paramètres de cote"/>
+	<label commandName="DimensionPointGeneratorAlgorithm" devLabel="Point Generator Algorithm" translation="Algorithme du générateur de points"/>
+	<label commandName="DimensionPriorityModifierByStrategyAlgo" devLabel="Dimension Priority Modifier By Strategy" translation="Modificateur de priorité de cote par stratégie"/>
+	<label commandName="DimensionRange" devLabel="Dimension Range (0-100)" translation="Intervalle de cotes (0-100)"/>
+	<label commandName="DimensionRegionBasedFilterAlgorithm" devLabel="Dimension Region Based Filter Algorithm" translation="Algorithme de filtre basé sur la zone de cote"/>
+	<label commandName="DimensionUnitsBrowserLabel" devLabel="Dimension Units: " translation="Unités de cote : "/>
+	<label commandName="DimensionUnitsBrowserTooltip" devLabel="Change Dimension Units" translation="Modifier les unités de cote"/>
+	<label commandName="DisplayBorderBrowserLabel" devLabel="Display Border: " translation="Afficher le cadre : "/>
+	<label commandName="DisplayBorderBrowserToolTip" devLabel="Change Display Border" translation="Modifier l'affichage du cadre"/>
+	<label commandName="DisplayTitleBlockBrowserLabel" devLabel="Display Title Block: " translation="Afficher le cartouche : "/>
+	<label commandName="DisplayTitleBlockBrowserToolTip" devLabel="Change Display Title Block" translation="Modifier l'affichage du cartouche"/>
+	<label commandName="DocFontBrowserLabel" devLabel="Font: " translation="Police : "/>
+	<label commandName="DocFontBrowserToolTip" devLabel="Change Font" translation="Modifier la police"/>
+	<label commandName="DocLineWidthGroupBrowserLabel" devLabel="Line Width Group: " translation="Groupe de largeur de ligne : "/>
+	<label commandName="DocLineWidthGroupBrowserToolTip" devLabel="Change Line Width Group" translation="Modifier le groupe de largeur de ligne"/>
+	<label commandName="DocTextHeightGroupBrowserLabel" devLabel="Text Height Group: " translation="Groupe de hauteur du texte : "/>
+	<label commandName="DocTextHeightGroupBrowserToolTip" devLabel="Change Text Height Group" translation="Modifier le groupe de hauteur du texte"/>
+	<label commandName="DocUnitBrowserLabel" devLabel="Units: " translation="Unités : "/>
+	<label commandName="DocUnitBrowserToolTip" devLabel="Change Units" translation="Modifier les unités"/>
+	<label commandName="DocumentSettingsBrowserCMDToolTip" devLabel="Change Document Settings" translation="Modifier les paramètres du document"/>
+	<label commandName="EdgeDimGenAlgo" devLabel="Edge Dim Generator Algorithm" translation="Algorithme du générateur de cotes d'arête"/>
+	<label commandName="EdgeMajoritySymbolTypeFull" devLabel="FullList" translation="Liste complète"/>
+	<label commandName="EdgeMajoritySymbolTypeInput" devLabel="Edge" translation="Arête"/>
+	<label commandName="EdgeMajoritySymbolTypeSimplified" devLabel="SimplifiedList" translation="Liste simplifiée"/>
+	<label commandName="EdgeMajoritySymbolTypeToolTip" devLabel="Specify the edge majority symbol type" translation="Spécifier le type de symbole de majorité d'arête"/>
+	<label commandName="EnableInterviewDatums" devLabel="Enable Interview datums" translation="Activer les références d'entretien"/>
+	<label commandName="ExistingDimGeneratorAlgorithm" devLabel="Existing Dimension Generator Algorithm" translation="Algorithme du générateur de cotes existant"/>
+	<label commandName="FLATPATTERNSOURCETYPE" devLabel="Component(Flat Pattern)" translation="Composant (mise à plat)"/>
+	<label commandName="FOLDEDMODELSOURCETYPE" devLabel="Component" translation="Composant"/>
+	<label commandName="FastenerIdentifierEndpointName" devLabel="Fastener Identifier Endpoint" translation="Point de terminaison de l'identificateur d'attache"/>
+	<label commandName="FastenerIdentifierEndpointToolTip" devLabel="Fastener Identifier Endpoint" translation="Point de terminaison de l'identificateur d'attache"/>
+	<label commandName="FlatPattern" devLabel="Flat Pattern" translation="Mise à plat"/>
+	<label commandName="ForceNestISO" devLabel="Force Nest Isometric -1Dont 0UL 1UR 2LL 3LR 4UC 5LC 6MC" translation="Forcer l'imbrication isométrique -1Dont 0UL 1UR 2LL 3LR 4UC 5LC 6MC"/>
+	<label commandName="FusDocAutoBreak" devLabel="Auto Break" translation="Coupure automatique"/>
+	<label commandName="FusDocAutoDimension" devLabel="Auto Dimension" translation="Cotation automatique"/>
+	<label commandName="FusDocAutoRotate" devLabel="Auto Rotate" translation="Rotation automatique"/>
+	<label commandName="FusDocAutomaticDimension" devLabel="Automatic Dimension" translation="Cote automatique"/>
+	<label commandName="FusDocBaselineDimension" devLabel="Baseline Dimension" translation="Cote de ligne de base"/>
+	<label commandName="FusDocBodiesForAutoRotate" devLabel="Maximum Number Of Bodies For Auto Rotate" translation="Nombre maximal de corps pour la rotation automatique"/>
+	<label commandName="FusDocChainDimension" devLabel="Chain Dimension" translation="Cote en série"/>
+	<label commandName="FusDocCircularPatternDimensions" devLabel="Circular Pattern Dimensions" translation="Dimensions du motif circulaire"/>
+	<label commandName="FusDocCustomLineWidth" devLabel="%1%mm" translation="%1%mm"/>
+	<label commandName="FusDocCustomLineWidth1" devLabel="0.00mm" translation="0,00 mm"/>
+	<label commandName="FusDocCustomLineWidth10" devLabel="0.35mm" translation="0,35 mm"/>
+	<label commandName="FusDocCustomLineWidth11" devLabel="0.40mm" translation="0,40 mm"/>
+	<label commandName="FusDocCustomLineWidth12" devLabel="0.50mm" translation="0,50 mm"/>
+	<label commandName="FusDocCustomLineWidth13" devLabel="0.53mm" translation="0,53 mm"/>
+	<label commandName="FusDocCustomLineWidth14" devLabel="0.60mm" translation="0,60 mm"/>
+	<label commandName="FusDocCustomLineWidth15" devLabel="0.70mm" translation="0,70 mm"/>
+	<label commandName="FusDocCustomLineWidth16" devLabel="0.80mm" translation="0,80 mm"/>
+	<label commandName="FusDocCustomLineWidth17" devLabel="0.90mm" translation="0,90 mm"/>
+	<label commandName="FusDocCustomLineWidth18" devLabel="1.00mm" translation="1,00 mm"/>
+	<label commandName="FusDocCustomLineWidth19" devLabel="1.06mm" translation="1,06 mm"/>
+	<label commandName="FusDocCustomLineWidth2" devLabel="0.05mm" translation="0,05 mm"/>
+	<label commandName="FusDocCustomLineWidth20" devLabel="1.20mm" translation="1,20 mm"/>
+	<label commandName="FusDocCustomLineWidth21" devLabel="1.40mm" translation="1,40 mm"/>
+	<label commandName="FusDocCustomLineWidth22" devLabel="1.58mm" translation="1,58 mm"/>
+	<label commandName="FusDocCustomLineWidth23" devLabel="2.00mm" translation="2,00 mm"/>
+	<label commandName="FusDocCustomLineWidth24" devLabel="2.11mm" translation="2,11 mm"/>
+	<label commandName="FusDocCustomLineWidth3" devLabel="0.09mm" translation="0,09 mm"/>
+	<label commandName="FusDocCustomLineWidth4" devLabel="0.13mm" translation="0,13 mm"/>
+	<label commandName="FusDocCustomLineWidth5" devLabel="0.15mm" translation="0,15 mm"/>
+	<label commandName="FusDocCustomLineWidth6" devLabel="0.18mm" translation="0,18 mm"/>
+	<label commandName="FusDocCustomLineWidth7" devLabel="0.20mm" translation="0,20 mm"/>
+	<label commandName="FusDocCustomLineWidth8" devLabel="0.25mm" translation="0,25 mm"/>
+	<label commandName="FusDocCustomLineWidth9" devLabel="0.30mm" translation="0,30 mm"/>
+	<label commandName="FusDocDefaultSheetSizeValue0" devLabel="A0 (1189mm x 841mm)" translation="A0 (1 189 mm x 841 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue1" devLabel="A1 (841mm x 594mm)" translation="A1 (841 mm x 594 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue10" devLabel="D (34in x 22in)" translation="D (34 po x 22 po)"/>
+	<label commandName="FusDocDefaultSheetSizeValue11" devLabel="E (44in x 34in)" translation="E (44 po x 34 po)"/>
+	<label commandName="FusDocDefaultSheetSizeValue2" devLabel="A2 (594mm x 420mm)" translation="A2 (594 mm x 420 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue3" devLabel="A3 (420mm x 297mm)" translation="A3 (420 mm x 297 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue4" devLabel="A4 (210mm x 297mm)" translation="A4 (210 mm x 297 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue5" devLabel="A4 (297mm x 210mm)" translation="A4 (297 mm x 210 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue6" devLabel="A (8.5in x 11in)" translation="A (8.5 po x 11 po)"/>
+	<label commandName="FusDocDefaultSheetSizeValue7" devLabel="A (11in x 8.5in)" translation="A (11 po x 8.5 po)"/>
+	<label commandName="FusDocDefaultSheetSizeValue8" devLabel="B (17in x 11in)" translation="B (17 po x 11 po)"/>
+	<label commandName="FusDocDefaultSheetSizeValue9" devLabel="C (22in x 17in)" translation="C (22 po x 17 po)"/>
+	<label commandName="FusDocDefaultSheetSizeValueCustom" devLabel="Custom" translation="Personnalisé"/>
+	<label commandName="FusDocDesignDlError" devLabel="Could not download design file." translation="Impossible de télécharger le fichier de conception."/>
+	<label commandName="FusDocDesignLinkNotFoundError" devLabel="Could not find the Design file linked with this Drawing" translation="Impossible de trouver le fichier de conception lié à ce dessin"/>
+	<label commandName="FusDocDimensionDirection1" devLabel="Bottom left" translation="En bas à gauche"/>
+	<label commandName="FusDocDimensionDirection2" devLabel="Bottom right" translation="En bas à droite"/>
+	<label commandName="FusDocDimensionDirection3" devLabel="Top left" translation="En haut à gauche"/>
+	<label commandName="FusDocDimensionDirection4" devLabel="Top right" translation="En haut à droite"/>
+	<label commandName="FusDocDimensionHDirection" devLabel="Dimension Datum" translation="Cote de référence"/>
+	<label commandName="FusDocDimensionStrategy" devLabel="Dimension Strategy" translation="Stratégie de cotation"/>
+	<label commandName="FusDocFacesForAutoRotate" devLabel="Maximum Number Of Faces For Auto Rotate" translation="Nombre maximal de faces pour la rotation automatique"/>
+	<label commandName="FusDocHighlightDimensionset" devLabel="Highlight Dimensionset" translation="Mettre en surbrillance le jeu de cotes"/>
+	<label commandName="FusDocInterLoopDimensionStrategy" devLabel="Inter Loop Dimension Strategy" translation="Stratégie de cote inter-boucles"/>
+	<label commandName="FusDocLinearDimensionPrecision0" devLabel="0" translation="0"/>
+	<label commandName="FusDocLinearDimensionPrecision1" devLabel="0.1" translation="0.1"/>
+	<label commandName="FusDocLinearDimensionPrecision10" devLabel="1" translation="1"/>
+	<label commandName="FusDocLinearDimensionPrecision11" devLabel="1/2" translation="1/2"/>
+	<label commandName="FusDocLinearDimensionPrecision12" devLabel="1/4" translation="1/4"/>
+	<label commandName="FusDocLinearDimensionPrecision13" devLabel="1/8" translation="1/8"/>
+	<label commandName="FusDocLinearDimensionPrecision14" devLabel="1/16" translation="1/16"/>
+	<label commandName="FusDocLinearDimensionPrecision15" devLabel="1/32" translation="1/32"/>
+	<label commandName="FusDocLinearDimensionPrecision16" devLabel="1/64" translation="1/64"/>
+	<label commandName="FusDocLinearDimensionPrecision17" devLabel="1/128" translation="1/128"/>
+	<label commandName="FusDocLinearDimensionPrecision18" devLabel="1/256" translation="1/256"/>
+	<label commandName="FusDocLinearDimensionPrecision19" devLabel="0'-0&quot;" translation="0'-0&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision2" devLabel="0.12" translation="0.12"/>
+	<label commandName="FusDocLinearDimensionPrecision20" devLabel="0'-0.1&quot;" translation="0'-0,1&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision21" devLabel="0'-0.12&quot;" translation="0'-0,12&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision22" devLabel="0'-0.123&quot;" translation="0'-0,123&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision23" devLabel="0'-0.1234&quot;" translation="0'-0,1234&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision24" devLabel="0'-0.12345&quot;" translation="0'-0,12345&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision25" devLabel="0'-0.123456&quot;" translation="0'-0,123456&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision26" devLabel="0'-0.1234567&quot;" translation="0'-0,1234567&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision27" devLabel="0'-0.12345678&quot;" translation="0'-0,12345678&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision28" devLabel="0'-0&quot;" translation="0'-0&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision29" devLabel="0'-0 1/2&quot;" translation="0'-0 1/2&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision3" devLabel="0.123" translation="0.123"/>
+	<label commandName="FusDocLinearDimensionPrecision30" devLabel="0'-0 1/4&quot;" translation="0'-0 1/4&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision31" devLabel="0'-0 1/8&quot;" translation="0'-0 1/8&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision32" devLabel="0'-0 1/16&quot;" translation="0'-0 1/16&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision33" devLabel="0'-0 1/32&quot;" translation="0'-0 1/32&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision34" devLabel="0'-0 1/64&quot;" translation="0'-0 1/64&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision35" devLabel="0'-0 1/128&quot;" translation="0'-0 1/128&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision36" devLabel="0'-0 1/256&quot;" translation="0'-0 1/256&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision4" devLabel="0.1234" translation="0.1234"/>
+	<label commandName="FusDocLinearDimensionPrecision5" devLabel="0.12345" translation="0.12345"/>
+	<label commandName="FusDocLinearDimensionPrecision6" devLabel="0.123456" translation="0.123456"/>
+	<label commandName="FusDocLinearDimensionPrecision7" devLabel="0.1234567" translation="0.1234567"/>
+	<label commandName="FusDocLinearDimensionPrecision8" devLabel="0.12345678" translation="0.12345678"/>
+	<label commandName="FusDocMinimumIndividualBreakPercentage" devLabel="Minimum Individual Break Percentage" translation="Pourcentage de coupure individuelle minimum"/>
+	<label commandName="FusDocMinimumTotalBreakPercentage" devLabel="Minimum Total Break Percentage" translation="Pourcentage de coupure totale minimum"/>
+	<label commandName="FusDocOptionsSheetSizeA0L" devLabel="A0" translation="A0"/>
+	<label commandName="FusDocOptionsSheetSizeA0P" devLabel="A0" translation="A0"/>
+	<label commandName="FusDocOptionsSheetSizeA1L" devLabel="A1" translation="A1"/>
+	<label commandName="FusDocOptionsSheetSizeA1P" devLabel="A1" translation="A1"/>
+	<label commandName="FusDocOptionsSheetSizeA2L" devLabel="A2" translation="A2"/>
+	<label commandName="FusDocOptionsSheetSizeA2P" devLabel="A2" translation="A2"/>
+	<label commandName="FusDocOptionsSheetSizeA3L" devLabel="A3" translation="A3"/>
+	<label commandName="FusDocOptionsSheetSizeA3P" devLabel="A3" translation="A3"/>
+	<label commandName="FusDocOptionsSheetSizeA4L" devLabel="A4" translation="A4"/>
+	<label commandName="FusDocOptionsSheetSizeA4P" devLabel="A4" translation="A4"/>
+	<label commandName="FusDocOptionsSheetSizeAL" devLabel="A" translation="A"/>
+	<label commandName="FusDocOptionsSheetSizeAP" devLabel="A" translation="A"/>
+	<label commandName="FusDocOptionsSheetSizeBL" devLabel="B" translation="B"/>
+	<label commandName="FusDocOptionsSheetSizeBP" devLabel="B" translation="B"/>
+	<label commandName="FusDocOptionsSheetSizeCL" devLabel="C" translation="C"/>
+	<label commandName="FusDocOptionsSheetSizeCP" devLabel="C" translation="C"/>
+	<label commandName="FusDocOptionsSheetSizeDL" devLabel="D" translation="D"/>
+	<label commandName="FusDocOptionsSheetSizeDP" devLabel="D" translation="D"/>
+	<label commandName="FusDocOptionsSheetSizeEL" devLabel="E" translation="E"/>
+	<label commandName="FusDocOptionsSheetSizeEP" devLabel="E" translation="E"/>
+	<label commandName="FusDocOrdinateDimension" devLabel="Ordinate Dimension" translation="Cote superposée"/>
+	<label commandName="FusDocOverallDimension" devLabel="Overall Dimension" translation="Cote globale"/>
+	<label commandName="FusDocPreferHnTNoteOverDims" devLabel="Prefer hole and thread note over dimensions" translation="Préférer les notes de perçage et de filetage aux cotes"/>
+	<label commandName="FusDocPreferSymmetricDims" devLabel="Prefer Symmetric Dims for Symmertic Part" translation="Préférer les cotes symétriques pour la pièce symétrique"/>
+	<label commandName="FusDocPreferredSheetSize" devLabel="Preferred Sheet Sizes" translation="Tailles de feuille préférées"/>
+	<label commandName="FusDocSymmetricDimension" devLabel="Symmetric Dimension" translation="Cote symétrique"/>
+	<label commandName="FusDocSymmetricWithBaseLineDimension" devLabel="Symmetric With Baseline Dimension" translation="Symétrique à la cote de ligne de base"/>
+	<label commandName="FusDocSymmetricWithOrdinateDimension" devLabel="Symmetric With Ordinate Dimension" translation="Symétrique à la cote superposée"/>
+	<label commandName="FusDocTextHeightASME0" devLabel="0.07in" translation="0,07 po"/>
+	<label commandName="FusDocTextHeightASME1" devLabel="0.1in" translation="0.1 po"/>
+	<label commandName="FusDocTextHeightASME2" devLabel="0.12in" translation="0.12 po"/>
+	<label commandName="FusDocTextHeightASME3" devLabel="0.24in" translation="0.24 po"/>
+	<label commandName="FusDocTextHeightASME4" devLabel="0.35in" translation="0,35 po"/>
+	<label commandName="FusDocTextHeightASME5" devLabel="0.5in" translation="0,5 po"/>
+	<label commandName="FusDocTextHeightASME6" devLabel="0.75in" translation="0,75 po"/>
+	<label commandName="FusDocTextHeightISO0" devLabel="1.8mm" translation="1,8 mm"/>
+	<label commandName="FusDocTextHeightISO1" devLabel="2.5mm" translation="2.5 mm"/>
+	<label commandName="FusDocTextHeightISO2" devLabel="3.5mm" translation="3.5 mm"/>
+	<label commandName="FusDocTextHeightISO3" devLabel="5mm" translation="5 mm"/>
+	<label commandName="FusDocTextHeightISO4" devLabel="7mm" translation="7 mm"/>
+	<label commandName="FusDocTextHeightISO5" devLabel="10mm" translation="10 mm"/>
+	<label commandName="FusDocTextHeightISO6" devLabel="14mm" translation="14 mm"/>
+	<label commandName="FusDocTextHeightISO7" devLabel="20mm" translation="20 mm"/>
+	<label commandName="FusDocViewProjectionDirectionValue0" devLabel="First Angle" translation="Premier angle"/>
+	<label commandName="FusDocViewProjectionDirectionValue1" devLabel="Third Angle" translation="Troisième angle"/>
+	<label commandName="FusionDocAltDimLinTolPrecisionName" devLabel="Linear Tolerance Precision" translation="Précision de la tolérance linéaire"/>
+	<label commandName="FusionDocAltDimLinTolPrecisionToolTip" devLabel="Sets the default alternate dimension tolerance precision" translation="Définit le niveau de précision par défaut pour la tolérance de cote alternative"/>
+	<label commandName="FusionDocAltDimUnitDisplaySuffixName" devLabel="Display Alternate Unit Abbreviation" translation="Afficher l'abréviation de l'unité alternative"/>
+	<label commandName="FusionDocAltDimUnitDisplaySuffixToolTip" devLabel="Display Alternate Unit Abbreviation" translation="Afficher l'abréviation de l'unité alternative"/>
+	<label commandName="FusionDocAltDimUnitLeadingZerosName" devLabel="Display Alternate Unit Leading Zeros" translation="Afficher les zéros à gauche de l'unité alternative"/>
+	<label commandName="FusionDocAltDimUnitLeadingZerosToolTip" devLabel="Display Alternate Unit Leading Zeros" translation="Afficher les zéros à gauche de l'unité alternative"/>
+	<label commandName="FusionDocAltDimUnitTrailingZerosName" devLabel="Display Alternate Unit Trailing Zeros" translation="Afficher les zéros à droite de l'unité alternative"/>
+	<label commandName="FusionDocAltDimUnitTrailingZerosToolTip" devLabel="Display Alternate Unit Trailing Zeros" translation="Afficher les zéros à droite de l'unité alternative"/>
+	<label commandName="FusionDocAlternateDimLinearPrecisionName" devLabel="Linear Precision" translation="Précision linéaire"/>
+	<label commandName="FusionDocAlternateDimLinearPrecisionToolTip" devLabel="Sets the default alternate dimension precision" translation="Définit la précision des cotes exprimées avec des unités alternatives par défaut"/>
+	<label commandName="FusionDocAlternateDimensionUnitDisplayName" devLabel="Alternate Units" translation="Unités alternatives"/>
+	<label commandName="FusionDocAlternateUnitDisplayToolTip" devLabel="Display Alternate Units" translation="Afficher les unités alternatives"/>
+	<label commandName="FusionDocAngularDimensionPrecisionName" devLabel=" Angular Dimension Precision" translation=" Précision des cotes angulaires"/>
+	<label commandName="FusionDocAngularDimensionPrecisionToolTip" devLabel="Sets the default angular dimension precision for drawings created using the 'From Scratch' option" translation="Définit la précision des cotes angulaires par défaut pour les dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocAnnotationFormatName" devLabel="Standard" translation="Standard"/>
+	<label commandName="FusionDocAnnotationsFormatToolTip" devLabel="Sets the default drafting standard for drawings created using the 'From Scratch' option" translation="Définit la norme de dessin par défaut pour les dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocAnnotationsUnitDisplayToolTip" devLabel="Sets the default display of dimension unit abbreviation in dimension values for drawings created using the 'From Scratch' option" translation="Définit l'affichage par défaut de l'abréviation d'unité de cote dans les valeurs de cote pour les dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocAnnotationsUnitsToolTip" devLabel="Sets the default annotation units for drawings created using the 'From Scratch' option" translation="Définit les unités d'annotation par défaut des dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocArrowhead0" devLabel="Closed_Filled" translation="Fermé_Rempli"/>
+	<label commandName="FusionDocArrowhead1" devLabel="Closed_Blank" translation="Fermé_Vide"/>
+	<label commandName="FusionDocArrowhead10" devLabel="Open_30" translation="Ouvrir_30"/>
+	<label commandName="FusionDocArrowhead11" devLabel="Dot_Small" translation="Petit_Point"/>
+	<label commandName="FusionDocArrowhead12" devLabel="Dot_Blank" translation="Point_Vide"/>
+	<label commandName="FusionDocArrowhead13" devLabel="Dot_Small_Blank" translation="Petit_Point_Vide"/>
+	<label commandName="FusionDocArrowhead14" devLabel="Box" translation="Carré"/>
+	<label commandName="FusionDocArrowhead15" devLabel="Box_Filled" translation="Carré_Rempli"/>
+	<label commandName="FusionDocArrowhead16" devLabel="Datum_Triangle" translation="Triangle_Référence"/>
+	<label commandName="FusionDocArrowhead17" devLabel="Datum_Triangle_Filled" translation="Triangle_Référence_Rempli"/>
+	<label commandName="FusionDocArrowhead18" devLabel="Integral" translation="Intégral"/>
+	<label commandName="FusionDocArrowhead19" devLabel="None" translation="Aucun"/>
+	<label commandName="FusionDocArrowhead2" devLabel="Closed" translation="Fermé"/>
+	<label commandName="FusionDocArrowhead3" devLabel="Dot" translation="Point"/>
+	<label commandName="FusionDocArrowhead4" devLabel="Architectural_Tick" translation="Marque_Architecturale"/>
+	<label commandName="FusionDocArrowhead5" devLabel="Oblique" translation="Oblique"/>
+	<label commandName="FusionDocArrowhead6" devLabel="Open" translation="Ouvrir"/>
+	<label commandName="FusionDocArrowhead7" devLabel="Origin_Indicator" translation="Indicateur_Origine"/>
+	<label commandName="FusionDocArrowhead8" devLabel="Origin_Indicator_2" translation="Indicateur_Origine_2"/>
+	<label commandName="FusionDocArrowhead9" devLabel="Right_Angle" translation="Angle_droit"/>
+	<label commandName="FusionDocAutoCutView" devLabel="Auto Cut View" translation="Vue en coupe automatique"/>
+	<label commandName="FusionDocAutoDetailedView" devLabel="Auto Detailed View" translation="Vue détaillée automatique"/>
+	<label commandName="FusionDocAutoNest" devLabel="Auto Nest" translation="Imbrication automatique"/>
+	<label commandName="FusionDocAutoScale" devLabel="Auto Scale" translation="Échelle automatique"/>
+	<label commandName="FusionDocAutoSectionalView" devLabel="Auto Sectional View" translation="Vue en coupe automatique"/>
+	<label commandName="FusionDocAutoView" devLabel="Auto View" translation="Vue automatique"/>
+	<label commandName="FusionDocAutoViewMaxBodiesToConsider" devLabel="Max Bodies To Consider for Auto View" translation="Nbre max. de corps à prendre en compte pour la vue automatique"/>
+	<label commandName="FusionDocAutoViewPercentDiffInViews" devLabel="Percentage Difference In Views" translation="Différence de pourcentage dans les vues"/>
+	<label commandName="FusionDocBorderDisplayName" devLabel="Display Border" translation="Afficher le cadre"/>
+	<label commandName="FusionDocBorderDisplayToolTip" devLabel="Display or hide border" translation="Afficher ou masquer le cadre"/>
+	<label commandName="FusionDocConfigTableInvisibleColumnValue" devLabel="Invisible" translation="Invisible"/>
+	<label commandName="FusionDocConfigTableSuppressColumnValue" devLabel="Suppressed" translation="Masqué"/>
+	<label commandName="FusionDocConfigTableUnsuppressColumnValue" devLabel="Unsuppressed" translation="Non masqué"/>
+	<label commandName="FusionDocConfigTableVisibleColumnValue" devLabel="Visible" translation="Visible"/>
+	<label commandName="FusionDocCreateIsometricView" devLabel="Isometric View" translation="Vue isométrique"/>
+	<label commandName="FusionDocCustomLargeTextHeight" devLabel="Large Text Height" translation="Grande hauteur de texte"/>
+	<label commandName="FusionDocCustomLargeTextHeightToolTip" devLabel="Sets the custom large text height for drawings created using the 'From Scratch' option." translation="Définit la hauteur de texte &quot;Grande&quot; personnalisée pour les dessins créés à l'aide de l'option À partir de zéro."/>
+	<label commandName="FusionDocCustomLineWidthMedium" devLabel="Medium Line Width" translation="Largeur de ligne moyenne"/>
+	<label commandName="FusionDocCustomLineWidthThick" devLabel="Thick Line Width" translation="Largeur de ligne épaisse"/>
+	<label commandName="FusionDocCustomLineWidthThin" devLabel="Thin Line Width" translation="Largeur de ligne fine"/>
+	<label commandName="FusionDocCustomMediumLineWidthToolTip" devLabel="Sets the default medium line width for drawings created using the 'From Scratch' option. The medium line width is defined by the selected line width group" translation="Définit la largeur de ligne moyenne par défaut pour les dessins créés avec l'option À partir de zéro. La largeur de ligne moyenne est définie par le groupe de largeur de ligne sélectionné"/>
+	<label commandName="FusionDocCustomMediumTextHeight" devLabel="Medium Text Height" translation="Moyenne hauteur de texte"/>
+	<label commandName="FusionDocCustomMediumTextHeightToolTip" devLabel="Sets the custom medium text height for drawings created using the 'From Scratch' option." translation="Définit la hauteur de texte &quot;Moyenne&quot; personnalisée pour les dessins créés à l'aide de l'option À partir de zéro."/>
+	<label commandName="FusionDocCustomSmallTextHeight" devLabel="Small Text Height" translation="Petite hauteur de texte"/>
+	<label commandName="FusionDocCustomSmallTextHeightToolTip" devLabel="Sets the custom small text height for drawings created using the 'From Scratch' option." translation="Définit la hauteur de texte &quot;Petite&quot; personnalisée pour les dessins créés à l'aide de l'option À partir de zéro."/>
+	<label commandName="FusionDocCustomThickLineWidthToolTip" devLabel="Sets the default thick line width for drawings created using the 'From Scratch' option. The thick line width is defined by the selected line width group" translation="Définit la largeur de ligne épaisse par défaut pour les dessins créés avec l'option À partir de zéro. La largeur de ligne épaisse est définie par le groupe de largeur de ligne sélectionné"/>
+	<label commandName="FusionDocCustomThinLineWidthToolTip" devLabel="Sets the default thin line width for drawings created using the 'From Scratch' option. The thin line width is defined by the selected line width group" translation="Définit la largeur de ligne fine par défaut pour les dessins créés avec l'option À partir de zéro. La largeur de ligne fine est définie par le groupe de largeur de ligne sélectionné"/>
+	<label commandName="FusionDocDatumIDStandardName" devLabel="DatumID" translation="ID de référence"/>
+	<label commandName="FusionDocDatumIDStandardToolTip" devLabel="DatumID Standard" translation="ID de référence – Norme"/>
+	<label commandName="FusionDocDefaultDelimiterInput" devLabel="Delimiter" translation="Séparateur"/>
+	<label commandName="FusionDocDefaultDelimiterToolTip" devLabel="Specify the delimiter that will be used for numerical values within a drawing" translation="Spécifier le séparateur qui sera utilisé pour les valeurs numériques dans un dessin"/>
+	<label commandName="FusionDocDefaultSheetSizeIFDOnlyToolTip" devLabel="To Specify a Sheet Size as a Preference, select a Drafting Standard in the above drop-down" translation="Pour spécifier une taille de feuille comme préférence, sélectionnez une norme de dessin dans la liste déroulante ci-dessus."/>
+	<label commandName="FusionDocDefaultSheetSizeName" devLabel="Sheet Size" translation="Taille de la feuille"/>
+	<label commandName="FusionDocDefaultSheetSizeNameIFDOnly" devLabel="Sheet Size" translation="Taille de la feuille"/>
+	<label commandName="FusionDocDefaultSheetSizeToolTip" devLabel="Sets the default sheet size for drawings created using the 'From Scratch' option" translation="Définit la taille de feuille par défaut des dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocDelimiterComma" devLabel="Comma" translation="Virgule"/>
+	<label commandName="FusionDocDelimiterDecimal" devLabel="Decimal" translation="Nombre décimal"/>
+	<label commandName="FusionDocDesignOpenError" devLabel="Could not open the design file." translation="Impossible d'ouvrir le fichier de conception."/>
+	<label commandName="FusionDocDesignOpenNotValid" devLabel="The opened referenced design file is invalid." translation="Le fichier de conception référencé ouvert est incorrect."/>
+	<label commandName="FusionDocDesignRGError" devLabel="Could not create relationship graph." translation="Impossible de créer le graphe de relations."/>
+	<label commandName="FusionDocDimLeadingZeroToolTip" devLabel="Sets the default display of leading zeros within dimension values for drawings created using the 'From Scratch' option" translation="Définit l'affichage par défaut des zéros de début à l'intérieur des valeurs de cote pour les dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocDimLinTolPrecisionName" devLabel="Linear Tolerance Precision" translation="Précision de la tolérance linéaire"/>
+	<label commandName="FusionDocDimLinTolPrecisionToolTip" devLabel="Sets the default dimension tolerance precision" translation="Définit le niveau de précision par défaut pour la tolérance de cote"/>
+	<label commandName="FusionDocDimTrailingZeroToolTip" devLabel="Sets the default display of trailing zeros within dimension values for drawings created using the 'From Scratch' option" translation="Définit l'affichage par défaut des zéros de fin dans les valeurs de cote des dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocDisplayLineWidth" devLabel="Display Line Widths" translation="Afficher les largeurs de ligne"/>
+	<label commandName="FusionDocDisplayLineWidthToolTip" devLabel="Sets the default display of line widths for drawings created using the 'From Scratch' option" translation="Définit l'affichage par défaut des largeurs de ligne des dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocDrawingUnitsName" devLabel="Units" translation="Unités"/>
+	<label commandName="FusionDocDwgSketchesBrowserLabel" devLabel="Sketches" translation="Esquisses"/>
+	<label commandName="FusionDocEdgeSymbolStandardName" devLabel="Edge Symbol" translation="Symbole d'arête"/>
+	<label commandName="FusionDocEdgeSymbolStandardToolTip" devLabel="Edge Symbol Standard" translation="Norme de symbole d'arête"/>
+	<label commandName="FusionDocFCFName" devLabel="FCF" translation="Tolérance géométrique"/>
+	<label commandName="FusionDocFCFStandardToolTip" devLabel="FCF Standard" translation="Tolérance géométrique – Norme"/>
+	<label commandName="FusionDocFontName" devLabel="Font" translation="Police"/>
+	<label commandName="FusionDocFontToolTip" devLabel="Sets the default font for drawings created using the 'From Scratch' option" translation="Définit la police par défaut des dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocForcePreferredIsoView" devLabel="Force Preferred Isometric View" translation="Forcer la vue isométrique préférée"/>
+	<label commandName="FusionDocIncludeMesh" devLabel="Include Mesh Bodies" translation="Inclure les corps maillés"/>
+	<label commandName="FusionDocIncludeMeshToolTip" devLabel="Include Mesh in Drawings" translation="Inclure le maillage dans les dessins"/>
+	<label commandName="FusionDocIncludeSurface" devLabel="Include Surface Bodies" translation="Inclure les corps surfaciques"/>
+	<label commandName="FusionDocIncludeSurfaceToolTip" devLabel="Include Surface in Drawings" translation="Inclure la surface dans les dessins"/>
+	<label commandName="FusionDocLargeTextHeight" devLabel="Large Text Height" translation="Grande hauteur de texte"/>
+	<label commandName="FusionDocLargeTextHeightToolTip" devLabel="Sets the default large text height for drawings created using the 'From Scratch' option. The large text height is defined by the selected text height group" translation="Définit la hauteur de texte par défaut des dessins créés à l'aide de l'option À partir de zéro. La grande hauteur de texte est définie par le groupe de hauteur de texte sélectionné"/>
+	<label commandName="FusionDocLeadingZeroName" devLabel="Display Leading Zeros" translation="Afficher les zéros de début"/>
+	<label commandName="FusionDocLineType0" devLabel="Center" translation="Centre"/>
+	<label commandName="FusionDocLineType1" devLabel="Center_2" translation="Centre_2"/>
+	<label commandName="FusionDocLineType2" devLabel="Continuous" translation="Continue"/>
+	<label commandName="FusionDocLineType3" devLabel="Hidden" translation="Masqué"/>
+	<label commandName="FusionDocLineType4" devLabel="Hidden_2" translation="Masqué_2"/>
+	<label commandName="FusionDocLineType5" devLabel="Phantom_2" translation="Fantôme_2"/>
+	<label commandName="FusionDocLineWidthGroup" devLabel="Line Width Group" translation="Groupe de largeur de ligne"/>
+	<label commandName="FusionDocLineWidthGroupToolTip" devLabel="Sets the default line width group for drawings created using the 'From Scratch' option" translation="Définit le groupe de largeur de ligne par défaut pour les dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocLinearDimensionPrecisionName" devLabel="Linear Dimension Precision" translation="Précision de la cote linéaire"/>
+	<label commandName="FusionDocLinearDimensionPrecisionToolTip" devLabel="Sets the default linear dimension precision for drawings created using the 'From Scratch' option" translation="Définit la précision des cotes linéaires par défaut pour les dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocLinearUnitName" devLabel="Dimension Format" translation="Format de cote"/>
+	<label commandName="FusionDocLinearUnitToolTip" devLabel="Sets the default dimension format for drawings created using the 'From Scratch' option" translation="Définit le format de cote par défaut des dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocMassPrecisionName" devLabel="Mass Precision" translation="Précision de la masse"/>
+	<label commandName="FusionDocMassPrecisionToolTip" devLabel="Mass Precision" translation="Précision de la masse"/>
+	<label commandName="FusionDocMassUnitName" devLabel="Mass Unit" translation="Unité de masse"/>
+	<label commandName="FusionDocMassUnitToolTip" devLabel="Mass Unit" translation="Unité de masse"/>
+	<label commandName="FusionDocMediumLineWidth" devLabel="Medium Line Width" translation="Largeur de ligne moyenne"/>
+	<label commandName="FusionDocMediumLineWidthToolTip" devLabel="Sets the default medium line width for drawings created using the 'From Scratch' option. The medium line width is defined by the selected line width group" translation="Définit la largeur de ligne moyenne par défaut pour les dessins créés avec l'option À partir de zéro. La largeur de ligne moyenne est définie par le groupe de largeur de ligne sélectionné"/>
+	<label commandName="FusionDocMediumTextHeight" devLabel="Medium Text Height" translation="Moyenne hauteur de texte"/>
+	<label commandName="FusionDocMediumTextHeightToolTip" devLabel="Sets the default medium text height for drawings created using the 'From Scratch' option. The medium text height is defined by the selected text height group" translation="Définit la hauteur de texte &quot;Moyenne&quot; par défaut pour les dessins créés à l'aide de l'option À partir de zéro. La hauteur de texte moyenne est définie par le groupe de hauteur de texte sélectionné"/>
+	<label commandName="FusionDocOnlyConsiderVisibleEdges" devLabel="Only Consider Visible Edges Auto View" translation="Prendre en compte uniquement la vue automatique des arêtes visibles"/>
+	<label commandName="FusionDocOptionDrawingGroupToolTip" devLabel="Preferences controlling Fusion 360 Drawings behavior" translation="Préférences permettant de contrôler le comportement des dessins Fusion 360"/>
+	<label commandName="FusionDocOptionGroupToolTip" devLabel="Preferences for the Drawing and Drawing Template &quot;From Scratch&quot; option" translation="Préférences pour l'option &quot;À partir de zéro&quot; du dessin et du template de dessin"/>
+	<label commandName="FusionDocOptionGroupUserName" devLabel="Drawing" translation="Dessin"/>
+	<label commandName="FusionDocOutlineLineType0" devLabel="Straight" translation="Droite"/>
+	<label commandName="FusionDocOutlineLineType1" devLabel="Jagged" translation="Irrégulière"/>
+	<label commandName="FusionDocOverrideFormatDefaultsName" devLabel="Override or Restore Format Defaults Below" translation="Remplacer ou restaurer les valeurs par défaut de format ci-dessous"/>
+	<label commandName="FusionDocOverrideFormatDefaultsToolTip" devLabel="Checking this allows editing of the below fields, unchecking restores default values" translation="Lorsque cette option est sélectionnée, il est possible de modifier les champs ci-dessous. En revanche, lorsqu'elle est désactivée, les valeurs par défaut sont restaurées."/>
+	<label commandName="FusionDocPopNewDrawingWarning" devLabel="Warning if contains mesh, surface or TSpline" translation="Avertissement si le dessin contient un maillage, une surface ou une T-Spline"/>
+	<label commandName="FusionDocPrintLandscapeOrientation" devLabel="Print landscape orientation" translation="Imprimer en orientation paysage"/>
+	<label commandName="FusionDocPrintLandscapeOrientationToolTip" devLabel="Sets the default print orientation" translation="Définit l'orientation d'impression par défaut"/>
+	<label commandName="FusionDocPrintLinewidth" devLabel="Print linewidth " translation="Imprimer l'épaisseur de ligne "/>
+	<label commandName="FusionDocPrintLinewidthToolTip" devLabel="Sets the default print linewidth" translation="Définit la largeur de ligne d'impression par défaut"/>
+	<label commandName="FusionDocPrintNumOfCopies" devLabel="Print number of copies" translation="Imprimer le nombre de copies"/>
+	<label commandName="FusionDocPrintNumOfCopiesToolTip" devLabel="Sets the default number of copies for print" translation="Définit le nombre de copies par défaut pour l'impression"/>
+	<label commandName="FusionDocPrintPaperSize" devLabel="Print paper size" translation="Format de papier pour l'impression"/>
+	<label commandName="FusionDocPrintPaperSizeToolTip" devLabel="Sets the default paper size of the print" translation="Définit le format de papier par défaut de l'impression"/>
+	<label commandName="FusionDocPrintScale" devLabel="Print scale" translation="Échelle de l'impression"/>
+	<label commandName="FusionDocPrintScaleToolTip" devLabel="Sets the default scale for print" translation="Définit l'échelle par défaut pour l'impression"/>
+	<label commandName="FusionDocPrintXOffset" devLabel="Print X offset" translation="Imprimer le décalage X"/>
+	<label commandName="FusionDocPrintXOffsetToolTip" devLabel="Sets the default X offset for print" translation="Définit le décalage X par défaut pour l'impression"/>
+	<label commandName="FusionDocPrintYOffset" devLabel="Print Y offset" translation="Décalage Y de l'impression"/>
+	<label commandName="FusionDocPrintYOffsetToolTip" devLabel="Sets the default Y offset for print" translation="Définit le décalage Y par défaut pour l'impression"/>
+	<label commandName="FusionDocRenderModeName" devLabel="Render Mode" translation="Mode de rendu"/>
+	<label commandName="FusionDocRenderModeToolTip" devLabel="Indicates the render mode for the drawing. Could be Default(0), OpenGL(1) or Metal(2)" translation="Indique le mode de rendu du dessin. Il peut s'agir de Par défaut(0), OpenGL(1) ou Métal(2)"/>
+	<label commandName="FusionDocSectionLineDisplayName" devLabel="Display Section Line" translation="Afficher la ligne de coupe"/>
+	<label commandName="FusionDocSectionLineDisplayToolTip" devLabel="Display Section Line" translation="Afficher la ligne de coupe"/>
+	<label commandName="FusionDocSingleBodySection" devLabel="Only Single Body Sectional View" translation="Vue en coupe d'un seul corps"/>
+	<label commandName="FusionDocSmallTextHeight" devLabel="Small Text Height" translation="Petite hauteur de texte"/>
+	<label commandName="FusionDocSmallTextHeightToolTip" devLabel="Sets the default small text height for drawings created using the 'From Scratch' option. The small text height is defined by the selected text height group" translation="Définit la hauteur de texte &quot;Petite&quot; par défaut pour les dessins créés à l'aide de l'option À partir de zéro. La petite hauteur de texte est définie par le groupe de hauteur de texte sélectionné"/>
+	<label commandName="FusionDocSuppress" devLabel="Toggle Suppress" translation="Masquer/démasquer"/>
+	<label commandName="FusionDocSurfaceTextureStandardName" devLabel="Surface Texture" translation="État de surface"/>
+	<label commandName="FusionDocSurfaceTextureStandardToolTip" devLabel="Surface Texture Standard" translation="État de surface – Norme"/>
+	<label commandName="FusionDocTaperSlopeStandardName" devLabel="Taper Slope" translation="Inclinaison de la dépouille"/>
+	<label commandName="FusionDocTaperSlopeStandardToolTip" devLabel="Taper Slope Standard" translation="Inclinaison de la dépouille – Norme"/>
+	<label commandName="FusionDocTextHeightGroup" devLabel="Text Height Group" translation="Groupe de hauteur du texte"/>
+	<label commandName="FusionDocTextHeightGroupToolTip" devLabel="Sets the text height group for drawings created using the 'From Scratch' option" translation="Définit le groupe de hauteur de texte pour les dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocThickLineWidth" devLabel="Thick Line Width" translation="Largeur de ligne épaisse"/>
+	<label commandName="FusionDocThickLineWidthToolTip" devLabel="Sets the default thick line width for drawings created using the 'From Scratch' option. The thick line width is defined by the selected line width group" translation="Définit la largeur de ligne épaisse par défaut pour les dessins créés avec l'option À partir de zéro. La largeur de ligne épaisse est définie par le groupe de largeur de ligne sélectionné"/>
+	<label commandName="FusionDocThinLineWidth" devLabel="Thin Line Width" translation="Largeur de ligne fine"/>
+	<label commandName="FusionDocThinLineWidthToolTip" devLabel="Sets the default thin line width for drawings created using the 'From Scratch' option. The thin line width is defined by the selected line width group" translation="Définit la largeur de ligne fine par défaut pour les dessins créés avec l'option À partir de zéro. La largeur de ligne fine est définie par le groupe de largeur de ligne sélectionné"/>
+	<label commandName="FusionDocTitleBlockDisplayName" devLabel="Display Title Block" translation="Afficher le cartouche"/>
+	<label commandName="FusionDocTitleBlockDisplayToolTip" devLabel="Display or hide title block" translation="Afficher ou masquer le cartouche"/>
+	<label commandName="FusionDocTrailingZeroName" devLabel="Display Trailing Zeros" translation="Afficher les zéros à droite"/>
+	<label commandName="FusionDocUnitDisplayName" devLabel="Display Dimension Units" translation="Afficher les unités de cote"/>
+	<label commandName="FusionDocUpdateMessage" devLabel="Changes have been made to a referenced design. &#xA;You can update the drawing from the button in the Application Bar." translation="Des modifications ont été apportées à une conception référencée. &#xA;Vous pouvez mettre à jour le dessin à partir du bouton de la barre d'état de l'application."/>
+	<label commandName="FusionDocViewProjectionDirName" devLabel="Projection Angle" translation="Angle de projection"/>
+	<label commandName="FusionDocViewProjectionDirToolTip" devLabel="Sets the default projection angle for drawings created using the 'From Scratch' option" translation="Définit l'angle de projection par défaut des dessins créés à l'aide de l'option À partir de zéro"/>
+	<label commandName="FusionDocWeldingStandardName" devLabel="Welding" translation="Soudure"/>
+	<label commandName="FusionDocWeldingStandardToolTip" devLabel="Welding Standard" translation="Soudure – Norme"/>
+	<label commandName="FusionDocumentSettingsBrowserLabel" devLabel="Document Settings" translation="Paramètres du document"/>
+	<label commandName="FusionDrawingEntryNameBendTable" devLabel="Bend Table" translation="Table de pliage"/>
+	<label commandName="FusionDrawingEntryNameHoleTable" devLabel="Hole Table" translation="Table de perçages"/>
+	<label commandName="FusionDrawingEntryNameLayerStackTable" devLabel="Layer Stack Table" translation="Tableau de la pile de couches"/>
+	<label commandName="FusionDrawingEntryNameLayerStackView" devLabel="Layer Stack View" translation="Vue de la pile de couches"/>
+	<label commandName="FusionDrawingEntryNamePartsList" devLabel="Parts List" translation="Liste de pièces"/>
+	<label commandName="FusionDrawingEntryNameViaPairsTable" devLabel="Via Pairs Table" translation="Tableau de paires de vias"/>
+	<label commandName="FusionDrawingEntryOtherSilkscreen" devLabel="Other Silkscreen" translation="Autres sérigraphies"/>
+	<label commandName="FusionDrawingEntryReferenceDesignators" devLabel="Reference Designators" translation="Indicateurs de référence"/>
+	<label commandName="FusionDrawingEntryValues" devLabel="Values" translation="Valeurs"/>
+	<label commandName="FusionDrawingExtFileBlobSerializer" devLabel="Fusion Drawing failed to generate a small thumbnail." translation="Le dessin Fusion n'a pas pu générer une petite miniature."/>
+	<label commandName="FusionSheetSettingsBrowserLabel" devLabel="Sheet Settings" translation="Paramètres de la feuille"/>
+	<label commandName="GeneralAnnotationFonts0" devLabel="Arial" translation="Arial"/>
+	<label commandName="GeneralAnnotationFormatValue0" devLabel="" translation=""/>
+	<label commandName="GeneralAnnotationFormatValue1" devLabel="" translation=""/>
+	<label commandName="GeneralAnnotationFormatValue2" devLabel="Inherit From Design" translation="Hériter de la conception"/>
+	<label commandName="GeneralAnnotationHeightValue0" devLabel="0.1in" translation="0,1 po"/>
+	<label commandName="GeneralAnnotationHeightValue1" devLabel="0.12in" translation="0,12 po"/>
+	<label commandName="GeneralAnnotationHeightValue2" devLabel="0.24in" translation="0,24 po"/>
+	<label commandName="GeneralAnnotationHeightValue3" devLabel="2.5mm" translation="2,5 mm"/>
+	<label commandName="GeneralAnnotationHeightValue4" devLabel="3.5mm" translation="3,5 mm"/>
+	<label commandName="GeneralAnnotationHeightValue5" devLabel="5.0mm" translation="5.0 mm"/>
+	<label commandName="GeneralAnnotationHeightValue6" devLabel="7.0mm" translation="7.0 mm"/>
+	<label commandName="GeneralAnnotationHeightValue7" devLabel="10.0mm" translation="10.0 mm"/>
+	<label commandName="GeneralAnnotationSheetSizeIFDOnly1" devLabel="Based on Standard" translation="Basée sur la norme"/>
+	<label commandName="GeneralAnnotationUnitsValue0" devLabel="mm" translation="mm"/>
+	<label commandName="GeneralAnnotationUnitsValue3" devLabel="in" translation="po"/>
+	<label commandName="GeneralAnnotationUnitsValue4" devLabel="Inherit From Design" translation="Hériter de la conception"/>
+	<label commandName="GeneralAnnotationUnitsValue5" devLabel="cm" translation="cm"/>
+	<label commandName="GeneralAnnotationUnitsValue6" devLabel="m" translation="m"/>
+	<label commandName="GeneralAnnotationUnitsValue7" devLabel="ft" translation="pi"/>
+	<label commandName="GeneralGroup" devLabel="General Settings" translation="Configuration générale"/>
+	<label commandName="Group_Configuration" devLabel="Configured Aspect Name" translation="Nom de l'aspect configuré"/>
+	<label commandName="Group_General" devLabel="General" translation="Général"/>
+	<label commandName="Group_Manage" devLabel="Manage" translation="Gérer"/>
+	<label commandName="Group_Parameter" devLabel="Parameter" translation="Paramètre"/>
+	<label commandName="Group_Physical" devLabel="Physical" translation="Physique"/>
+	<label commandName="HoleAndThreadNoteGeneratorAlgo" devLabel="Hole And Thread Note Generator Algorithm" translation="Algorithme du générateur de notes de perçage et de filetage"/>
+	<label commandName="HorizontalBaseLineDimGenAlgorithm" devLabel="Horizontal Base Line Dim Algorithm" translation="Algorithme de cote de la ligne de base horizontale"/>
+	<label commandName="HorizontalChainDimGenAlgorithm" devLabel="Horizontal Chain Dim Algorithm" translation="Algorithme de cote en série horizontale"/>
+	<label commandName="InnerStep" devLabel="%1% Inner Step" translation="Etape interne (%1%)"/>
+	<label commandName="InterLoopDimGeneratorAlgo" devLabel="InterLoop Dim Generator Algorithm" translation="Algorithme du générateur de cotes inter-boucles"/>
+	<label commandName="InterViewDimensionFungibleAlgorithm" devLabel="Inter View Dimension Fungible Algorithm" translation="Algorithme fongible des cotes entre les vues"/>
+	<label commandName="Isometric View Preference ASME" devLabel="Isometric View Preference 0TR 1TL 2BL 3BR" translation="Préférence de vue isométrique 0TR 1TL 2BL 3BR"/>
+	<label commandName="Isometric View Preference ISO" devLabel="Isometric View Preference 0TR 1TL 2BL 3BR" translation="Préférence de vue isométrique 0TR 1TL 2BL 3BR"/>
+	<label commandName="LAYER_STACK_TABLE_TITLE" devLabel="Layer Stack" translation="Pile de couches"/>
+	<label commandName="LineWidthGroup0" devLabel="Very Thin" translation="Très fine"/>
+	<label commandName="LineWidthGroup1" devLabel="Thin" translation="Fine"/>
+	<label commandName="LineWidthGroup2" devLabel="Medium" translation="Moyenne"/>
+	<label commandName="LineWidthGroup3" devLabel="Thick" translation="Épaisse"/>
+	<label commandName="LineWidthGroup4" devLabel="Very Thick" translation="Très épaisse"/>
+	<label commandName="LineWidthGroup5" devLabel="Custom" translation="Personnalisé"/>
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="Nombre décimal"/>
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="Fraction"/>
+	<label commandName="LinearUnitFormat2" devLabel="Engineering" translation="Ingénierie"/>
+	<label commandName="LinearUnitFormat3" devLabel="Architectural" translation="Architecture"/>
+	<label commandName="LoopSymmetryGeneratorAlgorithm" devLabel="Loop Symmetry Generator Algorithm" translation="Algorithme du générateur de boucles symétriques"/>
+	<label commandName="MainASMGroup" devLabel="Main Assembly" translation="Assemblage principal"/>
+	<label commandName="MainASMISOGroup" devLabel="Main Assembly ISO" translation="ISO d'assemblage principal"/>
+	<label commandName="MainASMOrthoGroup" devLabel="Main Assembly Ortho" translation="Ortho d'assemblage principal"/>
+	<label commandName="MainASMSheetCreate" devLabel="Create Main Assembly" translation="Créer un assemblage principal"/>
+	<label commandName="MainAsmISOPartList" devLabel="Include Parts List" translation="Inclure la liste de pièces"/>
+	<label commandName="MainAsmOrthoPartList" devLabel="Include Parts List" translation="Inclure la liste de pièces"/>
+	<label commandName="MainAsmOrthoPartListLocation" devLabel="Default Parts List Location" translation="Emplacement de liste de pièces par défaut"/>
+	<label commandName="MainAsmSheetOrthoViesw" devLabel="Sheet with Ortho Views" translation="Feuille avec vues ortho"/>
+	<label commandName="MainAsmSheetPartListLocation" devLabel="Default Parts List Location" translation="Emplacement de liste de pièces par défaut"/>
+	<label commandName="MainAsmSheetSingleISOView" devLabel="Sheet with Single ISO View" translation="Feuille avec vue ISO unique"/>
+	<label commandName="MaxBodiesToDimension" devLabel="Max Bodies To Dimension" translation="Corps max. à coter"/>
+	<label commandName="MaxNumberOfDims" devLabel="Max Number of Dimensions" translation="Nombre max. de cotes"/>
+	<label commandName="MinLeaderLength_ASME" devLabel="Minimum Leader Length" translation="Longueur de ligne de repère minimale"/>
+	<label commandName="MinLeaderLength_ISO" devLabel="Minimum Leader Length" translation="Longueur de ligne de repère minimale"/>
+	<label commandName="MinMovementForArrangeAnnotation" devLabel="Minimum Movement For Arrange Annotation" translation="Mouvement minimum pour l'annotation Réorganiser"/>
+	<label commandName="MoveDimsWithNoCommonEdgeAndDifferentZToYellowZone" devLabel="Move Dims With No Common Edge And DifferentZ To YellowZone" translation="Déplacer les cotes sans arête commune et avec des Z différents vers la zone jaune"/>
+	<label commandName="MoveRadialDimsWithSmallArcLengthAndAngleToYellowZoneAlgo" devLabel="Move Radial Dims With Small Arc Length And Angle To Yellow Zone" translation="Déplacer les cotes radiales avec une petite longueur d'arc et un angle vers la zone jaune"/>
+	<label commandName="No" devLabel="No" translation="Non"/>
+	<label commandName="OfflineFailedGetDesignMsg" devLabel="The design file %1% is not available in Offline mode. Please switch to Online mode to perform the command again." translation="Le fichier de conception %1% n'est pas disponible en mode hors ligne. Passez en ligne pour réexécuter la commande."/>
+	<label commandName="OrdinateDimGenAlgorithm" devLabel="Ordinate Dim Generator Algorithm" translation="Algorithme du générateur de cotes superposées"/>
+	<label commandName="OverallDimsGeneratorAlgo" devLabel="Overall Dim Generator Algorithm" translation="Algorithme du générateur de cotes globales"/>
+	<label commandName="PARTSLISTTABLENAME" devLabel="PARTS LIST" translation="LISTE DE PIECES"/>
+	<label commandName="PIMDrawingGroup" devLabel="" translation=""/>
+	<label commandName="PIMGeneralGroup" devLabel="" translation=""/>
+	<label commandName="PIMManageGroup" devLabel="" translation=""/>
+	<label commandName="PIMPhysicalGroup" devLabel="" translation=""/>
+	<label commandName="PaddAsPerAnnotations" devLabel="Padd As Per Annotations" translation="Remplir selon les annotations"/>
+	<label commandName="PaddAsPerDetails" devLabel="Padd As Per Details" translation="Remplir selon les détails"/>
+	<label commandName="ParameterGroup" devLabel="" translation=""/>
+	<label commandName="PartListLoc1" devLabel="Bottom Left" translation="En bas à gauche"/>
+	<label commandName="PartListLoc2" devLabel="Bottom Right" translation="En bas à droite"/>
+	<label commandName="PartListLoc3" devLabel="Top Left" translation="En haut à gauche"/>
+	<label commandName="PartListLoc4" devLabel="Top Right" translation="En haut à droite"/>
+	<label commandName="PartsListME__REVISION" devLabel="Rev" translation="Rév."/>
+	<label commandName="PreferHZ" devLabel="Prefer Horizontal" translation="Préférer l'horizontale"/>
+	<label commandName="ProjecteAnd3dLengthCheckAlgorithm" devLabel="Projected And 3d Length Check Algorithm" translation="Algorithme de vérification de la longueur projetée et 3D"/>
+	<label commandName="Property_ChangeOrder" devLabel="Change Order" translation="Ordre de modification"/>
+	<label commandName="Property_Description" devLabel="Description" translation="Description"/>
+	<label commandName="Property_ItemId" devLabel="Item" translation="Élément"/>
+	<label commandName="Property_ItemNumber" devLabel="Item Number" translation="Numéro d'élément"/>
+	<label commandName="Property_Lifecycle" devLabel="Lifecycle" translation="Cycle de vie"/>
+	<label commandName="Property_Mass" devLabel="Mass" translation="Masse"/>
+	<label commandName="Property_Material" devLabel="Material" translation="Matière"/>
+	<label commandName="Property_PartName" devLabel="Part Name" translation="Nom de pièce"/>
+	<label commandName="Property_PartNumber" devLabel="Part Number" translation="Numéro de pièce"/>
+	<label commandName="Property_Qty" devLabel="Qty" translation="Quantité"/>
+	<label commandName="Property_Revision" devLabel="Revision" translation="Révision"/>
+	<label commandName="Property_State" devLabel="State" translation="État"/>
+	<label commandName="RadialArcAnglehreshold_ASME" devLabel="Radial Arc Angle threshold" translation="Seuil d'angle d'arc radial"/>
+	<label commandName="RadialArcLengthThreshold_ASME" devLabel="Radial Arc length threshold" translation="Seuil de longueur d'arc radial"/>
+	<label commandName="RadialArcLengthThreshold_ISO" devLabel="Radial Arc length threshold" translation="Seuil de longueur d'arc radial"/>
+	<label commandName="RedundantDimensionRemovalAlgorithm" devLabel="Redundant Dimension Removal Algorithm(Graph)" translation="Algorithme de suppression des cotes redondantes (graphique)"/>
+	<label commandName="ReferenceDesignatorsBrowserLabel" devLabel="Reference Designators" translation="Indicateurs de référence"/>
+	<label commandName="RelativeSmallDim" devLabel="Relative small dim percentage" translation="Pourcentage de cotes relativement petites"/>
+	<label commandName="RelativelySmallDimWithDifferentXorYAlgo" devLabel="Relatively Small Dims With Different XY Algorithm" translation="Cotes relativement petites avec un algorithme XY différent"/>
+	<label commandName="RemoveDimsInTemplateWorkflow" devLabel="Remove Quick Dims In Template Workflow" translation="Supprimer les cotes rapides dans le workflow de template"/>
+	<label commandName="RemoveDisassociatedDims" devLabel="Remove Disassociated Dims" translation="Supprimer les cotes dissociées"/>
+	<label commandName="RevisionNumbering0" devLabel="Custom" translation="Personnalisé"/>
+	<label commandName="RevisionScope0" devLabel="Drawing" translation="Dessin"/>
+	<label commandName="RevisionScope1" devLabel="Sheet" translation="Feuille"/>
+	<label commandName="RevisionScopeBrowserLabel" devLabel="Revision Scope: " translation="Portée de la révision : "/>
+	<label commandName="RevisionScopeBrowserTooltip" devLabel="Change Revision Scope" translation="Portée de la révision des modifications"/>
+	<label commandName="RunAutoCmdsDuringTests" devLabel="Run Auto-Cmds during automation tests" translation="Exécuter AutoCmds pendant les tests d'automatisation"/>
+	<label commandName="STORYBOARDSOURCETYPE" devLabel="Assembly(Storyboard)" translation="Assemblage (scénario)"/>
+	<label commandName="SameCircularDimFungibilityAlgo" devLabel="Same Circular Dim Fungibility Algorithm" translation="Algorithme de fongibilité des cotes circulaires identiques"/>
+	<label commandName="SameLoopCheckerAlgorithm" devLabel="Same Loop Checker Algorithm" translation="Algorithme du vérificateur de boucles identiques"/>
+	<label commandName="SameLoopFungibilityAlgo" devLabel="Same Loop Fungibility Algorithm" translation="Algorithme de fongibilité de boucles identiques"/>
+	<label commandName="SheetMetalFlatGroup" devLabel="Sheet Metal : Flat" translation="Tôlerie: plate"/>
+	<label commandName="SheetMetalFlatPCreateSheet" devLabel="SheetMetal: Flat Pattern" translation="Tôlerie: mise à plat"/>
+	<label commandName="SheetMetalFlatPISOWithOrthoViews" devLabel="Add Folded Metal Isometric View" translation="Ajouter une vue isométrique de métal plié"/>
+	<label commandName="SheetMetalFlatPIncludeBendTable" devLabel="Include Bend Table" translation="Inclure la table de pliage"/>
+	<label commandName="SheetMetalFlatPIncludeBendTableLoc" devLabel="Bend Table Location" translation="Emplacement de la table de pliage"/>
+	<label commandName="SheetMetalFlatPWithOrthoViews" devLabel="SheetMetal: Sheet With Orthogonal Views" translation="Tôlerie : feuille avec vues orthogonales"/>
+	<label commandName="SheetMetalFoldedCreateSheet" devLabel="Create Sheet" translation="Créer une feuille"/>
+	<label commandName="SheetMetalFoldedGroup" devLabel="Sheet Metal : Folded" translation="Tôlerie: pliée"/>
+	<label commandName="SheetMetalFoldedISOWithOrthoViews" devLabel="Add ISO View with Ortho Views" translation="Ajouter une vue ISO avec des vues ortho"/>
+	<label commandName="SheetMetalFoldedWithOrthoViews" devLabel="Sheet With Orthogonal Views" translation="Feuille avec vues orthogonales"/>
+	<label commandName="SheetSizeBrowserLabel" devLabel="Sheet Size: " translation="Taille de la feuille : "/>
+	<label commandName="SheetSizeBrowserToolTip" devLabel="Change Sheet Size" translation="Modifier la taille de la feuille"/>
+	<label commandName="SimilarHoleIdentifierAlgo" devLabel="Similar Hole Identifier Algorithm" translation="Algorithme d'identification de perçages similaires"/>
+	<label commandName="SliderValue" devLabel="Slider Value" translation="Valeur de curseur"/>
+	<label commandName="SmallDimPriorityModifierAlgo" devLabel="Small Dimension Priority Modifier" translation="Modificateur de priorité aux petites cotes"/>
+	<label commandName="SmallDimThreshold_ASME" devLabel="Small dimension threshold" translation="Seuil de petite cote"/>
+	<label commandName="SmallDimThreshold_ISO" devLabel="Small dimension threshold" translation="Seuil de petite cote"/>
+	<label commandName="SubASMCreateSheetOrtho" devLabel="Sheet with Ortho Views" translation="Feuille avec vues Ortho"/>
+	<label commandName="SubASMGroup" devLabel="Sub Assemblies" translation="Sous-assemblages"/>
+	<label commandName="SubASMISOGroup" devLabel="Sub Assemblies ISO" translation="ISO de sous-assemblages"/>
+	<label commandName="SubASMOrthoGroup" devLabel="Sub Assemblies Ortho" translation="Ortho de sous-assemblages"/>
+	<label commandName="SubASMOrthoPartListLocation" devLabel="Default Parts List Location" translation="Emplacement de liste de pièces par défaut"/>
+	<label commandName="SubASMSheetCreate" devLabel="Create Sub Assembly" translation="Créer un sous-assemblage"/>
+	<label commandName="SubASMSheetISOPartList" devLabel="Include Parts List" translation="Inclure la liste de pièces"/>
+	<label commandName="SubASMSheetOrthoPartList" devLabel="Include Parts List" translation="Inclure la liste de pièces"/>
+	<label commandName="SubASMSheetSingleISO" devLabel="Sheet with Single ISO View" translation="Feuille avec vue ISO unique"/>
+	<label commandName="SubASmSheetISOPartListLocation" devLabel="Default Parts List Location" translation="Emplacement de liste de pièces par défaut"/>
+	<label commandName="SymmetricDimsGeneratorAlgo" devLabel="Symmetric Dim Generator Algorithm" translation="Algorithme du générateur de cotes symétriques"/>
+	<label commandName="SymmetricRecipeSettingAlgo" devLabel="Symmetric Recipe Setting Algorithm" translation="Algorithme de configuration de recettes symétriques"/>
+	<label commandName="SymmetricWithBaselineDimsGenerator" devLabel="Symmetric With Baseline Dim Generator Algorithm" translation="Algorithme de symétrie avec le générateur de cotes de ligne de base"/>
+	<label commandName="SymmetryDimFungibilityAlgo" devLabel="Symmetry Dim Fungibility Algorithm" translation="Algorithme de fongibilité de la cote de symétrie"/>
+	<label commandName="TangencyPointPriorityAlgo" devLabel="G1 Continuity Algorithm" translation="Algorithme de continuité G1"/>
+	<label commandName="TemplateGroup" devLabel="Template Setings" translation="Paramètres de template"/>
+	<label commandName="TextHeightCustom" devLabel="Custom" translation="Personnalisé"/>
+	<label commandName="TextHeightLarge" devLabel="Large" translation="Grand"/>
+	<label commandName="TextHeightMedium" devLabel="Medium" translation="Moyen"/>
+	<label commandName="TextHeightSmall" devLabel="Small" translation="Petit"/>
+	<label commandName="ThreeEdgesIntersectionDimPriorityAlgo" devLabel="Three Edges Intersection DimPriority Algorithm" translation="Algorithme de priorité de cote d'intersection de trois arêtes"/>
+	<label commandName="TitleBlockBrowserLabel" devLabel="Title Block: " translation="Cartouche : "/>
+	<label commandName="TitleBlockBrowserNoneLabel" devLabel="&lt;NONE&gt;" translation="&lt;AUCUN&gt;"/>
+	<label commandName="TitleBlockBrowserToolTip" devLabel="Change Title Block" translation="Modifier le cartouche"/>
+	<label commandName="TurnedComponentDimPriorityAlgo" devLabel="Turned Component Dim Priority Algorithm" translation="Algorithme de priorité de cote du composant tourné"/>
+	<label commandName="UniqueSectionGeneratorAlgorithm" devLabel="Unique Section Generator Algorithm" translation="Algorithme de génération de coupe unique"/>
+	<label commandName="UniqueSectionPriorityReducingAlgo" devLabel="Unique Section Dim Priority Reducing Algorithm" translation="Algorithme de réduction de priorité de cote de coupe unique"/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Non enregistré)"/>
+	<label commandName="UserGeneralProperty_DESCRIPTION" devLabel="" translation=""/>
+	<label commandName="UserGeneralProperty_ITEM" devLabel="" translation=""/>
+	<label commandName="UserGeneralProperty_MATERIAL" devLabel="" translation=""/>
+	<label commandName="UserGeneralProperty_PARTNAME" devLabel="" translation=""/>
+	<label commandName="UserGeneralProperty_PARTNUMBER" devLabel="" translation=""/>
+	<label commandName="UserGeneralProperty_QTY" devLabel="" translation=""/>
+	<label commandName="UserMEProperty__CHANGE_ORDER" devLabel="" translation=""/>
+	<label commandName="UserMEProperty__ITEM_NUMBER" devLabel="" translation=""/>
+	<label commandName="UserMEProperty__LIFE_CYCLE" devLabel="" translation=""/>
+	<label commandName="UserMEProperty__REVISION" devLabel="" translation=""/>
+	<label commandName="UserMEProperty__STATE" devLabel="" translation=""/>
+	<label commandName="UserPhysicalProperty__MASS" devLabel="" translation=""/>
+	<label commandName="VIA_PAIRS_TABLE_TITLE" devLabel="Via Pairs" translation="Paires de vias"/>
+	<label commandName="VOJointOrigin" devLabel="Joint Origins" translation="Origines de liaison"/>
+	<label commandName="VerticalBaseLineDimGenAlgorithm" devLabel="Vertical Base Line Dim Algorithm" translation="Algorithme de cote de ligne de base verticale"/>
+	<label commandName="VerticalChainDimGenAlgorithm" devLabel="Vertical Chain Dim Algorithm" translation="Algorithme de cote en série verticale"/>
+	<label commandName="ViewDefaultPadding" devLabel="View Default Padding val * textHeight" translation="Valeur de remplissage par défaut de la vue * textHeight"/>
+	<label commandName="ViewNestCorner" devLabel="View Nest corner 0UL 1UR 2LL 3LR 4UC 5LC 6MC" translation="Angle d'imbrication de la vue 0UL 1UR 2LL 3LR 4UC 5LC 6MC"/>
+	<label commandName="ViewNestDirection" devLabel="View Nest Direction 0-HZ" translation="Direction d'imbrication de la vue 0-HZ"/>
+	<label commandName="ViewPreference_ASME" devLabel="Auto View Preference 0T 1L 2B 3R" translation="Préférence de vue automatique 0T 1L 2B 3R"/>
+	<label commandName="ViewPreference_ISO" devLabel="Auto View Preference 0T 1L 2B 3R" translation="Préférence de vue automatique 0T 1L 2B 3R"/>
+	<label commandName="Yes" devLabel="Yes" translation="Oui"/>
+	<label commandName="minDistToDim_ASME" devLabel="Minimum distance to dimension (ASME)" translation="Distance minimale à coter (ASME)"/>
+	<label commandName="minDistToDim_ISO" devLabel="Minimum distance to dimension (ISO)" translation="Distance minimale à coter (ISO)"/>
+	<label commandName="silkscreenBrowserLabel" devLabel="Silkscreen" translation="Sérigraphie"/>
+</Resource>

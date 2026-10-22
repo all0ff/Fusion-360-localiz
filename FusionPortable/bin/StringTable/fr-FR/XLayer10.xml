@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="APIAddInStartupSkipped" devLabel="The add-in &quot;%1%&quot; failed to run the last time Fusion was started and was skipped this time. If this problem continues, you should set the add-in so that it does not load on startup." translation="Le complément &quot;%1%&quot; n'a pas pu s'exécuter la dernière fois que Fusion a été démarré et a été ignoré cette fois-ci. Si ce problème persiste, il est recommandé de paramétrer ce complément de sorte qu'il ne se charge pas au démarrage."/>
+	<label commandName="APIAddInStartupSkippedLink" devLabel="Manage Add-Ins" translation="Gérer les compléments"/>
+	<label commandName="APIAddInStartupSkippedTitle" devLabel="Add-In Failed to Start" translation="Échec du démarrage du complément"/>
+	<label commandName="APIDefaultCancelSaveReason" devLabel="Cancelled from API" translation="Annulé à partir de l'API"/>
+	<label commandName="CopyManifestError" devLabel="Unable to copy the manifest!" translation="Impossible de copier le fichier manifest."/>
+	<label commandName="DefaultManifestFormatError" devLabel="Default manifest is not JSON format!" translation="Le fichier manifest par défaut n'est pas au format JSON."/>
+	<label commandName="DefaultManifestNotFound" devLabel="Unable to find default manifest!" translation="Fichier manifest par défaut introuvable."/>
+	<label commandName="DefaultManifestReadError" devLabel="Unable to read default manifest!" translation="Impossible de lire le fichier manifest par défaut."/>
+	<label commandName="EditScriptFileGeneralError" devLabel="Failed to open " translation="Echec de l'ouverture "/>
+	<label commandName="EditScriptFileNoAssocError" devLabel="No application knows how to open" translation="Aucune application ne peut ouvrir"/>
+	<label commandName="ManifestCreateError" devLabel="Unable to create manifest!" translation="Impossible de créer le fichier manifest."/>
+	<label commandName="ManifestExistError" devLabel="Script with same name already exists!" translation="Script portant le même nom existe déjà."/>
+	<label commandName="ManifestWriteError" devLabel="Unable to write attributes to manifest!" translation="Impossible d'écrire les attributs dans le fichier manifest."/>
+	<label commandName="NewScriptFileExistsError" devLabel="Script with same name already exists!" translation="Un script portant le même nom existe déjà."/>
+	<label commandName="NewScriptFileOpenError" devLabel="Unable to create the script!" translation="Impossible de créer le script."/>
+	<label commandName="NewScriptUnknownError" devLabel="Unknown error occurred. Failed to create the script!" translation="Une erreur inconnue s'est produite. Echec de la création du script."/>
+</Resource>

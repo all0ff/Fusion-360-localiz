@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><Resource>
+	<label commandName="2.5D" devLabel="2.5D" translation="2.5D"/>
+	<label commandName="AdvancedMeshingMethodOption" devLabel="Advanced" translation="Avanzato"/>
+	<label commandName="AdvancedMeshingMethodOptionToolTip" devLabel="Creates mesh with good outer surface quality." translation="Crea mesh con una buona qualità della superficie esterna."/>
+	<label commandName="Beams" devLabel="Beams" translation="Travi"/>
+	<label commandName="Blend Distance Caption" devLabel="Blend Distance" translation="Distanza di blend"/>
+	<label commandName="BlendDistanceCaption" devLabel="Blend Distance" translation="Distanza di blend"/>
+	<label commandName="BlendDistanceCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="Clearance Caption" devLabel="Clearance" translation="Distanza di sicurezza"/>
+	<label commandName="ClearanceCaption" devLabel="Clearance" translation="Distanza di sicurezza"/>
+	<label commandName="ClearanceCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="CustomresolutionOption" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="CustomresolutionOptionToolTip" devLabel="Applies custom resolution settings to tessellate the volumetric lattice." translation="Applica le impostazioni di risoluzione personalizzate per tassellare il reticolo volumetrico."/>
+	<label commandName="Design" devLabel="Design" translation="Progettazione"/>
+	<label commandName="DesignFeaturePackDescription" devLabel="This section controls optional behavior within the Design workspace." translation="Questa sezione controlla il funzionamento facoltativo all'interno dell'area di lavoro Progettazione."/>
+	<label commandName="Geometry Caption" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="GeometryCaption" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="GeometryCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="HighresolutionOption" devLabel="High" translation="Alta"/>
+	<label commandName="HighresolutionOptionToolTip" devLabel="Applies a preset with high resolution settings to tessellate the volumetric lattice." translation="Applica un preset con impostazioni ad alta risoluzione per tassellare il reticolo volumetrico."/>
+	<label commandName="InvertDensityEffect" devLabel="Invert" translation="Inverti"/>
+	<label commandName="InvertDensityEffectToolTip" devLabel="Invert the effect on the solidity." translation="Invertire l'effetto sulla solidità."/>
+	<label commandName="LowresolutionOption" devLabel="Low" translation="Bassa"/>
+	<label commandName="LowresolutionOptionToolTip" devLabel="Applies a preset with low resolution settings to tessellate the volumetric lattice." translation="Applica un preset con impostazioni a bassa risoluzione per tassellare il reticolo volumetrico."/>
+	<label commandName="MassProperties" devLabel="Volumetric Lattice Properties" translation="Proprietà reticolo volumetrico"/>
+	<label commandName="MediumresolutionOption" devLabel="Medium" translation="Media"/>
+	<label commandName="MediumresolutionOptionToolTip" devLabel="Applies a preset with medium resolution settings to tessellate the volumetric lattice." translation="Applica un preset con impostazioni a media risoluzione per tassellare il reticolo volumetrico."/>
+	<label commandName="MeshingCellCount" devLabel="Element Count" translation="Conteggio elementi"/>
+	<label commandName="MeshingCellCountToolTip" devLabel="Indicates the total number of elements in the grid used to divide the volumetric space.&#xA;More elements create a more detailed mesh and take longer to calculate." translation="Indica il numero totale di elementi nella griglia utilizzati per dividere lo spazio volumetrico.&#xA;Un numero maggiore di elementi crea una mesh più dettagliata e richiede più tempo per il calcolo."/>
+	<label commandName="MeshingCellSize" devLabel="Element Size" translation="Dimensione elemento"/>
+	<label commandName="MeshingCellSizeToolTip" devLabel="Indicates the size of each element in a grid used to divide the volumetric space.&#xA;Small elements create a more detailed mesh and take longer to calculate." translation="Indica la dimensione di ogni elemento in una griglia utilizzata per dividere lo spazio volumetrico.&#xA;Gli elementi piccoli creano una mesh più dettagliata e richiedono più tempo per il calcolo."/>
+	<label commandName="MeshingDeferCompute" devLabel="Suspend Compute" translation="Sospendi calcolo"/>
+	<label commandName="MeshingDeferComputeToolTip" devLabel="If enabled, this feature will not compute until edited, showing a warning instead." translation="Se abilitata, questa funzionalità non consentirà il calcolo finché non verrà modificata, visualizzando invece un avvertimento."/>
+	<label commandName="MeshingMethodOptionsInput" devLabel="Meshing Approach" translation="Approccio generazione mesh"/>
+	<label commandName="MeshingMethodOptionsInputToolTip" devLabel="" translation=""/>
+	<label commandName="MeshingRemoveModel" devLabel="Remove Volumetric Model" translation="Rimuovi modello volumetrico"/>
+	<label commandName="MeshingRemoveModelToolTip" devLabel="If enabled, the Volumetric Model will be removed after conversion to mesh." translation="Se abilitata, il modello volumetrico verrà rimosso dopo la conversione in mesh."/>
+	<label commandName="MeshingRemoveSmallMeshThreshold" devLabel="Shell Size Threshold" translation="Soglia dimensione svuotamento"/>
+	<label commandName="MeshingRemoveSmallMeshThresholdToolTip" devLabel="Specify the threshold value for a small mesh shell.&#xA;If the surface area of a mesh shell, divided by the total surface area is less than the threshold value, the shell will be removed." translation="Specificare il valore di soglia per un piccolo svuotamento mesh.&#xA;Se l'area della superficie di uno svuotamento mesh, divisa per l'area totale della superficie, è inferiore al valore di soglia, lo svuotamento verrà rimosso."/>
+	<label commandName="MeshingRemoveSmallMeshes" devLabel="Remove Small Mesh Shells" translation="Rimuovi svuotamenti mesh piccoli"/>
+	<label commandName="MeshingRemoveSmallMeshesToolTip" devLabel="If enabled, disconnected mesh shells are filtered by size and removed from the created mesh body." translation="Se questa opzione è abilitata, gli svuotamenti mesh disconnessi vengono filtrati in base alle dimensioni e rimossi dal corpo mesh creato."/>
+	<label commandName="MeshingResolution" devLabel="Meshing Resolution" translation="Risoluzione mesh"/>
+	<label commandName="MeshingResolutionToolTip" devLabel="The meshing resolution" translation="La risoluzione delle mesh"/>
+	<label commandName="MeshingShowPreview" devLabel="Show Preview" translation="Mostra anteprima"/>
+	<label commandName="MeshingShowPreviewToolTip" devLabel="If enabled, will show the preview of the mesh conversion operation in the 3D view. This might be slow for complex models and/or small cell sizes." translation="Se abilitata, verrà visualizzata l'anteprima dell'operazione di conversione della mesh nella vista 3D. Ciò potrebbe risultare lento per modelli complessi e/o celle di piccole dimensioni."/>
+	<label commandName="ModelToMeshSelectModel" devLabel="Select a volumetric model to convert to a mesh body" translation="Selezionare un modello volumetrico da convertire in un corpo mesh"/>
+	<label commandName="ModifyModelSelectModel" devLabel="Select a volumetric lattice to modify" translation="Selezionare un reticolo volumetrico da modificare"/>
+	<label commandName="MomentOfInertiaAtCOG" devLabel="Moment of Inertia at Center of Mass" translation="Momento di inerzia al centro di massa"/>
+	<label commandName="MomentOfInertiaAtOrigin" devLabel="Moment of Inertia at Origin" translation="Momento di inerzia all'origine"/>
+	<label commandName="OriginalMeshingMethodOption" devLabel="Original" translation="Originale"/>
+	<label commandName="OriginalMeshingMethodOptionToolTip" devLabel="Creates a mesh with a rough outer surface with volumetric color." translation="Crea una mesh con una superficie esterna grezza con colore volumetrico."/>
+	<label commandName="Point Caption" devLabel="Point" translation="Punto"/>
+	<label commandName="PointCaption" devLabel="Point" translation="Punto"/>
+	<label commandName="PointCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="PointOnPathCaption" devLabel="Position" translation="Posizione"/>
+	<label commandName="PointOnPathCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="Position Caption" devLabel="Position" translation="Posizione"/>
+	<label commandName="RemoveModelSelectModel" devLabel="Select a volumetric model to remove" translation="Selezionare un modello volumetrico da rimuovere"/>
+	<label commandName="Solidity Caption" devLabel="Solidity" translation="Solidità"/>
+	<label commandName="Solidity Caption Regions" devLabel="Solidity" translation="Solidità"/>
+	<label commandName="SolidityCaption" devLabel="Solidity" translation="Solidità"/>
+	<label commandName="SolidityCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="TPMS" devLabel="TPMS" translation="TPMS"/>
+	<label commandName="Thickness Caption" devLabel="Thickness" translation="Spessore"/>
+	<label commandName="ThicknessCaption" devLabel="Thickness" translation="Spessore"/>
+	<label commandName="ThicknessCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="VolFielTextureGeom" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFielTextureGeomToolTip" devLabel="Select body, mesh or its faces to define the texture surfaces." translation="Selezionare il corpo, la mesh o le relative facce per definire le superfici con texture."/>
+	<label commandName="VolFieldCreateLatticeCommand" devLabel="Volumetric Lattice" translation="Reticolo volumetrico"/>
+	<label commandName="VolFieldCreateLatticeSelectBody" devLabel="Select solid or closed mesh body to apply a volumetric model" translation="Selezionare un corpo mesh solido o chiuso per applicare un modello volumetrico"/>
+	<label commandName="VolFieldCreateLatticeSelectDensityCurv" devLabel="Select a curve or edge to define a path of varying solidity" translation="Selezionare una curva o uno spigolo per definire una traiettoria di solidità variabile"/>
+	<label commandName="VolFieldCreateLatticeSelectDensityReg" devLabel="Select geometry to create regions of solidity" translation="Selezionare la geometria per creare regioni di solidità"/>
+	<label commandName="VolFieldCreateLatticeSpecifyOffset" devLabel="Specify offset and blending distance" translation="Specificare l'offset e la distanza di blend"/>
+	<label commandName="VolFieldDcCreateLatticeEditCmd" devLabel="Edit Feature" translation="Modifica lavorazione"/>
+	<label commandName="VolFieldDcModelToMeshEditCmd" devLabel="Edit Feature" translation="Modifica lavorazione"/>
+	<label commandName="VolFieldDcModifyModelEditCmd" devLabel="Edit Feature" translation="Modifica lavorazione"/>
+	<label commandName="VolFieldDcTextureEditCmd" devLabel="Edit Feature" translation="Modifica lavorazione"/>
+	<label commandName="VolFieldDisplayOptions" devLabel="Volumetric Display Options" translation="Opzioni di visualizzazione volumetrica"/>
+	<label commandName="VolFieldDisplayQualitySliderMainInput" devLabel="Volume Display Quality" translation="Qualità di visualizzazione volumetrica"/>
+	<label commandName="VolFieldDisplayQualitySliderMainInputToolTip" devLabel="Specify the display quality of the volumetric model." translation="Specificare la qualità di visualizzazione del modello volumetrico."/>
+	<label commandName="VolFieldEnvironmentNotSupported" devLabel=" environment does not support volumetric models." translation=" ambiente non supporta i modelli volumetrici."/>
+	<label commandName="VolFieldLatticeBNUniformThicknessEnforce" devLabel="Uniform Thickness" translation="Spessore uniforme"/>
+	<label commandName="VolFieldLatticeBNUniformThicknessEnforceToolTip" devLabel="Keep the thickness uniform under non-uniform scaling." translation="Mantenere lo spessore uniforme in una scala non uniforme."/>
+	<label commandName="VolFieldLatticeBNUniformThicknessValue" devLabel="Thickness" translation="Spessore"/>
+	<label commandName="VolFieldLatticeBNUniformThicknessValueToolTip" devLabel="Thickness (diameter for beams)." translation="Spessore (diametro delle travi)."/>
+	<label commandName="VolFieldLatticeBoundaryBodyInput" devLabel="Body" translation="Corpo"/>
+	<label commandName="VolFieldLatticeBoundaryBodyInputToolTip" devLabel="Select a solid or closed mesh body to create an internal lattice." translation="Selezionare un corpo mesh solido o chiuso per creare un reticolo interno."/>
+	<label commandName="VolFieldLatticeCellGeom" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFieldLatticeCellGeomToolTip" devLabel="Select solid or closed mesh bodies, faces or paths to define the unit cell structure." translation="Selezionare corpi, facce o percorsi mesh solidi o chiusi per definire la struttura delle celle dell'unità."/>
+	<label commandName="VolFieldLatticeCellType" devLabel="Cell Shape" translation="Forma cella"/>
+	<label commandName="VolFieldLatticeCellTypeBN2DHoneycomb" devLabel="Honeycomb" translation="Nido d'ape"/>
+	<label commandName="VolFieldLatticeCellTypeBN2DHoneycombToolTip" devLabel="Creates a hexagonal structure per cell.&#xA;Hexagonal honeycomb structures provide high strength-to-weight ratio, efficinet load distribution, and excellent energy absorption." translation="Crea una struttura esagonale per cella.&#xA;Le strutture esagonali a nido d'ape offrono un elevato rapporto resistenza/peso, una distribuzione efficiente del carico e un eccellente assorbimento di energia."/>
+	<label commandName="VolFieldLatticeCellTypeBN2DXCell" devLabel="2.5D X" translation="2.5D X"/>
+	<label commandName="VolFieldLatticeCellTypeBN2DXCellToolTip" devLabel="Creates a 2.5D X structure per cell.&#xA;2.5D X-cell structures are used commonly in additive manufacturing and provide high directional stiffness." translation="Crea una struttura 2.5D X per cella.&#xA;Le strutture a celle 2.5D X vengono utilizzate comunemente nella produzione additiva e forniscono rigidità direzionale elevata."/>
+	<label commandName="VolFieldLatticeCellTypeBNCross" devLabel="Cross" translation="Trasversale"/>
+	<label commandName="VolFieldLatticeCellTypeBNCrossToolTip" devLabel="Creates a simple cross structure per cell.&#xA;Cross structures have good vertical and horizontal strength qualities." translation="Crea una struttura trasversale semplice per cella.&#xA;Le strutture trasversali presentano buone qualità di resistenza verticale e orizzontale."/>
+	<label commandName="VolFieldLatticeCellTypeBNOctetTruss" devLabel="OctetTruss" translation="OctetTruss"/>
+	<label commandName="VolFieldLatticeCellTypeBNOctetTrussToolTip" devLabel="Creates an Octet-truss beam structure per cell.&#xA;The Octet-truss unit cell lattice exhibits a high strength-to-weight ratio and isotropic mechanical behavior, making it ideal for applications requiring lightweight yet strong and consistent structural performance." translation="Crea una struttura di trave Octet-truss per cella.&#xA;Il reticolo di celle unitarie Octet-truss presenta un elevato rapporto resistenza/peso e un funzionamento meccanico isotropo, che lo rendono ideale per applicazioni che richiedono prestazioni strutturali leggere, ma robuste e costanti."/>
+	<label commandName="VolFieldLatticeCellTypeBNXCell" devLabel="X" translation="X"/>
+	<label commandName="VolFieldLatticeCellTypeBNXCellToolTip" devLabel="Creates an X structure per cell.&#xA;A widely used cell in a range of additive manufacturing processes for its self-supporting nature. Suitable for a range of applications including lightweighting." translation="Crea una struttura X per cella.&#xA;Cella ampiamente utilizzata in una serie di processi di produzione additiva per la sua natura autosupportante. Adatta per una serie di applicazioni, tra cui l'alleggerimento."/>
+	<label commandName="VolFieldLatticeCellTypeCustom" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="VolFieldLatticeCellTypeCustomToolTip" devLabel="Creates a structure based on selected geometry." translation="Crea una struttura in base alla geometria selezionata."/>
+	<label commandName="VolFieldLatticeCellTypeGyroid" devLabel="Gyroid" translation="Giroide"/>
+	<label commandName="VolFieldLatticeCellTypeGyroidToolTip" devLabel="Creates a gyroid structure per cell.&#xA;Gyroid structures have excellent isotropic strength properties and can be used effectively inside 3D prints." translation="Crea una struttura di tipo giroide per cella.&#xA;Le strutture di tipo giroide presentano eccellenti proprietà di resistenza isotropa e possono essere utilizzate in modo efficace all'interno di stampe 3D."/>
+	<label commandName="VolFieldLatticeCellTypeSchwarzD" devLabel="Schwarz D" translation="Schwarz D"/>
+	<label commandName="VolFieldLatticeCellTypeSchwarzDToolTip" devLabel="Creates a Schwarz D structure per cell.&#xA;A structure which exhibits high stiffness properties and can be used effectively inside 3D printed parts." translation="Crea una struttura Schwarz D per cella.&#xA;Struttura che presenta proprietà di rigidità elevate e può essere utilizzata in modo efficace all'interno di parti stampate 3D."/>
+	<label commandName="VolFieldLatticeCellTypeSchwarzP" devLabel="Schwarz P" translation="Schwarz P"/>
+	<label commandName="VolFieldLatticeCellTypeSchwarzPToolTip" devLabel="Creates a Schwarz P minimal structure surface per cell.&#xA;The Schwarz P structure exhibits a high load bearing capacity due to the shape's inherent strain distribution." translation="Crea una superficie strutturale minima Schwarz P per cella.&#xA;La struttura Schwarz P presenta un'elevata capacità di supporto del carico data dalla distribuzione della deformazione intrinseca della forma."/>
+	<label commandName="VolFieldLatticeCellTypeToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDEnsityType" devLabel="Distribution" translation="Distribuzione"/>
+	<label commandName="VolFieldLatticeDEnsityTypeToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurve" devLabel="Path" translation="Traiettoria"/>
+	<label commandName="VolFieldLatticeDensityCurveEnd" devLabel="End" translation="Fine"/>
+	<label commandName="VolFieldLatticeDensityCurvePoint" devLabel="Point " translation="Punto "/>
+	<label commandName="VolFieldLatticeDensityCurvePointDensity" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurvePointDensityToolTip" devLabel="Solidity" translation="Solidità"/>
+	<label commandName="VolFieldLatticeDensityCurvePointLabel" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurvePointLabelToolTip" devLabel="Specify a point" translation="Specificare un punto"/>
+	<label commandName="VolFieldLatticeDensityCurvePointPosition" devLabel="Position Along Curve" translation="Posiziona lungo la curva"/>
+	<label commandName="VolFieldLatticeDensityCurvePointPositionToolTip" devLabel="Specify position along selected path." translation="Specificare la posizione lungo la traiettoria selezionata."/>
+	<label commandName="VolFieldLatticeDensityCurveStart" devLabel="Start" translation="Inizio"/>
+	<label commandName="VolFieldLatticeDensityCurveTable" devLabel="Curve solidity gradient" translation="Gradiente di solidità della curva"/>
+	<label commandName="VolFieldLatticeDensityCurveTableToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurveToolTip" devLabel="Select path to distribute material volume within the body." translation="Selezionare la traiettoria per distribuire il volume del materiale all'interno del corpo."/>
+	<label commandName="VolFieldLatticeDensityFallOff" devLabel="Blend Distance" translation="Distanza di blend"/>
+	<label commandName="VolFieldLatticeDensityFallOffToolTip" devLabel="Specify the length of the gradient between the offset area and the solidity of the rest of the lattice." translation="Specificare la lunghezza del gradiente tra l'area di offset e la solidità del resto del reticolo."/>
+	<label commandName="VolFieldLatticeDensityInput" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityInputToolTip" devLabel="Specify the solidity of the volumetric lattice." translation="Specificare la solidità del reticolo volumetrico."/>
+	<label commandName="VolFieldLatticeDensityOffsetTable" devLabel="Solidity" translation="Solidità"/>
+	<label commandName="VolFieldLatticeDensityOffsetTableToolTip" devLabel="Solidity offset regions" translation="Regioni di offset di solidità"/>
+	<label commandName="VolFieldLatticeDensityReg" devLabel="Select" translation="Seleziona"/>
+	<label commandName="VolFieldLatticeDensityRegDensitySlider" devLabel="Solidity" translation="Solidità"/>
+	<label commandName="VolFieldLatticeDensityRegDensitySliderToolTip" devLabel="Specify the solidity of the offset region." translation="Specificare la solidità della regione di offset."/>
+	<label commandName="VolFieldLatticeDensityRegFallOff" devLabel="Blend Distance" translation="Distanza di blend"/>
+	<label commandName="VolFieldLatticeDensityRegFallOffToolTip" devLabel="Specify the length of the gradient between the offset area and the solidity of the rest of the lattice." translation="Specificare la lunghezza del gradiente tra l'area di offset e la solidità del resto del reticolo."/>
+	<label commandName="VolFieldLatticeDensityRegGeom" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFieldLatticeDensityRegGeomToolTip" devLabel="Select bodies, faces, paths or points to specify solidity." translation="Selezionare i corpi, le facce, le traiettorie o i punti per specificare la solidità."/>
+	<label commandName="VolFieldLatticeDensityRegLabel" devLabel="Region" translation="Regione"/>
+	<label commandName="VolFieldLatticeDensityRegLabelToolTip" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFieldLatticeDensityRegThickness" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityRegThicknessToolTip" devLabel="Thickness" translation="Spessore"/>
+	<label commandName="VolFieldLatticeDensityRegToolTip" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFieldLatticeDensityRegionsAdd" devLabel="Add region" translation="Aggiungi regione"/>
+	<label commandName="VolFieldLatticeDensityRegionsAddToolTip" devLabel="Add geometry." translation="Aggiunge la geometria."/>
+	<label commandName="VolFieldLatticeDensityRegionsRem" devLabel="Remove region" translation="Rimuovi regione"/>
+	<label commandName="VolFieldLatticeDensityRegionsRemToolTip" devLabel="Remove geometry." translation="Rimuove la geometria."/>
+	<label commandName="VolFieldLatticeDensitySliderInput" devLabel="Solidity" translation="Solidità"/>
+	<label commandName="VolFieldLatticeDensitySliderInputConstant" devLabel="Solidity" translation="Solidità"/>
+	<label commandName="VolFieldLatticeDensitySliderInputConstantToolTip" devLabel="Specify the solidity of the volumetric lattice." translation="Specificare la solidità del reticolo volumetrico."/>
+	<label commandName="VolFieldLatticeDensitySliderInputToolTip" devLabel="Specify the solidity of the volumetric lattice." translation="Specificare la solidità del reticolo volumetrico."/>
+	<label commandName="VolFieldLatticeDensityThickness" devLabel="Thickness" translation="Spessore"/>
+	<label commandName="VolFieldLatticeDensityThicknessToolTip" devLabel="Thickness" translation="Spessore"/>
+	<label commandName="VolFieldLatticeDensityTypeAlongCurve" devLabel="Gradient Along Path" translation="Gradiente lungo la traiettoria"/>
+	<label commandName="VolFieldLatticeDensityTypeAlongCurveToolTip" devLabel="Distributes a varying percentage of material volume to cells along the selected line, curve or edge." translation="Distribuisce una percentuale variabile del volume del materiale alle celle lungo la linea, la curva o lo spigolo selezionati."/>
+	<label commandName="VolFieldLatticeDensityTypeConstant" devLabel="Uniform" translation="Uniforme"/>
+	<label commandName="VolFieldLatticeDensityTypeConstantToolTip" devLabel="Distributes an even percentage of material volume to all cells throughout the selected body." translation="Distribuisce una percentuale uniforme del volume del materiale a tutte le celle del corpo selezionato."/>
+	<label commandName="VolFieldLatticeDensityTypeDistance" devLabel="Distance from geometry" translation="Distanza dalla geometria"/>
+	<label commandName="VolFieldLatticeDensityTypeDistanceToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeRegDensity" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeRegDensityToolTip" devLabel="Solidity" translation="Solidità"/>
+	<label commandName="VolFieldLatticeSizeActive" devLabel="Scale" translation="Scala"/>
+	<label commandName="VolFieldLatticeSizeActiveToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeSizeInputGroup" devLabel="Cell Size" translation="Dimensione cella"/>
+	<label commandName="VolFieldLatticeSizeInputGroupToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeSizeIsUniformInput" devLabel="Proportions" translation="Proporzioni"/>
+	<label commandName="VolFieldLatticeSizeIsUniformInputToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeSizeTypeNonUniform" devLabel="Non-Uniform" translation="Non uniforme"/>
+	<label commandName="VolFieldLatticeSizeTypeNonUniformToolTip" devLabel="Creates cells of different sizes in each direction." translation="Crea celle di dimensioni diverse in ogni direzione."/>
+	<label commandName="VolFieldLatticeSizeTypeUniform" devLabel="Uniform" translation="Uniforme"/>
+	<label commandName="VolFieldLatticeSizeTypeUniformToolTip" devLabel="Creates cells of the same size in each direction." translation="Crea celle delle stesse dimensioni in ogni direzione."/>
+	<label commandName="VolFieldLatticeSizeUniformInput" devLabel="Size" translation="Dimensione"/>
+	<label commandName="VolFieldLatticeSizeUniformInputToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeSizeXInput" devLabel="X Direction" translation="Direzione X"/>
+	<label commandName="VolFieldLatticeSizeXInputToolTip" devLabel="Specify the size of the cell in the X direction." translation="Specificare le dimensioni della cella nella direzione X."/>
+	<label commandName="VolFieldLatticeSizeYInput" devLabel="Y Direction" translation="Direzione Y"/>
+	<label commandName="VolFieldLatticeSizeYInputToolTip" devLabel="Specify the size of the cell in the Y direction." translation="Specificare le dimensioni della cella nella direzione Y."/>
+	<label commandName="VolFieldLatticeSizeZInput" devLabel="Z Direction" translation="Direzione Z"/>
+	<label commandName="VolFieldLatticeSizeZInputToolTip" devLabel="Specify the size of the cell in the Z direction." translation="Specificare le dimensioni della cella nella direzione Z."/>
+	<label commandName="VolFieldLatticeTabBar" devLabel="Lattice Tabs" translation="Schede reticolo"/>
+	<label commandName="VolFieldLatticeTabBarToolTip" devLabel="Volumetric lattice parameter tabs" translation="Schede dei parametri del reticolo volumetrico"/>
+	<label commandName="VolFieldLatticeTabDensity" devLabel="Solidity" translation="Solidità"/>
+	<label commandName="VolFieldLatticeTabDensityToolTip" devLabel="Specify the amount of the solidity in cells and its distribution." translation="Specificare la quantità di solidità nelle celle e la relativa distribuzione."/>
+	<label commandName="VolFieldLatticeTabPattern" devLabel="Setup" translation="Setup"/>
+	<label commandName="VolFieldLatticeTabPatternToolTip" devLabel="Select a body and specify the cell shape and orientation." translation="Selezionare un corpo e specificare la forma e l'orientamento della cella."/>
+	<label commandName="VolFieldLatticeTabRegions" devLabel="Offset" translation="Offset"/>
+	<label commandName="VolFieldLatticeTabRegionsToolTip" devLabel="Specify offset areas of the body." translation="Specificare le aree di offset del corpo."/>
+	<label commandName="VolFieldLatticeTransformEnable" devLabel="Move / Rotate" translation="Sposta/Ruota"/>
+	<label commandName="VolFieldLatticeTransformEnableToolTip" devLabel="Moves or rotates cells in the specified direction." translation="Sposta o ruota le celle nella direzione specificata."/>
+	<label commandName="VolFieldLatticeTransformInput" devLabel="Transform" translation="Trasforma"/>
+	<label commandName="VolFieldLatticeTransformInputGroup" devLabel="Lattice Transform" translation="Trasformazione reticolo"/>
+	<label commandName="VolFieldLatticeTransformInputGroupToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeTransformInputToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeTransformReset" devLabel="Reset" translation="Ripristina"/>
+	<label commandName="VolFieldLatticeTransformResetToolTip" devLabel="Resets cells to the original position." translation="Ripristina le celle nella posizione originale."/>
+	<label commandName="VolFieldMassPropDisclaimer" devLabel="Volumetric Lattice Properties are estimates of their true physical quantities. Increasing&#xA;the complexity of the Volumetric Lattice will reduce the accuracy of these estimates." translation="Le Proprietà reticolo volumetrico sono stime delle reali quantità fisiche. L'aumento&#xA;della complessità del reticolo volumetrico ridurrà la precisione di queste stime."/>
+	<label commandName="VolFieldModelToMeshCommand" devLabel="Convert Volumetric Model to Mesh" translation="Converti modello volumetrico in mesh"/>
+	<label commandName="VolFieldModifyModelCommand" devLabel="Modify Volumetric Lattice" translation="Modifica reticolo volumetrico"/>
+	<label commandName="VolFieldRemoveModelCommand" devLabel="Remove" translation="Rimuovi"/>
+	<label commandName="VolFieldSelectCellGeometry" devLabel="Select solid or closed mesh bodies, faces or paths." translation="Selezionare corpi, facce o percorsi mesh solidi o chiusi."/>
+	<label commandName="VolFieldTextureCellAmplitudeInput" devLabel="Amplitude" translation="Ampiezza"/>
+	<label commandName="VolFieldTextureCellAmplitudeInputToolTip" devLabel="Multiplier applied to output range of the random noise value. The output will always be positive. The output values will tend to get larger as the cell gets larger (i.e. the stride is increased)." translation="Moltiplicatore applicato all'intervallo di uscita del valore di disturbo casuale. L'output sarà sempre positivo. I valori di output tenderanno a diventare più grandi man mano che la cella diventa più grande (cioè il passo aumenta)."/>
+	<label commandName="VolFieldTextureCellCountXInput" devLabel="X Cell Count" translation="Conteggio celle X"/>
+	<label commandName="VolFieldTextureCellCountXInputToolTip" devLabel="The number of cuboids used in the x axis to generate noise. The input values must be positive integers. The output values will tend to get larger as the count gets smaller" translation="Il numero di cuboidi utilizzati sull'asse X per generare disturbo. I valori di input devono essere numeri interi positivi. I valori di output tenderanno a diventare più grandi man mano che il conteggio diventa più piccolo"/>
+	<label commandName="VolFieldTextureCellCountYInput" devLabel="Y Cell Count" translation="Conteggio celle Y"/>
+	<label commandName="VolFieldTextureCellCountYInputToolTip" devLabel="The number of cuboids used in the y axis to generate noise. The input values must be positive integers. The output values will tend to get larger as the count gets smaller" translation="Il numero di cuboidi utilizzati nell'asse Y per generare disturbo. I valori di input devono essere numeri interi positivi. I valori di output tenderanno a diventare più grandi man mano che il conteggio diventa più piccolo"/>
+	<label commandName="VolFieldTextureCellCountZInput" devLabel="Z Cell Count" translation="Conteggio celle Z"/>
+	<label commandName="VolFieldTextureCellCountZInputToolTip" devLabel="The number of cuboids used in the z axis to generate noise. The input values must be positive integers. The output values will tend to get larger as the count gets smaller" translation="Il numero di cuboidi utilizzati nell'asse Z per generare disturbo. I valori di input devono essere numeri interi positivi. I valori di output tenderanno a diventare più grandi man mano che il conteggio diventa più piccolo"/>
+	<label commandName="VolFieldTextureCellFNumberInput" devLabel="FNumber" translation="FNumber"/>
+	<label commandName="VolFieldTextureCellFNumberInputToolTip" devLabel="Distance to the n-th closest point in the Voronoi field (1- returns the distance to the firstclosest point, 2- to the second, etc) where n-ranges : [0,8]." translation="Distanza dall'n-esimo punto più vicino nel campo di Voronoi (1- restituisce la distanza al primo punto più vicino, 2- al secondo e così via) dove n-intervalli: [0,8]."/>
+	<label commandName="VolFieldTextureCellFractalDepthInput" devLabel="Fractal Depth" translation="Profondità frattale"/>
+	<label commandName="VolFieldTextureCellFractalDepthInputToolTip" devLabel="Number of iterations of noise to produce. Each subsequent iteration will have halved stride." translation="Numero di iterazioni di disturbo da produrre. Ogni iterazione successiva avrà un passo dimezzato."/>
+	<label commandName="VolFieldTextureCellInputGroup" devLabel="Cell" translation="Cella"/>
+	<label commandName="VolFieldTextureCellInputGroupToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldTextureCellManhattanInput" devLabel="Manhattan" translation="Manhattan"/>
+	<label commandName="VolFieldTextureCellManhattanInputToolTip" devLabel="Toggle between Manhattan- and Euclidean- distance. Controls internal noise generation. If on noise will be steeper, especially off the axes." translation="Alterna tra distanza Manhattan e distanza euclidea. Controlla la generazione del disturbo interno. Se attivo, il disturbo sarà più ripido, soprattutto fuori dagli assi."/>
+	<label commandName="VolFieldTextureCellPersistenceInput" devLabel="Persistence" translation="Persistenza"/>
+	<label commandName="VolFieldTextureCellPersistenceInputToolTip" devLabel="Ratio by which amplitude is reduced for each fractal layer." translation="Rapporto in base al quale l'ampiezza viene ridotta per ogni layer frattale."/>
+	<label commandName="VolFieldTextureCellSeedInput" devLabel="Seed" translation="Origine"/>
+	<label commandName="VolFieldTextureCellSeedInputToolTip" devLabel="Seed: Seed for the random generation." translation="Origine: origine per la generazione casuale."/>
+	<label commandName="VolFieldTextureClearanceRegionsAdd" devLabel="Add region" translation="Aggiungi regione"/>
+	<label commandName="VolFieldTextureClearanceRegionsAddToolTip" devLabel="Add geometry." translation="Aggiunge la geometria."/>
+	<label commandName="VolFieldTextureClearanceRegionsRem" devLabel="Remove region" translation="Rimuovi regione"/>
+	<label commandName="VolFieldTextureClearanceRegionsRemToolTip" devLabel="Remove geometry." translation="Rimuove la geometria."/>
+	<label commandName="VolFieldTextureClearancesRegGeom" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFieldTextureClearancesRegGeomToolTip" devLabel="Select bodies, faces, paths or points to specify solidity." translation="Selezionare i corpi, le facce, le traiettorie o i punti per specificare la solidità."/>
+	<label commandName="VolFieldTextureClearancesTable" devLabel="Clearances" translation="Distanze di sicurezza"/>
+	<label commandName="VolFieldTextureClearancesTableToolTip" devLabel="Solidity clearance regions" translation="Regioni di distanza di sicurezza di solidità"/>
+	<label commandName="VolFieldTextureCommand" devLabel="Volumetric Texture" translation="Texture volumetrica"/>
+	<label commandName="VolFieldTextureDensityRegFallOff" devLabel="Blend Distance" translation="Distanza di blend"/>
+	<label commandName="VolFieldTextureDensityRegFallOffToolTip" devLabel="Specify the length of the gradient between the offset area and the solidity of the rest of the texture." translation="Specificare la lunghezza della sfumatura tra l'area di offset e la solidità del resto della texture."/>
+	<label commandName="VolFieldTextureDensityRegLabel" devLabel="Region" translation="Regione"/>
+	<label commandName="VolFieldTextureDensityRegLabelToolTip" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFieldTextureDensityRegThickness" devLabel="" translation=""/>
+	<label commandName="VolFieldTextureDensityRegThicknessToolTip" devLabel="Thickness" translation="Spessore"/>
+	<label commandName="VolFieldTextureDepth" devLabel="Depth" translation="Profondità"/>
+	<label commandName="VolFieldTextureDepthToolTip" devLabel="Specify the depth of engraved texture on the surface. Number of iterations of noise to produce. Each subsequent iteration will have halved stride." translation="Specificare la profondità della texture incisa sulla superficie. Numero di iterazioni di disturbo da produrre. Ogni iterazione successiva avrà un passo dimezzato."/>
+	<label commandName="VolFieldTextureGeomSelectPrompt" devLabel="Select solid or closed mesh bodies, faces or paths." translation="Selezionare corpi, facce o percorsi mesh solidi o chiusi."/>
+	<label commandName="VolFieldTexturePattern" devLabel="Texture Pattern" translation="Serie di texture"/>
+	<label commandName="VolFieldTexturePatternCheckerBoard" devLabel="Checker Board" translation="Scacchiera"/>
+	<label commandName="VolFieldTexturePatternCheckerBoardToolTip" devLabel="Creates a checker board texture over the selected faces." translation="Crea una texture a scacchiera sulle facce selezionate."/>
+	<label commandName="VolFieldTexturePatternGyroid" devLabel="Gyroid" translation="Giroide"/>
+	<label commandName="VolFieldTexturePatternGyroidToolTip" devLabel="Creates a gyroid wave texture over the selected faces." translation="Crea una texture di onda giroide sulle facce selezionate."/>
+	<label commandName="VolFieldTexturePatternLeather" devLabel="Leather" translation="Pelle"/>
+	<label commandName="VolFieldTexturePatternLeatherToolTip" devLabel="Creates a leather like texture over the selected faces." translation="Crea una texture simile a pelle sulle facce selezionate."/>
+	<label commandName="VolFieldTexturePatternNoise" devLabel="Noise" translation="Disturbo"/>
+	<label commandName="VolFieldTexturePatternNoiseToolTip" devLabel="Creates a random noisy texture over the selected faces." translation="Crea una texture di disturbo casuale sulle facce selezionate."/>
+	<label commandName="VolFieldTexturePatternPerlin" devLabel="Perlin" translation="Perlin"/>
+	<label commandName="VolFieldTexturePatternPerlinToolTip" devLabel="Creates a random perlin cell texture over the selected faces." translation="Crea una texture Perlin casuale delle celle sulle facce selezionate."/>
+	<label commandName="VolFieldTexturePatternStripe" devLabel="Stripe" translation="Striscia"/>
+	<label commandName="VolFieldTexturePatternStripeToolTip" devLabel="Creates stirped texture over the selected faces." translation="Crea una texture a striscie sulle facce selezionate."/>
+	<label commandName="VolFieldTexturePatternToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldTexturePatternVoronoi" devLabel="Voronoi" translation="Voronoi"/>
+	<label commandName="VolFieldTexturePatternVoronoiToolTip" devLabel="Creates a random voronoi cell texture over the selected faces." translation="Crea una texture Voronoi casuale delle celle sulle facce selezionate."/>
+	<label commandName="VolFieldTexturePatternWoodGrain" devLabel="Wood Grain" translation="Venatura del legno"/>
+	<label commandName="VolFieldTexturePatternWoodGrainToolTip" devLabel="Creates a wood grain like suface texture over the selected faces." translation="Crea una texture di superficie simile alle venature del legno sulle facce selezionate."/>
+	<label commandName="VolFieldTextureScale" devLabel="Scale" translation="Scala"/>
+	<label commandName="VolFieldTextureScaleToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldTextureSelectClearancesGeom" devLabel="Select geometry to create regions of clearances" translation="Selezionare la geometria per creare regioni di distanza di sicurezza"/>
+	<label commandName="VolFieldTextureSeparator" devLabel="Separator" translation="Separatore"/>
+	<label commandName="VolFieldTextureSeparatorToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldTextureSizeXInput" devLabel="X Direction" translation="Direzione X"/>
+	<label commandName="VolFieldTextureSizeXInputToolTip" devLabel="Specify the size of the cell in the X direction." translation="Specificare le dimensioni della cella nella direzione X."/>
+	<label commandName="VolFieldTextureSizeYInput" devLabel="Y Direction" translation="Direzione Y"/>
+	<label commandName="VolFieldTextureSizeYInputToolTip" devLabel="Specify the size of the cell in the Y direction." translation="Specificare le dimensioni della cella nella direzione Y."/>
+	<label commandName="VolFieldTextureSizeZInput" devLabel="Z Direction" translation="Direzione Z"/>
+	<label commandName="VolFieldTextureSizeZInputToolTip" devLabel="Specify the size of the cell in the Z direction." translation="Specificare le dimensioni della cella nella direzione Z."/>
+	<label commandName="VolFieldTextureSpecifyClearances" devLabel="Specify Thickness and blending distance" translation="Specificare lo spessore e la distanza di blend"/>
+	<label commandName="VolFieldTextureTabBar" devLabel="Texture Tabs" translation="Schede Texture"/>
+	<label commandName="VolFieldTextureTabBarToolTip" devLabel="Volumetric texture parameter tabs" translation="Schede dei parametri della texture volumetrica"/>
+	<label commandName="VolFieldTextureTabClearances" devLabel="Clearances" translation="Distanze di sicurezza"/>
+	<label commandName="VolFieldTextureTabClearancesToolTip" devLabel="Specify offset areas of the body." translation="Specificare le aree di offset del corpo."/>
+	<label commandName="VolFieldTextureTabPattern" devLabel="Texture" translation="Texture"/>
+	<label commandName="VolFieldTextureTabPatternToolTip" devLabel="Select a body and specify the face and texture orientation." translation="Selezionare un corpo e specificare l'orientamento di faccia e texture."/>
+	<label commandName="VolFieldTextureTransformEnable" devLabel="Move / Rotate" translation="Sposta/Ruota"/>
+	<label commandName="VolFieldTextureTransformEnableToolTip" devLabel="Moves or rotates cells in the specified direction." translation="Sposta o ruota le celle nella direzione specificata."/>
+	<label commandName="VolFieldTextureTransformInput" devLabel="Transform" translation="Trasforma"/>
+	<label commandName="VolFieldTextureTransformInputGroup" devLabel="Texture Transform" translation="Trasformazione texture"/>
+	<label commandName="VolFieldTextureTransformInputGroupToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldTextureTransformInputToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldTextureTransformReset" devLabel="Reset" translation="Ripristina"/>
+	<label commandName="VolFieldTextureTransformResetToolTip" devLabel="Resets cells to the original position." translation="Ripristina le celle nella posizione originale."/>
+	<label commandName="VolFieldToMeshSelectBody" devLabel="Select a body with an valid volumetric lattice to create mesh body" translation="Selezionare un corpo con un reticolo volumetrico valido per creare un corpo mesh"/>
+	<label commandName="VolFieldToMeshSelectedBody" devLabel="Adjust the refinement settings" translation="Regolare le impostazioni di rifinitura"/>
+	<label commandName="VolFieldVFLatticeInput" devLabel="Volumetric Lattice" translation="Reticolo volumetrico"/>
+	<label commandName="VolFieldVFLatticeInputToolTip" devLabel="Select a volumetric lattice." translation="Selezionare un reticolo volumetrico."/>
+	<label commandName="VolFieldVFModelInput" devLabel="Volumetric Model" translation="Modello volumetrico"/>
+	<label commandName="VolFieldVFModelInputToolTip" devLabel="Select a volumetric model." translation="Selezionare un modello volumetrico."/>
+	<label commandName="VolfieldPropCOM" devLabel="Center of Mass" translation="Centro di massa"/>
+	<label commandName="VolfieldPropVolume" devLabel="Volume" translation="Volume"/>
+	<label commandName="VolumetricModelingFeature" devLabel="Volumetric Modeling" translation="Modellazione volumetrica"/>
+	<label commandName="VolumetricModelingFeatureDescription" devLabel="Enables Volumetric Modeling tools." translation="Attiva gli utensili di Modellazione volumetrica."/>
+	<label commandName="VolumetricModelingFeaturePreview" devLabel="Preview Volumetric Modeling Features" translation="Anteprima delle funzionalità di Modellazione volumetrica"/>
+	<label commandName="VolumetricModelingFeaturePreviewDescription" devLabel="Enables Volumetric Texture and Modify Lattice commands. Available under Solid/Mesh &gt; Modify Tab" translation="Abilita i comandi Texture volumetrica e Modifica reticolo. Disponibile nella scheda Solido/Mesh &gt; Modifica."/>
+	<label commandName="infoClearancesBlendDist" devLabel="infoClearancesBlendDist%1%" translation="infoClearancesBlendDist%1%"/>
+	<label commandName="infoClearancesRowLabel" devLabel="infoClearancesRowLabel%1%" translation="infoClearancesRowLabel%1%"/>
+	<label commandName="infoClearancesThickness" devLabel="infoClearancesThickness%1%" translation="infoClearancesThickness%1%"/>
+	<label commandName="infoDensityCurvePointDensity" devLabel="infoDensityCurvePointDensity%1%" translation="infoDensityCurvePointDensity%1%"/>
+	<label commandName="infoDensityCurvePointLabel" devLabel="infoDensityCurvePointLabel%1%" translation="infoDensityCurvePointLabel%1%"/>
+	<label commandName="infoDensityCurvePointPosition" devLabel="infoDensityCurvePointPosition%1%" translation="infoDensityCurvePointPosition%1%"/>
+	<label commandName="infoDensityOffsetBlendDist" devLabel="infoDensityOffsetBlendDist%1%" translation="infoDensityOffsetBlendDist%1%"/>
+	<label commandName="infoDensityOffsetRowLabel" devLabel="infoDensityOffsetRowLabel%1%" translation="infoDensityOffsetRowLabel%1%"/>
+	<label commandName="infoDensityOffsetSolidity" devLabel="infoDensityOffsetSolidity%1%" translation="infoDensityOffsetSolidity%1%"/>
+	<label commandName="infoDensityOffsetThickness" devLabel="infoDensityOffsetThickness%1%" translation="infoDensityOffsetThickness%1%"/>
+	<label commandName="infoDensityRegMissing" devLabel="infoDensityRegMissing%1%" translation="infoDensityRegMissing%1%"/>
+	<label commandName="lclzVolFieldCreateLatticeDesc" devLabel="Create a new volumetric lattice using the selected geometry as the boundary of the volume." translation="Creare un nuovo reticolo volumetrico utilizzando la geometria selezionata come contorno del volume."/>
+	<label commandName="lclzVolFieldDisplayOptions" devLabel="Set volumetric model display quality options." translation="Impostare le opzioni della qualità di visualizzazione del modello volumetrico."/>
+	<label commandName="lclzVolFieldModelToMeshDesc" devLabel="Converts a volumetric model to a mesh body." translation="Converte un modello volumetrico in un corpo mesh."/>
+	<label commandName="lclzVolFieldModify" devLabel="Modify" translation="Modifica"/>
+	<label commandName="lclzVolFieldModifyModelDesc" devLabel=" Use geometry to modify the density of an existing volumetic lattice." translation=" Utilizzare la geometria per modificare la densità di un reticolo volumetrico esistente."/>
+	<label commandName="lclzVolFieldRemoveModelDesc" devLabel="Removes the volumetric model from the timeline." translation="Rimuove il modello volumetrico dalla timeline."/>
+	<label commandName="lclzVolFieldSetup" devLabel="Setup" translation="Setup"/>
+	<label commandName="lclzVolFieldTab" devLabel="Volumetric" translation="Volumetrico"/>
+	<label commandName="lclzVolFieldTextureDesc" devLabel="Create a new volumetric texture using the selected geometry as the boundary of the volume." translation="Creare una nuova texture volumetrica utilizzando la geometria selezionata come boundary del volume."/>
+	<label commandName="mpSeparator" devLabel="" translation=""/>
+	<label commandName="resolutionOptionsInput" devLabel="Refinement" translation="Rifinitura"/>
+	<label commandName="resolutionOptionsInputToolTip" devLabel="" translation=""/>
+</Resource>

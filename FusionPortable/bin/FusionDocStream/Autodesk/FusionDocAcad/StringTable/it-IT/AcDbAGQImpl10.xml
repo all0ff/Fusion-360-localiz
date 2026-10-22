@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IDS_CMD_DUMPCELLMAP" devLabel="DUMPCELLMAP" translation="DUMPCELLMAP"/>
+	<label commandName="IDS_CMD_EXPLODELOOPS" devLabel="EXPLODELOOPS" translation="EXPLODELOOPS"/>
+	<label commandName="IDS_CMD_GETUNIQUESECTION" devLabel="GETUNIQUESECTION" translation="GETUNIQUESECTION"/>
+	<label commandName="IDS_CMD_ISCIRCULAR" devLabel="ISCIRCULAR" translation="ISCIRCULAR"/>
+	<label commandName="IDS_CMD_ISSYMMETRIC" devLabel="ISSYMMETRIC" translation="ISSYMMETRIC"/>
+	<label commandName="IDS_CMD_ISTURNED" devLabel="ISTURNED" translation="ISTURNED"/>
+	<label commandName="IDS_CMD_REMOVESAMELOOPS " devLabel="REMOVESAMELOOPS " translation="REMOVESAMELOOPS "/>
+</Resource>

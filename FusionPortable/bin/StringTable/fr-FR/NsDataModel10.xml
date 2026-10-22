@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Asset not fully loaded" devLabel="The asset %1% is not fully loaded. Please call fullyInitializeIfNeeded() on it." translation="La ressource %1% n'est pas entièrement chargée. Appelez fullyInitializeIfNeeded()."/>
+	<label commandName="AutoSaveExceptionMessageText" devLabel="Failed to autosave file %1% because of an exception - %2%. Please save it manually." translation="Impossible d'enregistrer automatiquement le fichier %1% en raison d'une exception (%2%). Enregistrez-le manuellement."/>
+	<label commandName="AutoSaveExceptionTitleStr" devLabel="autosave exception error" translation="Exception lors de l'enregistrement automatique"/>
+	<label commandName="AutoSaveOnCloseToolTip" devLabel="Automatically version the document before closing" translation="Enregistrer automatiquement le document avant fermeture"/>
+	<label commandName="AutoSaveOnCloseToolTip_ccy" devLabel="Automatically save changes before closing" translation="Enregistrer automatiquement les modifications avant fermeture"/>
+	<label commandName="AutoSaveOnCloseUserName" devLabel="Automatic version on close" translation="Version automatiquement enregistrée à la fermeture"/>
+	<label commandName="AutoSaveOnCloseUserName_ccy" devLabel="Automatic save on close" translation="Enregistrement automatique à la fermeture"/>
+	<label commandName="AutoSaveOptionsToolTip" devLabel="Auto-save options" translation="Options d'enregistrement automatique"/>
+	<label commandName="AutoSaveOptionsUserName" devLabel="Auto-save Options" translation="Options d'enregistrement automatique"/>
+	<label commandName="AutoSaveUnknownExceptionMessageText" devLabel="Failed to autosave file %1% because of an unknown exception. Please save it manually." translation="Impossible d'enregistrer automatiquement le fichier %1% en raison d'une exception inconnue. Enregistrez-le manuellement."/>
+	<label commandName="AutoVersioningTimeToolTip" devLabel="Set automatic versioning time in minutes" translation="Définir la durée de gestion automatique des versions en minutes"/>
+	<label commandName="AutoVersioningTimeUserName" devLabel="Automatic versioning time interval (min)" translation="Versionnage automatique Fréquence (min)"/>
+	<label commandName="AutoVersioningToolTip" devLabel="Automatically save a new version of the file using a background thread" translation="Enregistrer automatiquement une nouvelle version du fichier à l'aide d'un thread en arrière-plan"/>
+	<label commandName="AutoVersioningUserName" devLabel="Automatic versioning" translation="Gestion automatique des versions"/>
+	<label commandName="BlobLoadFailed" devLabel="The blob data in file %1% could not be loaded." translation="Les données BLOB du fichier %1% n'ont pas pu être chargées."/>
+	<label commandName="CONFIGURATION_RULES_VIOLATED_KEY" devLabel="Configuration Rules Violated." translation="Règles de configuration enfreintes."/>
+	<label commandName="CannotDeleteActiveAsset" devLabel="The active asset %1% cannot be erased!" translation="Impossible d'effacer la ressource active %1%."/>
+	<label commandName="CannotMarkActiveAssetAsDeleted" devLabel="The active asset %1% cannot be marked for delete!" translation="Impossible de marquer la ressource active %1% pour suppression."/>
+	<label commandName="CloningError" devLabel="Cloning will introduce circular links between source Asset %1% and target asset %2%!" translation="Le clonage va introduire des liens circulaires entre la ressource source %1% et la ressource cible %2%."/>
+	<label commandName="ConfigurationExportDefaultName" devLabel="Active Configuration " translation="Configuration active "/>
+	<label commandName="CouldNotSetReferencedAssetInfo1" devLabel="Could not find referenced document: %1%&#xA;" translation="Document référencé introuvable: %1%&#xA;"/>
+	<label commandName="CouldNotSetReferencedAssetInfo2" devLabel="Could not find referenced document: %1%&#xA;" translation="Document référencé introuvable: %1%&#xA;"/>
+	<label commandName="CouldNotSetReferencedAssetInfo3" devLabel="Could not find referenced document&#xA;" translation="Document référencé introuvable&#xA;"/>
+	<label commandName="CrashRecoveryTimeToolTip" devLabel="&lt;p&gt;Set how often design data is backed up (in minutes).&lt;/p&gt;					  &lt;p&gt;Recovery documents are cached locally. Use &lt;b&gt;File &gt; Recover Documents&lt;/b&gt; to recover design data if Fusion closes unexpectedly.&lt;/p&gt;					   &lt;p&gt;Press &lt;b&gt;%1%&lt;/b&gt; to manually back up data in the active design.&lt;/p&gt;" translation="&lt;p&gt;Définissez la fréquence à laquelle les données de conception sont sauvegardées (en minutes).&lt;/p&gt;					  &lt;p&gt;Les documents de récupération sont mis en cache localement. Utilisez &lt;b&gt;Fichier &gt; Récupérer des documents&lt;/b&gt; pour récupérer les données de conception si Fusion se ferme de manière inattendue.&lt;/p&gt;					   &lt;p&gt;Appuyez sur &lt;b&gt;%1%&lt;/b&gt; pour sauvegarder manuellement les données de la conception active.&lt;/p&gt;"/>
+	<label commandName="CrashRecoveryTimeUserName" devLabel="Automatic recovery backup interval (minutes)" translation="Intervalle de sauvegarde de la restauration automatique (minutes)"/>
+	<label commandName="CrashRecoveryToolTip" devLabel="Automatically save a crash-recovery or backup copy the file using a background thread" translation="Enregistrement automatique d'une copie de récupération après défaillance ou d'une copie de sauvegarde à l'aide d'un fil d'arrière-plan"/>
+	<label commandName="CrashRecoveryUserName" devLabel="Crash Recovery" translation="Récupération après défaillance"/>
+	<label commandName="CrossAssetPersistenceError" devLabel="The source asset %1% in document %2% has not referenced the target asset %3% in document %4%!" translation="La ressource source %1% dans le document %2% n'a pas référencé la ressource cible %3% dans le document %4%."/>
+	<label commandName="DelayLoadResolutionError" devLabel="Could not resolve the referenced document: %1%. Referencing document: %2%." translation="Impossible de résoudre le document référencé: %1%. Document référencé: %2%."/>
+	<label commandName="DelayLoadResolutionError2" devLabel=" &#xA;Please switch to online mode before running this command." translation=" &#xA;Passez en mode en ligne avant d'exécuter cette commande."/>
+	<label commandName="DelayLoadTargetError_CouldNotLoadAsset" devLabel="Could not load the asset in the referenced document" translation="Impossible de charger la ressource dans le document référencé"/>
+	<label commandName="DelayLoadTargetError_CouldNotOpen" devLabel="Could not open the referenced document" translation="Impossible d'ouvrir le document référencé"/>
+	<label commandName="DelayLoadTargetError_CouldNotOpen2" devLabel="Could not open the referenced document" translation="Impossible d'ouvrir le document référencé"/>
+	<label commandName="DelayLoadTargetError_NoFileOnDisk" devLabel="Could not find the referenced document" translation="Le document référencé est introuvable."/>
+	<label commandName="DelayLoadTargetError_NoRefdAsset" devLabel="Could not find the necessary asset in the referenced document" translation="La ressource nécessaire est introuvable dans le document référencé."/>
+	<label commandName="DelayLoadTargetError_NoRefdSeg" devLabel="Could not find the necessary segment in the referenced document" translation="Le segment nécessaire est introuvable dans le document référencé."/>
+	<label commandName="DerivedEntitySelectionUserName" devLabel="DerivedEntitySelectionUserName" translation="NomUtilisateurSélectionEntitéDérivée"/>
+	<label commandName="DerivedEntitySelectionsId" devLabel="IDerivedEntities" translation="IDerivedEntities"/>
+	<label commandName="DocumentInitialLabel" devLabel="Item created" translation="Article créé"/>
+	<label commandName="DocumentLinksToItSelf" devLabel="The document links to itself, which is incorrect, the document: %1%&#xA;" translation="Le document possède un lien renvoyant à lui-même, ce qui est incorrect. Document: %1%&#xA;"/>
+	<label commandName="DocumentSaver::save" devLabel="Document save aborted. Paths provided were probably invalid" translation="Abandon de l'enregistrement du document. Les chemins fournis étaient probablement erronés."/>
+	<label commandName="EnableHangNotificationWindowName" devLabel="Enable hang detection" translation="Activer la détection des blocages"/>
+	<label commandName="EnableHangNotificationWindowToolTip" devLabel="Enable hang detection" translation="Activer la détection des blocages"/>
+	<label commandName="ErrorCreatingAssetManifestStream" devLabel="Could not create Asset Manifest streamer. Document: %1%" translation="Impossible de créer le streamer de manifeste de ressources. Document: %1%"/>
+	<label commandName="ErrorCreatingManifestStream" devLabel="Could not create manifest streamer. Document: %1%" translation="Impossible de créer le bandeau du manifeste. Document: %1%"/>
+	<label commandName="ErrorLoadingManifestStream" devLabel="No sub-folders in document. Document: %1%" translation="Le document ne contient aucun sous-dossier. Document: %1%"/>
+	<label commandName="ErrorLoadingRedirectionsStream" devLabel="Input is not a valid redirections stream." translation="L'entrée ne constitue pas un flux de redirection valide."/>
+	<label commandName="ErrorMakingBlobFolder" devLabel="Could not make Blob Folder. Asset: %1%, Document: %2%, Blob Folder Name: %3%" translation="Impossible de créer un dossier BLOB. Ressource: %1%, Document: %2%, Nom de dossier BLOB: %3%"/>
+	<label commandName="ErrorMakingBlobPart" devLabel="Could not make Blob Part. Asset: %1%, Document: %2%, Blob Name: %3%" translation="Impossible de créer une pièce BLOB. Ressource: %1%, Document: %2%, Nom BLOB: %3%"/>
+	<label commandName="ErrorMakingBlobPartFolder" devLabel="Could not make Blob Part Folder. Asset: %1%, Document: %2%, Blob Name: %3%" translation="Impossible de créer le dossier de pièces BLOB. Ressource: %1%, Document: %2%, Nom de fichier BLOB: %3%"/>
+	<label commandName="ErrorNoActiveAsset" devLabel="There is no active visible asset in document: %1%" translation="Le document ne contient aucune ressource visible active: %1%"/>
+	<label commandName="ErrorResolving" devLabel="The referenced design can't be found at this time. &#xA;If this problem persists, please contact %1% support." translation="La conception référencée est introuvable. &#xA;Si le problème persiste, veuillez contacter l'assistance technique de %1%."/>
+	<label commandName="ErrorSavingLinks" devLabel="Problems saving reference information in document. Please ensure all the referenced documents are still accessible" translation="Des problèmes sont survenus lors de l'enregistrement des informations de référence dans le document. Assurez-vous que tous les documents référencés sont toujours accessibles."/>
+	<label commandName="LastAutoSaveTime" devLabel="Last backup made %1% minutes ago" translation="La dernière sauvegarde a été effectuée il y a %1% minutes."/>
+	<label commandName="LoadFailed" devLabel="The file %1% could not be loaded." translation="Impossible de charger le fichier %1%."/>
+	<label commandName="MissingDataInFile" devLabel="File %1% could not be opened because it has missing data." translation="Impossible d'ouvrir le fichier %1%, car il lui manque des données."/>
+	<label commandName="OpenDocumentRequestOpenFail" devLabel="document open failed" translation="échec de l'ouverture du document"/>
+	<label commandName="RecoverySaveAvailableText" devLabel="Another instance of Fusion closed unexpectedly. An unsaved document is available." translation="Une autre instance de Fusion s'est fermée de manière inattendue. Un document non enregistré est disponible."/>
+	<label commandName="RecoverySaveAvailableTitle" devLabel="Recovered Document Found" translation="Document récupéré trouvé"/>
+	<label commandName="RecoverySaveOpenText" devLabel="View Document" translation="Afficher le document"/>
+	<label commandName="RecoveryScanTimeWindowName" devLabel="Recovery Save Scan Frequency" translation="Fréquence d'analyse de la sauvegarde"/>
+	<label commandName="RecoveryScanTimeWindowToolTip" devLabel="Recovery Save Scan Frequency (seconds)" translation="Fréquence d'analyse de la sauvegarde (en secondes)"/>
+	<label commandName="ReferenceError" devLabel="Couldn't match referenced entity from source document %1% to target document %2%!" translation="Impossible d'établir la correspondance de l'entité référencée entre le document source %1% et le document cible %2%."/>
+	<label commandName="ReferenceError1" devLabel="Failed to load, Target segment is NULL! " translation="Échec du chargement, le segment cible est NULL. "/>
+	<label commandName="RequestValidateInputError" devLabel="Some input argument is invalid." translation="Un argument d'entrée est incorrect."/>
+	<label commandName="SelectionInputDerivedEntityClientType" devLabel="IDerivedEntity" translation="IDerivedEntity"/>
+	<label commandName="Str1And2" devLabel="%1%&#xA;%2%" translation="%1%&#xA;%2%"/>
+	<label commandName="Str1Col2" devLabel="%1%: %2%" translation="%1%: %2%"/>
+	<label commandName="Str1Dot2" devLabel="%1%.&#xA;%2%." translation="%1%.&#xA;%2%."/>
+	<label commandName="TestBaseStatus" devLabel="Bad status to test behavior" translation="Etat incorrect pour tester le comportement"/>
+	<label commandName="UninitializedAsset" devLabel="Document : %1%, Asset: %2% is an uninitialized asset!" translation="Document : %1%, ressource : %2% est une ressource non initialisée !"/>
+	<label commandName="UnknowExceptionThrown" devLabel="Internal error" translation="Erreur interne"/>
+	<label commandName="UnknownSelectionId" devLabel="Unknown Selection" translation="Sélection inconnue"/>
+	<label commandName="UnknownSelectionsId" devLabel="Unknown Selections" translation="Sélections inconnues"/>
+	<label commandName="WarningCreatingReferenceUrnsStream" devLabel="Creating document reference urns stream failed!" translation="Échec de la création du flux d'URN de référence du document."/>
+	<label commandName="WarningLoadingReferenceUrnsStream" devLabel="Initializing document reference urns stream failed!" translation="Échec de l'initialisation du flux d'URN de référence du document."/>
+	<label commandName="WorkGeometrySelectionCategory" devLabel="Construction Geometry" translation="Géométrie de construction"/>
+	<label commandName="XAssetPersistenceError" devLabel="The source Asset %1% in Document %2% has not referenced the target Asset %3% in Document %4%! This may lead to issues later on. Referencing Entity Type: %5%, Referenced Entity Type: %6%" translation="La ressource source %1% dans le document %2% n'a pas référencé la ressource cible %3% dans le document %4%. Cela peut entraîner des problèmes ultérieurement. Type d'entité de référencement: %5%, Type d'entité référencée: %6%"/>
+	<label commandName="accessRequestedReason" devLabel="Insufficient project access" translation="Accès au projet insuffisant"/>
+	<label commandName="archivedProjectReason" devLabel="Archived project" translation="Projet archivé"/>
+	<label commandName="autoSaveCancelled_BinaryBulkSaveVisitor" devLabel="Auto-save was canceled in BinaryBulkSaveVisitor.." translation="L'enregistrement automatique a été annulé dans BinaryBulkSaveVisitor."/>
+	<label commandName="autoSaveCancelled_Visitor" devLabel="Auto-save was canceled in Visitor::visit ..." translation="L'enregistrement automatique a été annulé dans Visitor::visit..."/>
+	<label commandName="backupFailedOnPreSave" devLabel="Save aborted! Failed to backup document before save." translation="Enregistrement abandonné! Échec de la sauvegarde du document avant l'enregistrement."/>
+	<label commandName="calc_initials_unknownUser" devLabel="?" translation="?"/>
+	<label commandName="cipDocPrepareCanceled" devLabel="Document save was canceled. Failed to prepare in-place created documents." translation="L'enregistrement du document a été annulé. Échec de la préparation des documents créés sur place."/>
+	<label commandName="compAvailstr" devLabel="Component available&#xA;Use Modify &gt; Compute Unresolved to resolve and recompute assembly." translation="Composant disponible&#xA;Utilisez Modifier &gt; Calculer les éléments non résolus pour résoudre et recalculer l'ensemble."/>
+	<label commandName="configContentNotAvalReason" devLabel="Configuration upload incomplete" translation="Chargement de la configuration incomplet"/>
+	<label commandName="configUploadNotFinished" devLabel="Use &lt;b&gt;Resolve Component&lt;/b&gt; to regenerate configurations and upload them to the cloud." translation="Utilisez l'option &lt;b&gt;Résoudre le composant&lt;/b&gt; pour regénérer les configurations et les charger dans le cloud."/>
+	<label commandName="contentNotAvalReason" devLabel="Design not yet available" translation="Conception pas encore disponible"/>
+	<label commandName="dataOfSegLoaded" devLabel="Bulk data of segment %1% was already loaded..." translation="Les données brutes du segment %1% étaient déjà chargées..."/>
+	<label commandName="deletedProject" devLabel="Project has been deleted for the design. You can delete the external component or replace it with something else." translation="Le projet a été supprimé pour la conception. Vous pouvez supprimer le composant externe ou le remplacer par un autre élément."/>
+	<label commandName="designDeletedReason" devLabel="Design deleted" translation="Conception supprimée"/>
+	<label commandName="docPreSaveCancelled" devLabel="Document pre-save for %1% was canceled because parent folder %2% didn't exist and couldn't be created" translation="Le préenregistrement du document pour %1% a été annulé, car le dossier parent %2% n'existe pas et n'a pas pu être créé."/>
+	<label commandName="docSaveCanceledFileReadOnly" devLabel="Document save was canceled. File was not writable." translation="L'enregistrement du document a été annulé. Le fichier n'était pas accessible en écriture."/>
+	<label commandName="docSaveCancelled" devLabel="Document save was canceled ..." translation="L'enregistrement du document a été annulé..."/>
+	<label commandName="docSaveCancelled_SegmentSaver" devLabel="Document save was canceled in SegmentSaver ..." translation="L'enregistrement du document a été annulé dans SegmentSaver..."/>
+	<label commandName="docSaveCancelled_entityPreparer" devLabel="Document save was canceled in _entityPreparer..." translation="L'enregistrement du document a été annulé dans _entityPreparer..."/>
+	<label commandName="docSaveCancelled_segmentSaver" devLabel="Document save was canceled in _segmentSaver ..." translation="L'enregistrement du document a été annulé dans _segmentSaver..."/>
+	<label commandName="editAssetIsForbidden" devLabel="Asset cannot be edited" translation="Impossible de modifier la ressource"/>
+	<label commandName="folderInactiveReason" devLabel="Parent project deleted for folder" translation="Projet parent supprimé pour le dossier"/>
+	<label commandName="inactiveFolder" devLabel="Parent project has been deleted for the folder containing the design. You can delete the external component or replace it with something else." translation="Le projet parent a été supprimé pour le dossier contenant la conception. Vous pouvez supprimer le composant externe ou le remplacer par un autre élément."/>
+	<label commandName="initializingFailed" devLabel="%1% could not be opened. It may be in-use by another program. Check the file usage or try again later." translation="%1% n'a pas pu être ouvert. Il est possible qu'il soit utilisé par un autre programme. Vérifiez qu'il n'est pas en cours d'utilisation ou réessayez ultérieurement."/>
+	<label commandName="insufficientDataAvailable" devLabel="Open parent design %1% and right-click the unresolved component for more information." translation="Ouvrez la conception parent %1% et cliquez avec le bouton droit sur le composant non résolu pour en savoir plus."/>
+	<label commandName="insufficientDataReason" devLabel="Insufficient data available" translation="Données insuffisantes disponibles"/>
+	<label commandName="lclzChangeRequestProcess" devLabel="processChangeRequest: first asset is " translation="processChangeRequest: première ressource est "/>
+	<label commandName="lclzDefaultDocumentName" devLabel="Untitled" translation="Sans nom"/>
+	<label commandName="lclzDocumentClosed" devLabel="Document has closed ..." translation="Le document s'est fermé..."/>
+	<label commandName="lclzDocumentClosing" devLabel="Document is closing..." translation="Le document est en cours de fermeture..."/>
+	<label commandName="lclzDocumentOpened" devLabel="Document has opened..." translation="Le document a été ouvert..."/>
+	<label commandName="lclzDocumentOpening" devLabel="Document is opening..." translation="Ouverture du document en cours..."/>
+	<label commandName="lclzDocumentSaved" devLabel="Document finished saving..." translation="Enregistrement du document terminé..."/>
+	<label commandName="lclzDocumentSaving" devLabel="Document is saving..." translation="Le document est en cours d'enregistrement..."/>
+	<label commandName="nameAlreadyExists" devLabel="The name %1% already exists in the document." translation="Le nom %1% existe déjà dans le document."/>
+	<label commandName="noFolderAccessReason" devLabel="Insufficient folder access" translation="Autorisations d'accès insuffisantes pour le dossier"/>
+	<label commandName="noProjectAccessReason" devLabel="Insufficient project access" translation="Autorisations d'accès insuffisantes pour le projet"/>
+	<label commandName="pathNotValidZip" devLabel="The path %1% is not a valid zip package." translation="Le chemin d'accès %1% ne correspond pas à un fichier .zip valide."/>
+	<label commandName="plmdlg_CTXDoc" devLabel="Cross-team design" translation="Conception entre équipes"/>
+	<label commandName="plmdlg_CTXRef" devLabel="Cross-team reference" translation="Référence entre équipes"/>
+	<label commandName="plmdlg_MultipleReasons1" devLabel="Multiple Reasons" translation="Plusieurs raisons"/>
+	<label commandName="plmdlg_MultipleReasons11" devLabel="Unknown" translation="Inconnu"/>
+	<label commandName="plmdlg_chilReadOnly1" devLabel="Permission" translation="Autorisation"/>
+	<label commandName="plmdlg_childOldVersion1" devLabel="Child out-of-date" translation="Enfant obsolète"/>
+	<label commandName="plmdlg_childReserved1" devLabel="Child reserved by other" translation="Enfant réservé par un autre"/>
+	<label commandName="plmdlg_cipParentOOD1" devLabel="Parent out-of-date" translation="Parent obsolète"/>
+	<label commandName="plmdlg_cipParentReserved1" devLabel="Parent reserved by other" translation="Parent réservé par un autre"/>
+	<label commandName="plmdlg_cipParentUnsavable1" devLabel="Parent unsavable" translation="Parent non enregistrable"/>
+	<label commandName="plmdlg_oldVersion1" devLabel="Out-of-date" translation="Obsolète"/>
+	<label commandName="plmdlg_readOnly1" devLabel="Read only" translation="Lecture seule"/>
+	<label commandName="plmdlg_reserved1" devLabel="Reserved by other" translation="Réservé par un autre"/>
+	<label commandName="processChangeRequest" devLabel="Document edit was canceled ..." translation="La modification du document a été annulée..."/>
+	<label commandName="processChangeRequestInvalidRequest" devLabel="Invalid request" translation="requête non valide"/>
+	<label commandName="processChangeRequestInvalidRequestAfterExecute" devLabel="Invalid request" translation="requête non valide"/>
+	<label commandName="projectAccessRequested" devLabel="Project access requested, pending approval" translation="Accès au projet demandé, en attente d'approbation"/>
+	<label commandName="projectDeletedReason" devLabel="Project deleted" translation="Projet supprimé"/>
+	<label commandName="reloadRequiredStr" devLabel="Reload required&#xA;Close and reopen this design to reload the unresolved components that are now available in this assembly." translation="Rechargement requis&#xA;Fermez et rouvrez cette conception pour recharger les composants non résolus qui sont désormais disponibles dans cet assemblage."/>
+	<label commandName="requestEditorRole" devLabel="Request Editor role from Project Admin" translation="Demander le rôle d'éditeur à l'administrateur de projet"/>
+	<label commandName="requestFolderAccess" devLabel="Request folder access from Administrator/Manager." translation="Demandez l'accès au dossier à l'administrateur/gestionnaire."/>
+	<label commandName="requestProjectAccess" devLabel="Request project access from Project Admin." translation="Demander l'accès à l'administrateur de projet."/>
+	<label commandName="restoreFailedOnCancelSave" devLabel="Save anorted! Failed to restore document." translation="Enregistrement anormal! Échec de la restauration du document."/>
+	<label commandName="restoreFailedOnPostSave1" devLabel="Failed to remove backup document after sucessful save." translation="Échec de la suppression du document de sauvegarde après l'enregistrement."/>
+	<label commandName="restoreFailedOnPostSave2" devLabel="Failed to restore document after save failure." translation="Échec de la restauration du document après l'échec de l'enregistrement."/>
+	<label commandName="restoreFromRecycleBin" devLabel="Restore design from recycle bin" translation="Restaurer la conception à partir de la corbeille"/>
+	<label commandName="ro_DRS" devLabel="ReservationDisabledByUser" translation="ReservationDisabledByUser"/>
+	<label commandName="ro_onCloud" devLabel="ReadOnlyDueToFolderPermission" translation="ReadOnlyDueToFolderPermission"/>
+	<label commandName="ro_onDisk" devLabel="ReadOnlyOnDisk" translation="ReadOnlyOnDisk"/>
+	<label commandName="ro_sampleFile" devLabel="SampleFile" translation="SampleFile"/>
+	<label commandName="unarchiveControlledProject" devLabel="Contact the team administrator to unarchive the project." translation="Contactez l'administrateur de l'équipe pour désarchiver le projet."/>
+	<label commandName="unarchiveProject" devLabel="Unarchive project" translation="Désarchiver le projet"/>
+	<label commandName="unknownMissingReason" devLabel="The referenced design cannot be found!" translation="La conception référencée est introuvable."/>
+	<label commandName="uploadNotFinished" devLabel="%1% saved the design, but their upload may not have finished" translation="%1% a enregistré la conception, mais son chargement n'est peut-être pas terminé"/>
+	<label commandName="versionNonExistentReason" devLabel="Design permanently deleted" translation="Conception définitivement supprimée"/>
+	<label commandName="versionNotExist" devLabel="Design may be deleted or located in another Team. Delete this reference or replace it with a component in the current Team." translation="La conception peut être supprimée ou placée dans une autre équipe. Supprimez cette référence ou remplacez-la par un composant dans l'équipe actuelle."/>
+	<label commandName="viewerProjectAccess" devLabel="Insufficient project role: Viewer" translation="Rôle de projet insuffisant: visualiseur"/>
+</Resource>

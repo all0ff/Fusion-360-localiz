@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="SimCFD" devLabel="CFD" translation="CFD"/>
+	<label commandName="SimCFDCompressibilityCompressible" devLabel="Compressible" translation="Comprimibile"/>
+	<label commandName="SimCFDCompressibilityIncompressible" devLabel="Incompressible" translation="Incomprimibile"/>
+	<label commandName="SimCFDCompressibilitySubsonic" devLabel="Subsonic" translation="Subsonica"/>
+	<label commandName="SimCFDFailedFluidMaterials1" devLabel="Cannot solve: As least one fluid material is required." translation="Risoluzione impossibile: è obbligatorio almeno un materiale fluido."/>
+	<label commandName="SimCFDFailedLoads1" devLabel="No boundary condition is applied." translation="Non viene applicata alcuna condizione al contorno."/>
+	<label commandName="SimCFDFailedLoads2" devLabel="Not enough boundary conditions are applied to a fluid body." translation="Le condizioni al contorno applicate a un corpo fluido non sono sufficienti."/>
+	<label commandName="SimCFDGeneralSettingsAutoConvergenceAssessment" devLabel="Automatic Convergence Assessment" translation="Valutazione della convergenza automatica"/>
+	<label commandName="SimCFDGeneralSettingsAutoforcedConvection" devLabel="AutoforcedConvection" translation="AutoforcedConvection"/>
+	<label commandName="SimCFDGeneralSettingsCompressibilityValue" devLabel="Total Temp." translation="Temp. totale"/>
+	<label commandName="SimCFDGeneralSettingsConvergenceTolerance" devLabel="Convergence Tolerance (%)" translation="Tolleranza di convergenza (%)"/>
+	<label commandName="SimCFDGeneralSettingsFlow" devLabel="Flow" translation="Flusso"/>
+	<label commandName="SimCFDGeneralSettingsGravityValue" devLabel="0,0,0" translation="0,0,0"/>
+	<label commandName="SimCFDGeneralSettingsHeat" devLabel="Heat" translation="Calore"/>
+	<label commandName="SimCFDGeneralSettingsNumberIterations" devLabel="Iterations to run" translation="Iterazioni da eseguire"/>
+	<label commandName="SimCFDGeneralSettingsRadiation" devLabel="Radiation" translation="Radiazione"/>
+	<label commandName="SimCFDGravityComponents" devLabel="Components" translation="Componenti"/>
+	<label commandName="SimCFDGravityEarth" devLabel="Earth" translation="Terra"/>
+	<label commandName="SimCFDMeshSettingsEnablePartBased" devLabel="Use Part-based Measure for Assembly Mesh" translation="Usa misura basata sulla parte per la mesh dell'assieme"/>
+	<label commandName="SimCFDMeshSettingsKeepEnhancementLayers" devLabel="Enhancement Layers" translation="Livelli di miglioramento"/>
+	<label commandName="SimCFDMeshSettingsMaxTurnAngle" devLabel="Maximum Turn Angle" translation="Angolo di rotazione massimo"/>
+	<label commandName="SimCFDMeshSettingsMinSizeFraction" devLabel="Minimum Element Size" translation="Dimensione minima dell'elemento"/>
+	<label commandName="SimCFDMeshSettingsSizeFraction" devLabel="Average Element Size" translation="Dimensione media dell'elemento"/>
+	<label commandName="SimCFDMeshSettingsSizeFraction2D" devLabel="Average Element Size (2D)" translation="Dimensione media dell'elemento (2D)"/>
+	<label commandName="SimCFDMeshSettingsThicknessFactor" devLabel="Thickness Factor" translation="Fattore di spessore"/>
+	<label commandName="SimCannotCreateCloudSolveFiles" devLabel="Cannot create cloud solve files." translation="Impossibile creare file di risoluzione del cloud."/>
+	<label commandName="SimCannotCreateJob" devLabel="Cannot create job." translation="Impossibile creare il processo."/>
+	<label commandName="SimCannotCreateJobAssets" devLabel="Cannot create job assets." translation="Impossibile creare asset del progetto."/>
+	<label commandName="SimCannotGetAuthorizationJobType" devLabel="Cannot retrieve authorization job type." translation="Impossibile recuperare il tipo del processo di autorizzazione."/>
+	<label commandName="SimCannotGetJobRoot" devLabel="Cannot retrieve job root." translation="Impossibile recuperare la radice del processo."/>
+	<label commandName="SimCannotGetMeshRevisionId" devLabel="Cannot retrieve mesh revision ID." translation="Impossibile recuperare l'ID di revisione della mesh."/>
+	<label commandName="SimCannotGetModelRevisionId" devLabel="Cannot retrieve model revision ID." translation="Impossibile recuperare l'ID di revisione del modello."/>
+	<label commandName="SimCannotGetStudyId" devLabel="Cannot retrieve study ID." translation="Impossibile recuperare l'ID dello studio."/>
+	<label commandName="SimCannotGetUserId" devLabel="Cannot retrieve user ID." translation="Impossibile recuperare l'ID utente."/>
+	<label commandName="SimCannotInitializeSimulationJobManager" devLabel="Cannot initialize Simulation Job Manager." translation="Impossibile inizializzare Simulation Job Manager."/>
+	<label commandName="SimCannotScheduleJob" devLabel="Cannot schedule job." translation="Impossibile pianificare il processo."/>
+	<label commandName="SimCannotSetReconnectCloudSolveReference" devLabel="Cannot set reconnect cloud solve reference." translation="Impossibile impostare il riferimento alla riconnessione della risoluzione del cloud."/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Sostituisci sistema di unità"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Stati Uniti (pollici)"/>
+	<label commandName="SimInvalidCFDManifestFile1" devLabel="Invalid CFD manifest file. XMLDeserializeSection - missing node: MeshModel or Results" translation="File manifest CFD non valido. XMLDeserializeSection - Nodo mancante: MeshModel o risultati"/>
+	<label commandName="SimInvalidCFDManifestFile10" devLabel="Invalid CFD manifest file - ProcessResultNode - missing MeshFragment" translation="File manifest CFD non valido. ProcessResultNode - MeshFragment mancante"/>
+	<label commandName="SimInvalidCFDManifestFile11" devLabel="Invalid CFD manifest file - ProcessResultNode - missing MeshDB SimField" translation="File manifest CFD non valido. ProcessResultNode - MeshDB SimField mancante"/>
+	<label commandName="SimInvalidCFDManifestFile12" devLabel="Invalid CFD manifest file - ProcessResultSubComponentNode - missing attribute: id or min or max" translation="File manifest CFD non valido. ProcessResultSubComponentNode - Attributo mancante: ID, min o max"/>
+	<label commandName="SimInvalidCFDManifestFile13" devLabel="Invalid CFD manifest file - ProcessResultSubComponentNode - Invalid field dimension." translation="File manifest CFD non valido. ProcessResultSubComponentNode - Dimensione campo non valida."/>
+	<label commandName="SimInvalidCFDManifestFile14" devLabel="Invalid CFD manifest file - Processl2NormNode - missing attribute: min or max" translation="File manifest CFD non valido. Processl2NormNode - Attributo mancante: min o max"/>
+	<label commandName="SimInvalidCFDManifestFile15" devLabel="Invalid CFD manifest file - ProcessAttributeNode - missing attribute: Name or Value" translation="File manifest CFD non valido. ProcessAttributeNode - Attributo mancante: nome o valore"/>
+	<label commandName="SimInvalidCFDManifestFile2" devLabel="Invalid CFD manifest file. XMLDeserializeSection - missing attribute: Guid" translation="File manifest CFD non valido. XMLDeserializeSection - Attributo mancante: GUID"/>
+	<label commandName="SimInvalidCFDManifestFile3" devLabel="Invalid CFD manifest file. ProcessBodyMeshNode - missing attribute: path or id or refKey" translation="File manifest CFD non valido. ProcessBodyMeshNode - Attributo mancante: percorso, ID o refKey"/>
+	<label commandName="SimInvalidCFDManifestFile4" devLabel="Invalid CFD manifest file. ProcessDomainNode - missing attribute ID or DisplayName or Unit" translation="File manifest CFD non valido. ProcessDomainNode - Unità o DisplayName o ID attributo mancante"/>
+	<label commandName="SimInvalidCFDManifestFile5" devLabel="Invalid CFD manifest file. ProcessDomainPointNode - missing attribute: ID or Domain or Value" translation="File manifest CFD non valido. ProcessDomainPointNode - Attributo mancante: ID, dominio o valore"/>
+	<label commandName="SimInvalidCFDManifestFile6" devLabel="Invalid CFD manifest file. ProcessSamplePointNode - missing attribute: ID" translation="File manifest CFD non valido. ProcessSamplePointNode - Attributo mancante: ID"/>
+	<label commandName="SimInvalidCFDManifestFile7" devLabel="Invalid CFD manifest file. ProcessSamplePointNode DomainPoint - missign attribute: ID" translation="File manifest CFD non valido. ProcessSamplePointNode DomainPoint - Attributo mancante: ID"/>
+	<label commandName="SimInvalidCFDManifestFile8" devLabel="Invalid CFD manifest file. ProcessSamplePointNode - invalid domainsPoint size" translation="File manifest CFD non valido. ProcessSamplePointNode - Dimensione domainsPoint non valida"/>
+	<label commandName="SimInvalidCFDManifestFile9" devLabel="Invalid CFD manifest file - ProcessResultNode - missing attribute: BodyIndex or ComponentId or Path or AffectedSide" translation="File manifest CFD non valido. ProcessResultNode - Attributo mancante: BodyIndex, ComponentId, percorso o AffectedSide"/>
+	<label commandName="SimMeshPreviewFailed" devLabel="Unable to preview the mesh" translation="Impossibile eseguire l'anteprima della mesh"/>
+	<label commandName="SimMeshPreviewFailedAnErrorOccurred" devLabel="An error occurred while creating the preview" translation="Si è verificato un errore durante la creazione dell'anteprima"/>
+	<label commandName="SimMeshPreviewInitFailed" devLabel="An error occurred while setting up the preview." translation="Si è verificato un errore durante la configurazione dell'anteprima."/>
+	<label commandName="SimMeshPreviewNULLController" devLabel="No previewer is available from the registered controller." translation="Nessun gestore di anteprime disponibile dal controller registrato."/>
+	<label commandName="SimMeshingOperationJobPrefix" devLabel="Meshing: " translation="Creazione mesh: "/>
+	<label commandName="SimMissingManifestsForMeshResultsOrBoth" devLabel="Missing manifests for mesh, results or both." translation="File manifest mancanti per la mesh, per i risultati o per entrambi."/>
+	<label commandName="SimMissingMeshDBs" devLabel="Missing mesh dbs." translation="Database mesh mancante."/>
+	<label commandName="SimMissingMeshDataContainers" devLabel="Mesh data containers are not present. This study is not ready to manage mesh data." translation="I contenitori di dati delle mesh non sono presenti. Questo studio non è pronto per la gestione dei dati delle mesh."/>
+	<label commandName="SimMissingMeshManifestForPreviewMesh" devLabel="Missing mesh manifest for preview mesh." translation="File manifest della mesh mancante per l'anteprima della mesh."/>
+	<label commandName="SimPressure" devLabel="Pressure" translation="Pressione"/>
+	<label commandName="SimRestartWorkerFailed" devLabel="Cannot restart worker." translation="Impossibile riavviare il lavoro."/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Unità metriche (SI)"/>
+	<label commandName="SimSolveMeshErrors" devLabel="Please inspect mesh failures." translation="Controllare gli errori della mesh."/>
+	<label commandName="SimSolveMeshWarning" devLabel="Please inspect mesh hints." translation="Controllare i suggerimenti sulle mesh."/>
+	<label commandName="SimStartWorkerFailed" devLabel="Cannot start worker." translation="Impossibile avviare il lavoro."/>
+	<label commandName="SimStudyIsNotSet" devLabel="Study is not set for the job." translation="Lo studio non è impostato per il processo."/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentuale"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pezzi"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angolo"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Corrente"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Resistenza elettrica"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Forza"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Lunghezza"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Massa"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Potenza"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressione"/>
+	<label commandName="SimUnitsResultPressure" devLabel="Pressure" translation="Pressione"/>
+	<label commandName="SimUnitsResultVelocity" devLabel="Velocity" translation="Velocità"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Tempo"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocità"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tensione"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Portata"/>
+	<label commandName="SimVelocity" devLabel="Velocity" translation="Velocità"/>
+</Resource>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Body" devLabel="Body" translation="Corps"/>
+	<label commandName="ConversionFailed" devLabel="Conversion failed" translation="Échec de la conversion"/>
+	<label commandName="CreateComponentsFromMeshBodiesFeatureMissing" devLabel="Editing Feature for CreateComponentsFromBodies is missing." translation="Il manque la fonction de modification pour CreateComponentsFromBodies."/>
+	<label commandName="CreateComponentsFromMeshBodiesMeshMissing" devLabel="Mesh Body for CreateComponentsFromBodies is missing." translation="Il manque le corps de maillage pour CreateComponentsFromBodies."/>
+	<label commandName="DeriveEntitiesCreateComponentsFromMeshBodiesIsNotSupported" devLabel="This operation is not supported for Derived entities, they will not participate in the operation." translation="Cette opération n'est pas prise en charge pour les entités dérivées. Elles ne seront pas prises en compte dans l'opération."/>
+	<label commandName="Face Group" devLabel="Face Group" translation="Groupe de faces"/>
+	<label commandName="Faces" devLabel="Faces" translation="Faces"/>
+	<label commandName="FailedDefectInspection" devLabel="Mesh defect inspection failed." translation="Échec de l'inspection des défauts de maillage."/>
+	<label commandName="FailedMeshReplace" devLabel="Cannot modify mesh." translation="Impossible de modifier le maillage."/>
+	<label commandName="FailedParaMeshBoolean" devLabel="Cannot combine mesh bodies. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Impossible de combiner les corps de maillage. Utilisez l'option Réparer pour vous assurer que les maillages sélectionnés sont fermés, orientés correctement et présentent un volume positif."/>
+	<label commandName="FailedParaMeshDelete" devLabel="Cannot delete mesh body." translation="Impossible de supprimer le corps de maillage."/>
+	<label commandName="FailedParaMeshExportOperation" devLabel="Cannot export mesh body. Select a different export format or save the file to a different location." translation="Impossible d'exporter le corps de maillage. Sélectionnez un autre format d'exportation ou enregistrez le fichier à un autre emplacement."/>
+	<label commandName="FailedParaMeshFaceGroup" devLabel="Cannot generate face groups for mesh body." translation="Impossible de générer des groupes de faces pour le corps de maillage."/>
+	<label commandName="FailedParaMeshFaceGroupDelete" devLabel="Mesh body delete face groups command failed" translation="Echec de la commande de suppression des groupes de faces du corps de maillage"/>
+	<label commandName="FailedParaMeshFacetsDelete" devLabel="Mesh body delete faces command failed" translation="La commande de suppression de faces du corps de maillage a échoué"/>
+	<label commandName="FailedParaMeshHollow" devLabel="Cannot shell mesh body. Adjust thickness or use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Impossible de créer un corps de maillage de coque. Ajustez l'épaisseur ou utilisez l'option Réparer pour vous assurer que les maillages sélectionnés sont fermés, orientés correctement et présentent un volume positif."/>
+	<label commandName="FailedParaMeshLattice" devLabel="Cannot lattice mesh body." translation="Impossible de transformer le corps de maillage en treillis."/>
+	<label commandName="FailedParaMeshLatticeCmd" devLabel="Cannot lattice mesh body." translation="Impossible de transformer le corps de maillage en treillis."/>
+	<label commandName="FailedParaMeshMerge" devLabel="Cannot combine mesh bodies with the Merge operation." translation="Impossible de combiner les corps de maillage avec l'opération Fusionner."/>
+	<label commandName="FailedParaMeshMergeFaceGroups" devLabel="Cannot combine face groups on mesh body. Use Generate Face Groups to regenerate a starting set of face groups." translation="Impossible de combiner des groupes de faces sur le corps de maillage. Utilisez l'option Générer les groupes de faces pour régénérer un jeu de groupes de faces de départ."/>
+	<label commandName="FailedParaMeshMeshToBREP" devLabel="Cannot convert mesh body to solid or surface body. Use Generate Face Groups or Direct Edit to align face groups to geometric features on the mesh body." translation="Impossible de convertir le corps de maillage en corps solide ou surfacique. Utilisez l'option Générer les groupes de faces ou Modification directe pour aligner les groupes de faces aux fonctions géométriques sur le corps de maillage."/>
+	<label commandName="FailedParaMeshOperation" devLabel="Mesh interface operation failed." translation="Échec de l'opération d'interface de maillage."/>
+	<label commandName="FailedParaMeshOperationAssetAdapterMissing" devLabel="No Asset or AssetAdapter available. Save the design and restart." translation="Aucune ressource ou aucun adaptateur de ressource disponible. Enregistrez la conception et redémarrez."/>
+	<label commandName="FailedParaMeshOperationCreate" devLabel="Cannot insert mesh body. The source file may be damaged." translation="Impossible d'insérer le corps de maillage. Le fichier source est peut-être endommagé."/>
+	<label commandName="FailedParaMeshOperationExtract" devLabel="Cannot separate regions of mesh body." translation="Impossible de séparer les zones du corps de maillage."/>
+	<label commandName="FailedParaMeshPlaneCut" devLabel="Cannot complete plane cut of mesh body. Use Repair or Direct Edit to ensure mesh body does not intersect itself." translation="Impossible de terminer la coupe plane du corps de maillage. Utilisez l'option Réparer ou Modification directe pour vous assurer que le corps de maillage ne s'entrecoupe pas."/>
+	<label commandName="FailedParaMeshRangeCheck" devLabel="Parameter value is out of bounds" translation="La valeur du paramètre est hors limites"/>
+	<label commandName="FailedParaMeshReduce" devLabel="Cannot reduce mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Impossible de réduire le corps de maillage ou les groupes de faces. Utilisez l'option Réparer pour vous assurer que les maillages sélectionnés sont fermés, orientés correctement et présentent un volume positif."/>
+	<label commandName="FailedParaMeshRemesh" devLabel="Cannot remesh mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Impossible de remailler le corps ou les groupes de faces du maillage. Utilisez l'option Réparer pour vous assurer que les maillages sélectionnés sont fermés, orientés correctement et présentent un volume positif."/>
+	<label commandName="FailedParaMeshRemeshSeperateRegions" devLabel="Cannot remesh mesh body or face groups. Input selection of triangles may be disjoint, e.g. subareas of the selection not sharing an edge. Adjusting and sanitizing the input selection can help." translation="Impossible de remailler le corps de maillage ou les groupes de faces. La sélection de triangles peut être disjointe. Par exemple, des sous-zones de la sélection peuvent ne pas partager d'arête. Ajuster et nettoyer la sélection d'entrée peut régler le problème."/>
+	<label commandName="FailedParaMeshRemove" devLabel="Cannot remove mesh body." translation="Impossible de supprimer le corps de maillage."/>
+	<label commandName="FailedParaMeshRemoveFeature" devLabel="Cannot remove mesh body. Target mesh body does not exist." translation="Impossible de supprimer le corps de maillage. Le corps de maillage cible n'existe pas."/>
+	<label commandName="FailedParaMeshRepair" devLabel="Cannot repair mesh body. Try a different repair type." translation="Impossible de réparer le corps de maillage. Essayez un autre type de réparation."/>
+	<label commandName="FailedParaMeshScaling" devLabel="Cannot scale mesh body. Adjust scale factor or X/Y/Z scale." translation="Impossible de mettre à l'échelle le corps de maillage. Ajustez le facteur d'échelle ou l'échelle X/Y/Z."/>
+	<label commandName="FailedParaMeshSmooth" devLabel="Cannot smooth mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Impossible de lisser le corps ou les groupes de faces du maillage. Utilisez l'option Réparer pour vous assurer que les maillages sélectionnés sont fermés, orientés correctement et présentent un volume positif."/>
+	<label commandName="FailedParaMeshSmoothBoundary" devLabel="Cannot smooth mesh boundary. " translation="Impossible de lisser la limite du maillage. "/>
+	<label commandName="FailedParaMeshTessellate" devLabel="Cannot tessellate solid or surface body to create mesh body." translation="Impossible de créer un maillage par approximation d'un corps solide ou surfacique pour créer un corps de maillage."/>
+	<label commandName="FailedParaMeshToBREP" devLabel="Cannot convert mesh body to solid or surface body. Use Generate Face Groups or Direct Edit to align face groups to geometric features on the mesh body." translation="Impossible de convertir le corps de maillage en corps solide ou surfacique. Utilisez l'option Générer les groupes de faces ou Modification directe pour aligner les groupes de faces aux fonctions géométriques sur le corps de maillage."/>
+	<label commandName="FailedParaMeshToQuadMesh" devLabel="Cannot convert mesh body to quad mesh." translation="Impossible de convertir le corps de maillage en maillage quadrilatéral."/>
+	<label commandName="FailedParaMeshToTSpline" devLabel="Cannot convert mesh body to T-Spline body." translation="Impossible de convertir le corps de maillage en corps T-Spline."/>
+	<label commandName="FailedParameshBridge" devLabel="Cannot create a bridge." translation="Cannot create a bridge."/>
+	<label commandName="FailedParameshBridgeMultipleBoundaries" devLabel="Cannot create a bridge: the regions contain multiple boundaries." translation="Cannot create a bridge: the regions contain multiple boundaries."/>
+	<label commandName="FailedParameshBridgeNoBoundaryEdges" devLabel="Cannot create a bridge: both regions must contain boundary edges." translation="Cannot create a bridge: both regions must contain boundary edges."/>
+	<label commandName="FailedParameshBridgeNoSeparateRegions" devLabel="Cannot create a bridge: the selection doesn't define two separate regions." translation="Cannot create a bridge: the selection doesn't define two separate regions."/>
+	<label commandName="FeatuTextureTexture" devLabel="MeshTexture" translation="TextureMaillage"/>
+	<label commandName="FeatureBodyComp" devLabel="Body-&gt;Comp" translation="Corps-&gt;Comp"/>
+	<label commandName="FeatureCalculateFaceGroups" devLabel="GenerateFaceGroups" translation="GénérerGroupesFaces"/>
+	<label commandName="FeatureCopyPasteMeshes" devLabel="CopyPasteMeshes" translation="CopierCollerMaillages"/>
+	<label commandName="FeatureCreateMesh" devLabel="CreateMesh" translation="CréerMaillage"/>
+	<label commandName="FeatureCutPasteMeshes" devLabel="CutPasteMeshes" translation="CouperCollerMaillages"/>
+	<label commandName="FeatureMergeFaceGroups" devLabel="CombineFaceGroups" translation="CombinerGroupesFaces"/>
+	<label commandName="FeatureMesh" devLabel="Base Mesh Feature" translation="Fonction de maillage de base"/>
+	<label commandName="FeatureMeshCombine" devLabel="MeshCombine" translation="CombinaisonMmaillages"/>
+	<label commandName="FeatureMeshExtract" devLabel="MeshSeparate" translation="SéparerMaillages"/>
+	<label commandName="FeatureMeshHollow" devLabel="MeshShell" translation="CoqueMaillage"/>
+	<label commandName="FeatureMeshPlaneCut" devLabel="MeshPlaneCut" translation="CoupePlanMaillage"/>
+	<label commandName="FeatureMeshReduce" devLabel="MeshReduce" translation="RéductionMaillage"/>
+	<label commandName="FeatureMeshRemesh" devLabel="MeshRemesh" translation="RemaillageMaillage"/>
+	<label commandName="FeatureMeshRemove" devLabel="MeshRemove" translation="SuppressionMaillage"/>
+	<label commandName="FeatureMeshRepair" devLabel="MeshRepair" translation="RéparationMaillage"/>
+	<label commandName="FeatureMeshReverseNormals" devLabel="MeshReverseNormals" translation="Normales inversées du maillage"/>
+	<label commandName="FeatureMeshScale" devLabel="Scale" translation="Echelle"/>
+	<label commandName="FeatureMeshSection" devLabel="MeshSection" translation="SectionDuMaillage"/>
+	<label commandName="FeatureMeshSmooth" devLabel="MeshSmooth" translation="LissageMaillage"/>
+	<label commandName="FeatureMeshTessellate" devLabel="MeshTessellate" translation="TessellationMaillage"/>
+	<label commandName="FeatureMeshToBREP" devLabel="Convert Mesh" translation="Convertir le maillage"/>
+	<label commandName="FeatureMeshToQuadMesh" devLabel="MeshToQuadMesh" translation="MaillageVersMaillageQuadrilatéral"/>
+	<label commandName="FeatureModify" devLabel="Modify" translation="Modifier"/>
+	<label commandName="FreeForm" devLabel="Free Form" translation="Forme libre"/>
+	<label commandName="General" devLabel="General" translation="Général"/>
+	<label commandName="ImportFailed" devLabel="Import failed" translation="Echec de l'importation"/>
+	<label commandName="MESH_SELECTION_OPTION_GROUP" devLabel="Modify Selection" translation="Modifier la sélection"/>
+	<label commandName="MESH_TARGET_BODY_REFERENCE_LOST" devLabel="Lost target body. Edit feature to reselect target body." translation="Corps cible perdu. Modifiez l'objet pour resélectionner le corps cible."/>
+	<label commandName="MESH_TOOLBODY_REFERENCE_LOST" devLabel="Lost tool body. Edit feature to reselect tool body." translation="Corps d'outil perdu. Modifier l'objet pour resélectionner l'armature."/>
+	<label commandName="MeshBodyUnselectableTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% ne peut pas être sélectionné.&lt;br&gt;&lt;br&gt;Cliquez avec le bouton droit de la souris et choisissez Sélectionnable pour activer la sélection."/>
+	<label commandName="MeshConversionNotCompleteWarning" devLabel="Not all facegroups of the mesh body could be converted. The generated solid or surface body is not complete. Try a different method for conversion or adjust the face groups to correspond better to geometric features of the mesh." translation="Certains groupes de faces du corps de maillage n'ont pas pu être convertis. Le corps solide ou surfacique généré n'est pas terminé. Essayez une autre méthode de conversion ou ajustez les groupes de faces pour qu'ils correspondent mieux aux fonctions géométriques du maillage."/>
+	<label commandName="MeshDirectEditFailedMultiComponent" devLabel="Cannot directly edit mesh bodies in different components. Edit mesh bodies separately or move them into the same component." translation="Impossible de modifier directement les corps de maillage dans différents composants. Modifiez les corps de maillage séparément ou déplacez-les dans le même composant."/>
+	<label commandName="MeshGenericReformError" devLabel="Mesh to T-Spline operation failed." translation="Échec de l'opération de maillage vers T-Spline."/>
+	<label commandName="MeshGenericTSplineError" devLabel="T-Spline operation failed." translation="Échec de l'opération T-Spline."/>
+	<label commandName="MeshNoParent" devLabel="Missing parent of mesh body. Try pasting mesh body again." translation="Parent manquant du corps de maillage. Essayez de coller à nouveau le corps de maillage."/>
+	<label commandName="MeshNoTimelineParent" devLabel="Parent of mesh body missing from timeline. Try pasting mesh body again." translation="Le parent du corps de maillage est absent du plan de montage chronologique. Essayez de coller à nouveau le corps de maillage."/>
+	<label commandName="MeshOperationCanceled" devLabel="Mesh operation canceled" translation="Opération de maillage annulée"/>
+	<label commandName="MeshOutOfBoundsConvertFaceNumber" devLabel="Face Number value is out of range. The valid range is from %1% to %2%" translation="La valeur du numéro de face est hors limites. La plage valide est comprise entre %1% et %2%"/>
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpOpeningAngle" devLabel="Angle threshold is out of range. The valid range is from %1% deg to %2% deg" translation="Le seuil d'angle est hors limites. La plage valide est comprise entre %1% et %2% degrés"/>
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpSegTol" devLabel="Boundary tolerance is out of range. The valid range is from %1% cm to %2% cm" translation="La tolérance de contour est hors limites. La plage valide est comprise entre %1% et %2% cm"/>
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpSegmentArea" devLabel="Minimum Face Group Size is out of range. The valid range is from %1% to %2%" translation="La taille minimale du groupe de faces est hors limites. La plage valide est comprise entre %1% et %2%"/>
+	<label commandName="MeshOutOfBoundsHollowInsideThickness" devLabel="Thickness is too small. The minimum value is %1% cm" translation="L'épaisseur est trop faible. La valeur minimale est de %1% cm"/>
+	<label commandName="MeshOutOfBoundsTessellateAspectRatio" devLabel="Aspect ratio is out of range. The valid range is from %1% to %2%" translation="Le rapport de linéarité est hors limites. La plage valide est comprise entre %1% et %2%"/>
+	<label commandName="MeshOutOfBoundsTessellateNormalTol" devLabel="Normal deviation is out of range. The valid range is from %1% to %2%" translation="L'écart normal est hors limites. La plage valide est comprise entre %1% et %2%"/>
+	<label commandName="MeshPointsSelectionId" devLabel="Mesh Points" translation="Points de maillage"/>
+	<label commandName="MeshScaleGenericError" devLabel="Cannot scale mesh body. Adjust scale settings or selection set." translation="Impossible de mettre à l'échelle le corps de maillage. Ajustez les paramètres d'échelle ou le jeu de sélection."/>
+	<label commandName="MeshToolProps" devLabel="Mesh Selection Tool" translation="Outil de sélection du maillage"/>
+	<label commandName="MeshUnknownASMError" devLabel="Modeling operation failed." translation="Échec de l'opération de modélisation."/>
+	<label commandName="MeshUnknownError" devLabel="Mesh modeling operation failed." translation="Échec de l'opération de modélisation du maillage."/>
+	<label commandName="MeshWarningHollowShellCount" devLabel="The triangle count did not change. Try adjusting the thickness value." translation="Le nombre de triangles n'a pas changé. Ajustez la valeur d'épaisseur."/>
+	<label commandName="MigrationFailedDocumentHasNoSegment" devLabel="Document has no Segment" translation="Le document ne comporte pas de segment"/>
+	<label commandName="MigrationFailedNoParaMeshWasAdopted" devLabel="No ParaMesh was adopted" translation="Aucun maillage paramétrique n'a été adopté"/>
+	<label commandName="MigrationFailedObjectPathHasNotMeshBody" devLabel="ObjectPath has not MeshBody" translation="Le chemin d'objet ne possède pas de corps de maillage"/>
+	<label commandName="NamePostfixParametric" devLabel=" (Parametric)" translation=" (Paramétrique)"/>
+	<label commandName="PARAMESH_SELECTOR_BRUSH_SIZE" devLabel="Brush Size" translation="Taille du pinceau"/>
+	<label commandName="PARAMESH_SELECTOR_EXPANDTOCONNECTED_MESH_SEL_ACTION" devLabel="Expand to Connected" translation="Développer jusqu'aux éléments connectés"/>
+	<label commandName="PARAMESH_SELECTOR_EXPANDTOGROUP_MESH_SEL_ACTION" devLabel="Expand to Face Group" translation="Développer jusqu'au groupe de faces"/>
+	<label commandName="PARAMESH_SELECTOR_GROW_MESH_SEL" devLabel="Grow" translation="Agrandir"/>
+	<label commandName="PARAMESH_SELECTOR_GROW_SHRINK_MESH_SEL_EXPAND" devLabel="Expand" translation="Développer"/>
+	<label commandName="PARAMESH_SELECTOR_GROW_SHRINK_MESH_SEL_GROW" devLabel="Grow/Shrink" translation="Agrandir/réduire"/>
+	<label commandName="PARAMESH_SELECTOR_INVERT_MESH_SEL" devLabel="Invert" translation="Inverser"/>
+	<label commandName="PARAMESH_SELECTOR_INVERT_MESH_SEL_ACTION" devLabel="Invert Selection" translation="Inverser la sélection"/>
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_BODIES" devLabel="Selected Mesh Bodies" translation="Corps de maillage sélectionnés"/>
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_FACE_GROUPS" devLabel="Selected Face Groups" translation="Groupes de faces sélectionnés"/>
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_TRIANGLES" devLabel="Selected Faces" translation="Faces sélectionnées"/>
+	<label commandName="PARAMESH_SELECTOR_SHRINK_MESH_SEL" devLabel="Shrink" translation="Réduire"/>
+	<label commandName="Paint" devLabel="Paint" translation="Peinture"/>
+	<label commandName="ParaMeshBodyDefaultUserName" devLabel="MeshBody" translation="Corps de maillage"/>
+	<label commandName="ParaMeshBodySelectionCategory" devLabel="Mesh Bodies" translation="Corps de maillage"/>
+	<label commandName="ParaMeshCalculateFaceGroupsBoundaryTolerance" devLabel="Boundary Tolerance" translation="Tolérance de contour"/>
+	<label commandName="ParaMeshCalculateFaceGroupsMinimumEdgeLength" devLabel="Minimum Face Group Size" translation="Taille minimale du groupe de faces"/>
+	<label commandName="ParaMeshCalculateFaceGroupsOpeningAngle" devLabel="Angle Threshold" translation="Seuil d'angle"/>
+	<label commandName="ParaMeshEditMeshNamePostfix" devLabel="_Edited" translation="_Modifié"/>
+	<label commandName="ParaMeshFaceGroupSelectionCategory" devLabel="Mesh Face Groups" translation="Groupes de faces de maillage"/>
+	<label commandName="ParaMeshFaceGroupSelectionId" devLabel="Face Group" translation="Groupe de faces"/>
+	<label commandName="ParaMeshFaceGroupSelectionsId" devLabel="Face Groups" translation="Groupes de faces"/>
+	<label commandName="ParaMeshFaceSelectionId" devLabel="Mesh Faces" translation="Faces de maillage"/>
+	<label commandName="ParaMeshFaceSelectionsId" devLabel="Mesh Faces" translation="Faces de maillage"/>
+	<label commandName="ParaMeshFacetSelectionCategory" devLabel="Mesh Faces" translation="Faces de maillage"/>
+	<label commandName="ParaMeshFeatureSelectionId" devLabel="ParaMesh Feature" translation="Fonction de maillage paramétrique"/>
+	<label commandName="ParaMeshFeatureSelectionIds" devLabel="ParaMesh Features" translation="Fonctions de maillage paramétrique"/>
+	<label commandName="ParaMeshGridAspectRatio" devLabel="Aspect Ratio" translation="Rapport de linéarité"/>
+	<label commandName="ParaMeshMaxEdgeLength" devLabel="Maximum Edge Length" translation="Longueur d'arête maximale"/>
+	<label commandName="ParaMeshNormalTolerance" devLabel="Normal Deviation" translation="Écart des normales"/>
+	<label commandName="ParaMeshPointSelectionCategory" devLabel="Mesh Points" translation="Points de maillage"/>
+	<label commandName="ParaMeshPointSelectionId" devLabel="Mesh Point" translation="Point de maillage"/>
+	<label commandName="ParaMeshReduceFaceCount" devLabel="Face Count" translation="Nombre de faces"/>
+	<label commandName="ParaMeshReduceProportion" devLabel="Proportion" translation="Proportion"/>
+	<label commandName="ParaMeshReduceTolerance" devLabel="Tolerance" translation="Tolérance"/>
+	<label commandName="ParaMeshRemeshDensity" devLabel="Density" translation="Densité"/>
+	<label commandName="ParaMeshRemeshpShapePreservation" devLabel="Shape Preservation" translation="Conservation de la forme"/>
+	<label commandName="ParaMeshScaleFactorMissing" devLabel="Missing scal-factor for scaling. Edit feature and define scaling factor." translation="Facteur d'échelle manquant pour la mise à l'échelle. Modifiez la fonction et définissez le facteur d'échelle."/>
+	<label commandName="ParaMeshScaleReferenceMissing" devLabel="Missing reference point for scaling. Edit feature and reselect reference point." translation="Point de référence manquant pour la mise à l'échelle. Modifiez la fonction et resélectionnez le point de référence."/>
+	<label commandName="ParaMeshSelectionId" devLabel="Mesh Body" translation="Corps de maillage"/>
+	<label commandName="ParaMeshSelectionsId" devLabel="Mesh Bodies" translation="Corps de maillage"/>
+	<label commandName="ParaMeshSmoothness" devLabel="Smoothness" translation="Lissage"/>
+	<label commandName="ParaMeshSourceBodyNotFound" devLabel="Cannot find mesh body source. Edit feature to reselect mesh body." translation="Impossible de trouver la source du corps de maillage. Modifiez la fonction pour resélectionner le corps de maillage."/>
+	<label commandName="ParaMeshStatusEmptyMesh" devLabel="Mesh is empty." translation="Le maillage est vide."/>
+	<label commandName="ParaMeshStatusNegativeVolume" devLabel="Mesh does not have positive volume." translation="Le maillage n'a pas de volume positif."/>
+	<label commandName="ParaMeshStatusNotClosed" devLabel="Mesh is not closed." translation="Le maillage n'est pas fermé."/>
+	<label commandName="ParaMeshStatusNotOriented" devLabel="Mesh is not oriented." translation="Le maillage n'est pas orienté."/>
+	<label commandName="ParaMeshSurfaceTolerance" devLabel="Surface Deviation" translation="Écart des surfaces"/>
+	<label commandName="ParameshFeatureSelectionCategory" devLabel="Mesh Points" translation="Points de maillage"/>
+	<label commandName="SelectBackFacets" devLabel="Select Back Faces" translation="Sélectionner les faces arrière"/>
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="Filtre de sélection"/>
+	<label commandName="Selectionmode" devLabel="Selection Type" translation="Type de sélection"/>
+	<label commandName="TargetSketchNotFound" devLabel="Missing mesh section sketch. Delete Mesh Section feature from timeline and recreate it." translation="Esquisse de section de maillage manquante. Supprimez la fonction de section de maillage du plan de montage chronologique et recréez-la."/>
+	<label commandName="Window" devLabel="Window" translation="Fenêtre"/>
+</Resource>

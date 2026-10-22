@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ActiveDocumentsCacheDownloadFailed" devLabel="Failed to download active documents list for the user." translation="Échec du téléchargement de la liste des documents actifs pour l'utilisateur."/>
+	<label commandName="ActiveDocumentsCacheRefreshDidNothing" devLabel="No data was refreshed from WIPDM" translation="Aucune donnée n'a été actualisée à partir de WIPDM"/>
+	<label commandName="ActiveDocumentsWFCapcityLimitsNotInUse" devLabel="Error: capacity limit information is not available because it isn't in use." translation="Erreur: les informations sur la limite de capacité ne sont pas disponibles car elles ne sont pas utilisées."/>
+	<label commandName="BlockedWorkflow" devLabel="We cannot perform this operation." translation="Impossible d'effectuer cette opération."/>
+	<label commandName="BlockedWorkflowText" devLabel="This project is undergoing some updates. Check back in a few minutes." translation="Ce projet est en cours de mise à jour. Vérifiez dans quelques minutes."/>
+	<label commandName="BlockedWorkflowTitle" devLabel="We cannot perform this operation." translation="Impossible d'effectuer cette opération."/>
+	<label commandName="Caching temporarily unavailable" devLabel="Caching temporarily unavailable, please try again in a few minutes." translation="Mise en cache temporaire non disponible. Veuillez réessayer dans quelques minutes."/>
+	<label commandName="CbuBraBranchNotFound" devLabel="Branch could not be found." translation="La ramification est introuvable."/>
+	<label commandName="CbuBraCreateBranch" devLabel="Unable to create Branch for project folder." translation="Impossible de créer une ramification pour le dossier du projet."/>
+	<label commandName="CbuBraErrorCompare" devLabel="An error occurred comparing two branches." translation="Une erreur s'est produite lors de la comparaison de deux ramifications."/>
+	<label commandName="CbuBraErrorMilestone" devLabel="An error occurred getting changes in Milestone." translation="Une erreur s'est produite lors de l'obtention des modifications apportées au jalon."/>
+	<label commandName="CbuBraErrorMilestone_ccy" devLabel="An error occurred getting changes in Version." translation="Une erreur s’est produite lors de l’obtention des modifications apportées à la version."/>
+	<label commandName="CbuBraErrorOccured" devLabel="An error occured while merging two Branches." translation="Une erreur est survenue lors de la fusion de deux ramifications."/>
+	<label commandName="CbuBraGettingMilestones" devLabel="An error occurred getting Milestones." translation="Une erreur s'est produite lors de l'obtention de jalons."/>
+	<label commandName="CbuBraGettingMilestones_ccy" devLabel="An error occurred getting Versions." translation="Une erreur s’est produite lors de l’obtention des versions."/>
+	<label commandName="CbuBraMaster" devLabel="Unable to create default master for project folder." translation="Impossible de créer le référentiel par défaut pour le dossier du projet."/>
+	<label commandName="CbuBraMergeNoChange" devLabel="This merge would result in no changes to the target Branch." translation="Cette fusion n'entraînera aucune modification de la ramification cible."/>
+	<label commandName="CbuBraMergeStaticFile" devLabel="Merging update on Static Files is not supported." translation="La mise à jour de la fusion des fichiers statiques n'est pas prise en charge."/>
+	<label commandName="CbuBraMergeUpdateFolder" devLabel="Merging update on Folder is not supported." translation="La mise à jour de la fusion des dossiers n'est pas prise en charge."/>
+	<label commandName="CbuBraMilestoneNotApplicable" devLabel="Milestone is not applicable to Branch." translation="Le jalon ne s'applique pas à la ramification."/>
+	<label commandName="CbuBraMilestoneNotApplicable_ccy" devLabel="Version is not applicable to Branch." translation="La version ne s’applique pas à la ramification."/>
+	<label commandName="CbuBraMilestoneNotFound" devLabel="Branch Milestone not found." translation="Le jalon de la ramification est introuvable."/>
+	<label commandName="CbuBraMilestoneNotFound_ccy" devLabel="Branch Version not found." translation="Version de ramification introuvable."/>
+	<label commandName="CbuBraRootNotFound" devLabel="Root Project Folder could not be found." translation="Le dossier racine du projet est introuvable."/>
+	<label commandName="CbuBraUnresChanges" devLabel="There are unresolved changes between the two Branches that prevent merging." translation="Des modifications non résolues entre les deux ramifications empêchent l'opération de fusion."/>
+	<label commandName="CbuBraUserMilestone" devLabel="Only USER milestones can be used for branch creation." translation="Seuls les jalons UTILISATEUR peuvent être utilisés pour créer des ramifications."/>
+	<label commandName="CbuBraUserMilestone_ccy" devLabel="Only USER versions can be used for branch creation." translation="Seules les versions UTILISATEUR peuvent être utilisées pour la création de ramifications."/>
+	<label commandName="CbuConAddFailed" devLabel="Add Folder operation failed." translation="Echec de l'opération d'ajout de dossier."/>
+	<label commandName="CbuConDeleteFailed" devLabel="Delete Folder operation failed." translation="Echec de l'opération de suppression du dossier."/>
+	<label commandName="CbuConErrorReading" devLabel="Error reading Folder data." translation="Erreur lors de la lecture des données du dossier."/>
+	<label commandName="CbuConGetFolderFailed" devLabel="Get Folder operation failed." translation="Echec de l'opération d'obtention du dossier."/>
+	<label commandName="CbuConInvalidChar" devLabel="Invalid characters in folder name." translation="Le nom du dossier contient des caractères incorrects."/>
+	<label commandName="CbuConMoveFailed" devLabel="The move operation failed." translation="Echec de l'opération de déplacement."/>
+	<label commandName="CbuConNameLength" devLabel="Folder name must be 255 characters or less." translation="Le nom du dossier doit contenir 255 caractères au maximum."/>
+	<label commandName="CbuConSameName" devLabel="Another object with the same name already exists in this container." translation="Un objet portant le même nom existe déjà dans ce conteneur."/>
+	<label commandName="CbuConUpdatefailed" devLabel="Update Folder operation failed." translation="Echec de l'opération de mise à jour du dossier."/>
+	<label commandName="CbuContentNotAvailable" devLabel="There is no content available for this item." translation="Aucun contenu n'est disponible pour cet élément."/>
+	<label commandName="CbuFileAccessDenied" devLabel="Access denied to the file in the filestore system." translation="Accès refusé au fichier du système de magasin de fichiers."/>
+	<label commandName="CbuFileIllegalOper" devLabel="An illegal operation was attempted for a given storage type." translation="Tentative d'opération incorrecte pour un type de stockage donné."/>
+	<label commandName="CbuFileLengthMax" devLabel="File name must be 255 characters or less." translation="Le nom de fichier doit comporter 255 caractères au maximum."/>
+	<label commandName="CbuFileLengthMin" devLabel="File name must be at least 3 characters." translation="Le nom de fichier doit comporter au moins 3 caractères."/>
+	<label commandName="CbuFileMultiple" devLabel="Multiple file sources found on a single node." translation="Plusieurs sources de fichiers ont été trouvées pour un seul noeud."/>
+	<label commandName="CbuFileNotFound" devLabel="The file is not found in the filestore system." translation="Le fichier est introuvable dans le système du magasin de fichiers."/>
+	<label commandName="CbuFolContent" devLabel="Could not find specified content of the folder." translation="Impossible de trouver le contenu spécifié du dossier."/>
+	<label commandName="CbuFolManyValues" devLabel="Too many values in folder." translation="Le dossier contient trop de valeurs."/>
+	<label commandName="CbuFolNotFound" devLabel="Folder not found." translation="Dossier introuvable."/>
+	<label commandName="CbuFolUniquename" devLabel="Objects within a folder must be uniquely named." translation="Les objets contenus dans un même dossier doivent posséder un nom unique."/>
+	<label commandName="CbuGenFormatNumber" devLabel="Number is not in the proper format." translation="Le numéro possède un format incorrect."/>
+	<label commandName="CbuGenObjectHasRel" devLabel="The object being acted on has relationships." translation="L'objet en cours de traitement possède des relations."/>
+	<label commandName="CbuGenOperationFailed" devLabel="The operation failed." translation="Echec de l'opération."/>
+	<label commandName="CbuGenOperationTimedOut" devLabel="The operation timed out." translation="L'opération a expiré."/>
+	<label commandName="CbuGenSorryTheOperation" devLabel="Sorry. The operation you requested couldn't be performed." translation="Désolé, mais l'opération demandée n'a pas pu être effectuée."/>
+	<label commandName="CbuGenTheOperation" devLabel="The operation you requested couldn't be performed." translation="L'opération demandée n'a pas pu être effectuée."/>
+	<label commandName="CbuGenTitleLength" devLabel="Title must be 4096 characters or less." translation="Le titre doit comporter 4096 caractères au maximum."/>
+	<label commandName="CbuGenValueTooLarge" devLabel="The supplied value is too large." translation="La valeur spécifiée est trop grande."/>
+	<label commandName="CbuGeneralOrModifiedTarget" devLabel="An unexpected error occurred while performing merge. The target branch might have been changed - in this case, try to merge again later. In other cases, please contact us via the Fusion forum." translation="Une erreur inattendue s'est produite lors de la fusion. La ramification cible a peut-être été modifiée. Si c'est le cas, essayez à nouveau d'effectuer la fusion ultérieurement. Sinon, veuillez nous contacter via le forum Fusion."/>
+	<label commandName="CbuInvalidItemData" devLabel="Data for this item are invalid." translation="Les données de cet élément sont incorrectes."/>
+	<label commandName="CbuInvitationFailed" devLabel="Invitations failed for some emails.." translation="Echec de l'envoi d'invitations pour certaines adresses e-mail."/>
+	<label commandName="CbuInvitationsFailed" devLabel="Invitations failed." translation="Echec de l'envoi d'invitations."/>
+	<label commandName="CbuInvitationsFailedForSome" devLabel="Invitation failed." translation="Echec de l'envoi d'invitation."/>
+	<label commandName="CbuJobReturnsInvalidResponse" devLabel="Job returns invalid response." translation="La tâche renvoie une réponse non valide."/>
+	<label commandName="CbuLoginUserNameNotEnabled" devLabel="Invitation failed." translation="Echec de l'envoi d'invitation."/>
+	<label commandName="CbuMergeabortByAnotherOperation" devLabel="Merge was aborted because &lt;b&gt;%2%&lt;/b&gt; branch has been changed during the operation. Please try again in a moment." translation="La fusion a été abandonnée, car la ramification &lt;b&gt;%2%&lt;/b&gt; a été modifiée pendant l'opération. Veuillez réessayer ultérieurement."/>
+	<label commandName="CbuMergeabortByAnotherOperation2" devLabel="Merge was aborted because &lt;b&gt;%1%&lt;/b&gt; branch has been changed during the operation. Please try again in a moment." translation="La fusion a été abandonnée, car la ramification &lt;b&gt;%1%&lt;/b&gt; a été modifiée pendant l'opération. Veuillez réessayer ultérieurement."/>
+	<label commandName="CbuMessageConflictResolution" devLabel="The state of the files which you are trying to merge to &lt;b&gt;%2%&lt;/b&gt; branch has been changed. Please check the updated file states and try to merge them to &lt;b&gt;%2%&lt;/b&gt; again." translation="L'état des fichiers que vous tentez de fusionner avec la ramification &lt;b&gt;%2%&lt;/b&gt; a été modifié. Vérifiez les états mis à jour des fichiers et tentez de les fusionner de nouveau avec &lt;b&gt;%2%&lt;/b&gt;."/>
+	<label commandName="CbuMessageErrorAddVersion" devLabel="Other merge to the &lt;b&gt;%2%&lt;/b&gt; branch is currently in progress. Please try again in a moment." translation="Une autre opération de fusion avec la ramification &lt;b&gt;%2%&lt;/b&gt; est en cours. Veuillez réessayer ultérieurement."/>
+	<label commandName="CbuMessageIgnoreTipVersion" devLabel="Versions of files on &lt;b&gt;%1%&lt;/b&gt; branch which have relation to each other must be merged together." translation="Les versions de fichiers de la ramification &lt;b&gt;%1%&lt;/b&gt; et reliées les unes aux autres doivent être fusionnées."/>
+	<label commandName="CbuMessageServerError" devLabel="Sorry. The operation you requested couldn't be performed." translation="Désolé, mais l'opération demandée n'a pas pu être effectuée."/>
+	<label commandName="CbuNoAvailableProject" devLabel="No available project." translation="Aucun projet disponible."/>
+	<label commandName="CbuProjectMoveProblem" devLabel="We're unable to move your project." translation="Impossible de déplacer votre projet."/>
+	<label commandName="CbuProjectSynchronizeProblem" devLabel="We're unable to synchronize your projects." translation="Impossible de synchroniser vos projets."/>
+	<label commandName="CbuProjectUnableToGetJobStatus" devLabel="We're unable to get job status." translation="Impossible d'obtenir l'état de la tâche."/>
+	<label commandName="CbuReadAccessDenied" devLabel="Read access denied." translation="Accès en lecture refusé."/>
+	<label commandName="CbuRelAddFailed" devLabel="Add Relationship operation failed." translation="Echec de l'opération d'ajout d'une relation."/>
+	<label commandName="CbuRelDelFailed" devLabel="Delete Relationship operation failed." translation="Echec de l'opération de suppression d'une relation."/>
+	<label commandName="CbuRelExists" devLabel="Relationship already exists." translation="La relation existe déjà."/>
+	<label commandName="CbuRelGetFailed" devLabel="Get Relationship operation failed." translation="Echec de l'opération d'obtention d'une relation."/>
+	<label commandName="CbuRelNoExist" devLabel="Relationship does not exist." translation="La relation n'existe pas."/>
+	<label commandName="CbuRelUpdateFailed" devLabel="Update Relationship operation failed." translation="Echec de l'opération de mise à jour de la relation."/>
+	<label commandName="CbuSecAccessDenied" devLabel="Access denied." translation="Accès refusé."/>
+	<label commandName="CbuSecDeleteDenied" devLabel="Delete access denied." translation="Accès à l'opération de suppression refusé."/>
+	<label commandName="CbuSecError" devLabel="Security error." translation="Erreur de sécurité."/>
+	<label commandName="CbuSecGetPolicyFailed" devLabel="Get Policy operation failed." translation="Echec de l'opération d'obtention de la politique."/>
+	<label commandName="CbuSecReadDenied" devLabel="Read access denied." translation="Accès en lecture refusé."/>
+	<label commandName="CbuSecWriteDenied" devLabel="Write access denied." translation="Accès en écriture refusé."/>
+	<label commandName="CbuUnknownError" devLabel="Unknown error." translation="Erreur inconnue."/>
+	<label commandName="CbuUsageLimitsExceeded" devLabel="Usage limits exceeded." translation="Limites d'utilisation dépassées."/>
+	<label commandName="CbuVerAddFailed" devLabel="Add Version operation failed." translation="Echec de l'opération d'ajout de version."/>
+	<label commandName="CbuVerAddFailed_ccy" devLabel="Add Change operation failed." translation="Échec de l’opération d'ajout de la modification."/>
+	<label commandName="CbuVerDelFailed" devLabel="Delete Version operation failed." translation="Echec de l'opération de suppression de la version."/>
+	<label commandName="CbuVerDelFailed_ccy" devLabel="Delete Change operation failed." translation="Échec de l’opération de suppression de modification."/>
+	<label commandName="CbuVerPromoteFailed" devLabel="Promote version operation failed." translation="Echec de l'opération de promotion de la version."/>
+	<label commandName="CbuVerPromoteFailed_ccy" devLabel="Promote change operation failed." translation="Échec de l’opération de promotion de la modification."/>
+	<label commandName="CbuVerUpdateFailed" devLabel="Update Version operation failed." translation="Echec de l'opération de mise à jour de la version."/>
+	<label commandName="CbuVerUpdateFailed_ccy" devLabel="Update Change operation failed." translation="Échec de l’opération de mise à jour de la modification."/>
+	<label commandName="Cbu_ABUS_CONNECTION_FAILURE" devLabel="Failed to connect to WIP ABus adapter. Please check the configuration." translation="Échec de la connexion à l'adaptateur WIP ABus. Vérifiez la configuration."/>
+	<label commandName="Cbu_AGGREGATE_DEFAULT_SUPPRESSED" devLabel="DEFAULTS operation cannot be suppressed." translation="L'opération VALEURS PAR DÉFAUT ne peut pas être masquée."/>
+	<label commandName="Cbu_AGGREGATE_DELETE_FAILURE" devLabel="Failure deleting aggregate operations." translation="Échec de la suppression des opérations d'agrégat."/>
+	<label commandName="Cbu_AGGREGATE_INVALID_OPERATION" devLabel="Operation is invalid." translation="Opération non valide."/>
+	<label commandName="Cbu_AGGREGATE_MANAGER_NULL" devLabel="Aggregate service passed in null aggregate manager as argument." translation="Le service d'agrégat a été transmis en tant qu'argument dans le gestionnaire d'agrégats NULL."/>
+	<label commandName="Cbu_AGGREGATE_NOTIFY_REQUIRES_COMMIT" devLabel="The NOTIFY operation requires a commit." translation="L'opération NOTIFIER nécessite une validation."/>
+	<label commandName="Cbu_AGGREGATE_NULL_CALLBACK" devLabel="Aggregate callback handler cannot be null." translation="Le gestionnaire de rappel d'agrégat ne peut pas avoir la valeur NULL."/>
+	<label commandName="Cbu_AGGREGATE_NULL_ENTITY" devLabel="Entity object null or not found." translation="Objet d'entité de valeur NULL ou introuvable."/>
+	<label commandName="Cbu_AGGREGATE_NULL_OPERATION" devLabel="Operation is null." translation="L'opération est définie sur NULL."/>
+	<label commandName="Cbu_AGGREGATE_NULL_PARAM" devLabel="Parameter is null." translation="Le paramètre est défini sur NULL."/>
+	<label commandName="Cbu_AGGREGATE_READ_FAILURE" devLabel="Failure reading aggregate operations." translation="Échec de la lecture des opérations d'agrégat."/>
+	<label commandName="Cbu_AGGREGATE_RUN_FAILURE" devLabel="Failure executing aggregate operations." translation="Échec de l'exécution des opérations d'agrégat."/>
+	<label commandName="Cbu_AGGREGATE_SAVE_FAILED" devLabel="Failed to save the operations for Aggregate." translation="Échec de l'enregistrement des opérations pour l'agrégat."/>
+	<label commandName="Cbu_AGGREGATE_UPDATE_STATE_FAILURE" devLabel="Error updating state information." translation="Erreur lors de la mise à jour des informations d'état."/>
+	<label commandName="Cbu_BRANCHING_MERGE_DEPENDENCIES_FAILED" devLabel="An error occurred while merging dependencies between two Branches." translation="Une erreur s'est produite lors de la fusion des dépendances entre deux ramifications."/>
+	<label commandName="Cbu_BRANCH_ADJACENT_ERROR" devLabel="An error occurred getting Adjacent Branches." translation="Une erreur s'est produite lors de l'obtention des ramifications adjacentes."/>
+	<label commandName="Cbu_BRANCH_COMPARE_FAILED" devLabel="An error occurred while comparing two branches." translation="Une erreur s'est produite lors de la comparaison de deux ramifications."/>
+	<label commandName="Cbu_BRANCH_INVALID_MOVE" devLabel="Move is not allowed. This might happen if the destination folder belongs to a different branch or project folder." translation="Le déplacement n'est pas autorisé. Cela peut se produire si le dossier de destination appartient à une autre ramification ou à un autre dossier de projet."/>
+	<label commandName="Cbu_BRANCH_INVALID_NAME" devLabel="Branch name is invalid (possibly a reserved name). Please use another name for branch." translation="Le nom de la ramification n'est pas valide (il s'agit peut-être un nom réservé). Veuillez lui attribuer un autre nom."/>
+	<label commandName="Cbu_BRANCH_INVALID_RELATIONSHIP" devLabel="Relationship is not allowed. This might happen if the 'to' node belongs to a different branch of the same project." translation="La relation n'est pas autorisée. Cela peut se produire si le noeud de destination appartient à une autre ramification du même projet."/>
+	<label commandName="Cbu_BRANCH_IS_MASTER" devLabel="Operation is not applicable to object in master branch." translation="L'opération n'est pas applicable à un objet dans la ramification principale."/>
+	<label commandName="Cbu_BRANCH_MILESTONE_COMPARE_FAILED" devLabel="An error occurred comparing milestones." translation="Une erreur s'est produite lors de la comparaison des jalons."/>
+	<label commandName="Cbu_BRANCH_MILESTONE_COMPARE_FAILED_ccy" devLabel="An error occurred comparing Versions." translation="Une erreur s’est produite lors de la comparaison des versions."/>
+	<label commandName="Cbu_BRANCH_MILESTONE_COMPARE_INVALID_PARENT_BRANCH" devLabel="Parent branch for milestones being compared are not the same branch." translation="Les jalons comparés n'ont pas la même ramification parent."/>
+	<label commandName="Cbu_BRANCH_MILESTONE_COMPARE_INVALID_PARENT_BRANCH_ccy" devLabel="Parent branch for versions being compared are not the same branch." translation="La ramification parent des versions comparées n’est pas la même."/>
+	<label commandName="Cbu_BRANCH_MILESTONE_COMPARE_INVALID_TYPE" devLabel="Invalid change type found while comparing milestones." translation="Type de modification non valide détecté lors de la comparaison des jalons."/>
+	<label commandName="Cbu_BRANCH_MILESTONE_COMPARE_INVALID_TYPE_ccy" devLabel="Invalid change type found while comparing versions." translation="Type de modification non valide détecté lors de la comparaison des versions."/>
+	<label commandName="Cbu_BRANCH_MILESTONE_HISTORY_FAILED" devLabel="An error occurred in history milestones." translation="Une erreur s'est produite dans les jalons d'historique."/>
+	<label commandName="Cbu_BRANCH_MILESTONE_HISTORY_FAILED_ccy" devLabel="An error occurred in history versions." translation="Une erreur s’est produite dans les versions de l’historique."/>
+	<label commandName="Cbu_BRANCH_PROJECT_CONVERT_ERROR" devLabel="Cannot create a new project from a folder which is within an existing project." translation="Impossible de créer un projet à partir d'un dossier qui se trouve dans un projet existant."/>
+	<label commandName="Cbu_BRANCH_PROJECT_FOLDER_MOVE_ERROR" devLabel="Cannot move Project folder in non master branch." translation="Impossible de déplacer le dossier de projet dans une ramification non principale."/>
+	<label commandName="Cbu_BRANCH_PROMOTE_FAILURE" devLabel="Failed to promote versioned file to target lineage." translation="Échec de la promotion du fichier versionné vers la lignée cible."/>
+	<label commandName="Cbu_BRANCH_PROMOTE_FAILURE_ccy" devLabel="Failed to promote changed file to target lineage." translation="Échec de la promotion du fichier modifié vers la lignée cible."/>
+	<label commandName="Cbu_BRANCH_PROMOTE_TARGET_LINEAGE_DELETED" devLabel="Failed to promote versioned file to deleted target lineage." translation="Échec de la promotion du fichier versionné vers la lignée cible supprimée."/>
+	<label commandName="Cbu_BRANCH_PROMOTE_TARGET_LINEAGE_DELETED_ccy" devLabel="Failed to promote changed file to deleted target lineage." translation="Échec de la promotion du fichier modifié vers la lignée cible supprimée."/>
+	<label commandName="Cbu_BRANCH_PROMOTE_VER_NOT_FOUND" devLabel="Source version specified could not be found in parent branch." translation="La version source spécifiée est introuvable dans la ramification parent."/>
+	<label commandName="Cbu_BRANCH_PROMOTE_VER_NOT_FOUND_ccy" devLabel="Source change specified could not be found in parent branch." translation="La modification de source spécifiée est introuvable dans la ramification parent."/>
+	<label commandName="Cbu_BRANCH_TOO_MANY" devLabel="There seem to be too many branches found." translation="Il semble y avoir trop de ramifications trouvées."/>
+	<label commandName="Cbu_CHANGE_LOG_READ_ERROR" devLabel="Error reading the change log." translation="Erreur lors de la lecture du journal des modifications."/>
+	<label commandName="Cbu_CHANGE_LOG_WRITE_ERROR" devLabel="Error writing the change log." translation="Erreur d'écriture du journal des modifications."/>
+	<label commandName="Cbu_CONTAINER_CANNOT_MOVE_RELATIONSHIP_CONSTRAINT" devLabel="The folder cannot be moved because one or more of its children have relationship(s) to object(s) outside of the folder." translation="Impossible de déplacer le dossier, car un ou plusieurs de ses enfants ont des relations avec des objets situés en dehors du dossier."/>
+	<label commandName="Cbu_CONTAINER_CANNOT_MOVE_TO_CHILD" devLabel="The folder cannot be moved or copied to its sub folder." translation="Le dossier ne peut pas être déplacé ou copié vers son sous-dossier."/>
+	<label commandName="Cbu_CONTAINER_DUPLICATE_SOURCE_TARGET_URN" devLabel="The source and destination Folder urn are same." translation="Les URN des dossiers source et de destination sont identiques."/>
+	<label commandName="Cbu_CONTAINER_INVALID_NAME" devLabel="Folder name not allowed." translation="Nom de dossier non autorisé."/>
+	<label commandName="Cbu_CONTAINER_MIGRATE_BRANCH_EDGE" devLabel="Migrate legacy Project folder operation failed." translation="Échec de la migration du dossier de projet hérité."/>
+	<label commandName="Cbu_CONTAINER_MIGRATE_FAILURE" devLabel="Migrate Folder operation failed." translation="Échec de la migration du dossier."/>
+	<label commandName="Cbu_CONTAINER_MUST_INHERIT_PERMISSIONS" devLabel="Not authorized to create folders without inheriting parent permissions." translation="La création de dossiers sans hériter des autorisations parent n'est pas autorisée."/>
+	<label commandName="Cbu_CONTAINER_NOT_A_HUB_FOLDER" devLabel="The folder is not a hub folder." translation="Le dossier n'est pas un dossier de hub."/>
+	<label commandName="Cbu_CONTAINER_NOT_A_PROJECT_FOLDER" devLabel="The folder is not a project folder." translation="Le dossier n'est pas un dossier de projet."/>
+	<label commandName="Cbu_CONTAINER_NULL_COLLECTION" devLabel="No folders specified." translation="Aucun dossier spécifié."/>
+	<label commandName="Cbu_CONTAINER_NULL_OBJECT" devLabel="Folder object is null." translation="La valeur de l'objet de dossier est NULL."/>
+	<label commandName="Cbu_CONTAINER_OPTIMIZATIONS_MISSING_DATA" devLabel="Large folder optimizations encountered missing edges (possibly legacy data)." translation="Des arêtes manquantes ont été détectées dans des optimisations de dossiers volumineux (il peut s'agir de données héritées)."/>
+	<label commandName="Cbu_CONTAINER_PARENT_DOES_NOT_EXIST" devLabel="Could not find parent container." translation="Conteneur parent introuvable."/>
+	<label commandName="Cbu_COPY_FOLDER_FAILED" devLabel="The request for copy folder failed." translation="La demande de dossier de copie a échoué."/>
+	<label commandName="Cbu_COPY_SOURCE_NODE_DOES_NOT_EXIST" devLabel="The source node does not exist." translation="Le noeud source n'existe pas."/>
+	<label commandName="Cbu_COPY_TARGET_NODE_DOES_NOT_EXIST" devLabel="The target node does not exist." translation="Le noeud cible n'existe pas."/>
+	<label commandName="Cbu_CSE_LISTENER_INIT_FAILURE" devLabel="Failure to initialize CSE listener." translation="Échec de l'initialisation du récepteur CSE."/>
+	<label commandName="Cbu_CSE_PUBLISH_FAILURE" devLabel="Failed to publish the message(s) to Cross Service Eventing(CSE) service. Please chack the channel name, category name or the message list." translation="Échec de la publication du ou des messages vers le service &quot;Evènements inter-services&quot; (CSE: Cross Service Eventing). Vérifiez le nom du canal, le nom de la catégorie ou la liste des messages."/>
+	<label commandName="Cbu_CSE_SUBSCRIBE_FAILURE" devLabel="Failed to subscribe to the Cross Service Eventing(CSE) Service. Please check the channel name or the ICSEEventHandler instance." translation="Échec de l'abonnement au service CSE (Cross Service Eventing). Vérifiez le nom du canal ou l'instance ICSEEventHandler."/>
+	<label commandName="Cbu_CSE_UNSUBSCRIBE_FAILURE" devLabel="Failed to unsubscribe from the Cross Service Eventing(CSE) service Pull Service." translation="Échec du désabonnement au service d'extraction du service CSE (Cross Service Eventing)."/>
+	<label commandName="Cbu_DESIGN_DESCRIPTOR_FAILED" devLabel="Failed to create the Design Descriptor for the Version node." translation="Échec de la création du descripteur de conception pour le noeud de version."/>
+	<label commandName="Cbu_DESIGN_DESCRIPTOR_FAILED_ccy" devLabel="Failed to create the Design Descriptor for the Change." translation="Échec de la création du descripteur de conception pour la modification."/>
+	<label commandName="Cbu_DOWNLOAD_FILE_FAILURE" devLabel="Download nitrogen file failed." translation="Échec du téléchargement du fichier de Nitrogen."/>
+	<label commandName="Cbu_DOWNLOAD_SIGNED_URL_ERROR" devLabel="The Signed URL cannot be generated." translation="Impossible de générer l'URL signée."/>
+	<label commandName="Cbu_EXPORT_EMPTY_DATASCRIPT" devLabel="Datascript cannot be empty." translation="Le script de données ne peut pas être vide."/>
+	<label commandName="Cbu_EXPORT_FAILURE" devLabel="Export request could not be completed." translation="La demande d'exportation n'a pas pu aboutir."/>
+	<label commandName="Cbu_EXPORT_INVALID_REQUEST" devLabel="Export request is invalid." translation="La demande d'exportation n'est pas valide."/>
+	<label commandName="Cbu_EXPORT_MORE_THAN_ONE_FILE" devLabel="Export only supports one root file at a time." translation="L'exportation ne prend en charge qu'un fichier racine à la fois."/>
+	<label commandName="Cbu_FOLDER_CONTENTS_WRONG_TYPE" devLabel="Different type expected for folder content." translation="Type différent attendu pour le contenu du dossier."/>
+	<label commandName="Cbu_FOLDER_FORCE_DELETE_REQUIRED" devLabel="Operation requires that ForceDelete must be true." translation="L'opération requiert que la variable ForceDelete soit définie sur true."/>
+	<label commandName="Cbu_FOLDER_INVALID_TYPE" devLabel="Node type is not a Folder." translation="Le type de noeud ne correspond pas à un dossier."/>
+	<label commandName="Cbu_FOLDER_NOT_EMPTY" devLabel="Folder is not empty." translation="Le dossier n'est pas vide."/>
+	<label commandName="Cbu_FSTORE_ACM_ERROR" devLabel="Error in ACM service." translation="Erreur dans le service ACM."/>
+	<label commandName="Cbu_FSTORE_CHARACTERS_NOT_ALLOWED_IN_NAME" devLabel="Invalid characters in file name." translation="Caractères non valides dans le nom de fichier."/>
+	<label commandName="Cbu_FSTORE_FILE_NAME_TOO_SHORT" devLabel="File name must be not empty and non-whitespace." translation="Le nom de fichier ne peut pas être vide ni contenir des espaces."/>
+	<label commandName="Cbu_FSTORE_INVALID_FILE_NAME" devLabel="File name not allowed." translation="Nom de fichier non autorisé."/>
+	<label commandName="Cbu_FSTORE_INVALID_OSS_ID" devLabel="OSS IDs must be in the form 'urn:adsk.objects:os.object:bucket/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.ext'." translation="Les ID OSS doivent être définis sous la forme 'urn:adsk.objects:os.object:bucket/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.ext'."/>
+	<label commandName="Cbu_FSTORE_INVALID_OSS_REQUEST" devLabel="Invalid request made or attempted against OSS." translation="Demande non valide effectuée ou tentée sur OSS."/>
+	<label commandName="Cbu_FSTORE_INVALID_STORAGE_TYPE" devLabel="Invalid storage type." translation="Type de stockage non valide."/>
+	<label commandName="Cbu_FSTORE_INVALID_STORAGE_URN" devLabel="Storage urn not valid." translation="URN de stockage non valide."/>
+	<label commandName="Cbu_FSTORE_MULTIPLE_STORAGE_IDS" devLabel="More than one storage urn found." translation="Plusieurs URN de stockage ont été trouvées."/>
+	<label commandName="Cbu_FSTORE_NULL_STORAGE_TYPE" devLabel="Storage type not set." translation="Type de stockage non défini."/>
+	<label commandName="Cbu_FSTORE_NULL_URN" devLabel="Storage urn not set." translation="URN de stockage non défini."/>
+	<label commandName="Cbu_FSTORE_OSS_AUTH_ERROR" devLabel="Error authenticating with OSS." translation="Erreur lors de l'authentification avec OSS."/>
+	<label commandName="Cbu_FSTORE_OSS_CONNECT_ERROR" devLabel="Error connecting to OSS." translation="Erreur lors de la connexion à OSS."/>
+	<label commandName="Cbu_FSTORE_OSS_ERROR" devLabel="Error thrown by OSS." translation="Erreur générée par OSS."/>
+	<label commandName="Cbu_FSTORE_SHARE_SOURCE_NOT_FOUND" devLabel="Source does not contain storage information." translation="La source ne contient pas d'informations de stockage."/>
+	<label commandName="Cbu_FSTORE_STORAGE_NODE_NOT_FOUND" devLabel="File object does not have a file storage node." translation="L'objet de fichier ne possède pas de noeud de stockage de fichiers."/>
+	<label commandName="Cbu_FSTORE_STORAGE_URN_IN_USE" devLabel="Another object is using that storage urn." translation="Un autre objet utilise cet URN de stockage."/>
+	<label commandName="Cbu_FSTORE_UNMANAGED_OSS_BUCKET" devLabel="OSS file is in a location not managed by WIP." translation="Le fichier OSS réside à un emplacement non géré par WIP."/>
+	<label commandName="Cbu_GEN_ARRAY_MISMATCH" devLabel="Arrays are different sizes." translation="Les tableaux sont de tailles différentes."/>
+	<label commandName="Cbu_GEN_CLONE_FAILURE" devLabel="Object failed to clone." translation="Échec du clonage de l'objet."/>
+	<label commandName="Cbu_GEN_DUPLICATE_URN" devLabel="Duplicate urn specified." translation="URN en double spécifié."/>
+	<label commandName="Cbu_GEN_DUPLICATE_VALUE" devLabel="Duplicate value specified." translation="Valeur en double spécifiée."/>
+	<label commandName="Cbu_GEN_EMPTY_REQUEST" devLabel="The request is empty." translation="La demande est vide."/>
+	<label commandName="Cbu_GEN_FILETYPE_INVALID" devLabel="FileType must not start with '.'." translation="Le type de fichier ne peut pas commencer par '.'."/>
+	<label commandName="Cbu_GEN_FILETYPE_TOO_LONG" devLabel="FileType must be 128 characters or less." translation="Le type de fichier ne peut pas comporter plus de 128 caractères."/>
+	<label commandName="Cbu_GEN_GET_BY_RELATIVE_PATHS_FAILED" devLabel="Unknown error while getting entities by relative paths." translation="Erreur inconnue lors de l'obtention d'entités via des chemins relatifs."/>
+	<label commandName="Cbu_GEN_INVALID_BOOLEAN" devLabel="Boolean value is not in the proper format." translation="Le format de la valeur booléenne est incorrect."/>
+	<label commandName="Cbu_GEN_INVALID_LIMIT" devLabel="The limit value is invalid." translation="La valeur limite n'est pas valide."/>
+	<label commandName="Cbu_GEN_INVALID_OFFSET" devLabel="The offset value is invalid." translation="La valeur de décalage n'est pas valide."/>
+	<label commandName="Cbu_GEN_INVALID_STATE" devLabel="The state value or set of values are not valid." translation="La valeur ou le jeu de valeurs d'état n'est pas valide."/>
+	<label commandName="Cbu_GEN_INVALID_TYPE" devLabel="The object is not the correct type." translation="L'objet n'est pas de type valide."/>
+	<label commandName="Cbu_GEN_INVALID_URN" devLabel="Urn is not in the proper format." translation="Le format de l'URN n'est pas correct."/>
+	<label commandName="Cbu_GEN_INVALID_VALUE" devLabel="Value is not allowed for this operation." translation="La valeur n'est pas autorisée pour cette opération."/>
+	<label commandName="Cbu_GEN_INVALID_VALUE_FORMAT" devLabel="Value is not in the proper format for its data type." translation="La valeur n'est pas au format approprié pour son type de données."/>
+	<label commandName="Cbu_GEN_MIMETYPE_TOO_LONG" devLabel="MimeType must be 128 characters or less." translation="Le type MIME ne peut pas comporter plus de 128 caractères."/>
+	<label commandName="Cbu_GEN_NULL_ARRAY" devLabel="Array is null or empty." translation="Le tableau est défini sur NULL ou est vide."/>
+	<label commandName="Cbu_GEN_NULL_OBJECT" devLabel="The object passed is null." translation="L'objet transmis est défini sur NULL."/>
+	<label commandName="Cbu_GEN_NULL_TEMP_URN" devLabel="Temp URN must be specified." translation="L'URN temporaire doit être spécifié."/>
+	<label commandName="Cbu_GEN_NULL_URN" devLabel="URN must be specified." translation="L'URN doit être spécifié."/>
+	<label commandName="Cbu_GEN_NULL_VALUE" devLabel="Required value is null." translation="La valeur requise est NULL."/>
+	<label commandName="Cbu_GEN_PARSING_FAILURE" devLabel="There was an error parsing the input payload." translation="Une erreur s'est produite lors de l'analyse de la charge utile d'entrée."/>
+	<label commandName="Cbu_GEN_RENAME_FAILED" devLabel="Unknown error in rename operation." translation="Erreur inconnue lors de l'opération de changement de nom."/>
+	<label commandName="Cbu_GEN_SIZE_INVALID" devLabel="The object size passed is too big for processing." translation="La taille d'objet transmise est trop grande pour être traitée."/>
+	<label commandName="Cbu_GEN_SYSTEM_FORMAT_URN" devLabel="Temporary urn values cannot be the same format as system urn values." translation="Les valeurs d'URN temporaire ne peuvent pas être du même format que les valeurs d'URN système."/>
+	<label commandName="Cbu_GEN_UNSPECIFIED_API_VERSION" devLabel="An unknown or unspecified version of the API was called." translation="Une version inconnue ou non spécifiée de l'API a été appelée."/>
+	<label commandName="Cbu_GEN_UNSUPPORTED_DATA_TYPE" devLabel="Unsupported data type." translation="Type de données non pris en charge."/>
+	<label commandName="Cbu_GEN_UNSUPPORTED_OPERATION" devLabel="Unsupported operation." translation="Opération non prise en charge."/>
+	<label commandName="Cbu_GEN_URN_NOT_FOUND" devLabel="Nothing was found for a given URN." translation="Aucun résultat n'a été trouvé pour un URN donné."/>
+	<label commandName="Cbu_IMPORT_NOT_DESTRUCTIVE" devLabel="Import requests must be destructive." translation="Les demandes d'importation doivent être destructives."/>
+	<label commandName="Cbu_JOB_CREATION_FAILURE" devLabel="Failed to create the job for this operation." translation="Échec de la création de la tâche pour cette opération."/>
+	<label commandName="Cbu_JOB_DOES_NOT_EXIST" devLabel="Job does not exist in the queue." translation="La tâche n'existe pas dans la file d'attente."/>
+	<label commandName="Cbu_JOB_FAILED_TO_ASSOCIATE_TO_ENTITY" devLabel="The job could not be associated with the target entity." translation="La tâche n'a pas pu être associée à l'entité cible."/>
+	<label commandName="Cbu_JOB_FAILED_TO_DELETE_JOB" devLabel="Failed to delete job." translation="Échec de la suppression de la tâche."/>
+	<label commandName="Cbu_JOB_HANDLER_FOLDER_NOT_DETACHED" devLabel="Folder was not detached from all parents." translation="Le dossier n'a pas été détaché de tous les parents."/>
+	<label commandName="Cbu_JOB_HANDLER_INCOMPLETE_PARAMETER" devLabel="Job Handler doesn't get all required parameters." translation="Le gestionnaire de tâches n'obtient pas tous les paramètres requis."/>
+	<label commandName="Cbu_JOB_ONLY_RESERVED_OR_ENDED_JOB_CAN_BE_DELETED" devLabel="Only reserved or ended job can be deleted." translation="Vous ne pouvez supprimer que les tâches réservées ou terminées."/>
+	<label commandName="Cbu_JOB_RESERVATION_FAILURE" devLabel="Failed to reserve job for execution." translation="Échec de la réservation de la tâche pour exécution."/>
+	<label commandName="Cbu_LIN_ADD_FAILURE" devLabel="Add Lineage Operation Failed." translation="Échec de l'opération d'ajout d'une lignée."/>
+	<label commandName="Cbu_LIN_COPY_FAILURE" devLabel="Lineage copy operation failed." translation="Échec de l'opération de copie de la lignée."/>
+	<label commandName="Cbu_LIN_DELETE_FAILURE" devLabel="Delete Lineage Operation Failed." translation="Échec de l'opération de suppression de la lignée."/>
+	<label commandName="Cbu_LIN_GET_FAILURE" devLabel="Get Lineage operation failed." translation="Échec de l'opération d'obtention d'une lignée."/>
+	<label commandName="Cbu_LIN_INVALID_TYPE" devLabel="Node type is not a Lineage." translation="Le type de noeud ne correspond pas à une lignée."/>
+	<label commandName="Cbu_LIN_NOT_FOUND" devLabel="Lineage not found." translation="Lignée introuvable."/>
+	<label commandName="Cbu_LIN_NULL_COLLECTION" devLabel="No Lineages specified." translation="Aucune lignée spécifiée."/>
+	<label commandName="Cbu_LIN_NULL_OBJECT" devLabel="Empty Lineage specified." translation="Lignée vide spécifiée."/>
+	<label commandName="Cbu_LIN_UPDATE_FAILURE" devLabel="Update Lineage Operation Failed." translation="Échec de l'opération de mise à jour de la lignée."/>
+	<label commandName="Cbu_LOCK_CONTAINER_CHILD_WITH_NAME_LOCKED" devLabel="The current operation is attempting to use a name that is locked in the specified container." translation="L'opération en cours tente d'utiliser un nom qui est verrouillé dans le conteneur spécifié."/>
+	<label commandName="Cbu_LOCK_REQUEST_FAILURE" devLabel="Request to obtain a lock returned with an unexpected failure." translation="La demande d'obtention d'un verrouillage s'est soldée par un échec inattendu."/>
+	<label commandName="Cbu_LOCK_RESOURCE_IS_LOCKED" devLabel="The current operation can't be proceed because the resource is locked by other operation." translation="L'opération en cours ne peut pas aboutir, car la ressource est verrouillée par une autre opération."/>
+	<label commandName="Cbu_LOCK_UNLOCK_RESOURCE_FAILURE" devLabel="Failed to remove lock from resource." translation="Échec de la suppression du verrouillage de la ressource."/>
+	<label commandName="Cbu_MERGE_ALREADY_IN_PROGRESS" devLabel="Another merge into the target branch is in progress." translation="Une autre fusion est en cours dans la ramification cible."/>
+	<label commandName="Cbu_MERGE_BRANCHES_UNRELATED" devLabel="No merge details vertex found between the two branches." translation="Aucun sommet de détails de fusion n'a été trouvé entre les deux ramifications."/>
+	<label commandName="Cbu_MERGE_COMMIT_OF_MERGE_IN_PROGRESS" devLabel="A merge commit for the target branch is in progress. Try again later." translation="Une validation de fusion est en cours pour la ramification cible. Réessayez plus tard."/>
+	<label commandName="Cbu_MERGE_FAILED_DELETE_VIOLATES_EXISTING_RELATIONSHIP" devLabel="Merge of delete violates dependency on target branch." translation="La fusion de fichier supprimés enfreint une dépendance de la ramification cible."/>
+	<label commandName="Cbu_MERGE_FAILED_ON_DEPENDENCY" devLabel="Can't ignore version that is part of relationship." translation="Impossible d'ignorer une version qui fait partie de la relation."/>
+	<label commandName="Cbu_MERGE_FAILED_ON_DEPENDENCY_ccy" devLabel="Can't ignore change that is part of relationship." translation="Vous ne pouvez pas ignorer la modification qui fait partie de la relation."/>
+	<label commandName="Cbu_MERGE_FAILED_ON_MISSING_PARENT_FOLDER_ON_TARGET_BRANCH" devLabel="Can't ignore parent folder(s) and accept children." translation="Impossible d'ignorer le ou les dossiers parents et d'accepter les enfants."/>
+	<label commandName="Cbu_MERGE_FAILED_ON_MOVE" devLabel="Can't merge move operation." translation="Impossible de fusionner l'opération de déplacement."/>
+	<label commandName="Cbu_MERGE_FAILED_ON_RENAME" devLabel="Can't merge rename operation." translation="Impossible de fusionner l'opération de changement de nom."/>
+	<label commandName="Cbu_MERGE_FAILED_ON_UNSUPPORTED_DEPENDENCY" devLabel="Relationship to unsupported node type." translation="Relation avec un type de noeud non pris en charge."/>
+	<label commandName="Cbu_MERGE_INFO_NOT_FOUND" devLabel="Branch merge info could not be found." translation="Informations sur la fusion de ramifications introuvables."/>
+	<label commandName="Cbu_MERGE_INVALID_COMPARE_TYPE" devLabel="An invalid merge change compare type was specified." translation="Un type de comparaison de modifications de fusion non valide a été spécifié."/>
+	<label commandName="Cbu_MERGE_INVALID_RESOLVE_TYPE" devLabel="An invalid merge resolve type was specified." translation="Un type de résolution de fusion non valide a été spécifié."/>
+	<label commandName="Cbu_MERGE_LOCKING_INTERNAL_FAILURE" devLabel="Trying release commit lock on target branch with different requestId." translation="Tentative de levée du verrouillage de la validation sur la ramification cible avec un ID de demande différent."/>
+	<label commandName="Cbu_MERGE_LOCK_NOT_FOUND" devLabel="There was no merge lock found, commit lock is not applicable." translation="Aucun verrouillage de fusion n'a été trouvé. Le verrouillage de la validation n'est pas applicable."/>
+	<label commandName="Cbu_MERGE_NON_TIP_VERSION_FAILED" devLabel="Failed to merge non tip version." translation="Échec de la fusion de la version antérieure à la dernière."/>
+	<label commandName="Cbu_MERGE_NON_TIP_VERSION_FAILED_ccy" devLabel="Failed to merge non tip change." translation="Échec de la fusion des modifications non liées aux pointes."/>
+	<label commandName="Cbu_MERGE_PARENT_LIN_NOT_FOUND" devLabel="Lineage from parent branch could not be found." translation="Impossible de trouver la lignée de la ramification parent."/>
+	<label commandName="Cbu_MERGE_UNRESOLVABLE_CONFLICT_CHANGE" devLabel="Unresolvable change have to be resolved before merge." translation="Les modifications conflictuelles doivent être résolues avant la fusion."/>
+	<label commandName="Cbu_MERGE_VERSION_IS_NEWER_VERSION" devLabel="Merge of a newer version while merging an older version is not supported." translation="La fusion d'une version plus récente pendant la fusion d'une version antérieure n'est pas prise en charge."/>
+	<label commandName="Cbu_MERGE_VERSION_IS_NEWER_VERSION_ccy" devLabel="Merge of a newer change while merging an older change is not supported." translation="La fusion d’une modification récente lors de la fusion d’une modification plus ancienne n’est pas prise en charge."/>
+	<label commandName="Cbu_MERGE_VERSION_IS_TIP_VERSION" devLabel="Merge tip version while merging older version is not supported." translation="La fusion de la dernière version pendant la fusion d'une version antérieure n'est pas prise en charge."/>
+	<label commandName="Cbu_MERGE_VERSION_IS_TIP_VERSION_ccy" devLabel="Merge tip change while merging older change is not supported." translation="La fusion des modifications apportées aux pointes lors de la fusion des anciennes modifications n’est pas prise en charge."/>
+	<label commandName="Cbu_NITROGEN_FILE_NOT_FOUND" devLabel="Nitrogen File not found." translation="Fichier Nitrogen introuvable."/>
+	<label commandName="Cbu_NITROGEN_SERVICE_ERROR" devLabel="Error from Nitrogen service." translation="Erreur du service de Nitrogen."/>
+	<label commandName="Cbu_PROJECT_FOLDER_NESTING_ERROR" devLabel="A project folder cannot contain another project folder." translation="Un dossier de projet ne peut pas contenir un autre dossier de projet."/>
+	<label commandName="Cbu_PROP_DATA_TYPE_CHANGE_NOT_ALLOWED" devLabel="Cannot change the data type on a property." translation="Impossible de modifier le type de données d'une propriété."/>
+	<label commandName="Cbu_PROP_DUPLICATE" devLabel="Duplicate property specified." translation="Propriété en double spécifiée."/>
+	<label commandName="Cbu_PROP_INVALID_NAME" devLabel="Property name is invalid." translation="Le nom de la propriété n'est pas valide."/>
+	<label commandName="Cbu_PROP_INVALID_NAME_FORMAT" devLabel="Property name is not the right format." translation="Le format du nom de la propriété n'est pas correct."/>
+	<label commandName="Cbu_PROP_NAME_TOO_LARGE" devLabel="Property name is too large." translation="Le nom de la propriété est trop long."/>
+	<label commandName="Cbu_PROP_NOT_ALLOWED" devLabel="Property not allowed in this context." translation="Propriété non autorisée dans ce contexte."/>
+	<label commandName="Cbu_PROP_NULL_COLLECTION" devLabel="No properties specified." translation="Aucune propriété spécifiée."/>
+	<label commandName="Cbu_PROP_NULL_NAME" devLabel="Empty property name specified." translation="Nom de propriété vide spécifié."/>
+	<label commandName="Cbu_PROP_NULL_VALUE" devLabel="Empty property value specified." translation="Valeur de propriété vide spécifiée."/>
+	<label commandName="Cbu_PROP_READ_FAILURE" devLabel="Error reading property value." translation="Erreur lors de la lecture de la valeur de la propriété."/>
+	<label commandName="Cbu_PROP_SYSTEM_PROPERTY_NOT_ALLOWED" devLabel="Cannot use system properties in this context." translation="Impossible d'utiliser les propriétés système dans ce contexte."/>
+	<label commandName="Cbu_PROP_SYSTEM_PROPERTY_NOT_FOUND" devLabel="No System property was found with that name." translation="Aucune propriété système n'a été trouvée avec ce nom."/>
+	<label commandName="Cbu_PROP_TYPE_MISMATCH" devLabel="Property value does not match the property type." translation="La valeur de la propriété ne correspond pas au type de propriété."/>
+	<label commandName="Cbu_PROP_VALUE_TOO_LARGE" devLabel="Property value is too large." translation="La valeur de la propriété est trop grande."/>
+	<label commandName="Cbu_QONTEXT_BAD_PAYLOAD" devLabel="Invalid xDio payload." translation="Charge utile Xdio non valide."/>
+	<label commandName="Cbu_QONTEXT_XDIO_CREATE_FAILED" devLabel="Create xdio failed." translation="Échec de la création de Xdio."/>
+	<label commandName="Cbu_QONTEXT_XDIO_NULL_URN" devLabel="Xdio urn cannot be null." translation="L'URN Xdio ne peut pas avoir la valeur NULL."/>
+	<label commandName="Cbu_QONTEXT_XDIO_UNIQUE_FAILURE" devLabel="Xdio urn associated with more than one lineages." translation="URN Xdio associée à plusieurs lignées."/>
+	<label commandName="Cbu_QUERY_DATA_TYPE_NOT_SUPPORTED_FOR_SORT" devLabel="Sort clause uses a data type unsupported for sorting." translation="L'instruction de tri utilise un type de données non pris en charge pour le tri."/>
+	<label commandName="Cbu_QUERY_FAILURE" devLabel="Query failed." translation="La requête a échoué."/>
+	<label commandName="Cbu_QUERY_FILTER_CRITERIA_NULL" devLabel="Filter Criteria is not specified." translation="Les critères de filtre ne sont pas spécifiés."/>
+	<label commandName="Cbu_QUERY_INVALID_DEPTH" devLabel="Depth cannot be a negative number." translation="La profondeur ne peut pas être un nombre négatif."/>
+	<label commandName="Cbu_QUERY_INVALID_OPERATOR" devLabel="Invalid query operator." translation="Opérateur de requête non valide."/>
+	<label commandName="Cbu_QUERY_INVALID_PAGE_SIZE" devLabel="Invalid page size." translation="Taille de page non valide."/>
+	<label commandName="Cbu_QUERY_INVALID_PAGE_START" devLabel="Invalid page start value." translation="Valeur de début de page non valide."/>
+	<label commandName="Cbu_QUERY_NO_SEARCH_CRITERIA" devLabel="At least one search clause must be specified." translation="Au moins une instruction de recherche doit être spécifiée."/>
+	<label commandName="Cbu_QUERY_NULL_SEARCH_CLAUSE" devLabel="Empty search clause in query." translation="Instruction de recherche vide dans la requête."/>
+	<label commandName="Cbu_QUERY_NULL_SEARCH_CLAUSE_OPERATOR" devLabel="Empty operator in search clause." translation="Opérateur vide dans l'instruction de recherche."/>
+	<label commandName="Cbu_QUERY_NULL_SEARCH_CLAUSE_PROPERTY" devLabel="Empty property in search clause." translation="Propriété vide dans l'instruction de recherche."/>
+	<label commandName="Cbu_QUERY_NULL_SEARCH_CLAUSE_VALUE" devLabel="Empty value in search clause." translation="Valeur vide dans l'instruction de recherche."/>
+	<label commandName="Cbu_QUERY_PROPERTY_DATA_TYPE_INVALID" devLabel="Datatype for the property is not valid." translation="Le type de données de la propriété n'est pas valide."/>
+	<label commandName="Cbu_QUERY_PROPERTY_NOT_SUPPORTED" devLabel="System Property is not supported." translation="La propriété système n'est pas prise en charge."/>
+	<label commandName="Cbu_QUERY_PROPERTY_VALUE_INVALID" devLabel="The value of the property is not valid." translation="La valeur de la propriété n'est pas valide."/>
+	<label commandName="Cbu_QUERY_SORT_CRITERIA_NULL" devLabel="Sort Criteria is not specified." translation="Les critères de tri ne sont pas spécifiés."/>
+	<label commandName="Cbu_RELATION_ASSOCIATED_INCLUDES_RELATIONSHIP_CANNOT_BE_DELETED" devLabel="This relationship is associated with an INCLUDES relationship and cannot be deleted." translation="Cette relation est associée à une relation INCLUT et ne peut pas être supprimée."/>
+	<label commandName="Cbu_RELATION_ASSOCIATED_INCLUDES_RELATIONSHIP_CANNOT_BE_UPDATED" devLabel="This relationship is associated with an INCLUDES relationship and cannot be updated." translation="Cette relation est associée à une relation INCLUT et ne peut pas être mise à jour."/>
+	<label commandName="Cbu_RELATION_CANNOT_BE_DELETED" devLabel="This relationship cannot be explicitly deleted." translation="Cette relation ne peut pas être supprimée explicitement."/>
+	<label commandName="Cbu_RELATION_DUPLICATE" devLabel="Duplicate Relationships specified." translation="Relations en double spécifiées."/>
+	<label commandName="Cbu_RELATION_EXISTING_INCLUDES" devLabel="Entity already has an incoming INCLUDES Relationship." translation="L'entité possède déjà une relation INCLUT entrante."/>
+	<label commandName="Cbu_RELATION_LINEAGE_RELATIONSHIP_NOT_FOUND" devLabel="No correlating Lineage-to-Lineage relationship." translation="Aucune relation de corrélation entre lignée et lignée."/>
+	<label commandName="Cbu_RELATION_LIN_TO_LIN_INCLUDES_BLOCKS_PROMOTE" devLabel="Promote cannot be performed on a lineage that is included by another lineage." translation="L'opération de promotion ne peut pas être effectuée sur une lignée incluse dans une autre lignée."/>
+	<label commandName="Cbu_RELATION_NESTED_INCLUDES" devLabel="Lineage contains both a TO and FROM INCLUDES Relationship." translation="La lignée contient une relation INCLUT VERS et une relation INCLUT À PARTIR DE."/>
+	<label commandName="Cbu_RELATION_NOT_PART_OF_ENTITY_CREATE" devLabel="The relationship can only be created as part of Entity creation." translation="La relation peut uniquement être créée lors de la création d'une entité."/>
+	<label commandName="Cbu_RELATION_NULL_COLLECTION" devLabel="No Relationships specified." translation="Aucune relation spécifiée."/>
+	<label commandName="Cbu_RELATION_NULL_FROM_URN" devLabel="Empty from URN value in Relationship." translation="Valeur d'URN de provenance vide dans la relation."/>
+	<label commandName="Cbu_RELATION_NULL_OBJECT" devLabel="Relationship object is null." translation="L'objet de relation est défini sur NULL."/>
+	<label commandName="Cbu_RELATION_NULL_TO_URN" devLabel="Empty to URN value in Relationship." translation="Valeur d'URN de destination vide dans la relation."/>
+	<label commandName="Cbu_RELATION_NULL_TYPE" devLabel="Empty type value in Relationship." translation="Valeur de type vide dans la relation."/>
+	<label commandName="Cbu_RELATION_PARENT_EXISTS" devLabel="Parent exists." translation="Le parent existe."/>
+	<label commandName="Cbu_RELATION_PARENT_FOLDER_EXISTS" devLabel="Parent folder exists." translation="Le dossier parent existe."/>
+	<label commandName="Cbu_RELATION_SELF_REFERENCE" devLabel="Entity has a Relationship to itself." translation="L'entité a une relation avec elle-même."/>
+	<label commandName="Cbu_RELATION_TRAVERSE_FAILURE" devLabel="Error traversing relationships." translation="Erreur lors du parcours des relations."/>
+	<label commandName="Cbu_RELATION_TRAVERSE_NO_TIMESTAMP" devLabel="Cannot determine timestamp for historical traversal." translation="Impossible de déterminer l'horodatage du parcours d'historique."/>
+	<label commandName="Cbu_RELATION_UNRELATED_TO_PARENT_AND_CHILD" devLabel="Relationship must reference either parent or child in the same request." translation="La relation doit faire référence à un parent ou à un enfant dans la même demande."/>
+	<label commandName="Cbu_RELATION_UNSUPPORTED_ALGORITHM" devLabel="Traversal algorithm not supported for this operations." translation="Algorithme de parcours non pris en charge pour ces opérations."/>
+	<label commandName="Cbu_RELATION_UNSUPPORTED_ENTITY_TYPE" devLabel="The Entity types are not supported for the Relationship Type." translation="Les types d'entité ne sont pas pris en charge pour le type de relation."/>
+	<label commandName="Cbu_RELATION_VER_TO_VER_INCLUDES_REVERSE_DEPENDENCY_EXISTS" devLabel="The INCLUDES relationship cannot be created because a DEPENDENCY relationship from the child to the parent already exists." translation="Impossible de créer la relation INCLUT, car il existe déjà une relation DÉPENDANCE de l'enfant vers le parent."/>
+	<label commandName="Cbu_RESTART_JOB_FAILED" devLabel="Job cannot be restarted." translation="Impossible de redémarrer la tâche."/>
+	<label commandName="Cbu_SEC_ASSIGN_POLICY_FAILURE" devLabel="Assign Policy operation failed." translation="Échec de l'opération d'affectation de stratégie."/>
+	<label commandName="Cbu_SEC_CANNOT_UNASSIGN_SUPERUSER_POLICY" devLabel="The SuperUser policy cannot be unassigned." translation="Impossible d'annuler l'affectation de la stratégie SuperUser."/>
+	<label commandName="Cbu_SEC_DUPLICATE_IDENTITY" devLabel="Duplicate identity values." translation="Valeurs d'identité en double."/>
+	<label commandName="Cbu_SEC_DUPLICATE_PERMISSION" devLabel="Duplicate permission values." translation="Valeurs d'autorisation en double."/>
+	<label commandName="Cbu_SEC_GATEWAY_FAILURE" devLabel="Invalid gateway header value." translation="Valeur d'en-tête de passerelle non valide."/>
+	<label commandName="Cbu_SEC_INVALID_ACCESS_TYPE" devLabel="Invalid access type." translation="Type d'accès non valide."/>
+	<label commandName="Cbu_SEC_INVALID_PERMISSION" devLabel="Permission value is not valid for this operation." translation="La valeur d'autorisation n'est pas valide pour cette opération."/>
+	<label commandName="Cbu_SEC_NO_READ_WRITE_ACCESS" devLabel="Security information must grant at least one entry READ/WRITE permission." translation="Les informations de sécurité doivent octroyer au moins une autorisation de LECTURE/ÉCRITURE d'entrée."/>
+	<label commandName="Cbu_SEC_NULL_IDENTITY" devLabel="Identity information not found.  This is usually due to missing or incorrect authentication data." translation="Informations d'identité introuvables. Ce problème est généralement lié à des données d'authentification manquantes ou incorrectes."/>
+	<label commandName="Cbu_SEC_NULL_IDENTITY_ACCESS_PROVIDER" devLabel="Identity Access Provider value is empty." translation="La valeur du fournisseur d'accès d'identité est vide."/>
+	<label commandName="Cbu_SEC_NULL_IDENTITY_ID" devLabel="Identity ID value is empty." translation="La valeur de l'ID d'identité est vide."/>
+	<label commandName="Cbu_SEC_NULL_IDENTITY_ID_PROVIDER" devLabel="Identity ID Provider value is empty." translation="La valeur du fournisseur d'ID d'identité est vide."/>
+	<label commandName="Cbu_SEC_NULL_IDENTITY_TYPE" devLabel="Identity Type value is empty." translation="La valeur du type d'identité est vide."/>
+	<label commandName="Cbu_SEC_NULL_PERMISSION" devLabel="Null permission value." translation="Valeur d'autorisation définie sur NULL."/>
+	<label commandName="Cbu_SEC_NULL_SECURITY_INFO" devLabel="No security information found." translation="Aucune information de sécurité trouvée."/>
+	<label commandName="Cbu_SEC_OVERWRITE_POLICY_FAILURE" devLabel="Overwrite Policy operation failed." translation="Échec de l'opération de remplacement de stratégie."/>
+	<label commandName="Cbu_SEC_REALIGN_POLICY_FAILURE" devLabel="Realign Policy operation failed." translation="Échec de l'opération de réalignement de stratégie."/>
+	<label commandName="Cbu_SEC_UNASSIGN_POLICY_FAILURE" devLabel="Unassign Policy operation failed." translation="Échec de l'annulation de l'affectation de stratégie."/>
+	<label commandName="Cbu_SESSION_CONTEXT_INVALID_VALUE" devLabel="Parameter missing or invalid in context file." translation="Paramètre manquant ou non valide dans le fichier contextuel."/>
+	<label commandName="Cbu_STATIC_ADD_FAILURE" devLabel="Add Static operation failed." translation="Échec de l'opération d'ajout d'élément statique."/>
+	<label commandName="Cbu_STATIC_DELETE_FAILURE" devLabel="Delete Static operation failed." translation="Échec de l'opération de suppression d'élément statique."/>
+	<label commandName="Cbu_STATIC_FILE_NOT_FOUND" devLabel="Static File not found." translation="Fichier statique introuvable."/>
+	<label commandName="Cbu_STATIC_GET_FAILURE" devLabel="Get Static operation failed." translation="Échec de l'opération d'obtention d'élément statique."/>
+	<label commandName="Cbu_STATIC_INVALID_TYPE" devLabel="Node type is not a Static." translation="Le type de noeud ne correspond pas à un élément statique."/>
+	<label commandName="Cbu_STATIC_NULL_COLLECTION" devLabel="No Statics specified." translation="Aucun élément statique spécifié."/>
+	<label commandName="Cbu_STATIC_NULL_OBJECT" devLabel="Static object is null." translation="L'objet statique est défini sur NULL."/>
+	<label commandName="Cbu_STATIC_UPDATE_FAILURE" devLabel="Update Static operation failed." translation="Échec de l'opération de mise à jour d'élément statique."/>
+	<label commandName="Cbu_STORAGE_NODE_DOES_NOT_EXIST" devLabel="Node does not exist." translation="Le noeud n'existe pas."/>
+	<label commandName="Cbu_STORAGE_UNKNOWN" devLabel="Unknown error in storage system." translation="Erreur inconnue dans le système de stockage."/>
+	<label commandName="Cbu_STORAGE_UNSUPPORTED_NODE_TYPE" devLabel="Unsupported node type." translation="Type de noeud non pris en charge."/>
+	<label commandName="Cbu_TRANSLATION_ALREADY_PROCESSED" devLabel="The Translation operation has already been run." translation="L'opération de conversion a déjà été exécutée."/>
+	<label commandName="Cbu_TRANSLATION_COMPLETE_FAILED" devLabel="Error marking Translation complete." translation="Erreur lors du marquage de la conversion comme étant terminée."/>
+	<label commandName="Cbu_TRANSLATION_SERVICE_BAD_GATEWAY" devLabel="Request time out." translation="Expiration du délai d'attente de la demande."/>
+	<label commandName="Cbu_TRANSLATION_SERVICE_INTERNAL_ERROR" devLabel="Unexpected service interruption." translation="Interruption inattendue du service."/>
+	<label commandName="Cbu_TRANSLATION_SERVICE_NOT_ACCEPTABLE" devLabel="Invalid headers and/or parameters." translation="En-têtes et/ou paramètres non valides."/>
+	<label commandName="Cbu_TRANSLATION_SERVICE_NOT_MODIFIED" devLabel="The script failed to evaluate." translation="Échec de l'évaluation du script."/>
+	<label commandName="Cbu_TRANSLATION_SERVICE_UNKNOWN_ERROR" devLabel="Error communicating with the translation service." translation="Erreur lors de la communication avec le service de conversion."/>
+	<label commandName="Cbu_TRAVERSAL_MAX_LIMIT" devLabel="Maximum limit for traversal is reached." translation="La limite maximale du parcours est atteinte."/>
+	<label commandName="Cbu_VER_ADD_CONCURRENT_FAILURE" devLabel="Concurrent Add Version operation failed." translation="Échec de l'opération simultanée d'ajout de version."/>
+	<label commandName="Cbu_VER_ADD_CONCURRENT_FAILURE_ccy" devLabel="Concurrent Add Change operation failed." translation="Échec de l’opération simultanée d’ajout de modification."/>
+	<label commandName="Cbu_VER_DOES_NOT_EXIST" devLabel="Version does not exist." translation="La version n'existe pas."/>
+	<label commandName="Cbu_VER_DOES_NOT_EXIST_ccy" devLabel="Change does not exist." translation="La modification n’existe pas."/>
+	<label commandName="Cbu_VER_GET_FAILURE" devLabel="Get Version operation failed." translation="Échec de l'opération d'obtention de la version."/>
+	<label commandName="Cbu_VER_GET_FAILURE_ccy" devLabel="Get Change operation failed." translation="Échec de l’opération de modification."/>
+	<label commandName="Cbu_VER_INVALID_TYPE" devLabel="Node type is not a Version." translation="Le type de noeud ne correspond pas à une version."/>
+	<label commandName="Cbu_VER_INVALID_TYPE_ccy" devLabel="Node type is not a Change." translation="Le type de nœud n’est pas une modification."/>
+	<label commandName="Cbu_VER_MIGRATE_FAILURE" devLabel="Migrate version operation failed." translation="Échec de l'opération de migration de la version."/>
+	<label commandName="Cbu_VER_MIGRATE_FAILURE_ccy" devLabel="Migrate change operation failed." translation="Échec de l’opération de migration des modifications."/>
+	<label commandName="Cbu_VER_MISMATCH_LINEAGE_URN" devLabel="Version's lineangeUrn does not match the Lineage's urn." translation="La valeur lineangeUrn de la version ne correspond pas à l'URN de la lignée."/>
+	<label commandName="Cbu_VER_MISMATCH_LINEAGE_URN_ccy" devLabel="Change's lineangeUrn does not match the Lineage's urn." translation="L’URN de lignée de la modification ne correspond pas à l’URN de la lignée."/>
+	<label commandName="Cbu_VER_MISMATCH_MIMETYPE" devLabel="The new version's MIME type must match the previous version's MIME type." translation="Le type MIME de la nouvelle version doit correspondre au type MIME de la version antérieure."/>
+	<label commandName="Cbu_VER_MISMATCH_MIMETYPE_ccy" devLabel="A MIME Type can not be changed while committing edits." translation="Un type MIME ne peut pas être modifié lors de la validation des modifications."/>
+	<label commandName="Cbu_VER_NULL_COLLECTION" devLabel="No Versions specified." translation="Aucune version spécifiée."/>
+	<label commandName="Cbu_VER_NULL_COLLECTION_ccy" devLabel="No Changes specified." translation="Aucune modification n’a été spécifiée."/>
+	<label commandName="Cbu_VER_NULL_OBJECT" devLabel="Empty Version specified." translation="Version vide spécifiée."/>
+	<label commandName="Cbu_VER_NULL_OBJECT_ccy" devLabel="Empty Change specified." translation="Modification vide spécifiée."/>
+	<label commandName="Cbu_VER_TRANSLATION_FAILURE" devLabel="Call to translation failed for Version." translation="Échec de l'appel au service de conversion pour la version."/>
+	<label commandName="Cbu_VER_TRANSLATION_FAILURE_ccy" devLabel="Call to translation failed for Change." translation="Échec de l’appel au service de conversion pour modification."/>
+	<label commandName="Cbu_VIEWING_SERVICE_BAD_REQUEST" devLabel="Bad request sent to Viewing service." translation="Demande incorrecte envoyée au service d'affichage."/>
+	<label commandName="Cbu_VIEWING_SERVICE_ERROR" devLabel="Failed to register with derivative service." translation="Échec de l'enregistrement auprès du service dérivé."/>
+	<label commandName="Cbu_VIEWING_SERVICE_REQUEST_TIMEDOUT" devLabel="Request to Viewing service took too long. Pleas try again." translation="La demande d'affichage du service a pris trop de temps. Veuillez réessayer."/>
+	<label commandName="Cbu_VIEWING_UNKNOWN_FORMAT" devLabel="The format of the file is unknown." translation="Le format du fichier est inconnu."/>
+	<label commandName="Cbu_VIEWING_UNSUPPORTED_FORMAT" devLabel="The format passed in unsupported for registration." translation="Le format transmis n'est pas pris en charge pour l'enregistrement."/>
+	<label commandName="Cbu_VIEWING_UNSUPPORTED_STORAGE_TYPE" devLabel="The storage type unsupported for registration." translation="Le type de stockage n'est pas pris en charge pour l'enregistrement."/>
+	<label commandName="CeInfoHeading" devLabel="Collaborative editing is on the way" translation="L'édition collaborative est en route"/>
+	<label commandName="CeInfoMessage" devLabel="On %2%, this hub (%1%) will be updated to support collaborative editing, giving you access to enhancements to the BOM, Properties, and History experiences." translation="Le %2%, ce hub (%1%) sera mis à jour pour prendre en charge la modification collaborative, ce qui vous donnera accès aux améliorations apportées aux expériences de nomenclature, de propriétés et d'historique."/>
+	<label commandName="CeLearnMore" devLabel="Learn More" translation="En savoir plus"/>
+	<label commandName="CeMoreInfo" devLabel="More info" translation="Informations supplémentaires"/>
+	<label commandName="CeRestartFusion" devLabel="Restart Fusion" translation="Redémarrer Fusion"/>
+	<label commandName="CeRestartHeading" devLabel="Restart required" translation="Redémarrage requis"/>
+	<label commandName="CeRestartMessage" devLabel="Collaborative editing is now enabled for %1%. Restart Fusion now so you can start enjoying enhancements to the BOM, Properties, and History experiences." translation="La modification collaborative est désormais activée pour %1%. Redémarrez Fusion maintenant afin de profiter des améliorations apportées à la nomenclature, aux propriétés et à l'historique."/>
+	<label commandName="CeSuccessHeading" devLabel="Collaborative editing is ready to use" translation="La modification collaborative est prête"/>
+	<label commandName="CeSuccessMessage" devLabel="%1% has been updated and now supports collaborative editing. You can now start enjoying enhancements to the BOM, Properties, and History experiences." translation="%1% a été mis à jour et prend désormais en charge la modification collaborative. Vous pouvez maintenant commencer à profiter des améliorations apportées aux expériences de nomenclature, de propriétés et d'historique."/>
+	<label commandName="CeWarningHeading" devLabel="Collaborative editing will be enabled in %1% days" translation="La modification collaborative sera activée dans %1% jours"/>
+	<label commandName="CloudBrowserActivateDocumentAtLimit" devLabel="The document can't be activated since the maximum number of active documents has been reached" translation="Le document ne peut pas être activé car le nombre maximal de documents actifs a été atteint"/>
+	<label commandName="CloudBrowserActivateDocumentNoHub" devLabel="This document does not appear to be associated with a hub and can not be activated" translation="Ce document ne semble pas être associé à un hub et ne peut pas être activé"/>
+	<label commandName="CloudBrowserActivateDocumentNotSupported" devLabel="This document type does not support activation" translation="Ce type de document ne prend pas en charge l'activation"/>
+	<label commandName="CloudBrowserActivateDocumentReadOnly" devLabel="This document is read-only and can not be activated" translation="Ce document est en lecture seule et ne peut pas être activé"/>
+	<label commandName="CloudBrowserCantGetCapacitySettingsForActivate" devLabel="Unable to activate the document at this time" translation="Impossible d'activer le document pour le moment"/>
+	<label commandName="CloudBrowserCantGetCapacitySettingsForDeactivate" devLabel="Unable to deactivate the document at this time" translation="Impossible de désactiver le document pour le moment"/>
+	<label commandName="CloudBrowserDeactivateDocumentNotSupported" devLabel="This document type does not support deactivation" translation="Ce type de document ne prend pas en charge la désactivation"/>
+	<label commandName="CloudBrowserInvalidLineageIdForActivate" devLabel="Unable to activate the document at this time" translation="Impossible d'activer le document pour le moment"/>
+	<label commandName="CloudBrowserInvalidLineageIdForDeactivate" devLabel="Unable to deactivate the document at this time" translation="Impossible de désactiver le document pour le moment"/>
+	<label commandName="CommentErrorMessageInformationText" devLabel="Click here to view error message." translation="Cliquez ici pour afficher le message d'erreur."/>
+	<label commandName="CommentErrorTitle" devLabel="Comment Error Message" translation="Message d'erreur sur le commentaire"/>
+	<label commandName="CommentNoCurrentUser" devLabel="Cannot get current user" translation="Impossible d'obtenir l'utilisateur actif"/>
+	<label commandName="CommentNoLocalFile" devLabel="The local file does not exist" translation="Le fichier local n'existe pas."/>
+	<label commandName="Create_team_hub_fail" devLabel="Create team hub failed with error" translation="La création du hub Team a échoué et une erreur s'est produite."/>
+	<label commandName="DeleteCommentFailed" devLabel="Delete comment failed" translation="Echec de la suppression du commentaire"/>
+	<label commandName="FailedToFetchFolderContents" devLabel="Failed to fetch folder contents" translation="Impossible de récupérer le contenu du dossier"/>
+	<label commandName="GroupCollImpl_AutodeskHealthDashboardName" devLabel="Autodesk Health Dashboard" translation="Tableau de bord sur l'état général d'Autodesk"/>
+	<label commandName="IRMissingUserName" devLabel="Unknown team member" translation="Membre d'équipe inconnu"/>
+	<label commandName="InsufficientUserPermisionsToCreateStandardComponentsLibrary" devLabel="This user does not have sufficient permissions to create the Standard Components library. To do so, the user must have either Administrator or Member permissions. Alternatively, another user with the required permissions must create the Standard Components library by inserting a fastener into an assembly design." translation="Cet utilisateur ne dispose pas des autorisations suffisantes pour créer la bibliothèque de composants standard. Pour ce faire, l'utilisateur doit disposer des autorisations d'Administrateur ou de Membre. Un autre utilisateur disposant des autorisations requises doit également créer la bibliothèque de composants standard en insérant une fixation dans une conception d'assemblage."/>
+	<label commandName="MDActiveDocProjectReason" devLabel="A list of your editable documents" translation="Liste de vos documents modifiables"/>
+	<label commandName="MDCopy" devLabel="Copy" translation="Copier"/>
+	<label commandName="MDCreateDrawing" devLabel="Create Drawing" translation="Créer un dessin"/>
+	<label commandName="MDCreateFusionDesign" devLabel="Create Fusion Design" translation="Créer une conception Fusion"/>
+	<label commandName="MDCreateMilestone" devLabel="Create Milestone" translation="Créer un jalon"/>
+	<label commandName="MDCreateMilestone_ccy" devLabel="Create Version" translation="Créer une version"/>
+	<label commandName="MDDelete" devLabel="Delete" translation="Supprimer"/>
+	<label commandName="MDGoTo" devLabel="Show in Location" translation="Afficher à l'emplacement"/>
+	<label commandName="MDImportNewVersion" devLabel="Import New Version" translation="Importer une nouvelle version"/>
+	<label commandName="MDImportNewVersion_ccy" devLabel="Import New Change" translation="Importer une nouvelle modification"/>
+	<label commandName="MDInsert" devLabel="Insert into Current Design" translation="Insérer dans la conception active"/>
+	<label commandName="MDInspect" devLabel="Inspect Assembly" translation="Inspecter l'assemblage"/>
+	<label commandName="MDMove" devLabel="Move" translation="Déplacer"/>
+	<label commandName="MDMoveToTrash" devLabel="Move to Trash" translation="Déplacer vers la corbeille"/>
+	<label commandName="MDMyActiveDocData" devLabel="My Editable Documents" translation="Mes documents modifiables"/>
+	<label commandName="MDMyRecentData" devLabel="My Recent Data" translation="Mes données récentes"/>
+	<label commandName="MDOfflineCache" devLabel="Add to Offline Cache" translation="Ajouter au cache hors ligne"/>
+	<label commandName="MDOpen" devLabel="Open" translation="Ouvrir"/>
+	<label commandName="MDRecentProjectReason" devLabel="A list of what you've recently been working on" translation="Liste de vos travaux récents"/>
+	<label commandName="MDRelease" devLabel="Release" translation="Version"/>
+	<label commandName="MDRename" devLabel="Rename" translation="Renommer..."/>
+	<label commandName="MDSharePublicLink" devLabel="Share Link" translation="Partager le lien"/>
+	<label commandName="MDShowHistory" devLabel="Show History" translation="Afficher l'historique"/>
+	<label commandName="MDUploadNewVersion" devLabel="Upload New Version" translation="Charger une nouvelle version"/>
+	<label commandName="MDUploadNewVersion_ccy" devLabel="Upload New Change" translation="Charger une nouvelle modification"/>
+	<label commandName="MimeTypeDisplayNameEagleFiles" devLabel="ECAD File" translation="Fichier ECAD"/>
+	<label commandName="MimeTypeDisplayNameFusionDesign" devLabel="Fusion Design" translation="Conception Fusion"/>
+	<label commandName="MimeTypeDisplayNameFusionDrawing" devLabel="Fusion Drawing" translation="Dessin Fusion"/>
+	<label commandName="MimeTypeDisplayNameFusionDrawingTemplate" devLabel="Fusion Drawing Template" translation="Template de dessin Fusion"/>
+	<label commandName="MimeTypeDisplayNameFusionElectronicDesign" devLabel="Fusion Electronics Design" translation="Conception de composants électroniques Fusion"/>
+	<label commandName="MimeTypeDisplayNameFusionElectronicLibrary" devLabel="Fusion Electronics Library" translation="Bibliothèque de composants électroniques Fusion"/>
+	<label commandName="MimeTypeDisplayNameFusionPCB" devLabel="Fusion PCB" translation="PCB Fusion"/>
+	<label commandName="MimeTypeDisplayNameFusionSchematic" devLabel="Fusion Schematic" translation="Schéma Fusion"/>
+	<label commandName="MimeTypeDisplayNameFusionVirtualDesign" devLabel="Fusion Design (Virtual)" translation="Fusion Design (virtuel)"/>
+	<label commandName="MimeTypeDisplayNameImage" devLabel="Image" translation="Image"/>
+	<label commandName="MimeTypeDisplayNameInventorAssemblyFiles" devLabel="Inventor assembly files" translation="Fichiers ensemble Inventor"/>
+	<label commandName="MimeTypeDisplayNameInventorPartFiles" devLabel="Inventor part files" translation="Fichiers pièce Inventor"/>
+	<label commandName="MimeTypeDisplayNamePrtFiles" devLabel="Prt files" translation="Fichiers PRT"/>
+	<label commandName="MimeTypeDisplayNameSetupSheet" devLabel="Setup Sheet" translation="Fiche technique"/>
+	<label commandName="MimeTypeDisplayNameSetupSheetConfig" devLabel="Setup Sheet Configuration" translation="Configuration de la fiche technique"/>
+	<label commandName="MimeTypeDisplayNameSolidEdgeFiles" devLabel="SolidEdge files" translation="Fichiers SolidEdge"/>
+	<label commandName="MimeTypeDisplayNameSolidWorksPartFiles1" devLabel="SolidWorks&lt;font size=&quot;1&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/font&gt; part files" translation="Fichiers pièce SolidWorks&lt;font size=&quot;1&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/font&gt;"/>
+	<label commandName="MimeTypeDisplayNameSolidworksAssemblyFiles" devLabel="SolidWorks assembly files" translation="Fichiers ensemble SolidWorks"/>
+	<label commandName="MimeTypeDisplayNameStepFiles" devLabel="Step files" translation="Fichiers STEP"/>
+	<label commandName="NoCloudInfo" devLabel="Cloud information is not ready yet" translation="Les informations sur le cloud ne sont pas encore disponibles."/>
+	<label commandName="NoSavedDocument" devLabel="No active document or the document is not saved yet" translation="Aucun document actif ou le document n'a été enregistré"/>
+	<label commandName="OperationFailed" devLabel="Operation Failed" translation="Échec de l'opération"/>
+	<label commandName="PostCommentFailed" devLabel="Post comment failed" translation="Echec de la publication du commentaire"/>
+	<label commandName="QueryCommentsFailed" devLabel="Query comments failed" translation="Echec de la publication des commentaires sur la requête"/>
+	<label commandName="SuggestRefresh_Details" devLabel="Something went wrong. Try clicking Refresh.&lt;br&gt;If the problem persists, check the " translation="Une erreur s'est produite. Cliquez sur Actualiser. &lt;br&gt;Si le problème persiste, consultez "/>
+	<label commandName="SystemForbiddenChars_forbiddenChars" devLabel="The name contains one or more unsupported characters: \/:*?&quot;&lt;&gt;|" translation="Le nom contient au moins un caractère non pris en charge : \/:*?&quot;&lt;&gt;|"/>
+	<label commandName="UnknownPromotedLineage" devLabel="Unknown Name" translation="Nom inconnu"/>
+	<label commandName="UnknownPromotedLineageDesc" devLabel="Please refresh the data panel to retrieve information about this file." translation="Actualisez le panneau de données pour récupérer des informations sur ce fichier."/>
+	<label commandName="UpdateCommentFailed" devLabel="Update comment failed" translation="Echec de la mise à jour du commentaire"/>
+	<label commandName="UserSavedDescription" devLabel="User Saved" translation="Enregistrement de l'utilisateur"/>
+	<label commandName="copyItemMessageMultiCopy" devLabel="%1% items finished copying at %2%." translation="%1% éléments ont été copiés dans %2%."/>
+	<label commandName="copyItemMessageSingleCopy" devLabel="%1% finished copying at %2%." translation="%1% a terminé la copie dans %2%."/>
+	<label commandName="copyJobCompleteHeading" devLabel="Copy Complete" translation="Copie terminée"/>
+	<label commandName="documentPreSavePermissionErrorMsg" devLabel="You do not have permission to save to this location." translation="Vous n'êtes pas autorisé à enregistrer à cet emplacement."/>
+	<label commandName="openCopyLinkText" devLabel="Open copy" translation="Ouvrir une copie"/>
+</Resource>

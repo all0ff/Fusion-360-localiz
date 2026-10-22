@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Add Document Material" devLabel="Add Document Material" translation="Aggiungi materiale del documento"/>
+	<label commandName="Autodesk Advanced Appearance Library" devLabel="Fusion Appearance Library" translation="Libreria aspetti di Fusion"/>
+	<label commandName="Autodesk Advanced Material Library" devLabel="Fusion Material Library" translation="Libreria dei materiali di Fusion"/>
+	<label commandName="DefaultMaterialOptionsToolTip" devLabel="Preferences that control default material and appearance" translation="Preferenze che controllano il materiale e l'aspetto di default"/>
+	<label commandName="DefaultMaterialOptionsUserName" devLabel="Material" translation="Materiale"/>
+	<label commandName="Delete Document Material" devLabel="Delete Document Material" translation="Elimina materiale documento"/>
+	<label commandName="EMBCanceledMessageContent" devLabel="Ongoing material downloads have been canceled. A live update is in progress and the material library has been locked to avoid potential damage to local user data." translation="I download dei materiali in corso sono stati annullati. È in corso un aggiornamento automatico e la libreria materiali è stata bloccata per evitare potenziali danni ai dati utente locali."/>
+	<label commandName="EMBCanceledMessageTitle" devLabel="Material Downloads have been canceled" translation="I download dei materiali sono stati annullati."/>
+	<label commandName="EMBDisabledMessageContent" devLabel="Material downloading has been temporarily disabled due to a live update currently in progress. The material library has been locked to avoid potential damage to local user data." translation="Il download dei materiali è temporaneamente disattivato a causa di un aggiornamento automatico in corso. La libreria materiali è stata bloccata per evitare potenziali danni ai dati utente locali."/>
+	<label commandName="EMBDisabledMessageTitle" devLabel="Material Downloading has been Disabled" translation="Il download dei materiali è stato disattivato."/>
+	<label commandName="Favorites Library" devLabel="Favorites Library" translation="Libreria Preferiti"/>
+	<label commandName="GenericMaterialId" devLabel="Generic" translation="Generico"/>
+	<label commandName="PhysicalCategoryToolTip" devLabel="The default physical material category for a new document" translation="Categoria di default del materiale fisico per un nuovo documento"/>
+	<label commandName="PhysicalCategoryUserName" devLabel="Physical Material Category" translation="Categoria del materiale fisico"/>
+	<label commandName="PhysicalIDToolTip" devLabel="The default physical material for a new document" translation="Il materiale fisico di default per un nuovo documento"/>
+	<label commandName="PhysicalIDUserName" devLabel="Physical Material Name" translation="Nome materiale fisico"/>
+	<label commandName="PhysicalLibraryToolTip" devLabel="The default physical material Library for a new document" translation="L'impostazione di default della libreria materiali fisici per un nuovo documento"/>
+	<label commandName="PhysicalLibraryUserName" devLabel="Physical Material Library" translation="Libreria materiali fisici"/>
+	<label commandName="Private Visual Library" devLabel="Private Visual Library" translation="Libreria visuale privata"/>
+	<label commandName="Simulation Additive Material Library" devLabel="Fusion Additive Material Library" translation="Libreria dei materiali aggiuntivi di Fusion"/>
+	<label commandName="Simulation Nonlinear Material Library" devLabel="Fusion Nonlinear Material Library" translation="Libreria materiali non lineari di Fusion"/>
+	<label commandName="UnknownMaterialId" devLabel="Unknown" translation="Sconosciuto"/>
+	<label commandName="VisualCategoryToolTip" devLabel="The default appearance category for a new document" translation="Categoria dell'aspetto di default per un nuovo documento"/>
+	<label commandName="VisualCategoryUserName" devLabel="Appearance Category" translation="Categoria di aspetto"/>
+	<label commandName="VisualIDToolTip" devLabel="The default appearance for a new document" translation="L'aspetto di default di un nuovo documento"/>
+	<label commandName="VisualIDUserName" devLabel="Material Name" translation="Nome materiale"/>
+	<label commandName="VisualLibraryToolTip" devLabel="The default Appearance Library for a new document" translation="La libreria di aspetti di default per un nuovo documento"/>
+	<label commandName="VisualLibraryUserName" devLabel="Appearance Material Library" translation="Libreria di materiali per l\'aspetto"/>
+	<label commandName="VisualMaterialToneMappingExposureBiasToolTip" devLabel="Adjusts the canvas lighting contrast" translation="Regola il contrasto di illuminazione dell'area grafica"/>
+	<label commandName="VisualMaterialToneMappingExposureBiasUserName" devLabel="Exposure" translation="Esposizione"/>
+	<label commandName="VisualNotAsMaterialToolTip" devLabel="Set the default appearance for a new document to be different from the physical material" translation="Impostare l'aspetto di default per un nuovo documento in modo da renderlo diverso dal materiale fisico"/>
+	<label commandName="VisualNotAsMaterialUserName" devLabel="Apply a different appearance" translation="Applicare un aspetto diverso"/>
+	<label commandName="default" devLabel="default" translation="default"/>
+</Resource>

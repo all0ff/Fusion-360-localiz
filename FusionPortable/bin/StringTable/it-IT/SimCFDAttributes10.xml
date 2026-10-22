@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="SimBrowserNodeForLoadsNotFound" devLabel="Browser node for Loads not found" translation="Impossibile trovare il nodo del browser per i carichi."/>
+	<label commandName="SimCFDValue" devLabel="Value" translation="Valore"/>
+	<label commandName="SimCaseIsMissing" devLabel="Study is missing" translation="Studio mancante"/>
+	<label commandName="SimFailedToCreateBrowserNodeForPressureLoad" devLabel="Failed to create Browser node for Pressure Load" translation="Impossibile creare il nodo del browser per il carico di pressione."/>
+	<label commandName="SimFailedToCreateBrowserNodeForSlipSymmetryLoad" devLabel="Failed to create Browser node for Slip/Symmetry Load" translation="Impossibile creare il nodo del browser per il carico di scorrimento/simmetria."/>
+	<label commandName="SimFailedToCreateBrowserNodeForTemperatureLoad" devLabel="Failed to create Browser node for Temperature Load" translation="Impossibile creare il nodo del browser per il carico di temperatura."/>
+	<label commandName="SimFailedToCreateBrowserNodeForTotalHeatFluxLoad" devLabel="Failed to create Browser node for Total Heat Flux Load" translation="Impossibile creare il nodo del browser per il carico del flusso termico totale"/>
+	<label commandName="SimFailedToCreateBrowserNodeForVelocityLoad" devLabel="Failed to create Browser node for Velocity Load" translation="Impossibile creare il nodo del browser per il carico di velocità."/>
+	<label commandName="SimFailedToCreateBrowserNodeForVolumeFlowRateLoad" devLabel="Failed to create Browser node for Volume Flow Rate Load" translation="Impossibile creare il nodo del browser per il carico del flusso volumetrico."/>
+	<label commandName="SimFormatForNewNameSimCFDPressureLoad" devLabel="Pressure:%1%" translation="Pressione: %1%"/>
+	<label commandName="SimFormatForNewNameSimCFDTemperatureLoad" devLabel="Temperature:%1%" translation="Temperatura: %1%"/>
+	<label commandName="SimFormatForNewNameSimSlipSymmetryLoad" devLabel="Slip/Symmetry:%1%" translation="Scorrimento/simmetria: %1%"/>
+	<label commandName="SimFormatForNewNameSimTotalHeatFluxLoad" devLabel="Total Heat Flux:%1%" translation="Flusso termico totale: %1%"/>
+	<label commandName="SimFormatForNewNameSimVelocityLoad" devLabel="Velocity:%1%" translation="Velocità: %1%"/>
+	<label commandName="SimFormatForNewNameSimVolumeFlowRateLoad" devLabel="Volume Flow Rate:%1%" translation="Flusso volumetrico: %1%"/>
+	<label commandName="SimModelRef" devLabel="Model Reference " translation="Riferimento del modello "/>
+	<label commandName="SimNothingIsSelected" devLabel="Nothing is selected." translation="Nessun elemento selezionato."/>
+</Resource>

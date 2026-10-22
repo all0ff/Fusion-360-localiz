@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="NotExportTSpline" devLabel="Tspline bodies cannot be exported, and will not appear in the exported document. Use the Convert command to create bodies which will be exported." translation="I corpi T-spline non possono essere esportati e non verranno visualizzati nel documento esportato. Utilizzare il comando Converti per creare corpi che verranno esportati."/>
+</Resource>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AGDExportingOperationName" devLabel="Processing the outcome - %1%" translation="Elaborazione del risultato: %1%"/>
+	<label commandName="AGDJobScheduleCloudSolve" devLabel="Scheduling job." translation="Pianificazione processo."/>
+	<label commandName="AGDJobScheduledCloudSolve" devLabel="Generate started successfully." translation="Generazione avviata correttamente."/>
+	<label commandName="AGDOutcomExportMonitorJobNoJobID" devLabel="This job cannot be monitored:  it is missing the job id!" translation="Impossibile controllare questo processo: ID processo mancante."/>
+	<label commandName="AGDOutcomExportMonitorJobNoName" devLabel="This job cannot be monitored:  it is missing the outcome name!" translation="Impossibile controllare questo processo: manca il nome di risultato."/>
+	<label commandName="AGDOutcomExportMonitorJobNoOutcomeID" devLabel="This job cannot be monitored:  it is missing the outcome ID!" translation="Impossibile monitorare questo processo: ID risultato mancante."/>
+	<label commandName="AGDOutcomExportMonitorJobNoProblemDefinitionID" devLabel="This job cannot be monitored:  it is missing the problem definition id!" translation="Impossibile controllare questo processo: ID definizione del problema mancante."/>
+	<label commandName="AGDOutcomExportMonitorJobNoStatus" devLabel="This job cannot be monitored:  it is missing the status!" translation="Impossibile controllare questo processo: manca lo stato."/>
+	<label commandName="AGDOutcomExportMonitorJobNoStudyID" devLabel="This job cannot be monitored:  it is missing the study ID!" translation="Impossibile monitorare questo processo: manca l'ID di studio."/>
+	<label commandName="AGDOutcomExportMonitorJobUnknownKind" devLabel="This job cannot be monitored:  it is missing the job kind!" translation="Impossibile monitorare questo processo: manca il tipo di lavoro."/>
+	<label commandName="AGDOutcomExportMonitorResultNoObjectId" devLabel="This job cannot be monitored:  it is missing results object id!" translation="Impossibile monitorare questo processo: manca l'ID oggetto dei risultati."/>
+	<label commandName="AGDOutcomeExportMonitorJobStarted" devLabel="Outcome export started successfully." translation="Esportazione dei risultati avviata correttamente."/>
+	<label commandName="BrowserMeshRefinementsLabel" devLabel="Local Mesh Controls" translation="Controlli mesh locale"/>
+	<label commandName="Sim1stPrincipalStress" devLabel="1st Principal Stress" translation="Prima sollecitazione principale"/>
+	<label commandName="Sim3rdPrincipalStress" devLabel="3rd Principal Stress" translation="Terza sollecitazione principale"/>
+	<label commandName="SimActualTimeOutputInterval" devLabel="Actual Time" translation="Tempo effettivo"/>
+	<label commandName="SimAdditionalIterationVectorsAfterConvergence" devLabel="Additional Iteration Vectors After Convergence" translation="Vettori di iterazione aggiuntivi dopo la convergenza"/>
+	<label commandName="SimAdditionalIterationsAfterConvergence" devLabel="Additional Iterations After Convergence" translation="Iterazioni aggiuntive dopo la convergenza"/>
+	<label commandName="SimAgdJobErrorCanNotReachObjectives" devLabel="Can't reach the objectives within the allowed iteration limit.&#xA;&#xA;The loads are probably too large or the material strength is insufficient.&#xA;&#xA;Try modifying the study setup." translation="Impossibile raggiungere gli obiettivi entro il limite di iterazione consentito.&#xA;&#xA;I carichi sono probabilmente troppo grandi o la resistenza del materiale è insufficiente.&#xA;&#xA;Provare a modificare il setup dello studio."/>
+	<label commandName="SimAgdJobErrorGenerationFailedNoJobID" devLabel="Fusion encountered a problem and failed to complete the outcome generation.&#xA;&#xA;Contact technical support to diagnose and solve this problem." translation="Si è verificato un problema in Fusion. Impossibile completare la generazione del risultato.&#xA;&#xA;Contattare il supporto tecnico per la diagnosi e la risoluzione del problema."/>
+	<label commandName="SimAgdJobErrorLoadNotSupported" devLabel="Can't generate outcomes.&#xA;&#xA;The study setup includes a load type that isn't supported by the solver.&#xA;&#xA;Modify the study setup." translation="Impossibile generare risultati.&#xA;&#xA;Il setup dello studio include un tipo di carico non supportato dal risolutore.&#xA;&#xA;Modificare il setup dello studio."/>
+	<label commandName="SimAgdJobErrorLoadsConstraintsOneBody" devLabel="Can't generate outcomes.&#xA;&#xA;The loads and constraints are applied to one body. Apply them to at least two bodies." translation="Impossibile generare i risultati.&#xA;&#xA;I carichi e i vincoli vengono applicati ad un corpo. Applicarli ad almeno due corpi."/>
+	<label commandName="SimAgdJobErrorLoadsTooLarge" devLabel="Can't generate outcomes.&#xA;&#xA;The loads are too large. Reduce the load magnitude." translation="Impossibile generare risultati.&#xA;&#xA;I carichi sono troppo grandi. Ridurre l'intensità del carico."/>
+	<label commandName="SimAgdJobErrorSeparateGeometry" devLabel="One or more geometry regions have separated because they are not load bearing.&#xA;&#xA;The last iteration before separation displays in the Explore tab.&#xA;&#xA;The loads are probably too low or the material strength is too high.&#xA;&#xA;Try modifying the study setup." translation="Una o più aree della geometria sono separate perché non supportano il carico.&#xA;&#xA;L'ultima iterazione prima della separazione viene visualizzata nella scheda Esplora.&#xA;&#xA;È probabile che i carichi siano troppo bassi o che la resistenza del materiale sia troppo elevata.&#xA;&#xA;Provare a modificare il setup dello studio."/>
+	<label commandName="SimAgdJobErrorStartingShapeDisconnected" devLabel="The initial shape is divided into two or more parts by the obstacle geometry.&#xA;&#xA;The obstacle geometry may be too large. Consider redefining it." translation="La forma iniziale è divisa in due o più parti dalla geometria degli ostacoli.&#xA;&#xA;La geometria degli ostacoli potrebbe essere troppo grande. Provare a ridefinirla."/>
+	<label commandName="SimAgdPostProcessingJobErrorGenerationFailed" devLabel="Generative Design encountered a problem and failed to complete exporting the outcome.&#xA;&#xA;Contact technical support to diagnose and solve this problem." translation="Impossibile completare l'esportazione dei risultati.&#xA;&#xA;Contattare il supporto tecnico per la diagnosi e la risoluzione del problema."/>
+	<label commandName="SimAssemblyMeshing" devLabel="Assembly meshing." translation="Creazione di mesh dell'assieme."/>
+	<label commandName="SimBadFilletWeldBead" devLabel="Bad fillet or weld or bead." translation="Raccordo, saldatura o cordone non valido."/>
+	<label commandName="SimBodyTooThin" devLabel="Body is too thin." translation="Il corpo è troppo sottile."/>
+	<label commandName="SimBucklingGeneralSettingsNumberOfModes" devLabel="Number of Modes" translation="Numero di modi"/>
+	<label commandName="SimBucklingMode" devLabel="Buckling Mode" translation="Modalità Carico di punta"/>
+	<label commandName="SimCalcOptStressThreshold" devLabel="Stress Threshold Set at" translation="Soglia di sollecitazione impostata a"/>
+	<label commandName="SimCalcOptTopStressPercent" devLabel="Analyze the Top Percentage of Model Stress" translation="Analizzare la percentuale superiore di sollecitazione del modello"/>
+	<label commandName="SimCallAnalysisSpecificContacts" devLabel="Click here to generate 'Contact pairs'." translation="Fare clic qui per generare 'Coppie di contatto'."/>
+	<label commandName="SimCallAutoContacts" devLabel="Click here to select 'Automatic Contacts'." translation="Fare clic qui per selezionare 'Contatti automatici'."/>
+	<label commandName="SimCallManualContact" devLabel="Click here to select 'Manual Contact'." translation="Fare clic qui per selezionare 'Contatto manuale'."/>
+	<label commandName="SimCallMesh" devLabel="Click here to select 'Generate Mesh'." translation="Fare clic qui per selezionare 'Genera mesh'."/>
+	<label commandName="SimCallSolve" devLabel="Click here to select 'Solve'." translation="Fare clic qui per selezionare 'Risolvi'."/>
+	<label commandName="SimCaseMissing" devLabel="Study is missing" translation="Studio mancante"/>
+	<label commandName="SimCaseNameFatigue" devLabel="Study %1% - Fatigue" translation="Studio %1% - Fatica"/>
+	<label commandName="SimCaseNotSpecified" devLabel="No simulation study is specified" translation="Nessuno studio di simulazione specificato"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Sostituisci sistema di unità"/>
+	<label commandName="SimComputePreloadedModes" devLabel="Compute Preloaded Modes" translation="Calcola modalità precaricate"/>
+	<label commandName="SimContactForceResult" devLabel="Contact Force" translation="Forza di contatto"/>
+	<label commandName="SimContactManualPrefix" devLabel="[M] " translation="[M] "/>
+	<label commandName="SimContactOffsetBonded" devLabel="Offset Bonded" translation="Offset accoppiato"/>
+	<label commandName="SimContactPressureResult" devLabel="Contact Pressure" translation="Pressione di contatto"/>
+	<label commandName="SimContactRBE3" devLabel="RBE3" translation="RBE3"/>
+	<label commandName="SimContactRough" devLabel="Rough" translation="Sgrossatura"/>
+	<label commandName="SimContactSeparation" devLabel="Separation" translation="Separazione"/>
+	<label commandName="SimContactSliding" devLabel="Sliding" translation="Scorrevole"/>
+	<label commandName="SimCopyName" devLabel="(Copy %1%) " translation="(Copia %1%) "/>
+	<label commandName="SimDampingFreqDependent" devLabel="Frequency Dependent" translation="Dipendente dalla frequenza"/>
+	<label commandName="SimDampingMassFactor" devLabel="Mass Factor" translation="Fattore di massa"/>
+	<label commandName="SimDampingStiffnessFactor" devLabel="Stiffness Factor" translation="Fattore di rigidità"/>
+	<label commandName="SimDampingType" devLabel="Damping Type" translation="Tipo di smorzamento"/>
+	<label commandName="SimDampingTypeModal" devLabel="Modal" translation="Modale"/>
+	<label commandName="SimDampingTypeRayleigh" devLabel="Rayleigh" translation="Rayleigh"/>
+	<label commandName="SimDescription" devLabel="Description: %1%" translation="Descrizione: %1%"/>
+	<label commandName="SimDisplacementResult" devLabel="Displacement" translation="Spostamento"/>
+	<label commandName="SimDoFSolverFailed" devLabel="Cannot solve: No valid bodies found." translation="Risoluzione impossibile: nessun corpo valido trovato."/>
+	<label commandName="SimDomainFrequency" devLabel="Frequency" translation="Frequenza"/>
+	<label commandName="SimDomainLoadCase" devLabel="Load Case" translation="Condizione di carico"/>
+	<label commandName="SimDomainLoadMultiplier" devLabel="Load Multiplier" translation="Moltiplicatore del carico"/>
+	<label commandName="SimDomainStep" devLabel="Step" translation="Fase"/>
+	<label commandName="SimDomainTime" devLabel="Time" translation="Tempo"/>
+	<label commandName="SimEdgeTopology" devLabel="Edge topology." translation="Topologia degli spigoli."/>
+	<label commandName="SimEigenvalueConvergenceTolerance" devLabel="Eigenvalue Convergence Tolerance" translation="Tolleranza di convergenza autovalore"/>
+	<label commandName="SimEigenvectorNormalizingMethod" devLabel="Eigenvector Normalizing Method" translation="Metodo di normalizzazione autovettore"/>
+	<label commandName="SimElementOrderLinear" devLabel="Linear" translation="Lineare"/>
+	<label commandName="SimElementOrderParabolic" devLabel="Parabolic" translation="Parabolico"/>
+	<label commandName="SimEmptyContactResults" devLabel="No contacts detected." translation="Nessun contatto rilevato."/>
+	<label commandName="SimEnhancedAccuracy" devLabel="Enhanced Accuracy" translation="Precisione avanzata"/>
+	<label commandName="SimEquivalentStrainResult" devLabel="Equivalent" translation="Equivalente"/>
+	<label commandName="SimExcessiveCurvature" devLabel="Excessive curvature." translation="Curvatura eccessiva."/>
+	<label commandName="SimExplicitAllowElementDelete" devLabel="AllowElementDelete" translation="AllowElementDelete"/>
+	<label commandName="SimExplicitDeleteElementsNegVolume" devLabel="DeleteElementsNegVolume" translation="DeleteElementsNegVolume"/>
+	<label commandName="SimExplicitElementDeletionCriteriaEffectiveStrainName" devLabel="Effective Strain" translation="Deformazione effettiva"/>
+	<label commandName="SimExplicitElementDeletionCriteriaEqPlasticStrainName" devLabel="Equivalent Plastic Strain" translation="Deformazione plastica equivalente"/>
+	<label commandName="SimExplicitElementDeletionCriteriaNegativeVolumeName" devLabel="Negative Volume" translation="Volume negativo"/>
+	<label commandName="SimExplicitElementDeletionCriteriaPrincipalStrainName" devLabel="Principal Strain" translation="Deformazione principale"/>
+	<label commandName="SimExplicitElementDeletionName" devLabel="Deletion Criteria:" translation="Criteri di eliminazione:"/>
+	<label commandName="SimExplicitElementDeletionValue" devLabel="Value" translation="Valore"/>
+	<label commandName="SimExplicitEnableRayleighDamping" devLabel="Rayleigh Damping" translation="Smorzamento di Rayleigh"/>
+	<label commandName="SimExplicitHeartbeatIntervals" devLabel="Solve Status Information Interval (Heartbeat)" translation="Intervallo informazioni sullo stato di risoluzione (Heartbeat)"/>
+	<label commandName="SimExplicitMaximumElementalPrincipalStrain" devLabel="MaximumElementalPrincipalStrain" translation="MaximumElementalPrincipalStrain"/>
+	<label commandName="SimExplicitRayleighDampingAlpha" devLabel="Mass Proportional, ALPHA" translation="Massa proporzionale, ALFA"/>
+	<label commandName="SimExplicitRayleighDampingBeta" devLabel="Stiffness Proportional, BETA" translation="Rigidità proporzionale, BETA"/>
+	<label commandName="SimExplicitRestartTime" devLabel="Restart Time" translation="Tempo di riavvio"/>
+	<label commandName="SimExplicitResultsRequestAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
+	<label commandName="SimExplicitResultsRequestAppliedLoads" devLabel="Applied Loads" translation="Carichi applicati"/>
+	<label commandName="SimExplicitResultsRequestContactForces" devLabel="Contact Forces" translation="Forze di contatto"/>
+	<label commandName="SimExplicitResultsRequestDisplacement" devLabel="Displacement" translation="Spostamento"/>
+	<label commandName="SimExplicitResultsRequestReactionForces" devLabel="Reaction Forces" translation="Forze di reazione"/>
+	<label commandName="SimExplicitResultsRequestStrain" devLabel="Strain" translation="Deformazione"/>
+	<label commandName="SimExplicitResultsRequestStress" devLabel="Stress" translation="Sollecitazione"/>
+	<label commandName="SimExplicitResultsRequestVelocity" devLabel="Velocity" translation="Velocità"/>
+	<label commandName="SimExplicitSaveHistoryIntervals" devLabel="Number of History Save Intervals" translation="Numero di intervalli di salvataggio cronologia"/>
+	<label commandName="SimExplicitSaveRestartIntervals" devLabel="Number of Restart Save Intervals" translation="Numero di intervalli di salvataggio riavvio"/>
+	<label commandName="SimExplicitSolveType" devLabel="Select Dynamic or Quasi-static solution" translation="Selezionare la soluzione dinamica o quasi statica"/>
+	<label commandName="SimExplicitStepNumber" devLabel="Number of Steps" translation="Numero di passi"/>
+	<label commandName="SimExplicitTimestepReductionFactor" devLabel="Time Step Reduction Factor" translation="Fattore di riduzione passo temporale"/>
+	<label commandName="SimExplicit_BSCONP_CAPTOL" devLabel="Capture Tolerance" translation="Tolleranza di acquisizione"/>
+	<label commandName="SimExplicit_BSCONP_MAXAD_Value" devLabel="Maximum Activation Distance" translation="Distanza di attivazione massima"/>
+	<label commandName="SimExplicit_BSCONP_MU" devLabel="Coefficient of Static Friction" translation="Coefficiente di attrito statico"/>
+	<label commandName="SimExplicit_BSCONP_PTYPE_SymmetryFlag" devLabel="Symmetric" translation="Simmetrico"/>
+	<label commandName="SimExplicit_BSCONP_SFACT" devLabel="Stiffness Factor" translation="Fattore di rigidità"/>
+	<label commandName="SimExplicit_CONTACTGENERATE_CAPTOL" devLabel="Capture Tolerance" translation="Tolleranza di acquisizione"/>
+	<label commandName="SimExplicit_CONTACTGENERATE_MAXAD" devLabel="Maximum Activation Distance" translation="Distanza di attivazione massima"/>
+	<label commandName="SimExplicit_CONTACTGENERATE_MU" devLabel="Coefficient of Static Friction" translation="Coefficiente di attrito statico"/>
+	<label commandName="SimExplicit_CONTACTGENERATE_SELF" devLabel="Self Contact" translation="Auto contatto"/>
+	<label commandName="SimExplicit_CONTACTGENERATE_SFACT" devLabel="Stiffness Factor" translation="Fattore di rigidità"/>
+	<label commandName="SimExplictEventDuration" devLabel="Event duration" translation="Durata evento"/>
+	<label commandName="SimExplictEventQuasiSteps" devLabel="Quasi Steps" translation="Quasi passi"/>
+	<label commandName="SimFEACSConstraintUtilsValidatorLostReferenceConstraint" devLabel="Cannot generate: Lost reference to constraint &quot;%1%&quot; in load case &quot;%2%&quot;." translation="Generazione impossibile: riferimento al vincolo &quot;%1%&quot; perso nella condizione di carico &quot;%2%&quot;."/>
+	<label commandName="SimFEACSConstraintUtilsValidatorNoConstraint" devLabel="Cannot generate: Missing constraints in load case &quot;%1%&quot;. Define at least one constraint." translation="Generazione impossibile: vincoli mancanti nella condizione di carico &quot;%1%&quot;. Definire almeno un vincolo."/>
+	<label commandName="SimFEACSConstraintUtilsValidatorSickConstraint" devLabel="Cannot generate: Invalid constraint &quot;%1%&quot; in load case &quot;%2%&quot;." translation="Generazione impossibile: vincolo &quot;%1%&quot; non valido nella condizione di carico &quot;%2%&quot;."/>
+	<label commandName="SimFEACSConvergenceSettingsAutoRefinementControl" devLabel="Automatic Refinement Control" translation="Controllo di affinamento automatico"/>
+	<label commandName="SimFEACSConvergenceSettingsConvergenceThreshHold" devLabel="Convergence Threshold" translation="Soglia di convergenza"/>
+	<label commandName="SimFEACSConvergenceSettingsMaxRefinements" devLabel="Maximum Number of Mesh Refinements" translation="Numero massimo di affinamenti mesh"/>
+	<label commandName="SimFEACSConvergenceSettingsRefinementThreshHold" devLabel="Portion of Elements to Refine" translation="Parte di elementi da affinare"/>
+	<label commandName="SimFEACSConvergenceSettingsTargetResComp" devLabel="Results for Baseline Accuracy" translation="Risultati per la precisione di riferimento"/>
+	<label commandName="SimFEACSGeneralSettingsContactTolerance" devLabel="Contact Tolerance" translation="Tolleranza dei contatti"/>
+	<label commandName="SimFEACSGeneralSettingsShellContactTolerance" devLabel="Shell Contact Tolerance" translation="Tolleranza di contatto della shell"/>
+	<label commandName="SimFEACSMeshSettingsAbsoluteSize" devLabel="Average Element Size - Absolute Value" translation="Dimensione media elemento - Valore assoluto"/>
+	<label commandName="SimFEACSMeshSettingsDownloadVolume" devLabel="Generate Solid Mesh during Solve" translation="Genera mesh solida durante la risoluzione"/>
+	<label commandName="SimFEACSMeshSettingsEnablePartBased" devLabel="Use Part Based Measure for Assembly Mesh" translation="Usa misura basata sulla parte per la mesh dell'assieme"/>
+	<label commandName="SimFEACSMeshSettingsGradingFactor" devLabel="Adjacent Elements Size Ratio" translation="Rapporto di dimensioni elementi adiacenti"/>
+	<label commandName="SimFEACSMeshSettingsKeepElementsCurvedAsm" devLabel="Create Curved Mesh Elements" translation="Crea elementi mesh curvi"/>
+	<label commandName="SimFEACSMeshSettingsMaxAspectRatio" devLabel="Max Aspect Ratio" translation="Proporzione massima"/>
+	<label commandName="SimFEACSMeshSettingsMaxTurnAngle" devLabel="Maximum Element Angle on Curves" translation="Angolo massimo dell'elemento sulle curve"/>
+	<label commandName="SimFEACSMeshSettingsMinSizeFraction" devLabel="Minimum Element Size" translation="Dimensione minima dell'elemento"/>
+	<label commandName="SimFEACSMeshSettingsSizeFraction" devLabel="Average Element Size - Solids" translation="Dimensione media dell'elemento - Solidi"/>
+	<label commandName="SimFEACSMeshSettingsSizeFraction2D" devLabel="Average Element Size - Shells" translation="Dimensione media dell'elemento - Shell"/>
+	<label commandName="SimFEACSMeshSettingsUseAbsoluteSize" devLabel="Use Absolute Size of Mesh Element" translation="Utilizza dimensione assoluta dell'elemento mesh"/>
+	<label commandName="SimFEACSSolveSettingsMassTarget" devLabel="Mass Target" translation="Massa"/>
+	<label commandName="SimFEACSSolveSettingsTOptIterTolerance" devLabel="Shape Optimization iteration tolerance" translation="Tolleranza di iterazione dell'ottimizzazione delle forme"/>
+	<label commandName="SimFEACSSolveSettingsTOptPreserveLCEntityBoundaries" devLabel="Topology Optimization Preserve Entities With Loads and Constraints" translation="Ottimizzazione della topologia - Mantieni entità con carichi e vincoli"/>
+	<label commandName="SimFEACSV2ControllerJobNoDownloadExtractorFailure" devLabel="The model could not be translated for simulation." translation="Impossibile convertire il modello per la simulazione."/>
+	<label commandName="SimFEACSV2ControllerJobNoDownloadExtractorForwardCompatibilityError" devLabel="The model could not be translated for simulation because it is for a version of Fusion or has schema changes ahead of what the translator is capable of handling." translation="Impossibile convertire il modello per la simulazione perché è per una versione di Fusion o presenta modifiche allo schema superiori alla capacità di gestione attuale del programma di conversione."/>
+	<label commandName="SimFEACSV2ControllerJobNoDownloadGCPFailure" devLabel="No data could be downloaded for a failed job." translation="Impossibile scaricare dati di un processo non riuscito."/>
+	<label commandName="SimFEACSV2ControllerJobNoDownloadGCPSuccess" devLabel="No data could be downloaded for a successful job. Close and reopen the document to retry.&#xA;If that does not work, try re-running the job and report the issue to customer support." translation="Impossibile scaricare dati di un processo riuscito. Chiudere e riaprire il documento per riprovare.&#xA;Se il processo non funziona, provare a rieseguire il processo e segnalare il problema al supporto clienti."/>
+	<label commandName="SimFEACSV2ControllerJobNoDownloadGCPWackedState" devLabel="No data could be downloaded for this job. Close and reopen the document to retry.&#xA;If that does not work, try re-running the job and report the issue to customer support." translation="Impossibile scaricare dati per questo processo. Chiudere e riaprire il documento per riprovare.&#xA;Se non funziona, provare a rieseguire il processo e segnalare il problema al supporto clienti."/>
+	<label commandName="SimFEACSV2ControllerJobNoDownloadUnknownFailure" devLabel="An unknown error occurred and there are no results available." translation="Si è verificato un errore sconosciuto e non sono disponibili risultati."/>
+	<label commandName="SimFEACSV2SolverMessagesBaseMesh" devLabel="Base mesh" translation="Mesh di base"/>
+	<label commandName="SimFEACSV2SolverMessagesExplicitCourantStabilityLimitMask" devLabel="Initial Courant Stability Limit : %1%" translation="Limite stabilità Courant iniziale: %1%"/>
+	<label commandName="SimFEACSV2SolverMessagesExplicitSolveTimeMask" devLabel="Estimated Solve Time : %1% %2%:%3%:%4% (dd hh::mm::ss)" translation="Tempo di risoluzione stimato: %1%: %2%: %3%: %4% (gg hh::mm::ss)"/>
+	<label commandName="SimFEACSV2SolverMessagesMeshingHRefinement" devLabel="h refinement #%1%" translation="Affinamento h n. %1%"/>
+	<label commandName="SimFEACSV2SolverMessagesMeshingStatisticsMask" devLabel="%1%: %2% nodes, %3% elements" translation="%1%: %2% nodi, %3% elementi"/>
+	<label commandName="SimFEACSV2SolverMessagesSolverMesh" devLabel="Solver mesh" translation="Mesh del risolutore"/>
+	<label commandName="SimFEACSV2SolverMessagesUnachievableMassTargetExMask" devLabel="Itâs not possible to reduce the mass to %1$.3f%% of the original mass, as specified in&#xA;             the study setup. The model geometry can only be reduced to %2$.3f%% &#xA;             of the original mass.&#xA;&#xA;Causes: The combination of the shape optimization criteria, mesh size, and preserve&#xA;            regions in the study setup restrict how much the model geometry can be&#xA;            reduced.&#xA;&#xA;Action: If the achievable target mass is close to the specified target mass,&#xA;            try decreasing the mesh size and relaunching the analysis.&#xA;            Otherwise, try&#xA;            - increasing the Target Mass, for example, if you have accepted&#xA;                the default (60%% of original mass), or&#xA;            - unchecking âPreserve Entities with Loads and Constraintsâ in&#xA;                the Shape Optimization Criteria dialog, and then relaunch&#xA;                the analysis.&#xA;" translation="Impossibile ridurre la massa al %1$.3f%% della massa originale, come specificato&#xA;             nel setup dello studio. La geometria modello può essere ridotta solo del %2$.3f%% &#xA;             della massa originale.&#xA;&#xA;Cause: la combinazione dei criteri di ottimizzazione delle forme, la dimensione mesh e&#xA;            le aree da mantenere nel setup di questo studio limitano il valore di cui la geometria del modello può essere&#xA;            ridotta.&#xA;&#xA;Azione: se la massa di destinazione disponibile è vicina alla massa di destinazione specificata,&#xA;            provare a diminuire la dimensione mesh e ad eseguire nuovamente l'analisi.&#xA;            Altrimenti, provare ad&#xA;            - aumentare la massa di destinazione, ad esempio se è stato accettato&#xA;                il valore di default (60%% della massa originale), oppure&#xA;            - a deselezionare Mantieni entità con carichi e vincoli nella&#xA;                finestra di dialogo Criteri di ottimizzazione forma, quindi ad eseguire nuovamente&#xA;                l'analisi.&#xA;"/>
+	<label commandName="SimFaceBoundary" devLabel="Face boundary." translation="Contorno della faccia."/>
+	<label commandName="SimFaceInterior" devLabel="Face interior." translation="Parte interna della faccia."/>
+	<label commandName="SimFaceTopology" devLabel="Face topology." translation="Topologia delle facce."/>
+	<label commandName="SimFatigueAnalsysTypeEN" devLabel="Strain based (EN)" translation="Basato sulla deformazione (EN)"/>
+	<label commandName="SimFatigueAnalsysTypeSN" devLabel="Stress based (SN)" translation="Basato sulla sollecitazione (SN)"/>
+	<label commandName="SimFatigueCalcOptMaxAbsPrincipal" devLabel="Max Abs Principal" translation="Principale assoluta massima"/>
+	<label commandName="SimFatigueCalcOptMaxShear" devLabel="Max Shear (Tresca)" translation="Taglio max (Tresca)"/>
+	<label commandName="SimFatigueCalcOptNormalStress" devLabel="Normal Stress (Critical Plane)" translation="Sollecitazione normale (piano critico)"/>
+	<label commandName="SimFatigueCalcOptShearStress" devLabel="Shear Stress (Critical Plane)" translation="Sollecitazione di taglio (piano critico)"/>
+	<label commandName="SimFatigueCalcOptSignedVonMisses" devLabel="Signed VonMises" translation="VonMises con segni"/>
+	<label commandName="SimFatigueCalcOptStressOpt" devLabel="Stress Options" translation="Opzioni di sollecitazione"/>
+	<label commandName="SimFatigueCalcTyle" devLabel="fatigue calculation type" translation="tipo di calcolo della fatica"/>
+	<label commandName="SimFatigueCaseIsMissing" devLabel="Sim Fatigue case is missing" translation="Caso di simulazione a fatica mancante"/>
+	<label commandName="SimFatigueCaseLinkError" devLabel="Failed to set input study" translation="Impossibile impostare uno studio di input"/>
+	<label commandName="SimFatigueCaseNameFormat" devLabel="Fatigue Case %1%" translation="Caso di fatica %1%"/>
+	<label commandName="SimFatigueCaseNotSpecified" devLabel="No Fatigue study is specified" translation="Nessuno studio della fatica specificato"/>
+	<label commandName="SimFatigueCaseSelectionName" devLabel="Fatigue Case" translation="Caso di fatica"/>
+	<label commandName="SimFatigueCaseType" devLabel="Fatigue Case Type" translation="Tipo di caso di fatica"/>
+	<label commandName="SimFatigueCloneParametersNotSpecified" devLabel="No fatigue clone parameters was specified." translation="Non sono stati specificati parametri di clonazione della fatica."/>
+	<label commandName="SimFatigueCreationParametersNotSpecified" devLabel="No fatigue analysis creation parameters was specified." translation="Non sono stati specificati parametri di creazione per l'analisi della fatica."/>
+	<label commandName="SimFatigueDamage" devLabel="Fatigue Damage" translation="Danno a fatica"/>
+	<label commandName="SimFatigueDamageGerberCorrectionStressBased" devLabel="Gerber Stress Correction (Stress Based)" translation="Correzione della sollecitazione di Gerber (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueDamageGoodmanCorrectionStressBased" devLabel="Goodman Stress Correction (Stress Based)" translation="Correzione sollecitazione di Goodman (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueDamageNoMeanCorrectionStressBased" devLabel="No Mean Stress Correction (Stress Based)" translation="Nessuna correzione della sollecitazione media (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueDamageNoMeanStrainCorrectionStrainBased" devLabel="No Mean Stress Correction (Strain Based)" translation="Nessuna correzione della sollecitazione media (basata sulla deformazione)"/>
+	<label commandName="SimFatigueDamageStrainMorrowCorrectionStrainBased" devLabel="Morrow Stress Correction (Strain Based)" translation="Correzione della sollecitazione di Morrow (basata sulla deformazione)"/>
+	<label commandName="SimFatigueDamageStrainSWTCorrectionStrainBased" devLabel="Smith-Watson-Topper Stress Correction (Strain Based)" translation="Correzione della sollecitazione Smith-Watson-Topper (basata sulla deformazione)"/>
+	<label commandName="SimFatigueDefaultCycleHistoryWarning" devLabel="The load cycle history is not defined, the default load cycle history will be used in fatigue analysis." translation="La cronologia dei cicli di carico non è definita. Verrà utilizzata la cronologia dei cicli di carico di default nell'analisi della fatica."/>
+	<label commandName="SimFatigueDefaultSurfaceFinishWarning" devLabel="Surface finish is not specified, the default values will be used." translation="La finitura della superficie non è specificata. Verranno utilizzati i valori di default."/>
+	<label commandName="SimFatigueDesiredLife" devLabel="Desired Life (cycles)" translation="Durata desiderata (cicli)"/>
+	<label commandName="SimFatigueEditParametersNotSpecified" devLabel="No fatigue analysis edit parameters was specified." translation="Nessun parametro di modifica dell'analisi della fatica specificato."/>
+	<label commandName="SimFatigueFSFConstMeanFSF" devLabel="Constant Mean (Fatigue Safety Factor)" translation="Media costante (fattore di sicurezza della fatica)"/>
+	<label commandName="SimFatigueFSFConstStressRadioFSF" devLabel="Constant Stress Ratio (Fatigue Safety Factor)" translation="Rapporto di sollecitazione costante (fattore di sicurezza della fatica)"/>
+	<label commandName="SimFatigueFSFGoodman" devLabel="Fatigue Safety Factor (Goodman diagram)" translation="Fattore di sicurezza della fatica (diagramma di Goodman)"/>
+	<label commandName="SimFatigueFSFHaigh" devLabel="Fatigue Safety Factor (Haigh diagram)" translation="Fattore di sicurezza della fatica (diagramma di Haigh)"/>
+	<label commandName="SimFatigueFailedCycleHistory" devLabel="The load cycle history is not defined." translation="La cronologia dei cicli di carico non è definita."/>
+	<label commandName="SimFatigueFailedOverrideMaterial" devLabel="Cannot solve: Fatigue material is not specified for some components. Please select a valid material in the Fatigue Materials dialog." translation="Risoluzione impossibile: per alcuni componenti non è specificato il materiale per il calcolo della fatica. Selezionare un materiale valido nella finestra di dialogo Materiali per il calcolo della fatica."/>
+	<label commandName="SimFatigueFailedOverrideMaterialCount" devLabel="Cannot solve: Fatigue material is not specified for the %1% components. Please select a valid material in the Fatigue Materials dialog." translation="Risoluzione impossibile: il materiale per il calcolo della fatica non è specificato per i componenti %1%. Selezionare un materiale valido nella finestra di dialogo Materiali per il calcolo della fatica."/>
+	<label commandName="SimFatigueFailedOverrideMaterialWarning" devLabel="Fatigue material is not specified for the following components. The fatigue analysis will be skipped." translation="Il materiale per il calcolo della fatica non è specificato per i seguenti componenti. L'analisi della fatica verrà ignorata."/>
+	<label commandName="SimFatigueFailedOverrideMaterialWarningCount" devLabel="Fatigue material is not specified for the %1% components. The fatigue analysis will be skipped." translation="Il materiale per il calcolo della fatica non è specificato per i componenti %1%. L'analisi della fatica verrà ignorata."/>
+	<label commandName="SimFatigueFailedSurfaceFinish" devLabel="Surface finish is not specified for the following components, the default values will be used." translation="La finitura della superficie non è specificata per i seguenti componenti. Verranno utilizzati i valori di default."/>
+	<label commandName="SimFatigueFailedSurfaceFinishCount" devLabel="Surface finish is not specified for the %1% components, the default values will be used." translation="La finitura della superficie non è specificata per i componenti %1%. Verranno utilizzati i valori di default."/>
+	<label commandName="SimFatigueLife" devLabel="Fatigue Life" translation="Durata a fatica"/>
+	<label commandName="SimFatigueLifeGoodmanCorrectionStressBased" devLabel="Goodman Stress Correction (Stress Based)" translation="Correzione sollecitazione di Goodman (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueLifeNoMeanCorrectionStressBased" devLabel="No Mean Stress Correction (Stress Based)" translation="Nessuna correzione della sollecitazione media (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueLifeNoMeanStrainCorrectionStrainBased" devLabel="No Mean Stress Correction (Strain Based)" translation="Nessuna correzione della sollecitazione media (basata sulla deformazione)"/>
+	<label commandName="SimFatigueLifeStrainMorrowCorrectionStrainBased" devLabel="Morrow Stress Correction (Strain Based)" translation="Correzione della sollecitazione di Morrow (basata sulla deformazione)"/>
+	<label commandName="SimFatigueLifeStrainSWTCorrectionStrainBased" devLabel="Smith-Watson-Topper Stress Correction (Strain Based)" translation="Correzione della sollecitazione Smith-Watson-Topper (basata sulla deformazione)"/>
+	<label commandName="SimFatigueLinkedCaseValidateError" devLabel="Errors in %1% : input study must be Static Stress or Thermal Stress" translation="Errori in %1%: lo studio di input deve essere Sollecitazione statica o Sollecitazione termica"/>
+	<label commandName="SimFatigueLoadCaseInitError" devLabel="Failed to initiate load case" translation="Impossibile avviare la condizione di carico."/>
+	<label commandName="SimFatigueLogLife" devLabel="Fatigue Log10(Life)" translation="Log10(Durata) della fatica"/>
+	<label commandName="SimFatigueLogLifeGerberCorrectionStressBased" devLabel="Gerber Stress Correction (Stress Based)" translation="Correzione della sollecitazione di Gerber (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueLogLifeGoodmanCorrectionStressBased" devLabel="Goodman Stress Correction (Stress Based)" translation="Correzione sollecitazione di Goodman (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueLogLifeNoMeanCorrectionStressBased" devLabel="No Mean Stress Correction (Stress Based)" translation="Nessuna correzione della sollecitazione media (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueLogLifeNoMeanStrainCorrectionStrainBased" devLabel="No Mean Stress Correction (Strain Based)" translation="Nessuna correzione della sollecitazione media (basata sulla deformazione)"/>
+	<label commandName="SimFatigueLogLifeStrainMorrowCorrectionStrainBased" devLabel="Morrow Stress Correction (Strain Based)" translation="Correzione della sollecitazione di Morrow (basata sulla deformazione)"/>
+	<label commandName="SimFatigueLogLifeStrainSWTCorrectionStrainBased" devLabel="Smith-Watson-Topper Stress Correction (Strain Based)" translation="Correzione della sollecitazione Smith-Watson-Topper (basata sulla deformazione)"/>
+	<label commandName="SimFatigueMeanStressCorrection" devLabel="Fatigue Mean Stress Corrections" translation="Correzioni della sollecitazione media della fatica"/>
+	<label commandName="SimFatigueNoLinkedStudy" devLabel="Cannot solve: No input studies" translation="Risoluzione impossibile: studi di input non trovati."/>
+	<label commandName="SimFatigueOptionAvgStressAtNodes" devLabel="Fatigue Option Average Stress at Nodes" translation="Opzione fatica - Sollecitazione media in corrispondenza dei nodi"/>
+	<label commandName="SimFatigueOptionStress" devLabel="Fatigue Option Stress" translation="Opzione fatica - Sollecitazione"/>
+	<label commandName="SimFatigueOptionStressThreshold" devLabel="Fatigue Option Stress Threshold" translation="Opzione fatica - Soglia di sollecitazione"/>
+	<label commandName="SimFatigueOptionTopStressPercent" devLabel="Fatigue Option Top Stress Percent" translation="Opzione fatica - Percentuale superiore di sollecitazione"/>
+	<label commandName="SimFatigueOutoutConstMean" devLabel="Constant Mean" translation="Media costante"/>
+	<label commandName="SimFatigueOutoutConstStressRatio" devLabel="Constant Stress Ratio" translation="Rapporto di sollecitazione costante"/>
+	<label commandName="SimFatigueOutoutCycles" devLabel="Cycles to Failure and Damage" translation="Cicli prima di un guasto e un danno"/>
+	<label commandName="SimFatigueOutoutGerberStressCorrection" devLabel="Gerber Correction" translation="Correzione di Gerber"/>
+	<label commandName="SimFatigueOutoutGoodmanStressCorrection" devLabel="Goodman Correction" translation="Correzione di Goodman"/>
+	<label commandName="SimFatigueOutoutMorrowStressCorrection" devLabel="Morrow Correction" translation="Correzione di Morrow"/>
+	<label commandName="SimFatigueOutoutNoStressCorrection" devLabel="No Corrections" translation="Nessuna correzione"/>
+	<label commandName="SimFatigueOutoutSafetyFactor" devLabel="Safety Factor Based on Loads" translation="Fattore di sicurezza basato sui carichi"/>
+	<label commandName="SimFatigueOutoutSmithWatsonTopperStressCorrection" devLabel="Smith-Watson-Topper Correction" translation="Correzione di Smith-Watson-Topper"/>
+	<label commandName="SimFatigueOutputDesiredLife" devLabel="Fatigue Output Desired Life" translation="Durata desiderata per l'output del calcolo della fatica"/>
+	<label commandName="SimFatigueOutputType" devLabel="Fatigue Output Type" translation="Tipo di output della a fatica"/>
+	<label commandName="SimFatigueSafetyFactor" devLabel="Fatigue Safety Factor" translation="Fattore di sicurezza della fatica"/>
+	<label commandName="SimFatigueSafetyFactorGerberCorrectionStressBased" devLabel="Gerber Stress Correction (Stress Based)" translation="Correzione della sollecitazione di Gerber (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueSafetyFactorGoodmanCorrectionStressBased" devLabel="Goodman Stress Correction (Stress Based)" translation="Correzione sollecitazione di Goodman (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueSafetyFactorNoMeanCorrectionStressBased" devLabel="No Mean Stress Correction (Stress Based)" translation="Nessuna correzione della sollecitazione media (basata sulla sollecitazione)"/>
+	<label commandName="SimFatigueSafetyFactorNoMeanStrainCorrectionStrainBased" devLabel="No Mean Stress Correction (Strain Based)" translation="Nessuna correzione della sollecitazione media (basata sulla deformazione)"/>
+	<label commandName="SimFatigueSafetyFactorStrainMorrowCorrectionStrainBased" devLabel="Morrow Stress Correction (Strain Based)" translation="Correzione della sollecitazione di Morrow (basata sulla deformazione)"/>
+	<label commandName="SimFatigueSafetyFactorStrainSWTCorrectionStrainBased" devLabel="Smith-Watson-Topper Stress Correction (Strain Based)" translation="Correzione della sollecitazione Smith-Watson-Topper (basata sulla deformazione)"/>
+	<label commandName="SimFatigueSurfaceFinishComponent" devLabel="Body" translation="Corpo"/>
+	<label commandName="SimFatigueSurfaceFinishConcentration" devLabel="Stress Concentration Factor Kf(&gt;=1.0)" translation="Fattore di concentrazione della sollecitazione Kf(&gt;=1.0)"/>
+	<label commandName="SimFatigueSurfaceFinishEndurance" devLabel="Surface Finish Endurance Limit Factor (&lt;=1.0)" translation="Finitura della superficie - Fattore del limite di fatica (&lt;=1.0)"/>
+	<label commandName="SimFatigueSurfaceFinishMisc" devLabel="Other Endurance Limit Factors" translation="Altri fattori del limite di fatica"/>
+	<label commandName="SimFatigueType" devLabel="Fatigue Analysis Type" translation="Tipo di analisi della fatica"/>
+	<label commandName="SimFatigueUpdateOutputSettings" devLabel="Failed to update output settings" translation="Impossibile aggiornare le impostazioni di output."/>
+	<label commandName="SimFirstFlexibleModeNaturalFrequency" devLabel="First Flexible Mode Natural Frequency" translation="Prima frequenza naturale modalità flessibile"/>
+	<label commandName="SimFirstPrincipalResult" devLabel="1st Principal" translation="Primo principale"/>
+	<label commandName="SimFree" devLabel="Free" translation="Libero"/>
+	<label commandName="SimFreeContact" devLabel="Free" translation="Libero"/>
+	<label commandName="SimFreqResponseGeneralSettingsConstModalDamping" devLabel="Modal Damping" translation="Smorzamento modale"/>
+	<label commandName="SimFreqResponseGeneralSettingsDampingMassFactor" devLabel="Mass Factor" translation="Fattore di massa"/>
+	<label commandName="SimFreqResponseGeneralSettingsDampingStiffnessFactor" devLabel="Stiffness Factor" translation="Fattore di rigidità"/>
+	<label commandName="SimFrequencyMode" devLabel="Frequency Mode" translation="Modalità di frequenza"/>
+	<label commandName="SimFrequencyRange" devLabel="Frequency Range [Hz]" translation="Intervallo frequenza [Hz]"/>
+	<label commandName="SimFtgCaseMissing" devLabel="Sim fatigue case is missing" translation="Caso di simulazione a fatica mancante"/>
+	<label commandName="SimFtgCombinationMethod" devLabel="Load Case Combination Method" translation="Metodo di combinazione condizioni di carico"/>
+	<label commandName="SimFtgCombinationMethodCombineAdd" devLabel="Combine &amp; Add" translation="&amp;Combina e aggiungi"/>
+	<label commandName="SimFtgCombinationMethodSequential" devLabel="Sequential" translation="Sequenziale"/>
+	<label commandName="SimFtgCurveCustom" devLabel="Custom Curve" translation="Curva personalizzata"/>
+	<label commandName="SimFtgCurveSawTooth" devLabel="Triangle Wave" translation="Onda triangolare"/>
+	<label commandName="SimFtgCurveSawToothHalf" devLabel="Half of Triangle Wave" translation="Metà dell'onda triangolare"/>
+	<label commandName="SimFtgCurveSin" devLabel="Sine Wave" translation="Onda sinusoidale"/>
+	<label commandName="SimFtgCurveSinHalf" devLabel="Half of Sine Wave" translation="Metà onda sinusoidale"/>
+	<label commandName="SimFtgCurveSquare" devLabel="Square Wave" translation="Onda quadrata"/>
+	<label commandName="SimFtgCurveSquareHalf" devLabel="Half of Square Wave" translation="Metà dell'onda quadrata"/>
+	<label commandName="SimFtgCurveUnknown" devLabel="Unknown" translation="Sconosciuto"/>
+	<label commandName="SimFtgCycleCurveAmplitudeValue" devLabel="Amplitude" translation="Ampiezza"/>
+	<label commandName="SimFtgCycleCurveOffsetValue" devLabel="Mean" translation="Media"/>
+	<label commandName="SimFtgCycleCurveType" devLabel="Cycle Curve Type" translation="Scorri tipo di curva"/>
+	<label commandName="SimFtgCycleFor" devLabel="Fatigue Cycle for %1%" translation="Ciclo di fatica per %1%"/>
+	<label commandName="SimFtgDamageGerberCorrection" devLabel="Gerber Stress Correction" translation="Correzione della sollecitazione di Gerber"/>
+	<label commandName="SimFtgDamageGoodmanCorrection" devLabel="Goodman Stress Correction" translation="Correzione della sollecitazione di Goodman"/>
+	<label commandName="SimFtgDamageNoMeanCorrection" devLabel="No Mean Stress Correction" translation="Nessuna correzione della sollecitazione media"/>
+	<label commandName="SimFtgDamageNoMeanStrainCorrection" devLabel="No Mean Stress Correction" translation="Nessuna correzione della sollecitazione media"/>
+	<label commandName="SimFtgDamageStrainMorrowCorrection" devLabel="Morrow Stress Correction" translation="Correzione della sollecitazione di Morrow"/>
+	<label commandName="SimFtgDamageStrainSWTCorrection" devLabel="Smith-Watson-Topper Stress Correction" translation="Correzione della sollecitazione di Smith-Watson-Topper"/>
+	<label commandName="SimFtgFSFConstMean" devLabel="Constant Mean" translation="Media costante"/>
+	<label commandName="SimFtgFSFConstStressRadio" devLabel="Constant Stress Ratio" translation="Rapporto di sollecitazione costante"/>
+	<label commandName="SimFtgLifeGerberStressCorrection" devLabel="Gerber Stress Correction" translation="Correzione della sollecitazione di Gerber"/>
+	<label commandName="SimFtgLifeGoodmanCorrection" devLabel="Goodman Stress Correction" translation="Correzione della sollecitazione di Goodman"/>
+	<label commandName="SimFtgLifeNoMeanCorrection" devLabel="No Mean Stress Correction" translation="Nessuna correzione della sollecitazione media"/>
+	<label commandName="SimFtgLifeNoMeanStrainCorrection" devLabel="No Mean Stress Correction" translation="Nessuna correzione della sollecitazione media"/>
+	<label commandName="SimFtgLifeStrainMorrowCorrection" devLabel="Morrow Stress Correction" translation="Correzione della sollecitazione di Morrow"/>
+	<label commandName="SimFtgLifeStrainSWTCorrection" devLabel="Smith-Watson-Topper Stress Correction" translation="Correzione della sollecitazione di Smith-Watson-Topper"/>
+	<label commandName="SimFtgLinkDlgErrDifferentModel" devLabel="The selected input Studies must share the same model." translation="Gli studi di input selezionati devono condividere lo stesso modello."/>
+	<label commandName="SimFtgLoadCycleSequence" devLabel="Load Cycle Sequence" translation="Sequenza dei cicli di carico"/>
+	<label commandName="SimFtgLoadCycles" devLabel="# Cycles" translation="N. cicli"/>
+	<label commandName="SimFtgLoadHistoryX" devLabel="Load History %1%" translation="Cronologia del carico %1%"/>
+	<label commandName="SimFtgLogLifeGerberCorrection" devLabel="Gerber Stress Correction" translation="Correzione della sollecitazione di Gerber"/>
+	<label commandName="SimFtgLogLifeGoodmanCorrection" devLabel="Goodman Stress Correction" translation="Correzione della sollecitazione di Goodman"/>
+	<label commandName="SimFtgLogLifeNoMeanCorrection" devLabel="No Mean Stress Correction" translation="Nessuna correzione della sollecitazione media"/>
+	<label commandName="SimFtgLogLifeNoMeanStrainCorrection" devLabel="No Mean Stress Correction" translation="Nessuna correzione della sollecitazione media"/>
+	<label commandName="SimFtgLogLifeStrainMorrowCorrection" devLabel="Morrow Stress Correction" translation="Correzione della sollecitazione di Morrow"/>
+	<label commandName="SimFtgLogLifeStrainSWTCorrection" devLabel="Smith-Watson-Topper Stress Correction" translation="Correzione della sollecitazione di Smith-Watson-Topper"/>
+	<label commandName="SimFtgSafetyFactorGerberCorrection" devLabel="Gerber Stress Correction" translation="Correzione della sollecitazione di Gerber"/>
+	<label commandName="SimFtgSafetyFactorGoodmanCorrection" devLabel="Goodman Stress Correction" translation="Correzione della sollecitazione di Goodman"/>
+	<label commandName="SimFtgSafetyFactorNoMeanCorrection" devLabel="No Mean Stress Correction" translation="Nessuna correzione della sollecitazione media"/>
+	<label commandName="SimFtgSafetyFactorNoMeanStrainCorrection" devLabel="No Mean Stress Correction" translation="Nessuna correzione della sollecitazione media"/>
+	<label commandName="SimFtgSafetyFactorStrainMorrowCorrection" devLabel="Morrow Stress Correction" translation="Correzione della sollecitazione di Morrow"/>
+	<label commandName="SimFtgSafetyFactorStrainSWTCorrection" devLabel="Smith-Watson-Topper Stress Correction" translation="Correzione della sollecitazione di Smith-Watson-Topper"/>
+	<label commandName="SimFtgSurfaceFinishCustom" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="SimFtgSurfaceFinishForged" devLabel="Forged" translation="Forgiato"/>
+	<label commandName="SimFtgSurfaceFinishGround" devLabel="Ground" translation="Piano di base"/>
+	<label commandName="SimFtgSurfaceFinishMachined" devLabel="Machined" translation="Lavorato"/>
+	<label commandName="SimFtgSurfaceFinishPolished" devLabel="Polished" translation="Lucido"/>
+	<label commandName="SimFtgSurfaceFinishRolled" devLabel="Rolled" translation="Arrotondato"/>
+	<label commandName="SimFullyFixed" devLabel="Fully Fixed" translation="Completamente vincolato"/>
+	<label commandName="SimFullyUnconstrainedGroups" devLabel="Warning: Model contains %1% fully unconstrained group(s) in load case &quot;%2%&quot;." translation="Avvertimento: il modello contiene %1% gruppo(i) completamente non vincolato(i) nella condizione di carico &quot;%2%&quot;."/>
+	<label commandName="SimFullyUnconstrainedGroupsError" devLabel="Error: Model contains %1% fully unconstrained group(s) in load case &quot;%2%&quot;." translation="Errore: il modello contiene %1% gruppi completamente non vincolati nella condizione di carico &quot;%2%&quot;."/>
+	<label commandName="SimFullyUnconstrainedGroupsWarning" devLabel="Warning: Model contains %1% fully unconstrained group(s) in load case &quot;%2%&quot;." translation="Avvertimento: il modello contiene %1% gruppo(i) completamente non vincolato(i) nella condizione di carico &quot;%2%&quot;."/>
+	<label commandName="SimGenConstraintAlongWithInertialRelief" devLabel="You have chosen to remove rigid body modes, yet there are 1 or more constraints in the model. Please double check your boundry conditions to ensure they are setup correctly." translation="Si è scelto di rimuovere le modalità corpo rigido, ma nel modello sono presenti 1 o più vincoli. Controllare le condizioni contorno per assicurarsi che siano impostate correttamente."/>
+	<label commandName="SimGenFluidOnlyStructuralBCExists" devLabel="Warning: Structural loads or constraints are defined in load case &quot;%1%&quot;.Structural loads or constraints are not supported by Minimize Pressure Drop objective." translation="Avvertimento: i carichi o i vincoli strutturali sono definiti nella condizione di carico &quot;%1%&quot;. I carichi o i vincoli strutturali non sono supportati dall'obiettivo Minimizza caduta pressione."/>
+	<label commandName="SimGenNoFullFix" devLabel="Not all directions are fixed for load case &quot;%1%&quot;. The model may not be stable. Correct your constraint settings." translation="Non tutte le direzioni sono fisse per la condizione di carico &quot;%1%&quot;. Il modello potrebbe non essere stabile. Correggere le impostazioni dei vincoli."/>
+	<label commandName="SimGeneralSettingsRemoveRigidBodyModes" devLabel="Remove Rigid Body Modes" translation="Rimuovi modalità corpo rigido"/>
+	<label commandName="SimGenerativeAbortedNotOnline" devLabel="Generative job(s) aborted:  Fusion is not online.  Please try this again after Fusion resumes its online connection." translation="Uno o più processi generativi interrotti. Fusion non è in linea. Riprovare quando Fusion ripristina la connessione in linea."/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additivo"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Tutti i metodi"/>
+	<label commandName="SimGenerativeAlternativeOutcomes" devLabel="Alternative Outcomes" translation="Risultati alternativi"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="Taglio a 2 assi"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Colata"/>
+	<label commandName="SimGenerativeDisconnectionFilter" devLabel="Disconnection Filter" translation="Filtro di disconnessione"/>
+	<label commandName="SimGenerativeInertialRelief" devLabel="Inertial Relief" translation="Scarico inerziale"/>
+	<label commandName="SimGenerativeMaterialReductionOnly" devLabel="Material Reduction Only" translation="Solo riduzione materiale"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fresatura"/>
+	<label commandName="SimGenerativeResolution" devLabel="Resolution" translation="Risoluzione"/>
+	<label commandName="SimGenerativeResolutionType" devLabel="Resolution Type" translation="Tipo di risoluzione"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Non limitato"/>
+	<label commandName="SimGeometryError" devLabel="Geometry error." translation="Errore della geometria."/>
+	<label commandName="SimGerberStressCorrectionStressBased" devLabel="Gerber Stress Correction (Stress Based)" translation="Correzione della sollecitazione di Gerber (basata sulla sollecitazione)"/>
+	<label commandName="SimHeatFlux" devLabel="Heat Flux" translation="Flusso termico"/>
+	<label commandName="SimHeatFluxResult" devLabel="Heat Flux" translation="Flusso termico"/>
+	<label commandName="SimHeated" devLabel="Conducting" translation="Conduzione"/>
+	<label commandName="SimImageCompatibilityInfo" devLabel="For correct interpretation of this image use e.g. IE9, Chrome, Safari, Firefox" translation="Per un'interpretazione corretta dell'immagine, utilizzare browser come Internet Explorer 9, Chrome, Safari e Firefox"/>
+	<label commandName="SimImportedCFDGeneralSettingsHeatConductance" devLabel="Heat Conductance" translation="Conduttanza termica"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Stati Uniti (pollici)"/>
+	<label commandName="SimIntermediateResultsUpdate" devLabel="Intermediate Results Update" translation="Aggiornamento risultati intermedi"/>
+	<label commandName="SimInvalidCancelDefault" devLabel="You cannot cancel &quot;%1%&quot; study solve because the results have already been computed and they are being received at the moment." translation="Impossibile annullare la risoluzione dello studio &quot;%1%&quot; perché i risultati sono già stati calcolati e sono attualmente in fase di ricezione."/>
+	<label commandName="SimInvalidCancelFinished" devLabel="You cannot cancel &quot;%1%&quot; study solve because the results have already been computed and received." translation="Impossibile annullare la risoluzione dello studio &quot;%1%&quot; perché i risultati sono già stati calcolati e ricevuti."/>
+	<label commandName="SimInvalidElement" devLabel="Invalid element." translation="Elemento non valido."/>
+	<label commandName="SimInvalidFEACSManifestFile0" devLabel="Invalid FEACS manifest file. XMLDeserializeSection - missing node: Root" translation="File manifest FEACS non valido. Sezione di deserializzazione XML - nodo mancante: radice"/>
+	<label commandName="SimInvalidFEACSManifestFile1" devLabel="Invalid FEACS manifest file. XMLDeserializeSection - missing node: MeshModel or Results" translation="File manifest FEACS non valido. SezioneDeserializzazioneXML - nodo mancante: ModelloMesh o risultati"/>
+	<label commandName="SimInvalidFEACSManifestFile10" devLabel="Invalid FEACS manifest file - ProcessResultNode - missing MeshFragment" translation="File manifest FEACS non valido - NodoRisultatoProcesso - FrammentoMesh mancante"/>
+	<label commandName="SimInvalidFEACSManifestFile12" devLabel="Invalid FEACS manifest file - ProcessResultSubComponentNode - missing attribute: id or min or max" translation="File manifest FEACS non valido. NodoComponenteSecondarioRisultatoProcesso - attributo mancante: ID, min o max"/>
+	<label commandName="SimInvalidFEACSManifestFile13" devLabel="Invalid FEACS manifest file - ProcessResultSubComponentNode - Invalid field dimension." translation="File manifest FEACS non valido. NodoComponenteSecondarioRisultatoProcesso - Dimensione campo non valida."/>
+	<label commandName="SimInvalidFEACSManifestFile14" devLabel="Invalid FEACS manifest file - Processl2NormNode - missing attribute: min or max" translation="File manifest FEACS non valido. NodoNorml2Processo - attributo mancante: min o max"/>
+	<label commandName="SimInvalidFEACSManifestFile15" devLabel="Invalid FEACS manifest file - ProcessAttributeNode - missing attribute: Name or Value" translation="File manifest FEACS non valido - NodoAttributoProcesso - attributo mancante: nome o valore"/>
+	<label commandName="SimInvalidFEACSManifestFile2" devLabel="Invalid FEACS manifest file. XMLDeserializeSection - missing attribute: Guid" translation="File manifest FEACS non valido. SezioneDeserializzazioneXML - attributo mancante: GUID"/>
+	<label commandName="SimInvalidFEACSManifestFile3" devLabel="Invalid FEACS manifest file. ProcessBodyMeshNode - missing attribute: path or id or refKey" translation="File manifest FEACS non valido. NodoMeshCorpoProcesso - attributo mancante: percorso o ID o ChiaveRif"/>
+	<label commandName="SimInvalidFEACSManifestFile4" devLabel="Invalid FEACS manifest file. ProcessDomainNode - missing attribute ID or DisplayName or Unit" translation="File manifest FEACS non valido. NodoDominioProcesso: ID attributo, nome visualizzato o unità mancante"/>
+	<label commandName="SimInvalidFEACSManifestFile5" devLabel="Invalid FEACS manifest file. ProcessDomainPointNode - missing attribute: ID or Domain or Value" translation="File manifest FEACS non valido. NodoPuntoDominioProcesso - attributo mancante: ID o dominio o valore"/>
+	<label commandName="SimInvalidFEACSManifestFile6" devLabel="Invalid FEACS manifest file. ProcessSamplePointNode - missing attribute: ID" translation="File manifest FEACS non valido. NodoPuntoEsempioProcesso - attributo mancante: ID"/>
+	<label commandName="SimInvalidFEACSManifestFile7" devLabel="Invalid FEACS manifest file. ProcessSamplePointNode DomainPoint - missign attribute: ID" translation="File manifest FEACS non valido. NodoPuntoEsempioProcesso PuntoDominio - attributo mancante: ID"/>
+	<label commandName="SimInvalidFEACSManifestFile8" devLabel="Invalid FEACS manifest file. ProcessSamplePointNode - invalid domainsPoint size" translation="File manifest FEACS non valido. NodoPuntoEsempioProcesso - dimensione PuntoDomini non valida."/>
+	<label commandName="SimInvalidFEACSManifestFile9" devLabel="Invalid FEACS manifest file - ProcessResultNode - missing attribute: BodyIndex or ComponentId or Path or AffectedSide" translation="File manifest FEACS non valido - NodoRisultatoProcesso - attributo mancante: IndiceCorpo o IDComponente o Percorso o LatoInteressato"/>
+	<label commandName="SimInvalidGenCancelDefault" devLabel="You cannot cancel &quot;%1%&quot;, one or more outcomes have been generated." translation="Impossibile annullare &quot;%1%&quot;. Sono stati generati uno o più risultati."/>
+	<label commandName="SimInvalidGenCancelFinished" devLabel="Generate for &quot;%1%&quot; completed, your outcomes can be viewed in Explore." translation="Generazione per &quot;%1%&quot; completata. I risultati possono essere visualizzati in Esplora."/>
+	<label commandName="SimInvalidGenCancelForStudyInProgress" devLabel="The outcome generation for &quot;%1%&quot; is in progress. To modify the study and generate outcomes again, right-click the name of the study in the browser and clone it." translation="La generazione dei risultati per &quot;%1%&quot; è in corso. Per modificare lo studio e generare di nuovo i risultati, fare clic con il pulsante destro del mouse sul nome dello studio nel browser e clonarlo."/>
+	<label commandName="SimJobAlreadyComplete" devLabel="Job already complete. Using results from local cache." translation="Processo già completato. Vengono utilizzati i risultati della cache locale."/>
+	<label commandName="SimJobCannotScheduleLegacyCloudSolve" devLabel="Cannot schedule a legacy cloud solve: ecosystem retired." translation="Impossibile pianificare una risoluzione nel cloud precedente: l'ecosistema è stato dismesso."/>
+	<label commandName="SimJobFailCloudErr" devLabel="Unexpected server error during cloud solve." translation="Errore imprevisto del server durante la risoluzione del cloud."/>
+	<label commandName="SimJobFailScheduleAGDGatewayTimeout" devLabel="Gateway Timeout scheduling job, the job may have started." translation="Processo di pianificazione del timeout gateway. Il processo potrebbe essere stato avviato."/>
+	<label commandName="SimJobFailScheduleAGDSolve" devLabel="Failed to start Generative solve." translation="Impossibile avviare la risoluzione generativa."/>
+	<label commandName="SimJobFailScheduleAGDSolveInsufficientCloudCredits" devLabel="Insufficient cloud credits or non-commercial user." translation="Crediti cloud insufficienti oppure utente non commerciale."/>
+	<label commandName="SimJobFailScheduleAGDSolveInsufficientTokens" devLabel="Insufficient tokens or non-commercial user." translation="Token insufficienti oppure utente non commerciale."/>
+	<label commandName="SimJobFailSystemError" devLabel="System error during cloud solve." translation="Errore di sistema durante la risoluzione nel cloud."/>
+	<label commandName="SimJobFailTimeout" devLabel="Solve job has timed out, try reducing the problem size" translation="Timeout processo di risoluzione. Ridurre le dimensioni del problema."/>
+	<label commandName="SimJobFailUnexpectedStatus" devLabel="System error during cloud solve: " translation="Errore di sistema durante la risoluzione nel cloud: "/>
+	<label commandName="SimJobFailUnexpectedStudyType" devLabel="Unexpected study type for results connected to study." translation="Tipo di studio imprevisto per i risultati connessi allo studio."/>
+	<label commandName="SimLinkModalData" devLabel="Import Modal Data from" translation="Importa dati modali da"/>
+	<label commandName="SimLinkTemperatureData" devLabel="Link Temperature Data" translation="Collega dati di temperatura"/>
+	<label commandName="SimLoadCaseFluidConditions" devLabel="Fluid Conditions" translation="Condizioni fluido"/>
+	<label commandName="SimLoadCaseReportWarning" devLabel=" Solve result of this load case is out of date." translation=" Il risultato della risoluzione di questa condizione di carico non è aggiornato."/>
+	<label commandName="SimLocalMeshControlNotSupported" devLabel="Local mesh control and mesh settings in Fusion are not supported in Ansys." translation="Le impostazioni di controllo mesh locale e mesh in Fusion non sono supportate in Ansys."/>
+	<label commandName="SimMassReorthogonalization" devLabel="Mass Reorthogonalization" translation="Reortogonalizzazione massa"/>
+	<label commandName="SimMasterMeshNotSpecified" devLabel="Primary mesh should be specified" translation="È necessario specificare la mesh principale"/>
+	<label commandName="SimMaximumIterations" devLabel="Maximum Iteration" translation="Iterazione massima"/>
+	<label commandName="SimMeshFailuresExists" devLabel="There are mesh failures from the last run." translation="Sono presenti errori della mesh dall'ultima esecuzione."/>
+	<label commandName="SimMeshPreviewControllerAPINotRegistered" devLabel="No controller is registered for previewing." translation="Nessun controller registrato per l'anteprima."/>
+	<label commandName="SimMeshPreviewFailedAnError" devLabel="An error occurred while creating the preview" translation="Si è verificato un errore durante la creazione dell'anteprima"/>
+	<label commandName="SimMeshPreviewFailedUnableToPreview" devLabel="Unable to preview the mesh" translation="Impossibile eseguire l'anteprima della mesh"/>
+	<label commandName="SimMeshPreviewInitFailed" devLabel="An error occurred while setting up the preview." translation="Si è verificato un errore durante la configurazione dell'anteprima."/>
+	<label commandName="SimMeshPreviewNULLController" devLabel="No previewer is available from the registered controller." translation="Nessun gestore di anteprime disponibile dal controller registrato."/>
+	<label commandName="SimMeshRefinementByEntitiesMeshSize" devLabel="Mesh Size" translation="Dimensione mesh"/>
+	<label commandName="SimMeshRefinementByEntitiesName" devLabel="Local Mesh" translation="Mesh locale"/>
+	<label commandName="SimMeshRefinementNotSupported" devLabel="Adaptive mesh refinement and mesh settings used in Fusion are not supported in Ansys." translation="Le impostazioni di rifinitura della mesh adattiva e delle mesh utilizzate in Fusion non sono supportate in Ansys."/>
+	<label commandName="SimMeshRefinementsAutomaticRefinementForBearingLoad" devLabel="Automatic bearing load refinement for %1%" translation="Affinamento automatico del carico cuscinetto per %1%"/>
+	<label commandName="SimMeshingError" devLabel="Meshing error!" translation="Errore durante la creazione della mesh."/>
+	<label commandName="SimMeshingWarning" devLabel="Meshing warning!" translation="Avvertimento relativo alla creazione di mesh."/>
+	<label commandName="SimMissingEdge" devLabel="Missing edge." translation="Spigolo mancante."/>
+	<label commandName="SimMissingFEACSResults" devLabel="No results to apply." translation="Nessun risultato da applicare."/>
+	<label commandName="SimMissingManifestsForMeshResultsOrBoth" devLabel="Missing manifests for mesh, results or both." translation="File manifest mancanti per la mesh, per i risultati o per entrambi."/>
+	<label commandName="SimMissingMeshDBs" devLabel="Missing mesh dbs." translation="Database mesh mancante."/>
+	<label commandName="SimMissingMeshDataContainers" devLabel="Mesh data containers are not present. This study is not ready to manage mesh data." translation="I contenitori di dati delle mesh non sono presenti. Questo studio non è pronto per la gestione dei dati delle mesh."/>
+	<label commandName="SimMissingMeshManifestForPreviewMesh" devLabel="Missing mesh manifest for preview mesh." translation="File manifest della mesh mancante per l'anteprima della mesh."/>
+	<label commandName="SimMissingTriangle" devLabel="Missing triangle." translation="Triangolo mancante."/>
+	<label commandName="SimModalDampingCurve" devLabel="Modal Damping Curve" translation="Curva di smorzamento modale"/>
+	<label commandName="SimModalDampingFactor" devLabel="Modal Damping Factor" translation="Fattore di smorzamento modale"/>
+	<label commandName="SimModalGeneralSettingsExtractionMethod" devLabel="Extraction Method" translation="Metodo di estrazione"/>
+	<label commandName="SimModalGeneralSettingsFrequencyMax" devLabel="Frequency Max" translation="Frequenza max"/>
+	<label commandName="SimModalGeneralSettingsFrequencyMin" devLabel="Frequency Min" translation="Frequenza min"/>
+	<label commandName="SimModalGeneralSettingsNumberOfModes" devLabel="Number of Modes" translation="Numero di modi"/>
+	<label commandName="SimNastran_BSCONP_CTC" devLabel="Thermal Contact Conductance" translation="Conduttanza contatto termico"/>
+	<label commandName="SimNastran_BSCONP_FSTIF" devLabel="Frictional Stiffness for Stick" translation="Rigidità attrito per arresto-distacco"/>
+	<label commandName="SimNastran_BSCONP_FT" devLabel="Weld Failure Theory" translation="Teoria dell'errore di saldatura"/>
+	<label commandName="SimNastran_BSCONP_MAR" devLabel="Maximum Allowable Adjustment Ratio" translation="Rapporto di regolazione massimo consentito"/>
+	<label commandName="SimNastran_BSCONP_MAXAD_AutoFlag" devLabel="Automatic Maximum Activation Distance" translation="Distanza di attivazione massima automatica"/>
+	<label commandName="SimNastran_BSCONP_MAXAD_Value" devLabel="Maximum Activation Distance" translation="Distanza di attivazione massima"/>
+	<label commandName="SimNastran_BSCONP_MAXNAD" devLabel="Maximum Normal Activation Distance" translation="Distanza di attivazione normale massima"/>
+	<label commandName="SimNastran_BSCONP_MAXRAD" devLabel="Maximum Radial Activation Distance" translation="Distanza di attivazione radiale massima"/>
+	<label commandName="SimNastran_BSCONP_MU" devLabel="Coefficient of Static Friction" translation="Coefficiente di attrito statico"/>
+	<label commandName="SimNastran_BSCONP_PTYPE_SymmetryFlag" devLabel="Symmetric" translation="Simmetrico"/>
+	<label commandName="SimNastran_BSCONP_SDMAXS" devLabel="Shear Stress (Damage Initiates)" translation="Sollecitazione di taglio (inizio danno)"/>
+	<label commandName="SimNastran_BSCONP_SDMAXT" devLabel="Tensile Stress (Damage Initiates)" translation="Sollecitazione di trazione (inizio danno)"/>
+	<label commandName="SimNastran_BSCONP_SFACT" devLabel="Stiffness Factor" translation="Fattore di rigidità"/>
+	<label commandName="SimNastran_BSCONP_SMAX" devLabel="Maximum Allowable Slip" translation="Scorrimento massimo consentito"/>
+	<label commandName="SimNastran_BSCONP_TMAX" devLabel="Maximum Allowable Penetration" translation="Penetrazione massima consentita"/>
+	<label commandName="SimNastran_BSCONP_TRMIN" devLabel="Allowable Penetration Lower Bound Ratio" translation="Rapporto limite inferiore di penetrazione consentito"/>
+	<label commandName="SimNastran_BSCONP_UDINITS" devLabel="Tangential Slip (Damage Initiates)" translation="Scorrimento tangenziale (inizio danno)"/>
+	<label commandName="SimNastran_BSCONP_UDINITT" devLabel="Separation Normal (Damage Initiates)" translation="Separazione normale (inizio danno)"/>
+	<label commandName="SimNastran_BSCONP_UDMAXS" devLabel="Tangential Slip (Complete Failure)" translation="Scorrimento tangenziale (errore completo)"/>
+	<label commandName="SimNastran_BSCONP_UDMAXT" devLabel="Separation Normal (Complete Failure)" translation="Separazione normale (errore completo)"/>
+	<label commandName="SimNastran_BSCONP_W0" devLabel="Penetration Surface Offset" translation="Offset superficie di penetrazione"/>
+	<label commandName="SimNastran_CONTACTGENERATE_FSTIF" devLabel="Frictional Stiffness for Stick" translation="Rigidità attrito per arresto-distacco"/>
+	<label commandName="SimNastran_CONTACTGENERATE_MAXAD" devLabel="Maximum Activation Distance" translation="Distanza di attivazione massima"/>
+	<label commandName="SimNastran_CONTACTGENERATE_MU" devLabel="Coefficient of Static Friction" translation="Coefficiente di attrito statico"/>
+	<label commandName="SimNastran_CONTACTGENERATE_SFACT" devLabel="Stiffness Factor" translation="Fattore di rigidità"/>
+	<label commandName="SimNastran_CONTACTGENERATE_TMAX" devLabel="Maximum Allowable Penetration" translation="Penetrazione massima consentita"/>
+	<label commandName="SimNastran_CONTACTGENERATE_W0" devLabel="Penetration Surface Offset" translation="Offset superficie di penetrazione"/>
+	<label commandName="SimNoInformation" devLabel="No further information." translation="Nessuna ulteriore informazione."/>
+	<label commandName="SimNoRemoveRigidBodyModes" devLabel="To be able to define forces in equilibrium, use option Remove Rigid Body Modes." translation="Per definire forze in equilibrio, utilizzare l'opzione Rimuovi modalità corpo rigido."/>
+	<label commandName="SimNoSimFatigueCaseNotSpecified" devLabel="No simulation fatigue case is specified" translation="Nessun caso di simulazione a fatica specificato"/>
+	<label commandName="SimNoStructuralConstraintDefined" devLabel="Cannot solve: No structural constraint defined." translation="Risoluzione impossibile: nessun vincolo strutturale definito."/>
+	<label commandName="SimNoStructuralConstraintDefinedWarning" devLabel="Warning: No structural constraint defined." translation="Avvertimento: nessun vincolo strutturale definito."/>
+	<label commandName="SimNoStructuralConstraintInLoadCase" devLabel="Warning: No structural constraint defined in load case &quot;%1%&quot;." translation="Avvertimento: nessun vincolo strutturale definito nella condizione di carico &quot;%1%&quot;."/>
+	<label commandName="SimNoStructuralConstraintInLoadCaseError" devLabel="Cannot solve: No structural constraint defined in load case &quot;%1%&quot;." translation="Risoluzione impossibile: nessun vincolo strutturale definito nella condizione di carico &quot;%1%&quot;."/>
+	<label commandName="SimNoStructuralConstraintInLoadCaseWarning" devLabel="Warning: No structural constraint defined in load case &quot;%1%&quot;." translation="Avvertimento: nessun vincolo strutturale definito nella condizione di carico &quot;%1%&quot;."/>
+	<label commandName="SimNormalXXResult" devLabel="Normal XX" translation="Perpendicolare XX"/>
+	<label commandName="SimNormalYYResult" devLabel="Normal YY" translation="Perpendicolare YY"/>
+	<label commandName="SimNormalZZResult" devLabel="Normal ZZ" translation="Perpendicolare ZZ"/>
+	<label commandName="SimNotEnoughStructuralConstraintsDefined" devLabel="Warning: Not enough structural constraints defined." translation="Avvertimento: non sono stati definiti vincoli strutturali sufficienti."/>
+	<label commandName="SimNotEnoughStructuralConstraintsInLoadCase" devLabel="Warning: Not enough structural constraints defined in load case &quot;%1%&quot;." translation="Avvertimento: numero insufficiente di vincoli strutturali definiti nella condizione di carico &quot;%1%&quot;."/>
+	<label commandName="SimNumberOfIterationVector" devLabel="Number of Iteration Vectors" translation="Numero di vettori di iterazione"/>
+	<label commandName="SimNumberOfModes" devLabel="Number of Modes" translation="Numero di modi"/>
+	<label commandName="SimNumberOfSteps" devLabel="Number of Steps" translation="Numero di passi"/>
+	<label commandName="SimOptimizationPreserveLCEntityRequestNoSettings" devLabel="No applicable settings found" translation="Nessuna impostazione applicabile trovata"/>
+	<label commandName="SimOptimizationPreserveLCEntityRequestNoSimCase" devLabel="No active simulation study" translation="Nessuno studio di simulazione attivo"/>
+	<label commandName="SimOutOfMemory" devLabel="Out of memory." translation="Memoria insufficiente."/>
+	<label commandName="SimPartiallyConstrainedGroups" devLabel="Warning: Model contains %1% only partially constrained group(s) in load case &quot;%2%&quot;." translation="Avvertimento: il modello contiene %1% gruppi parzialmente vincolati nella condizione di carico &quot;%2%&quot;."/>
+	<label commandName="SimPartiallyFixed" devLabel="Partially Fixed" translation="Parzialmente vincolato"/>
+	<label commandName="SimPhase" devLabel="Phase: %1%" translation="Fase: %1%"/>
+	<label commandName="SimPotentiallyFixed" devLabel="Potentially Fixed" translation="Potenzialmente vincolato"/>
+	<label commandName="SimPotentiallyMissingContacts" devLabel="Warning: Model contains %1% groups in load case &quot;%2%&quot;. Some contacts may be missing or they could be out of automatic contact detection tolerance. Use the Groups View command to visualize the separate groups of components." translation="Avvertimento: il modello contiene %1% gruppi nella condizione di carico &quot;%2%&quot;. Potrebbero mancare alcuni contatti oppure potrebbero essere al di fuori della tolleranza di rilevamento automatico dei contatti. Utilizzare il comando Vista gruppi per visualizzare i gruppi di componenti separati."/>
+	<label commandName="SimPotentiallyUnconstrainedGroups" devLabel="Warning: Model contains %1% group(s) which may not be fully constrained in load case &quot;%2%&quot;." translation="Avvertimento: il modello contiene %1% gruppi che potrebbero non essere completamente vincolati nella condizione di carico &quot;%2%&quot;."/>
+	<label commandName="SimPreMeshProcess" devLabel="Pre-mesh process." translation="Processo di pre-generazione della mesh."/>
+	<label commandName="SimReactionForceResult" devLabel="Reaction Force" translation="Forza di reazione"/>
+	<label commandName="SimReferenceTemperature" devLabel="Reference Temperature" translation="Temperatura di riferimento"/>
+	<label commandName="SimReportAbsoluteElementSize" devLabel="Average Element Size (absolute value)" translation="Dimensione media elemento (valore assoluto)"/>
+	<label commandName="SimReportAmbientTemperature" devLabel="Ambient Temperature" translation="Temperatura ambiente"/>
+	<label commandName="SimReportAngularBodyLoadAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
+	<label commandName="SimReportAngularBodyLoadVelocity" devLabel="Velocity" translation="Velocità"/>
+	<label commandName="SimReportAverageElementSize" devLabel="Average Element Size (% of model size)" translation="Dimensione media dell'elemento (% delle dimensioni del modello)"/>
+	<label commandName="SimReportBodyLoadMagnitude" devLabel="Magnitude" translation="Intensità"/>
+	<label commandName="SimReportBodyLoadPositionX" devLabel="X Distance" translation="Distanza X"/>
+	<label commandName="SimReportBodyLoadPositionY" devLabel="Y Distance" translation="Distanza Y"/>
+	<label commandName="SimReportBodyLoadPositionZ" devLabel="Z Distance" translation="Distanza Z"/>
+	<label commandName="SimReportBodyLoadXAngle" devLabel="X Angle" translation="Angolo X"/>
+	<label commandName="SimReportBodyLoadXValue" devLabel="X Value" translation="Valore X"/>
+	<label commandName="SimReportBodyLoadYAngle" devLabel="Y Angle" translation="Angolo Y"/>
+	<label commandName="SimReportBodyLoadYValue" devLabel="Y Value" translation="Valore Y"/>
+	<label commandName="SimReportBodyLoadZAngle" devLabel="Z Angle" translation="Angolo Z"/>
+	<label commandName="SimReportBodyLoadZValue" devLabel="Z Value" translation="Valore Z"/>
+	<label commandName="SimReportBodyName" devLabel="Body Name" translation="Nome corpo"/>
+	<label commandName="SimReportBoltConnectorAxial" devLabel="Axial" translation="Assiale"/>
+	<label commandName="SimReportBoltConnectorBoltLength" devLabel="Bolt Length" translation="Lunghezza bullone"/>
+	<label commandName="SimReportBoltConnectorDensity" devLabel="Density" translation="Densità"/>
+	<label commandName="SimReportBoltConnectorDiameter" devLabel="Bolt Diameter" translation="Diametro bullone"/>
+	<label commandName="SimReportBoltConnectorElasticModulus" devLabel="Elastic Modulus" translation="Modulo elastico"/>
+	<label commandName="SimReportBoltConnectorHeadWasher" devLabel="Head Washer" translation="Rondella testa"/>
+	<label commandName="SimReportBoltConnectorHeadWasherHeight" devLabel="Head Washer Height" translation="Altezza rondella testa"/>
+	<label commandName="SimReportBoltConnectorMaterial" devLabel="Material" translation="Materiale"/>
+	<label commandName="SimReportBoltConnectorMaterialCustom" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="SimReportBoltConnectorNutWasher" devLabel="Nut Washer" translation="Rondella dado"/>
+	<label commandName="SimReportBoltConnectorNutWasherHeight" devLabel="Nut Washer Height" translation="Altezza rondella dado"/>
+	<label commandName="SimReportBoltConnectorPoissonsRatio" devLabel="Poisson's Ratio" translation="Coefficiente di Poisson"/>
+	<label commandName="SimReportBoltConnectorPreloadType" devLabel="Preload type" translation="Tipo di precarico"/>
+	<label commandName="SimReportBoltConnectorSubType" devLabel="Bolt Subtype" translation="Sottotipo bullone"/>
+	<label commandName="SimReportBoltConnectorThermalExpansionCoeff" devLabel="Thermal Expansion Coefficient" translation="Coefficiente di dilatazione termica"/>
+	<label commandName="SimReportBoltConnectorThreadedHole" devLabel="Threaded Hole" translation="Foro filettato"/>
+	<label commandName="SimReportBoltConnectorTorque" devLabel="Torque" translation="Coppia"/>
+	<label commandName="SimReportBoltConnectorTorqueCoefficient" devLabel="Torque Coefficient" translation="Coefficiente di coppia"/>
+	<label commandName="SimReportBoltConnectorUsableThreadLength" devLabel="Usable Thread Length" translation="Lunghezza di filettatura utilizzabile"/>
+	<label commandName="SimReportBoltConnectorWithNut" devLabel="With Nut" translation="Con dado"/>
+	<label commandName="SimReportCalculationOptions" devLabel="Calculation Options" translation="Opzioni di calcolo"/>
+	<label commandName="SimReportComponent" devLabel="Component" translation="Componente"/>
+	<label commandName="SimReportComponentX" devLabel="Component X" translation="Componente X"/>
+	<label commandName="SimReportComponentY" devLabel="Component Y" translation="Componente Y"/>
+	<label commandName="SimReportComponentZ" devLabel="Component Z" translation="Componente Z"/>
+	<label commandName="SimReportComponents" devLabel="Components" translation="Componenti"/>
+	<label commandName="SimReportConnectorDirRx" devLabel="Rx" translation="Rx"/>
+	<label commandName="SimReportConnectorDirRy" devLabel="Ry" translation="Ry"/>
+	<label commandName="SimReportConnectorDirRz" devLabel="Rz" translation="Rz"/>
+	<label commandName="SimReportConnectorDirUx" devLabel="Ux" translation="Ux"/>
+	<label commandName="SimReportConnectorDirUy" devLabel="Uy" translation="Uy"/>
+	<label commandName="SimReportConnectorDirUz" devLabel="Uz" translation="Uz"/>
+	<label commandName="SimReportConnectorSubType" devLabel="Subtype" translation="Sottotipo"/>
+	<label commandName="SimReportConnectorSubTypeInterpolation" devLabel="Interpolation" translation="Interpolazione"/>
+	<label commandName="SimReportConnectorSubTypeRigidBody" devLabel="Rigid Body" translation="Corpo rigido"/>
+	<label commandName="SimReportConnectorType" devLabel="Type" translation="Tipo"/>
+	<label commandName="SimReportConnectors" devLabel="Connectors" translation="Connettori"/>
+	<label commandName="SimReportConstrDirAxial" devLabel="Axial" translation="Assiale"/>
+	<label commandName="SimReportConstrDirRadial" devLabel="Radial" translation="Radiale"/>
+	<label commandName="SimReportConstrDirRx" devLabel="Rx" translation="Rx"/>
+	<label commandName="SimReportConstrDirRy" devLabel="Ry" translation="Ry"/>
+	<label commandName="SimReportConstrDirRz" devLabel="Rz" translation="Rz"/>
+	<label commandName="SimReportConstrDirTangential" devLabel="Tangential" translation="Tangenziale"/>
+	<label commandName="SimReportConstrDirUx" devLabel="Ux" translation="Ux"/>
+	<label commandName="SimReportConstrDirUy" devLabel="Uy" translation="Uy"/>
+	<label commandName="SimReportConstrDirUz" devLabel="Uz" translation="Uz"/>
+	<label commandName="SimReportConstraintDisplacementX" devLabel="Displacement X" translation="Spostamento X"/>
+	<label commandName="SimReportConstraintDisplacementY" devLabel="Displacement Y" translation="Spostamento Y"/>
+	<label commandName="SimReportConstraintDisplacementZ" devLabel="Displacement Z" translation="Spostamento Z"/>
+	<label commandName="SimReportConstraintName" devLabel="Constraint Name" translation="Nome vincolo"/>
+	<label commandName="SimReportConstraintRotationX" devLabel="Rotation X" translation="Rotazione X"/>
+	<label commandName="SimReportConstraintRotationY" devLabel="Rotation Y" translation="Rotazione Y"/>
+	<label commandName="SimReportConstraintRotationZ" devLabel="Rotation Z" translation="Rotazione Z"/>
+	<label commandName="SimReportConstraintTransientPrescribedAccelerationX" devLabel="Prescribed Acceleration X" translation="Accelerazione imposta X"/>
+	<label commandName="SimReportConstraintTransientPrescribedAccelerationY" devLabel="Prescribed Acceleration Y" translation="Accelerazione imposta Y"/>
+	<label commandName="SimReportConstraintTransientPrescribedAccelerationZ" devLabel="Prescribed Acceleration Z" translation="Accelerazione imposta Z"/>
+	<label commandName="SimReportConstraintTransientPrescribedAngleX" devLabel="Prescribed Angle X" translation="Angolo imposto X"/>
+	<label commandName="SimReportConstraintTransientPrescribedAngleY" devLabel="Prescribed Angle Y" translation="Angolo imposto Y"/>
+	<label commandName="SimReportConstraintTransientPrescribedAngleZ" devLabel="Prescribed Angle Z" translation="Angolo imposto Z"/>
+	<label commandName="SimReportConstraintTransientPrescribedDisplacementX" devLabel="Prescribed Displacement X" translation="Spostamento imposto X"/>
+	<label commandName="SimReportConstraintTransientPrescribedDisplacementY" devLabel="Prescribed Displacement Y" translation="Spostamento imposto Y"/>
+	<label commandName="SimReportConstraintTransientPrescribedDisplacementZ" devLabel="Prescribed Displacement Z" translation="Spostamento imposto Z"/>
+	<label commandName="SimReportConstraintTransientPrescribedRotationalAccelerationX" devLabel="Prescribed Rotational Acceleration X" translation="Accelerazione rotazionale imposta X"/>
+	<label commandName="SimReportConstraintTransientPrescribedRotationalAccelerationY" devLabel="Prescribed Rotational Acceleration Y" translation="Accelerazione rotazionale imposta Y"/>
+	<label commandName="SimReportConstraintTransientPrescribedRotationalAccelerationZ" devLabel="Prescribed Rotational Acceleration Z" translation="Accelerazione rotazionale imposta Z"/>
+	<label commandName="SimReportConstraintTransientPrescribedRotationalVelocityX" devLabel="Prescribed Rotational Velocity X" translation="Velocità rotazionale imposta X"/>
+	<label commandName="SimReportConstraintTransientPrescribedRotationalVelocityY" devLabel="Prescribed Rotational Velocity Y" translation="Velocità rotazionale imposta Y"/>
+	<label commandName="SimReportConstraintTransientPrescribedRotationalVelocityZ" devLabel="Prescribed Rotational Velocity Z" translation="Velocità rotazionale imposta Z"/>
+	<label commandName="SimReportConstraintTransientPrescribedVelocityX" devLabel="Prescribed Velocity X" translation="Velocità imposta X"/>
+	<label commandName="SimReportConstraintTransientPrescribedVelocityY" devLabel="Prescribed Velocity Y" translation="Velocità imposta Y"/>
+	<label commandName="SimReportConstraintTransientPrescribedVelocityZ" devLabel="Prescribed Velocity Z" translation="Velocità imposta Z"/>
+	<label commandName="SimReportConstraintType" devLabel="Type" translation="Tipo"/>
+	<label commandName="SimReportConstraints" devLabel="Constraints" translation="Vincoli"/>
+	<label commandName="SimReportContactTolerance" devLabel="Contact Tolerance" translation="Tolleranza dei contatti"/>
+	<label commandName="SimReportContacts" devLabel="Contacts" translation="Contatti"/>
+	<label commandName="SimReportConvectionValue" devLabel="Convection Value" translation="Valore di convezione"/>
+	<label commandName="SimReportConvergenceSettings" devLabel="Adaptive Mesh Refinement" translation="Affinamento mesh adattiva"/>
+	<label commandName="SimReportCurvedMeshElements" devLabel="Create Curved Mesh Elements" translation="Crea elementi mesh curvi"/>
+	<label commandName="SimReportDampingSettings" devLabel="Damping" translation="Smorzamento"/>
+	<label commandName="SimReportDisplacementType" devLabel="Displacement Type" translation="Tipo di spostamento"/>
+	<label commandName="SimReportDropHeight" devLabel="Drop Height" translation="Altezza caduta"/>
+	<label commandName="SimReportElementDeltions" devLabel="Element Deletion Criteria" translation="Criteri di eliminazione elementi"/>
+	<label commandName="SimReportElementOrder" devLabel="Element Order" translation="Ordine di elementi"/>
+	<label commandName="SimReportEmissivityValue" devLabel="Emissivity Value" translation="Valore di emissività"/>
+	<label commandName="SimReportExplicitEventDuration" devLabel="Total Event Duration" translation="Durata totale evento"/>
+	<label commandName="SimReportExplicitHeartbeatIntervals" devLabel="Solve Status Information Interval (Heartbeat)" translation="Intervallo informazioni sullo stato risoluzione (Heartbeat)"/>
+	<label commandName="SimReportExplicitIntermediateResultsUpdate" devLabel="Intermediate Results Update" translation="Aggiornamento dei risultati intermedi"/>
+	<label commandName="SimReportExplicitIntervalsPerStepNumber" devLabel="Number of Result Intervals per Step" translation="Numero di intervalli risultati per passo"/>
+	<label commandName="SimReportExplicitMassProportionalAlpha" devLabel="Mass Proportional, Alpha" translation="Massa proporzionale, Alfa"/>
+	<label commandName="SimReportExplicitMovement" devLabel="Movement" translation="Movimento"/>
+	<label commandName="SimReportExplicitQuasiSteps" devLabel="Number of Steps" translation="Numero di passi"/>
+	<label commandName="SimReportExplicitRayleighDamping" devLabel="Rayleigh Damping" translation="Smorzamento di Rayleigh"/>
+	<label commandName="SimReportExplicitResultIntervals" devLabel="Number of Result Intervals" translation="Numero di intervalli risultati"/>
+	<label commandName="SimReportExplicitSolverDynamic" devLabel="Dynamic (considers inertia)" translation="Dinamico (considera inerzia)"/>
+	<label commandName="SimReportExplicitSolverStatic" devLabel="Quasi-static (no inertia)" translation="Quasi-statico (senza inerzia)"/>
+	<label commandName="SimReportExplicitStiffnessProportionalBeta" devLabel="Stiffness Proportional, Beta" translation="Rigidità proporzionale, beta"/>
+	<label commandName="SimReportFatigueCases" devLabel="Fatigue Cases" translation="Casi di fatica"/>
+	<label commandName="SimReportFatigueCycleHistory" devLabel="Cycle History" translation="Cronologia dei cicli"/>
+	<label commandName="SimReportFatigueLifeFactors" devLabel="Fatigue Life Factors" translation="Fattori di durata a fatica"/>
+	<label commandName="SimReportFluidDensity" devLabel="Fluid Density" translation="Densità del fluido"/>
+	<label commandName="SimReportFluidType" devLabel="Fluid Type" translation="Tipo di fluido"/>
+	<label commandName="SimReportGeneralSettings" devLabel="General" translation="Generale"/>
+	<label commandName="SimReportGlobalInitialTemperature" devLabel="Global Initial Temperature" translation="Temperatura iniziale globale"/>
+	<label commandName="SimReportGradingFactor" devLabel="Max. Adjacent Mesh Size Ratio" translation="Rapporto dimensioni mesh adiacenti massimo"/>
+	<label commandName="SimReportGraph" devLabel="Graph" translation="Grafico"/>
+	<label commandName="SimReportGravityX" devLabel="X Value" translation="Valore X"/>
+	<label commandName="SimReportGravityY" devLabel="Y Value" translation="Valore Y"/>
+	<label commandName="SimReportGravityZ" devLabel="Z Value" translation="Valore Z"/>
+	<label commandName="SimReportGridView" devLabel="Grid View" translation="Vista griglia"/>
+	<label commandName="SimReportGuidedResults" devLabel="Guided Results" translation="Risultati guidati"/>
+	<label commandName="SimReportHarmonicPhase" devLabel="Phase" translation="Fase"/>
+	<label commandName="SimReportHeatConductance" devLabel="Heat Conductance" translation="Conduttanza termica"/>
+	<label commandName="SimReportIdealizationType" devLabel="Type" translation="Tipo"/>
+	<label commandName="SimReportInitialTemperature" devLabel="Initial Temperature" translation="Temperatura iniziale"/>
+	<label commandName="SimReportInputStudies" devLabel="Input Studies" translation="Studi di input"/>
+	<label commandName="SimReportInternalHeatValue" devLabel="Internal Heat Value" translation="Valore calore interno"/>
+	<label commandName="SimReportIsSteel" devLabel="Steel" translation="Acciaio"/>
+	<label commandName="SimReportItemDisplaced" devLabel="Displaced" translation="Spostato"/>
+	<label commandName="SimReportItemDisplacement" devLabel="Displacement Vector" translation="Vettore di spostamento"/>
+	<label commandName="SimReportItemUndisplaced" devLabel="Undisplaced" translation="Non spostato"/>
+	<label commandName="SimReportLastModificationDate" devLabel="Last Modification Date" translation="Data ultima modifica"/>
+	<label commandName="SimReportLastSolveDate" devLabel="Last Solve Date" translation="Data ultima risoluzione"/>
+	<label commandName="SimReportLimitedAreaRadius" devLabel="Radius" translation="Raggio"/>
+	<label commandName="SimReportLinearBodyLoadAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
+	<label commandName="SimReportLinearBodyLoadVelocity" devLabel="Velocity" translation="Velocità"/>
+	<label commandName="SimReportLoadAAngle" devLabel="A Angle" translation="Angolo A"/>
+	<label commandName="SimReportLoadAmbientTemperatureCurve" devLabel="Ambient Temperature Curve" translation="Curva di temperatura ambiente"/>
+	<label commandName="SimReportLoadConvectionCurve" devLabel="Convection Curve" translation="Curva di convezione"/>
+	<label commandName="SimReportLoadEmissivityCurve" devLabel="Emissivity Curve" translation="Curva di emissività"/>
+	<label commandName="SimReportLoadFlipDirection" devLabel="Flip Direction" translation="Inverti direzione"/>
+	<label commandName="SimReportLoadInternalHeatCurve" devLabel="Internal Heat Curve" translation="Curva di calore interno"/>
+	<label commandName="SimReportLoadMagnitude" devLabel="Magnitude" translation="Intensità"/>
+	<label commandName="SimReportLoadMagnitudeCurve" devLabel="Magnitude Curve" translation="Curva di intensità"/>
+	<label commandName="SimReportLoadMultiplierCurve" devLabel="Multiplier Curve" translation="Curva del moltiplicatore"/>
+	<label commandName="SimReportLoadPerEntity" devLabel="Force Per Entity" translation="Forza per entità"/>
+	<label commandName="SimReportLoadPositionX" devLabel="Position X" translation="Posizione X"/>
+	<label commandName="SimReportLoadPositionY" devLabel="Position Y" translation="Posizione Y"/>
+	<label commandName="SimReportLoadPositionZ" devLabel="Position Z" translation="Posizione Z"/>
+	<label commandName="SimReportLoadSurfaceHeatCurve" devLabel="Heat Source Curve" translation="Curva fonte di calore"/>
+	<label commandName="SimReportLoadTemperatureCurve" devLabel="Temperature Curve" translation="Curva temperatura"/>
+	<label commandName="SimReportLoadType" devLabel="Type" translation="Tipo"/>
+	<label commandName="SimReportLoadX" devLabel="X Value" translation="Valore X"/>
+	<label commandName="SimReportLoadXAngle" devLabel="X Angle" translation="Angolo X"/>
+	<label commandName="SimReportLoadY" devLabel="Y Value" translation="Valore Y"/>
+	<label commandName="SimReportLoadYAngle" devLabel="Y Angle" translation="Angolo Y"/>
+	<label commandName="SimReportLoadZ" devLabel="Z Value" translation="Valore Z"/>
+	<label commandName="SimReportLoadZAngle" devLabel="Z Angle" translation="Angolo Z"/>
+	<label commandName="SimReportLoads" devLabel="Loads" translation="Carichi"/>
+	<label commandName="SimReportMagnitude" devLabel="Magnitude" translation="Intensità"/>
+	<label commandName="SimReportMass" devLabel="Mass" translation="Massa"/>
+	<label commandName="SimReportMassXDistance" devLabel="X Distance" translation="Distanza X"/>
+	<label commandName="SimReportMassYDistance" devLabel="Y Distance" translation="Distanza Y"/>
+	<label commandName="SimReportMassZDistance" devLabel="Z Distance" translation="Distanza Z"/>
+	<label commandName="SimReportMaterial" devLabel="Material" translation="Materiale"/>
+	<label commandName="SimReportMaterials" devLabel="Materials" translation="Materiali"/>
+	<label commandName="SimReportMaxAspectRatio" devLabel="Max. Aspect Ratio" translation="Proporzione max"/>
+	<label commandName="SimReportMaxNumberOfRefinementSteps" devLabel="Number of Refinement Steps" translation="Numero di passi di affinamento"/>
+	<label commandName="SimReportMaxTurnAngle" devLabel="Max. Turn Angle on Curves (Deg.)" translation="Angolo di rotazione massimo sulle curve (gradi)"/>
+	<label commandName="SimReportMeshElements" devLabel="Elements" translation="Elementi"/>
+	<label commandName="SimReportMeshNodes" devLabel="Nodes" translation="Nodi"/>
+	<label commandName="SimReportMeshRefinementElementSize" devLabel="Element Size" translation="Dimensione elemento"/>
+	<label commandName="SimReportMeshRefinementMultiplier" devLabel="Multiplier" translation="Moltiplicatore"/>
+	<label commandName="SimReportMeshSettings" devLabel="Mesh" translation="Mesh"/>
+	<label commandName="SimReportMeshType" devLabel="Type" translation="Tipo"/>
+	<label commandName="SimReportMinElementSize" devLabel="Minimum Element Size (% of average size)" translation="Dimensione minima dell'elemento (% della dimensione media)"/>
+	<label commandName="SimReportName" devLabel="Name" translation="Nome"/>
+	<label commandName="SimReportNextSteps" devLabel="Next Steps" translation="Passaggi successivi"/>
+	<label commandName="SimReportOffsetDistance" devLabel="Offset Distance" translation="Distanza di offset"/>
+	<label commandName="SimReportOutputInterval" devLabel="Output Interval" translation="Intervallo di output"/>
+	<label commandName="SimReportOutputIntervalType" devLabel="Output Interval Type" translation="Tipo di intervallo dell'output"/>
+	<label commandName="SimReportOutputOptions" devLabel="Output Options" translation="Opzioni di output"/>
+	<label commandName="SimReportPartBasedMeasure" devLabel="Scale Mesh Size Per Part" translation="Scala dimensione mesh per parte"/>
+	<label commandName="SimReportParticipationX" devLabel="Participation X" translation="Partecipazione X"/>
+	<label commandName="SimReportParticipationY" devLabel="Participation Y" translation="Partecipazione Y"/>
+	<label commandName="SimReportParticipationZ" devLabel="Participation Z" translation="Partecipazione Z"/>
+	<label commandName="SimReportPointMassAuto" devLabel="Point Mass (Auto)" translation="Punto massa (Automatico)"/>
+	<label commandName="SimReportPointMassManual" devLabel="Point Mass (Manual)" translation="Punto massa (manuale)"/>
+	<label commandName="SimReportPointMasses" devLabel="Point Masses" translation="Punti massa"/>
+	<label commandName="SimReportPortionOfElementsToRefine" devLabel="Portion of Elements to Refine (%)" translation="Parte di elementi da affinare (%)"/>
+	<label commandName="SimReportPreservedBoundaries" devLabel="Preserved Boundaries" translation="Contorni mantenuti"/>
+	<label commandName="SimReportProblemEndTime" devLabel="Problem End Time" translation="Tempo finale del problema"/>
+	<label commandName="SimReportProperties" devLabel="Properties" translation="Proprietà"/>
+	<label commandName="SimReportRFComponent" devLabel="Component (X,Y,Z)" translation="Componente (X,Y,Z)"/>
+	<label commandName="SimReportRFConstraintName" devLabel="Constraint Name" translation="Nome vincolo"/>
+	<label commandName="SimReportRFMagnitude" devLabel="Magnitude" translation="Intensità"/>
+	<label commandName="SimReportRTSSDirectionAngle" devLabel="Angle" translation="Angolo"/>
+	<label commandName="SimReportRTSSDirectionImpactPoint" devLabel="Impact Point" translation="Punto di impatto"/>
+	<label commandName="SimReportRTSSDirectionReference" devLabel="Reference" translation="Riferimento"/>
+	<label commandName="SimReportRTSSFloor" devLabel="Floor" translation="Pavimento"/>
+	<label commandName="SimReportRTSSFloorView" devLabel="View" translation="Visualizza"/>
+	<label commandName="SimReportRTSSGravityMagnitude" devLabel="Gravity Magnitude" translation="Intensità della gravità"/>
+	<label commandName="SimReportRTSSInitialVelocity" devLabel="Initial Velocity Magnitude" translation="Intensità della velocità iniziale"/>
+	<label commandName="SimReportRTSSMaterial" devLabel="Material" translation="Materiale"/>
+	<label commandName="SimReportRTSSMaterialCustom" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="SimReportRTSSMaterialDensity" devLabel="Mass per Unit Area" translation="Massa per unità d'area"/>
+	<label commandName="SimReportRTSSMaterialFrictionCoefficient" devLabel="Friction Coefficient" translation="Coefficiente di attrito"/>
+	<label commandName="SimReportRTSSMaterialRigid" devLabel="Rigid" translation="Rigido"/>
+	<label commandName="SimReportRTSSMaterialThickness" devLabel="Thickness" translation="Spessore"/>
+	<label commandName="SimReportRTSSPlaneLeftAngle" devLabel="Left Angle" translation="Angolo sinistro"/>
+	<label commandName="SimReportRTSSPlaneLeftDistance" devLabel="Left Distance" translation="Distanza sinistra"/>
+	<label commandName="SimReportRTSSPlanePlanar" devLabel="Planar" translation="Piano"/>
+	<label commandName="SimReportRTSSPlaneRightAngle" devLabel="Right Angle" translation="Angolo destro"/>
+	<label commandName="SimReportRTSSPlaneRightDistance" devLabel="Right Distance" translation="Distanza destra"/>
+	<label commandName="SimReportRTSSPlaneThreeSegment" devLabel="Three Segment" translation="Tre segmenti"/>
+	<label commandName="SimReportRTSSPlaneType" devLabel="Type" translation="Tipo"/>
+	<label commandName="SimReportRTSSPosition" devLabel="Position" translation="Posizione"/>
+	<label commandName="SimReportRTSSPositionDirectionType" devLabel="Direction Type" translation="Tipo di direzione"/>
+	<label commandName="SimReportRTSSStiffness" devLabel="Stiffness" translation="Rigidità"/>
+	<label commandName="SimReportRTSSVelocity" devLabel="Velocity" translation="Velocità"/>
+	<label commandName="SimReportReactionForce" devLabel="Reaction Force" translation="Forza di reazione"/>
+	<label commandName="SimReportReactionForces" devLabel="Reaction Forces" translation="Forze di reazione"/>
+	<label commandName="SimReportReactionMoment" devLabel="Reaction Moment" translation="Momento di reazione"/>
+	<label commandName="SimReportReactionType" devLabel="Reaction Type" translation="Tipo di reazione"/>
+	<label commandName="SimReportRemoveRigidBodyModes" devLabel="Remove Rigid Body Modes" translation="Rimuovi modalità corpo rigido"/>
+	<label commandName="SimReportResultBoundaryBox" devLabel="Box" translation="Parallelepipedo"/>
+	<label commandName="SimReportResultBoundaryCentroid" devLabel="Centroid of Region" translation="Centroide dell'area"/>
+	<label commandName="SimReportResultBoundaryCentroidX" devLabel="X: " translation="X: "/>
+	<label commandName="SimReportResultBoundaryCentroidY" devLabel="Y: " translation="Y: "/>
+	<label commandName="SimReportResultBoundaryCentroidZ" devLabel="Z: " translation="Z: "/>
+	<label commandName="SimReportResultBoundaryCylinder" devLabel="Cylinder" translation="Cilindro"/>
+	<label commandName="SimReportResultBoundaryRadius" devLabel="Radius: " translation="Raggio: "/>
+	<label commandName="SimReportResultBoundaryShape" devLabel="Boundary Shape" translation="Forma contorno"/>
+	<label commandName="SimReportResultBoundarySize" devLabel="Boundary Size" translation="Dimensioni contorno"/>
+	<label commandName="SimReportResultBoundarySizeX" devLabel="X: " translation="X: "/>
+	<label commandName="SimReportResultBoundarySizeY" devLabel="Y: " translation="Y: "/>
+	<label commandName="SimReportResultBoundarySizeZ" devLabel="Z: " translation="Z: "/>
+	<label commandName="SimReportResultBoundarySphere" devLabel="Sphere" translation="Sfera"/>
+	<label commandName="SimReportResultExpression" devLabel="Expression" translation="Espressione"/>
+	<label commandName="SimReportResultMax" devLabel="Maximum" translation="Massimo"/>
+	<label commandName="SimReportResultMin" devLabel="Minimum" translation="Minimo"/>
+	<label commandName="SimReportResultName" devLabel="Name" translation="Nome"/>
+	<label commandName="SimReportResultParameter" devLabel="Parameter" translation="Parametro"/>
+	<label commandName="SimReportResultSPState" devLabel="State" translation="Stato"/>
+	<label commandName="SimReportResultSummary" devLabel="Result Summary" translation="Riepilogo risultati"/>
+	<label commandName="SimReportResultSymmetryPlane" devLabel="Symmetry Plane" translation="Piano di simmetria"/>
+	<label commandName="SimReportResultSymmetryPlane1" devLabel="Plane 1" translation="Piano 1"/>
+	<label commandName="SimReportResultSymmetryPlane2" devLabel="Plane 2" translation="Piano 2"/>
+	<label commandName="SimReportResultSymmetryPlane3" devLabel="Plane 3" translation="Piano 3"/>
+	<label commandName="SimReportResultSymmetryPlaneActive" devLabel="Active" translation="Attivo"/>
+	<label commandName="SimReportResultSymmetryPlaneInactive" devLabel="Inactive" translation="Inattivo"/>
+	<label commandName="SimReportResultType" devLabel="Result type" translation="Tipo di risultato"/>
+	<label commandName="SimReportResultValue" devLabel="Value" translation="Valore"/>
+	<label commandName="SimReportResults" devLabel="Results" translation="Risultati"/>
+	<label commandName="SimReportResultsToConverge" devLabel="Results for Baseline Accuracy" translation="Risultati per la precisione di riferimento"/>
+	<label commandName="SimReportSafetyFactorResult" devLabel="Safety Factor" translation="Fattore di sicurezza"/>
+	<label commandName="SimReportSelectedEntities" devLabel="Selected Entities" translation="Entità selezionate"/>
+	<label commandName="SimReportSettings" devLabel="Settings" translation="Impostazioni"/>
+	<label commandName="SimReportShapeGenerator" devLabel="Shape Optimization" translation="Ottimizzazione delle forme"/>
+	<label commandName="SimReportShellContactTolerance" devLabel="Shell Contact Tolerance (as a multiple of shell thickness)" translation="Tolleranza dei contatti della shell (come multiplo dello spessore della shell)"/>
+	<label commandName="SimReportShells" devLabel="Shells" translation="Svuotamento"/>
+	<label commandName="SimReportSolids" devLabel="Solids" translation="Solidi"/>
+	<label commandName="SimReportStep" devLabel="Step %1%" translation="Fase %1%"/>
+	<label commandName="SimReportStrength" devLabel="Strength" translation="Resistenza"/>
+	<label commandName="SimReportStressFreeTemperatures" devLabel="Stress-free Temperatures (customized only)" translation="Temperature prive di sollecitazioni (solo personalizzate)"/>
+	<label commandName="SimReportStudyProperties" devLabel="Study Properties" translation="Proprietà studio"/>
+	<label commandName="SimReportStudySetp" devLabel="Study Setup" translation="Setup studio"/>
+	<label commandName="SimReportStudyType" devLabel="Study Type" translation="Tipo di studio"/>
+	<label commandName="SimReportSubResult" devLabel="Sub-result" translation="Risultato secondario"/>
+	<label commandName="SimReportSurfaceHeatValue" devLabel="Heat Source Value" translation="Valore fonte di calore"/>
+	<label commandName="SimReportSymmetryPlanes" devLabel="Symmetry Planes" translation="Piani di simmetria"/>
+	<label commandName="SimReportTOCriteria" devLabel="Criteria" translation="Criteri"/>
+	<label commandName="SimReportTOGoals" devLabel="Goals" translation="Obiettivi"/>
+	<label commandName="SimReportTOResultMassAfter" devLabel="Mass after" translation="Massa dopo"/>
+	<label commandName="SimReportTOResultMassBefore" devLabel="Mass before" translation="Massa prima"/>
+	<label commandName="SimReportTOResultMassRatio" devLabel="Mass Ratio" translation="Rapporto massa"/>
+	<label commandName="SimReportTOResultSummary" devLabel="Optimization Summary" translation="Riepilogo dell'ottimizzazione"/>
+	<label commandName="SimReportTargetConvergenceRate" devLabel="Results Convergence Tolerance (%)" translation="Tolleranza di convergenza risultati (%)"/>
+	<label commandName="SimReportTemperatureResult" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimReportUniversalCenterOfMass" devLabel="Universal Center of Mass" translation="Centro di massa universale"/>
+	<label commandName="SimReportValue" devLabel="Value" translation="Valore"/>
+	<label commandName="SimReportXDistance" devLabel="X Distance" translation="Distanza X"/>
+	<label commandName="SimReportYDistance" devLabel="Y Distance" translation="Distanza Y"/>
+	<label commandName="SimReportZDistance" devLabel="Z Distance" translation="Distanza Z"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Unità metriche (SI)"/>
+	<label commandName="SimSelfIntersection" devLabel="Self intersection." translation="Autointersezione."/>
+	<label commandName="SimShearXYResult" devLabel="Shear XY" translation="Taglio XY"/>
+	<label commandName="SimShearXZResult" devLabel="Shear XZ" translation="Taglio XZ"/>
+	<label commandName="SimShearYZResult" devLabel="Shear YZ" translation="Taglio YZ"/>
+	<label commandName="SimSmallFeature" devLabel="Small feature." translation="Lavorazione di piccole dimensioni."/>
+	<label commandName="SimSolidMeshing" devLabel="Solid meshing." translation="Creazione di mesh solide."/>
+	<label commandName="SimSolveMeshErrors" devLabel="Please inspect mesh failures." translation="Controllare gli errori della mesh."/>
+	<label commandName="SimSolveMeshWarning" devLabel="Please inspect mesh hints." translation="Controllare i suggerimenti sulle mesh."/>
+	<label commandName="SimSolverControlOptions" devLabel="Solver Control Options" translation="Opzioni di controllo risolutore"/>
+	<label commandName="SimSolverDataMeshDetails" devLabel="Mesh Details:" translation="Dettagli mesh:"/>
+	<label commandName="SimSolverDataSummary" devLabel="Summary:" translation="Riepilogo:"/>
+	<label commandName="SimStrainResult" devLabel="Strain" translation="Deformazione"/>
+	<label commandName="SimStressResult" devLabel="Stress" translation="Sollecitazione"/>
+	<label commandName="SimStructuralDOF" devLabel="Structural" translation="Strutturale"/>
+	<label commandName="SimStrumSequenceCheck" devLabel="Strum Sequence Check" translation="Controllo sequenza di Strum"/>
+	<label commandName="SimSurfaceMeshing" devLabel="Surface meshing." translation="Creazione della mesh di superficie."/>
+	<label commandName="SimSymmetricPenetrationType" devLabel="Symmetric" translation="Simmetrico"/>
+	<label commandName="SimTSGeneralSettingEnableGravity" devLabel="Enable Gravity" translation="Attiva gravità"/>
+	<label commandName="SimTSGeneralSettingEnableInitialVelocity" devLabel="Enable Initial Velocity" translation="Abilita velocità iniziale"/>
+	<label commandName="SimTSGeneralSettingsEndTime" devLabel="End Time" translation="Ora di fine"/>
+	<label commandName="SimTSGeneralSettingsFrequencyDependent" devLabel="Frequency Dependent" translation="Dipendente dalla frequenza"/>
+	<label commandName="SimTSGeneralSettingsGravityMagnitude" devLabel="Gravity Magnitude" translation="Intensità della gravità"/>
+	<label commandName="SimTSGeneralSettingsIntialVelocityMagnitude" devLabel="Initial Velocity Magnitude" translation="Intensità della velocità iniziale"/>
+	<label commandName="SimTSGeneralSettingsMassFactor" devLabel="Mass Factor" translation="Fattore di massa"/>
+	<label commandName="SimTSGeneralSettingsModalDampingFactor" devLabel="Modal Damping Factor" translation="Fattore di smorzamento modale"/>
+	<label commandName="SimTSGeneralSettingsStiffnessFactor" devLabel="Stiffness Factor" translation="Fattore di rigidità"/>
+	<label commandName="SimTemperature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimThermalDOF" devLabel="Thermal" translation="Termico"/>
+	<label commandName="SimThermalGradientResult" devLabel="Thermal Gradient" translation="Gradiente termico"/>
+	<label commandName="SimThermalSteadyGeneralSettingsGlobalInitialTemperature" devLabel="Global Initial Temperature" translation="Temperatura iniziale globale"/>
+	<label commandName="SimThermalSteadyGeneralSettingsHeatConductance" devLabel="Heat Conductance" translation="Conduttanza termica"/>
+	<label commandName="SimThermalStressGeneralSettingsHeatConductance" devLabel="Heat Conductance" translation="Conduttanza termica"/>
+	<label commandName="SimThermalStressGeneralSettingsReferenceTemperature" devLabel="Reference Temperature" translation="Temperatura di riferimento"/>
+	<label commandName="SimThermalTransientGeneralSettingsEndTime" devLabel="End Time" translation="Ora di fine"/>
+	<label commandName="SimThermalTransientGeneralSettingsHeatConductance" devLabel="Heat Conductance" translation="Conduttanza termica"/>
+	<label commandName="SimThermalTransientGeneralSettingsInitialTemperature" devLabel="Initial Temperature" translation="Temperatura iniziale"/>
+	<label commandName="SimThermalTransientGeneralSettingsOutputInterval" devLabel="Output Interval" translation="Intervallo di output"/>
+	<label commandName="SimThirdPrincipalResult" devLabel="3rd Principal" translation="Terzo principale"/>
+	<label commandName="SimTooManyElements" devLabel="Too Many Elements." translation="Troppi elementi."/>
+	<label commandName="SimTooManyNodes" devLabel="Too Many Nodes." translation="Troppi nodi."/>
+	<label commandName="SimTotalDisplacement" devLabel="Displacement, Total" translation="Spostamento totale"/>
+	<label commandName="SimTotalNumberOutputInterval" devLabel="Total Number" translation="Numero totale"/>
+	<label commandName="SimTotalResult" devLabel="Total" translation="Totale"/>
+	<label commandName="SimUnconstrainedGroupsThermalError" devLabel="Error: Model contains %1% thermally unconstrained group(s) in load case &quot;%2%&quot;." translation="Errore: il modello contiene %1% gruppi non vincolati termicamente nella condizione di carico &quot;%2%&quot;."/>
+	<label commandName="SimUnconstrainedGroupsThermalWarn" devLabel="Warning: Model contains %1% thermally unconstrained group(s) in load case &quot;%2%&quot;." translation="Avvertimento: il modello contiene %1% gruppi non vincolati termicamente nella condizione di carico &quot;%2%&quot;."/>
+	<label commandName="SimUnheated" devLabel="Insulated" translation="Isolato"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Percentuale"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Pezzi"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Accelerazione"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Angolo"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Corrente"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Resistenza elettrica"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Forza"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Lunghezza"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Massa"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Potenza"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Pressione"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Tempo"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Velocità"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viscosità"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Tensione"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Portata"/>
+	<label commandName="SimUnknown" devLabel="Unknown." translation="Sconosciuto."/>
+	<label commandName="SimUnsymmetricPenetrationType" devLabel="Unsymmetric" translation="Asimmetrico"/>
+	<label commandName="SimVertexMeshing" devLabel="Vertex meshing." translation="Creazione mesh vertice."/>
+	<label commandName="SimVonMisesStress" devLabel="von Mises Stress" translation="Sollecitazione di von Mises"/>
+	<label commandName="SimVonMisesStressResult" devLabel="Von Mises" translation="Von Mises"/>
+	<label commandName="SimWMMigratorFinishedMigrationMessage" devLabel="Finished Migration" translation="Migrazione completata"/>
+	<label commandName="SimWMMigratorFinishingMigrationMessage" devLabel="Finishing Migration" translation="Completamento della migrazione"/>
+	<label commandName="SimWMMigratorPreparingMigrationMessage" devLabel="Preparing for Migration" translation="Preparazione della migrazione"/>
+	<label commandName="SimWMMigratorStudiesMigrationMessage" devLabel="Migrating Simulation Studies" translation="Migrazione degli studi di simulazione"/>
+	<label commandName="SimWireMeshing" devLabel="Wire meshing." translation="Creazione di mesh wire."/>
+	<label commandName="SimXResult" devLabel="X" translation="X"/>
+	<label commandName="SimYResult" devLabel="Y" translation="Y"/>
+	<label commandName="SimZResult" devLabel="Z" translation="Z"/>
+	<label commandName="Sim_IDS_ASSEMBLY_PART_ELEMENT_LIMIT" devLabel="4500000 elements" translation="4.500.000 elementi"/>
+	<label commandName="Sim_IDS_DIFFERENT_BODY_COUNT" devLabel="One or more configurations result in a different number of bodies than the base configuration.&#xA;These configurations will not be solved." translation="Una o più configurazioni restituiscono un numero di corpi diverso da quello della configurazione base.&#xA;Queste configurazioni non verranno risolte."/>
+	<label commandName="Sim_IDS_ERR_FAILED_GEN_CONFIG" devLabel="Failed to generate configuration" translation="Impossibile generare la configurazione"/>
+	<label commandName="Sim_IDS_MESH_WARN_BODY_TOO_THIN" devLabel="Certain parts of the model are extremely thin, which can lead to long meshing/solution times and numerical instabilities in the results. Please use careful judgment when interpreting the results." translation="Alcune parti del modello sono estremamente sottili. Ciò può comportare tempi lunghi di creazione e soluzione della mesh, oltre a instabilità numeriche nei risultati. Prestare particolare attenzione all'interpretazione dei risultati."/>
+	<label commandName="Sim_IDS_MESH_WARN_LOCAL_SIZE_VERY_SMALL" devLabel="Warning: Local mesh control '%s' specifies a very small element size." translation="Avvertimento: il controllo mesh locale '%s ' specifica una dimensione dell'elemento molto piccola."/>
+	<label commandName="Sim_IDS_MESH_WARN_THIN_BODY" devLabel="Body '%s' is thin." translation="Il corpo '%s ' è sottile."/>
+	<label commandName="Sim_IDS_NO_CONTACT_BODY" devLabel="Warning: There are no contacts attached to body(s): %s" translation="Avvertimento: nessun contatto associato al corpo o ai corpi: %s"/>
+	<label commandName="Sim_IDS_NO_SOLID_BODY" devLabel="Error processing the geometry. The model contains no solid body." translation="Errore durante l'elaborazione della geometria. Il modello non contiene corpi solidi."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_BREP_COMPUTE" devLabel="Computing geometry..." translation="Elaborazione della geometria in corso..."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_CONTACT_COMPUTE" devLabel="Computing contacts..." translation="Elaborazione dei contatti in corso..."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_MESH_COMPUTE" devLabel="Computing mesh..." translation="Elaborazione della mesh in corso..."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_MESH_REFINE1" devLabel="Adaptive Refinement Setup..." translation="Setup affinamento adattivo..."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_MESH_REFINE2" devLabel="Adaptive Refinement..." translation="Affinamento adattivo..."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_RESULT_COMPUTE" devLabel="Computing results..." translation="Elaborazione dei risultati in corso..."/>
+	<label commandName="Sim_IDS_SERVER_ERR0" devLabel="" translation=""/>
+	<label commandName="Sim_IDS_SERVER_ERR1" devLabel="Internal solver error" translation="Errore del risolutore interno"/>
+	<label commandName="Sim_IDS_SERVER_ERR10" devLabel="Not enough constraints and not balanced load" translation="Vincoli insufficienti e carico non bilanciato"/>
+	<label commandName="Sim_IDS_SERVER_ERR100" devLabel="Internal Error # 100" translation="Errore interno n. 100"/>
+	<label commandName="Sim_IDS_SERVER_ERR101" devLabel="Internal Error # 101" translation="Errore interno n. 101"/>
+	<label commandName="Sim_IDS_SERVER_ERR11" devLabel="Error opening the mesh file" translation="Errore durante l'apertura del file della mesh"/>
+	<label commandName="Sim_IDS_SERVER_ERR12" devLabel="Error opening the debug output file" translation="Errore durante l'apertura del file di output di debug"/>
+	<label commandName="Sim_IDS_SERVER_ERR13" devLabel="Error processing the mesh" translation="Errore durante l'elaborazione della mesh"/>
+	<label commandName="Sim_IDS_SERVER_ERR14" devLabel="There are no new DOFs for the current p-cycle" translation="Nessun nuovo GDL per il p-ciclo corrente"/>
+	<label commandName="Sim_IDS_SERVER_ERR15" devLabel="Not enough memory to continue operation" translation="Memoria insufficiente per continuare l'operazione"/>
+	<label commandName="Sim_IDS_SERVER_ERR16" devLabel="Improper constraints, material or mesh" translation="Vincoli, materiale o mesh impropri"/>
+	<label commandName="Sim_IDS_SERVER_ERR17" devLabel="Not enough constraints" translation="Vincoli insufficienti"/>
+	<label commandName="Sim_IDS_SERVER_ERR18" devLabel="Internal Error # ps_1" translation="Errore interno n. ps_1"/>
+	<label commandName="Sim_IDS_SERVER_ERR19" devLabel="Internal Error # ps_2" translation="Errore interno n. ps_2"/>
+	<label commandName="Sim_IDS_SERVER_ERR2" devLabel="Load not defined" translation="Carico non definito"/>
+	<label commandName="Sim_IDS_SERVER_ERR20" devLabel="Internal Error # ps_3" translation="Errore interno n. ps_3"/>
+	<label commandName="Sim_IDS_SERVER_ERR201" devLabel="Internal Error # 201" translation="Errore interno n. 201"/>
+	<label commandName="Sim_IDS_SERVER_ERR202" devLabel="Internal Error # 202" translation="Errore interno n. 202"/>
+	<label commandName="Sim_IDS_SERVER_ERR204" devLabel="Internal Error # 204" translation="Errore interno n. 204"/>
+	<label commandName="Sim_IDS_SERVER_ERR206" devLabel="Internal Error # 206" translation="Errore interno n. 206"/>
+	<label commandName="Sim_IDS_SERVER_ERR208" devLabel="Internal Error # 208" translation="Errore interno n. 208"/>
+	<label commandName="Sim_IDS_SERVER_ERR21" devLabel="Error opening the tetrahedra data file" translation="Errore durante l'apertura del file di dati dei tetraedri"/>
+	<label commandName="Sim_IDS_SERVER_ERR210" devLabel="Internal Error # 210" translation="Errore interno n. 210"/>
+	<label commandName="Sim_IDS_SERVER_ERR212" devLabel="Internal Error # 212" translation="Errore interno n. 212"/>
+	<label commandName="Sim_IDS_SERVER_ERR216" devLabel="Internal Error # 216" translation="Errore interno n. 216"/>
+	<label commandName="Sim_IDS_SERVER_ERR22" devLabel="Error opening the result file" translation="Errore durante l'apertura del file dei risultati"/>
+	<label commandName="Sim_IDS_SERVER_ERR23" devLabel="Unable to create a temporary file" translation="Impossibile creare un file temporaneo"/>
+	<label commandName="Sim_IDS_SERVER_ERR24" devLabel="Error while closing a temporary file" translation="Errore durante la chiusura di un file temporaneo"/>
+	<label commandName="Sim_IDS_SERVER_ERR25" devLabel="Error while reading from a temporary file" translation="Errore durante la lettura da un file temporaneo"/>
+	<label commandName="Sim_IDS_SERVER_ERR26" devLabel="Error while writing to a temporary file" translation="Errore durante la scrittura in un file temporaneo"/>
+	<label commandName="Sim_IDS_SERVER_ERR27" devLabel="Simulation canceled" translation="Simulazione annullata"/>
+	<label commandName="Sim_IDS_SERVER_ERR28" devLabel="Bad modeling parameter - some faces have disappeared!" translation="Parametro di modellazione non valido. Alcune facce sono scomparse."/>
+	<label commandName="Sim_IDS_SERVER_ERR29" devLabel="Error executing the solver." translation="Errore durante l'esecuzione del risolutore."/>
+	<label commandName="Sim_IDS_SERVER_ERR3" devLabel="Unacceptable combination of boundary condition and element type" translation="Combinazione di condizione al contorno e tipo di elemento inaccettabile"/>
+	<label commandName="Sim_IDS_SERVER_ERR30" devLabel="Internal Error # 30" translation="Errore interno n. 30"/>
+	<label commandName="Sim_IDS_SERVER_ERR301" devLabel="Internal Error # 301" translation="Errore interno n. 301"/>
+	<label commandName="Sim_IDS_SERVER_ERR31" devLabel="Internal Error: Can not use the same file for the input and the output" translation="Errore interno: impossibile utilizzare lo stesso file per l'input e l'output."/>
+	<label commandName="Sim_IDS_SERVER_ERR32" devLabel="Internal Error: Can not open the thermal load file." translation="Errore interno: impossibile aprire il file del carico termico."/>
+	<label commandName="Sim_IDS_SERVER_ERR33" devLabel="Error reading the thermal load file." translation="Errore durante la lettura del file del carico termico."/>
+	<label commandName="Sim_IDS_SERVER_ERR34" devLabel="Add-in format is not supported." translation="Formato del modulo aggiuntivo non supportato."/>
+	<label commandName="Sim_IDS_SERVER_ERR35" devLabel="Internal solver error. Can not process the contacts." translation="Errore interno del risolutore. Impossibile elaborare i contatti."/>
+	<label commandName="Sim_IDS_SERVER_ERR36" devLabel="Some rigid body modes remain after application of constraints" translation="Alcune modalità corpo rigido restano anche dopo l'applicazione di vincoli"/>
+	<label commandName="Sim_IDS_SERVER_ERR37" devLabel="Load is directed along a rigid body mode" translation="Il carico è indirizzato lungo una modalità corpo rigido"/>
+	<label commandName="Sim_IDS_SERVER_ERR38" devLabel="Can not open the pre-stress file" translation="Impossibile aprire il file di presollecitazione"/>
+	<label commandName="Sim_IDS_SERVER_ERR39" devLabel="Error reading the pre-stress file" translation="Errore durante la lettura del file di presollecitazione"/>
+	<label commandName="Sim_IDS_SERVER_ERR4" devLabel="Degenerate element" translation="Elemento degenerato"/>
+	<label commandName="Sim_IDS_SERVER_ERR40" devLabel="Improper preloading" translation="Precaricamento non corretto"/>
+	<label commandName="Sim_IDS_SERVER_ERR41" devLabel="Mesh at the contacts is too coarse. It is recommended to use local mesh control in the areas of high stress concentration." translation="La mesh in corrispondenza dei contatti è troppo grossolana. Si consiglia di utilizzare il controllo mesh locale nelle aree ad alta concentrazione della sollecitazione."/>
+	<label commandName="Sim_IDS_SERVER_ERR42" devLabel="The assembly breaks up into disjointed pieces" translation="L'assieme si scompone in entità non connesse"/>
+	<label commandName="Sim_IDS_SERVER_ERR43" devLabel="Nonlinear iterations diverge" translation="Le iterazioni non lineari divergono"/>
+	<label commandName="Sim_IDS_SERVER_ERR44" devLabel="Internal Error: Data import failed" translation="Errore interno: importazione dati non riuscita"/>
+	<label commandName="Sim_IDS_SERVER_ERR45" devLabel="Error processing the contacts" translation="Errore durante l'elaborazione dei contatti"/>
+	<label commandName="Sim_IDS_SERVER_ERR5" devLabel="Internal Error # 5" translation="Errore interno n. 5"/>
+	<label commandName="Sim_IDS_SERVER_ERR555" devLabel="Internal Error #555" translation="Errore interno n. 555"/>
+	<label commandName="Sim_IDS_SERVER_ERR6" devLabel="Element material is not defined" translation="Il materiale dell'elemento non è definito"/>
+	<label commandName="Sim_IDS_SERVER_ERR600" devLabel="Internal Error: SAT translation failed" translation="Errore interno: conversione SAT non riuscita"/>
+	<label commandName="Sim_IDS_SERVER_ERR601" devLabel="Internal Error: Regularization failed" translation="Errore interno: regolarizzazione non riuscita"/>
+	<label commandName="Sim_IDS_SERVER_ERR602" devLabel="Unknown error in geometry builder" translation="Errore sconosciuto nel generatore della geometria"/>
+	<label commandName="Sim_IDS_SERVER_ERR612" devLabel="Currently import of surface models is not supported" translation="L'importazione di modelli di superficie non è attualmente supportata"/>
+	<label commandName="Sim_IDS_SERVER_ERR613" devLabel="Geometry translation failed. Solid body breaks into multiple bodies or into disconnected surfaces" translation="Conversione della geometria non riuscita. Il corpo solido si suddivide in più corpi o in superfici non connesse."/>
+	<label commandName="Sim_IDS_SERVER_ERR614" devLabel="Geometry processing failed. Solid body could not be mapped back to any Simulus entity" translation="Elaborazione della geometria non riuscita. Il corpo solido non può essere associato ad alcuna entità di Simulus."/>
+	<label commandName="Sim_IDS_SERVER_ERR615" devLabel="Body '%s' cannot be processed." translation="Impossibile elaborare il corpo '%s."/>
+	<label commandName="Sim_IDS_SERVER_ERR7" devLabel="Material property set is not defined" translation="Impostazione proprietà del materiale non definita"/>
+	<label commandName="Sim_IDS_SERVER_ERR701" devLabel="Simulation canceled" translation="Simulazione annullata"/>
+	<label commandName="Sim_IDS_SERVER_ERR702" devLabel="Mesh failed: The mesher reported an unknown error" translation="Mesh non riuscita: errore sconosciuto del modulo di creazione mesh"/>
+	<label commandName="Sim_IDS_SERVER_ERR703" devLabel="Mesh failed: The mesher failed to allocate enough memory to compute the mesh. Try reducing the mesh size." translation="Mesh non riuscita: il modulo di creazione mesh non è stato in grado di allocare memoria sufficiente per il calcolo della mesh. Provare a ridurre le dimensioni della mesh."/>
+	<label commandName="Sim_IDS_SERVER_ERR704" devLabel="Mesh failed: Vertex failure" translation="Mesh non riuscita: errore nel vertice"/>
+	<label commandName="Sim_IDS_SERVER_ERR705" devLabel="Mesh failed: Edge failure" translation="Mesh non riuscita: errore nello spigolo"/>
+	<label commandName="Sim_IDS_SERVER_ERR706" devLabel="Mesh failed: Face failure" translation="Mesh non riuscita: errore nella faccia"/>
+	<label commandName="Sim_IDS_SERVER_ERR707" devLabel="Mesh failed: Body failure" translation="Mesh non riuscita: errore nel corpo"/>
+	<label commandName="Sim_IDS_SERVER_ERR708" devLabel="Mesh failed: Curvature failure" translation="Mesh non riuscita: errore nella curvatura"/>
+	<label commandName="Sim_IDS_SERVER_ERR709" devLabel="Mesh failed: The mesher encountered a self-intersection. Try repairing the model using Inspect &gt; Interference in the Design environment." translation="Mesh non riuscita: il modulo di creazione mesh ha rilevato un'autointersezione. Provare a riparare il modello utilizzando Verifica &gt; Interferenza nell'ambiente di progettazione."/>
+	<label commandName="Sim_IDS_SERVER_ERR710" devLabel="Mesh failed: The mesher encountered a corrupted entity. Try repairing the model using Inspect &gt; Validate in the Design environment with the 'Document Settings' &gt; 'Do not capture Design History' option disabled" translation="Mesh non riuscita: il modulo di creazione mesh ha rilevato un'entità danneggiata. Provare a riparare il modello utilizzando Verifica &gt; Convalida nell'ambiente di progettazione con l'opzione 'Impostazioni documento' &gt; 'Non acquisire cronologia progetto' disattivata"/>
+	<label commandName="Sim_IDS_SERVER_ERR711" devLabel="Mesh failed: The mesher exceeded an internal limit for nodes in a single body. Try reducing the mesh size." translation="Mesh non riuscita: il modulo di creazione mesh ha superato un limite interno per i nodi in un unico corpo. Provare a ridurre le dimensioni della mesh."/>
+	<label commandName="Sim_IDS_SERVER_ERR8" devLabel="The load is inconsistent with the boundary conditions" translation="Il carico non è coerente con le condizioni al contorno"/>
+	<label commandName="Sim_IDS_SERVER_ERR9" devLabel="Coordinate system is referenced but not defined" translation="Il sistema di coordinate dispone di riferimenti, ma non è definito"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER1" devLabel="Solution time: %ss" translation="Tempo della soluzione: %ss"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER2" devLabel="Computed %s frequency modes" translation="Modalità di frequenza di %s calcolate"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER3" devLabel="Soft spring was added" translation="È stata aggiunta una molla dolce"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER4" devLabel="Model separates into %s independent groups of bodies" translation="Il modello si suddivide in %s gruppi di corpi indipendenti"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER5" devLabel="Mesh at contact %s is too coarse" translation="La mesh nel contatto %s è troppo grossolana"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER6" devLabel="Contact %s: direction of the non-bonded edge-to-edge contact can not be determined" translation="Contatto %s: impossibile determinare la direzione del contatto spigolo-spigolo non accoppiato"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER7" devLabel="The deformation is large compared to the model size. Please verify that load and constraint settings are appropriately scaled." translation="La deformazione è elevata rispetto alle dimensioni del modello. Verificare che le impostazioni dei carichi e dei vincoli siano correttamente in scala."/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER8" devLabel="Number of equations solved: %s" translation="Numero di equazioni risolte: %s"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER9" devLabel="Computed %s buckling modes" translation="%s modalità Carico di punta calcolate"/>
+	<label commandName="Sim_IDS_SIM_ERROR_COMPUTE_MESH" devLabel="Compute mesh before proceeding." translation="Prima di procedere, calcolare la mesh."/>
+	<label commandName="Sim_IDS_SIM_ERROR_CONTACTS" devLabel="Compute automatic contacts before proceeding." translation="Prima di procedere, calcolare i contatti automatici."/>
+	<label commandName="Sim_IDS_SIM_ERROR_DESIGN_PARA_HAS_DEPENDENT" devLabel="One or more parameters in the Parametric Table have dependent objects which are not allowed in the Table, and must be removed: %s" translation="Uno o più parametri della tabella parametrica hanno oggetti dipendenti non consentiti nella tabella e devono essere rimossi: %s"/>
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDCONSTRAINT" devLabel="Invalid constraint: %s" translation="Vincolo non valido: %s"/>
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDLOAD" devLabel="Invalid load: %s" translation="Carico non valido: %s"/>
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDSHELL" devLabel="Invalid shell: %s" translation="Elemento Shell non valido: %s"/>
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDSHELLDEFINITION" devLabel="Invalid shell definition (unconnected lumps/gaps): %s" translation="Definizione elemento Shell non valida (concentrazioni/spazi non collegati): %s"/>
+	<label commandName="Sim_IDS_SIM_ERROR_LOADONFIX" devLabel="All loads are acting on entities which have fixed constraints applied on them" translation="Tutti i carichi hanno effetto su entità alle quali sono applicati vincoli di fissaggio"/>
+	<label commandName="Sim_IDS_SIM_ERROR_MATERIALS" devLabel="Can not run. Some materials are not defined correctly. Please assign a valid study material using Study Materials command." translation="Impossibile eseguire. Alcuni materiali non sono definiti correttamente. Assegnare un materiale dello studio valido utilizzando il comando Materiali di studio."/>
+	<label commandName="Sim_IDS_SIM_ERROR_MESH_FAILURE" devLabel="Repair mesh failures before proceeding." translation="Prima di procedere, riparare gli errori della mesh."/>
+	<label commandName="Sim_IDS_SIM_ERROR_MESH_OUTOFDATE" devLabel="Update mesh before proceeding." translation="Prima di procedere, aggiornare la mesh."/>
+	<label commandName="Sim_IDS_SIM_ERROR_NOCONSTRAINT" devLabel="No constraint defined." translation="Nessun vincolo definito."/>
+	<label commandName="Sim_IDS_SIM_ERROR_NOLOAD" devLabel="No load defined." translation="Nessun carico definito."/>
+	<label commandName="Sim_IDS_SIM_ERROR_TO_MASSTARGET_UNACHIEVABLE" devLabel="The Target Mass %% could not be attained. %1%" translation="Impossibile ottenere la massa %%. %1%"/>
+	<label commandName="Sim_IDS_SIM_ERROR_TO_MASSTARGET_UNACHIEVABLE_EX" devLabel="The Target Mass %% could not be attained (%2% requested, %1% achieved)." translation="Impossibile raggiungere la massa di destinazione %% (%2% richiesto, %1% raggiunto)."/>
+	<label commandName="Sim_IDS_SINGLE_PART_ELEMENT_LIMIT" devLabel="6000000 elements" translation="6.000.000 elementi"/>
+	<label commandName="Sim_IDS_TOO_MANY_ELEMENTS" devLabel="Mesh failed: The mesher exceeded an internal limit (%1%) for elements in a model.  Please increase the average element size and/or simplify the model and try solving again." translation="Mesh non riuscita: il modulo di creazione mesh ha superato un limite interno (%1%) per gli elementi in un modello. Aumentare la dimensione media dell'elemento e/o semplificare il modello, quindi provare a risolvere di nuovo."/>
+	<label commandName="Sim_IDS_TOO_MANY_NODES" devLabel="Mesh failed: The mesher exceeded an internal limit (%1%) for elements in a model.  Please increase the average element size and/or simplify the model and try solving again." translation="Mesh non riuscita: il modulo di creazione mesh ha superato un limite interno (%1%) per gli elementi in un modello. Aumentare la dimensione media dell'elemento e/o semplificare il modello, quindi provare a risolvere di nuovo."/>
+	<label commandName="Sim_IDS_WARN_MESH_BODY_USEVOXEL" devLabel="Body '%s' uses voxel mesh. Adaptive mesh refinements are not supported for this body." translation="Il corpo '%s ' utilizza mesh voxel. Gli affinamenti di mesh adattive non sono supportati per questo corpo."/>
+	<label commandName="SimulationStudyIsMissing" devLabel="Simulation Study is missing" translation="Studio di simulazione mancante"/>
+</Resource>

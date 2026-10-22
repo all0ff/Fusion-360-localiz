@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ActivateFlatPattern" devLabel="Activate" translation="Activer"/>
+	<label commandName="AddBaseFlangeSelection" devLabel="Add" translation="Ajouter"/>
+	<label commandName="AddBaseFlangeSelectionButton" devLabel="Add selection set." translation="Ajoutez un jeu de sélection."/>
+	<label commandName="AddContourFlangeJoinSelection" devLabel="Add" translation="Ajouter"/>
+	<label commandName="AddContourFlangeJoinSelectionButton" devLabel="Add selection set." translation="Ajoutez un jeu de sélection."/>
+	<label commandName="AddContourFlangeSelection" devLabel="Add" translation="Ajouter"/>
+	<label commandName="AddContourFlangeSelectionButton" devLabel="Add selection set." translation="Ajoutez un jeu de sélection."/>
+	<label commandName="AddEdgeFlangeSelection" devLabel="Add" translation="Ajouter"/>
+	<label commandName="AddEdgeFlangeSelectionButton" devLabel="Add selection set." translation="Ajoutez un jeu de sélection."/>
+	<label commandName="AddEdgeFlangeSelectionButtonToObject" devLabel="Add selection set&#xA;In 'To Object' mode, only one edge can be selected for the flange." translation="Ajouter un jeu de sélection&#xA;En mode &quot;Vers l'objet&quot;, une seule arête peut être sélectionnée pour le bord tombé."/>
+	<label commandName="AddHemFlangeSelection" devLabel="Add" translation="Ajouter"/>
+	<label commandName="AddHemFlangeSelectionButton" devLabel="Add selection set." translation="Ajoutez un jeu de sélection."/>
+	<label commandName="BaseFlangeInputSelsDesc" devLabel="Select closed sketch profiles or planar faces to create flange." translation="Sélectionnez des contours d'esquisse fermés ou des faces planes pour créer un bord tombé."/>
+	<label commandName="BaseFlangeInputSelsLabel" devLabel="Profiles" translation="Contours"/>
+	<label commandName="BaseFlangeInputSelsTooltipTitle" devLabel="Profiles" translation="Contours"/>
+	<label commandName="BaseFlangeOneSideDesc" devLabel="Extrudes a flat sheet metal material to one side of the sketch profile." translation="Extrude une tôle plane sur un côté du contour d'esquisse."/>
+	<label commandName="BaseFlangeOtherSideDesc" devLabel="Extrudes a flat sheet metal material to the opposite side of the sketch profile." translation="Extrude une tôle plane sur le côté opposé du contour d'esquisse."/>
+	<label commandName="BaseFlangeSymmetricDesc" devLabel="Extrudes a flat sheet metal material evenly on both sides of the sketch profile." translation="Extrude uniformément une tôle plane des deux côtés du contour d'esquisse."/>
+	<label commandName="BaseFlangeTable" devLabel="Base Flange Table" translation="Table de bords tombés de base"/>
+	<label commandName="BaseFlangeTitle" devLabel="Base Flange" translation="Bord tombé de base"/>
+	<label commandName="BendAdjacent" devLabel="Adjacent" translation="Adjacent"/>
+	<label commandName="BendAdjacentDesc" devLabel="Places the bend so that it starts at the selected edge on the flange." translation="Place le pli de manière à faire coïncider son point de départ avec l'arête sélectionnée sur le bord tombé."/>
+	<label commandName="BendAngleMigration" devLabel="Bend Angle Parameter Migration" translation="Migration du paramètre Angle de pliage"/>
+	<label commandName="BendAngleParamMigration" devLabel="In some Fold features, the Bend Angle parameter has been automatically updated to reflect the correct flip condition from older Fusion version. Component geometry is not affected but it is recommended to verify the body and angle parameters for correct output." translation="Dans certaines fonctions de pliage, le paramètre Angle de pliage a été automatiquement mis à jour pour refléter la condition de retournement correcte de l'ancienne version de Fusion. La géométrie du composant n'est pas affectée, mais il est recommandé de vérifier les paramètres de corps et d'angle pour obtenir une sortie correcte."/>
+	<label commandName="BendInside" devLabel="Inside" translation="Intérieur"/>
+	<label commandName="BendInsideDesc" devLabel="Places the bend inward, so it starts inside the outer edges of the base and new flange." translation="Place le pli vers l'intérieur. Il commence donc à l'intérieur des bords extérieurs du bord tombé de base et du nouveau bord tombé."/>
+	<label commandName="BendLine" devLabel="Bend Line %1%" translation="Ligne de pliage %1%"/>
+	<label commandName="BendOutside" devLabel="Outside" translation="Extérieur"/>
+	<label commandName="BendOutsideDesc" devLabel="Places the bend so it extends beyond the inner edges of the base and new flange." translation="Place le pli de manière à ce qu'il s'étende au-delà des bords intérieurs de la base et de la nouvelle bride."/>
+	<label commandName="BendRadiusInput" devLabel="Bend Radius" translation="Rayon de pliage"/>
+	<label commandName="BendRadiusInputDesc" devLabel="Specifies a distance from the inner surface of the sheet to the center of the bend. This controls how tightly the material bends and affects both strength and appearance." translation="Spécifie une distance entre la surface intérieure de la feuille et le centre du pli, afin de contrôler l'amplitude de celui-ci. Cette valeur affecte à la fois la résistance et l'apparence."/>
+	<label commandName="BendReliefDepthDefault" devLabel="" translation=""/>
+	<label commandName="BendReliefOverrideOptionsGroup" devLabel="Bend Relief Override" translation="Remplacement du grugeage"/>
+	<label commandName="BendReliefRemnant" devLabel="Relief Remnant" translation="Reste de grugeage"/>
+	<label commandName="BendReliefRemnantDesc" devLabel="Specify the relief remnant value to override the sheet metal rule." translation="Spécifiez la valeur des restes de grugeage pour remplacer la règle de tôlerie."/>
+	<label commandName="BendRowGroupName" devLabel="Bend Line %1%" translation="Ligne de pliage %1%"/>
+	<label commandName="BendSelectionCmdInputSelect" devLabel="Select" translation="Sélectionner"/>
+	<label commandName="BendSelectionCmdInputSelected" devLabel="selected" translation="sélectionné"/>
+	<label commandName="BendTangent" devLabel="Tangent" translation="Tangente"/>
+	<label commandName="BendTangentDesc" devLabel="Places the bend so that it is tangent to the selected edge on the flange." translation="Place le pli de façon tangente à l'arête sélectionnée sur le bord tombé."/>
+	<label commandName="BendTrimToBendDesc" devLabel="Trims the material back to a perpendicular cut at the bend zone." translation="Ajuste le matériau en une coupe perpendiculaire au niveau de la zone de pliage."/>
+	<label commandName="BooleanTypeOperation" devLabel="Operation" translation="Opération"/>
+	<label commandName="CFAgainstExtrudeDistance" devLabel="Distance 2" translation="Distance 2"/>
+	<label commandName="CFAgainstExtrudeDistanceInputDesc" devLabel="Specify the distance to extrude the selected profile from its center to one side." translation="Spécifiez la distance d'extrusion du contour sélectionné, de son centre vers un côté."/>
+	<label commandName="CFExtentDirectionType" devLabel="Direction" translation="Direction"/>
+	<label commandName="CFExtrudeDistanceInpuSideOnetDesc" devLabel="Specify the distance to extrude the selected profile from its center to one side." translation="Spécifiez la distance d'extrusion du contour sélectionné, de son centre vers un côté."/>
+	<label commandName="CFExtrudeDistanceInput" devLabel="Distance" translation="Distance"/>
+	<label commandName="CFExtrudeDistanceInputDesc" devLabel="Specify the distance to extrude the selected profile." translation="Spécifiez la distance d'extrusion du contour sélectionné."/>
+	<label commandName="CFExtrudeDistanceInputSideOne" devLabel="Distance 1" translation="Distance 1"/>
+	<label commandName="CS2MEnableDH" devLabel="  Capture Design History  " translation="  Capturer l'historique de conception  "/>
+	<label commandName="CS2MEnableDHWarningMsg" devLabel="Before you can use the &lt;b&gt;Sheet Metal&lt;/b&gt; tools, you must switch to &lt;b&gt;Parametric Modeling mode&lt;/b&gt;. This will capture the design history as parametric features in the &lt;b&gt;Timeline&lt;/b&gt;. &lt;br&gt;&lt;/br&gt; &lt;br&gt;Capture design history?&lt;/br&gt; &lt;br&gt;&lt;/br&gt;" translation="Avant de pouvoir utiliser les outils de &lt;b&gt;tôlerie&lt;/b&gt;, vous devez passer en &lt;b&gt;mode de modélisation paramétrique&lt;/b&gt;. Cela permet de capturer l'historique de conception en tant que fonctions paramétriques dans le &lt;b&gt;montage chronologique&lt;/b&gt;. &lt;br&gt;&lt;/br&gt;&lt;br&gt;Capturer l'historique de conception?&lt;/br&gt; &lt;br&gt;&lt;/br&gt;"/>
+	<label commandName="CS2MWarningTitle" devLabel="Parametric Modeling mode" translation="Mode de modélisation paramétrique"/>
+	<label commandName="CUT_PASTE_GROUP_WITH_DEP_SMFEATURES_NOTSUPPORTED_TITLE" devLabel="Cannot move group in Browser" translation="Impossible de déplacer le groupe dans le navigateur"/>
+	<label commandName="CUT_PASTE_SKETCH_WITH_DEP_SMFEATURES_NOTSUPPORTED" devLabel="Sketches with dependent sheet metal features cannot be moved in the Browser or moved to a group." translation="Les esquisses comportant des fonctions de tôlerie dépendantes ne peuvent pas être déplacées dans le navigateur ou vers un groupe."/>
+	<label commandName="CUT_PASTE_SKETCH_WITH_DEP_SMFEATURES_NOTSUPPORTED_TITLE" devLabel="Cannot move sketch in Browser" translation="Impossible de déplacer l'esquisse dans le navigateur"/>
+	<label commandName="Center" devLabel="Center" translation="Centre"/>
+	<label commandName="CenterDesc" devLabel="Extrudes a flat sheet metal material evenly on both sides of the sketch profile." translation="Extrude uniformément une tôle plane des deux côtés du contour d'esquisse."/>
+	<label commandName="ChangingDerivedRuleFeatureFailure" devLabel="The original rule was derived from another design. Changing the rule will not affect the bodies that were derived with the rule. It will only affect new Sheet Metal bodies. &#xA;Some features cannot be calculated after the Rule change.  Revert the Rule change or delete the failed feature(s)." translation="La règle d'origine a été dérivée à partir d'une autre conception. La modification de la règle n'aura pas d'incidence sur les corps dérivés avec la règle. Elle affectera uniquement les nouveaux corps en tôle. &#xA;Certaines fonctions ne peuvent pas être calculées après la modification de la règle. Annulez la modification de la règle ou supprimez la ou les fonctions qui échouent."/>
+	<label commandName="ChangingDerivedRuleNoFailure" devLabel="The original rule was derived from another design. Changing the rule will not affect the bodies that were derived with the rule. It will only affect new Sheet Metal bodies." translation="La règle d'origine a été dérivée à partir d'une autre conception. La modification de la règle n'aura pas d'incidence sur les corps dérivés avec la règle. Elle affectera uniquement les nouveaux corps en tôle."/>
+	<label commandName="ChordToleranceDesc" devLabel="Lets you specify the maximum distance from an arc segment to the chord that spans between its end points to determine the number of facets to create around the bend." translation="Permet de spécifier la distance maximale entre un segment d'arc et la corde qui s'étend entre ses extrémités pour déterminer le nombre de facettes à créer autour du pli."/>
+	<label commandName="ChordToleranceInfo" devLabel="Chord Tolerance" translation="Tolérance de corde"/>
+	<label commandName="ChordToleranceValue" devLabel="Chord Tolerance" translation="Tolérance de corde"/>
+	<label commandName="ChordToleranceValueDesc" devLabel="Specify the maximum chord distance value to determine the number of facets to create around the bend." translation="Spécifiez la valeur de distance de corde maximale pour déterminer le nombre de facettes à créer autour du pli."/>
+	<label commandName="CmMKS" devLabel="Centimeter" translation="Centimètre"/>
+	<label commandName="CommandsInsideUnfold" devLabel="You must refold your design before continuing." translation="Vous devez replier la conception avant de continuer."/>
+	<label commandName="ContinueWithSave" devLabel="Continue" translation="Continuer"/>
+	<label commandName="ContourFlangeInputSelsDesc" devLabel="Select sheet metal edges or sketch profiles to create flange." translation="Sélectionnez des arêtes de tôlerie ou des contours d'esquisse pour créer un bord tombé."/>
+	<label commandName="ContourFlangeJoinTable" devLabel="Contour Flange Join Table" translation="Table de jonctions de bords tombés suivant profil"/>
+	<label commandName="ContourFlangeJoinWidth1" devLabel="Distance 1" translation="Distance 1"/>
+	<label commandName="ContourFlangeJoinWidth2" devLabel="Distance 2" translation="Distance 2"/>
+	<label commandName="ContourFlangeOneSideDesc" devLabel="Extrudes sheet metal material to one side of the sketch profile." translation="Extrude une tôle plane sur un côté du contour d'esquisse."/>
+	<label commandName="ContourFlangeOtherSideDesc" devLabel="Extrudes sheet metal material to the opposite side of the sketch profile." translation="Extrude une tôle plane sur le côté opposé du contour d'esquisse."/>
+	<label commandName="ContourFlangeSymmetricDesc" devLabel="Extrudes sheet metal material evenly on both sides of the sketch profile." translation="Extrude uniformément une tôle plane des deux côtés du contour d'esquisse."/>
+	<label commandName="ContourFlangeTable" devLabel="Contour Flange Table" translation="Table de bords tombés suivant profil"/>
+	<label commandName="ContourFlangeTitle" devLabel="Contour Flange" translation="Bord tombé suivant profil"/>
+	<label commandName="ConvToSMBaseFaceSelection" devLabel="Select a base face to infer body thickness." translation="Sélectionnez une face de base pour déduire l'épaisseur du corps."/>
+	<label commandName="ConvertToSheetMetalEdit" devLabel="Edit Convert to sheet metal" translation="Modifier Convertir en tôle"/>
+	<label commandName="ConvertToSheetMetalMissingBaseFace" devLabel="Missing base face." translation="Face de base manquante."/>
+	<label commandName="CopyPasteNotSupportedForSheetMetalBodiesMainMsg" devLabel="Copy and paste of sheet metal bodies is not supported in order to maintain sheet metal rules." translation="L'opération de copier-coller des corps en tôle n'est pas prise en charge afin de conserver les règles de tôlerie."/>
+	<label commandName="CopyPasteNotSupportedForSheetMetalBodiesSubMsg" devLabel="Copy at the sheet metal component level instead." translation="Effectuez la copie au niveau du composant de tôlerie."/>
+	<label commandName="CopyPasteOfSMBodyInUnfoldRefoldModeSubMsg" devLabel="To create a copy of a sheet metal component, refold the model or roll the timeline back to a folded state, then copy at the sheet metal component level." translation="Pour créer une copie d'un composant de tôlerie, repliez le modèle ou ramenez le plan de montage chronologique à un état plié, puis effectuez la copie au niveau du composant de tôlerie."/>
+	<label commandName="CopyPasteRuleInUnfolRefoldModeMainMsg" devLabel="Sorry, components cannot be copied while a sheet metal body is unfolded." translation="Désolé, impossible de copier les composants lorsqu'un corps en tôle est déplié."/>
+	<label commandName="CopyPasteRuleInUnfolRefoldModeSubMsg" devLabel="Refold the model or roll the timeline back to a folded state to copy components." translation="Repliez le modèle ou ramenez le plan de montage chronologique à un état plié pour copier les composants."/>
+	<label commandName="CornerAlignedWidthExtents" devLabel="Aligned" translation="Aligné"/>
+	<label commandName="CornerAlignedWidthExtentsDesc" devLabel="Extends the corner closure along the flange edges, aligned with the edge direction." translation="Prolonge la fermeture d'angle le long des bords de la bride, alignée avec la direction de l'arête."/>
+	<label commandName="CornerAlignmentOverlap" devLabel="Overlap Gap" translation="Écart de chevauchement"/>
+	<label commandName="CornerAlignmentOverlapDesc" devLabel="Extends one flange at the corner to cover part or all of the adjacent flange thickness." translation="Prolonge une bride au niveau de l'angle pour couvrir une partie ou la totalité de l'épaisseur de la bride adjacente."/>
+	<label commandName="CornerAlignmentSeparator" devLabel="Alignment Separator" translation="Séparateur d'alignement"/>
+	<label commandName="CornerAlignmentSeparatorDesc" devLabel="Alignment Separator" translation="Séparateur d'alignement"/>
+	<label commandName="CornerAlignmentSymetric" devLabel="Symmetric Gap" translation="Jeu symétrique"/>
+	<label commandName="CornerAlignmentSymetricDesc" devLabel="Extends both flanges at the corner, maintaining a centered gap." translation="Prolonge les deux brides à l'angle, en maintenant un espace centré."/>
+	<label commandName="CornerAlignmentType" devLabel="Alignment" translation="Alignement"/>
+	<label commandName="CornerBendSmooth" devLabel="Smooth" translation="Lissage"/>
+	<label commandName="CornerBendSmoothDesc" devLabel="Creates a smooth spline transition between the bend edges. Visible in the flat pattern." translation="Crée une transition spline lisse entre les arêtes de pliage. Visible dans la mise à plat."/>
+	<label commandName="CornerBendStraightLine" devLabel="Straight Line" translation="Ligne droite"/>
+	<label commandName="CornerBendStraightLineDesc" devLabel="Creates a straight line transition between the bend zone edges, passing through the corner vertices. Visible in the flat pattern." translation="Crée une transition en ligne droite entre les arêtes de la zone de pliage, en passant par les sommets des coins. Visible dans la mise à plat."/>
+	<label commandName="CornerBendTransitionOption" devLabel="Bend Transition" translation="Transition de pli"/>
+	<label commandName="CornerBendTransitionOptionDesc" devLabel="" translation=""/>
+	<label commandName="CornerBendTrimToBend" devLabel="Trim To Bend" translation="Ajuster jusqu'au pli"/>
+	<label commandName="CornerEdgeSelection" devLabel="Edges" translation="Arêtes"/>
+	<label commandName="CornerEdgeSelectionDesc" devLabel="Select sheet metal edges to adjust the corner." translation="Sélectionnez les arêtes de tôlerie pour ajuster le coin."/>
+	<label commandName="CornerFlipOverlap" devLabel="Flip Overlap" translation="Inverser le chevauchement"/>
+	<label commandName="CornerFlipOverlapDesc" devLabel="Switches the overlapping flange without changing the overlap value." translation="Change la bride superposée sans modifier la valeur de superposition."/>
+	<label commandName="CornerMRUFollowSMRule" devLabel="Follow Sheet Metal Rule" translation="Suivre la règle de tôlerie"/>
+	<label commandName="CornerMRUFollowSMRuleActive" devLabel="Follow Sheet Metal Rule" translation="Suivre la règle de tôlerie"/>
+	<label commandName="CornerMiterGap" devLabel="Gap" translation="Espace"/>
+	<label commandName="CornerMiterGapDesc" devLabel="" translation=""/>
+	<label commandName="CornerOverlapSlider" devLabel="Overlap" translation="Chevauchement"/>
+	<label commandName="CornerOverlapSliderDesc" devLabel="Controls how much of the adjacent flange thickness is covered. Values range from 0.0 to 1.0." translation="Contrôle la partie de l'épaisseur de la bride adjacente couverte. Les valeurs sont comprises entre 0,0 et 1,0."/>
+	<label commandName="CornerOverrideSeparator" devLabel="Override Separator" translation="Remplacer le séparateur"/>
+	<label commandName="CornerOverrideSeparatorDesc" devLabel="Override Separator" translation="Remplacer le séparateur"/>
+	<label commandName="CornerOverrideThreeBendCornerGroup" devLabel="3-Bend Corner Override" translation="Remplacement du coin à trois plis"/>
+	<label commandName="CornerOverrideThreeBendCornerGroupDesc" devLabel="Lets you override the relief shape, size, and placement at corners where 3 bends intersect.&#xA;Check to apply overrides. Uncheck to restore the values defined in the Sheet Metal Rule." translation="Permet de remplacer la forme, la taille et le placement du grugeage aux angles où trois plis se coupent.&#xA;Activez cette option pour appliquer les remplacements. Désactivez-la pour restaurer les valeurs définies dans la règle de tôlerie."/>
+	<label commandName="CornerOverrideTwoBendCornerGroup" devLabel="2-Bend Corner Override" translation="Remplacement du coin à deux plis"/>
+	<label commandName="CornerOverrideTwoBendCornerGroupDesc" devLabel="Lets you override the relief shape, size, and placement at corners where 2 bends intersect.&#xA;Check to apply overrides. Uncheck to restore the values defined in the Sheet Metal Rule." translation="Permet de remplacer la forme, la taille et le placement du grugeage aux angles où deux plis se coupent.&#xA;Activez cette option pour appliquer les remplacements. Désactivez-la pour restaurer les valeurs définies dans la règle de tôlerie."/>
+	<label commandName="CornerPerpendicularWidthExtents" devLabel="Perpendicular" translation="Perpendiculaire"/>
+	<label commandName="CornerPerpendicularWidthExtentsDesc" devLabel="Extends the corner closure perpendicular to the flange edges." translation="Prolonge la fermeture de coin perpendiculairement aux bords de la bride."/>
+	<label commandName="CornerThreeBendReliefDefaultShapeFullRound" devLabel="Default (Full Round)" translation="Paramètre par défaut (Arrondi complet)"/>
+	<label commandName="CornerThreeBendReliefDefaultShapeFullRoundDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerThreeBendReliefDefaultShapeIntersection" devLabel="Default (Intersection)" translation="Paramètre par défaut (Intersection)"/>
+	<label commandName="CornerThreeBendReliefDefaultShapeIntersectionDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerThreeBendReliefDefaultShapeNoReplacement" devLabel="Default (No Replacement)" translation="Paramètre par défaut (Pas de remplacement)"/>
+	<label commandName="CornerThreeBendReliefDefaultShapeNoReplacementDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerThreeBendReliefDefaultShapeRoundWithRadius" devLabel="Default (Round with Radius)" translation="Paramètre par défaut (Arrondi avec rayon)"/>
+	<label commandName="CornerThreeBendReliefDefaultShapeRoundWithRadiusDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerThreeBendReliefRadius" devLabel="Relief Radius" translation="Rayon du grugeage"/>
+	<label commandName="CornerThreeBendReliefRadiusDesc" devLabel="Specifies the radius of the round bend relief cutout measured in the flat pattern." translation="Spécifie le rayon de la découpe de grugeage du pli arrondi mesuré dans la mise à plat."/>
+	<label commandName="CornerThreeBendReliefShapeFullRound" devLabel="Full Round" translation="Arrondi complet"/>
+	<label commandName="CornerThreeBendReliefShapeFullRoundDesc" devLabel="Extends the flange edges and applies a round fillet at their intersection." translation="Prolonge les arêtes de la bride et applique un raccord rond à leur intersection."/>
+	<label commandName="CornerThreeBendReliefShapeIntersection" devLabel="Intersection" translation="Intersection"/>
+	<label commandName="CornerThreeBendReliefShapeIntersectionDesc" devLabel="Extends the flange edges to form a sharp cut at their intersection." translation="Prolonge les arêtes de la bride pour former une coupe nette à leur intersection."/>
+	<label commandName="CornerThreeBendReliefShapeNoReplacement" devLabel="No Replacement" translation="Aucun remplacement"/>
+	<label commandName="CornerThreeBendReliefShapeNoReplacementDesc" devLabel="Leaves the corner limited to the intersecting bend zones with no additional bend relief." translation="Laisse l'angle limité aux zones de pliage sécantes sans grugeage supplémentaire."/>
+	<label commandName="CornerThreeBendReliefShapeRoundWithRadius" devLabel="Round with Radius" translation="Arrondi avec rayon"/>
+	<label commandName="CornerThreeBendReliefShapeRoundWithRadiusDesc" devLabel="Extends the flange edges to their intersection and applies a fillet with a specified radius to round the corner." translation="Prolonge les arêtes de la bride jusqu'à leur intersection et applique un raccord avec un rayon spécifié pour arrondir l'angle."/>
+	<label commandName="CornerTwoBendReliefDefaultShapeArcWeld" devLabel="Default (Arc Weld)" translation="Paramètre par défaut (Soudure en arc)"/>
+	<label commandName="CornerTwoBendReliefDefaultShapeArcWeldDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerTwoBendReliefDefaultShapeLaserWeld" devLabel="Default (Laser Weld)" translation="Par défaut (Soudure laser)"/>
+	<label commandName="CornerTwoBendReliefDefaultShapeLaserWeldDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerTwoBendReliefDefaultShapeLinearWeld" devLabel="Default (Linear Weld)" translation="Paramètre par défaut (Soudure linéaire)"/>
+	<label commandName="CornerTwoBendReliefDefaultShapeLinearWeldDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerTwoBendReliefDefaultShapeRound" devLabel="Default (Round)" translation="Paramètre par défaut (Arrondi)"/>
+	<label commandName="CornerTwoBendReliefDefaultShapeRoundDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerTwoBendReliefDefaultShapeSquare" devLabel="Default (Square)" translation="Paramètre par défaut (Carré)"/>
+	<label commandName="CornerTwoBendReliefDefaultShapeSquareDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerTwoBendReliefDefaultShapeTear" devLabel="Default (Tear)" translation="Paramètre par défaut (Déchirer)"/>
+	<label commandName="CornerTwoBendReliefDefaultShapeTearDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerTwoBendReliefDefaultShapeTrimToBend" devLabel="Default (Trim to Bend)" translation="Paramètre par défaut (Ajuster jusqu'au pliage)"/>
+	<label commandName="CornerTwoBendReliefDefaultShapeTrimToBendDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="CornerTwoBendReliefPlacement" devLabel="Relief Placement" translation="Placement du grugeage"/>
+	<label commandName="CornerTwoBendReliefPlacementDesc" devLabel="" translation=""/>
+	<label commandName="CornerTwoBendReliefPlacementIntersection" devLabel="Intersection" translation="Intersection"/>
+	<label commandName="CornerTwoBendReliefPlacementIntersectionDesc" devLabel="Centers the relief shape on the intersection where 2 flanges meet the base flange." translation="Centre la forme du grugeage à l'intersection où deux bords tombés rencontrent le bord tombé de base."/>
+	<label commandName="CornerTwoBendReliefPlacementTangent" devLabel="Tangent" translation="Tangente"/>
+	<label commandName="CornerTwoBendReliefPlacementTangentDesc" devLabel="Places a rounded relief shape so that it is tangent to the edges of 2 flanges where they meet the base flange." translation="Place un grugeage arrondi de façon à ce qu'il soit tangent aux arêtes de deux bords tombés à l'endroit où ils rencontrent le bord tombé de base."/>
+	<label commandName="CornerTwoBendReliefPlacementVertex" devLabel="Vertex" translation="Sommet"/>
+	<label commandName="CornerTwoBendReliefPlacementVertexDesc" devLabel="Centers the relief shape on the vertex where 2 flanges meet the base flange." translation="Centre la forme du grugeage sur le sommet, à l'endroit où 2 bords tombés rejoignent le bord tombé de base."/>
+	<label commandName="CornerTwoBendReliefShapeArcWeld" devLabel="Arc Weld" translation="Soudure en arc"/>
+	<label commandName="CornerTwoBendReliefShapeArcWeldDesc" devLabel="Creates a blunt notch bend relief with spline edges limited by the bending area." translation="Crée un grugeage d'encoche émoussé avec des arêtes de cannelure limitées par la zone de pliage."/>
+	<label commandName="CornerTwoBendReliefShapeLaserWeld" devLabel="Laser Weld" translation="Soudure laser"/>
+	<label commandName="CornerTwoBendReliefShapeLaserWeldDesc" devLabel="Creates a circular notch bend relief with spline edges limited by the bending area." translation="Crée un grugeage circulaire avec des arêtes de spline limitées par la zone de pliage."/>
+	<label commandName="CornerTwoBendReliefShapeLinearWeld" devLabel="Linear Weld" translation="Soudure linéaire"/>
+	<label commandName="CornerTwoBendReliefShapeLinearWeldDesc" devLabel="Creates a V-notch bend relief limited by the bending area." translation="Crée un grugeage d'encoche en V limité par la zone de pliage."/>
+	<label commandName="CornerTwoBendReliefShapeOption" devLabel="Relief Shape" translation="Forme du grugeage"/>
+	<label commandName="CornerTwoBendReliefShapeOptionDesc" devLabel="" translation=""/>
+	<label commandName="CornerTwoBendReliefShapeRound" devLabel="Round" translation="Rond"/>
+	<label commandName="CornerTwoBendReliefShapeRoundDesc" devLabel="Creates a circular bend relief of a specified size." translation="Crée un grugeage circulaire d'une taille spécifiée."/>
+	<label commandName="CornerTwoBendReliefShapeSquare" devLabel="Square" translation="Carré"/>
+	<label commandName="CornerTwoBendReliefShapeSquareDesc" devLabel="Creates a square bend relief of a specified size." translation="Créer un grugeage carré d'une taille spécifiée."/>
+	<label commandName="CornerTwoBendReliefShapeTear" devLabel="Tear" translation="Déchirer"/>
+	<label commandName="CornerTwoBendReliefShapeTearDesc" devLabel="Creates no bend relief, so the material is torn at the corner." translation="Ne crée aucun grugeage, de sorte que le matériau est déchiré au coin."/>
+	<label commandName="CornerTwoBendReliefShapeTrimToBend" devLabel="Trim to Bend" translation="Ajuster jusqu'au pli"/>
+	<label commandName="CornerTwoBendReliefShapeTrimToBendDesc" devLabel="Creates a square bend relief limited by the bending area." translation="Créer un grugeage carré limité par la zone de pliage."/>
+	<label commandName="CornerTwoBendReliefSize" devLabel="Relief Size" translation="Taille du grugeage"/>
+	<label commandName="CornerTwoBendReliefSizeDesc" devLabel="Specifies the size of the bend-relief cutout measured in the flat pattern." translation="Spécifie la taille de la découpe de grugeage mesurée dans la mise à plat."/>
+	<label commandName="CornerWidthExtents" devLabel="Width Extents" translation="Étendues de largeur"/>
+	<label commandName="CornerWidthExtentsDesc" devLabel="" translation=""/>
+	<label commandName="CornerinfoThreeBendReliefShapeOption" devLabel="Relief Shape" translation="Forme du grugeage"/>
+	<label commandName="CornerinfoThreeBendReliefShapeOptionDesc" devLabel="" translation=""/>
+	<label commandName="CreateFlatPatternCmd" devLabel="Create Flat Pattern" translation="Créer une mise à plat"/>
+	<label commandName="CutPasteNotSupportedForSheetMetalBodies" devLabel="Cut and paste of a sheet metal body is not supported. The selected sheet metal bodies will not be included in the operation." translation="L'opération de couper-coller d'un corps en tôle n'est pas prise en charge. Les corps en tôle sélectionnés ne seront pas inclus dans l'opération."/>
+	<label commandName="DieFormDesc" devLabel="Creates sheet metal flanges that will be formed using a stamping die as the manufacturing method." translation="Crée des bords tombés en tôle qui seront formés à l'aide d'une matrice de poinçonnage comme méthode de fabrication."/>
+	<label commandName="DieFormInfo" devLabel="Die Form" translation="Matricée"/>
+	<label commandName="Distance" devLabel="Distance" translation="Distance"/>
+	<label commandName="DistanceTooltip" devLabel="Specifies the overall distance of the flange, centered on the mid-point of the selected edge." translation="Spécifie la distance totale du bord tombé, centrée sur le milieu de l'arête sélectionnée."/>
+	<label commandName="DoubleHemDesc" devLabel="Creates a double-folded edge by rolling the material twice, resulting in a layered hem with two internal gaps." translation="Crée un bord avec un double pli en l'enroulant deux fois sur lui-même pour créer un bord rabattu double avec deux espaces internes."/>
+	<label commandName="DoubleHemGap" devLabel="Gap" translation="Espace"/>
+	<label commandName="DoubleHemGapDesc" devLabel="Specify the space between layers of sheet metal after folding." translation="Spécifie l'espace entre les couches de tôlerie après le pliage."/>
+	<label commandName="DoubleHemLength" devLabel="Length" translation="Longueur"/>
+	<label commandName="DoubleHemLengthDesc" devLabel="Specifies the distance to extrude the hem from the selected edge." translation="Spécifie la distance d'extrusion du bord rabattu à partir du bord sélectionné."/>
+	<label commandName="DoubleHemSetback" devLabel="Setback" translation="Étendue"/>
+	<label commandName="DoubleHemSetbackDesc" devLabel="Specifies the distance from the edge to the inner side of the first fold, placed between the connecting edge and the start of the double fold." translation="Spécifie la distance entre le bord et le côté intérieur du premier pli, entre le bord de connexion et le début du double pli."/>
+	<label commandName="DoubleHemType" devLabel="Double" translation="Double"/>
+	<label commandName="EFExtrudeDistanceInput" devLabel="Height" translation="Hauteur"/>
+	<label commandName="EFExtrudeDistanceInputDesc" devLabel="Specifies the distance to extrude the flange from the height datum." translation="Spécifie la distance d'extrusion du bord tombé à partir de la référence de hauteur."/>
+	<label commandName="EdgeExtentsType" devLabel="Extent Type" translation="Type d'étendue"/>
+	<label commandName="EdgeFlangeDeleteTooltip" devLabel="Remove edge" translation="Supprimer l'arête"/>
+	<label commandName="EdgeFlangeFirstOffset" devLabel="Offset 1" translation="Décalage 1"/>
+	<label commandName="EdgeFlangeFirstOffsetDesc" devLabel="Specifies the distance from Reference 1 to extend the flange on one side." translation="Spécifie la distance à partir de la référence 1 pour prolonger le bord tombé d'un côté."/>
+	<label commandName="EdgeFlangeFirstOffsetReference" devLabel="Reference 1" translation="Référence 1"/>
+	<label commandName="EdgeFlangeFirstOffsetReferenceDesc" devLabel="Select a face, point, or plane to define the reference for one side's offset." translation="Sélectionnez une face, un point ou un plan pour définir la référence du décalage sur un côté."/>
+	<label commandName="EdgeFlangeInputSelsDesc" devLabel="Select sheet metal edges or sketch profiles to create flange." translation="Sélectionnez des arêtes de tôlerie ou des contours d'esquisse pour créer un bord tombé."/>
+	<label commandName="EdgeFlangeOption" devLabel="Full Edge" translation="Arête entière"/>
+	<label commandName="EdgeFlangeOptionDesc" devLabel="Creates a flange along the entire length of the selected edge." translation="Crée un bord tombé sur toute la longueur de l'arête sélectionnée."/>
+	<label commandName="EdgeFlangeRef1Tooltip" devLabel="Select reference 1" translation="Sélectionner la référence 1"/>
+	<label commandName="EdgeFlangeRef2Tooltip" devLabel="Select reference 2" translation="Sélectionner la référence 2"/>
+	<label commandName="EdgeFlangeSecondOffset" devLabel="Offset 2" translation="Décalage 2"/>
+	<label commandName="EdgeFlangeSecondOffsetDesc" devLabel="Specifies the distance from Reference 2 to extend the flange on other side." translation="Spécifie la distance à partir de la référence 2 pour prolonger le bord tombé de l'autre côté."/>
+	<label commandName="EdgeFlangeSecondOffsetReference" devLabel="Reference 2" translation="Référence 2"/>
+	<label commandName="EdgeFlangeSecondOffsetReferenceDesc" devLabel="Select a face, point, or plane to define the reference for other side's offset." translation="Sélectionnez une face, un point ou un plan afin de définir la référence pour le décalage de l'autre côté."/>
+	<label commandName="EdgeFlangeTable" devLabel="Edge Flange Table" translation="Table de bords tombés"/>
+	<label commandName="EdgeFlangeTitle" devLabel="Edge Flange" translation="Bord tombé"/>
+	<label commandName="EdgeFlangeWidth1" devLabel="Distance 1" translation="Distance 1"/>
+	<label commandName="EdgeFlangeWidth1Desc" devLabel="Specifies the distance to extend one side of the flange from the mid-point of selected edge." translation="Spécifie la distance pour prolonger un côté du bord tombé à partir du milieu de l'arête sélectionnée."/>
+	<label commandName="EdgeFlangeWidth2" devLabel="Distance 2" translation="Distance 2"/>
+	<label commandName="EdgeFlangeWidth2Desc" devLabel="Specifies the distance to extend other side of the flange from the mid-point of selected edge." translation="Spécifie la distance pour prolonger l'autre côté du bord tombé à partir du milieu de l'arête sélectionnée."/>
+	<label commandName="EdgeNumberString" devLabel="EdgeNumberString" translation="EdgeNumberString"/>
+	<label commandName="EdgeSelDeleteBtn" devLabel="RemoveEdge" translation="RemoveEdge"/>
+	<label commandName="EdgeSelRow" devLabel="Edge %1%" translation="Arête %1%"/>
+	<label commandName="EditBaseFlangeTitle" devLabel="Edit Base Flange" translation="Modifier la bride de base"/>
+	<label commandName="EditContourFlangeTitle" devLabel="Edit Contour Flange" translation="Modifier le bord tombé suivant profil"/>
+	<label commandName="EditEdgeFlangeTitle" devLabel="Edit Edge Flange" translation="Modifier la bride d'arête"/>
+	<label commandName="EditFlangeTitle" devLabel="Edit Flange" translation="Modifier le bord tombé"/>
+	<label commandName="EditHemFlangeTitle" devLabel="Edit Hem" translation="Modifier le bord rabattu"/>
+	<label commandName="EditLoftedFlangeTitle" devLabel="Edit Lofted Flange" translation="Modifier la face lissée"/>
+	<label commandName="EditUnfold" devLabel="Edit Unfold" translation="Modifier le dépliage"/>
+	<label commandName="ErrorsDuringUpdateAllFlats" devLabel="Errors in one or more Flat Patterns." translation="Erreurs dans une ou plusieurs mises à plat."/>
+	<label commandName="ErrorsDuringUpdateFlat" devLabel="Errors in Flat Pattern." translation="Erreurs dans la mise à plat."/>
+	<label commandName="ErrorsInFlatDuringSaveMain" devLabel="Saving the design recomputed the flat pattern. There were errors in the recompute of the flat pattern that affect the geometry." translation="Avec l'enregistrement de la conception, la mise à plat a été recalculée. Des erreurs de calcul de la mise à plat ont affecté la géométrie."/>
+	<label commandName="ErrorsInFlatDuringSaveSub" devLabel="You can save the design with the errors or cancel the save to check the errors." translation="Vous pouvez enregistrer la conception avec les erreurs ou annuler l'enregistrement pour examiner les erreurs."/>
+	<label commandName="ExitFlatPatternCmdTT" devLabel="Finish Flat Pattern" translation="Terminer la mise à plat"/>
+	<label commandName="FaceForFlatten" devLabel="Stationary Face" translation="Face fixe"/>
+	<label commandName="FacetAngleDesc" devLabel="Lets you specify the maximum angle between the end points of each facet to determine the number of facets to create around the bend." translation="Permet de spécifier l'angle maximal entre les extrémités de chaque facette pour déterminer le nombre de facettes à créer autour du pli."/>
+	<label commandName="FacetAngleInfo" devLabel="Facet Angle" translation="Angle des facettes"/>
+	<label commandName="FacetAngleValue" devLabel="Facet Angle" translation="Angle des facettes"/>
+	<label commandName="FacetAngleValueDesc" devLabel="Specify the maximum angle value to determine the number of facets to create around the bend." translation="Spécifiez la valeur d'angle maximale pour déterminer le nombre de facettes à créer autour du pli."/>
+	<label commandName="FacetControl" devLabel="Facet Control" translation="Contrôle des facettes"/>
+	<label commandName="FacetDistanceDesc" devLabel="Lets you specify the maximum distance between the end points of each facet to determine the number of facets to create around the bend." translation="Permet de spécifier la distance maximale entre les extrémités de chaque facette pour déterminer le nombre de facettes à créer autour du pli."/>
+	<label commandName="FacetDistanceInfo" devLabel="Facet Distance" translation="Distance des facettes"/>
+	<label commandName="FacetDistanceValue" devLabel="Facet Distance" translation="Distance des facettes"/>
+	<label commandName="FacetDistanceValueDesc" devLabel="Specify the maximum facet distance value to determine the number of facets to create around the bend." translation="Spécifiez la valeur de distance de facette maximale pour déterminer le nombre de facettes à créer autour du pli."/>
+	<label commandName="FacetNumberDesc" devLabel="Lets you specify the number of facets to create around the bend." translation="Permet de spécifier le nombre de facettes à créer autour du pli."/>
+	<label commandName="FacetNumberInfo" devLabel="Facet Number" translation="Nombre de facettes"/>
+	<label commandName="FacetNumberValue" devLabel="Facet Number" translation="Nombre de facettes"/>
+	<label commandName="FacetNumberValueDesc" devLabel="Specify the number of facets to create around the bend." translation="Spécifiez le nombre de facettes à créer autour du pli."/>
+	<label commandName="FilterRulesByThickness" devLabel="Show Matching Rules" translation="Afficher les règles correspondantes"/>
+	<label commandName="FlangeAngleInput" devLabel="Angle" translation="Angle"/>
+	<label commandName="FlangeAngleInputDesc" devLabel="Specifies the angle of the flange limited by plane of selected object." translation="Spécifie l'angle du bord tombé dans la limite du plan de l'objet sélectionné."/>
+	<label commandName="FlangeChainingOption" devLabel="Chain Selection" translation="Sélection en chaîne"/>
+	<label commandName="FlangeEdgeLabel" devLabel="Edge Label" translation="Étiquette d'arête"/>
+	<label commandName="FlangeEdgeSelTable" devLabel="EdgeSelTable" translation="EdgeSelTable"/>
+	<label commandName="FlangeEdgeSelectionsGroup" devLabel="Selections" translation="Sélections"/>
+	<label commandName="FlangeExtentDropnDownOptions" devLabel="Flange Extent" translation="Étendue du bord tombé"/>
+	<label commandName="FlangeInputSels" devLabel="Edges/Profiles" translation="Arêtes/Contours"/>
+	<label commandName="FlangeInputSelsDesc" devLabel="Select sheet metal edges or sketch profiles to create flange or hem." translation="Sélectionnez des arêtes de tôlerie ou des contours d'esquisse pour créer un bord tombé ou un bord rabattu."/>
+	<label commandName="FlangeMetringOptionInput" devLabel="Miter Corners" translation="Coins à onglet"/>
+	<label commandName="FlangeMetringOptionInputDesc" devLabel="Miters the corners where sheet metal corners would otherwise overlap." translation="Coupe en onglets les coins à l'endroit où les coins en tôle se chevaucheraient."/>
+	<label commandName="FlangeTitle" devLabel="Flange" translation="Bord tombé"/>
+	<label commandName="FlangeTypeLabel" devLabel="Type" translation="Type"/>
+	<label commandName="FlatAlreadyExistForBodyMain" devLabel="A flat pattern already exists for the selected body." translation="Une mise à plat existe déjà pour le corps sélectionné."/>
+	<label commandName="FlatAlreadyExistForBodySub" devLabel="Do you want to activate the existing flat pattern?" translation="Voulez-vous activer la mise à plat existante?"/>
+	<label commandName="FlatAlreadyExistForCompMain" devLabel="The component that contains the selected body already contains a flat pattern." translation="Le composant contenant le corps sélectionné contient déjà une mise à plat."/>
+	<label commandName="FlatAlreadyExistForCompSub" devLabel="A component can contain only one flat pattern. Sheet metal bodies need to be in separate components in order to create flat patterns." translation="Un composant ne peut contenir qu'une seule mise à plat. Pour créer des mises à plat, vous devez placer les corps en tôle dans différents composants."/>
+	<label commandName="FlatHemDesc" devLabel="Creates a fold that rests tightly along the connected flange." translation="Crée un pli plaqué sur le bord tombé lié."/>
+	<label commandName="FlatHemLength" devLabel="Length" translation="Longueur"/>
+	<label commandName="FlatHemLengthDesc" devLabel="Specifies the distance to extrude the hem from the selected edge." translation="Spécifie la distance d'extrusion du bord rabattu à partir du bord sélectionné."/>
+	<label commandName="FlatHemType" devLabel="Flat" translation="Plat"/>
+	<label commandName="FlatPattenFaceSelection" devLabel="Select Stationary face to create Flat Pattern" translation="Sélectionner une face fixe pour créer une mise à plat"/>
+	<label commandName="FlatPatternDXFExportCmd" devLabel="Export Flat Pattern as DXF" translation="Exporter la mise à plat au format DXF"/>
+	<label commandName="FlatPatternMisaligned" devLabel="This flat pattern appears to be misaligned due to a problem in an earlier version of Fusion. This issue has now been fixed. We suggest deleting and recreating this flat pattern to fix the issue." translation="Cette mise à plat semble être mal alignée en raison d'un problème dans une version antérieure de Fusion. Ce problème a été résolu. Pour éliminer le problème, il est conseillé de supprimer cette mise à plat et de la recréer."/>
+	<label commandName="FlatPatternName" devLabel="Flat Pattern Name" translation="Nom de la mise à plat"/>
+	<label commandName="FlipBendDirection" devLabel="Flip" translation="Inverser"/>
+	<label commandName="FlipBendDirectionCI" devLabel="FlipBendDirection%1%" translation="FlipBendDirection%1%"/>
+	<label commandName="FlipDirection" devLabel="Flip" translation="Inverser"/>
+	<label commandName="FlipDirectionDesc" devLabel="Flips the flange 180 degrees over the base flange." translation="Retourne le bord tombé de 180 degrés par rapport au bord tombé de base."/>
+	<label commandName="FormingType" devLabel="Forming Type" translation="Type de forme"/>
+	<label commandName="FusionConvertToSheetMetal" devLabel="Convert to Sheet Metal" translation="Convertir en tôle"/>
+	<label commandName="FusionCornerEdit" devLabel="Edit Corner Closure" translation="Modifier la fermeture de coin"/>
+	<label commandName="FusionFilletSelection" devLabel="Selection" translation="Sélection"/>
+	<label commandName="FusionJoinByBend" devLabel="Join by bend" translation="Liaison par pliage"/>
+	<label commandName="FusionJoinByBendEdit" devLabel="Edit Join by bend" translation="Modifier la liaison par pliage"/>
+	<label commandName="FusionSelectExtrudeToObject" devLabel="Select face, workplane or workpoint to extend to" translation="Sélectionner la face, le plan de travail ou le point de construction de prolongement"/>
+	<label commandName="FusionSheetMetalCorner" devLabel="Corner Closure" translation="Fermeture de coin"/>
+	<label commandName="FusionSheetMetalFlange" devLabel="Flange (Base/Edge/Contour)" translation="Bord tombé (base/arête/contour)"/>
+	<label commandName="FusionSheetMetalFold" devLabel="Fold" translation="Pliage"/>
+	<label commandName="FusionSheetMetalHemFlange" devLabel="Hem" translation="Bord rabattu"/>
+	<label commandName="FusionSheetMetalLoftedFlange" devLabel="Lofted Flange" translation="Bord tombé lisse"/>
+	<label commandName="FusionSheetMetalRip" devLabel="Rip" translation="Découpe"/>
+	<label commandName="FusionSheetMetalRules" devLabel="Sheet Metal Rules" translation="Règles de tôlerie"/>
+	<label commandName="FusionSheetMetalRulesCopying" devLabel="Your existing sheet metal rules are being copied to the new Shared rules library." translation="Vos règles de tôlerie existantes sont copiées dans la nouvelle bibliothèque de règles partagées."/>
+	<label commandName="FusionSheetMetalRulesIntro" devLabel="You can now share your custom sheet metal rules with your hub users." translation="Vous pouvez désormais partager vos règles de tôlerie personnalisées avec les utilisateurs de Hub."/>
+	<label commandName="FusionSheetMetalRulesLearnMore" devLabel="Learn More" translation="En savoir plus"/>
+	<label commandName="FusionSheetMetalRulesLibrary" devLabel="Sheet Metal Rules Library" translation="Bibliothèque de règles de tôlerie"/>
+	<label commandName="FusionSheetMetalRulesLibraryName" devLabel="Shared rules" translation="Règles partagées"/>
+	<label commandName="FusionSheetMetalRulesMigrationError" devLabel="We couldn't copy your existing rules to the new Shared rules library because you're currently offline.&#xA;&#xA;Next time you're online, the Shared rules will be updated automatically." translation="Nous n'avons pas pu copier vos règles existantes dans la nouvelle bibliothèque de règles partagées, car vous êtes actuellement hors ligne.&#xA;&#xA;La prochaine fois que vous vous connecterez, les règles partagées seront automatiquement mises à jour."/>
+	<label commandName="FusionSheetMetalRulesTitle" devLabel="New sheet metal rules library" translation="Nouvelle bibliothèque de règles de tôlerie"/>
+	<label commandName="FusionSheetmetalRefold" devLabel="Refold" translation="Replier"/>
+	<label commandName="FusionSheetmetalUnfold" devLabel="Unfold" translation="Déplier"/>
+	<label commandName="HectometerMetric" devLabel="Hectometer" translation="Hectomètre"/>
+	<label commandName="HemBendPositionOption" devLabel="Bend Position" translation="Position du pli"/>
+	<label commandName="HemDistanceTooltip" devLabel="Specify the overall distance of the hem, centered on the mid-point of the selected edge." translation="Spécifiez la distance totale du bord rabattu, centrée sur le milieu de l'arête sélectionnée."/>
+	<label commandName="HemEdgeFlangeFirstOffsetDesc" devLabel="Specifies the distance from Reference 1 to extend the hem on one side." translation="Spécifie la distance à partir de la référence 1 pour prolonger le bord rabattu d'un côté."/>
+	<label commandName="HemEdgeFlangeOptionDesc" devLabel="Creates a hem along the entire length of the selected edge." translation="Crée un bord rabattu sur toute la longueur de l'arête sélectionnée."/>
+	<label commandName="HemEdgeFlangeSecondOffsetDesc" devLabel="Specifies the distance from Reference 2 to extend the hem on other side." translation="Spécifie la distance à partir de la référence 2 pour prolonger le bord rabattu de l'autre côté."/>
+	<label commandName="HemEdgeFlangeWidth1Desc" devLabel="Specify the distance to extend one side of the hem from the mid-point of selected edge." translation="Spécifiez la distance pour prolonger un côté du bord rabattu à partir du milieu de l'arête sélectionnée."/>
+	<label commandName="HemEdgeFlangeWidth2Desc" devLabel="Specify the distance to extend other side of the hem from the mid-point of selected edge." translation="Spécifiez la distance pour prolonger l'autre côté du bord rabattu à partir du milieu de l'arête sélectionnée."/>
+	<label commandName="HemFlangeInfo" devLabel="Hem" translation="Bord rabattu"/>
+	<label commandName="HemFlangeInputSels" devLabel="Edges" translation="Arêtes"/>
+	<label commandName="HemFlangeInputSelsDesc" devLabel="Select sheet metal edges to create hem." translation="Sélectionnez les bords de tôlerie pour créer un bord rabattu."/>
+	<label commandName="HemFlangeTable" devLabel="Hem Flange Table" translation="Table de brides de bord rabattu"/>
+	<label commandName="HemFlangeTypeDesc" devLabel="Folds a sheet metal edge back onto itself." translation="Replie une arête de tôlerie sur elle-même."/>
+	<label commandName="HemFlipDirectionDesc" devLabel="Flips the hem 180 degrees over the base flange." translation="Retourne le bord rabattu à 180 degrés sur le bord tombé de base."/>
+	<label commandName="HemOverrideRulesOptionInputDesc" devLabel="Changes specific setting values for the new hem.&#xA;Select to apply custom values or deselect to use the Sheet Metal Rule defaults." translation="Modifie les valeurs de réglage spécifiques pour le nouveau bord rabattu.&#xA;Sélectionnez cette option pour appliquer des valeurs personnalisées ou désélectionnez-la pour utiliser les valeurs par défaut de la règle de tôlerie."/>
+	<label commandName="HemSymmetricFlangeOptionDesc" devLabel="Creates a hem of a specified distance centered on the mid-point of the selected edge." translation="Crée un bord rabattu d'une distance spécifiée centré sur le milieu de l'arête sélectionnée."/>
+	<label commandName="HemTwoOffsetFlangeOptionDesc" devLabel="Creates a hem positioned between two selected reference faces, with adjustable offsets from each face." translation="Crée un bord rabattu positionné entre deux faces de référence sélectionnées, avec des décalages ajustables du côté de chaque face."/>
+	<label commandName="HemTwoSideFlangeOptionDesc" devLabel="Creates a hem centered on the mid-point of the selected edge with two adjustable width extents on both sides." translation="Crée un bord rabattu centré sur le milieu de l'arête sélectionnée avec deux étendues de largeur ajustables des deux côtés."/>
+	<label commandName="HemType" devLabel="Type" translation="Type"/>
+	<label commandName="Imperial" devLabel="Foot" translation="Pied"/>
+	<label commandName="InchImperial" devLabel="Inch" translation="Pouce"/>
+	<label commandName="Inches" devLabel="Inches" translation="Pouces"/>
+	<label commandName="IncludeCenterLine" devLabel="Center Lines" translation="Axes centraux"/>
+	<label commandName="IncludeExtentLine" devLabel="Extent Lines" translation="Lignes d'encombrement"/>
+	<label commandName="InnerFaces" devLabel="Inner Faces" translation="Faces intérieures"/>
+	<label commandName="InnerFacesDesc" devLabel="Sets the height reference to the intersection on the inner faces of the base flange and the new flange." translation="Définit la référence de hauteur par rapport à l'intersection entre les faces intérieures du bord tombé de base et du nouveau bord tombé."/>
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="L'objet que vous créez n'est pas visible. Activez la visibilité dans le navigateur."/>
+	<label commandName="JBBendAlignedFaceExtension" devLabel="Aligned" translation="Aligné"/>
+	<label commandName="JBBendAlignedFaceExtensionDesc" devLabel="Creates join by bend with aligned face extension." translation="Crée une jointure pliée avec le prolongement de face aligné."/>
+	<label commandName="JBBendEdgesSelection" devLabel="Edges" translation="Arêtes"/>
+	<label commandName="JBBendEdgesSelectionDesc" devLabel="Select two edges to join separate sheet metal bodies into one." translation="Sélectionnez deux arêtes pour joindre des corps de tôlerie distincts en une seule."/>
+	<label commandName="JBBendFaceExtension" devLabel="Face extension" translation="Prolongement de face"/>
+	<label commandName="JBBendFaceExtensionDesc" devLabel="Select face extension type." translation="Sélectionnez le type de prolongement de face."/>
+	<label commandName="JBBendMRUFollowSMRule" devLabel="Follow Sheet Metal Rule" translation="Suivre la règle de tôlerie"/>
+	<label commandName="JBBendMRUFollowSMRuleActive" devLabel="Follow Sheet Metal Rule" translation="Suivre la règle de tôlerie"/>
+	<label commandName="JBBendPerpendicularFaceExtension" devLabel="Perpendicular" translation="Perpendiculaire"/>
+	<label commandName="JBBendPerpendicularFaceExtensionDesc" devLabel="Creates join by bend with perpendicular face extension." translation="Crée une jointure pliée avec le prolongement de face perpendiculaire."/>
+	<label commandName="JBBendPresetValue" devLabel="Preset Value" translation="Valeur prédéfinie"/>
+	<label commandName="JBBendRadiusDefaultState" devLabel="Bend radius is default" translation="Le rayon de pliage est la valeur par défaut"/>
+	<label commandName="JBBendRadiusDefaultStateDesc" devLabel="Hidden state used by presets to store whether bend radius is default from the active sheet metal rule." translation="État masqué utilisé par les préréglages pour indiquer si le rayon de pliage est défini par défaut à partir de la règle de tôlerie active."/>
+	<label commandName="JBBendRadiusInput" devLabel="Bend radius" translation="Rayon de pliage"/>
+	<label commandName="JBBendRadiusInputDesc" devLabel="Specifies the inside radius of the bend." translation="Spécifie le rayon intérieur du pli."/>
+	<label commandName="JBBendReliefDefaultRound" devLabel="Default (Round)" translation="Par défaut (Rond)"/>
+	<label commandName="JBBendReliefDefaultRoundDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="JBBendReliefDefaultStraight" devLabel="Default (Straight)" translation="Par défaut (droit)"/>
+	<label commandName="JBBendReliefDefaultStraightDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="JBBendReliefDefaultTear" devLabel="Default (Tear)" translation="Par défaut (Déchirer)"/>
+	<label commandName="JBBendReliefDefaultTearDesc" devLabel="The relief shape is defined by a sheet metal rule." translation="La forme du grugeage est définie par une règle de tôlerie."/>
+	<label commandName="JBBendReliefDepth" devLabel="Relief depth" translation="Profondeur du grugeage"/>
+	<label commandName="JBBendReliefDepthDesc" devLabel="Specifies the depth of the notch at the end of the bend." translation="Spécifie la profondeur de l'encoche à la fin du pli."/>
+	<label commandName="JBBendReliefRemnant" devLabel="Relief remnant" translation="Reste de grugeage"/>
+	<label commandName="JBBendReliefRemnantDesc" devLabel="Specifies the minimum stock that remains alongside a bend relief cut." translation="Spécifie le brut minimum qui reste à côté d'une coupe de grugeage de pliage."/>
+	<label commandName="JBBendReliefRound" devLabel="Round" translation="Rond"/>
+	<label commandName="JBBendReliefRoundDesc" devLabel="Creates a round notch bend relief at the end of the bend." translation="Crée un relief de pli d'encoche rond à la fin du pli."/>
+	<label commandName="JBBendReliefShape" devLabel="Relief shape" translation="Forme du grugeage"/>
+	<label commandName="JBBendReliefStraight" devLabel="Straight" translation="Droit"/>
+	<label commandName="JBBendReliefStraightDesc" devLabel="Creates a square notch bend relief at the end of the bend." translation="Crée un relief de pli d'encoche carrée à la fin du pli."/>
+	<label commandName="JBBendReliefTear" devLabel="Tear" translation="Déchirer"/>
+	<label commandName="JBBendReliefTearDesc" devLabel="Creates no bend relief, resulting in a tear at the end of the bend." translation="Ne crée aucun relief de pliage, ce qui entraîne une déchirure à la fin du pli."/>
+	<label commandName="JBBendReliefWidth" devLabel="Relief width" translation="Largeur du grugeage"/>
+	<label commandName="JBBendReliefWidthDesc" devLabel="Specifies the width of the notch at the end of the bend." translation="Spécifie la largeur de l'encoche à la fin du pli."/>
+	<label commandName="JBBendSeparator" devLabel="Separator" translation="Séparateur"/>
+	<label commandName="LoftedBendRadiusInputDesc" devLabel="Specifies a distance from the inner surface of the sheet to the center of the bend. This controls how tightly the material bends and affects both strength and appearance." translation="Spécifie une distance entre la surface intérieure de la feuille et le centre du pli, afin de contrôler l'amplitude de celui-ci. Cette valeur affecte à la fois la résistance et l'apparence."/>
+	<label commandName="LoftedFlangeChainingOptionDesc" devLabel="Selects connected chains of geometry automatically." translation="Sélectionne automatiquement les chaînes de géométrie liées."/>
+	<label commandName="LoftedFlangeInfo" devLabel="Lofted Flange" translation="Bord tombé lisse"/>
+	<label commandName="LoftedFlangeInputSels" devLabel="Profiles" translation="Contours"/>
+	<label commandName="LoftedFlangeTypeDesc" devLabel="Creates a complex sheet metal shape." translation="Crée une forme de tôlerie complexe."/>
+	<label commandName="LoftedOverrideRulesOptionInputDesc" devLabel="Changes specific setting values for the new flange.&#xA;Select to apply custom values or deselect to use the Sheet Metal Rule defaults." translation="Modifie certaines valeurs de paramètres sur le nouveau bord tombé.&#xA;Sélectionnez l'option pour appliquer des valeurs personnalisées, ou désélectionnez-la pour utiliser les valeurs par défaut de la règle de tôlerie."/>
+	<label commandName="MMKS" devLabel="Meter" translation="Mètre"/>
+	<label commandName="MicronMetric" devLabel="Micron" translation="Micron"/>
+	<label commandName="MilImperial" devLabel="Mil" translation="Mil"/>
+	<label commandName="MileImperial" devLabel="Mile" translation="Mile"/>
+	<label commandName="Millimeters" devLabel="Millimeters" translation="Millimètres"/>
+	<label commandName="MmMKS" devLabel="Millimeter" translation="Millimètre"/>
+	<label commandName="NewBodyInNewCompType" devLabel="New Component" translation="Nouveau composant"/>
+	<label commandName="NewBodyInNewCompTypeDesc" devLabel="Creates a new sheet metal body in a separate component." translation="Crée un corps de tôle dans un autre composant."/>
+	<label commandName="NewBodyType" devLabel="New Body" translation="Nouveau corps"/>
+	<label commandName="NewBodyTypeDesc" devLabel="Creates a separate sheet metal body within the active component." translation="Crée un nouveau corps de tôle dans le composant actif."/>
+	<label commandName="NoteForThicknessChanged" devLabel="Note: Thickness will be changed to " translation="Remarque: l'épaisseur deviendra "/>
+	<label commandName="OODFlatsWillBeUpdated" devLabel="Saving the design updates any flat patterns that are out-of-date." translation="Avec l'enregistrement de la conception, toute mise à plat obsolète est mise à jour."/>
+	<label commandName="Ok" devLabel="OK" translation="OK"/>
+	<label commandName="OneSide" devLabel="Side 1" translation="Côté 1"/>
+	<label commandName="OneSideDesc" devLabel="Extrudes a flat sheet metal material to one side of the sketch profile." translation="Extrude une tôle plane sur un côté du contour d'esquisse."/>
+	<label commandName="OneSideExtent" devLabel="One Side" translation="Un côté"/>
+	<label commandName="OneSideExtentDesc" devLabel="Extrudes flange on one side of the profile plane." translation="Extrude un bord tombé sur un côté du plan de contour."/>
+	<label commandName="OpenHemDesc" devLabel="Creates a fold with a small gap between the edge and connecting flange." translation="Crée un pli avec un petit espace entre le bord et le bord tombé de liaison."/>
+	<label commandName="OpenHemGap" devLabel="Gap" translation="Espace"/>
+	<label commandName="OpenHemGapDesc" devLabel="Specify the space between layers of sheet metal after folding." translation="Spécifie l'espace entre les couches de tôlerie après le pliage."/>
+	<label commandName="OpenHemLength" devLabel="Length" translation="Longueur"/>
+	<label commandName="OpenHemLengthDesc" devLabel="Specifies the distance to extrude the hem from the selected edge." translation="Spécifie la distance d'extrusion du bord rabattu à partir du bord sélectionné."/>
+	<label commandName="OpenHemType" devLabel="Open" translation="Ouvrir"/>
+	<label commandName="Orientation" devLabel="Orientation" translation="Orientation"/>
+	<label commandName="OtherSide" devLabel="Side 2" translation="Côté 2"/>
+	<label commandName="OtherSideDesc" devLabel="Extrudes a flat sheet metal material to the opposite side of the sketch profile." translation="Extrude une tôle plane sur le côté opposé du contour d'esquisse."/>
+	<label commandName="OuterFaces" devLabel="Outer Faces" translation="Faces extérieures"/>
+	<label commandName="OuterFacesDesc" devLabel="Sets the height reference to the intersection on the outer faces of the base flange and the new flange." translation="Définit la référence de hauteur par rapport à l'intersection entre les faces extérieures du bord tombé de base et du nouveau bord tombé."/>
+	<label commandName="OverrideBendReliefGroup" devLabel="Bend Relief Override" translation="Remplacement du grugeage"/>
+	<label commandName="OverrideBendReliefGroupDesc" devLabel="Lets you override the relief shape, width, depth, and remnant values of bends for the new flange.&#xA;Check to apply overrides. Uncheck to restore the values defined in the Sheet Metal Rule." translation="Permet de remplacer la forme, la largeur, la profondeur et les valeurs résiduelles des grugeages du nouveau bord tombé.&#xA;Activez cette option pour appliquer des remplacements. Désactivez-la pour restaurer les valeurs définies dans la règle de tôlerie."/>
+	<label commandName="OverrideOptionGroupBendOverride" devLabel="Bend Override" translation="Remplacement du pli"/>
+	<label commandName="OverrideOptionGroupBendOverrideDesc" devLabel="Lets you override the bend radius value for the new flange.&#xA;Check to apply overrides. Uncheck to restore the value defined in the Sheet Metal Rule." translation="Permet de remplacer la valeur du rayon de pliage du nouveau bord tombé.&#xA;Activez cette option pour appliquer des remplacements. Désactivez-la pour restaurer les valeurs définies dans la règle de tôlerie."/>
+	<label commandName="OverrideRulesOptionInput" devLabel="Override Rules" translation="Remplacer les règles"/>
+	<label commandName="OverrideRulesOptionInputDesc" devLabel="Changes specific setting values for the new flange.&#xA;Select to apply custom values or deselect to use the Sheet Metal Rule defaults." translation="Modifie certaines valeurs de paramètres sur le nouveau bord tombé.&#xA;Sélectionnez l'option pour appliquer des valeurs personnalisées, ou désélectionnez-la pour utiliser les valeurs par défaut de la règle de tôlerie."/>
+	<label commandName="OverrideThreeBendCornerGroup" devLabel="3-Bend Corner Override" translation="Remplacement du coin à 3 plis"/>
+	<label commandName="OverrideThreeBendCornerGroupDesc" devLabel="Lets you override the relief shape, size, and placement at corners where 3 bends intersect.&#xA;Check to apply overrides. Uncheck to restore the values defined in the Sheet Metal Rule." translation="Permet de remplacer la forme, la taille et le placement du grugeage aux angles où trois plis se coupent.&#xA;Activez cette option pour appliquer les remplacements. Désactivez-la pour restaurer les valeurs définies dans la règle de tôlerie."/>
+	<label commandName="OverrideTwoBendCornerGroup" devLabel="2-Bend Corner Override" translation="Remplacement du coin à 2 plis"/>
+	<label commandName="OverrideTwoBendCornerGroupDesc" devLabel="Lets you override the relief shape, size, and placement at corners where 2 bends intersect.&#xA;Check to apply overrides. Uncheck to restore the values defined in the Sheet Metal Rule." translation="Permet de remplacer la forme, la taille et le placement du grugeage aux angles où deux plis se coupent.&#xA;Activez cette option pour appliquer les remplacements. Désactivez-la pour restaurer les valeurs définies dans la règle de tôlerie."/>
+	<label commandName="PartSMRuleDTT" devLabel="Select a rule to determine the sheet metal component’s material thickness, bend radius, and corner relief type." translation="Sélectionnez une règle pour déterminer l'épaisseur de matière, le rayon de pliage et le type de grugeage en coin du composant de tôlerie."/>
+	<label commandName="PartSMSubTypeDTT" devLabel="Creates a component that is subject to sheet metal rules and can be used to create flat patterns." translation="Crée un composant soumis aux règles de tôlerie et qui peut être utilisé pour créer des mises à plat."/>
+	<label commandName="PressBrakeDesc" devLabel="Creates sheet metal flanges that will be formed using a press brake with a punch and die as the manufacturing method." translation="Crée des bords tombés en tôle qui seront formés à l'aide d'un pliage avec poinçonnage et matrice comme méthode de fabrication."/>
+	<label commandName="PressBrakeInfo" devLabel="Brake Form" translation="Pli de tôle"/>
+	<label commandName="RemoveBaseFlangeSelection" devLabel="Remove" translation="Supprimer"/>
+	<label commandName="RemoveBaseFlangeSelectionButton" devLabel="Remove selection set." translation="Supprimez le jeu de sélection."/>
+	<label commandName="RemoveContourFlangeJoinSelection" devLabel="Remove" translation="Supprimer"/>
+	<label commandName="RemoveContourFlangeJoinSelectionButton" devLabel="Remove selection set." translation="Supprimez le jeu de sélection."/>
+	<label commandName="RemoveContourFlangeSelection" devLabel="Remove" translation="Supprimer"/>
+	<label commandName="RemoveContourFlangeSelectionButton" devLabel="Remove selection set." translation="Supprimez le jeu de sélection."/>
+	<label commandName="RemoveEdgeFlangeSelection" devLabel="Remove" translation="Supprimer"/>
+	<label commandName="RemoveEdgeFlangeSelectionButton" devLabel="Remove selection set." translation="Supprimez le jeu de sélection."/>
+	<label commandName="RemoveHemFlangeSelection" devLabel="Remove" translation="Supprimer"/>
+	<label commandName="RemoveHemFlangeSelectionButton" devLabel="Remove selection set." translation="Supprimez le jeu de sélection."/>
+	<label commandName="Retry" devLabel="Retry" translation="Réessayer"/>
+	<label commandName="RipDistance" devLabel="Gap Width" translation="Largeur de l'espacement"/>
+	<label commandName="RipFirstPoint" devLabel="Offset 1" translation="Décalage 1"/>
+	<label commandName="RipGapWidthDesc" devLabel="Specify the Gap Width value." translation="Spécifiez la valeur de la largeur de l'espacement."/>
+	<label commandName="RipInputSels" devLabel="Face/Edge/Vertex" translation="Face/Arête/Sommet"/>
+	<label commandName="RipInputSelsDesc" devLabel="Select a face, edge or vertex to create a rip." translation="Sélectionnez une face, une arête ou un sommet pour créer une découpe."/>
+	<label commandName="RipSecondPoint" devLabel="Offset 2" translation="Décalage 2"/>
+	<label commandName="RolledHemAngle" devLabel="Angle" translation="Angle"/>
+	<label commandName="RolledHemAngleDesc" devLabel="Specifies how far the edge folds to form the rounded cavity." translation="Spécifie l'amplitude de pliage du bord pour former la cavité arrondie."/>
+	<label commandName="RolledHemDesc" devLabel="Creates a rounded fold that provides a smooth edge for gripping or fastening." translation="Crée un pli arrondi qui offre un bord lisse pour ajouter des fixations ou des attaches."/>
+	<label commandName="RolledHemRadius" devLabel="Radius" translation="Rayon"/>
+	<label commandName="RolledHemRadiusDesc" devLabel="Specifies the curvature of the fold." translation="Spécifie la courbure du pli."/>
+	<label commandName="RolledHemType" devLabel="Rolled" translation="Roulé"/>
+	<label commandName="RopeHemDesc" devLabel="Creates a rounded fold with an extended flange edge and a small gap between the edge and the connecting flange, similar to an open hem." translation="Crée un pli arrondi avec un bord tombé allongé et un petit espace entre le bord et le bord tombé de liaison, comme dans un bord rabattu ouvert."/>
+	<label commandName="RopeHemGap" devLabel="Gap" translation="Espace"/>
+	<label commandName="RopeHemGapDesc" devLabel="Specify the space between layers of sheet metal after folding." translation="Spécifie l'espace entre les couches de tôlerie après le pliage."/>
+	<label commandName="RopeHemLength" devLabel="Length" translation="Longueur"/>
+	<label commandName="RopeHemLengthDesc" devLabel="Specifies the distance to extrude the hem from the selected edge." translation="Spécifie la distance d'extrusion du bord rabattu à partir du bord sélectionné."/>
+	<label commandName="RopeHemRadius" devLabel="Radius" translation="Rayon"/>
+	<label commandName="RopeHemRadiusDesc" devLabel="Specifies the curvature of the fold." translation="Spécifie la courbure du pli."/>
+	<label commandName="RopeHemType" devLabel="Rope" translation="Corde"/>
+	<label commandName="RuleLCLZ" devLabel="Rule" translation="Règle"/>
+	<label commandName="RuleNoteForThicknessChanged" devLabel="ThicknessChange" translation="ThicknessChange"/>
+	<label commandName="RulesWidget" devLabel="Rules Widget" translation="Widget de règles"/>
+	<label commandName="SMComponentType" devLabel="Sheet Metal" translation="Tôlerie"/>
+	<label commandName="SMExtComponentTypeDTT" devLabel="Creates a new Sheet Metal Part Design and inserts it into %1% as an external component." translation="Crée une nouvelle conception de pièce de tôlerie et l'insère dans%1% en tant que composant externe."/>
+	<label commandName="SMFlangeDirectionType" devLabel="Orientation" translation="Orientation"/>
+	<label commandName="SMFoldAllowBendReliefTooltip" devLabel="Turn off to skip creating any bend reliefs." translation="Désactivez cette option pour ignorer la création de grugeages."/>
+	<label commandName="SMFoldAllowCornerReliefTooltip" devLabel="Turn off to skip creating any corner reliefs." translation="Désactivez cette option pour ignorer la création de grugeages en coin."/>
+	<label commandName="SMFoldAngleCI" devLabel="SMFoldAngleCI%1%" translation="SMFoldAngleCI%1%"/>
+	<label commandName="SMFoldFeatAngleInput" devLabel="Bend Angle" translation="Angle de pliage"/>
+	<label commandName="SMFoldFeatCurveSelTooltip" devLabel="Select a sketch line over a sheet metal face." translation="Sélectionnez une ligne d'esquisse sur une face de tôlerie."/>
+	<label commandName="SMFoldFeatFaceSelection" devLabel="Stationary Side" translation="Côté fixe"/>
+	<label commandName="SMFoldFeatLineSelectionCI" devLabel="Bend Line" translation="Ligne de pliage"/>
+	<label commandName="SMFoldFeatureFaceSelection" devLabel="Click on the stationary side of a face on a sheet metal body." translation="Cliquez sur le côté fixe d'une face sur un corps en tôle."/>
+	<label commandName="SMFoldFlipUpDownTooltip" devLabel="Flips the direction of the bend up / down." translation="Inverse la direction du pli vers le haut/vers le bas."/>
+	<label commandName="SMFoldLinePositionTooltip" devLabel="Creates the bend at the start, end or center of the bend line." translation="Crée le pli au début, à la fin ou au centre de la ligne de pliage."/>
+	<label commandName="SMFoldTable" devLabel="SMFoldTable" translation="SMFoldTable"/>
+	<label commandName="SMFoldTableAdd" devLabel="Add" translation="Ajouter"/>
+	<label commandName="SMFoldTableRemvoe" devLabel="Remove" translation="Supprimer"/>
+	<label commandName="SMFoldTableRowLabel" devLabel="Row Label" translation="Étiquette de ligne"/>
+	<label commandName="SMIntComponentTypeDTT" devLabel="Creates a new internal sheet metal component in %1%." translation="Crée un nouveau composant de tôlerie interne dans%1%."/>
+	<label commandName="SelectFromLibrary" devLabel="Select from library..." translation="Sélectionner dans la bibliothèque…"/>
+	<label commandName="SheetMetal Environment" devLabel="Sheet Metal" translation="Tôlerie"/>
+	<label commandName="SheetMetalBaseFlangePreviewSuppressedTooltip" devLabel="Select or deselect closed sketch profiles" translation="Sélectionner ou désélectionner des contours d'esquisse fermés"/>
+	<label commandName="SheetMetalBaseFlangePreviewTooltipMac" devLabel="Select more closed sketch profiles, adjust settings, or hold Command to modify selection" translation="Sélectionnez d'autres contours d'esquisse fermés, ajustez les paramètres ou maintenez la touche Commande enfoncée pour modifier la sélection"/>
+	<label commandName="SheetMetalBaseFlangePreviewTooltipWindows" devLabel="Select more closed sketch profiles, adjust settings, or hold Ctrl to modify selection" translation="Sélectionnez d'autres contours d'esquisse fermés, ajustez les paramètres ou maintenez la touche Ctrl enfoncée pour modifier la sélection"/>
+	<label commandName="SheetMetalCompName" devLabel="Component" translation="Composant"/>
+	<label commandName="SheetMetalContourFlangeJoinTooltip" devLabel="If the sketch starts on an edge, select additional edges" translation="Si l'esquisse commence sur une arête, sélectionnez d'autres arêtes"/>
+	<label commandName="SheetMetalContourFlangePreviewSuppressedTooltip" devLabel="Select or deselect open sketch profiles" translation="Sélectionnez ou désélectionnez des contours d'esquisse ouverts"/>
+	<label commandName="SheetMetalCurrentDefaultHubRuleSelectorLabel" devLabel="Default rule" translation="Règle par défaut"/>
+	<label commandName="SheetMetalCurrentDefaultHubRuleSelectorToolTip" devLabel="Sets the rule applied to new sheet metal bodies by default." translation="Définit la règle appliquée par défaut aux nouveaux corps de tôlerie."/>
+	<label commandName="SheetMetalCurrentHubDefaultRuleKFactorLabel" devLabel="K-Factor" translation="Facteur K"/>
+	<label commandName="SheetMetalCurrentHubDefaultRuleKFactorToolTip" devLabel="Shows the K-Factor value set in the default rule." translation="Affiche la valeur du facteur K définie dans la règle par défaut."/>
+	<label commandName="SheetMetalCurrentHubDefaultRuleThicknessLabel" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="SheetMetalCurrentHubDefaultRuleThicknessToolTip" devLabel="Shows the material thickness of the default rule." translation="Affiche l'épaisseur du matériau de la règle par défaut."/>
+	<label commandName="SheetMetalCurrentHubDefaultRuleUnitsLabel" devLabel="Units" translation="Unités"/>
+	<label commandName="SheetMetalCurrentHubDefaultRuleUnitsToolTip" devLabel="Shows the units used by the default rule." translation="Affiche les unités utilisées par la règle par défaut."/>
+	<label commandName="SheetMetalDefaultHubRuleOptionGroupName" devLabel="Default sheet metal rule" translation="Règle de tôlerie par défaut"/>
+	<label commandName="SheetMetalEdgeFlangePreviewSuppressedTooltip" devLabel="Select or deselect sheet metal edges" translation="Sélectionnez ou désélectionnez des arêtes de tôlerie"/>
+	<label commandName="SheetMetalEdgeFlangeTooltip" devLabel="Select more sheet metal edges or specify height to extrude" translation="Sélectionnez d'autres arêtes de tôlerie ou spécifiez la hauteur à extruder"/>
+	<label commandName="SheetMetalFlangeContourFlangeTooltip" devLabel="Select more open sketch profiles or specify height to extrude" translation="Sélectionnez d'autres contours d'esquisse ouverts ou spécifiez la hauteur à extruder"/>
+	<label commandName="SheetMetalFlangeDefaultTooltip" devLabel="Select sheet metal edges or sketch geometry to use for flange profiles" translation="Sélectionnez les arêtes de tôlerie ou la géométrie d'esquisse à utiliser pour les contours de bord tombé"/>
+	<label commandName="SheetMetalFlangePreviewTooltipMac" devLabel="Adjust settings or hold Command to modify selection" translation="Ajustez les paramètres ou maintenez la touche Cmd enfoncée pour modifier la sélection"/>
+	<label commandName="SheetMetalFlangePreviewTooltipWindows" devLabel="Adjust settings or hold Ctrl to modify selection" translation="Ajustez les paramètres ou maintenez la touche Ctrl enfoncée pour modifier la sélection"/>
+	<label commandName="SheetMetalFoldMissingStationaryEntity" devLabel="Missing stationary face." translation="Face fixe manquante."/>
+	<label commandName="SheetMetalHemFlangeDefaultTooltip" devLabel="Select an edge to hem" translation="Sélectionner un bord à ourler"/>
+	<label commandName="SheetMetalLoftedFlangeDefaultTooltip" devLabel="Select two sketch profiles to create flange." translation="Sélectionnez deux contours d'esquisse pour créer un bord tombé."/>
+	<label commandName="SheetMetalLoftedFlangePreviewSuppressedTooltip" devLabel="Select or deselect sketch profiles" translation="Sélectionnez ou désélectionnez des contours d'esquisse"/>
+	<label commandName="SheetMetalLoftedFlangeTooltip" devLabel="Select second sketch profile to loft" translation="Sélectionnez le deuxième contour d'esquisse à lisser"/>
+	<label commandName="SheetMetalRipAlongEdgePreviewCursorPromptMac" devLabel="Adjust the Gap Width value or hold Command to modify selection" translation="Ajustez la valeur de la largeur de l'espacement ou maintenez la touche Cmd enfoncée pour modifier la sélection"/>
+	<label commandName="SheetMetalRipAlongEdgePreviewCursorPromptWindows" devLabel="Adjust the Gap Width value or hold Ctrl to modify selection" translation="Ajustez la valeur de la largeur de l'espacement ou maintenez la touche Ctrl enfoncée pour modifier la sélection"/>
+	<label commandName="SheetMetalRipBetweenPointsOneSelectionCursorPrompt" devLabel="Select the end point on an opposing external edge of the same face" translation="Sélectionnez le point d'arrivée sur une arête externe opposée de la même face"/>
+	<label commandName="SheetMetalRipBetweenPointsPreviewCursorPromptMac" devLabel="Adjust the Gap Width value, point locations, or hold Command to modify selection" translation="Ajustez la valeur de la largeur de l'espacement, l'emplacement des points ou maintenez la touche Cmd enfoncée pour modifier la sélection"/>
+	<label commandName="SheetMetalRipBetweenPointsPreviewCursorPromptWindows" devLabel="Adjust the Gap Width value, point locations, or hold Ctrl to modify selection" translation="Ajustez la valeur de la largeur de l'espacement, l'emplacement des points ou maintenez la touche Ctrl enfoncée pour modifier la sélection"/>
+	<label commandName="SheetMetalRipDefaultCursorPrompt" devLabel="Select a face, an internal edge, or a start point on an external edge" translation="Sélectionner une face, une arête interne ou un point de départ sur une arête externe"/>
+	<label commandName="SheetMetalRipDefaultTooltip" devLabel="Select a face, an internal edge, or a start point on an external edge" translation="Sélectionner une face, une arête interne ou un point de départ sur une arête externe"/>
+	<label commandName="SheetMetalRipEdit" devLabel="Edit Rip" translation="Modifier la découpe"/>
+	<label commandName="SheetMetalRipFacePreviewCursorPromptMac" devLabel="Hold Command to modify selection" translation="Maintenir la touche Cmd enfoncée pour modifier la sélection"/>
+	<label commandName="SheetMetalRipFacePreviewCursorPromptWindows" devLabel="Hold Ctrl to modify selection" translation="Maintenir la touche Ctrl enfoncée pour modifier la sélection"/>
+	<label commandName="SheetMetalRule" devLabel="Sheet Metal Rule" translation="Règle de tôlerie"/>
+	<label commandName="SheetMetalRuleDropDownLabel" devLabel="Rule" translation="Règle"/>
+	<label commandName="SheetMetalRuleDropDownToolTip" devLabel="Selects a sheet metal rule for the active component." translation="Sélectionne une règle de tôlerie pour le composant actif."/>
+	<label commandName="SheetMetalRuleKFactorLabel" devLabel="K-Factor" translation="Facteur K"/>
+	<label commandName="SheetMetalRuleKFactorToolTip" devLabel="Shows the K-Factor value used by the selected rule." translation="Affiche la valeur du facteur K utilisée par la règle sélectionnée."/>
+	<label commandName="SheetMetalRuleThicknessLabel" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="SheetMetalRuleThicknessToolTip" devLabel="Shows the material thickness used by the selected rule." translation="Affiche l'épaisseur du matériau utilisée par la règle sélectionnée."/>
+	<label commandName="SheetMetalRuleUnitsLabel" devLabel="Units" translation="Unités"/>
+	<label commandName="SheetMetalRuleUnitsToolTip" devLabel="Shows the units used by the selected rule." translation="Affiche les unités utilisées par la règle sélectionnée."/>
+	<label commandName="SheetMetalRulesLibraryGreaterThanZero" devLabel="Must be greater than 0" translation="Doit être supérieur à 0"/>
+	<label commandName="SheetMetalRulesLibraryOfflineMessage" devLabel="You're currently offline and can't connect to the library. The default rule will be used when you create a new sheet metal component.&#xA;&#xA;Once you're back online, the rules library will be available." translation="Vous êtes actuellement hors ligne et vous ne pouvez pas vous connecter à la bibliothèque. La règle par défaut est utilisée lorsque vous créez un composant de tôlerie.&#xA;&#xA;Une fois que vous serez de nouveau en ligne, la bibliothèque de règles sera disponible."/>
+	<label commandName="SheetMetalRulesLibraryOfflineTitle" devLabel="Sheet metal rules library isn't available" translation="La bibliothèque de règles de tôlerie n'est pas disponible"/>
+	<label commandName="SheetMetalRulesName" devLabel="Sheet Metal Rules" translation="Règles de tôlerie"/>
+	<label commandName="SheetMetalRulesToolTip" devLabel="Sheet Metal Rules" translation="Règles de tôlerie"/>
+	<label commandName="SheetMetalSettingsCmdInput" devLabel="SheetMetalSettingsCmdInput" translation="SheetMetalSettingsCmdInput"/>
+	<label commandName="SheetmetalSheetMetalFoldEdit" devLabel="Edit Fold" translation="Modifier le pli"/>
+	<label commandName="SheetmetalUnfoldEdit" devLabel="Edit Unfold" translation="Modifier le dépliage"/>
+	<label commandName="SketchCurveLabel" devLabel="Sketch Curve Label" translation="Étiquette de courbe d'esquisse"/>
+	<label commandName="SketchNumberString" devLabel="SketchNumberString" translation="SketchNumberString"/>
+	<label commandName="SketchProfileLabel" devLabel="Sketch Profile Label" translation="Étiquette de profil d'esquisse"/>
+	<label commandName="SketchSelRow" devLabel="Profile %1%" translation="Contour %1%"/>
+	<label commandName="SplineToPolyline" devLabel="Splines to Polylines" translation="Splines en polylignes"/>
+	<label commandName="SplineToPolylineTolerance" devLabel="Tolerance" translation="Tolérance"/>
+	<label commandName="StandardFlangeInfo" devLabel="Flange (Base/Edge/Contour)" translation="Bord tombé (base/arête/contour)"/>
+	<label commandName="StandardFlangeTypeDesc" devLabel="Creates a flat or bent sheet metal flange." translation="Crée un bord tombé de tôlerie plat ou plié."/>
+	<label commandName="StationaryFaceSelection" devLabel="Stationary Side" translation="Côté fixe"/>
+	<label commandName="StationarySideSelCmdInput" devLabel="StationarySideType" translation="StationarySideType"/>
+	<label commandName="SwitchSheetMetalDataCommand" devLabel="Switch Sheet Metal Rule" translation="Changer de règle de tôlerie"/>
+	<label commandName="SymmetricEdgeRowGroupName" devLabel="Edge %1% (Symmetric)" translation="Edge %1% (symétrique)"/>
+	<label commandName="SymmetricExtent" devLabel="Symmetric" translation="Symétrique"/>
+	<label commandName="SymmetricExtentDesc" devLabel="Creates identical extrusions on each side of the profile plane." translation="Crée des extrusions identiques de chaque côté du plan du contour."/>
+	<label commandName="SymmetricFlangeOption" devLabel="Symmetric" translation="Symétrique"/>
+	<label commandName="SymmetricFlangeOptionDesc" devLabel="Creates a flange of a specified distance centered on the mid-point of the selected edge." translation="Crée un bord tombé selon la distance spécifiée, centrée sur le milieu du bord sélectionné."/>
+	<label commandName="SymmetryWidth" devLabel="Distance" translation="Distance"/>
+	<label commandName="SymmetryWidthDesc" devLabel="Specifies the overall distance of the flange, centered on the mid-point of the selected edge." translation="Spécifie la distance totale du bord tombé, centrée sur le milieu du bord sélectionné."/>
+	<label commandName="TangentToBend" devLabel="Tangent To Bend" translation="Tangent au pli"/>
+	<label commandName="TangentToBendDesc" devLabel="Sets the height reference tangent to the bend between the base flange and new flange, parallel to the new flange." translation="Définit la référence de hauteur tangente au pli entre le bord tombé de base et le nouveau bord tombé, parallèlement à ce dernier."/>
+	<label commandName="TeardropHemDesc" devLabel="Creates a rounded fold with an extended flange edge, bent beyond 180 degrees to form a teardrop-like shape." translation="Crée un pli arrondi avec un bord tombé allongé, avec un angle supérieur à 180 degrés pour former un pli en forme de goutte d'eau."/>
+	<label commandName="TeardropHemGap" devLabel="Gap" translation="Espace"/>
+	<label commandName="TeardropHemGapDesc" devLabel="Specify the space between layers of sheet metal after folding." translation="Spécifie l'espace entre les couches de tôlerie après le pliage."/>
+	<label commandName="TeardropHemLength" devLabel="Length" translation="Longueur"/>
+	<label commandName="TeardropHemLengthDesc" devLabel="Specifies the distance to extrude the hem from the selected edge." translation="Spécifie la distance d'extrusion du bord rabattu à partir du bord sélectionné."/>
+	<label commandName="TeardropHemRadius" devLabel="Radius" translation="Rayon"/>
+	<label commandName="TeardropHemRadiusDesc" devLabel="Specifies the curvature of the fold." translation="Spécifie la courbure du pli."/>
+	<label commandName="TeardropHemType" devLabel="Teardrop" translation="Larme"/>
+	<label commandName="ThicknessCmdInput" devLabel="ThicknessType" translation="ThicknessType"/>
+	<label commandName="ThicknessId" devLabel="Thickness: " translation="Épaisseur: "/>
+	<label commandName="ThreeBendReliefRadius" devLabel="Relief Radius" translation="Rayon du grugeage"/>
+	<label commandName="ThreeBendReliefRadiusDesc" devLabel="Specify the relief radius value to override the sheet metal rule." translation="Spécifiez la valeur du rayon de grugeage pour remplacer la règle de tôlerie."/>
+	<label commandName="ToObject" devLabel="To Object" translation="Vers l'objet"/>
+	<label commandName="ToObjectOffsetInput" devLabel="Offset" translation="Décalage"/>
+	<label commandName="ToObjectOffsetInputDesc" devLabel="Offsets extrusion from selected object." translation="Décale l'extrusion à partir de l'objet sélectionné."/>
+	<label commandName="ToObjectSelectInfo" devLabel="Object" translation="Objet"/>
+	<label commandName="ToObjectSelectInfoDesc" devLabel="Select a face, plane, or point to extend the flange to." translation="Sélectionnez la face, le plan ou le point vers lesquels étendre le bord tombé."/>
+	<label commandName="ToObjectTooltip" devLabel="Extrudes to a body, face, or plane that you select." translation="Effectue une extrusion jusqu'au corps, au plan ou à la face que vous avez sélectionné."/>
+	<label commandName="TwoBendCornerReliefSize" devLabel="Relief Size" translation="Taille du grugeage"/>
+	<label commandName="TwoBendReliefSize" devLabel="Relief Size" translation="Taille du grugeage"/>
+	<label commandName="TwoBendReliefSizeDesc" devLabel="Specifies the size of the bend-relief cutout measured in the flat pattern." translation="Spécifie la taille de la découpe de grugeage mesurée dans la mise à plat."/>
+	<label commandName="TwoOffsetEdgeRowGroupName" devLabel="Edge %1% (Two Offsets)" translation="Bord %1% (deux décalages)"/>
+	<label commandName="TwoOffsetFlangeOption" devLabel="Two Offsets" translation="Deux décalages"/>
+	<label commandName="TwoOffsetFlangeOptionDesc" devLabel="Creates a flange positioned between two selected reference faces, with adjustable offsets from each face." translation="Crée un bord tombé entre les deux faces de référence sélectionnées, avec des décalages ajustables du côté de chaque face."/>
+	<label commandName="TwoOffsetRef1Label" devLabel="Reference 1" translation="Référence 1"/>
+	<label commandName="TwoOffsetRef2Label" devLabel="Reference 2" translation="Référence 2"/>
+	<label commandName="TwoOffsetRefOrder" devLabel="TwoOffsetRefOrder" translation="TwoOffsetRefOrder"/>
+	<label commandName="TwoSideEdgeRowGroupName" devLabel="Edge %1% (Two Sides)" translation="Bord %1% (deux côtés)"/>
+	<label commandName="TwoSideExtent" devLabel="Two Sides" translation="Deux côtés"/>
+	<label commandName="TwoSideExtentDesc" devLabel="Creates a unique extrusion on each side of the profile plane." translation="Crée une extrusion unique de chaque côté du plan du contour."/>
+	<label commandName="TwoSideFlangeOption" devLabel="Two Sides" translation="Deux côtés"/>
+	<label commandName="TwoSideFlangeOptionDesc" devLabel="Creates a flange centered on the mid-point of the selected edge with two adjustable width extents on both sides." translation="Crée une bride centrée sur le milieu de l'arête sélectionnée avec deux étendues de largeur réglables de chaque côté."/>
+	<label commandName="UISheetMetalRulesOptionGroupName" devLabel="Sheet Metal Rules" translation="Règles de tôlerie"/>
+	<label commandName="UISheetMetalRulesOptionGroupTooltip" devLabel="Preferences controlling sheet metal rules" translation="Préférences de contrôle des règles de tôlerie"/>
+	<label commandName="UnfoldAllBendsInput" devLabel="Unfold all bends" translation="Déplier tous les plis"/>
+	<label commandName="UnfoldAllBendsInputDesc" devLabel="Flattens all bends in the model." translation="Aplatit tous les plis du modèle."/>
+	<label commandName="UnfoldBendFacesInput" devLabel="Bends" translation="Plis"/>
+	<label commandName="UnfoldBendFacesInputDesc" devLabel="Select the bends to flatten." translation="Sélectionnez les plis à aplatir."/>
+	<label commandName="UnfoldEnvironment" devLabel="Unfold Environment" translation="Environnement de dépliage"/>
+	<label commandName="UnfoldInsideOtherGroup" devLabel="Unfold is not supported inside other custom group. Please come out of the group by roll back or roll forward on timeline, and try unfold." translation="Le dépliage n'est pas pris en charge dans un autre groupe personnalisé. Avancez ou reculez sur le plan de montage chronologique pour sortir du groupe, puis retentez le dépliage."/>
+	<label commandName="UnfoldInsideUnfold" devLabel="You are already in Unfold mode. Would you like to edit the unfold feature to add bends?" translation="Vous êtes déjà en mode de dépliage. Voulez-vous modifier la fonction de dépliage pour ajouter des plis?"/>
+	<label commandName="UnfoldMissingStationaryEntity" devLabel="Missing stationary face." translation="Face fixe manquante."/>
+	<label commandName="UnfoldStationaryFace" devLabel="Reference" translation="Référence"/>
+	<label commandName="UnfoldStationaryFaceDesc" devLabel="Select a face that remains fixed during unfold." translation="Sélectionnez une face qui reste fixe pendant le dépliage."/>
+	<label commandName="UnitType" devLabel="Units" translation="Unités"/>
+	<label commandName="UpdateAllFlatPatternsCommand" devLabel="Update All Flat Patterns" translation="Mettre à jour toutes les mises à plat"/>
+	<label commandName="UpdateDocumentSheetMetalRule" devLabel="Sheet Metal Rule edit" translation="Modification de la règle de tôlerie"/>
+	<label commandName="UpdateFlatPatternCommand" devLabel="Update Flat Pattern" translation="Mettre à jour la mise à plat"/>
+	<label commandName="UpdateFlatPatternFromMainDesignCommand" devLabel="Update Flat Pattern" translation="Mettre à jour la mise à plat"/>
+	<label commandName="VisibleFPGeom" devLabel="Visible Geometry" translation="Géométrie visible"/>
+	<label commandName="YardImperial" devLabel="Yard" translation="Yard"/>
+	<label commandName="allowBendReliefOptInput" devLabel="Bend Relief" translation="Grugeage"/>
+	<label commandName="allowCornerReliefOptInput" devLabel="Corner Relief" translation="Grugeage en coin"/>
+	<label commandName="bendLinePosition" devLabel="bendLinePosition%1%" translation="bendLinePosition%1%"/>
+	<label commandName="bendReliefDepth" devLabel="Relief Depth" translation="Profondeur du grugeage"/>
+	<label commandName="bendReliefDepthDesc" devLabel="Specify the relief depth value to override the sheet metal rule." translation="Spécifiez la valeur de profondeur du grugeage pour remplacer la règle de tôlerie."/>
+	<label commandName="bendReliefWidth" devLabel="Relief Width" translation="Largeur du grugeage"/>
+	<label commandName="bendReliefWidthDesc" devLabel="Specify the relief width value to override the sheet metal rule." translation="Spécifiez la valeur de largeur du grugeage pour remplacer la règle de tôlerie."/>
+	<label commandName="cornerMiterGapDefaultTooltip" devLabel=" (As Rule)&#xA;Defines the distance between the selected edges of the flanges at the corner." translation=" (En règle générale)&#xA;Définit la distance entre les arêtes sélectionnées des brides au niveau de l'angle."/>
+	<label commandName="cornerMiterGapOverrideTooltip" devLabel=" (Override)&#xA;Defines the distance between the selected edges of the flanges at the corner." translation=" (Remplacer)&#xA;Définit la distance entre les arêtes sélectionnées des brides au niveau de l'angle."/>
+	<label commandName="infoAllowBendReliefOption" devLabel="infoAllowBendReliefOption%1%" translation="infoAllowBendReliefOption%1%"/>
+	<label commandName="infoBendLineAtCenter" devLabel="Center" translation="Centre"/>
+	<label commandName="infoBendLineAtEnd" devLabel="End" translation="Fin"/>
+	<label commandName="infoBendLineAtStart" devLabel="Start" translation="Démarrer"/>
+	<label commandName="infoBendLinePosition" devLabel="Line Position" translation="Position de la ligne"/>
+	<label commandName="infoBendPositionOption" devLabel="Bend Position" translation="Position du pli"/>
+	<label commandName="infoBendReliefShapePositionOption" devLabel="Relief Shape" translation="Forme du grugeage"/>
+	<label commandName="infoConvToSMFeatBodyThickness" devLabel="Thickness (Detected)" translation="Épaisseur (détectée)"/>
+	<label commandName="infoConvToSMFeatFaceSelection" devLabel="Source" translation="Source"/>
+	<label commandName="infoFlangeEdgeLabelRow" devLabel="infoFlangeEdgeLabel%1%" translation="infoFlangeEdgeLabel%1%"/>
+	<label commandName="infoFlangeExtentsOptionsRow" devLabel="infoFlangeExtentsOptions%1%" translation="infoFlangeExtentsOptions%1%"/>
+	<label commandName="infoHeightDatumOption" devLabel="Height Datum" translation="Référence de la hauteur"/>
+	<label commandName="infoShapeArcWeld" devLabel="Arc Weld" translation="Soudure en arc"/>
+	<label commandName="infoShapeArcWeldDesc" devLabel="Creates a blunt notch bend relief with spline edges limited by the bending area." translation="Crée un grugeage d'encoche émoussé avec des arêtes de cannelure limitées par la zone de pliage."/>
+	<label commandName="infoShapeFullRound" devLabel="Full Round" translation="Arrondi complet"/>
+	<label commandName="infoShapeFullRoundDesc" devLabel="Creates a bend relief shape by extending the flange edges until they intersect, then adding a full round fillet at the intersection, tangent to the flange edges starting at the bend zone." translation="Crée une forme de grugeage en prolongeant les arêtes du bord tombé jusqu'à ce qu'elles se coupent, puis en ajoutant un congé complet à l'intersection, tangent aux arêtes du bord tombé à partir de la zone de pliage."/>
+	<label commandName="infoShapeIntersection" devLabel="Intersection" translation="Intersection"/>
+	<label commandName="infoShapeIntersectionDesc" devLabel="Creates a bend relief shape by extending the flange edges until they intersect." translation="Crée une forme de grugeage en prolongeant les arêtes du bord tombé jusqu'à ce qu'elles se coupent."/>
+	<label commandName="infoShapeLaserWeld" devLabel="Laser Weld" translation="Soudure laser"/>
+	<label commandName="infoShapeLaserWeldDesc" devLabel="Creates a circular notch bend relief with spline edges limited by the bending area." translation="Crée un grugeage circulaire avec des arêtes de spline limitées par la zone de pliage."/>
+	<label commandName="infoShapeLinearWeld" devLabel="Linear Weld" translation="Soudure linéaire"/>
+	<label commandName="infoShapeLinearWeldDesc" devLabel="Creates a V-notch bend relief limited by the bending area." translation="Crée un grugeage d'encoche en V limité par la zone de pliage."/>
+	<label commandName="infoShapeNoReplacement" devLabel="No Replacement" translation="Aucun remplacement"/>
+	<label commandName="infoShapeNoReplacementDesc" devLabel="Creates no special bend relief shape at the corner where 3 bends meet." translation="Ne crée aucune forme de grugeage spéciale au niveau du coin où trois plis se rencontrent."/>
+	<label commandName="infoShapeRound" devLabel="Round" translation="Rond"/>
+	<label commandName="infoShapeRoundDesc" devLabel="Creates a bend relief with a rounded notch and a width, depth, and remnant that you specify." translation="Crée un grugeage avec une encoche arrondie et une largeur, une profondeur et des restes que vous spécifiez."/>
+	<label commandName="infoShapeRoundWithRadius" devLabel="Round with Radius" translation="Arrondi avec rayon"/>
+	<label commandName="infoShapeRoundWithRadiusDesc" devLabel="Creates a bend relief shape by extending the flange edges until they intersect, then adding a fillet of a size that you specify to round the intersection." translation="Crée une forme de grugeage en prolongeant les arêtes du bord tombé jusqu'à ce qu'elles se coupent, puis en ajoutant un congé de la taille spécifiée pour arrondir l'intersection."/>
+	<label commandName="infoShapeSquare" devLabel="Square" translation="Carré"/>
+	<label commandName="infoShapeSquareDesc" devLabel="Creates a square bend relief of a specified size." translation="Créer un grugeage carré d'une taille spécifiée."/>
+	<label commandName="infoShapeStraight" devLabel="Straight" translation="Droit"/>
+	<label commandName="infoShapeStraightDesc" devLabel="Creates a bend relief with a squared notch and a width, depth, and remnant that you specify." translation="Crée un grugeage avec une encoche carrée et une largeur, une profondeur et des restes que vous spécifiez."/>
+	<label commandName="infoShapeTear" devLabel="Tear" translation="Déchirer"/>
+	<label commandName="infoShapeTearDesc" devLabel="Creates no bend relief, so the material is torn and leaves a remnant that you specify." translation="Ne crée aucun grugeage, de sorte que la matière est déchirée et laisse un reste que vous spécifiez."/>
+	<label commandName="infoShapeTrimToBend" devLabel="Trim to Bend" translation="Ajuster jusqu'au pli"/>
+	<label commandName="infoShapeTrimToBendDesc" devLabel="Creates a square bend relief limited by the bending area." translation="Créer un grugeage carré limité par la zone de pliage."/>
+	<label commandName="infoSketchCurveUniqueLabelRow" devLabel="infoSketchCurveUniqueLabelRow%1%" translation="infoSketchCurveUniqueLabelRow%1%"/>
+	<label commandName="infoSketchProfileLabelRow" devLabel="infoSketchProfileLabelRow%1%" translation="infoSketchProfileLabelRow%1%"/>
+	<label commandName="infoTableRowLabel" devLabel="infoTableRowLabel%1%" translation="infoTableRowLabel%1%"/>
+	<label commandName="infoThreeBendReliefShapePositionOption" devLabel="Relief Shape" translation="Forme du grugeage"/>
+	<label commandName="infoTwoBendCornerReliefPlacement" devLabel="Relief Placement" translation="Placement du grugeage"/>
+	<label commandName="infoTwoBendCornerReliefPlacementIntersection" devLabel="Intersection" translation="Intersection"/>
+	<label commandName="infoTwoBendCornerReliefShapeOption" devLabel="Relief Shape" translation="Forme du grugeage"/>
+	<label commandName="infoTwoBendCornerReliefShapeRound" devLabel="Round" translation="Rond"/>
+	<label commandName="infoTwoBendCornerReliefShapeSquare" devLabel="Square" translation="Carré"/>
+	<label commandName="infoTwoBendCornerReliefShapeTear" devLabel="Tear" translation="Déchirer"/>
+	<label commandName="infoTwoBendPlacementIntersection" devLabel="Intersection" translation="Intersection"/>
+	<label commandName="infoTwoBendPlacementIntersectionDesc" devLabel="Centers the relief shape on the intersection where 2 flanges meet the base flange." translation="Centre la forme du grugeage à l'intersection où deux bords tombés rencontrent le bord tombé de base."/>
+	<label commandName="infoTwoBendPlacementTangent" devLabel="Tangent" translation="Tangente"/>
+	<label commandName="infoTwoBendPlacementTangentDesc" devLabel="Places a rounded relief shape so that it is tangent to the edges of 2 flanges where they meet the base flange." translation="Place un grugeage arrondi de façon à ce qu'il soit tangent aux arêtes de deux bords tombés à l'endroit où ils rencontrent le bord tombé de base."/>
+	<label commandName="infoTwoBendPlacementVertex" devLabel="Vertex" translation="Sommet"/>
+	<label commandName="infoTwoBendPlacementVertexDesc" devLabel="Centers the relief shape on the vertex where 2 flanges meet the base flange." translation="Centre la forme du grugeage sur le sommet, à l'endroit où 2 bords tombés rejoignent le bord tombé de base."/>
+	<label commandName="infoTwoBendReliefPlacement" devLabel="Relief Placement" translation="Placement du grugeage"/>
+	<label commandName="infoTwoBendReliefShapeOption" devLabel="Relief Shape" translation="Forme du grugeage"/>
+	<label commandName="infoTwoBendShapeRound" devLabel="Round" translation="Rond"/>
+	<label commandName="infoTwoBendShapeRoundDesc" devLabel="Creates a circular bend relief of a specified size." translation="Crée un grugeage circulaire d'une taille spécifiée."/>
+	<label commandName="infoTwoBendShapeTear" devLabel="Tear" translation="Déchirer"/>
+	<label commandName="infoTwoBendShapeTearDesc" devLabel="Creates no bend relief, so the material is torn at the corner." translation="Ne crée aucun grugeage, de sorte que le matériau est déchiré au coin."/>
+	<label commandName="lclzArc" devLabel="Arc" translation="Arc"/>
+	<label commandName="lclzAutomatePanelSketch" devLabel="AUTOMATE" translation="AUTOMATISER"/>
+	<label commandName="lclzCONSTRAINTS" devLabel="CONSTRAINTS" translation="CONTRAINTES"/>
+	<label commandName="lclzCREATE" devLabel="CREATE" translation="CRÉER"/>
+	<label commandName="lclzChangeSheetMetalData1" devLabel="Displays sheetmetal rule data." translation="Affiche les données de la règle de tôlerie."/>
+	<label commandName="lclzCircle" devLabel="Circle" translation="Cercle"/>
+	<label commandName="lclzConstruction" devLabel="Construct" translation="Construire"/>
+	<label commandName="lclzConvToSMTipsAndTricksDesc" devLabel="Use this to add Sheet Metal features to a solid body." translation="Utilisez cette option pour ajouter des fonctions de tôlerie à un corps solide."/>
+	<label commandName="lclzConvToSMTipsAndTricksTips" devLabel="Select a face of a solid body for inferring thickness." translation="Sélectionnez une face d'un corps solide pour déduire l'épaisseur."/>
+	<label commandName="lclzConvToSMTipsAndTricksTitle" devLabel="Convert To Sheet Metal Information" translation="Informations sur la commande Convertir en tôle"/>
+	<label commandName="lclzConvertToSheetMetalCmd1" devLabel="Converts a solid body of uniform thickness to a sheet metal body." translation="Convertit un corps solide d'épaisseur uniforme en corps en tôle."/>
+	<label commandName="lclzConvertToSheetMetalCmd2" devLabel="Select a face of a solid body for inferring thickness." translation="Sélectionnez une face d'un corps solide pour déduire l'épaisseur."/>
+	<label commandName="lclzCreate" devLabel="Create" translation="Créer"/>
+	<label commandName="lclzFlatPatternDXFExportCmd1" devLabel="Exports a sheet metal Flat Pattern to a DXF file." translation="Exporte une mise à plat de tôlerie vers un fichier DXF."/>
+	<label commandName="lclzFlatPatternDXFExportCmd2" devLabel="Outer profiles, interior profiles, bend center lines, bend extend lines, and text are assigned to different layers in the DXF file." translation="Les contours externes, les contours internes, les traits d'axe des plis, les lignes étendues de pliage et le texte sont affectés à différents calques dans le fichier DXF."/>
+	<label commandName="lclzFlatPatternDXFTipsAndTricksTips" devLabel="The Flat Pattern will be exported as a DXF file to use for laser cutting. Outer profiles, interior profiles, bend center lines, bend extent lines and text will each be assigned to a different layer in the DXF file." translation="La mise à plat sera exportée en tant que fichier DXF à utiliser pour la découpe au laser. Les contours extérieurs, les contours intérieurs, les axes centraux des plis, les lignes d'encombrement des plis et le texte seront affectés à différents calques dans le fichier DXF."/>
+	<label commandName="lclzFlatPatternDXFTipsAndTricksTitle" devLabel="Export Flat Pattern As DXF Information" translation="Exporter la mise à plat au format d'informations DXF"/>
+	<label commandName="lclzFlatPatternSolidTab" devLabel="FLAT PATTERN SOLID" translation="SOLIDE DE MISE À PLAT"/>
+	<label commandName="lclzFlatPatternSurfaceTab" devLabel="FLAT PATTERN SURFACE" translation="SURFACE DE MISE À PLAT"/>
+	<label commandName="lclzFusionJoinByBendCommand1" devLabel="Joins two separate sheet metal bodies by creating a connecting bend." translation="Relie deux corps de tôlerie distincts en créant un pli de connexion."/>
+	<label commandName="lclzFusionJoinByBendCommand2" devLabel="Material may be added to one or both bodies to connect them." translation="De la matière peut être ajoutée à l'un ou aux deux corps pour les relier."/>
+	<label commandName="lclzFusionSheetMetalCornerCommand2" devLabel="Adjusts the gap and relief shape of a corner that is formed by two flanges." translation="Ajuste la forme de l'espace et du grugeage d'un angle formé par deux brides."/>
+	<label commandName="lclzFusionSheetMetalExitFlatPatternCmd1" devLabel="Return to the folded model." translation="Revenez au modèle plié."/>
+	<label commandName="lclzFusionSheetMetalFlatPatternCmd1" devLabel="Enters Flat Pattern mode and creates a flat pattern from a folded design." translation="Active le mode Mise à plat et crée une mise à plat à partir d'une conception pliée."/>
+	<label commandName="lclzFusionSheetMetalFlatPatternCmd2" devLabel="Select the face to position on the XY plane. All flanges are unfolded from that face. Select Finish Flat Pattern to exit out of the mode." translation="Sélectionnez la face à positionner sur le plan XY. Tous les bords tombés sont dépliés à partir de cette face. Sélectionnez Terminer la mise à plat pour quitter le mode."/>
+	<label commandName="lclzFusionSheetMetalRipCommand1" devLabel="Creates a Rip on a sheet metal flange along an edge, between two points, or removes a face." translation="Crée une découpe sur un bord tombé en tôle entre deux points d'une arête ou supprime une face."/>
+	<label commandName="lclzFusionSheetMetalRipCommand2" devLabel="Select a face to remove, an edge to rip along, or two points to define the start and end of the rip. If selecting two points or an edge, specify the Gap Width value." translation="Sélectionnez la face à supprimer ou l'arête à découper, ou définissez les points de début et de fin de la découpe. Si vous sélectionnez deux points ou une arête, vous devez spécifier la valeur de la largeur d'espacement."/>
+	<label commandName="lclzFusionSheetmetalRefoldCommand1" devLabel="Returns the model to its folded shape." translation="Redonne au modèle sa forme pliée."/>
+	<label commandName="lclzFusionSheetmetalRefoldCommand2" devLabel="Any changes made in the flat state remain in the folded model." translation="Toutes les modifications effectuées à l'état plat restent dans le modèle plié."/>
+	<label commandName="lclzFusionSheetmetalUnfoldCommand1" devLabel="Flattens selected bends with one face fixed so you can add features across flanges." translation="Aplatit les plis sélectionnés avec une face fixe de sorte que vous puissiez ajouter des fonctions sur les brides."/>
+	<label commandName="lclzFusionSheetmetalUnfoldCommand2" devLabel="Any changes made in the flat state remain in the folded model." translation="Toutes les modifications effectuées à l'état plat restent dans le modèle plié."/>
+	<label commandName="lclzInsert" devLabel="Insert" translation="Insérer"/>
+	<label commandName="lclzInspect" devLabel="Inspect" translation="Inspecter"/>
+	<label commandName="lclzMODIFY" devLabel="MODIFY" translation="MODIFIER"/>
+	<label commandName="lclzModify" devLabel="Modify" translation="Modifier"/>
+	<label commandName="lclzPattern" devLabel="Pattern" translation="Réseau"/>
+	<label commandName="lclzPolygon" devLabel="Polygon" translation="Polygone"/>
+	<label commandName="lclzProjectInclude" devLabel="Project / Include" translation="Projeter/Inclure"/>
+	<label commandName="lclzRectangle" devLabel="Rectangle" translation="Rectangle"/>
+	<label commandName="lclzSFlatPatternDXFTipsAndTricksDesc" devLabel="Enable Convert Splines to Polylines if your laser cutting machine does not support splines. The tolerance value specifies the maximum allowable deviation between the converted polylines and the original splines." translation="Activez la conversion des splines en polylignes si la machine de découpe laser ne prend pas en charge les splines. La valeur de tolérance indique l'écart maximal autorisé entre les polylignes converties et les splines d'origine."/>
+	<label commandName="lclzSelect" devLabel="Select" translation="Sélectionner"/>
+	<label commandName="lclzSelectionPriorityCommands" devLabel="Selection Priority" translation="Priorité de sélection"/>
+	<label commandName="lclzSelectionTools" devLabel="Selection Tools" translation="Outils de sélection"/>
+	<label commandName="lclzSheetMetalFlange1" devLabel="Use different flange types to create various sheet metal forms:" translation="Utilisez différents types de bords tombés pour créer différentes formes de tôlerie :"/>
+	<label commandName="lclzSheetMetalFlange2" devLabel="&amp;nbsp; • &amp;nbsp;Base Flange creates flat sheet metal face." translation="&amp;nbsp; • &amp;nbsp;Le bord de tombé de base crée une face de tôlerie plane."/>
+	<label commandName="lclzSheetMetalFlange3" devLabel="&amp;nbsp; • &amp;nbsp;Edge Flange creates bend and face on the &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;edge of existing sheet metal face." translation="&amp;nbsp; • &amp;nbsp;Le bord tombé d'arête crée un pli et une face sur &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;l'arête d'une face de tôlerie existante."/>
+	<label commandName="lclzSheetMetalFlange4" devLabel="&amp;nbsp; • &amp;nbsp;Contour Flange constructs multiple bends &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;and faces based on open sketch profile." translation="&amp;nbsp; • &amp;nbsp;Le bord tombé de contour permet de créer plusieurs plis &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aet faces en fonction d'un contour d'esquisse ouvert."/>
+	<label commandName="lclzSheetMetalFlatPatternExitPanel" devLabel="Finish Flat Pattern" translation="Terminer la mise à plat"/>
+	<label commandName="lclzSheetMetalFlatPatternExport" devLabel="Export" translation="Exporter"/>
+	<label commandName="lclzSheetMetalFlatPatternTipsAndTricksDesc" devLabel="The flanges are unfolded based on the K Factor in the sheet metal rule." translation="Les bords tombés sont dépliés en fonction du facteur K dans la règle de tôlerie."/>
+	<label commandName="lclzSheetMetalFlatPatternTipsAndTricksTips" devLabel="Select the face to position on the XY plane. All flanges are unfolded from that face." translation="Sélectionnez la face à positionner sur le plan XY. Tous les bords tombés sont dépliés à partir de cette face."/>
+	<label commandName="lclzSheetMetalFlatPatternTipsAndTricksTitle" devLabel="Flat Pattern Information" translation="Informations sur la commande Mise à plat"/>
+	<label commandName="lclzSheetMetalFoldCmd1" devLabel="Bends a sheet metal body along the selected line." translation="Plie un corps en tôle le long de la ligne sélectionnée."/>
+	<label commandName="lclzSheetMetalFoldCmd2" devLabel="Draw a line over a sheet metal body and select both objects to create a bend." translation="Tracez une ligne sur un corps en tôle et sélectionnez les deux objets pour créer un pli."/>
+	<label commandName="lclzSheetMetalFoldTipsAndTricksDesc" devLabel="Use the Line Position to control whether the bend line defines the centerline, start, or end of the bend. Check the Override Rules checkbox to override the value of bend radius and the bend relief options." translation="Utilisez la position de la ligne pour déterminer si la ligne de pliage définit le trait d'axe, le début ou la fin du pli. Cochez la case Remplacer les règles pour remplacer la valeur du rayon de pliage et les options de grugeage de pliage."/>
+	<label commandName="lclzSheetMetalFoldTipsAndTricksTips" devLabel="Draw a straight line over a sheet metal body, then select the face and the sketched line to create a bend." translation="Tracez une ligne droite sur un corps en tôle, puis sélectionnez la face et la ligne d'esquisse pour créer un pli."/>
+	<label commandName="lclzSheetMetalFoldTipsAndTricksTitle" devLabel="Fold Information" translation="Informations sur le pliage"/>
+	<label commandName="lclzSheetMetalHem2" devLabel="Folds sheet metal edge back onto itself. You can create the following hems: Open, Flat, Double, Rolled, Teardrop, and Rope." translation="Replie le bord de tôlerie sur lui-même. Vous pouvez créer les bords rabattus suivants: Ouvert, Plat, Double, Roulé, Larme et Corde."/>
+	<label commandName="lclzSheetMetalLoft2" devLabel="Creates complex sheet metal shapes between two curves. Commonly used in designing ventilation systems." translation="Crée des formes de tôlerie complexes entre deux courbes. Couramment utilisé dans la conception de systèmes de ventilation."/>
+	<label commandName="lclzSheetMetalRipTipsAndTricksDesc" devLabel="Use Rip to modify a Lofted Flange to create an open flange that you can then Unfold or create a Flat Pattern from." translation="Utilisez l'option Découpe pour modifier un bord tombé lisse de manière à l'ouvrir afin de pouvoir par la suite le déplier ou vous en servir pour créer une mise à plat."/>
+	<label commandName="lclzSheetMetalRipTipsAndTricksTips" devLabel="If you have a face or edge selected and then create a Rip feature, the dialog will detect those selections and auto-select them." translation="Si vous créez une fonction de découpe après avoir sélectionné une face ou une arête, la boîte de dialogue détecte votre sélection et l'applique automatiquement."/>
+	<label commandName="lclzSheetMetalRipTipsAndTricksTitle" devLabel="Rip Information" translation="Informations sur l'option Découpe"/>
+	<label commandName="lclzSheetMetalRules1" devLabel="Rules control the thickness, bend radius, reliefs, and other settings related to sheet metal design." translation="Les règles contrôlent l'épaisseur, le rayon de pliage, les grugeages et d'autres paramètres liés à la conception de tôlerie."/>
+	<label commandName="lclzSheetMetalRules2" devLabel="Create and edit rules in the active document to change your designs. Save rules to the library to make them accessible in other designs." translation="Créez et modifiez des règles dans le document actif pour modifier vos conceptions. Enregistrez des règles dans la bibliothèque pour les rendre accessibles dans d'autres conceptions."/>
+	<label commandName="lclzSheetMetalRulesLibrary1" devLabel="Manage and reuse sheet metal rules across designs." translation="Gérez et réutilisez les règles de tôlerie dans toutes les conceptions."/>
+	<label commandName="lclzSheetMetalRulesLibrary2" devLabel="Create, edit, and save rules in the library to make them accessible in other designs." translation="Créez, modifiez et enregistrez des règles dans la bibliothèque pour les rendre accessibles dans d'autres conceptions."/>
+	<label commandName="lclzSheetMetalRulesLibraryTipsAndTricksDesc" devLabel="Rules 'In this design' are local to the active document. Rules in the 'Library' are saved in the cloud." translation="Les règles 'Dans cette conception' sont définies localement pour le document actif. Les règles 'Bibliothèque' sont enregistrées dans le cloud."/>
+	<label commandName="lclzSheetMetalRulesLibraryTipsAndTricksTips" devLabel="Select a rule and click 'Edit Rule' to change values. Right-click on the rule name to duplicate, set default, or delete a rule." translation="Pour modifier les valeurs d'une règle, sélectionnez-la et cliquez sur 'Modifier la règle'. Pour dupliquer une règle, la définir par défaut ou la supprimer, cliquez avec le bouton droit de la souris sur son nom."/>
+	<label commandName="lclzSheetMetalRulesLibraryTipsAndTricksTitle" devLabel="Rules Library Information" translation="Informations sur la bibliothèque de règles"/>
+	<label commandName="lclzSheetMetalRulesTipsAndTricksDesc" devLabel="Rules 'In this design' are local to the active document. Rules in the 'Library' are saved in the cloud." translation="Les règles Dans cette conception sont définies localement pour le document actif. Les règles Bibliothèque sont enregistrées dans le cloud."/>
+	<label commandName="lclzSheetMetalRulesTipsAndTricksTips" devLabel="Select a rule and click 'Edit Rule' to change values. Right-click on the rule name to duplicate, set default, or delete a rule." translation="Pour modifier les valeurs d'une règle, sélectionnez-la et cliquez sur Modifier la règle. Pour dupliquer une règle, la définir par défaut ou la supprimer, cliquez avec le bouton droit de la souris sur son nom."/>
+	<label commandName="lclzSheetMetalRulesTipsAndTricksTitle" devLabel="Rules Information" translation="Informations sur les règles"/>
+	<label commandName="lclzSheetmetalWorkspaceName" devLabel="Sheetmetal Workspace" translation="Espace de travail Tôlerie"/>
+	<label commandName="lclzSheetmetalWorkspaceTitle" devLabel="Creates sheet metal designs. Use these commands to set rules, create sheet metal bodies, and produce manufacturing data." translation="Crée des conceptions de tôlerie. Utilisez ces commandes pour définir des règles, créer des corps en tôle et générer des données de fabrication."/>
+	<label commandName="lclzSketchChamfer" devLabel="Chamfer" translation="Chanfrein"/>
+	<label commandName="lclzSketchMeshMenu" devLabel="Mesh" translation="Maillage"/>
+	<label commandName="lclzSketchTab" devLabel="SKETCH" translation="ESQUISSE"/>
+	<label commandName="lclzSlot" devLabel="Slot" translation="Rainure"/>
+	<label commandName="lclzStopSketchTT" devLabel="Finish Sketch" translation="Terminer l'esquisse"/>
+	<label commandName="lclzSurface" devLabel="Create" translation="Créer"/>
+	<label commandName="losingBendLines" devLabel="Bend lines will be lost" translation="Les lignes de pliage seront perdues"/>
+	<label commandName="pInputBendFaces" devLabel="Select bends to unfold" translation="Sélectionner les plis à déplier"/>
+	<label commandName="pInputStatinaryEntity" devLabel="Select stationary entity" translation="Sélectionner l'entité fixe"/>
+	<label commandName="removeFaceSelection" devLabel="This will also clear all bend line selections. &#xA; Do you want to continue?" translation="Cette opération supprimera aussi toutes les sélections de lignes de pliage. &#xA; Voulez-vous continuer?"/>
+	<label commandName="smAllowBendRelief" devLabel="Relief" translation="Grugeage"/>
+	<label commandName="smFoldAngle" devLabel="Angle" translation="Angle"/>
+	<label commandName="smFoldAngleFlip" devLabel="Flip" translation="Inverser"/>
+	<label commandName="smFoldLinePosition" devLabel="Line Position" translation="Position de la ligne"/>
+</Resource>

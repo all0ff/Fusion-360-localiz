@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AUTODIM_CHOOSE_SCHEME" devLabel="Choose dimension recipe or select a dimension" translation="Scegliere la formula di quota o selezionare una quota"/>
+	<label commandName="FUSION_SELECT_VIEW" devLabel="&#xA;Select view" translation="&#xA;Selezionare vista"/>
+	<label commandName="SELECT_DIMENSION_FOR_AUTODIMENSION" devLabel="Click on desired dimension" translation="Fare clic sulla quota desiderata"/>
+	<label commandName="Select_Origin" devLabel="Select origin point" translation="Selezionare punto di origine"/>
+</Resource>

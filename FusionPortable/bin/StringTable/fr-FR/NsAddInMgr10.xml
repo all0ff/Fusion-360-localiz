@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ExportAttributesToolTip" devLabel="Switch on/off export attributes flag options." translation="Activer/désactiver les options d'exportation des indicateurs d'attributs."/>
+	<label commandName="ExportAttributesUserName" devLabel="Export attributes enable" translation="Exportation des attributs activée"/>
+	<label commandName="ExportSketchesEnabledToolTip" devLabel="Switch on/off export sketches enabled flag options." translation="Activer/Désactiver les indicateurs d'exportation d'esquisses."/>
+	<label commandName="ExportSketchesEnabledUserName" devLabel="Export sketches enabled" translation="Exportation des esquisses activée"/>
+	<label commandName="ExportSubEntityIdsToolTip" devLabel="Switch on/off export sub-Entity Ids flag options." translation="Activez/Désactivez les indicateurs d'exportation des ID de sous-entité."/>
+	<label commandName="ExportSubEntityIdsUserName" devLabel="Export sub-Entity Ids enabled" translation="Exportation des ID de sous-entité activée"/>
+	<label commandName="InsertImportToolTip" devLabel="Switch on/off import as inserting flag options." translation="Activer/désactiver les indicateurs d'importation sous forme d'insertion."/>
+	<label commandName="InsertImportUserName" devLabel="InsertImport enable" translation="Importation sous forme d'insertion activée"/>
+	<label commandName="assetTypeToolTip" devLabel="Create asset by opening a foreign file." translation="Créez une ressource en ouvrant un fichier étranger."/>
+	<label commandName="assetTypeUserName" devLabel="Create asset" translation="Créer une ressource"/>
+	<label commandName="lclzApplicationIsClosing" devLabel="Application is closing..." translation="Fermeture de l'application en cours..."/>
+	<label commandName="lclzCannotFindAddIn" devLabel="No Add-in found with path that matches: %1%" translation="Aucun complément n'a été trouvé pour le chemin: %1%"/>
+	<label commandName="lclzCannotFindMatchedAddIn" devLabel="No Add-in found with identifier that matches: %1%" translation="Aucun complément dont l'identificateur correspond à %1% n'a été détecté"/>
+	<label commandName="lclzCannotFindNeededAddIn" devLabel="Could not find Add-in %1% needed by Add-in %2%" translation="Impossible de trouver le complément %1% requis par le complément %2%"/>
+	<label commandName="lclzCannotLoadAddInXml" devLabel="Could not load Add-in xml file %1%" translation="Impossible de charger le fichier .xml %1% du complément"/>
+	<label commandName="lclzCannotLoadAppXml" devLabel="Could not load application xml file %1%" translation="Impossible de charger le fichier XML d'application %1%"/>
+	<label commandName="lclzCantLoadAddIn" devLabel="Could not load the addin in %1%" translation="Impossible de charger le complément dans %1%"/>
+	<label commandName="lclzLoadInterface" devLabel="loadInterface: " translation="loadInterface: "/>
+	<label commandName="lclzMissingGetIAddIn" devLabel="GetIAddIn function not found in %1%" translation="Fonction GetIAddIn introuvable dans %1%"/>
+	<label commandName="lclzUnloadInterface" devLabel="unloadInterface: " translation="unloadInterface: "/>
+</Resource>

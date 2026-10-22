@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="NTestImportCommand" devLabel="Show NTest" translation="Afficher NTest"/>
+	<label commandName="Performance Result" devLabel="Performance Result (*.xml)" translation="Résultat de performances (*.xml)"/>
+</Resource>

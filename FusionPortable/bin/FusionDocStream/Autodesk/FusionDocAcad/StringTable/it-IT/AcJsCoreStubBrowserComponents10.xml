@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IDS_ASYNC_FUNCTION" devLabel="Function must be called asynchronously" translation="La funzione deve essere chiamata in modo asincrono"/>
+	<label commandName="IDS_COMMAND_LINE_BUSY" devLabel="Busy processing previous command" translation="È in corso l'elaborazione del comando precedente"/>
+	<label commandName="IDS_CREATE_JIG_ERROR" devLabel="Failed to create a new instance of jig" translation="Impossibile creare una nuova istanza di maschera di inserimento"/>
+	<label commandName="IDS_GET_CURGSVIEW_ERROR" devLabel="Failed to get current viewport" translation="Impossibile ottenere la finestra corrente"/>
+	<label commandName="IDS_GET_DRAWABLE_ERROR" devLabel="Failed to get transient drawable object" translation="Impossibile ottenere l'oggetto per disegno temporaneo"/>
+	<label commandName="IDS_GET_SYSVAR_ERROR" devLabel="Failed to get system variable" translation="Impossibile ottenere la variabile di sistema"/>
+	<label commandName="IDS_INVALID_INPUT_ARGUMENTS" devLabel="Invalid arguments" translation="Argomenti non validi"/>
+	<label commandName="IDS_INVALID_TOOLTIP_ID" devLabel="Invalid tooltip ID" translation="ID della descrizione comando non valido"/>
+	<label commandName="IDS_INVALID_TRANSIENT_ID" devLabel="Invalid Transient ID" translation="ID temporaneo non valido"/>
+	<label commandName="IDS_JIGPROMPT_SET_ERROR" devLabel="Jig prompt option has already been set" translation="Opzione del messaggio di richiesta per la maschera di inserimento già impostata"/>
+	<label commandName="IDS_NATIVE_FUNCTION_ERROR" devLabel="Failed to execute function" translation="Impossibile eseguire la funzione"/>
+	<label commandName="IDS_NODOCUMENT" devLabel="No current document" translation="Nessun documento corrente"/>
+	<label commandName="IDS_NONE" devLabel="NONE" translation="NESSUNO"/>
+	<label commandName="IDS_NOTAVAILABLE_IN_LOCKED_VP" devLabel="View change not available in locked viewport." translation="Modifica della vista non disponibile nella finestra bloccata."/>
+	<label commandName="IDS_NOTSUPPORTED_IN_PAPERSPACE" devLabel="Not supported in paper space" translation="Non supportato nello spazio carta"/>
+	<label commandName="IDS_SUCCESS" devLabel="Success" translation="Riuscito"/>
+	<label commandName="IDS_SYNC_FUNCTION" devLabel="Function must be called synchronously" translation="La funzione deve essere chiamata in modo sincrono"/>
+	<label commandName="IDS_UNKNOWN_CALLBACK_NAME" devLabel="Unknown registered callback function name" translation="Nome sconosciuto della funzione di richiamo registrata"/>
+	<label commandName="IDS_UNKNOWN_COMPLETE_CALLBACK" devLabel="Undefined complete callback" translation="Richiamo di completamento non definito"/>
+	<label commandName="IDS_UNKNOWN_ERROR" devLabel="Unknown error" translation="Errore sconosciuto"/>
+	<label commandName="IDS_UNKNOWN_ERROR_CALLBACK" devLabel="Undefined error callback" translation="Richiamo di errore non definito"/>
+	<label commandName="IDS_UNKNOWN_FUNCTION_NAME" devLabel="Undefined function name" translation="Nome di funzione non definito"/>
+	<label commandName="IDS_UNLOAD_ERROR" devLabel="Failed to unload" translation="Impossibile scaricare"/>
+	<label commandName="IDS_UNSUPPORTED_SYSVAR_VALUE_TYPE" devLabel="Unsupported system variable value type" translation="Tipo di valore della variabile di sistema non supportato"/>
+	<label commandName="IDS_WEBLOAD_APP_NOT_FOUND" devLabel="Application not found" translation="Applicazione non trovata"/>
+	<label commandName="IDS_WEBLOAD_ENTER_OPTION" devLabel="Enter an option [Load/Unload/?]" translation="Immettere un'opzione [Carica/Scarica/?]"/>
+	<label commandName="IDS_WEBLOAD_ENTER_UNLOAD_URL" devLabel="Enter javascript URL to unload" translation="Immettere l'URL JavaScript per scaricare."/>
+	<label commandName="IDS_WEBLOAD_ENTER_URL" devLabel="Enter javascript URL to load" translation="Immettere l'URL JavaScript per caricare"/>
+	<label commandName="IDS_WEBLOAD_LOADED_JS_FILES" devLabel="Loaded JavaScript Files" translation="File JavaScript caricati"/>
+</Resource>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="3D PCB Environment" devLabel="3D PCB" translation="CCI 3D"/>
+	<label commandName="3DPCBTypeCanvas" devLabel="Canvas" translation="Zone de dessin"/>
+	<label commandName="3DPCBTypeComplete" devLabel="Complete 3D" translation="3D complet"/>
+	<label commandName="3DPCBTypeInput" devLabel="3D PCB Type" translation="Type de CCI 3D"/>
+	<label commandName="3DPCBTypeSimple" devLabel="Simple 3D" translation="3D simple"/>
+	<label commandName="BoardNotDefinedInfo" devLabel="Board outline not defined" translation="Contour du circuit imprimé non défini"/>
+	<label commandName="BoardOutlineNotInUse" devLabel="Sketch not in use" translation="Esquisse non utilisée"/>
+	<label commandName="BoardOutlineNotInUseContinueButton" devLabel="Continue" translation="Continuer"/>
+	<label commandName="BoardOutlineNotInUseTipsNew" devLabel="3D PCB uses an external profile to define the board.&lt;br/&gt;&lt;br/&gt;To edit the profile used by this board, edit the sketch profile in the externally referenced design.&lt;br/&gt;&lt;br/&gt;To use this Board Outline Sketch, use the &lt;b&gt;Define Board&lt;/b&gt; tool to select a profile from this sketch." translation="La PCB 3D utilise un profil externe pour définir la carte.&lt;br/&gt;&lt;br/&gt;Pour modifier le profil utilisé par cette carte, modifiez le profil d'esquisse dans la conception externe à laquelle elle fait référence.&lt;br/&gt;&lt;br/&gt;Pour utiliser cette esquisse du contour de PCB, utilisez l'outil &lt;b&gt;Définir une PCB&lt;/b&gt;. Elle vous permettra de sélectionner un profil à partir de cette esquisse."/>
+	<label commandName="ChooseEagleProfile" devLabel="Choose EAGLE Board Shape" translation="Choisir la forme de circuit imprimé EAGLE"/>
+	<label commandName="ChooseFusionProfile" devLabel="Choose Fusion Board Shape" translation="Choisir la forme de circuit imprimé Fusion"/>
+	<label commandName="Create Hole on Board" devLabel="PCBHole" translation="Perçage CCI"/>
+	<label commandName="Create PCB Document" devLabel="New 3D PCB" translation="Nouvelle CCI 3D"/>
+	<label commandName="Create PCB Workspace" devLabel="Create PCB" translation="Créer une PCB"/>
+	<label commandName="CreateLinkedPCBTipsHelpLink" devLabel="&lt;a href='%1%'&gt;How to create Linked PCB&lt;/a&gt;" translation="&lt;a href='%1%'&gt;Comment créer une PCB liée&lt;/a&gt;"/>
+	<label commandName="CreateLinkedPCBTipsHelpLinkNotReady" devLabel="For more help using this feature, read the help documentation" translation="Pour obtenir de l'aide sur l'utilisation de cette fonctionnalité, consultez la documentation d'aide"/>
+	<label commandName="CreateLinkedPCBTipsNew" devLabel="To finish creating a Linked PCB in the assembly, you must complete the following steps:&lt;br/&gt;&lt;br/&gt;1. Create a sketch.&lt;br/&gt;2. Draw a closed profile.&lt;br/&gt;3. Select the closed profile in the &lt;b&gt;Define Board&lt;/b&gt; tool.&lt;br/&gt;&lt;br/&gt;%1%" translation="Pour terminer la création d'une PCB liée dans l'ensemble, vous devez suivre les étapes suivantes :&lt;br/&gt;&lt;br/&gt;1. Créez une esquisse.&lt;br/&gt;2. Dessinez un contour fermé.&lt;br/&gt;3. Sélectionnez le contour fermé dans l'outil &lt;b&gt;Définir une PCB&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;%1%"/>
+	<label commandName="CreatePCBCircNPTHInput" devLabel="Convert Circles to NPTHs" translation="Convertir les cercles en perçages NPTH"/>
+	<label commandName="CreatePCBHeightInput" devLabel="Thickness" translation="Epaisseur"/>
+	<label commandName="CreatePCBNPTHDiameterInput" devLabel="Max NPTH Diameter" translation="Diamètre de NPTH max"/>
+	<label commandName="CreatePCBProfileInput" devLabel="Profile" translation="Profil"/>
+	<label commandName="CreatePCBProfileInputTooltip" devLabel="Select sketch profile(s) or face for PCB" translation="Sélectionner un ou plusieurs contours d'esquisse ou une face pour la PCB"/>
+	<label commandName="CreateUnlinkedPCB" devLabel="Create Unlinked PCB" translation="Créer une PCB non liée"/>
+	<label commandName="DefaultExternalPCBComponentName" devLabel="PCB" translation="PCB"/>
+	<label commandName="DefineBoardGuideDetailInfo" devLabel="Board outline not defined. Edit the outline sketch to draw a closed profile, then Define board to select a profile to create the PCB body." translation="Le contour de la PCB n'est pas défini. Modifiez l'esquisse de contour pour dessiner un contour fermé, puis définissez la PCB pour sélectionner un contour afin de pouvoir créer le corps de la PCB."/>
+	<label commandName="DefineBoardOutlineSelection" devLabel="Select sketch profile(s) for PCB" translation="Sélectionner le ou les contours d'esquisse de la PCB"/>
+	<label commandName="DefinePCB3DBoard" devLabel="Define Board" translation="Définir une PCB"/>
+	<label commandName="DeriveLinkedPCB" devLabel="Derive PCB" translation="Dériver une PCB"/>
+	<label commandName="DerivePCBProfileInput" devLabel="Profile" translation="Profil"/>
+	<label commandName="DerivePCBProfileInputTooltip" devLabel="Select sketch profile(s) for PCB" translation="Sélectionner le ou les contours d'esquisse de la PCB"/>
+	<label commandName="EIPCreateLinkedPCBTitle" devLabel="Create Linked PCB" translation="Créer une PCB liée"/>
+	<label commandName="EnterIntoPCBEnvironment" devLabel="You have entered into the PCB Mechanical Environment." translation="Vous êtes entré dans l'environnement mécanique de la PCB."/>
+	<label commandName="FusionMovePCBComponent" devLabel="Hold SHIFT while moving to snap to grid" translation="Maintenez la touche Maj enfoncée pendant le déplacement pour l'accrochage à la grille"/>
+	<label commandName="FusionPCB3DFlipComponent" devLabel="Flip Component" translation="Inverser le composant"/>
+	<label commandName="FusionPCBActivate" devLabel="Edit" translation="Modifier"/>
+	<label commandName="FusionPCBFlipComponent" devLabel="Flip Component" translation="Inverser le composant"/>
+	<label commandName="FusionPCBSelectSketchPlaneNew" devLabel="Select top or bottom face of PCB." translation="Sélectionnez la face supérieure ou inférieure de la PCB."/>
+	<label commandName="FusionPCBStop" devLabel="Finish PCB" translation="Terminer la PCB"/>
+	<label commandName="FusionPCBUpdateDocument" devLabel="Update 3D PCB" translation="Mettre à jour la CCI 3D"/>
+	<label commandName="FusionSelectDeriveProfileError" devLabel="Can't select 3d sketch to derive" translation="Impossible de sélectionner l'esquisse 3D à dériver"/>
+	<label commandName="FusionSelectFaceForHole" devLabel="Select face to place hole" translation="Sélectionner la face pour placer le perçage"/>
+	<label commandName="FusionSelectMultipleForHole" devLabel="Select sketch point to locate hole" translation="Sélectionner un point d'esquisse pour localiser le perçage"/>
+	<label commandName="FusionSelectOriginRefPCBDefineBoard" devLabel="Select sketch point for PCB board origin reference" translation="Sélectionner un point d'esquisse pour définir la référence d'origine de la PCB"/>
+	<label commandName="FusionSelectOriginRefPCBDefineBoardNew" devLabel="Select point or vertex for 2D PCB origin" translation="Sélectionner un point ou un sommet comme origine de la PCB 2D"/>
+	<label commandName="FusionSelectPCBComponent" devLabel="Select PCB components" translation="Sélectionner des composants de PCB"/>
+	<label commandName="FusionSelectPCBComponentBodyEdit" devLabel="Select Body from PCB component" translation="Sélectionner le corps à partir du composant de PCB"/>
+	<label commandName="FusionSelectPCBComponentEdit" devLabel="Select a PCB component" translation="Sélectionner un composant de PCB"/>
+	<label commandName="FusionSelectProfileCreatePCB" devLabel="Select sketch profile(s) for PCB" translation="Sélectionner le ou les contours d'esquisse de la PCB"/>
+	<label commandName="FusionSelectProfileCreatePCBNew" devLabel="Select sketch profile(s) or face for PCB" translation="Sélectionner un ou plusieurs contours d'esquisse ou une face pour la PCB"/>
+	<label commandName="FusionSelectProfileDerivePCB" devLabel="Select sketch profile(s) for PCB" translation="Sélectionner le ou les contours d'esquisse de la PCB"/>
+	<label commandName="FusionSelectProfileError" devLabel="Can't select 3d sketch to create PCB" translation="Impossible de sélectionner une esquisse 3D pour créer la PCB"/>
+	<label commandName="FusionSelectProfilePCBDefineBoard" devLabel="Select sketch profile(s) and origin for PCB" translation="Sélectionner le ou les contours d'esquisse et l'origine de la PCB"/>
+	<label commandName="FusionSelectReferencesForHole" devLabel="Select linear or circular reference edges to fully define hole location" translation="Sélectionner des arêtes de référence linéaires ou circulaires pour définir précisément l'emplacement du perçage"/>
+	<label commandName="FusionSelectSingleForHole" devLabel="Select face to locate hole" translation="Sélectionner une face pour localiser le perçage"/>
+	<label commandName="FusionSelectSketchPointForHole" devLabel="Select sketch point to place hole" translation="Sélectionner le point d'esquisse pour placer le perçage"/>
+	<label commandName="FusionSelectXDirPointRefPCBDefineBoard" devLabel="Select Sketch Line for board secondary axis orientation" translation="Sélectionner une ligne d'esquisse pour définir l'orientation de l'axe secondaire du circuit imprimé"/>
+	<label commandName="FusionSelectXDirPointRefPCBDefineBoardNew" devLabel="Select sketch line or edge for X Axis for 2D PCB orientation" translation="Sélectionner une ligne ou une arête de l'esquisse pour l'axe X afin d'orienter la PCB 2D"/>
+	<label commandName="InvalidProfileSelection" devLabel="The selected profiles must be able to be merged into single one!" translation="Les contours sélectionnés doivent pouvoir être fusionnés en un seul."/>
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="L'objet que vous créez n'est pas visible. Activez la visibilité dans le navigateur."/>
+	<label commandName="MissingExtrudeProfile" devLabel="Missing profiles" translation="Contours manquants"/>
+	<label commandName="MissingHoleOrigin" devLabel="missing face" translation="face manquante"/>
+	<label commandName="MissingPCBAxis" devLabel="Missing axis" translation="Axe manquant"/>
+	<label commandName="MissingPCBOrigin" devLabel="Missing origin" translation="Origine manquante"/>
+	<label commandName="Move 3D PCB components" devLabel="Move Component" translation="Déplacer le composant"/>
+	<label commandName="Move PCB component Body" devLabel="Move PCB Component body" translation="Déplacer le corps du composant de PCB"/>
+	<label commandName="Move PCB components" devLabel="Move PCB Components" translation="Déplacer les composants de PCB"/>
+	<label commandName="MoveAngle" devLabel="Angle" translation="Angle"/>
+	<label commandName="MoveMethodFreeMove" devLabel="Free Move" translation="Déplacement libre"/>
+	<label commandName="MoveMethodPoint2Point" devLabel="Point to Point" translation="Point à point"/>
+	<label commandName="MoveMethodRotate" devLabel="Rotate" translation="Rotation"/>
+	<label commandName="MoveMethodType" devLabel="Move Type" translation="Type de déplacement"/>
+	<label commandName="MoveP2POrigin" devLabel="Origin Point" translation="Point d'origine"/>
+	<label commandName="MoveP2POriginPrompt" devLabel="Select first point" translation="Sélectionnez le premier point"/>
+	<label commandName="MoveP2PTarget" devLabel="Target Point" translation="Point cible"/>
+	<label commandName="MoveP2PTargetPrompt" devLabel="Select second point" translation="Sélectionner le deuxième point"/>
+	<label commandName="MoveRotateAxis" devLabel="Axis" translation="Axe"/>
+	<label commandName="MultipleHoleType" devLabel="From Sketch&#xA;&#xA;Adds a non-plated through hole at selected sketch point." translation="À partir de l'esquisse&#xA;&#xA;Ajoute un perçage traversant non plaqué au point d'esquisse sélectionné."/>
+	<label commandName="PCB Environment" devLabel="PCB" translation="PCB"/>
+	<label commandName="PCB Profile" devLabel="PCB Profile" translation="Contour de PCB"/>
+	<label commandName="PCB Sketch" devLabel="Edit EAGLE Profile" translation="Modifier le contour EAGLE"/>
+	<label commandName="PCB3DBoardOutlineEditCommand" devLabel="Edit Board Outline Sketch" translation="Modifier l'esquisse du contour de PCB"/>
+	<label commandName="PCB3DComponentType" devLabel="PCB" translation="PCB"/>
+	<label commandName="PCB3DComponentTypeDTT" devLabel="Creates a PCB component in the assembly" translation="Crée un composant de PCB dans l'assemblage"/>
+	<label commandName="PCB3DExtComponentType" devLabel="Linked PCB" translation="PCB liée"/>
+	<label commandName="PCB3DExtComponentTypeDTT" devLabel="Creates a new PCB in an Electronics Design and inserts it into %1% as an external component." translation="Crée une PCB dans une conception électronique et l'insère dans %1% en tant que composant externe."/>
+	<label commandName="PCB3DSketchEditCommand" devLabel="Edit Sketch" translation="Modifier l'esquisse"/>
+	<label commandName="PCBBoardOutline" devLabel="Outline" translation="Contour"/>
+	<label commandName="PCBCSInputFlipXAxis" devLabel="Flip X Axis" translation="Inverser l'axe X"/>
+	<label commandName="PCBCSInputFlipYAxis" devLabel="Flip Y Axis" translation="Inverser l'axe Y"/>
+	<label commandName="PCBCSOriginRefInput" devLabel="Origin" translation="Origine"/>
+	<label commandName="PCBCSOriginRefInputTooltip" devLabel="Select point for 2D PCB origin" translation="Sélectionner un point comme origine de la PCB 2D"/>
+	<label commandName="PCBCSXDirRefInput" devLabel="X Axis" translation="Axe X"/>
+	<label commandName="PCBCSXDirRefInputTooltip" devLabel="Select sketch line for X Axis for 2D PCB orientation" translation="Sélectionner une ligne d'esquisse pour l'axe X afin d'orienter la PCB 2D"/>
+	<label commandName="PCBConstruction" devLabel="Construction" translation="Construction"/>
+	<label commandName="PCBCreateCmdFlipXAxis" devLabel="Flip X Axis" translation="Inverser l'axe X"/>
+	<label commandName="PCBCreateCmdFlipYAxis" devLabel="Flip Y Axis" translation="Inverser l'axe Y"/>
+	<label commandName="PCBCreateCmdFlipZAxis" devLabel="Flip Z Axis" translation="Inverser l'axe Z"/>
+	<label commandName="PCBCreateLimitText" devLabel="The maximum number of PCBs within a Design, %1%, has been reached.&#xA;PCBs can be inserted from other Designs." translation="Le nombre maximal de PCB dans une conception, %1%, a été atteint.&#xA;Les PCB peuvent être insérées à partir d'autres conceptions."/>
+	<label commandName="PCBCreateLimitTitle" devLabel="PCB Limit Reached" translation="Limite de la PCB atteinte"/>
+	<label commandName="PCBCreateOriginRefInput" devLabel="Origin" translation="Origine"/>
+	<label commandName="PCBCreateOriginRefInputTooltip" devLabel="Select point or vertex for 2D PCB origin" translation="Sélectionner un point ou un sommet comme origine de la PCB 2D"/>
+	<label commandName="PCBCreateSimExisting" devLabel="The PCB Feature does not currently support syncing PCBs in Fusion assemblies containing linked components or simulation studies.            &#xA;&#xA;Remove linked components or simulation studies in your assembly to continue, or put the PCB in a separate Fusion design and insert it into your assembly." translation="Actuellement, la fonction de PCB ne prend pas en charge la synchronisation des carte de PCB dans les ensembles Fusion contenant des composants liés ou des études de simulation.            &#xA;&#xA;Pour continuer, supprimez les composants liés ou les études de simulation de votre ensemble ou placez la PCB dans une conception Fusion distincte et insérez cette dernière dans l'ensemble."/>
+	<label commandName="PCBCreateXDirRefInput" devLabel="X Axis" translation="Axe X"/>
+	<label commandName="PCBCreateXDirRefInputTooltip" devLabel="Select sketch line or edge for X Axis for 2D PCB orientation" translation="Sélectionner une ligne ou une arête de l'esquisse pour l'axe X afin d'orienter la PCB 2D"/>
+	<label commandName="PCBCreateXRefExisting" devLabel="The PCB Feature does not currently support syncing PCBs in Fusion assemblies containing linked components or simulation studies.            &#xA;&#xA;Remove linked components or simulation studies in your assembly to continue, or put the PCB in a separate Fusion design and insert it into your assembly." translation="Actuellement, la fonction de PCB ne prend pas en charge la synchronisation des PCB dans les ensembles Fusion contenant des composants liés ou des études de simulation.            &#xA;&#xA;Pour continuer, supprimez les composants liés ou les études de simulation de votre ensemble ou placez la PCB dans une conception Fusion distincte et insérez cette dernière dans l'ensemble."/>
+	<label commandName="PCBDefineBoardFlipInput" devLabel="Flip" translation="Inverser"/>
+	<label commandName="PCBDefineBoardHeightInput" devLabel="Thickness" translation="Epaisseur"/>
+	<label commandName="PCBDefineBoardOriginGroup" devLabel="Origin" translation="Origine"/>
+	<label commandName="PCBDefineBoardOriginRefInput" devLabel="Origin" translation="Origine"/>
+	<label commandName="PCBDefineBoardProfileInput" devLabel="Profile" translation="Contour"/>
+	<label commandName="PCBDefineBoardProfileInputTooltip" devLabel="Select sketch profile(s) for PCB" translation="Sélectionner le ou les contours d'esquisse de la PCB"/>
+	<label commandName="PCBDefineBoardProfileOnBottom" devLabel="PCB Bottom Layer" translation="Couche inférieure de la PCB"/>
+	<label commandName="PCBDefineBoardProfileOnInput" devLabel="Profile On" translation="Contour activé"/>
+	<label commandName="PCBDefineBoardProfileOnTop" devLabel="PCB Top Layer" translation="Couche supérieure de la PCB"/>
+	<label commandName="PCBDefineBoardReorientInput" devLabel="Reorient" translation="Réorienter"/>
+	<label commandName="PCBDefineBoardShapeGroup" devLabel="Shape" translation="Forme"/>
+	<label commandName="PCBDefineBoardTopInput" devLabel="PCB Top" translation="Haut de la PCB"/>
+	<label commandName="PCBDefineBoardXDirRefInput" devLabel="X Axis" translation="Axe X"/>
+	<label commandName="PCBExternalComponentCreationCmd" devLabel="Create Linked PCB" translation="Créer une PCB liée"/>
+	<label commandName="PCBFixed" devLabel="Fixed" translation="Fixe"/>
+	<label commandName="PCBHoleCenterInput" devLabel="Center" translation="Centre"/>
+	<label commandName="PCBHoleDiameterInput" devLabel="Diameter" translation="Diamètre"/>
+	<label commandName="PCBHoleEdit" devLabel="Edit" translation="Modifier"/>
+	<label commandName="PCBHoleFaceInput" devLabel="Face/Sketch Point" translation="Point de face/d'esquisse"/>
+	<label commandName="PCBHoleFacePointInput" devLabel="Face" translation="Face"/>
+	<label commandName="PCBHoleFail" devLabel="PCB Hole Creation Failed: 3D PCB is outdated, please create it again." translation="Échec de la création du perçage de la PCB: la PCB 3D est obsolète. Veuillez la créer à nouveau."/>
+	<label commandName="PCBHolePointInput" devLabel="Sketch Point" translation="Point d'esquisse"/>
+	<label commandName="PCBHoleRef0" devLabel="Distance" translation="Distance"/>
+	<label commandName="PCBHoleRef0Btn" devLabel="Reference" translation="Référence"/>
+	<label commandName="PCBHoleRef1" devLabel="Distance" translation="Distance"/>
+	<label commandName="PCBHoleRef1Btn" devLabel="Reference" translation="Référence"/>
+	<label commandName="PCBImprintEagle" devLabel="Copy EAGLE Profile" translation="Copier le contour EAGLE"/>
+	<label commandName="PCBImprintSelPrompt" devLabel="Select destination plane or sketch" translation="Sélectionner le plan ou l'esquisse de destination"/>
+	<label commandName="PCBIncrementalMoveInput" devLabel="Use 2D PCB Grid" translation="Utiliser une grille de PCB 2D"/>
+	<label commandName="PCBMoveBodySelectionInput" devLabel="Selection" translation="Sélection"/>
+	<label commandName="PCBMoveBodyTransformInput" devLabel="Distance" translation="Distance"/>
+	<label commandName="PCBMoveRerouteInput" devLabel="Reroute" translation="Réacheminer"/>
+	<label commandName="PCBMoveSelectionInput" devLabel="Selection" translation="Sélection"/>
+	<label commandName="PCBMoveTransformInput" devLabel="Distance" translation="Distance"/>
+	<label commandName="PCBMoveUpdateInput" devLabel="Update 2D PCB" translation="Mettre à jour la PCB 2D"/>
+	<label commandName="PCBMoveUpdateInputDisabledTooltip" devLabel="Unavailable in EIP, or when 2D PCB is not open" translation="Non disponible dans l'édition sur place ou lorsque la carte de circuit imprimé 2D n'est pas ouverte"/>
+	<label commandName="PCBOpenFileInput" devLabel="Select Board file" translation="Sélectionner un fichier de circuit imprimé"/>
+	<label commandName="PCBOriginInputFlipZAxis" devLabel="Flip Z Axis" translation="Inverser l'axe Z"/>
+	<label commandName="PCBOriginRefSelection" devLabel="Select point for 2D PCB origin" translation="Sélectionner un point comme origine de la PCB 2D"/>
+	<label commandName="PCBOriginXDirSelection" devLabel="Select sketch line for X Axis for 2D PCB orientation" translation="Sélectionner une ligne d'esquisse pour l'axe X pour l'orientation de la PCB 2D"/>
+	<label commandName="PCBSketchCreationCommand" devLabel="Create PCB Sketch" translation="Créer une esquisse de PCB"/>
+	<label commandName="PCBSketchSelect" devLabel="Destination" translation="Destination"/>
+	<label commandName="PCBStatus" devLabel="PCB Status" translation="État de la PCB"/>
+	<label commandName="PCBStatusBoardHeight" devLabel="Board Height" translation="Hauteur du circuit imprimé"/>
+	<label commandName="PCBStatusBoardShape" devLabel="Board Shape" translation="Forme du circuit imprimé"/>
+	<label commandName="PCBStatusChanged" devLabel="Changed" translation="Modifié"/>
+	<label commandName="PCBStatusComponents" devLabel="PCB Components" translation="Composants de la PCB"/>
+	<label commandName="PCBStatusEagleInput" devLabel="EAGLE Board Shape" translation="Forme du circuit imprimé EAGLE"/>
+	<label commandName="PCBStatusFusionInput" devLabel="Fusion Board Shape" translation="Forme du circuit imprimé Fusion"/>
+	<label commandName="PCBStatusUnchanged" devLabel="Unchanged" translation="Non modifié"/>
+	<label commandName="PlacementType" devLabel="Placement Type" translation="Type de placement"/>
+	<label commandName="Push 3D PCB to brd" devLabel="Push to 2D PCB" translation="Transférer vers la PCB 2D"/>
+	<label commandName="PushDeriveInvalidSelectionMsg" devLabel="Unexpected invalid selection" translation="Sélection non valide inattendue"/>
+	<label commandName="PushDeriveToExistingTxnMessage" devLabel="New Derive Feature" translation="Nouvelle fonction de dérivation"/>
+	<label commandName="Replace PCB component" devLabel="Replace Component Body" translation="Remplacer le corps du composant"/>
+	<label commandName="RotateAxisPrompt" devLabel="Pick a Rotate Axis" translation="Choisir un axe de rotation"/>
+	<label commandName="SingleHoleType" devLabel="At Point&#xA;&#xA;Adds a non-plated through hole at selected location on face of 3D PCB." translation="Au niveau du point&#xA;&#xA;Ajoute un perçage traversant non plaqué à l'emplacement sélectionné sur la face de la PCB 3D."/>
+	<label commandName="StepFFilesFilter" devLabel="STEP Files (*.stp *.step)" translation="Fichiers STEP (*.stp *.step)"/>
+	<label commandName="UnSupportedDeriveObject" devLabel="Target document is 3D PCB, which only accepts sketch for derive" translation="Le document cible est une PCB 3D qui n'accepte que les esquisses pour la dérivation"/>
+	<label commandName="Update PCB component" devLabel="Update PCB Component" translation="Mettre à jour le composant de PCB"/>
+	<label commandName="XmlFilesFilter" devLabel="Xml Files (*.xml)" translation="Fichiers XML (*.xml)"/>
+	<label commandName="lclzDerivePCBCommand1New" devLabel="Derives a new 3D PCB Document from a sketch profile. The derived profile replaces the board outline sketch. Updates to the derived features in the original design reflect in the destination design." translation="Dérive un nouveau document de PCB 3D à partir d'un contour d'esquisse. Le contour dérivé remplace l'esquisse du contour de la carte. Les mises à jour des fonctions dérivées de la conception d'origine sont reflétées dans la conception de destination."/>
+	<label commandName="lclzDerivePCBCommand2New" devLabel="Select a sketch profile, then select the origin and axes orientation." translation="Sélectionnez un contour d'esquisse, puis sélectionnez l'orientation de l'origine et des axes."/>
+	<label commandName="lclzPCB3DBoardOutlineEditCommandCmd1New" devLabel="Edits the primary sketch that defines the board outline." translation="Modifie l'esquisse principale qui définit le contour de la carte."/>
+	<label commandName="lclzPCB3DBoardOutlineEditCommandCmd2New" devLabel="Create a closed profile to define the board. You can project geometry from the assembly context to ensure the PCB outline stays updated with the mechanical assembly." translation="Créez un contour fermé pour définir la carte. Vous pouvez projeter une géométrie à partir du contexte de l'assemblage pour vous assurer que le contour de la PCB reste mis à jour avec l'assemblage mécanique."/>
+	<label commandName="lclzPCB3DFlipComponentCmd1" devLabel="Rotates components along their X-axis and places them on the other side of a double-sided PCB." translation="Fait pivoter les composants le long de leur axe X et les place de l'autre côté d'une PCB double face."/>
+	<label commandName="lclzPCB3DFlipComponentCmd2" devLabel="Synchronize changes between the 3D and 2D PCBs, and reroute to maintain correct electrical connections." translation="Synchronisez les modifications entre les PCB 3D et 2D et procédez au réacheminement pour conserver les bonnes connexions électriques."/>
+	<label commandName="lclzPCB3DMoveComponentCmd1" devLabel="Repositions a component along the X- and Y- axes, or adjusts its angle on the board." translation="Repositionne un composant le long des axes X et Y ou ajuste son angle sur la carte."/>
+	<label commandName="lclzPCB3DMoveComponentCmd2" devLabel="You can automatically reroute the traces and push the changes to the 2D PCB." translation="Vous pouvez automatiquement réacheminer les tracés et envoyer les modifications vers la PCB 2D."/>
+	<label commandName="lclzPCB3DWorkspaceTitle" devLabel="Mechanical 3D PCB Workspace" translation="Espace de travail de PCB 3D mécanique"/>
+	<label commandName="lclzPCBBoardSketchEditCmd1" devLabel="Edit the sketch generated from EAGLE board." translation="Modifier l'esquisse générée à partir du circuit imprimé EAGLE."/>
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksDesc" devLabel="This command is only available when there's sketch generated from EAGLE board." translation="Cette commande n'est disponible que lorsque l'esquisse est générée à partir du circuit imprimé EAGLE."/>
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksTips" devLabel="This command will activate the sketch generated from EAGLE board for editing." translation="Cette commande active l'esquisse générée à partir du circuit imprimé EAGLE pour modification."/>
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksTitle" devLabel="Edit the sketch generated from EAGLE board" translation="Modifier l'esquisse générée à partir du circuit imprimé EAGLE"/>
+	<label commandName="lclzPCBComponentLocked" devLabel="Component or layer is locked. Switch to the 2D PCB document and unlock the component or layer. Edit the object position, then retry updating the 3D PCB." translation="Le composant ou le calque est verrouillé. Passez au document de PCB 2D et déverrouillez le composant ou le calque. Modifiez la position de l'objet, puis réessayez de mettre à jour la PCB 3D."/>
+	<label commandName="lclzPCBCreateCommand1New2" devLabel="Creates a 3D PCB document from the selected sketch or face. " translation="Crée un document de PCB 3D à partir de l'esquisse ou de la face sélectionnée. "/>
+	<label commandName="lclzPCBCreateCommand2New2" devLabel="Select a sketch or face, then select origin and axes orientation. You can convert circles into non-plated through holes (NPTHs)." translation="Sélectionnez une esquisse ou une face, puis sélectionnez l'orientation de l'origine et des axes. Vous pouvez convertir des cercles en perçages traversants non plaqués."/>
+	<label commandName="lclzPCBDefineBoardCmd1" devLabel="Define the shape of the PCB via a sketched profile." translation="Définissez la forme de la PCB à l'aide d'un contour d'esquisse."/>
+	<label commandName="lclzPCBDefineBoardCmd2" devLabel="Select a profile and an origin point." translation="Sélectionnez un contour et un point d'origine."/>
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksDesc" devLabel="After selecting the profile, you must choose an origin to ensure the communication with EAGLE is precise. One corner of the PCB normally works well. Decide if the profile is on the top or bottom of the PCB, and be sure that the extrusion direction is correct. The PCB shape will become visible to EAGLE after the model is saved, and the EAGLE user can change the shape of the board as well." translation="Après avoir sélectionné le contour, vous devez choisir une origine pour garantir une communication précise avec EAGLE. Normalement, un coin de la PCB fonctionne bien. Décidez si le contour se trouve en haut ou en bas de la PCB et assurez-vous que la direction de l'extrusion est correcte. Une fois le modèle enregistré, la forme de la PCB sera visible dans EAGLE. L'utilisateur EAGLE pourra également la modifier."/>
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksTips" devLabel="Select a profile and an origin point." translation="Sélectionnez un contour et un point d'origine."/>
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksTitle" devLabel="PCB Define Board Information" translation="Informations sur la commande de définition d'une PCB"/>
+	<label commandName="lclzPCBEditBoardCmd1New" devLabel="Defines the PCB board outline and 2D coordinate system." translation="Définit le contour de la PCB et le système de coordonnées 2D."/>
+	<label commandName="lclzPCBEditBoardCmd2New" devLabel="Select one or more closed profiles from the Board Outline Sketch or mechanical assembly. Choose a point for the origin of the 2D coordinate system and an edge for the X axis. Flip the X and Z axes to set the desired Y axis." translation="Sélectionnez un ou plusieurs contours fermés dans l'esquisse du contour de la carte ou dans l'assemblage mécanique. Choisissez un point pour l'origine du système de coordonnées 2D et une arête pour l'axe X. Inversez les axes X et Z pour définir l'axe Y souhaité."/>
+	<label commandName="lclzPCBExternalComponentCreationCmd1New" devLabel="Creates a new 3D PCB document as an external component in the assembly. If the board outline sketch references assembly geometry, the board updates with design changes." translation="Crée un document de PCB 3D en tant que composant externe de l'assemblage. Si l'esquisse du contour de la carte fait référence à la géométrie de l'assemblage, la carte est mise à jour en fonction des modifications apportées à la conception."/>
+	<label commandName="lclzPCBExternalComponentCreationCmd2New" devLabel="Select location, then open the 3D PCB to complete a closed profile in the board outline to finish defining the board." translation="Sélectionnez l'emplacement, puis ouvrez la PCB 3D pour créer un contour fermé dans le contour de la carte. Vous pourrez ainsi terminer la définition de la PCB."/>
+	<label commandName="lclzPCBImprintCmd1" devLabel="Copies the profile supplied from EAGLE to an upstream Fusion sketch." translation="Copie le contour fourni à partir d'EAGLE vers une esquisse Fusion en amont."/>
+	<label commandName="lclzPCBImprintCmdTipsAndTricksDesc" devLabel="This command is primarily useful when both the Fusion and EAGLE user are actively changing the shape of the PCB." translation="Cette commande est particulièrement utile lorsque les deux utilisateurs (Fusion et EAGLE) modifient activement la forme de la PCB."/>
+	<label commandName="lclzPCBImprintCmdTipsAndTricksTips" devLabel="Copies the profile supplied from EAGLE to an upstream Fusion sketch. You can copy to a pre-existing sketch, or create a new sketch by selecting a planar face or construction plane. The selected sketch or plane must be parallel to the PCB.  If there is already an upstream sketch that drives the PCB feature, that sketch will be selected by default." translation="Copie le contour fourni à partir d'EAGLE vers une esquisse Fusion en amont. Vous pouvez effectuer la copie vers une esquisse existante ou en créer une nouvelle en sélectionnant une face plane ou un plan de construction. L'esquisse ou le plan sélectionné doit être parallèle à la PCB. Si la fonction de PCB est contrôlée par une esquisse en amont, cette dernière est sélectionnée par défaut."/>
+	<label commandName="lclzPCBImprintCmdTipsAndTricksTitle" devLabel="Copy EAGLE Profile Information" translation="Informations sur la commande Copier le contour EAGLE"/>
+	<label commandName="lclzPCBMoveComponentBodyCommand1" devLabel="Move PCB component body to align with the footprint on the board." translation="Déplacez le corps du composant de PCB pour l'aligner sur l'encombrement du circuit imprimé."/>
+	<label commandName="lclzPCBMoveComponentBodyCommand2" devLabel="Select a body from PCB component and move it by dragging or typing in values." translation="Sélectionnez un corps du composant de PCB et déplacez-le en le faisant glisser ou en saisissant les valeurs souhaitées."/>
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the new locations will be remembered by Fusion." translation="Veuillez noter qu'aucune fonction de déplacement n'est créée dans le plan de montage chronologique. Toutefois, Fusion mémorise les nouveaux emplacements."/>
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksTips" devLabel="Select a body from PCB component and move it by dragging or typing in values." translation="Sélectionnez un corps du composant de PCB et déplacez-le en le faisant glisser ou en saisissant les valeurs souhaitées."/>
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksTitle" devLabel="Move PCB Component Body Information" translation="Informations sur la commande Déplacer le corps du composant de PCB"/>
+	<label commandName="lclzPCBMoveComponentsCommand1" devLabel="Move PCB components to new locations on the board." translation="Déplacez les composants de PCB vers de nouveaux emplacements sur le circuit imprimé."/>
+	<label commandName="lclzPCBMoveComponentsCommand2" devLabel="Select a component and move it by dragging or typing in values." translation="Sélectionnez un composant et déplacez-le en le faisant glisser ou en saisissant les valeurs souhaitées."/>
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the new locations will be remembered by Fusion, and will become visible to EAGLE after the model is saved, and the EAGLE user can move the components as well." translation="Veuillez noter qu'aucune fonction de déplacement n'est créée dans le plan de montage chronologique. Toutefois, Fusion mémorise les nouveaux emplacements et, une fois le modèle enregistré, ils sont visibles dans EAGLE. L'utilisateur EAGLE peut également déplacer les composants."/>
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksTips" devLabel="Select a component and move it by dragging or typing in values." translation="Sélectionnez un composant et déplacez-le en le faisant glisser ou en saisissant les valeurs souhaitées."/>
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksTitle" devLabel="Move PCB Components Information" translation="Informations sur la commande Déplacer les composants de PCB"/>
+	<label commandName="lclzPCBReplaceComponentCommand1" devLabel="Replace PCB component with different one." translation="Remplacez le composant de PCB par un autre composant."/>
+	<label commandName="lclzPCBReplaceComponentCommand2" devLabel="Select a PCB 3d model(step, stp file format) to replace existing PCB component." translation="Sélectionnez le modèle de PCB 3D (format de fichier STEP ou STP) qui va remplacer le composant de PCB existant."/>
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the PCB component will be replace with new model, the change will not able to get back to eagle." translation="Veuillez noter qu'aucune fonction de déplacement n'est créée dans le plan de montage chronologique. Toutefois, le composant de PCB est remplacé par le nouveau modèle. La modification ne peut pas être réappliquée dans EAGLE."/>
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksTips" devLabel="Select a model to replace selected PCB component and move it to adjust its position." translation="Sélectionnez le modèle qui va remplacer le composant de PCB sélectionné et déplacez-le pour ajuster sa position."/>
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksTitle" devLabel="Replace PCB Component Information" translation="Informations sur la commande Remplacer le composant de PCB"/>
+	<label commandName="lclzPCBSketchCreate1" devLabel="Creates a sketch on a selected face or plane and displays the Sketch toolbar." translation="Crée une esquisse sur une face ou un plan sélectionné et affiche la barre d'outils Esquisse."/>
+	<label commandName="lclzPCBSketchCreate2" devLabel="Add construction geometry that can be referenced in both 2D and 3D PCB documents." translation="Ajoutez une géométrie de construction pouvant être référencée dans les documents de PCB 2D et 3D."/>
+	<label commandName="lclzPCBStatusCommand1" devLabel="Check the status of the PCB shape and component positions. " translation="Vérifiez l'état de la forme de PCB et les positions des composants. "/>
+	<label commandName="lclzPCBStatusCommand2" devLabel="Both the board shape and the component positions can be driven by either Fusion or EAGLE. Use this command to understand the state of the model." translation="Vous pouvez piloter la forme de circuit imprimé et la position des composants depuis Fusion ou EAGLE. Utilisez cette commande pour examiner l'état du modèle."/>
+	<label commandName="lclzPCBStatusCommandTipsAndTricksDesc" devLabel="If the board shape and/or component positions have been edited in Fusion after the last EAGLE update, this command will allow you to see both PCB shapes. Also, it will tell you if your current component positions are different from the last EAGLE update." translation="Si la forme de PCB et/ou les positions des composants ont été modifiées dans Fusion après la dernière mise à jour EAGLE, cette commande vous permet d'observer les deux formes de PCB. Elle indique également si les positions actuelles des composants sont différentes de leurs positions dans la dernière mise à jour EAGLE."/>
+	<label commandName="lclzPCBStatusCommandTipsAndTricksTips" devLabel="Both the board shape and the component positions can be driven by either Fusion or EAGLE. Use this command to understand the state of the model." translation="Vous pouvez piloter la forme de circuit imprimé et la position des composants depuis Fusion ou EAGLE. Utilisez cette commande pour examiner l'état du modèle."/>
+	<label commandName="lclzPCBStatusCommandTipsAndTricksTitle" devLabel="PCB Status Information" translation="Informations sur la commande État de la PCB"/>
+	<label commandName="lclzPCBStop1" devLabel="Return to the Model workspace." translation="Revenez à l'espace de travail des modèles."/>
+	<label commandName="lclzPCBUpdateComponentCommand1" devLabel="Update PCB component from library." translation="Mettez à jour le composant de PCB à partir de la bibliothèque."/>
+	<label commandName="lclzPCBUpdateComponentCommand2" devLabel="Download PCB component from library to replace existing PCB component." translation="Téléchargez le composant de PCB de la bibliothèque pour remplacer le composant de PCB existant."/>
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the PCB component will be replace with new model, the change will not able to get back to eagle." translation="Veuillez noter qu'aucune fonction de déplacement n'est créée dans le plan de montage chronologique. Toutefois, le composant de PCB est remplacé par le nouveau modèle. La modification ne peut pas être réappliquée dans EAGLE."/>
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksTips" devLabel="Download PCB component from library to replace the selected PCB component and move it to adjust its position." translation="Téléchargez le composant de PCB de la bibliothèque pour remplacer le composant de PCB sélectionné et déplacez-le pour ajuster sa position."/>
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksTitle" devLabel="Update PCB Component Information" translation="Informations sur la commande Mettre à jour le composant de PCB"/>
+	<label commandName="lclzPCBWorkspaceTitle" devLabel="Mechanical PCB Workspace" translation="Espace de travail de PCB mécanique"/>
+	<label commandName="pcb3dConstructionSketchCmdBlock" devLabel="Create PCB Sketch (unavailable)" translation="Créer une esquisse de PCB (non disponible)"/>
+	<label commandName="pcb3dFlipCmdBlock" devLabel="Flip Component (unavailable)" translation="Inverser le composant (non disponible)"/>
+	<label commandName="pcb3dHoleCmdBlock" devLabel="PCBHole (unavailable)" translation="Perçage de PCB (non disponible)"/>
+	<label commandName="pcb3dMoveCmdBlock" devLabel="Move Component (unavailable)" translation="Déplacer le composant (non disponible)"/>
+	<label commandName="pcbFlipXDirectionInputTooltip" devLabel="Flip X Axis for 2D PCB orientation" translation="Inverser l'axe X pour l'orientation de la PCB 2D"/>
+	<label commandName="pcbFlipZDirectionInputTooltip" devLabel="Flip Z Axis for 2D PCB orientation" translation="Inverser l'axe Z pour l'orientation de la PCB 2D"/>
+</Resource>

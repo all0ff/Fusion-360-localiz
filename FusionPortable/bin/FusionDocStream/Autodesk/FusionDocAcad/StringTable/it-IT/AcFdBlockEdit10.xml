@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IDS_CMD_FD_ATTDEF" devLabel="FD_ATTDEF" translation="FD_ATTDEF"/>
+	<label commandName="IDS_CMD_FD_ATTEDIT" devLabel="FD_ATTEDIT" translation="FD_ATTEDIT"/>
+	<label commandName="IDS_CMD_FD_BCLOSE" devLabel="FD_BCLOSE" translation="FD_BCLOSE"/>
+	<label commandName="IDS_CMD_FD_BEDIT" devLabel="FD_BEDIT" translation="FD_BEDIT"/>
+	<label commandName="IDS_CMD_FD_BORDERTOGGLE" devLabel="FD_BORDERTOGGLE" translation="FD_BORDERTOGGLE"/>
+	<label commandName="IDS_CMD_FD_SHEETTOGGLE" devLabel="FD_SHEETTOGGLE" translation="FD_SHEETTOGGLE"/>
+	<label commandName="IDS_CMD_FD_SKETCHEDIT" devLabel="FD_SKETCH" translation="FD_SKETCH"/>
+	<label commandName="IDS_CMD_FD_SKETCH_SYMBOL" devLabel="FD_SKETCH_SYMBOL_CMD" translation="FD_SKETCH_SYMBOL_CMD"/>
+	<label commandName="IDS_FD_BEDIT_KWORDS" devLabel="Generic Titleblock Border _Generic Titleblock Border" translation="Generico Cartiglio Bordo _Generic Titleblock Border"/>
+	<label commandName="IDS_FD_BEDIT_PROMPT" devLabel="&#xA;Enter an option [Generic/Titleblock/Border]&lt;Generic&gt;:" translation="&#xA;Immettere un'opzione [Generico/Cartiglio/Bordo]&lt;Generico&gt;:"/>
+	<label commandName="IDS_FD_CUSTOM_ATTR" devLabel="CUSTOM" translation="PERSONALIZZATO"/>
+	<label commandName="IDS_FD_LAYERONOFFKEYWORDS" devLabel="Show Hide Reset _Show Hide Reset" translation="Mostra Nascondi Ripristina _Show Hide Reset"/>
+	<label commandName="IDS_FD_LAYERONOFFOPTION" devLabel="&#xA;Enter layer visibility option [Show/Hide/Reset] : " translation="&#xA;Immettere opzione visibilità layer [Mostra/Nascondi/Ripristina] : "/>
+	<label commandName="IDS_FD_SKETCHEDIT_KWORDS" devLabel="New Edit Delete eXit _New Edit Delete eXit" translation="Nuovo Modifica Elimina ESci _New Edit Delete eXit"/>
+	<label commandName="IDS_FD_SKETCHEDIT_PROMPT" devLabel="&#xA;Enter an option [New/Edit/Delete/eXit]:" translation="&#xA;Immettere un'opzione [Nuovo/Modifica/Elimina/ESci]:"/>
+	<label commandName="IDS_FD_SKETCHNAME_PROMPT" devLabel="&#xA;Enter the sketch name:" translation="&#xA;Immettere il nome dello schizzo:"/>
+	<label commandName="IDS_FD_SKETCHSYMBOLEDIT_KWORDS" devLabel="New Edit Delete eXit Name Leader _New Edit Delete eXit Name Leader" translation="Nuovo Modifica Elimina eSci Nome Direttrice _New Edit Delete eXit Name Leader"/>
+	<label commandName="IDS_FD_SKETCHSYMBOLEDIT_PROMPT" devLabel="&#xA;Enter an option [New/Edit/Delete/eXit]:" translation="&#xA;Immettere un'opzione [Nuovo/Modifica/Elimina/eSci]:"/>
+	<label commandName="IDS_FD_SKETCHSYMBOLLeader_PROMPT" devLabel="&#xA;Enter the sketch symbol leader attachment:" translation="&#xA;Immettere l'associazione direttrice del simbolo di schizzo:"/>
+	<label commandName="IDS_FD_SKETCHSYMBOLNAME_PROMPT" devLabel="&#xA;Enter the sketch symbol name:" translation="&#xA;Immettere il nome del simbolo di schizzo:"/>
+	<label commandName="IDS_PLACE_ATTDEF" devLabel="&#xA;Place Attribute" translation="&#xA;Posizionare l'attributo"/>
+	<label commandName="alphaTag" devLabel="" translation=""/>
+	<label commandName="customTag" devLabel="" translation=""/>
+	<label commandName="numTag" devLabel="" translation=""/>
+</Resource>

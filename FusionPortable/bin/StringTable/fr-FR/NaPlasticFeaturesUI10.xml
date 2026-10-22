@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Add Length" devLabel="Add Length" translation="Ajouter une longueur"/>
+	<label commandName="Add Size" devLabel="Add Size" translation="Ajouter une taille"/>
+	<label commandName="AdjustSettingsForRest" devLabel="Adjust the rest settings" translation="Ajuster les paramètres d'appui"/>
+	<label commandName="AlertDTT" devLabel="Displays this alert in the canvas. If you use Design Advice to check this solid body again, this alert will be included in the results if you have not resolved it." translation="Affiche cette alerte dans la zone de dessin. Si vous utilisez l'Assistant de conception pour revérifier ce corps solide, cette alerte sera incluse dans les résultats si vous ne l'avez pas résolue."/>
+	<label commandName="AlertRegion" devLabel="  Region %1%" translation="  Région %1%"/>
+	<label commandName="AlertStatusDropDownOptions" devLabel="Status" translation="État"/>
+	<label commandName="AlertStatusErrorOption" devLabel="Alert" translation="Alerte"/>
+	<label commandName="AlertStatusIgnoreOption" devLabel="Ignore" translation="Ignorer"/>
+	<label commandName="AnalyzePrompt" devLabel="Click Analyze, then review results and recommendations" translation="Cliquez sur Analyser, puis vérifiez les résultats et les recommandations"/>
+	<label commandName="AssignedRuleName" devLabel="Rule Details: " translation="Détails de la règle: "/>
+	<label commandName="BCCannotCreateCloudFolder" devLabel="&lt;b&gt;Bolt folder cannot be created in offline mode.&lt;/b&gt;&lt;p&gt;Bolt component is not created.&lt;/p&gt;" translation="&lt;b&gt;Impossible de créer le dossier de boulons en mode hors ligne.&lt;/b&gt;&lt;p&gt;Le composant de boulon n'est pas créé.&lt;/p&gt;"/>
+	<label commandName="BodySelectionDTT" devLabel="Select a solid body to analyze." translation="Sélectionnez un corps solide à analyser."/>
+	<label commandName="BoltConnCmdBoltCreate" devLabel="Create Component" translation="Créer un composant"/>
+	<label commandName="BoltConnCmdBoltCreateToolTip" devLabel="Creates an external component that contains the geometry of the fastener and references it into the active design.&#xA;&#xA;Identical fasteners reference the same external component." translation="Crée un composant externe qui contient la géométrie de l'attache et la référence dans la conception active.&#xA;&#xA;Les attaches identiques font référence au même composant externe."/>
+	<label commandName="BoltConnCmdBoltGroup" devLabel="Fastener" translation="Attache"/>
+	<label commandName="BoltConnCmdDiameter" devLabel="Thread Diameter" translation="Diamètre de filetage"/>
+	<label commandName="BoltConnCmdDiameterToolTip" devLabel="Select a diameter to apply to the fastener." translation="Sélectionnez le diamètre à appliquer à l'attache."/>
+	<label commandName="BoltConnCmdFinish" devLabel="Surface Finish" translation="Finition de surface"/>
+	<label commandName="BoltConnCmdFinishToolTip" devLabel="Specify a surface finish to add as a text-only property to the fastener.&#xA;&#xA;Does not affect physical material or appearance." translation="Spécifiez une finition de surface à ajouter en tant que propriété textuelle à l'attache.&#xA;&#xA;N'a aucune incidence sur le matériau physique ou l'apparence."/>
+	<label commandName="BoltConnCmdHeadType" devLabel="Head" translation="Tête"/>
+	<label commandName="BoltConnCmdHeadTypeFlat" devLabel="Flat" translation="Plat"/>
+	<label commandName="BoltConnCmdHeadTypeFlatToolTip" devLabel="Creates a fastener with a flat head." translation="Crée une attache avec une tête plate."/>
+	<label commandName="BoltConnCmdHeadTypeHex" devLabel="Hex" translation="Hexagonal"/>
+	<label commandName="BoltConnCmdHeadTypeHexToolTip" devLabel="Creates a fastener with a hex head." translation="Crée une attache à tête hexagonale."/>
+	<label commandName="BoltConnCmdHeadTypeHexWasher" devLabel="Hex Washer" translation="Rondelle hexagonale"/>
+	<label commandName="BoltConnCmdHeadTypeHexWasherToolTip" devLabel="Creates a fastener with a hex washer head." translation="Crée une attache avec une tête de rondelle hexagonale."/>
+	<label commandName="BoltConnCmdHeadTypeOval" devLabel="Oval" translation="Ovale"/>
+	<label commandName="BoltConnCmdHeadTypeOvalToolTip" devLabel="Creates a fastener with an oval head." translation="Crée une attache avec une tête ovale."/>
+	<label commandName="BoltConnCmdHeadTypePan" devLabel="Pan" translation="Panoramique"/>
+	<label commandName="BoltConnCmdHeadTypePanToolTip" devLabel="Creates a fastener with a pan head." translation="Crée une attache avec une tête cylindrique."/>
+	<label commandName="BoltConnCmdHeadTypeRound" devLabel="Round" translation="Rond"/>
+	<label commandName="BoltConnCmdHeadTypeRoundToolTip" devLabel="Creates a fastener with a round head." translation="Crée une attache avec une tête ronde."/>
+	<label commandName="BoltConnCmdHeadTypeRoundWasher" devLabel="Round Washer" translation="Rondelle arrondie"/>
+	<label commandName="BoltConnCmdHeadTypeRoundWasherToolTip" devLabel="Creates a fastener with a round washer head." translation="Crée une attache avec une vis à tête ronde avec rondelle intégrée."/>
+	<label commandName="BoltConnCmdLength" devLabel="Length" translation="Longueur"/>
+	<label commandName="BoltConnCmdLengthToolTip" devLabel="Select a length to apply to the fastener." translation="Sélectionnez la longueur à appliquer à l'attache."/>
+	<label commandName="BoltConnCmdMaterial" devLabel="Fastener Material" translation="Matériau de l'attache"/>
+	<label commandName="BoltConnCmdMaterialToolTip" devLabel="Specify a material to add as a text-only property to the fastener.&#xA;&#xA;Does not affect physical material or appearance." translation="Spécifiez le matériau à ajouter à l'attache en tant que propriété textuelle.&#xA;&#xA;Cette option n'a aucune incidence sur le matériau physique ou l'apparence."/>
+	<label commandName="BoltConnCmdPosition" devLabel="Position" translation="Position"/>
+	<label commandName="BoltConnCmdPositionToolTip" devLabel="Select a circular edge to position the feature on a body." translation="Sélectionnez une arête circulaire pour positionner la fonction sur un corps."/>
+	<label commandName="BoltConnCmdSlotType" devLabel="Drive" translation="Lecteur"/>
+	<label commandName="BoltConnCmdSlotTypeInternalHex" devLabel="Hex" translation="Hexagonal"/>
+	<label commandName="BoltConnCmdSlotTypeInternalHexToolTip" devLabel="Creates a hex style drive in the head of the fastener." translation="Crée un entraînement de type hexagonal dans la tête de l'attache."/>
+	<label commandName="BoltConnCmdSlotTypeNoSlot" devLabel="None" translation="Aucun"/>
+	<label commandName="BoltConnCmdSlotTypeNoSlotToolTip" devLabel="Creates no drive in the head of the fastener." translation="Ne crée aucun entraînement dans la tête de l'attache."/>
+	<label commandName="BoltConnCmdSlotTypePhillips" devLabel="Phillips" translation="Phillips"/>
+	<label commandName="BoltConnCmdSlotTypePhillipsToolTip" devLabel="Creates a Phillips style drive in the head of the fastener." translation="Crée un entraînement de type Phillips dans la tête de l'attache."/>
+	<label commandName="BoltConnCmdSlotTypePozidriv" devLabel="Pozidriv" translation="Pozidriv"/>
+	<label commandName="BoltConnCmdSlotTypePozidrivToolTip" devLabel="Creates a Pozidriv style drive in the head of the fastener." translation="Crée un entraînement de type Pozidriv dans la tête de l'attache."/>
+	<label commandName="BoltConnCmdSlotTypeSecurityTorx" devLabel="Security Torx Plus" translation="Sécurité – Torx Plus"/>
+	<label commandName="BoltConnCmdSlotTypeSecurityTorxToolTip" devLabel="Creates a Security Torx Plus style drive in the head of the fastener." translation="Crée un entraînement de type Sécurité Torx Plus dans la tête de l'attache."/>
+	<label commandName="BoltConnCmdSlotTypeSlotted" devLabel="Slot" translation="Rainure"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPhillips" devLabel="Slotted Phillips" translation="Fendue – Phillips"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPhillipsToolTip" devLabel="Creates a slotted Phillips style drive in the head of the fastener." translation="Crée un entraînement de type vis à tête fendue Phillips dans la tête de l'attache."/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPozidriv" devLabel="Slotted Pozidriv" translation="Fendue – Pozidriv"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPozidrivToolTip" devLabel="Creates a slotted Pozidriv style drive in the head of the fastener." translation="Crée un entraînement de type vis à tête fendue Pozidriv dans la tête de l'attache."/>
+	<label commandName="BoltConnCmdSlotTypeSlottedToolTip" devLabel="Creates a slot style drive in the head of the fastener." translation="Crée un entraînement oblong dans la tête de l'attache."/>
+	<label commandName="BoltConnCmdSlotTypeSlottedTorxPlus" devLabel="Slotted Torx Plus" translation="Fendue – Torx Plus"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedTorxPlusToolTip" devLabel="Creates a slotted Torx Plus style drive in the head of the fastener." translation="Crée un entraînement de type vis à tête fendue Torx Plus dans la tête de l'attache."/>
+	<label commandName="BoltConnCmdSlotTypeTorxPlus" devLabel="Torx Plus" translation="Torx Plus"/>
+	<label commandName="BoltConnCmdSlotTypeTorxPlusToolTip" devLabel="Creates a Torx Plus style drive in the head of the fastener." translation="Crée un entraînement de type Torx Plus dans la tête de l'attache."/>
+	<label commandName="BoltConnCmdThread30deg" devLabel="30°" translation="30°"/>
+	<label commandName="BoltConnCmdThread30degToolTip" devLabel="Applies a 30-degree angle to the threads on the fastener." translation="Applique un angle de 30 degrés aux filetages de l'attache."/>
+	<label commandName="BoltConnCmdThread45deg" devLabel="45°" translation="45°"/>
+	<label commandName="BoltConnCmdThread45degToolTip" devLabel="Applies a 45-degree angle to the threads on the fastener." translation="Applique un angle de 45 degrés aux filetages de l'attache."/>
+	<label commandName="BoltConnCmdThread60deg" devLabel="60°" translation="60°"/>
+	<label commandName="BoltConnCmdThread60degToolTip" devLabel="Applies a 60-degree angle to the threads on the fastener." translation="Applique un angle de 60 degrés aux filetages de l'attache."/>
+	<label commandName="BoltConnCmdThreadType" devLabel="Thread Form" translation="Forme de filetage"/>
+	<label commandName="BoltConnCmdThreadTypeToolTip" devLabel="Select a thread form to apply to the fastener." translation="Sélectionnez une forme de filetage à appliquer à l'attache."/>
+	<label commandName="BoltConnCmdThreadVariant" devLabel="Thread Angle" translation="Angle de filetage"/>
+	<label commandName="BoltConnCmdThreadVariantToolTip" devLabel="Select a thread angle to apply to the fastener." translation="Sélectionnez un angle de filetage à appliquer à l'attache."/>
+	<label commandName="BossCannotCreateFastener" devLabel="Cannot create fastener" translation="Impossible de créer l'attache"/>
+	<label commandName="BossCannotCreateFolderOffline" devLabel="Cannot create an external component for the fastener in the boss while Fusion is in Offline Mode.&lt;br/&gt;&lt;br/&gt;Try to switch to Online Mode or continue without creating the fastener?" translation="Impossible de créer un composant externe pour l'attache dans le bossage lorsque Fusion est en mode hors ligne.&lt;br/&gt;&lt;br/&gt;Essayer de passer en mode en ligne ou continuer sans créer l'attache?"/>
+	<label commandName="BossCannotCreateForLocalDocument" devLabel="Cannot create an external component for the fastener in the boss until you upload the design to the cloud.&lt;br/&gt;&lt;br/&gt;Upload the design or continue without creating the fastener?" translation="Impossible de créer un composant externe pour l'attache dans le bossage tant que vous n'avez pas chargé la conception dans le cloud.&lt;br/&gt;&lt;br/&gt;Charger la conception ou continuer sans créer l'attache?"/>
+	<label commandName="BossCannotCreateForUnsavedDocument" devLabel="Cannot create an external component for the fastener in the boss until you save the design.&lt;br/&gt;&lt;br/&gt;Save the design or continue without creating the fastener?" translation="Impossible de créer un composant externe pour l'attache dans le bossage tant que vous n'avez pas enregistré la conception.&lt;br/&gt;&lt;br/&gt;Enregistrer la conception ou continuer sans créer l'attache?"/>
+	<label commandName="BossCmdBossPlasticRules" devLabel="Plastic Rules" translation="Règles de conception plastique"/>
+	<label commandName="BossCmdBossTab" devLabel="Boss" translation="Bossage"/>
+	<label commandName="BossCmdBossTab1A" devLabel="A₁" translation="A₁"/>
+	<label commandName="BossCmdBossTab1AToolTipL0" devLabel="Counterbore Diameter" translation="Diamètre de lamage"/>
+	<label commandName="BossCmdBossTab1AToolTipL1" devLabel="Specify the diameter value of the counterbore hole for Side 1 of the boss feature." translation="Spécifiez la valeur de diamètre du perçage lamé pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1Alpha1ToolTipL0" devLabel="Counterbore Draft Angle" translation="Angle de dépouille du lamage"/>
+	<label commandName="BossCmdBossTab1Alpha1ToolTipSuffix" devLabel="Specify the draft angle value of the counterbore for Side 1 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille du lamage pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1Alpha2ToolTipL0" devLabel="Hole Draft Angle" translation="Angle de dépouille du perçage"/>
+	<label commandName="BossCmdBossTab1Alpha2ToolTipL1" devLabel="Specify the draft angle value of the hole for Side 1 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille du perçage pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1Alpha3ToolTipL0" devLabel="Step Draft Angle" translation="Angle de dépouille du pas"/>
+	<label commandName="BossCmdBossTab1Alpha3ToolTipSuffix" devLabel="Specify the draft angle value of the step for Side 1 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille du pas pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1Alpha4ToolTipL0" devLabel="Boss Draft Angle" translation="Angle de dépouille du bossage"/>
+	<label commandName="BossCmdBossTab1Alpha4ToolTipL1" devLabel="Specify the draft angle value of the outer boss for Side 1 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille du bossage extérieur pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1AlphaImage" devLabel="BossCmdBossTab1AlphaImage" translation="CmdBossageOngletBossage1ImageAlpha"/>
+	<label commandName="BossCmdBossTab1AlphaTable" devLabel="BossCmdBossTab1AlphaTable" translation="CmdBossageOngletBossage1TableAlpha"/>
+	<label commandName="BossCmdBossTab1BToolTipL0" devLabel="Inner Hole Diameter" translation="Diamètre intérieur du perçage"/>
+	<label commandName="BossCmdBossTab1BToolTipL1" devLabel="Specify the diameter value of the inner hole for Side 1 of the boss feature." translation="Spécifiez la valeur du diamètre du perçage interne pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1CToolTipL0" devLabel="Step Diameter" translation="Diamètre du pas"/>
+	<label commandName="BossCmdBossTab1CToolTipL1" devLabel="Specify the diameter value of the step for Side 1 of the boss feature." translation="Spécifiez la valeur du diamètre du pas pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1CounterSinkAngle" devLabel="Countersink Angle" translation="Angle de fraisure"/>
+	<label commandName="BossCmdBossTab1CounterSinkAngleToolTipL1" devLabel="Specify the angle value for the countersink hole for Side 1 of the boss feature." translation="Spécifiez la valeur d'angle du perçage fraisé pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1DToolTipL0" devLabel="Boss Diameter" translation="Diamètre du bossage"/>
+	<label commandName="BossCmdBossTab1DToolTipSuffix" devLabel="Specify the overall diameter value for Side 1 of the boss feature." translation="Spécifiez la valeur du diamètre global pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1EToolTipL0" devLabel="Inner Hole Depth" translation="Profondeur intérieure du perçage"/>
+	<label commandName="BossCmdBossTab1EToolTipL1" devLabel="Specify the depth value of the inner hole for Side 1 of the boss feature." translation="Spécifiez la valeur de la profondeur du perçage interne pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1FToolTipL0" devLabel="Step Depth" translation="Profondeur du pas"/>
+	<label commandName="BossCmdBossTab1FToolTipSuffix" devLabel="Specify the depth value of the step for Side 1 of the boss feature." translation="Spécifiez la valeur de la profondeur du pas pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1Hole" devLabel="Hole Type" translation="Type de perçage"/>
+	<label commandName="BossCmdBossTab1HoleCommon" devLabel="Simple" translation="Simple"/>
+	<label commandName="BossCmdBossTab1HoleCommonToolTip" devLabel="Creates a simple hole for Side 1 of the boss feature." translation="Crée un perçage simple pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1HoleCounterBore" devLabel="Counterbore" translation="Lamage"/>
+	<label commandName="BossCmdBossTab1HoleCounterBoreToolTip" devLabel="Creates a counterbore hole for Side 1 of the boss feature." translation="Crée un perçage lamé pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1HoleCounterSink" devLabel="Countersink" translation="Fraisure"/>
+	<label commandName="BossCmdBossTab1HoleCounterSinkToolTip" devLabel="Creates a countersink hole for Side 1 of the boss feature." translation="Crée un perçage fraisé pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1Image" devLabel="Boss1Image" translation="Bossage1Image"/>
+	<label commandName="BossCmdBossTab1OToolTipL0" devLabel="Offset Clearance" translation="Dégagement de décalage"/>
+	<label commandName="BossCmdBossTab1OToolTipL1" devLabel="Specify the clearance value between the sketch plane and the inner face of the step for Side 1 of the boss feature." translation="Spécifiez la valeur de dégagement entre le plan d'esquisse et la face interne du pas pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1R1ToolTipL0" devLabel="Outer Counterbore Fillet Radius" translation="Rayon du congé du lamage extérieur"/>
+	<label commandName="BossCmdBossTab1R1ToolTipL1" devLabel="Specify the radius value of the outer counterbore fillet for Side 1 of the boss feature." translation="Spécifiez la valeur du rayon du congé de lamage extérieur pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1R2ToolTipL0" devLabel="Inner Counterbore Fillet Radius" translation="Rayon du congé du lamage intérieur"/>
+	<label commandName="BossCmdBossTab1R2ToolTipSuffix" devLabel="Specify the radius value of the inner counterbore fillet for Side 1 of the boss feature." translation="Spécifiez la valeur du rayon du congé de lamage intérieur pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1R3ToolTipL0" devLabel="Upper Hole Fillet Radius" translation="Rayon du congé du perçage supérieur"/>
+	<label commandName="BossCmdBossTab1R3ToolTipL1" devLabel="Specify the radius value of the upper hole fillet for Side 1 of the boss feature." translation="Spécifiez la valeur du rayon du congé de perçage supérieur pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1R4ToolTipL0" devLabel="Lower Hole Fillet Radius" translation="Rayon du congé du perçage inférieur"/>
+	<label commandName="BossCmdBossTab1R4ToolTipSuffix" devLabel="Specify the radius value of the lower hole fillet for Side 1 of the boss feature." translation="Spécifiez la valeur du rayon du congé de perçage inférieur pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1R5ToolTipL0" devLabel="Outer Boss Fillet Radius" translation="Rayon du congé du bossage extérieur"/>
+	<label commandName="BossCmdBossTab1R5ToolTipL1" devLabel="Specify the radius value of the outer boss fillet for Side 1 of the boss feature." translation="Spécifiez la valeur du rayon du congé de bossage extérieur pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1R6ToolTipL0" devLabel="Outer Step Fillet Radius" translation="Rayon du congé du pas extérieur"/>
+	<label commandName="BossCmdBossTab1R6ToolTipSuffix" devLabel="Specify the radius value of the outer step fillet for Side 1 of the boss feature." translation="Spécifiez la valeur du rayon du congé du pas extérieur pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1R7ToolTipL0" devLabel="Inner Step Fillet Radius" translation="Rayon du congé du pas intérieur"/>
+	<label commandName="BossCmdBossTab1R7ToolTipL1" devLabel="Specify the radius value of the inner step fillet for Side 1 of the boss feature." translation="Spécifiez la valeur du rayon du congé du pas intérieur pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1RImage" devLabel="BossCmdBossTab1RImage" translation="CmdBossageOngletBossage1ImageR"/>
+	<label commandName="BossCmdBossTab1RTable" devLabel="BossCmdBossTab1RTable" translation="CmdBossageOngletBossage1TableR"/>
+	<label commandName="BossCmdBossTab1RToolTipL0" devLabel="Base Fillet Radius" translation="Rayon du congé de base"/>
+	<label commandName="BossCmdBossTab1RToolTipSuffix" devLabel="Specify the radius value of the base fillet for Side 1 of the boss feature." translation="Spécifiez la valeur du rayon du congé de base pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1Step" devLabel="Step Type" translation="Type de pas"/>
+	<label commandName="BossCmdBossTab1StepIn" devLabel="In" translation="Entrée"/>
+	<label commandName="BossCmdBossTab1StepInToolTip" devLabel="Creates a step to the inside of Side 1 of the boss feature." translation="Crée un pas à l'intérieur du côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1StepNone" devLabel="None" translation="Aucun"/>
+	<label commandName="BossCmdBossTab1StepNoneToolTip" devLabel="Creates no step for Side 1 of the boss feature." translation="Ne crée aucun pas pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1StepOut" devLabel="Out" translation="Sortie"/>
+	<label commandName="BossCmdBossTab1StepOutToolTip" devLabel="Creates a step to the outside of Side 1 of the boss feature." translation="Crée un pas à l'extérieur du côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab1Table" devLabel="Boss1Table" translation="Bossage1Table"/>
+	<label commandName="BossCmdBossTab2AToolTipL0" devLabel="Counterbore Diameter" translation="Diamètre de lamage"/>
+	<label commandName="BossCmdBossTab2AToolTipSuffix" devLabel="Specify the diameter value of the counterbore hole for Side 2 of the boss feature." translation="Spécifiez la valeur du diamètre du perçage lamé pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2Alpha1ToolTipL0" devLabel="Counterbore Draft Angle" translation="Angle de dépouille du lamage"/>
+	<label commandName="BossCmdBossTab2Alpha1ToolTipL1" devLabel="Specify the draft angle value of the counterbore for Side 2 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille du lamage pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2Alpha2ToolTipL0" devLabel="Hole Draft Angle" translation="Angle de dépouille du perçage"/>
+	<label commandName="BossCmdBossTab2Alpha2ToolTipL1" devLabel="Specify the draft angle value of the hole for Side 2 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille du perçage pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2Alpha3ToolTipL0" devLabel="Step Draft Angle" translation="Angle de dépouille du pas"/>
+	<label commandName="BossCmdBossTab2Alpha3ToolTipL1" devLabel="Specify the draft angle value of the step for Side 2 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille du pas pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2Alpha4ToolTipL0" devLabel="Boss Draft Angle" translation="Angle de dépouille du bossage"/>
+	<label commandName="BossCmdBossTab2Alpha4ToolTipL1" devLabel="Specify the draft angle value of the outer boss for Side 2 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille du bossage extérieur pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2BToolTipL0" devLabel="Inner Hole Diameter" translation="Diamètre intérieur du perçage"/>
+	<label commandName="BossCmdBossTab2BToolTipL1" devLabel="Specify the diameter value of the inner hole for Side 2 of the boss feature." translation="Spécifiez la valeur du diamètre du perçage interne pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2CToolTipL0" devLabel="Step Diameter" translation="Diamètre du pas"/>
+	<label commandName="BossCmdBossTab2CToolTipSuffix" devLabel="Specify the diameter value of the step for Side 2 of the boss feature." translation="Spécifiez la valeur du diamètre du pas pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2CounterSinkAngle" devLabel="Countersink Angle" translation="Angle de fraisure"/>
+	<label commandName="BossCmdBossTab2CounterSinkAngleToolTipL1" devLabel="Specify the angle value for the countersink hole for Side 2 of the boss feature." translation="Spécifiez la valeur d'angle du perçage fraisé pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2DToolTipL0" devLabel="Boss Diameter" translation="Diamètre du bossage"/>
+	<label commandName="BossCmdBossTab2DToolTipL1" devLabel="Specify the overall diameter value for Side 2 of the boss feature." translation="Spécifiez la valeur du diamètre global pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2Depth" devLabel="Hole Depth Type" translation="Type de profondeur de perçage"/>
+	<label commandName="BossCmdBossTab2DepthFromBottom" devLabel="From Bottom" translation="Du bas"/>
+	<label commandName="BossCmdBossTab2DepthFromBottomToolTip" devLabel="Measures the clearance between the exterior face of the body and the bottom of the inner hole for Side 2 of the boss feature." translation="Mesure le dégagement entre la face extérieure du corps et le bas du perçage intérieur pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2DepthFromTop" devLabel="From Top" translation="Du haut"/>
+	<label commandName="BossCmdBossTab2DepthFromTopToolTip" devLabel="Measures the depth value of the inner hole from the top of Side 2 of the boss feature." translation="Mesure la valeur de la profondeur du perçage intérieur à partir du haut du côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2DepthThroughBody" devLabel="Through Body" translation="À travers le corps"/>
+	<label commandName="BossCmdBossTab2DepthThroughBodyToolTip" devLabel="Extrudes the hole through the entire body for Side 2 of the boss feature." translation="Extrude le perçage à travers tout le corps pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2FToolTipL0" devLabel="Step Depth" translation="Profondeur du pas"/>
+	<label commandName="BossCmdBossTab2FToolTipSuffix" devLabel="Specify the depth value of the step for Side 2 of the boss feature." translation="Spécifiez la valeur de la profondeur du pas pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2GToolTipL0" devLabel="Inner Hole Depth" translation="Profondeur du perçage intérieur"/>
+	<label commandName="BossCmdBossTab2GToolTipL1" devLabel="Specify the depth value of the inner hole for Side 2 of the boss feature." translation="Spécifiez la valeur de la profondeur du perçage interne pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2Hole" devLabel="Hole Type" translation="Type de perçage"/>
+	<label commandName="BossCmdBossTab2HoleCommon" devLabel="Simple" translation="Simple"/>
+	<label commandName="BossCmdBossTab2HoleCommonToolTip" devLabel="Creates a simple hole for Side 2 of the boss feature." translation="Crée un perçage simple pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2HoleCounterBore" devLabel="Counterbore" translation="Lamage"/>
+	<label commandName="BossCmdBossTab2HoleCounterBoreToolTip" devLabel="Creates a counterbore hole for Side 2 of the boss feature." translation="Crée un perçage lamé pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2HoleCounterSink" devLabel="Countersink" translation="Fraisure"/>
+	<label commandName="BossCmdBossTab2HoleCounterSinkToolTip" devLabel="Creates a countersink hole for Side 2 of the boss feature." translation="Crée un perçage fraisé pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2IToolTipL0" devLabel="Counterbore Depth" translation="Profondeur de lamage"/>
+	<label commandName="BossCmdBossTab2IToolTipSuffix" devLabel="Specify the depth value of the counterbore hole for Side 2 of the boss feature." translation="Spécifiez la valeur de la profondeur du perçage lamé pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2JToolTipL0" devLabel="Inner Hole Clearance" translation="Dégagement intérieur du perçage"/>
+	<label commandName="BossCmdBossTab2JToolTipL1" devLabel="Specify the clearance value between the exterior face of the body and the bottom of the inner hole for Side 2 of the boss feature." translation="Spécifiez la valeur de dégagement entre la face extérieure du corps et le bas du perçage intérieur pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2OToolTipL0" devLabel="Offset Clearance" translation="Dégagement de décalage"/>
+	<label commandName="BossCmdBossTab2OToolTipSuffix" devLabel="Specify the clearance value between the sketch plane and the nearest face for Side 2 of the boss feature." translation="Spécifiez la valeur de dégagement entre le plan d'esquisse et la face la plus proche pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2R1ToolTipL0" devLabel="Outer Hole Fillet Radius" translation="Rayon du congé de perçage extérieur"/>
+	<label commandName="BossCmdBossTab2R1ToolTipSuffix" devLabel="Specify the radius value of the outer hole fillet for Side 2 of the boss feature." translation="Spécifiez la valeur du rayon du congé de perçage externe pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2R2ToolTipL0" devLabel="Inner Counterbore Fillet Radius" translation="Rayon du congé du lamage intérieur"/>
+	<label commandName="BossCmdBossTab2R2ToolTipL1" devLabel="Specify the radius value of the inner counterbore fillet for Side 2 of the boss feature." translation="Spécifiez la valeur du rayon du congé de lamage intérieur pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2R3ToolTipL0" devLabel="Outer Counterbore Fillet Radius" translation="Rayon du congé du lamage extérieur"/>
+	<label commandName="BossCmdBossTab2R3ToolTipSuffix" devLabel="Specify the radius value of the outer counterbore fillet for Side 2 of the boss feature." translation="Spécifiez la valeur du rayon du congé de lamage extérieur pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2R4ToolTipL0" devLabel="Inner Hole Fillet Radius" translation="Rayon du congé de perçage intérieur"/>
+	<label commandName="BossCmdBossTab2R4ToolTipL1" devLabel="Specify the radius value of the inner hole fillet for Side 2 of the boss feature." translation="Spécifiez la valeur du rayon du congé de perçage intérieur pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2R5ToolTipL0" devLabel="Outer Boss Fillet Radius" translation="Rayon du congé du bossage extérieur"/>
+	<label commandName="BossCmdBossTab2R5ToolTipSuffix" devLabel="Specify the radius value of the outer boss fillet for Side 2 of the boss feature." translation="Spécifiez la valeur du rayon du congé de bossage extérieur pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2R6ToolTipL0" devLabel="Outer Step Fillet Radius" translation="Rayon du congé du pas extérieur"/>
+	<label commandName="BossCmdBossTab2R6ToolTipL1" devLabel="Specify the radius value of the outer step fillet for Side 2 of the boss feature." translation="Spécifiez la valeur du rayon du congé du pas extérieur pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2R7ToolTipL0" devLabel="Inner Step Fillet Radius" translation="Rayon du congé du pas intérieur"/>
+	<label commandName="BossCmdBossTab2R7ToolTipSuffix" devLabel="Specify the radius value of the inner step fillet for Side 2 of the boss feature." translation="Spécifiez la valeur du rayon du congé du pas intérieur pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2RToolTipL0" devLabel="Base Fillet Radius" translation="Rayon du congé de base"/>
+	<label commandName="BossCmdBossTab2RToolTipL1" devLabel="Specify the radius value of the base fillet for Side 2 of the boss feature." translation="Spécifiez la valeur du rayon du congé de base pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2Step" devLabel="Step Type" translation="Type de pas"/>
+	<label commandName="BossCmdBossTab2StepIn" devLabel="In" translation="Entrée"/>
+	<label commandName="BossCmdBossTab2StepInToolTip" devLabel="Creates a step to the inside of Side 2 of the boss feature." translation="Crée un pas à l'intérieur du côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2StepNone" devLabel="None" translation="Aucun"/>
+	<label commandName="BossCmdBossTab2StepNoneToolTip" devLabel="Creates no step for Side 2 of the boss feature." translation="Ne crée aucun pas pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTab2StepOut" devLabel="Out" translation="Sortie"/>
+	<label commandName="BossCmdBossTab2StepOutToolTip" devLabel="Creates a step to the outside of Side 2 of the boss feature." translation="Crée un pas à l'extérieur du côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdBossTabFlipDirection" devLabel="Flip" translation="Inverser"/>
+	<label commandName="BossCmdBossTabFlipDirectionToolTip" devLabel="Flips boss feature over selected sketch point to switch Side 1 and Side 2 bodies." translation="Inverse la fonction de bossage sur le point d'esquisse sélectionné pour permuter les corps des côtés 1 et 2."/>
+	<label commandName="BossCmdBossTabOffset" devLabel="Offset Position" translation="Position de décalage"/>
+	<label commandName="BossCmdBossTabOffsetToolTip" devLabel="Specify a distance to offset the position of the boss feature from the sketch plane." translation="Spécifiez une distance pour décaler la position de la fonction de bossage par rapport au plan d'esquisse."/>
+	<label commandName="BossCmdBossTabSide1" devLabel="Side 1" translation="Côté 1"/>
+	<label commandName="BossCmdBossTabSide1AO" devLabel="Advanced" translation="Avancé"/>
+	<label commandName="BossCmdBossTabSide2" devLabel="Side 2" translation="Côté 2"/>
+	<label commandName="BossCmdBossTabSide2AO" devLabel="Advanced" translation="Avancé"/>
+	<label commandName="BossCmdBossTabSketchPoints" devLabel="Sketch Points" translation="Points d'esquisse"/>
+	<label commandName="BossCmdBossTabSketchPointsToolTip" devLabel="Select a sketch point to position the boss feature on a body." translation="Sélectionnez un point d'esquisse pour positionner la fonction de bossage sur un corps."/>
+	<label commandName="BossCmdBossTabType" devLabel="Type" translation="Type"/>
+	<label commandName="BossCmdBossTabTypePinned" devLabel="Pinned" translation="Fixé"/>
+	<label commandName="BossCmdBossTabTypeTappedFlat" devLabel="Tapped Hole With Flat End" translation="Perçage taraudé avec extrémité plate"/>
+	<label commandName="BossCmdBossTabTypeTappedTip" devLabel="Tapped Hole With Tool Tip" translation="Perçage taraudé avec pointe d'outil"/>
+	<label commandName="BossCmdPreviewOpts" devLabel="Visibility" translation="Visibilité"/>
+	<label commandName="BossCmdPreviewSection" devLabel="Section Analysis" translation="Analyse de section"/>
+	<label commandName="BossCmdPreviewSectionToolTip" devLabel="Cuts a section through the center of the boss feature while you edit." translation="Découpe une section au centre de la fonction de bossage pendant que vous effectuez des modifications."/>
+	<label commandName="BossCmdRibs1Extent" devLabel="Extent/Suppress" translation="Étendre/Masquer"/>
+	<label commandName="BossCmdRibs2Extent" devLabel="Extent/Suppress" translation="Étendre/Masquer"/>
+	<label commandName="BossCmdRibsExtent1Tip" devLabel="Manage each rib" translation="Gérer chaque nervure"/>
+	<label commandName="BossCmdRibsExtent1TipDesc" devLabel="Extent suppress or use Profile for individual rib on Side 1." translation="Masquer l'étendue ou utiliser le contour pour chaque nervure du côté 1."/>
+	<label commandName="BossCmdRibsExtent2Tip" devLabel="Manage each rib" translation="Gérer chaque nervure"/>
+	<label commandName="BossCmdRibsExtent2TipDesc" devLabel="Extent suppress or use Profile for individual rib on Side 2." translation="Masquer l'étendue ou utiliser le contour pour chaque nervure du côté 2."/>
+	<label commandName="BossCmdRibsTab" devLabel="Ribs" translation="Nervures"/>
+	<label commandName="BossCmdRibsTab1AngularSpacingDescription" devLabel="Specify the angle value to distribute ribs around Side 1 of the boss feature." translation="Spécifiez la valeur d'angle pour répartir les nervures autour du côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1Beta1ToolTip" devLabel="Outer Draft Angle" translation="Angle de dépouille extérieur"/>
+	<label commandName="BossCmdRibsTab1Beta1ToolTipDesc" devLabel="Specify the draft angle value for the outermost face of the ribs around Side 1 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille pour la face la plus à l'extérieur des nervures autour du côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1Beta2ToolTip" devLabel="Chamfer Angle" translation="Angle du chanfrein"/>
+	<label commandName="BossCmdRibsTab1Beta2ToolTipDesc" devLabel="Specify the angle value of the chamfered face on the ribs for Side 1 of the boss feature." translation="Spécifiez la valeur d'angle de la face chanfreinée sur les nervures pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1Draft" devLabel="Draft Angle" translation="Angle de dépouille"/>
+	<label commandName="BossCmdRibsTab1DraftTip" devLabel="Draft Angle" translation="Angle de dépouille"/>
+	<label commandName="BossCmdRibsTab1DraftToolTipDescription" devLabel="Specify the draft angle value for the thickness of the ribs around Side 1 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille pour l'épaisseur des nervures autour du côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1KToolTipL0" devLabel="Rib Length" translation="Longueur de nervure"/>
+	<label commandName="BossCmdRibsTab1KToolTipL1" devLabel="Specify the distance value from the center of Side 1 of the boss feature to the nearest point on the outermost face of the rib." translation="Spécifiez la valeur de distance entre le centre du côté 1 de la fonction de bossage et le point le plus proche sur la face la plus à l'extérieur de la nervure."/>
+	<label commandName="BossCmdRibsTab1LToolTip" devLabel="Step Offset" translation="Décalage de l'incrément"/>
+	<label commandName="BossCmdRibsTab1LToolTipDesc" devLabel="Specify the distance value to offset the top of the ribs from the step on Side 1 of the boss feature." translation="Spécifiez la valeur de distance de décalage du haut des nervures par rapport à l'incrément sur le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1MToolTip" devLabel="Chamfer Distance" translation="Distance du chanfrein"/>
+	<label commandName="BossCmdRibsTab1MToolTipDesc" devLabel="Specify the distance value of the chamfered face on the ribs for Side 1 of the boss feature." translation="Spécifiez la valeur de distance de la face chanfreinée sur les nervures pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1Quantity" devLabel="Quantity" translation="Quantité"/>
+	<label commandName="BossCmdRibsTab1QuantityToolTipDescription" devLabel="Specify the number of ribs to support Side 1 of the boss feature." translation="Spécifiez le nombre de nervures qui doivent supporter le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1RRToolTip" devLabel="Fillet Radius" translation="Rayon du congé"/>
+	<label commandName="BossCmdRibsTab1RRToolTipDesc" devLabel="Specify the radius value of the rib fillets for Side 1 of the boss feature." translation="Spécifiez la valeur de rayon des congés de nervure pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1RootR" devLabel="Base Fillet Radius" translation="Rayon du congé de base"/>
+	<label commandName="BossCmdRibsTab1RootRTip" devLabel="Base Fillet Radius" translation="Rayon du congé de base"/>
+	<label commandName="BossCmdRibsTab1RootRToolTipDescription" devLabel="Specify the radius value for the fillet at the base of the ribs for Side 1 of the boss feature." translation="Spécifiez la valeur de rayon du congé à la base des nervures pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1Rotation" devLabel="Rotation Angle" translation="Angle de rotation"/>
+	<label commandName="BossCmdRibsTab1RotationToolTipDescription" devLabel="Specify the rotation angle value to orient the ribs around Side 1 of the boss feature." translation="Spécifiez la valeur de l'angle de rotation pour orienter les nervures autour du côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1Shape" devLabel="Profile" translation="Contour"/>
+	<label commandName="BossCmdRibsTab1ShapeRound" devLabel="Round" translation="Rond"/>
+	<label commandName="BossCmdRibsTab1ShapeRoundTip" devLabel="Fillet" translation="Congé"/>
+	<label commandName="BossCmdRibsTab1ShapeRoundTipDesc" devLabel="Creates ribs with a rounded fillet profile around Side 1 of the boss feature." translation="Crée des nervures avec un contour de congé arrondi autour du côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1ShapeSquare" devLabel="Chamfer" translation="Chanfrein"/>
+	<label commandName="BossCmdRibsTab1ShapeSquareTip" devLabel="Chamfer" translation="Chanfrein"/>
+	<label commandName="BossCmdRibsTab1ShapeSquareTipDesc" devLabel="Creates ribs with an angular chamfer profile around Side 1 of the boss feature." translation="Crée des nervures avec un contour de chanfrein angulaire autour du côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1Thickness" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="BossCmdRibsTab1ThicknessToolTipDescription" devLabel="Specify the distance value to extrude the ribs, perpendicular to the outer face of Side 1 of the boss feature." translation="Spécifiez la valeur de distance d'extrusion des nervures, perpendiculairement à la face extérieure du côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab1TipR" devLabel="Outer Fillet Radius" translation="Rayon du congé extérieur"/>
+	<label commandName="BossCmdRibsTab1TipRTip" devLabel="Outer Fillet Radius" translation="Rayon du congé extérieur"/>
+	<label commandName="BossCmdRibsTab1TipRToolTipDescription" devLabel="Specify the radius value for the fillet along the outer edges of the ribs for Side 1 of the boss feature." translation="Spécifiez la valeur de rayon du congé le long des arêtes externes des nervures pour le côté 1 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2Beta1ToolTip" devLabel="Outer Draft Angle" translation="Angle de dépouille extérieur"/>
+	<label commandName="BossCmdRibsTab2Beta1ToolTipDesc" devLabel="Specify the draft angle value for the outermost face of the ribs around Side 2 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille pour la face la plus à l'extérieur des nervures autour du côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2Beta2ToolTip" devLabel="Chamfer Angle" translation="Angle du chanfrein"/>
+	<label commandName="BossCmdRibsTab2Beta2ToolTipDesc" devLabel="Specify the angle value of the chamfered face on the ribs for Side 2 of the boss feature." translation="Spécifiez la valeur d'angle de la face chanfreinée sur les nervures pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2Draft" devLabel="Draft Angle" translation="Angle de dépouille"/>
+	<label commandName="BossCmdRibsTab2DraftTip" devLabel="Draft Angle" translation="Angle de dépouille"/>
+	<label commandName="BossCmdRibsTab2DraftToolTipDescription" devLabel="Specify the draft angle value for the thickness of the ribs around Side 2 of the boss feature." translation="Spécifiez la valeur de l'angle de dépouille pour l'épaisseur des nervures autour du côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2KToolTipL0" devLabel="Rib Length" translation="Longueur de nervure"/>
+	<label commandName="BossCmdRibsTab2KToolTipL1" devLabel="Specify the distance value from the center of Side 2 of the boss feature to the nearest point on the outermost face of the rib." translation="Spécifiez la valeur de distance entre le centre du côté 2 de la fonction de bossage et le point le plus proche sur la face la plus à l'extérieur de la nervure."/>
+	<label commandName="BossCmdRibsTab2LToolTip" devLabel="Step Offset" translation="Décalage de l'incrément"/>
+	<label commandName="BossCmdRibsTab2LToolTipDesc" devLabel="Specify the distance value to offset the top of the ribs from the step on Side 2 of the boss feature." translation="Spécifiez la valeur de distance de décalage du haut des nervures par rapport à l'incrément sur le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2MToolTip" devLabel="Chamfer Distance" translation="Distance du chanfrein"/>
+	<label commandName="BossCmdRibsTab2MToolTipDesc" devLabel="Specify the distance value of the chamfered face on the ribs for Side 2 of the boss feature." translation="Spécifiez la valeur de distance de la face chanfreinée sur les nervures pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2Quantity" devLabel="Quantity" translation="Quantité"/>
+	<label commandName="BossCmdRibsTab2QuantityToolTipDescription" devLabel="Specify the number of ribs to support Side 2 of the boss feature." translation="Spécifiez le nombre de nervures qui doivent supporter le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2RRToolTip" devLabel="Fillet Radius" translation="Rayon du congé"/>
+	<label commandName="BossCmdRibsTab2RRToolTipDesc" devLabel="Specify the radius value of the rib fillets for Side 2 of the boss feature." translation="Spécifiez la valeur de rayon des congés de nervure pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2RootR" devLabel="Base Fillet Radius" translation="Rayon du congé de base"/>
+	<label commandName="BossCmdRibsTab2RootRTip" devLabel="Base Fillet Radius" translation="Rayon du congé de base"/>
+	<label commandName="BossCmdRibsTab2RootRToolTipDescription" devLabel="Specify the radius value for the fillet at the base of the ribs for Side 2 of the boss feature." translation="Spécifiez la valeur de rayon du congé à la base des nervures pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2Rotation" devLabel="Rotation Angle" translation="Angle de rotation"/>
+	<label commandName="BossCmdRibsTab2RotationDescription" devLabel="Specify the rotation angle value to orient the ribs around Side 2 of the boss feature." translation="Spécifiez la valeur de l'angle de rotation pour orienter les nervures autour du côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2Shape" devLabel="Profile" translation="Contour"/>
+	<label commandName="BossCmdRibsTab2ShapeRound" devLabel="Fillet" translation="Congé"/>
+	<label commandName="BossCmdRibsTab2ShapeRoundTip" devLabel="Fillet" translation="Congé"/>
+	<label commandName="BossCmdRibsTab2ShapeRoundTipDesc" devLabel="Creates ribs with a rounded fillet profile around Side 2 of the boss feature." translation="Crée des nervures avec un contour de congé arrondi autour du côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2ShapeSquare" devLabel="Chamfer" translation="Chanfrein"/>
+	<label commandName="BossCmdRibsTab2ShapeSquareTip" devLabel="Chamfer" translation="Chanfrein"/>
+	<label commandName="BossCmdRibsTab2ShapeSquareTipDesc" devLabel="Creates ribs with an angular chamfer profile around Side 2 of the boss feature." translation="Crée des nervures avec un contour de chanfrein angulaire autour du côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2Thickness" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="BossCmdRibsTab2ThicknessToolTipDescription" devLabel="Specify the distance value for rib thickness, perpendicular to the outer face of Side 2 of the boss feature." translation="Spécifiez la valeur de distance pour l'épaisseur de nervure, perpendiculairement à la face externe du côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTab2TipR" devLabel="Outer Fillet Radius" translation="Rayon du congé extérieur"/>
+	<label commandName="BossCmdRibsTab2TipRTip" devLabel="Outer Fillet Radius" translation="Rayon du congé extérieur"/>
+	<label commandName="BossCmdRibsTab2TipRToolTipDescription" devLabel="Specify the radius value for the fillet along the outer edges of the ribs for Side 2 of the boss feature." translation="Spécifiez la valeur de rayon du congé le long des arêtes externes des nervures pour le côté 2 de la fonction de bossage."/>
+	<label commandName="BossCmdRibsTabSide1" devLabel="Side 1" translation="Côté 1"/>
+	<label commandName="BossCmdRibsTabSide2" devLabel="Side 2" translation="Côté 2"/>
+	<label commandName="BossCmdTabBar" devLabel="Boss Tab Bar" translation="Barre d'onglets Bossage"/>
+	<label commandName="BossCmdTransparentSide1" devLabel="Side 1 Transparency" translation="Transparence côté 1"/>
+	<label commandName="BossCmdTransparentSide1ToolTip" devLabel="Reduces the opacity of the Side 1 body while you edit the boss feature." translation="Réduit l'opacité du corps du côté 1 lors de la modification de la fonction de bossage."/>
+	<label commandName="BossCmdTransparentSide2" devLabel="Side 2 Transparency" translation="Transparence côté 2"/>
+	<label commandName="BossCmdTransparentSide2ToolTip" devLabel="Reduces the opacity of the Side 2 body while you edit the boss feature." translation="Réduit l'opacité du corps du côté 2 lors de la modification de la fonction de bossage."/>
+	<label commandName="BossCmdWebTab" devLabel="Web" translation="Âme"/>
+	<label commandName="BossCmdWebTab1AngularSpacing" devLabel="Web1AngularSpacing" translation="Âme1EspacementAngulaire"/>
+	<label commandName="BossCmdWebTab1AngularSpacingAngle" devLabel="Angle" translation="Angle"/>
+	<label commandName="BossCmdWebTab1AngularSpacingFull" devLabel="Full" translation="Complet"/>
+	<label commandName="BossCmdWebTab1AngularSpacingLabel" devLabel="Angular Spacing" translation="Espacement angulaire"/>
+	<label commandName="BossCmdWebTab1Depth" devLabel="Web1Depth" translation="Âme1Profondeur"/>
+	<label commandName="BossCmdWebTab1DepthButton" devLabel="Web1DepthButton" translation="Âme1BoutonProfondeur"/>
+	<label commandName="BossCmdWebTab1DepthLabel" devLabel="Depth" translation="Profondeur"/>
+	<label commandName="BossCmdWebTab1DraftAngle" devLabel="Web1DraftAngle" translation="Âme1AngleDépouille"/>
+	<label commandName="BossCmdWebTab1DraftAngleLabel" devLabel="Draft Angle" translation="Angle de dépouille"/>
+	<label commandName="BossCmdWebTab1NumberOfRibs" devLabel="Web1NumberOfRibs" translation="Âme1NombreDeNervures"/>
+	<label commandName="BossCmdWebTab1NumberOfRibsCheckBox" devLabel="Web1NumberOfRibsCheckBox" translation="Âme1CaseÀCocherNombreDeNervures"/>
+	<label commandName="BossCmdWebTab1NumberOfRibsLabel" devLabel="Number of Ribs" translation="Nombre de nervures"/>
+	<label commandName="BossCmdWebTab1Rotation" devLabel="Web1Rotation" translation="Âme1Rotation"/>
+	<label commandName="BossCmdWebTab1RotationButton" devLabel="Web1RotationButton" translation="Âme1BoutonRotation"/>
+	<label commandName="BossCmdWebTab1RotationLabel" devLabel="Rotation" translation="Rotation"/>
+	<label commandName="BossCmdWebTab1Table" devLabel="Web1Table" translation="Âme1Table"/>
+	<label commandName="BossCmdWebTab1Thickness" devLabel="Web1Thickness" translation="Âme1Épaisseur"/>
+	<label commandName="BossCmdWebTab1ThicknessButton" devLabel="Web1ThicknessButton" translation="Âme1BoutonÉpaisseur"/>
+	<label commandName="BossCmdWebTab1ThicknessLabel" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="BossCmdWebTab1TotalAngle" devLabel="Web1TotalAngle" translation="Âme1AngleTotal"/>
+	<label commandName="BossCmdWebTab1TotalAngleFlipButton" devLabel="Web1TotalAngleFlipButton" translation="Âme1BoutonInverserAngleTotal"/>
+	<label commandName="BossCmdWebTab1TotalAngleLabel" devLabel="Total Angle" translation="Angle total"/>
+	<label commandName="BossCmdWebTab2AngularSpacing" devLabel="Web2AngularSpacing" translation="Âme2EspacementAngulaire"/>
+	<label commandName="BossCmdWebTab2AngularSpacingAngle" devLabel="Angle" translation="Angle"/>
+	<label commandName="BossCmdWebTab2AngularSpacingFull" devLabel="Full" translation="Complet"/>
+	<label commandName="BossCmdWebTab2AngularSpacingLabel" devLabel="Angular Spacing" translation="Espacement angulaire"/>
+	<label commandName="BossCmdWebTab2Depth" devLabel="Web2Depth" translation="Âme2Profondeur"/>
+	<label commandName="BossCmdWebTab2DepthButton" devLabel="Web2DepthButton" translation="Âme2BoutonProfondeur"/>
+	<label commandName="BossCmdWebTab2DepthLabel" devLabel="Depth" translation="Profondeur"/>
+	<label commandName="BossCmdWebTab2DraftAngle" devLabel="Web2DraftAngle" translation="Âme2AngleDépouille"/>
+	<label commandName="BossCmdWebTab2DraftAngleLabel" devLabel="Draft Angle" translation="Angle de dépouille"/>
+	<label commandName="BossCmdWebTab2NumberOfRibs" devLabel="Web2NumberOfRibs" translation="Âme2NombreDeNervures"/>
+	<label commandName="BossCmdWebTab2NumberOfRibsCheckBox" devLabel="Web2NumberOfRibsCheckBox" translation="Âme2CaseÀCocherNombreDeNervures"/>
+	<label commandName="BossCmdWebTab2NumberOfRibsLabel" devLabel="Number of Ribs" translation="Nombre de nervures"/>
+	<label commandName="BossCmdWebTab2Rotation" devLabel="Web2Rotation" translation="Âme2Rotation"/>
+	<label commandName="BossCmdWebTab2RotationButton" devLabel="Web2RotationButton" translation="Âme2BoutonRotation"/>
+	<label commandName="BossCmdWebTab2RotationLabel" devLabel="Rotation" translation="Rotation"/>
+	<label commandName="BossCmdWebTab2Table" devLabel="Web2Table" translation="Âme2Table"/>
+	<label commandName="BossCmdWebTab2Thickness" devLabel="Web2Thickness" translation="Âme2Épaisseur"/>
+	<label commandName="BossCmdWebTab2ThicknessButton" devLabel="BossWeb2ThicknessButton" translation="ÂmeBossage2BoutonÉpaisseur"/>
+	<label commandName="BossCmdWebTab2ThicknessLabel" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="BossCmdWebTabSide1" devLabel="Side 1" translation="Côté 1"/>
+	<label commandName="BossCmdWebTabSide2" devLabel="Side 2" translation="Côté 2"/>
+	<label commandName="BossCmdribsTab1AngularSpacing" devLabel="Total Angle" translation="Angle total"/>
+	<label commandName="BossCmdribsTab2AngularSpacing" devLabel="Total Angle" translation="Angle total"/>
+	<label commandName="BossCmdribsTab2AngularSpacingDescription" devLabel="Specify the angle value to distribute ribs around Side 2 of the boss feature." translation="Spécifiez la valeur d'angle pour répartir les nervures autour du côté 2 de la fonction de bossage."/>
+	<label commandName="BossContinue" devLabel="Continue" translation="Continuer"/>
+	<label commandName="BossGoOnline" devLabel="Go Online" translation="Se connecter"/>
+	<label commandName="BossSave" devLabel="Save" translation="Enregistrer"/>
+	<label commandName="ChangeBossExtentStates" devLabel="Profile/Extent/Suppress" translation="Contour/Étendue/Masquer"/>
+	<label commandName="CheckDesignDTT" devLabel="Analyzes the selected solid body against the plastic rule." translation="Analyse le corps solide sélectionné par rapport à la règle de conception plastique."/>
+	<label commandName="CheckDesignInfo" devLabel="Analyze" translation="Analyser"/>
+	<label commandName="CreateInjectionMoldingStudy" devLabel="Create an Injection Molding Simulation Study" translation="Créer une étude de simulation de moulage par injection"/>
+	<label commandName="DAAnalyzingBody" devLabel="Analyzing Solid Body..." translation="Analyse du corps solide..."/>
+	<label commandName="DAAssignPlaticRule" devLabel="Assign Plastic Rule" translation="Affecter une règle de conception plastique"/>
+	<label commandName="DAContinue" devLabel="Continue" translation="Continuer"/>
+	<label commandName="DAErrorTitle" devLabel="Cannot analyze body" translation="Impossible d'analyser le corps"/>
+	<label commandName="DAFlipDirectionInputTooltip" devLabel="Flips the pull direction used to identify undercuts and insufficient draft." translation="Inverse le sens de démoulage utilisé pour identifier les contre-dépouilles et toute dépouille insuffisante."/>
+	<label commandName="DAFlipPullDirectionInput" devLabel="Flip Pull Direction" translation="Inverser la direction de démoulage"/>
+	<label commandName="DAInjectionMolding" devLabel="Injection Molding" translation="Moulage par injection"/>
+	<label commandName="DAIsolateDTT" devLabel="Displays the selected alert and hides all other alerts in the canvas." translation="Affiche l'alerte sélectionnée et masque toutes les autres alertes dans la zone de dessin."/>
+	<label commandName="DAMeshingError" devLabel="Cannot analyze %1% because the geometry cannot be used to compute the analysis." translation="Impossible d'analyser %1%, car la géométrie ne peut pas être utilisée pour calculer l'analyse."/>
+	<label commandName="DAModellingErrors" devLabel="Cannot analyze %1% because it contains modeling errors that must be resolved before you can analyze it." translation="Impossible d'analyser %1%, car il contient des erreurs de modélisation qui doivent être résolues avant de pouvoir effectuer l'analyse."/>
+	<label commandName="DANoPlasticRule" devLabel="The component that contains the solid body has no plastic rule assigned.&#xA;&#xA;Assign a plastic rule to %1%, or continue to Design Advice and use the default plastic rule to analyze %2% ? " translation="Aucune règle de conception plastique n'est affectée au composant contenant le corps solide.&#xA;&#xA;Voulez-vous affecter une règle de conception plastique à %1%, ou accéder à l'Assistant de conception et utiliser la règle de conception plastique par défaut pour analyser %2%? "/>
+	<label commandName="DANoRuleAssigned" devLabel="No plastic rule assigned" translation="Aucune règle de conception plastique affectée"/>
+	<label commandName="DAPlasticRuleRemoved" devLabel="The plastic rule has been removed from the component that contains the solid body.&#xA;&#xA;Assign a plastic rule to %1%, or continue to Design Advice and use the default plastic rule to analyze %2% ? " translation="La règle de conception plastique a été supprimée du composant qui contient le corps solide.&#xA;&#xA;Affecter une règle de conception plastique à %1% ou accéder à l'Assistant de conception et utiliser la règle de conception plastique par défaut pour analyser %2%? "/>
+	<label commandName="DARuleRemoved" devLabel="Plastic rule removed" translation="Règle de conception plastique supprimée"/>
+	<label commandName="DAUnIsolateDTT" devLabel="Shows all alerts in the canvas." translation="Affiche toutes les alertes dans la zone de dessin."/>
+	<label commandName="DAdvVoxelProblemSelectionName" devLabel="Voxel Problem" translation="Problème de voxel"/>
+	<label commandName="DesignAdvice" devLabel="Design Advice" translation="Assistant de conception"/>
+	<label commandName="DesignAdviceCmd" devLabel="Design Advice" translation="Assistant de conception"/>
+	<label commandName="DesignConfigurationRules" devLabel="Configuration Rules" translation="Règles de configuration"/>
+	<label commandName="DesignConfigurationRulesDescription" devLabel="Automate the combination of choices and intelligently limit options in complex configurable product lines. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?guid=EXT-PRODUCT-DESIGN&quot;&gt;Learn More&lt;/a&gt;" translation="Automatisez la combinaison des choix et limitez les options de façon intelligente dans des lignes de produits configurables complexes. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?guid=EXT-PRODUCT-DESIGN&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="DraftAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Adjust draft to meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt;." translation="&lt;b&gt;Conseil&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ajustez la dépouille pour qu'elle respecte l'&lt;b&gt;angle de dépouille minimum&lt;/b&gt;."/>
+	<label commandName="DraftAdvice2" devLabel="Confirm pull direction." translation="Confirmez le sens de démoulage."/>
+	<label commandName="DraftAdvice3" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;b&gt;Gérer les règles de conception plastique&lt;/b&gt; pour vérifier que l'&lt;b&gt;angle de dépouille minimum&lt;/b&gt; est correctement défini pour la matière plastique."/>
+	<label commandName="DraftAlert" devLabel="&lt;b&gt;Insufficient Draft&lt;/b&gt;: %1% %2% meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt;." translation="&lt;b&gt;Dépouille insuffisante&lt;/b&gt;: %1% %2% respectant pas l'&lt;b&gt;angle de dépouille minimum&lt;/b&gt;."/>
+	<label commandName="DraftAlertsInfo" devLabel="DraftAlerts" translation="AlertesBrouillon"/>
+	<label commandName="DraftAnalysisLink" devLabel="Draft Analysis" translation="Analyse de dépouille"/>
+	<label commandName="DraftAnglesRecommendationInfo" devLabel="DraftAngleRecommendation" translation="RecommandationAngleDépouille"/>
+	<label commandName="DraftDTTDesc" devLabel="Analyzes the solid body for faces that don't meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; defined in the plastic rule assigned to its component." translation="Analyse le corps solide pour rechercher les faces qui ne respectent pas l'&lt;b&gt;angle de dépouille minimum&lt;/b&gt; défini dans la règle de conception plastique affectée à son composant."/>
+	<label commandName="DraftGroup" devLabel="Draft" translation="Dépouille"/>
+	<label commandName="DraftLink" devLabel="Draft" translation="Dépouille"/>
+	<label commandName="DraftProblemMessage" devLabel="&lt;b&gt;Insufficient Draft&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Faces with insufficient draft may block the ejection of the part from the injection mold.If the mold requires more ejection features, it may increase cost.Textured surfaces may also require more draft to eject the part without smearing the finish." translation="&lt;b&gt;Dépouille insuffisante&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Les faces dont la dépouille est insuffisante peuvent bloquer l'éjection de la pièce à partir du moule d'injection. Si le moule requiert plus de fonctions d'éjection, le coût risque d'augmenter. Les surfaces texturées peuvent également nécessiter plus de dépouille pour éjecter la pièce sans salir la finition."/>
+	<label commandName="DraftRegion" devLabel="region doesn't" translation="région ne"/>
+	<label commandName="DraftRegions" devLabel="regions don't" translation="régions ne"/>
+	<label commandName="DraftTab" devLabel="Draft" translation="Dépouille"/>
+	<label commandName="DraftTabDTTDesc" devLabel="Displays the details of alerts for faces that don't meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; defined in the plastic rule." translation="Affiche les détails des alertes pour les faces qui ne respectent pas l'&lt;b&gt;angle de dépouille minimum&lt;/b&gt; défini dans la règle de conception plastique."/>
+	<label commandName="FusionBoss" devLabel="Boss" translation="Bossage"/>
+	<label commandName="FusionDcBossEdit" devLabel="Edit Feature" translation="Modifier la fonction"/>
+	<label commandName="FusionDcLipEdit" devLabel="Edit Feature" translation="Modifier la fonction"/>
+	<label commandName="FusionDcRestEdit" devLabel="Edit Feature" translation="Modifier la fonction"/>
+	<label commandName="FusionDcSnapFitEdit" devLabel="Edit Feature" translation="Modifier la fonction"/>
+	<label commandName="FusionLip" devLabel="Lip" translation="Lèvre"/>
+	<label commandName="FusionPlasticFeatureRemoveRule" devLabel="Remove Plastic Rule" translation="Supprimer la règle de conception plastique"/>
+	<label commandName="FusionPlasticFeatureRules" devLabel="Manage Plastic Rules" translation="Gérer les règles de conception plastique"/>
+	<label commandName="FusionPlasticFeatureSpecifyRule" devLabel="Assign Plastic Rule" translation="Affecter une règle de conception plastique"/>
+	<label commandName="FusionPlasticFeatureSwitchRule" devLabel="Assign Plastic Rule" translation="Affecter une règle de conception plastique"/>
+	<label commandName="FusionRest" devLabel="Rest" translation="Appui"/>
+	<label commandName="FusionSelectRestToObject" devLabel="Select body, face, or plane to extend to" translation="Sélectionner le corps, la face ou le plan jusqu'auquel aller"/>
+	<label commandName="FusionSnapFit" devLabel="Snap Fit" translation="Emboîtement élastique"/>
+	<label commandName="GradientDTTBase" devLabel="Full Range" translation="Intervalle complet"/>
+	<label commandName="GradientDTTDesc" devLabel="Displays the full range of thickness results as a gradient overlay on the solid body in the canvas.&#xA;&#xA;Red represents the thickest regions and dark blue represents the thinnest regions." translation="Affiche l'intervalle complet des résultats d'épaisseur sous la forme d'une superposition de dégradés sur le corps solide dans la zone de dessin.&#xA;&#xA;Le rouge représente les régions les plus épaisses et le bleu foncé les régions les plus fines."/>
+	<label commandName="HoldCommandToModifySelection" devLabel="Hold Command to modify selection" translation="Maintenir la touche Cmd enfoncée pour modifier la sélection"/>
+	<label commandName="HoldCtrlToModifySelection" devLabel="Hold Ctrl to modify selection" translation="Maintenir la touche Ctrl enfoncée pour modifier la sélection"/>
+	<label commandName="IgnoreDTT" devLabel="Hides this alert so that it does not display in the canvas." translation="Masque cette alerte afin qu'elle ne s'affiche pas dans la zone de dessin."/>
+	<label commandName="InputTable" devLabel="" translation=""/>
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="L'objet que vous créez n'est pas visible. Activez la visibilité dans le navigateur."/>
+	<label commandName="IsolateSingleAlertInfo" devLabel="Isolate Alert" translation="Isoler l'alerte"/>
+	<label commandName="KnifeEdgeAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Increase space between part features to eliminate thin, sharp edges in the mold." translation="&lt;b&gt;Conseil&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Augmentez l'espace entre les fonctions de pièce pour éliminer les arêtes fines et acérées du moule."/>
+	<label commandName="KnifeEdgeAdvice2" devLabel="Apply fillets or radii to remove thin, sharp features." translation="Appliquez des congés ou des rayons pour supprimer les fonctions fines et nettes."/>
+	<label commandName="KnifeEdgeAdvice3" devLabel="Consult a mold designer." translation="Consultez un concepteur de moule."/>
+	<label commandName="KnifeEdgeAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;b&gt;Gérer les règles de conception plastique&lt;/b&gt; pour vérifier que le &lt;b&gt;seuil du tranchant&lt;/b&gt; est correctement défini pour la matière plastique."/>
+	<label commandName="KnifeEdgeAlert" devLabel="&lt;b&gt;Knife Edges&lt;/b&gt;: %1% %2% thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt;." translation="&lt;b&gt;Tranchants&lt;/b&gt;: %1% %2% des espaces fins qui se trouvent sous le &lt;b&gt;seuil du tranchant&lt;/b&gt;."/>
+	<label commandName="KnifeEdgeDTTDesc" devLabel="Analyzes the solid body for thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; defined in the plastic rule assigned to its component." translation="Analyse le corps solide pour détecter les espaces fins inférieurs au &lt;b&gt;seuil du tranchant&lt;/b&gt; défini dans la règle de conception plastique affectée à son composant."/>
+	<label commandName="KnifeEdgeProblemMessage" devLabel="&lt;b&gt;Knife Edges&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Thin gaps in a part require a mold with thin, sharp features, sometimes called knife edges.These tend to break due to high injection pressure on the molten plastic and can cause the mold to fail prematurely." translation="&lt;b&gt;Tranchants&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Les espaces fins d'une pièce requièrent un moule avec des fonctions fines et nettes, parfois appelées tranchants. Ces derniers ont tendance à se casser en raison d'une pression d'injection élevée sur le plastique fondu et peuvent provoquer une défaillance prématurée du moule."/>
+	<label commandName="KnifeEdgeRegion" devLabel="region contains" translation="région contient"/>
+	<label commandName="KnifeEdgeRegions" devLabel="regions contain" translation="régions contiennent"/>
+	<label commandName="KnifeEdgesAlertsInfo" devLabel="KnifeEdgesAlerts" translation="AlertesTranchants"/>
+	<label commandName="KnifeEdgesGroup" devLabel="Knife Edges" translation="Tranchant"/>
+	<label commandName="KnifeEdgesRecommendationInfo" devLabel="KnifeEdgesRecommendation" translation="RecommandationTranchant"/>
+	<label commandName="KnifeEdgesTab" devLabel="Knife Edges" translation="Tranchant"/>
+	<label commandName="KnifeEdgesTabDTTDesc" devLabel="Displays the details of alerts for thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; defined in the plastic rule." translation="Affiche les détails des alertes pour les espaces fins inférieurs au &lt;b&gt;seuil du tranchant&lt;/b&gt; défini dans la règle de conception plastique."/>
+	<label commandName="LargeVariationDTT" devLabel="Displays only the thickness alerts for regions that exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule." translation="Affiche uniquement les alertes d'épaisseur pour les régions qui dépassent la &lt;b&gt;variation d'épaisseur&lt;/b&gt; définie dans la règle de conception plastique."/>
+	<label commandName="LipCmdAdvancedImage" devLabel="AdvancedImage" translation="AdvancedImage"/>
+	<label commandName="LipCmdAdvancedTab" devLabel="Advanced" translation="Avancé"/>
+	<label commandName="LipCmdAdvancedTable" devLabel="AdvancedTable" translation="AdvancedTable"/>
+	<label commandName="LipCmdClearance" devLabel="Clearance" translation="Dégagement"/>
+	<label commandName="LipCmdClearanceInput" devLabel="E" translation="E"/>
+	<label commandName="LipCmdClearanceToolTip" devLabel="Specify the Clearance for the feature." translation="Spécifiez le dégagement de la fonction."/>
+	<label commandName="LipCmdClearanceToolTip_groove" devLabel="Specify the clearance for the groove feature." translation="Spécifiez le dégagement pour la fonction de rainure."/>
+	<label commandName="LipCmdClearanceToolTip_lipAndGroove" devLabel="Specify the clearance gap between the lip and groove. This dimension defines the offset values for the groove feature." translation="Spécifiez l'espace de dégagement entre la lèvre et la rainure. Cette cote définit les valeurs de décalage pour la fonction de rainure."/>
+	<label commandName="LipCmdDefaultSide1BodyName" devLabel="side 1 body" translation="corps du côté 1"/>
+	<label commandName="LipCmdDefaultSide2BodyName" devLabel="side 2 body" translation="corps du côté 2"/>
+	<label commandName="LipCmdExtent1" devLabel="Extent 1" translation="Étendue 1"/>
+	<label commandName="LipCmdExtent1ToolTip" devLabel="Select a point, vertex, face, or plane to extend to." translation="Sélectionnez un point, un sommet, une face ou un plan de prolongement."/>
+	<label commandName="LipCmdExtent2" devLabel="Extent 2" translation="Étendue 2"/>
+	<label commandName="LipCmdExtent2ToolTip" devLabel="Select a point, vertex, face, or plane to extend to." translation="Sélectionnez un point, un sommet, une face ou un plan de prolongement."/>
+	<label commandName="LipCmdFeatureTab" devLabel="Feature" translation="Fonction"/>
+	<label commandName="LipCmdFlipToolTip_groove" devLabel="Flips the groove feature to " translation="Bascule la fonction de rainure vers "/>
+	<label commandName="LipCmdFlipToolTip_lip" devLabel="Flips the lip feature to " translation="Bascule la fonction de lèvre vers "/>
+	<label commandName="LipCmdFlipToolTip_lipandgroove" devLabel="Swaps the lip and groove features." translation="Permute les fonctions de lèvre et de rainure."/>
+	<label commandName="LipCmdGuide" devLabel="Guide Surface" translation="Surface de guidage"/>
+	<label commandName="LipCmdGuideToolTip" devLabel="Select a face on either side of the selected edge to locate the lip feature." translation="Sélectionnez une face de chaque côté de l'arête sélectionnée pour localiser la fonction de lèvre."/>
+	<label commandName="LipCmdHeight" devLabel="Height" translation="Hauteur"/>
+	<label commandName="LipCmdHeightInput" devLabel="A" translation="A"/>
+	<label commandName="LipCmdHeightToolTip" devLabel="Specify the Height of the Lip." translation="Spécifiez la hauteur de la lèvre."/>
+	<label commandName="LipCmdHeightToolTip_basegroove" devLabel="Groove Height" translation="Hauteur de rainure"/>
+	<label commandName="LipCmdHeightToolTip_baselip" devLabel="Lip Height" translation="Hauteur de lèvre"/>
+	<label commandName="LipCmdHeightToolTip_baselipAndGroove" devLabel="Lip Height" translation="Hauteur de lèvre"/>
+	<label commandName="LipCmdHeightToolTip_groove" devLabel="Specify the height of the groove feature." translation="Spécifiez la hauteur de la fonction de rainure."/>
+	<label commandName="LipCmdHeightToolTip_lip" devLabel="Specify the height of the lip feature." translation="Spécifiez la hauteur de la fonction de lèvre."/>
+	<label commandName="LipCmdHeightToolTip_lipAndGroove" devLabel="Specify the height of the Lip. Groove dimensions are calculated automatically." translation="Spécifiez la hauteur de la lèvre. Les cotes de la rainure sont calculées automatiquement."/>
+	<label commandName="LipCmdInsideAngle" devLabel="Side 1 Draft" translation="Dépouille côté 1"/>
+	<label commandName="LipCmdInsideAngleInput" devLabel="α1" translation="α1"/>
+	<label commandName="LipCmdInsideAngleToolTip" devLabel="Specify the draft angle for the face farther from the selected edge." translation="Spécifiez l'angle de dépouille de la face la plus éloignée de l'arête sélectionnée."/>
+	<label commandName="LipCmdLipTabPath" devLabel="Path" translation="Chemin"/>
+	<label commandName="LipCmdLipTabPathTT" devLabel="Path" translation="Chemin"/>
+	<label commandName="LipCmdLipTabPathToolTip" devLabel="Select an edge to place a lip feature on a solid body." translation="Sélectionnez une arête pour placer une fonction de lèvre sur un corps solide."/>
+	<label commandName="LipCmdOutsideAngle" devLabel="Side 2 Draft" translation="Dépouille côté 2"/>
+	<label commandName="LipCmdOutsideAngleInput" devLabel="α2" translation="α2"/>
+	<label commandName="LipCmdOutsideAngleToolTip" devLabel="Specify the draft angle for the face closer to the selected edge." translation="Spécifiez l'angle de dépouille de la face la plus proche de l'arête sélectionnée."/>
+	<label commandName="LipCmdPathToolTip_groove" devLabel="Select an edge to place a groove feature on a solid body." translation="Sélectionnez une arête pour placer une fonction de rainure sur un corps solide."/>
+	<label commandName="LipCmdPathToolTip_lip" devLabel="Select an edge to place a lip feature on a solid body." translation="Sélectionnez une arête pour placer une fonction de lèvre sur un corps solide."/>
+	<label commandName="LipCmdPathToolTip_lipandgroove" devLabel="Select an edge to place a lip feature on a solid body. The groove feature will automatically be placed on the corresponding body." translation="Sélectionnez une arête pour placer une fonction de lèvre sur un corps solide. La fonction de rainure sera automatiquement placée sur le corps correspondant."/>
+	<label commandName="LipCmdPullDirection" devLabel="Pull Direction" translation="Sens de démoulage"/>
+	<label commandName="LipCmdPullDirectionToolTip" devLabel="Select a plane or face to define the pull direction." translation="Sélectionnez un plan ou une face pour définir le sens de démoulage."/>
+	<label commandName="LipCmdRevealWidth" devLabel="Reveal Height" translation="Dégagement de révélation"/>
+	<label commandName="LipCmdRevealWidthInput" devLabel="D" translation="D"/>
+	<label commandName="LipCmdRevealWidthToolTip" devLabel="Specify the reveal height." translation="Spécifiez la hauteur du dégagement de révélation."/>
+	<label commandName="LipCmdShoulderWidth" devLabel="Shoulder Width" translation="Largeur d'épaulement"/>
+	<label commandName="LipCmdShoulderWidthInput" devLabel="C" translation="C"/>
+	<label commandName="LipCmdShoulderWidthToolTip" devLabel="Specify the Shoulder Width for the Lip." translation="Spécifiez la largeur d'épaulement de la lèvre."/>
+	<label commandName="LipCmdShoulderWidthToolTip_groove" devLabel="Specify the distance between the selected edge and the groove feature.&#xA; &#xA;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="Spécifiez la distance entre l'arête sélectionnée et la fonction de rainure.&#xA; &#xA;Cette option est définie sur 0 par défaut. Si une règle de conception plastique est appliquée et que vous souhaitez créer un épaulement, cette valeur doit être supérieure ou égale à l'épaisseur de la règle pour éviter l'apparition d'un tranchant."/>
+	<label commandName="LipCmdShoulderWidthToolTip_lip" devLabel="Specify the distance between the selected edge and the lip feature.&#xA; &#xA;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="Spécifiez la distance entre l'arête sélectionnée et la fonction de lèvre.&#xA; &#xA;Cette option est définie sur 0 par défaut. Si une règle de conception plastique est appliquée et que vous souhaitez créer un épaulement, cette valeur doit être supérieure ou égale à l'épaisseur de la règle pour éviter l'apparition d'un tranchant."/>
+	<label commandName="LipCmdShoulderWidthToolTip_lipAndGroove" devLabel="Specify the distance between the selected edge and the lip feature.&#xA; &#xA;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="Spécifiez la distance entre l'arête sélectionnée et la fonction de lèvre.&#xA; &#xA;Cette option est définie sur 0 par défaut. Si une règle de conception plastique est appliquée et que vous souhaitez créer un épaulement, cette valeur doit être supérieure ou égale à l'épaisseur de la règle pour éviter l'apparition d'un tranchant."/>
+	<label commandName="LipCmdTabBar" devLabel="Lip Tab Bar" translation="Barre d'onglets Lèvre"/>
+	<label commandName="LipCmdTangentChain" devLabel="Tangent Chain" translation="Chaîne tangente"/>
+	<label commandName="LipCmdTangentChainTip" devLabel="Automatically select tangent edges." translation="Sélectionnez automatiquement les arêtes tangentes."/>
+	<label commandName="LipCmdTransparencyOptions" devLabel="Visibility" translation="Visibilité"/>
+	<label commandName="LipCmdTransparentSide1" devLabel="Side 1 Body Transparency" translation="Transparence du corps côté 1"/>
+	<label commandName="LipCmdTransparentSide1TT" devLabel="Side 1 Transparency" translation="Transparence côté 1"/>
+	<label commandName="LipCmdTransparentSide1ToolTip" devLabel="Lowers the opacity of the side 1 body while you edit." translation="Réduit l'opacité du corps du côté 1 lors de la modification."/>
+	<label commandName="LipCmdTransparentSide2" devLabel="Side 2 Body Transparency" translation="Transparence du corps côté 2"/>
+	<label commandName="LipCmdTransparentSide2TT" devLabel="Side 2 Transparency" translation="Transparence côté 2"/>
+	<label commandName="LipCmdTransparentSide2ToolTip" devLabel="Lowers the opacity of the side 2 body while you edit." translation="Réduit l'opacité du corps du côté 2 lors de la modification."/>
+	<label commandName="LipCmdVisibilityToolTip_prefix" devLabel="Lowers the opacity of " translation="Réduit l'opacité de"/>
+	<label commandName="LipCmdVisibilityToolTip_suffix" devLabel=" while you edit." translation=" lors de la modification."/>
+	<label commandName="LipCmdWidth" devLabel="Width" translation="Largeur"/>
+	<label commandName="LipCmdWidthInput" devLabel="B" translation="B"/>
+	<label commandName="LipCmdWidthToolTip" devLabel="Specify the Width of the Lip." translation="Spécifiez la largeur de la lèvre."/>
+	<label commandName="LipCmdWidthToolTip_basegroove" devLabel="Groove Width" translation="Largeur de rainure"/>
+	<label commandName="LipCmdWidthToolTip_baselip" devLabel="Lip Width" translation="Largeur de lèvre"/>
+	<label commandName="LipCmdWidthToolTip_baselipAndGroove" devLabel="Lip Width" translation="Largeur de lèvre"/>
+	<label commandName="LipCmdWidthToolTip_groove" devLabel="Specify the width of the groove feature." translation="Spécifiez la largeur de la fonction de rainure."/>
+	<label commandName="LipCmdWidthToolTip_lip" devLabel="Specify the width of the lip feature." translation="Spécifiez la largeur de la fonction de lèvre."/>
+	<label commandName="LipCmdWidthToolTip_lipAndGroove" devLabel="Specify the width of the Lip. Groove dimensions are calculated automatically." translation="Spécifiez la largeur de la lèvre. Les cotes de la rainure sont calculées automatiquement."/>
+	<label commandName="LipCursorAdjustInputs1" devLabel="Adjust dimensions or modify edge, guide, or extent selections" translation="Ajuster les cotes ou modifier les sélections d'arêtes, de repères ou d'étendues"/>
+	<label commandName="LipCursorAdjustInputs2" devLabel="Adjust Extent Result, dimensions, and settings or modify selections" translation="Ajuster le résultat de l'étendue, les cotes et les paramètres ou modifier les sélections"/>
+	<label commandName="LipFlipDirectionInput" devLabel="Flip" translation="Inverser"/>
+	<label commandName="LipFlipDirectionInputTooltip" devLabel="Flips lip feature to other body." translation="Bascule la fonction de lèvre vers un autre corps."/>
+	<label commandName="LipFlipSides" devLabel="Flip" translation="Inverser"/>
+	<label commandName="LipGrooveShoulderExclude" devLabel="Exclude Groove Shoulder" translation="Exclure l'épaulement de la rainure"/>
+	<label commandName="LipGrooveShoulderExcludeToolTip" devLabel="Select to turn off Groove Shoulder." translation="Sélectionnez cette option pour désactiver l'option Épaulement de rainure."/>
+	<label commandName="LipGrooveShoulderInclude" devLabel="Include Groove Shoulder" translation="Inclure l'épaulement de la rainure"/>
+	<label commandName="LipGrooveShoulderIncludeToolTip" devLabel="Select to build Groove Shoulder. Dimensions are automatically calculated based on the Shoulder Width." translation="Permet de créer l'épaulement de rainure. Les dimensions sont calculées automatiquement en fonction de la largeur de l'épaulement."/>
+	<label commandName="LipGrooveShoulderOption" devLabel="Groove Shoulder" translation="Épaulement de rainure"/>
+	<label commandName="LipGuideTypeFace" devLabel="Face Guide" translation="Guidage de face"/>
+	<label commandName="LipGuideTypeFaceToolTip" devLabel="Lets you select a face to place the lip feature." translation="Permet de sélectionner une face pour placer la fonction de lèvre."/>
+	<label commandName="LipGuideTypeOption" devLabel="Guide Type" translation="Type de guidage"/>
+	<label commandName="LipGuideTypePull" devLabel="Pull Direction" translation="Sens de démoulage"/>
+	<label commandName="LipGuideTypePullDirection" devLabel="Pull Direction" translation="Sens de démoulage"/>
+	<label commandName="LipGuideTypePullDirectionToolTip" devLabel="Lets you select a plane or face to define the pull direction." translation="Permet de sélectionner un plan ou une face pour définir le sens de démoulage."/>
+	<label commandName="LipPartialResultOption" devLabel="Extent Result" translation="Résultat de l'étendue"/>
+	<label commandName="LipResultChoice1" devLabel="Option 1" translation="Option 1"/>
+	<label commandName="LipResultChoice1ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Choisissez un résultat parmi les résultats possibles en fonction de l'étendue que vous sélectionnez."/>
+	<label commandName="LipResultChoice2" devLabel="Option 2" translation="Option 2"/>
+	<label commandName="LipResultChoice2ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Choisissez un résultat parmi les résultats possibles en fonction de l'étendue que vous sélectionnez."/>
+	<label commandName="LipResultChoice3" devLabel="Option 3" translation="Option 3"/>
+	<label commandName="LipResultChoice3ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Choisissez un résultat parmi les résultats possibles en fonction de l'étendue que vous sélectionnez."/>
+	<label commandName="LipResultChoice4" devLabel="Option 4" translation="Option 4"/>
+	<label commandName="LipResultChoice4ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Choisissez un résultat parmi les résultats possibles en fonction de l'étendue que vous sélectionnez."/>
+	<label commandName="LipTypeOption" devLabel="Type" translation="Type"/>
+	<label commandName="LipTypeOptionGrooveOnly" devLabel="Groove" translation="Rainure"/>
+	<label commandName="LipTypeOptionGrooveOnlyToolTip" devLabel="Creates a recessed groove feature on a solid body." translation="Crée une fonction de rainure en retrait sur un corps solide."/>
+	<label commandName="LipTypeOptionLipAndGroove" devLabel="Lip And Groove" translation="Lèvre et rainure"/>
+	<label commandName="LipTypeOptionLipOnly" devLabel="Lip" translation="Lèvre"/>
+	<label commandName="LipTypeOptionLipOnlyToolTip" devLabel="Creates a raised lip feature on a solid body." translation="Crée une fonction de lèvre surélevée sur un corps solide."/>
+	<label commandName="LipTypeOptionLoopAndGrooveToolTip" devLabel="Creates a lip feature with a lip and groove on a pair of solid bodies." translation="Crée une fonction de lèvre avec lèvre et rainure sur une paire de corps solides."/>
+	<label commandName="MainTabBar" devLabel="MainTabBar" translation="BarreOngletsPrincipale"/>
+	<label commandName="ManagePlasticRuleLink" devLabel="Manage Plastic Rules" translation="Gérer les règles de conception plastique"/>
+	<label commandName="ManufactureMethod" devLabel="Manufacture" translation="Fabrication"/>
+	<label commandName="MinimumDraftInfo" devLabel="Minimum Draft Angle" translation="Angle de dépouille minimum"/>
+	<label commandName="MissingLipGuideFace" devLabel="Missing Guide Face" translation="Face de guidage manquante"/>
+	<label commandName="MissingLipPath" devLabel="Missing Path" translation="Trajectoire manquante"/>
+	<label commandName="MissingLipPullDirection" devLabel="missing pull direction" translation="sens de démoulage manquant"/>
+	<label commandName="MissingPlasticRuleAssignPlasticRule" devLabel="Assign Plastic Rule" translation="Affecter une règle de conception plastique"/>
+	<label commandName="MissingPlasticRuleCheckBox" devLabel="Do not show this again" translation="Ne plus afficher cette fenêtre"/>
+	<label commandName="MissingPlasticRuleContinue" devLabel="Continue" translation="Continuer"/>
+	<label commandName="MissingPlasticRuleText" devLabel="The solid bodies you are modifying are contained in the following components with no plastic rules assigned:&lt;br/&gt;%1%&lt;br/&gt;&lt;br/&gt;Assign plastic rules, or continue creating a feature without assign plastic rules?" translation="Les corps solides que vous modifiez sont contenus dans les composants suivants, sans règles de conception plastique affectées: &lt;br/&gt;%1%&lt;br/&gt;&lt;br/&gt;Attribuer des règles de conception plastique ou continuer à créer une fonction sans attribuer de règles de conception plastique?"/>
+	<label commandName="MissingPlasticRuleTitle" devLabel="No plastic rule assigned" translation="Aucune règle plastique affectée"/>
+	<label commandName="MissingRestProfile" devLabel="missing profiles" translation="contours manquants"/>
+	<label commandName="MissingSnapFitRotationDirection" devLabel="Missing rotation direction" translation="Direction de rotation manquante"/>
+	<label commandName="Modify Fastener" devLabel="Modify Fastener" translation="Modifier l'attache"/>
+	<label commandName="NoBodySelectedPrompt" devLabel="Select a solid body to analyze" translation="Sélectionner un corps solide à analyser"/>
+	<label commandName="NoPullDirectionSelectedPrompt" devLabel="Select a pull direction" translation="Sélectionner un sens de démoulage"/>
+	<label commandName="PresetNotCompatibleWithEditedFeatureSettings" devLabel="The preset isn't compatible with edited feature settings." translation="La valeur prédéfinie n'est pas compatible avec les paramètres de fonction modifiés."/>
+	<label commandName="PullDirection" devLabel="Pull Direction" translation="Sens de démoulage"/>
+	<label commandName="PullDirectionDTT" devLabel="Select a face, plane, linear edge, or axis to define the pull direction to use to identify undercuts and insufficient draft." translation="Sélectionnez une face, un plan, une arête linéaire ou un axe pour définir le sens de démoulage à utiliser pour identifier les contre-dépouilles et toute dépouille insuffisante."/>
+	<label commandName="RecommendationsGroupInfo" devLabel="Recommendations" translation="Recommandations"/>
+	<label commandName="Region" devLabel="region is" translation="région est"/>
+	<label commandName="RegionIcon" devLabel="" translation=""/>
+	<label commandName="RegionNumberString" devLabel="" translation=""/>
+	<label commandName="RegionValueString" devLabel="RegionValueString" translation="ChaîneValeurRégion"/>
+	<label commandName="Regions" devLabel="regions are" translation="régions sont"/>
+	<label commandName="RestAdvancedGroup" devLabel="Advanced" translation="Avancé"/>
+	<label commandName="RestBothDirectionInput" devLabel="Symmetric" translation="Symétrique"/>
+	<label commandName="RestBothDirectionTooltip" devLabel="Symmetric" translation="Symétrique"/>
+	<label commandName="RestBothDirectionTooltipDesc" devLabel="Centers the thickness on the sketch profile." translation="Centre l'épaisseur sur le contour d'esquisse."/>
+	<label commandName="RestCmdDraftAngleInput" devLabel="Draft Angle" translation="Angle de dépouille"/>
+	<label commandName="RestCmdDraftAngleInput2" devLabel="Draft Angle" translation="Angle de dépouille"/>
+	<label commandName="RestCmdDraftAngleTooltip" devLabel="Draft Angle" translation="Angle de dépouille"/>
+	<label commandName="RestCmdDraftAngleTooltip2" devLabel="Draft Angle" translation="Angle de dépouille"/>
+	<label commandName="RestCmdDraftAngleTooltipDesc" devLabel="Specify the draft angle for Side 1 of the rest feature." translation="Spécifiez l'angle de dépouille pour le côté 1 de la fonction d'appui."/>
+	<label commandName="RestCmdDraftAngleTooltipDesc2" devLabel="Specify the draft angle for Side 2 of the rest feature." translation="Spécifiez l'angle de dépouille pour le côté 2 de la fonction d'appui."/>
+	<label commandName="RestCmdLandingFaces" devLabel="Top Faces" translation="Faces supérieures"/>
+	<label commandName="RestCmdLandingFacesBodyToolTipDesc" devLabel="Select top faces of the solid body to specify areas where the rest feature will be created." translation="Sélectionnez les faces supérieures du corps solide pour spécifier les zones où la fonction d'appui sera créée."/>
+	<label commandName="RestCmdLandingFacesToolTip" devLabel="Top Faces" translation="Faces supérieures"/>
+	<label commandName="RestCmdRestOffsetInput" devLabel="Offset Position" translation="Position de décalage"/>
+	<label commandName="RestCmdRestOffsetTooltip" devLabel="Offset Position" translation="Position de décalage"/>
+	<label commandName="RestCmdRestOffsetTooltipDesc" devLabel="Specify the distance to offset the position of the rest plane from the selected profile." translation="Spécifiez la distance de décalage du plan d'appui par rapport au profil sélectionné."/>
+	<label commandName="RestCmdRestTabBody" devLabel="Body" translation="Corps"/>
+	<label commandName="RestCmdRestTabBodyToolTip" devLabel="Body" translation="Corps"/>
+	<label commandName="RestCmdRestTabBodyToolTipDesc" devLabel="Select a solid body for the rest feature." translation="Sélectionnez un corps solide pour la fonction d'appui."/>
+	<label commandName="RestCmdRestTabSketch" devLabel="Profile" translation="Contour"/>
+	<label commandName="RestCmdRestTabSketchToolTip" devLabel="Profiles" translation="Contours"/>
+	<label commandName="RestCmdRestTabSketchToolTipDesc" devLabel="Select closed sketch profiles to create a rest." translation="Sélectionnez des contours d'esquisse fermés pour créer un appui."/>
+	<label commandName="RestCmdRestThicknessInput" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="RestCmdRestThicknessTooltip" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="RestCmdRestThicknessTooltipDesc" devLabel="Specify the thickness of the rest wall." translation="Spécifiez l'épaisseur de la paroi d'appui."/>
+	<label commandName="RestCmdSide1Group" devLabel="Side 1" translation="Côté 1"/>
+	<label commandName="RestCmdSide2Group" devLabel="Side 2" translation="Côté 2"/>
+	<label commandName="RestCmdTrimPlatform" devLabel="Trim" translation="Ajuster"/>
+	<label commandName="RestCmdTrimPlatformToolTipDesc" devLabel="Removes an unwanted rest area extending out of the solid body." translation="Supprime une zone indésirable s'étendant hors du corps solide."/>
+	<label commandName="RestCmdTrimPlatformTooltip" devLabel="Trim" translation="Ajuster"/>
+	<label commandName="RestDirection" devLabel="Thickness Direction" translation="Direction de l'épaisseur"/>
+	<label commandName="RestExtentType" devLabel="Extent Type" translation="Type d'étendue"/>
+	<label commandName="RestExtentTypeToObjectInput" devLabel="Object" translation="Objet"/>
+	<label commandName="RestExtentTypeToObjectInput2" devLabel="Object" translation="Objet"/>
+	<label commandName="RestExtentTypeToObjectTooltip2" devLabel="Object" translation="Objet"/>
+	<label commandName="RestExtentTypeToObjectTooltipDesc2" devLabel="Select a body, a face, or a plane to extrude to." translation="Sélectionnez un corps, une face ou un plan sur lequel réaliser l'extrusion."/>
+	<label commandName="RestFlipDirectionInput" devLabel="Flip" translation="Inverser"/>
+	<label commandName="RestFlipDirectionInputTooltip" devLabel="Flip" translation="Inverser"/>
+	<label commandName="RestFlipDirectionInputTooltipDesc" devLabel="Flips the rest feature over the selected sketch profile." translation="Inverse la fonction d'appui sur le contour d'esquisse sélectionné."/>
+	<label commandName="RestInsideDirectionInput" devLabel="Side 1" translation="Côté 1"/>
+	<label commandName="RestInsideDirectionTooltip" devLabel="Side 1" translation="Côté 1"/>
+	<label commandName="RestInsideDirectionTooltipDesc" devLabel="Offsets the thickness to one side of the sketch profile." translation="Décale l'épaisseur sur un côté du contour d'esquisse."/>
+	<label commandName="RestOutsideDirectionInput" devLabel="Side 2" translation="Côté 2"/>
+	<label commandName="RestOutsideDirectionTooltip" devLabel="Side 2" translation="Côté 2"/>
+	<label commandName="RestOutsideDirectionTooltipDesc" devLabel="Offsets the thickness to one side of the sketch profile." translation="Décale l'épaisseur sur un côté du contour d'esquisse."/>
+	<label commandName="RestSide1ToObjectSelectInfoDesc" devLabel="Select a body, a face, or a plane to extrude to." translation="Sélectionnez un corps, une face ou un plan sur lequel réaliser l'extrusion."/>
+	<label commandName="RestThroughAllExtentTypeInput" devLabel="All" translation="Tout"/>
+	<label commandName="RestThroughAllExtentTypeInput2" devLabel="All" translation="Tout"/>
+	<label commandName="RestThroughAllExtentTypeTooltip" devLabel="All" translation="Tout"/>
+	<label commandName="RestThroughAllExtentTypeTooltip2" devLabel="All" translation="Tout"/>
+	<label commandName="RestThroughAllExtentTypeTooltipDesc" devLabel="Extrudes the rest through the selected body." translation="Extrude l'appui à travers le corps sélectionné."/>
+	<label commandName="RestThroughAllExtentTypeTooltipDesc2" devLabel="Extrudes the rest through the selected body." translation="Extrude l'appui à travers le corps sélectionné."/>
+	<label commandName="RestToObjectExtentTypeInput" devLabel="To Object" translation="Vers l'objet"/>
+	<label commandName="RestToObjectExtentTypeInput2" devLabel="To Object" translation="Vers l'objet"/>
+	<label commandName="RestToObjectExtentTypeTooltip" devLabel="To Object" translation="Vers l'objet"/>
+	<label commandName="RestToObjectExtentTypeTooltip2" devLabel="To Object" translation="Vers l'objet"/>
+	<label commandName="RestToObjectExtentTypeTooltipDesc" devLabel="Extrudes the rest from the sketch profile to a  body, a face, or a plane that you select." translation="Extrude l'appui du contour d'esquisse vers un corps, une face ou un plan que vous sélectionnez."/>
+	<label commandName="RestToObjectExtentTypeTooltipDesc2" devLabel="Extrudes the rest from the sketch profile to a  body, a face, or a plane that you select." translation="Extrude l'appui du contour d'esquisse vers un corps, une face ou un plan que vous sélectionnez."/>
+	<label commandName="RuleGroupInfo" devLabel="Rule Details" translation="Détails de la règle"/>
+	<label commandName="RulesWidget" devLabel="Rules Widget" translation="Widget de règles"/>
+	<label commandName="SelectBodiesForSnapFit" devLabel="Select target body to place a snap fit" translation="Sélectionner le corps cible pour placer un emboîtement élastique"/>
+	<label commandName="SelectExtentForLip" devLabel="Select a point, vertex, face, or plane to extend to" translation="Sélectionner un point, un sommet, une face ou un plan de prolongement"/>
+	<label commandName="SelectGuideFaceLip" devLabel="Select a face on either side of the selected edge to locate the lip feature" translation="Sélectionner une face de chaque côté de l'arête sélectionnée pour localiser la fonction de lèvre"/>
+	<label commandName="SelectLandingFacesForRest" devLabel="Select Landing faces for the rest feature" translation="Sélectionner les faces d'appui pour la fonction d'appui"/>
+	<label commandName="SelectMorePathForLip" devLabel="Modify edge selection or adjust lip settings" translation="Modifier la sélection d'arêtes ou ajuster les paramètres de lèvre"/>
+	<label commandName="SelectMoreSketchPointsForBoss" devLabel="Select additional sketch points or adjust boss settings" translation="Sélectionner des points d'esquisse supplémentaires ou ajuster les paramètres de bossage"/>
+	<label commandName="SelectMoreSketchPointsForSnapFit" devLabel="Select additional sketch points or adjust snap fit settings" translation="Sélectionner des points d'esquisse supplémentaires ou ajuster les paramètres d'emboîtement élastique"/>
+	<label commandName="SelectPathForLip" devLabel="Select an edge to place lip" translation="Sélectionner une arête pour placer la lèvre"/>
+	<label commandName="SelectPullDirectionLip" devLabel="Select a plane or face to define the pull direction" translation="Sélectionner un plan ou une face pour définir le sens de démoulage"/>
+	<label commandName="SelectRotationDirectionForSnapFit" devLabel="Select a line, an edge, a vertex or point to define Custom alignment direction" translation="Sélectionnez une ligne, une arête, un sommet ou un point pour définir la direction d'alignement personnalisée"/>
+	<label commandName="SelectSketchForRest" devLabel="Select a closed sketch profile to place a rest feature" translation="Sélectionner un contour d'esquisse fermé pour placer une fonction d'appui"/>
+	<label commandName="SelectSketchForSnapFit" devLabel="Select sketch to place snap fit" translation="Sélectionner l'esquisse pour placer l'emboîtement élastique"/>
+	<label commandName="SelectSketchPointsForBoss" devLabel="Select sketch point to place a boss" translation="Sélectionner un point d'esquisse pour placer un bossage"/>
+	<label commandName="SelectSketchPointsForSnapFit" devLabel="Select sketch point to place a snap fit" translation="Sélectionner un point d'esquisse pour placer un emboîtement élastique"/>
+	<label commandName="SelectTargetBodyForRest" devLabel="Select a solid body for the rest feature" translation="Sélectionner un corps solide pour la fonction d'appui"/>
+	<label commandName="SelectedCompName" devLabel="Component" translation="Composant"/>
+	<label commandName="Separator" devLabel="" translation=""/>
+	<label commandName="SnapFitAlignmentFlipInput" devLabel="Flip" translation="Inverser"/>
+	<label commandName="SnapFitAlignmentFlipInputToolTip" devLabel="Flips the alignment of snap fits 180 degrees relative to the selected alignment object." translation="Inverse l'alignement des emboîtements élastiques de 180 degrés par rapport à l'objet d'alignement sélectionné."/>
+	<label commandName="SnapFitBottomExtentDistanceInput" devLabel="Depth" translation="Profondeur"/>
+	<label commandName="SnapFitBottomExtentDistanceInputTooltip" devLabel="Specify the distance to extrude the bottom of the snap fit, in a direction parallel to the sketch plane, toward the nearest faces on a solid body." translation="Spécifiez la distance d'extrusion du bas de l'emboîtement plastique, dans une direction parallèle au plan d'esquisse, vers les faces les plus proches d'un corps solide."/>
+	<label commandName="SnapFitBottomExtentOption" devLabel="Extent Type" translation="Type d'étendue"/>
+	<label commandName="SnapFitBottomExtentOptionDistance" devLabel="Distance" translation="Distance"/>
+	<label commandName="SnapFitBottomExtentOptionDistanceToolTip" devLabel="Extrudes the bottom of the snap fit from the sketch profile to a specified depth." translation="Extrude le bas de l'emboîtement plastique à partir du contour d'esquisse à une profondeur spécifiée."/>
+	<label commandName="SnapFitBottomExtentOptionToNext" devLabel="To Next" translation="Vers le suivant"/>
+	<label commandName="SnapFitBottomExtentOptionToNextToolTip" devLabel="Extrudes the bottom of the snap fit from the sketch profile to the nearest faces on a solid body." translation="Extrude le bas de l'emboîtement plastique à partir du contour d'esquisse vers les faces les plus proches d'un corps solide."/>
+	<label commandName="SnapFitCmdGrooveGroup" devLabel="Groove" translation="Rainure"/>
+	<label commandName="SnapFitCmdHookGroup" devLabel="Hook" translation="Crochet"/>
+	<label commandName="SnapFitCmdHookImage" devLabel="HookImage" translation="ImageCrochet"/>
+	<label commandName="SnapFitCmdHookTable" devLabel="HookTable" translation="TableCrochet"/>
+	<label commandName="SnapFitCmdLoopGroup" devLabel="Loop" translation="Boucle"/>
+	<label commandName="SnapFitCmdLoopHookImage" devLabel="LoopHookImage" translation="ImageCrochetBoucle"/>
+	<label commandName="SnapFitCmdLoopHookTable" devLabel="LoopHookTable" translation="TableCrochetBoucle"/>
+	<label commandName="SnapFitCmdLoopImage" devLabel="LoopImage" translation="ImageBoucle"/>
+	<label commandName="SnapFitCmdLoopTable" devLabel="LoopTable" translation="TableBoucle"/>
+	<label commandName="SnapFitCmdParallelGrooveImage" devLabel="ParallelGrooveImage" translation="ImageRainureParallèle"/>
+	<label commandName="SnapFitCmdParallelGrooveTable" devLabel="ParallelGrooveTable" translation="TableRainureParallèle"/>
+	<label commandName="SnapFitCmdPerpendicularGrooveImage" devLabel="PerpendicularGrooveImage" translation="ImageRainurePerpendiculaire"/>
+	<label commandName="SnapFitCmdPerpendicularGrooveTable" devLabel="PerpendicularGrooveTable" translation="TableRainurePerpendiculaire"/>
+	<label commandName="SnapFitCmdPreviewOpts" devLabel="Visibility" translation="Visibilité"/>
+	<label commandName="SnapFitCmdPreviewSection" devLabel="Section Analysis" translation="Analyse de section"/>
+	<label commandName="SnapFitCmdPreviewSectionToolTip" devLabel="Cuts a section through the center of the snap fit feature while you edit." translation="Découpe une section au centre de la fonction d'emboîtement élastique lors de vos modifications."/>
+	<label commandName="SnapFitCmdSelectOption" devLabel="Selection Mode" translation="Mode de sélection"/>
+	<label commandName="SnapFitCmdSelectPoints" devLabel="Manual" translation="Manuel"/>
+	<label commandName="SnapFitCmdSelectPointsToolTip" devLabel="Lets you manually select each sketch point to create snap fits." translation="Permet de sélectionner manuellement chaque point d'esquisse pour créer des emboîtements élastiques."/>
+	<label commandName="SnapFitCmdSelectSketch" devLabel="Automatic" translation="Automatique"/>
+	<label commandName="SnapFitCmdSelectSketchToolTip" devLabel="Automatically selects all visible sketch points to create snap fits." translation="Sélectionne automatiquement tous les points d'esquisse visibles pour créer des emboîtements élastiques."/>
+	<label commandName="SnapFitCmdTransparentSide1" devLabel="Side 1 Transparency" translation="Transparence côté 1"/>
+	<label commandName="SnapFitCmdTransparentSide1ToolTip" devLabel="Reduces the opacity of the Side 1 body while you edit the snap fit feature." translation="Réduit l'opacité du corps du côté 1 lorsque vous modifiez la fonction d'emboîtement élastique."/>
+	<label commandName="SnapFitCmdTransparentSide2" devLabel="Side 2 Transparency" translation="Transparence côté 2"/>
+	<label commandName="SnapFitCmdTransparentSide2ToolTip" devLabel="Reduces the opacity of the Side 2 body while you edit the snap fit feature." translation="Réduit l'opacité du corps du côté 2 lorsque vous modifiez la fonction d'emboîtement élastique."/>
+	<label commandName="SnapFitCmdUndercutGroup" devLabel="Hook Undercut" translation="Contre-dépouille du crochet"/>
+	<label commandName="SnapFitCmdUndercutImage" devLabel="UndercutImage" translation="Image de contre-dépouille"/>
+	<label commandName="SnapFitCmdUndercutTable" devLabel="UndercutTable" translation="Table de contre-dépouille"/>
+	<label commandName="SnapFitDummy" devLabel="Dummy" translation="Factice"/>
+	<label commandName="SnapFitFlipDirectionInput" devLabel="Flip" translation="Inverser"/>
+	<label commandName="SnapFitHookBeamLength" devLabel="B" translation="B"/>
+	<label commandName="SnapFitHookBeamLengthToolTipL0" devLabel="Beam Length" translation="Longueur du laser"/>
+	<label commandName="SnapFitHookBeamLengthToolTipL1" devLabel="Specify the length of the beam between the base and the tip of the hook." translation="Spécifiez la longueur de la poutre entre la base et l'extrémité du crochet."/>
+	<label commandName="SnapFitHookBeamThicknessAtRetention" devLabel="C" translation="C"/>
+	<label commandName="SnapFitHookBeamThicknessAtRetentionToolTipL0" devLabel="Transition Depth" translation="Profondeur de transition"/>
+	<label commandName="SnapFitHookBeamThicknessAtRetentionToolTipL1" devLabel="Specify the depth of the hook at the transition between the beam and the tip of the hook." translation="Spécifiez la profondeur du crochet au niveau de la transition entre la poutre et la pointe du crochet."/>
+	<label commandName="SnapFitHookBeamThicknessAtWall" devLabel="A" translation="A"/>
+	<label commandName="SnapFitHookBeamThicknessAtWallToolTipL0" devLabel="Base Depth" translation="Profondeur à la base"/>
+	<label commandName="SnapFitHookBeamThicknessAtWallToolTipL1" devLabel="Specify the depth of the beam at the base of the hook." translation="Spécifiez la profondeur de la poutre à la base du crochet."/>
+	<label commandName="SnapFitHookBeamWidthAtRetention" devLabel="E" translation="E"/>
+	<label commandName="SnapFitHookBeamWidthAtRetentionToolTipL0" devLabel="Transition Width" translation="Largeur de transition"/>
+	<label commandName="SnapFitHookBeamWidthAtRetentionToolTipL1" devLabel="Specify width of the hook at the transition between the beam and the tip of the hook." translation="Spécifiez la largeur du crochet au niveau de la transition entre la poutre et la pointe du crochet."/>
+	<label commandName="SnapFitHookBeamWidthAtWall" devLabel="D" translation="D"/>
+	<label commandName="SnapFitHookBeamWidthAtWallToolTipL0" devLabel="Base Width" translation="Largeur à la base"/>
+	<label commandName="SnapFitHookBeamWidthAtWallToolTipL1" devLabel="Specify the width of the beam at the base of the hook." translation="Spécifiez la largeur de la poutre à la base du crochet."/>
+	<label commandName="SnapFitHookBody" devLabel="Body" translation="Corps"/>
+	<label commandName="SnapFitHookBodyToolTip" devLabel="Select a body for the hook side of the snap fit feature." translation="Sélectionnez un corps pour le côté avec crochet de la fonction d'emboîtement élastique."/>
+	<label commandName="SnapFitHookInsertionAngle" devLabel="α2" translation="α2"/>
+	<label commandName="SnapFitHookInsertionAngleToolTipL0" devLabel="Entry Angle" translation="Angle d'entrée"/>
+	<label commandName="SnapFitHookInsertionAngleToolTipL1" devLabel="Specify the angle of the tip of the hook where it enters the groove." translation="Spécifiez l'angle de la pointe du crochet à l'endroit où il entre dans la rainure."/>
+	<label commandName="SnapFitHookRetentionAngle" devLabel="α1" translation="α1"/>
+	<label commandName="SnapFitHookRetentionAngleToolTipL0" devLabel="Exit Angle" translation="Angle de sortie"/>
+	<label commandName="SnapFitHookRetentionAngleToolTipL1" devLabel="Specify the angle of the tip of the hook where it exits the groove." translation="Spécifiez l'angle de la pointe du crochet à l'endroit où il quitte la rainure."/>
+	<label commandName="SnapFitHookRetentionHookTip" devLabel="G" translation="G"/>
+	<label commandName="SnapFitHookRetentionHookTipToolTipL0" devLabel="Tip Length" translation="Longueur de la pointe"/>
+	<label commandName="SnapFitHookRetentionHookTipToolTipL1" devLabel="Specify the length of the tip of the hook where it meets the entry angle." translation="Spécifiez la longueur de la pointe du crochet à l'endroit où elle rencontre l'angle d'entrée."/>
+	<label commandName="SnapFitHookRetentionLength" devLabel="H" translation="H"/>
+	<label commandName="SnapFitHookRetentionLengthToolTipL0" devLabel="Hook Length" translation="Longueur du crochet"/>
+	<label commandName="SnapFitHookRetentionLengthToolTipL1" devLabel="Specify overall length of the tip of the hook." translation="Spécifiez la longueur totale de la pointe du crochet."/>
+	<label commandName="SnapFitHookRetentionUndercut" devLabel="F" translation="F"/>
+	<label commandName="SnapFitHookRetentionUndercutToolTipL0" devLabel="Hook Depth" translation="Profondeur du crochet"/>
+	<label commandName="SnapFitHookRetentionUndercutToolTipL1" devLabel="Specify the depth of the tip of the hook." translation="Spécifiez la profondeur de la pointe du crochet."/>
+	<label commandName="SnapFitHorizontalDirectionInput" devLabel="Alignment Object" translation="Objet d'alignement"/>
+	<label commandName="SnapFitHorizontalDirectionInputToolTip" devLabel="Select a plane, line, or point to align snap fits." translation="Permet de sélectionner le plan, la ligne ou le point sur lesquels aligner les emboîtements élastiques."/>
+	<label commandName="SnapFitIndependentRotationInput" devLabel="Rotation Angle" translation="Angle de rotation"/>
+	<label commandName="SnapFitIndependentRotationInputTooltipL1" devLabel="Specify the rotation angle value to orient the snap fit around an axis perpendicular to the sketch point." translation="Spécifiez la valeur de l'angle de rotation pour orienter l'emboîtement élastique autour d'un axe perpendiculaire au point d'esquisse."/>
+	<label commandName="SnapFitIndependentRotationToolTipL0" devLabel="Independent Rotation Angle" translation="Angle de la rotation indépendante"/>
+	<label commandName="SnapFitLoopBody" devLabel="Body" translation="Corps"/>
+	<label commandName="SnapFitLoopBodyToolTip" devLabel="Select a body for the loop side of the snap fit feature." translation="Sélectionnez un corps pour le côté avec boucle de la fonction d'emboîtement élastique."/>
+	<label commandName="SnapFitLoopCatchLength" devLabel="E" translation="E"/>
+	<label commandName="SnapFitLoopCatchLengthToolTipL0" devLabel="Loop Length" translation="Longueur de la boucle"/>
+	<label commandName="SnapFitLoopCatchLengthToolTipL1" devLabel="Specify the length of the opening of the loop." translation="Spécifiez la longueur de l'ouverture de la boucle."/>
+	<label commandName="SnapFitLoopCatchWidthAtSide" devLabel="G" translation="G"/>
+	<label commandName="SnapFitLoopCatchWidthAtSideToolTipL0" devLabel="Side Width" translation="Largeur latérale"/>
+	<label commandName="SnapFitLoopCatchWidthAtSideToolTipL1" devLabel="Specify the width of the edges on the sides of the loop." translation="Spécifiez la largeur des arêtes sur les côtés de la boucle."/>
+	<label commandName="SnapFitLoopCatchWidthAtTop" devLabel="F" translation="F"/>
+	<label commandName="SnapFitLoopCatchWidthAtTopToolTipL0" devLabel="Tip Length" translation="Longueur de la pointe"/>
+	<label commandName="SnapFitLoopCatchWidthAtTopToolTipL1" devLabel="Specify the length of the edge at the tip of the loop." translation="Spécifiez la longueur de l'arête à la pointe de la boucle."/>
+	<label commandName="SnapFitLoopClipLength" devLabel="B" translation="B"/>
+	<label commandName="SnapFitLoopClipLengthToolTipL0" devLabel="Beam Length" translation="Longueur de la poutre"/>
+	<label commandName="SnapFitLoopClipLengthToolTipL1" devLabel="Specify the overall length of the beam for the loop." translation="Spécifiez la longueur totale de la poutre pour la boucle."/>
+	<label commandName="SnapFitLoopClipThicknessAtTop" devLabel="C" translation="C"/>
+	<label commandName="SnapFitLoopClipThicknessAtTopToolTipL0" devLabel="Loop Depth" translation="Profondeur de la boucle"/>
+	<label commandName="SnapFitLoopClipThicknessAtTopToolTipL1" devLabel="Specify the depth of the tip of the loop" translation="Spécifier la profondeur de la pointe de la boucle"/>
+	<label commandName="SnapFitLoopClipThicknessAtWall" devLabel="A" translation="A"/>
+	<label commandName="SnapFitLoopClipThicknessAtWallToolTipL0" devLabel="Base Depth" translation="Profondeur à la base"/>
+	<label commandName="SnapFitLoopClipThicknessAtWallToolTipL1" devLabel="Specify the depth at the base of the loop." translation="Spécifiez la profondeur à la base de la boucle."/>
+	<label commandName="SnapFitLoopClipWidth" devLabel="D" translation="D"/>
+	<label commandName="SnapFitLoopClipWidthToolTipL0" devLabel="Base Width" translation="Largeur à la base"/>
+	<label commandName="SnapFitLoopClipWidthToolTipL1" devLabel="Specify the width at the base of the loop." translation="Spécifiez la largeur à la base de la boucle."/>
+	<label commandName="SnapFitLoopHookBody" devLabel="Body" translation="Corps"/>
+	<label commandName="SnapFitLoopHookBodyToolTip" devLabel="Select a body for the hook side of the snap fit feature." translation="Sélectionnez un corps pour le côté avec crochet de la fonction d'emboîtement élastique."/>
+	<label commandName="SnapFitLoopHookRetentionAngle" devLabel="α1" translation="α1"/>
+	<label commandName="SnapFitLoopHookRetentionAngleToolTipL0" devLabel="Entry Angle" translation="Angle d'entrée"/>
+	<label commandName="SnapFitLoopHookRetentionAngleToolTipL1" devLabel="Specify the angle of the hook where it enters the loop." translation="Spécifiez l'angle du crochet à l'endroit où il entre dans la boucle."/>
+	<label commandName="SnapFitLoopHookRetentionClearance" devLabel="L" translation="L"/>
+	<label commandName="SnapFitLoopHookRetentionClearanceToolTipL0" devLabel="Hook Clearance" translation="Dégagement du crochet"/>
+	<label commandName="SnapFitLoopHookRetentionClearanceToolTipL1" devLabel="Specify the clearance to maintain between the the hook and the edge of the loop." translation="Spécifiez le dégagement à conserver entre le crochet et l'arête de la boucle."/>
+	<label commandName="SnapFitLoopHookRetentionDepth" devLabel="J" translation="J"/>
+	<label commandName="SnapFitLoopHookRetentionDepthToolTipL0" devLabel="Hook Depth" translation="Profondeur du crochet"/>
+	<label commandName="SnapFitLoopHookRetentionDepthToolTipL1" devLabel="Specify the depth of the hook, measured from the edge where it enters the loop." translation="Spécifiez la profondeur du crochet, mesurée à partir de l'arête à l'endroit où il entre dans la boucle."/>
+	<label commandName="SnapFitLoopHookRetentionRibThickness" devLabel="M" translation="M"/>
+	<label commandName="SnapFitLoopHookRetentionRibThicknessToolTipL0" devLabel="Rib Width" translation="Largeur de nervure"/>
+	<label commandName="SnapFitLoopHookRetentionRibThicknessToolTipL1" devLabel="Specify the width of the ribs for the hook." translation="Spécifiez la largeur des nervures pour le crochet."/>
+	<label commandName="SnapFitLoopHookRetentionTip" devLabel="K" translation="K"/>
+	<label commandName="SnapFitLoopHookRetentionTipToolTipL0" devLabel="Hook Tip Length" translation="Longueur de pointe du crochet"/>
+	<label commandName="SnapFitLoopHookRetentionTipToolTipL1" devLabel="Specify length of the tip of the hook." translation="Spécifiez la longueur de la pointe du crochet."/>
+	<label commandName="SnapFitLoopHookRibsInput" devLabel="Ribs" translation="Nervures"/>
+	<label commandName="SnapFitLoopHookRibsInputToolTip" devLabel="Adds ribs to the hook side of the snap fit." translation="Ajoute des nervures au côté du crochet de l'emboîtement élastique."/>
+	<label commandName="SnapFitParallelGrooveBackClearance" devLabel="K" translation="K"/>
+	<label commandName="SnapFitParallelGrooveBackClearanceToolTipL0" devLabel="Deflection Clearance" translation="Dégagement de déflexion"/>
+	<label commandName="SnapFitParallelGrooveBackClearanceToolTipL1" devLabel="Specify the clearance to maintain when the hook deflects as it snaps into the groove." translation="Spécifiez le dégagement à conserver lorsque le crochet se déforme lorsqu'il s'accroche à la rainure."/>
+	<label commandName="SnapFitParallelGrooveBody" devLabel="Body" translation="Corps"/>
+	<label commandName="SnapFitParallelGrooveBodyToolTip" devLabel="Select a body for the groove side of the snap fit feature." translation="Sélectionnez un corps pour le côté avec rainure de la fonction d'emboîtement élastique."/>
+	<label commandName="SnapFitParallelGrooveCornerRadius" devLabel="R" translation="R"/>
+	<label commandName="SnapFitParallelGrooveCornerRadiusToolTipL0" devLabel="Corner Radius" translation="Rayon de coin"/>
+	<label commandName="SnapFitParallelGrooveCornerRadiusToolTipL1" devLabel="Specify the radius at the corners of the groove." translation="Spécifiez le rayon aux coins de la rainure."/>
+	<label commandName="SnapFitParallelGrooveDepth" devLabel="J" translation="J"/>
+	<label commandName="SnapFitParallelGrooveDepthToolTipL0" devLabel="Groove Depth" translation="Profondeur de rainure"/>
+	<label commandName="SnapFitParallelGrooveDepthToolTipL1" devLabel="Specify the depth of the groove to receive the hook, measured from the nearest face on the tip of the hook." translation="Spécifiez la profondeur de la rainure qui recevra le crochet, mesurée à partir de la face la plus proche sur la pointe du crochet."/>
+	<label commandName="SnapFitParallelGrooveLengthClearance" devLabel="M" translation="M"/>
+	<label commandName="SnapFitParallelGrooveLengthClearanceToolTipL0" devLabel="Length Clearance" translation="Dégagement de longueur"/>
+	<label commandName="SnapFitParallelGrooveLengthClearanceToolTipL1" devLabel="Specify the clearance to maintain between the tip of the hook and the edge of the groove." translation="Spécifiez le dégagement à conserver entre la pointe du crochet et l'arête de la rainure."/>
+	<label commandName="SnapFitParallelGrooveWidth" devLabel="L" translation="L"/>
+	<label commandName="SnapFitParallelGrooveWidthToolTipL0" devLabel="Groove Width" translation="Largeur de rainure"/>
+	<label commandName="SnapFitParallelGrooveWidthToolTipL1" devLabel="Specify the width of the groove to receive the hook." translation="Spécifiez la largeur de la rainure qui recevra le crochet."/>
+	<label commandName="SnapFitPerpendicularGrooveBody" devLabel="Body" translation="Corps"/>
+	<label commandName="SnapFitPerpendicularGrooveBodyToolTip" devLabel="Select a body for the groove side of the snap fit feature." translation="Sélectionnez un corps pour le côté avec rainure de la fonction d'emboîtement élastique."/>
+	<label commandName="SnapFitPerpendicularGrooveHookClearance" devLabel="J" translation="J"/>
+	<label commandName="SnapFitPerpendicularGrooveHookClearanceToolTipL0" devLabel="Beam Clearance" translation="Dégagement de poutre"/>
+	<label commandName="SnapFitPerpendicularGrooveHookClearanceToolTipL1" devLabel="Specify the clearance to maintain between the beam of the hook and the edge of the groove." translation="Spécifiez le dégagement à conserver entre la poutre du crochet et l'arête de la rainure."/>
+	<label commandName="SnapFitPerpendicularGrooveLength" devLabel="M" translation="M"/>
+	<label commandName="SnapFitPerpendicularGrooveLengthToolTipL0" devLabel="Groove Length" translation="Longueur de rainure"/>
+	<label commandName="SnapFitPerpendicularGrooveLengthToolTipL1" devLabel="Specify the length of the groove to receive the hook." translation="Spécifiez la longueur de la rainure qui recevra le crochet."/>
+	<label commandName="SnapFitPerpendicularGrooveRadius" devLabel="R" translation="R"/>
+	<label commandName="SnapFitPerpendicularGrooveRadiusToolTipL0" devLabel="Corner Radius" translation="Rayon de coin"/>
+	<label commandName="SnapFitPerpendicularGrooveRadiusToolTipL1" devLabel="Specify the radius at the corners of the groove." translation="Spécifiez le rayon aux coins de la rainure."/>
+	<label commandName="SnapFitPerpendicularGrooveRampAngle" devLabel="α3" translation="α3"/>
+	<label commandName="SnapFitPerpendicularGrooveRampAngleToolTipL0" devLabel="Ramp Angle" translation="Angle de rampe"/>
+	<label commandName="SnapFitPerpendicularGrooveRampAngleToolTipL1" devLabel="Specify the angle of the ramp where the hook enters the groove." translation="Spécifiez l'angle de la rampe où le crochet entre dans la rainure."/>
+	<label commandName="SnapFitPerpendicularGrooveRampSize" devLabel="K" translation="K"/>
+	<label commandName="SnapFitPerpendicularGrooveRampSizeToolTipL0" devLabel="Ramp Depth" translation="Profondeur de rampe"/>
+	<label commandName="SnapFitPerpendicularGrooveRampSizeToolTipL1" devLabel="Specify the depth of the ramp, measured from the outer edge of the groove." translation="Spécifiez la profondeur de la rampe, mesurée à partir de l'arête extérieure de la rainure."/>
+	<label commandName="SnapFitPerpendicularGrooveWidth" devLabel="L" translation="L"/>
+	<label commandName="SnapFitPerpendicularGrooveWidthToolTipL0" devLabel="Groove Width" translation="Largeur de rainure"/>
+	<label commandName="SnapFitPerpendicularGrooveWidthToolTipL1" devLabel="Specify the width of the groove to receive the hook." translation="Spécifiez la largeur de la rainure qui recevra le crochet."/>
+	<label commandName="SnapFitRadiusHookRoot" devLabel="Radius Hook Root" translation="Rayon racine du crochet"/>
+	<label commandName="SnapFitRadiusHookRootToolTip" devLabel="Specify the radius for the hook root." translation="Spécifiez le rayon de la racine du crochet."/>
+	<label commandName="SnapFitRootBlendRadiusInput" devLabel="Base Fillet Radius" translation="Rayon du congé de base"/>
+	<label commandName="SnapFitRootBlendRadiusInputTooltip" devLabel="Specify the radius value of the fillet at the base of the hook." translation="Spécifiez la valeur de rayon du congé à la base du crochet."/>
+	<label commandName="SnapFitRotationInput" devLabel="Rotation Angle" translation="Angle de rotation"/>
+	<label commandName="SnapFitRotationInputTooltip" devLabel="Specify the rotation angle value to orient the snap fit around an axis perpendicular to the sketch point." translation="Spécifiez la valeur de l'angle de rotation pour orienter l'emboîtement élastique autour d'un axe perpendiculaire au point d'esquisse."/>
+	<label commandName="SnapFitRotationOption" devLabel="Rotation Type" translation="Type de rotation"/>
+	<label commandName="SnapFitRotationOptionDirection" devLabel="Aligned" translation="Aligné"/>
+	<label commandName="SnapFitRotationOptionDirectionToolTip" devLabel="Aligns all snap fits to planar, linear, or point geometry that you select." translation="Aligne tous les emboîtements élastiques sur la géométrie plane, linéaire ou de point que vous sélectionnez."/>
+	<label commandName="SnapFitRotationOptionIndependent" devLabel="Independent" translation="Indépendant"/>
+	<label commandName="SnapFitRotationOptionIndependentToolTip" devLabel="Rotates each snap fit independently around its own sketch point." translation="Fait pivoter chaque emboîtement élastique indépendamment autour de son propre point d'esquisse."/>
+	<label commandName="SnapFitRotationOptionUnified" devLabel="Uniform" translation="Uniforme"/>
+	<label commandName="SnapFitRotationOptionUnifiedToolTip" devLabel="Rotates all snap fits to the same angle around their sketch points." translation="Fait pivoter tous les emboîtements élastiques selon le même angle autour de leurs points d'esquisse."/>
+	<label commandName="SnapFitSketchPointInput" devLabel="Sketch Points" translation="Points d'esquisse"/>
+	<label commandName="SnapFitSketchPointInputToolTip" devLabel="Select a sketch point to position the snap fit feature on a body." translation="Sélectionnez un point d'esquisse pour positionner la fonction d'emboîtement élastique sur un corps."/>
+	<label commandName="SnapFitTypeOption" devLabel="Type" translation="Type"/>
+	<label commandName="SnapFitTypeOptionLoop" devLabel="Hook And Loop" translation="Crochet et boucle"/>
+	<label commandName="SnapFitTypeOptionLoopToolTip" devLabel="Creates a snap fit feature with a hook and loop on a pair of solid bodies." translation="Crée une fonction d'emboîtement élastique avec un crochet et une boucle sur une paire de corps solides."/>
+	<label commandName="SnapFitTypeOptionParallelHook" devLabel="Parallel Hook And Groove" translation="Crochet et rainure parallèles"/>
+	<label commandName="SnapFitTypeOptionParallelHookToolTip" devLabel="Creates a snap fit feature with a hook and groove, parallel to a face on a pair of solid bodies." translation="Crée une fonction d'emboîtement élastique avec un crochet et une rainure, parallèle à une face sur une paire de corps solides."/>
+	<label commandName="SnapFitTypeOptionPerpendicularHook" devLabel="Perpendicular Hook And Groove" translation="Crochet et rainure perpendiculaires"/>
+	<label commandName="SnapFitTypeOptionPerpendicularHookToolTip" devLabel="Creates a snap fit feature with a hook and groove, perpendicular to a face on a pair of solid bodies." translation="Crée une fonction d'emboîtement élastique avec un crochet et une rainure, perpendiculaires à une face sur une paire de corps solides."/>
+	<label commandName="SnapFitUndercutCornerRadius" devLabel="RU" translation="RU"/>
+	<label commandName="SnapFitUndercutCornerRadiusToolTipL0" devLabel="Corner Radius" translation="Rayon de coin"/>
+	<label commandName="SnapFitUndercutCornerRadiusToolTipL1" devLabel="Specify the radius at the corners of the undercut." translation="Spécifiez le rayon aux coins de la contre-dépouille."/>
+	<label commandName="SnapFitUndercutLength" devLabel="V" translation="V"/>
+	<label commandName="SnapFitUndercutLengthToolTipL0" devLabel="Undercut Length" translation="Longueur de contre-dépouille"/>
+	<label commandName="SnapFitUndercutLengthToolTipL1" devLabel="Specify the length of the groove to receive the undercut." translation="Spécifiez la longueur de la rainure qui recevra la contre-dépouille."/>
+	<label commandName="SnapFitUndercutWidth" devLabel="U" translation="U"/>
+	<label commandName="SnapFitUndercutWidthToolTipL0" devLabel="Undercut Width" translation="Largeur de contre-dépouille"/>
+	<label commandName="SnapFitUndercutWidthToolTipL1" devLabel="Specify the width of the groove to receive the undercut." translation="Spécifiez la largeur de la rainure qui recevra la contre-dépouille."/>
+	<label commandName="SolidSelection" devLabel="Solid Body" translation="Corps solide"/>
+	<label commandName="SpecifyRule" devLabel="Plastic Rule" translation="Règle de conception plastique"/>
+	<label commandName="SpecifyRuleSelectComponentTooltip" devLabel="Select a component to assign a plastic rule." translation="Sélectionnez un composant pour affecter une règle de conception plastique."/>
+	<label commandName="SpeficyRuleSelectComponentCursor1" devLabel="Select a component in the browser or canvas" translation="Sélectionnez un composant dans le navigateur ou la zone de dessin"/>
+	<label commandName="SpeficyRuleSelectComponentCursor2" devLabel="Select a plastic rule" translation="Sélectionner une règle de conception plastique"/>
+	<label commandName="StatusError" devLabel="" translation=""/>
+	<label commandName="StatusIgnore" devLabel="" translation=""/>
+	<label commandName="SummaryTab" devLabel="Summary" translation="Résumé"/>
+	<label commandName="SummaryTabDTTDesc" devLabel="Displays an overview of all the alerts found during the analysis of the solid body." translation="Affiche un aperçu de toutes les alertes détectées lors de l'analyse du corps solide."/>
+	<label commandName="SwitchRule" devLabel="Plastic Rule" translation="Règle de conception plastique"/>
+	<label commandName="ThicknessAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Try to maintain uniform thickness." translation="&lt;b&gt;Conseil&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Essayez de conserver une épaisseur uniforme."/>
+	<label commandName="ThicknessAdvice2" devLabel="Increase or decrease thickness in regions of high variation. In general, thickness variation should be kept under 25%." translation="Augmentez ou diminuez l'épaisseur dans les régions à variation élevée. En général, la variation d'épaisseur doit être maintenue sous 25 %."/>
+	<label commandName="ThicknessAdvice3" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="Ajustez l'angle de dépouille. En général, l'épaisseur des nervures doit être de 50 %."/>
+	<label commandName="ThicknessAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Variation&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;b&gt;Gérez les règles de conception plastique&lt;/b&gt; pour vérifier que la &lt;b&gt;variation d'épaisseur&lt;/b&gt; est correctement définie pour la matière plastique."/>
+	<label commandName="ThicknessAdvice5" devLabel="Set up an &lt;b&gt;Injection Molding&lt;/b&gt; simulation study to get accurate information based on process settings, material selection, and injection location." translation="Configurez une étude de simulation de &lt;b&gt;moulage par injection&lt;/b&gt; pour obtenir des informations précises en fonction des paramètres de processus, de la matière sélectionnée et du point d'injection."/>
+	<label commandName="ThicknessAlertLargeWallWariation" devLabel="&lt;b&gt;Large Thickness Variation:&lt;/b&gt; %1% %2% the maximum percentage &lt;b&gt;Thickness Variation&lt;/b&gt;." translation="&lt;b&gt;Variation d'épaisseur élevée:&lt;/b&gt; %1% %2% le pourcentage maximal de &lt;b&gt;variation d'épaisseur&lt;/b&gt;."/>
+	<label commandName="ThicknessAlertTooThick" devLabel="%1%&lt;b&gt;Too Thick:&lt;/b&gt; %2% %3% thicker than the upper limit of the &lt;b&gt;Thickness Range&lt;/b&gt;." translation="%1%&lt;b&gt;Épaisseur excessive:&lt;/b&gt; %2% %3% plus épaisse(s) que la limite supérieure de l'&lt;b&gt;intervalle d'épaisseurs&lt;/b&gt;."/>
+	<label commandName="ThicknessAlertTooThin" devLabel="%1%&lt;b&gt;Too Thin:&lt;/b&gt; %2% %3% thinner than the lower limit of the &lt;b&gt;Thickness Range&lt;/b&gt;." translation="%1%&lt;b&gt;Finesse excessive:&lt;/b&gt; %2% %3% plus fine(s) que la limite inférieure de l'&lt;b&gt;intervalle d'épaisseurs&lt;/b&gt;."/>
+	<label commandName="ThicknessAlertsInfo" devLabel="ThicknessAlerts" translation="AlertesÉpaisseur"/>
+	<label commandName="ThicknessDTTDesc" devLabel="Analyzes the solid body for features that fall outside the &lt;b&gt;Thickness Range&lt;/b&gt; or exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule assigned to its component." translation="Analyse le corps solide pour rechercher les fonctions qui se trouvent en dehors de l'&lt;b&gt;intervalle d'épaisseurs&lt;/b&gt; ou qui dépassent la &lt;b&gt;variation d'épaisseur&lt;/b&gt; définie dans la règle de conception plastique affectée à son composant."/>
+	<label commandName="ThicknessGroup" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="ThicknessInfo" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="ThicknessIssueTypeInfo" devLabel="Alert Type" translation="Type d'alerte"/>
+	<label commandName="ThicknessIssueTypeLargeVariationInfo" devLabel="Large Thickness Variation" translation="Variation d'épaisseur élevée"/>
+	<label commandName="ThicknessIssueTypeTooThickInfo" devLabel="Too Thick" translation="Épaisseur excessive"/>
+	<label commandName="ThicknessIssueTypeTooThinInfo" devLabel="Too Thin" translation="Finesse excessive"/>
+	<label commandName="ThicknessRangeInfo" devLabel="Thickness Range" translation="Intervalle d'épaisseurs"/>
+	<label commandName="ThicknessRecommendationInfo" devLabel="ThicknessRecommendation" translation="RecommandationÉpaisseur"/>
+	<label commandName="ThicknessTab" devLabel="Thickness" translation="Épaisseur"/>
+	<label commandName="ThicknessTabDTTDesc" devLabel="Displays the details of alerts for features that fall outside the &lt;b&gt;Thickness Range&lt;/b&gt; or exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule." translation="Affiche les détails des alertes pour les fonctions qui se trouvent en dehors de l'&lt;b&gt;intervalle d'épaisseurs&lt;/b&gt; ou qui dépassent la &lt;b&gt;variation d'épaisseur&lt;/b&gt; définie dans la règle de conception plastique."/>
+	<label commandName="ThicknessVariationInfo" devLabel="Thickness Variation" translation="Variation d'épaisseur"/>
+	<label commandName="ThicknessViewGradientInfo" devLabel="" translation=""/>
+	<label commandName="ThicknessViewInfo" devLabel="Display" translation="Afficher"/>
+	<label commandName="ThicknessViewTransparentInfo" devLabel="" translation=""/>
+	<label commandName="ThinSteelConditionInfo" devLabel="Knife Edge Threshold" translation="Seuil du tranchant"/>
+	<label commandName="TooThickAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Decrease thickness in thicker regions." translation="&lt;b&gt;Conseil&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Réduisez l'épaisseur dans les zones plus épaisses."/>
+	<label commandName="TooThickAdvice2" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="Ajustez l'angle de dépouille. En général, l'épaisseur des nervures doit être de 50 %."/>
+	<label commandName="TooThickAdvice3" devLabel="Use a tool like &lt;b&gt;Shell&lt;/b&gt; to core out thick sections to maintain uniform thickness." translation="Utilisez un outil comme une &lt;b&gt;coque&lt;/b&gt; pour éliminer les sections épaisses afin de conserver une épaisseur uniforme."/>
+	<label commandName="TooThickAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Range&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;b&gt;Gérez les règles de conception plastique&lt;/b&gt; pour vérifier que l'&lt;b&gt;intervalle d'épaisseurs&lt;/b&gt; est correctement défini pour la matière plastique."/>
+	<label commandName="TooThickDTT" devLabel="Displays only the thickness alerts for regions that are thicker than the upper limit of the &lt;b&gt;Thickness Range&lt;/b&gt; defined in the plastic rule." translation="Affiche uniquement les alertes d'épaisseur pour les régions qui sont plus épaisses que la limite supérieure de l'&lt;b&gt;intervalle d'épaisseurs&lt;/b&gt; défini dans la règle de conception plastique."/>
+	<label commandName="TooThickProblemMessage" devLabel="&lt;b&gt;Too Thick&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions that are too thick take longer to cool.This can lead to longer manufacturing cycle times.Slower cooling can cause uneven shrinkage and sink marks, which warp the part as the molten plastic solidifies." translation="&lt;b&gt;Épaisseur excessive&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Les régions trop épaisses prennent plus de temps à refroidir. Cela peut allonger les cycles de fabrication. Un refroidissement plus lent peut provoquer des retassures et des retraits inégaux, qui déforment la pièce lorsque le plastique fondu se solidifie."/>
+	<label commandName="TooThinAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Increase thickness in thinner regions." translation="&lt;b&gt;Conseil&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Augmentez l'épaisseur dans les régions plus fines."/>
+	<label commandName="TooThinAdvice2" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="Ajustez l'angle de dépouille. En général, l'épaisseur des nervures doit être de 50 %."/>
+	<label commandName="TooThinAdvice3" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Range&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;b&gt;Gérez les règles de conception plastique&lt;/b&gt; pour vérifier que l'&lt;b&gt;intervalle d'épaisseurs&lt;/b&gt; est correctement défini pour la matière plastique."/>
+	<label commandName="TooThinDTT" devLabel="Displays only the thickness alerts for regions that are thinner than the lower limit of the &lt;b&gt;Thickness Range&lt;/b&gt; defined in the plastic rule." translation="Affiche uniquement les alertes d'épaisseur pour les régions plus fines que la limite inférieure de l'&lt;b&gt;intervalle d'épaisseurs&lt;/b&gt; défini dans la règle de conception plastique."/>
+	<label commandName="TooThinProblemMessage" devLabel="&lt;b&gt;Too Thin&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions that are too thin may fill slower or have difficulty filling completely.They cool faster than thicker regions.This can cause uneven shrinkage, which warps the part as the molten plastic solidifies." translation="&lt;b&gt;Trop mince&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Les régions trop fines peuvent se remplir plus lentement ou avoir des difficultés à se remplir complètement. Elles se refroidissent plus rapidement que les régions plus épaisses. Cela peut entraîner un retrait inégal, qui déforme la pièce lorsque le plastique fondu se solidifie."/>
+	<label commandName="TransparentDTTBase" devLabel="Alerts Only" translation="Alertes uniquement"/>
+	<label commandName="TransparentDTTDesc" devLabel="Displays the areas affected by thickness alerts as a red overlay on the solid body in the canvas." translation="Affiche les zones affectées par les alertes d'épaisseur sous la forme d'une superposition rouge sur le corps solide dans la zone de dessin."/>
+	<label commandName="UnIsolateSingleAlertInfo" devLabel="Unisolate Alert" translation="Détacher l'alerte"/>
+	<label commandName="UndercutAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Remove undercuts to simplify the mold design." translation="&lt;b&gt;Conseil&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Supprimez les gorges pour simplifier la conception du moule."/>
+	<label commandName="UndercutAdvice2" devLabel="Confirm pull direction." translation="Confirmez le sens de démoulage."/>
+	<label commandName="UndercutAdvice3" devLabel="Redesign undercut features to align with the pull direction." translation="Reconcevez les fonctions de gorge pour les aligner avec le sens de démoulage."/>
+	<label commandName="UndercutAdvice4" devLabel="Check draft on the undercut feature." translation="Vérifiez la dépouille sur la fonction de gorge."/>
+	<label commandName="UndercutAdvice5" devLabel="Investigate to make sure the part can be removed from the mold." translation="Vérifiez que la pièce peut être retirée du moule."/>
+	<label commandName="UndercutAdvice6" devLabel="Highlight undercuts as features of concern, and consult a mold designer. Confirm whether sliders, lifters, or inserts could be added to the mold to help remove the part." translation="Identifiez visuellement les gorges comme des fonctions problématiques et consultez un concepteur de moule. Confirmez si des glissières, des cales montantes ou des inserts peuvent être ajoutés au moule pour aider à retirer la pièce."/>
+	<label commandName="UndercutAlert" devLabel="&lt;b&gt;Undercuts&lt;/b&gt;: %1% %2% undercuts that will interfere with ejection from a mold." translation="&lt;b&gt;Gorges&lt;/b&gt;: %1% %2% des gorges qui interfèrent avec l'éjection du moule."/>
+	<label commandName="UndercutProblemMessagen" devLabel="&lt;b&gt;Undercuts&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Undercuts are trapped features that can't be ejected from the mold. If the mold requires sliders, lifters, or inserts to help eject the part from the mold, it may increase the cost. Not all undercuts can be avoided, but they should be minimized." translation="&lt;b&gt;Gorges&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Les gorges sont des fonctions emprisonnées qui ne peuvent pas être éjectées du moule. Si le moule nécessite des glissières, des cales montantes ou des inserts pour aider à éjecter la pièce du moule, cela peut augmenter le coût. Certaines gorges sont inévitables, mais elles doivent être réduites."/>
+	<label commandName="UndercutRegion" devLabel="region contains" translation="région contient"/>
+	<label commandName="UndercutRegions" devLabel="regions contain" translation="régions contiennent"/>
+	<label commandName="UndercutTabDTTDesc" devLabel="Displays the details of alerts for features that will interfere with ejection from a mold, based on the pull direction." translation="Affiche les détails des alertes pour les fonctions qui interfèrent avec l'éjection depuis un moule, en fonction du sens de démoulage."/>
+	<label commandName="UndercutsAlertsInfo" devLabel="UndercutsAlerts" translation="AlertesGorges"/>
+	<label commandName="UndercutsDTTDesc" devLabel="Analyzes the solid body for features that will interfere with ejection from a mold, based on the pull direction." translation="Analyse le corps solide à la recherche de fonctions qui interfèrent avec l'éjection depuis un moule, en fonction du sens de démoulage."/>
+	<label commandName="UndercutsGroup" devLabel="Undercuts" translation="Gorges"/>
+	<label commandName="UndercutsRecommendationInfo" devLabel="UndercutsRecommendation" translation="RecommandationGorges"/>
+	<label commandName="UndercutsTab" devLabel="Undercuts" translation="Gorges"/>
+	<label commandName="ViewDetails" devLabel="View Details" translation="Afficher les détails"/>
+	<label commandName="ViewDetailsGroupInfo" devLabel="Details" translation="Détails"/>
+	<label commandName="WVRegion" devLabel="region exceeds" translation="région dépasse"/>
+	<label commandName="WVRegions" devLabel="regions exceed" translation="régions dépassent"/>
+	<label commandName="WallVariationProblemMessage" devLabel="&lt;b&gt;Large Thickness Variation&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions with large variation in thickness may fill and cool unevenly.Thick regions may lead to longer manufacturing cycle times.Slower cooling can cause uneven shrinkage and sink marks, which warp the part.Thin regions may fill slower or have difficulty filling completely.They cool faster than thicker regions. This can cause uneven shrinkage, which warps the part." translation="&lt;b&gt;Variation d'épaisseur élevée&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Les régions dont l'épaisseur varie considérablement peuvent se remplir et se refroidir de manière inégale. Les régions épaisses peuvent allonger la durée des cycles de fabrication. Un refroidissement plus lent peut provoquer des retassures et des retraits inégaux, qui déforment la pièce. Les régions peu épaisses peuvent se remplir plus lentement ou être difficiles à remplir complètement. Elles refroidissent plus rapidement que les régions plus épaisses. Cela peut entraîner un retrait inégal, qui déforme la pièce."/>
+	<label commandName="componentSelection" devLabel="Component" translation="Composant"/>
+	<label commandName="design-advice-feature-desc" devLabel="Identify manufacturability concerns based on industry best practices and company standards, and receive recommendations to improve the manufacturability and performance of your design. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-DESIGN-ADVICE&quot;&gt;Learn More&lt;/a&gt;" translation="Identifiez les problèmes de faisabilité de fabrication en fonction des meilleures pratiques du secteur et des normes de l'entreprise, et recevez des recommandations pour améliorer la faisabilité de fabrication et les performances de votre conception. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=SLD-DESIGN-ADVICE&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="design-advice-feature-title" devLabel="Design Advice" translation="Assistant de conception"/>
+	<label commandName="finishBlack" devLabel="Black" translation="Noir"/>
+	<label commandName="finishChrome" devLabel="Chrome" translation="Chrome"/>
+	<label commandName="finishNickelPlated" devLabel="Nickel Plated" translation="Plaqué nickel"/>
+	<label commandName="finishPassivated" devLabel="Passivated" translation="Passivé"/>
+	<label commandName="finishZincPlated" devLabel="Zinc Plated" translation="Plaqué zinc"/>
+	<label commandName="geometric-pattern-feature-desc" devLabel="Create complex patterns with adjustable size and distribution gradients across a selected face. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-GEOMETRIC-PATTERN&quot;&gt;Learn More&lt;/a&gt;" translation="Créez des motifs complexes avec des dégradés de taille et de distribution réglables sur une face sélectionnée. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=SLD-GEOMETRIC-PATTERN&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="geometric-pattern-feature-title" devLabel="Geometric Pattern" translation="Motif géométrique"/>
+	<label commandName="lclzAssignPlasticRule1" devLabel="Assigns a plastic rule to a component to automatically control the properties of plastic features, like physical material and thickness." translation="Affecte une règle de conception plastique à un composant pour contrôler automatiquement les propriétés des fonctions de conception plastique, telles que la matière physique et l'épaisseur."/>
+	<label commandName="lclzAssignPlasticRule2" devLabel="Select a component, then select the plastic rule to assign to it." translation="Sélectionnez un composant, puis sélectionnez la règle de conception plastique à lui affecter."/>
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksDesc" devLabel="In the Browser, you can switch the plastic rule assigned to a component, and all the associated features will update to reflect the values defined in the new rule." translation="Dans le navigateur, vous pouvez basculer la règle de conception plastique affectée à un composant. Toutes les fonctions associées sont alors mises à jour pour refléter les valeurs définies dans la nouvelle règle."/>
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksTips" devLabel="Assign a plastic rule to a component to automatically control values like plastic material, thickness, and draft angle when you create features using tools like Rib, Web, and Boss." translation="Affectez une règle de conception plastique à un composant pour contrôler automatiquement des valeurs telles que la matière plastique, l'épaisseur et l'angle de dépouille lorsque vous créez des fonctions à l'aide d'outils tels que Nervure, Âme et Bossage."/>
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksTitle" devLabel="Assign Plastic Rule" translation="Affecter une règle de conception plastique"/>
+	<label commandName="lclzBoss1" devLabel="Creates a boss feature to fasten two solid bodies together and reinforce thin areas of a design." translation="Crée une fonction de bossage pour attacher deux corps solides et renforcer les zones fines d'une conception."/>
+	<label commandName="lclzBoss2" devLabel="Select a sketch point between two solid bodies, then adjust the settings for each side of the boss feature and the fastener that will assemble them together." translation="Sélectionnez un point d'esquisse entre deux corps solides, puis ajustez les paramètres de chaque côté de la fonction de bossage et de l'attache qui les assemblera."/>
+	<label commandName="lclzBossTipsAndTricksDesc" devLabel="On the Ribs tab, add ribs to each side of the boss feature to strengthen and support them." translation="Dans l'onglet Nervures, ajoutez des nervures de chaque côté de la fonction de bossage pour les renforcer et les soutenir."/>
+	<label commandName="lclzBossTipsAndTricksTips" devLabel="Create a sketch and place points where you want to create bosses between two bodies in your design. You can leave the sketch points unconstrained and drag them on the sketch plane to adjust the position of each boss, or constrain or dimension them in the sketch to define precise locations." translation="Créez une esquisse et placez des points à l'endroit où vous souhaitez créer des bossages entre deux corps dans votre conception. Vous pouvez laisser les points d'esquisse sans contraintes et les faire glisser sur le plan d'esquisse pour ajuster la position de chaque bossage, ou les contraindre ou les coter dans l'esquisse pour définir des emplacements précis."/>
+	<label commandName="lclzBossTipsAndTricksTitle" devLabel="Boss Information" translation="Informations sur le bossage"/>
+	<label commandName="lclzChangePlasticRule1" devLabel="Assign Plastic Rule" translation="Affecter une règle de conception plastique"/>
+	<label commandName="lclzChangePlasticRule2" devLabel="Assign a different plastic rule to this component." translation="Affectez une règle de conception plastique différente à ce composant."/>
+	<label commandName="lclzDesignAdviceCmd1" devLabel="Identifies manufacturability concerns based on best practices for plastic injection molding, and provides recommendations to address them." translation="Identifie les problèmes de faisabilité de fabrication en fonction des meilleures pratiques de moulage par injection de plastique et fournit des recommandations pour les résoudre."/>
+	<label commandName="lclzDesignAdviceCmd2" devLabel="Select a solid body and the pull direction, then click Analyze. Once the analysis is complete, the rules, results, and recommendations display." translation="Sélectionnez un corps solide et le sens de démoulage, puis cliquez sur Analyser. Une fois l'analyse terminée, les règles, les résultats et les recommandations s'affichent."/>
+	<label commandName="lclzLip1" devLabel="Creates a lip, groove, or combined feature on one or two solid bodies." translation="Crée une lèvre, une rainure ou une fonction combinée sur un ou deux corps solides."/>
+	<label commandName="lclzLip2" devLabel="Select an edge on a solid body then choose between the Lip, Groove, or Lip And Groove types. Select a guide type, a pull direction or guide face to locate the feature, then adjust the dimension settings. Optionally, select one or two extents for the feature and choose a result option." translation="Sélectionnez une arête sur un corps solide, puis choisissez entre les types Lèvre, Rainure ou Lèvre et rainure. Sélectionnez un type de guide, un sens de démoulage ou une face de guidage pour localiser la fonction, puis réglez les paramètres de dimension. En option, sélectionnez une ou deux extensions pour la fonction et choisissez une option de résultat."/>
+	<label commandName="lclzLipTipsAndTricksDesc" devLabel="When you create a lip and groove together, the groove dimensions are automatically determined by the lip dimensions and clearance." translation="Lorsque vous créez une lèvre et une rainure ensemble, les dimensions de la rainure sont automatiquement déterminées par les cotes de la lèvre et par le dégagement."/>
+	<label commandName="lclzLipTipsAndTricksTips" devLabel="Select the inside edge to place your lip feature to ensure the reveal is on the outside of your design." translation="Sélectionnez l'arête intérieure pour placer la fonction de lèvre afin de vous assurer que la révélation se trouve à l'extérieur de votre conception."/>
+	<label commandName="lclzLipTipsAndTricksTitle" devLabel="Lip And Groove Information" translation="Informations sur les lèvres et les rainures"/>
+	<label commandName="lclzManagePlasticRules1" devLabel="Manages plastic rules in the active design to automatically control properties of plastic features, like physical material and thickness." translation="Gère les règles de conception plastique dans la conception active pour contrôler automatiquement les propriétés des fonctions de conception plastique, telles que la matière physique et l'épaisseur."/>
+	<label commandName="lclzManagePlasticRules2" devLabel="Create new rules, edit existing rules, or save rules to a library to use them in multiple designs." translation="Créez des règles, modifiez les règles existantes ou enregistrez des règles dans une bibliothèque pour les utiliser dans plusieurs conceptions."/>
+	<label commandName="lclzManagePlasticRulesTipsAndTricksDesc" devLabel="Plastic rules that appear in the &lt;b&gt;In This Design&lt;/b&gt; section are stored in the active design document. Plastic rules that appear in the &lt;b&gt;Library&lt;/b&gt; section are stored in the cloud." translation="Les règles de conception plastique qui apparaissent dans la section &lt;b&gt;Dans cette conception&lt;/b&gt; sont stockées dans le document de conception actif. Les règles de conception plastique qui apparaissent dans la section &lt;b&gt;Bibliothèque&lt;/b&gt; sont stockées dans le cloud."/>
+	<label commandName="lclzManagePlasticRulesTipsAndTricksTips" devLabel="When you edit the values in a plastic rule, any plastic features in components that use that plastic rule will update to reflect the new values." translation="Lorsque vous modifiez les valeurs d'une règle de conception plastique, toutes les fonctions de plastique des composants qui utilisent cette règle sont mises à jour pour refléter les nouvelles valeurs."/>
+	<label commandName="lclzManagePlasticRulesTipsAndTricksTitle" devLabel="Manage Plastic Rules Information" translation="Gérer les informations relatives aux règles de conception plastique"/>
+	<label commandName="lclzRest1" devLabel="Creates a rest feature that intersects the overall shape and forms a flat area that can be used for other features or placement of other components." translation="Crée une fonction d'appui qui coupe la forme globale et forme une zone plane qui peut être utilisée pour d'autres fonctions ou pour le placement d'autres composants."/>
+	<label commandName="lclzRest2" devLabel="Select a closed sketch profile and a solid body, then specify the thickness." translation="Sélectionnez un contour d'esquisse fermé et un corps solide, puis spécifiez l'épaisseur."/>
+	<label commandName="lclzRestTipsAndTricksDesc" devLabel="The landing area can be used for the placement of another part or to provide a surface that has an orientation different from the adjacent wall." translation="La zone de guidage peut être utilisée pour le placement d'une autre pièce ou pour fournir une surface dont l'orientation est différente par rapport à la paroi adjacente."/>
+	<label commandName="lclzRestTipsAndTricksTips" devLabel="A rest is a feature on a plastic part that is applied to a wall to form a “landing area” that protrudes partially inside and outside the body." translation="Un appui est une fonction d'une pièce en plastique appliquée à une paroi pour créer une &quot;zone de guidage&quot; qui dépasse partiellement à l'intérieur et à l'extérieur du corps."/>
+	<label commandName="lclzRestTipsAndTricksTitle" devLabel="Rest Information" translation="Informations sur l'appui"/>
+	<label commandName="lclzSnapFit1" devLabel="Creates a cantilever snap fit feature to fasten two solid bodies together in a design." translation="Crée une fonction d'emboîtement élastique pour attacher deux corps solides dans une conception."/>
+	<label commandName="lclzSnapFit2" devLabel="Select a snap fit type, select a sketch point between two solid bodies, then adjust the settings for the hook, groove, or loop on each side of the snap fit feature." translation="Sélectionnez un type d'emboîtement plastique, un point d'esquisse entre deux corps solides, puis ajustez les paramètres du crochet, de la rainure ou de la boucle de chaque côté de la fonction d'emboîtement plastique."/>
+	<label commandName="lclzSnapFitTipsAndTricksTips" devLabel="Create a sketch and place points where you want to create snap fit features between two bodies in your design. You can leave the sketch points unconstrained and drag them on the sketch plane to adjust the position of each snap fit, or constrain or dimension them in the sketch to define precise locations." translation="Créez une esquisse et placez des points à l'endroit où vous souhaitez créer des fonctions d'emboîtement élastique entre deux corps de votre conception. Vous pouvez laisser les points d'esquisse sans contraintes et les faire glisser sur le plan d'esquisse pour ajuster la position de chaque emboîtement élastique, ou les contraindre ou les coter dans l'esquisse pour définir des emplacements précis."/>
+	<label commandName="lclzSnapFitTipsAndTricksTitle" devLabel="Snap Fit Information" translation="Informations sur l'emboîtement élastique"/>
+	<label commandName="matAluminium" devLabel="Aluminium" translation="Aluminium"/>
+	<label commandName="matBrass" devLabel="Brass" translation="Laiton"/>
+	<label commandName="matCarbonSteel" devLabel="Carbon Steel" translation="Acier au carbone"/>
+	<label commandName="matStainlessSteelA2" devLabel="Stainless Steel A2" translation="Acier inoxydable A2"/>
+	<label commandName="matStainlessSteelA4" devLabel="Stainless Steel A4" translation="Acier inoxydable A4"/>
+	<label commandName="matTitanium" devLabel="Titanium" translation="Titane"/>
+	<label commandName="organic-mesh-feature-desc" devLabel="Convert organically shaped meshes to solid, surface, or T-Spline bodies. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=MESH-CONVERT-TO-SOLID&quot;&gt;Learn More&lt;/a&gt;" translation="Convertissez des maillages de forme organique en corps solides, surfaciques ou T-Spline. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=MESH-CONVERT-TO-SOLID&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="organic-mesh-feature-title" devLabel="Organic Mesh Conversion" translation="Conversion de maillage organique"/>
+	<label commandName="plastic-design-tools-feature-desc" devLabel="Use the Boss and Snap Fit tools to create plastic features. Add draft angle, draft pull direction, and fillet radius to Web and Rib features. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-BOSS&quot;&gt;Learn More&lt;/a&gt;" translation="Utilisez les outils Bossage et Emboîtement élastique pour créer des fonctions en plastique. Ajoutez des angles de dépouille, des directions de démoulage de dépouille et des rayons de congé aux fonctions d'âme et de nervure. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=SLD-BOSS&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="plastic-design-tools-feature-title" devLabel="Plastic Design Tools" translation="Outils de conception plastique"/>
+	<label commandName="plastic-design-tools-lip-desc" devLabel="Use the Boss and Snap Fit tools to create plastic features. Add draft angle, draft pull direction, and fillet radius to Web and Rib features. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-LIP&quot;&gt;Learn More&lt;/a&gt;" translation="Utilisez les outils Bossage et Emboîtement élastique pour créer des éléments en plastique. Ajoutez un angle de dépouille, une direction de démoulage de dépouille et un rayon de congé aux fonctions d’âme et de nervure. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=SLD-LIP&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="plastic-design-tools-rest-desc" devLabel="Use the Boss and Snap Fit tools to create plastic features. Add draft angle, draft pull direction, and fillet radius to Web and Rib features. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-REST&quot;&gt;Learn More&lt;/a&gt;" translation="Utilisez les outils Bossage et Emboîtement élastique pour créer des éléments en plastique. Ajoutez un angle de dépouille, une direction de démoulage de dépouille et un rayon de congé aux fonctions d’âme et de nervure. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=SLD-REST&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="plastic-design-tools-snapfit-desc" devLabel="Use the Boss and Snap Fit tools to create plastic features. Add draft angle, draft pull direction, and fillet radius to Web and Rib features. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-SNAP-FIT&quot;&gt;Learn More&lt;/a&gt;" translation="Utilisez les outils Bossage et Emboîtement élastique pour créer des éléments en plastique. Ajoutez un angle de dépouille, une direction de démoulage de dépouille et un rayon de congé aux fonctions d’âme et de nervure. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=SLD-SNAP-FIT&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="plastic-rules-feature-desc" devLabel="Assign plastic rules to components to automatically control the properties of plastic features, like physical material and thickness. Create new rules, edit existing rules, or save rules to a library to use them in multiple designs. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-SETUP-PLASTIC-RULES&quot;&gt;Learn More&lt;/a&gt;" translation="Affectez des règles de conception plastique aux composants pour contrôler automatiquement les propriétés des fonctions de conception plastique, telles que le matériau physique et l'épaisseur. Créez de nouvelles règles, modifiez des règles existantes ou enregistrez des règles dans une bibliothèque pour les utiliser dans plusieurs conceptions. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=SLD-SETUP-PLASTIC-RULES&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="plastic-rules-feature-title" devLabel="Plastic Rules" translation="Règles de conception plastique"/>
+	<label commandName="presets-feature-desc" devLabel="Create setting presets to quickly reuse common values. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-PRESETS&quot;&gt;Learn More&lt;/a&gt;" translation="Créez des valeurs prédéfinies de paramètres pour réutiliser rapidement les valeurs communes. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=SLD-PRESETS&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="presets-feature-title" devLabel="Presets" translation="Valeurs prédéfinies"/>
+	<label commandName="productdesign-featurepack-desc" devLabel="Amplify your design capabilities in Fusion. Use advanced tools to automate the design of complex plastic features, apply intelligent patterns, and add shape-altering properties to your designs. Receive manufacturing-aware advice to improve product performance and prepare your designs for manufacturing. Empower your design process and turn your ideas into finished products faster. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-PRODUCT-DESIGN&quot;&gt;Learn More&lt;/a&gt;" translation="Amplifiez vos capacités de conception dans Fusion. Automatisez la conception de fonctions plastiques complexes à l'aide d'outils avancés, appliquez des motifs intelligents et ajoutez des propriétés de modification de forme à vos conceptions. Profitez de conseils adaptés à la fabrication pour améliorer les performances du produit et préparer vos conceptions pour la fabrication. Donnez plus de puissance à votre processus de conception et transformez plus rapidement vos idées en produits finis. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=EXT-PRODUCT-DESIGN&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="similar-parts-feature-desc" devLabel="Use Find Similar to search your hub for similar or matching components. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?guid=EXT-PRODUCT-DESIGN&quot;&gt;Learn More&lt;/a&gt;" translation="Utilisez l'option Rechercher les composants similaires pour rechercher dans votre Hub des composants similaires ou correspondants. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?guid=EXT-PRODUCT-DESIGN&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="similar-parts-feature-title" devLabel="Find Similar" translation="Trouver des composants similaires"/>
+	<label commandName="snapFitFlipDirectionInputTooltip" devLabel="Flips snap fit feature over selected sketch point." translation="Inverse la fonction d'emboîtement élastique sur le point d'esquisse sélectionné."/>
+	<label commandName="volumetric-lattice-feature-desc" devLabel="Modify existing solid bodies or mesh bodies to create complex volumetric lattices that alter the shape and appearance of a design. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-VOLUMETRIC-LATTICE&quot;&gt;Learn More&lt;/a&gt;" translation="Modifiez des corps solides ou des corps de maillage existants pour créer des treillis volumiques complexes qui modifient la forme et l'apparence d'une conception. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/FRA/?contextId=SLD-VOLUMETRIC-LATTICE&quot;&gt;En savoir plus&lt;/a&gt;"/>
+	<label commandName="volumetric-lattice-feature-title" devLabel="Volumetric Lattice" translation="Treillis volumétrique"/>
+</Resource>

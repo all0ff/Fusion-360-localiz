@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ASMFilesFilter" devLabel="ASM Files (*.asm)" translation="Fichiers ASM (*.asm)"/>
+	<label commandName="AngleInput" devLabel="Angle" translation="Angle"/>
+	<label commandName="AreaInput1" devLabel="Area" translation="Aire"/>
+	<label commandName="AreaInput2" devLabel="Area" translation="Aire"/>
+	<label commandName="AxesVisibilityToggleCmd" devLabel="Show/Hide Axes" translation="Afficher/masquer les axes"/>
+	<label commandName="BodyFilterInput" devLabel="Body" translation="Corps"/>
+	<label commandName="CancelTRBodyRestructuring" devLabel="Cancel" translation="Annuler"/>
+	<label commandName="CenterAxisToCenterAxisInput" devLabel="Distance" translation="Distance"/>
+	<label commandName="CenterAxisToCenterAxisMaximumInput" devLabel="Maximum Distance" translation="Distance maximale"/>
+	<label commandName="CenterAxisToCenterAxisMinimumInput" devLabel="Minimum Distance" translation="Distance minimale"/>
+	<label commandName="CenterPositionInput1X" devLabel="Center Position X" translation="Position centrale X"/>
+	<label commandName="CenterPositionInput1Y" devLabel="Center Position Y" translation="Position centrale Y"/>
+	<label commandName="CenterPositionInput1Z" devLabel="Center Position Z" translation="Position centrale Z"/>
+	<label commandName="CenterPositionInput2X" devLabel="Center Position X" translation="Position centrale X"/>
+	<label commandName="CenterPositionInput2Y" devLabel="Center Position Y" translation="Position centrale Y"/>
+	<label commandName="CenterPositionInput2Z" devLabel="Center Position Z" translation="Position centrale Z"/>
+	<label commandName="CenterToCenterInput" devLabel="Distance" translation="Distance"/>
+	<label commandName="CenterToCenterMinimumInput" devLabel="Minimum Distance" translation="Distance minimale"/>
+	<label commandName="CheckLogForMoreInfo" devLabel="Please check the log file for more information or click to view it: " translation="Consultez le fichier journal pour plus d'informations ou cliquez pour l'afficher: "/>
+	<label commandName="CommentMessage" devLabel="Message" translation="Message"/>
+	<label commandName="CommentObject" devLabel="Body" translation="Corps"/>
+	<label commandName="CommentObjectCommand" devLabel="CommentObject" translation="CommentObject"/>
+	<label commandName="CommentSelectBody" devLabel="Select an object" translation="Sélectionner un objet"/>
+	<label commandName="CommentSelectPoint" devLabel="Select a point on an object" translation="Sélectionner un point sur un objet"/>
+	<label commandName="CommmentsMissedObjectTitle" devLabel="Object does not exist in the current document" translation="L'objet n'existe pas dans le document actif."/>
+	<label commandName="CommmentsMissedSetupHeader" devLabel="The object associated with this comment has been removed since the comment was posted." translation="L'objet associé à ce commentaire a été supprimé depuis la publication du commentaire."/>
+	<label commandName="CommmentsMissedSetupHeader2" devLabel="The setup associated with this comment has been removed since the comment was posted. Open version " translation="La configuration associée à ce commentaire a été supprimée depuis que la publication du commentaire. Ouvrez la version "/>
+	<label commandName="CommmentsMissedSetupHeader2_ccy" devLabel="The setup associated with this comment has been removed since the comment was posted. Open change " translation="La configuration associée à ce commentaire a été supprimée depuis la publication du commentaire. Ouvrez la modification "/>
+	<label commandName="CommmentsMissedSetupTail" devLabel=" to view the setup." translation=" pour afficher la configuration."/>
+	<label commandName="CommmentsMissedSetupTitle" devLabel="Setup does not exist in the current document" translation="La configuration n'existe pas dans le document actif."/>
+	<label commandName="CommmentsWarningAssetDoesNotExist" devLabel="Asset does not exist" translation="La ressource n'existe pas."/>
+	<label commandName="CommmentsWarningDocumentClosed" devLabel="Document is closed" translation="Le document est fermé."/>
+	<label commandName="ComponentFilterInput" devLabel="Component" translation="Composant"/>
+	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Objets mis en cache à partir d'un contexte d'assemblage dissous"/>
+	<label commandName="ContinueTRBodyRestructuring" devLabel="Continue" translation="Continuer"/>
+	<label commandName="CopyCommand" devLabel="Copy" translation="Copier"/>
+	<label commandName="CreateSelectionGroupCmd" devLabel="Create Selection Set" translation="Créer un jeu de sélection"/>
+	<label commandName="CycleComponentColorCmd" devLabel="Cycle Component Color" translation="Couleur du composant de cycle"/>
+	<label commandName="DataBrowserCommand" devLabel="Launch Data Browser" translation="Lancer le navigateur de données"/>
+	<label commandName="DeltaInputX" devLabel="X Delta" translation="Delta X"/>
+	<label commandName="DeltaInputY" devLabel="Y Delta" translation="Delta Y"/>
+	<label commandName="DeltaInputZ" devLabel="Z Delta" translation="Delta Z"/>
+	<label commandName="DeltaTypeComponent1" devLabel="Component1" translation="Composant1"/>
+	<label commandName="DeltaTypeComponent1Desc" devLabel="Component 1 Coordinate System&#xA;Displays the XYZ measurements aligned to&#xA;the Component 1 Coordinate System." translation="Système de coordonnées du composant 1&#xA;Affiche les mesures XYZ alignées sur le système&#xA;de coordonnées du composant 1."/>
+	<label commandName="DeltaTypeComponent2" devLabel="Component2" translation="Composant2"/>
+	<label commandName="DeltaTypeComponent2Desc" devLabel="Component 2 Coordinate System&#xA;Displays the XYZ measurements aligned to&#xA;the Component 2 Coordinate System." translation="Système de coordonnées du composant 2&#xA;Affiche les mesures XYZ alignées sur le système&#xA;de coordonnées du composant 2."/>
+	<label commandName="DeltaTypeGloabal" devLabel="Global" translation="Globale"/>
+	<label commandName="DeltaTypeGlobalDesc" devLabel="Global Coordinate System&#xA;Displays the XYZ measurements aligned to&#xA;the root component." translation="Système de coordonnées global&#xA;Affiche les mesures XYZ alignées&#xA;sur le composant racine."/>
+	<label commandName="DeltaTypeOff" devLabel="DeltaOff" translation="DeltaOff"/>
+	<label commandName="DeltaTypeOffDesc" devLabel="None&#xA;Hide XYZ measurements" translation="Aucun&#xA;Masquer les mesures XYZ"/>
+	<label commandName="DiameterInput1" devLabel="Diameter" translation="Diamètre"/>
+	<label commandName="DiameterInput2" devLabel="Diameter" translation="Diamètre"/>
+	<label commandName="DistanceInput" devLabel="Distance" translation="Distance"/>
+	<label commandName="DoNotAllowInstallIDEDuringUpdate" devLabel="Fusion is unable to install %1% because a software update is currently in progress.&lt;br&gt;&lt;br&gt;Please try again after the update completes." translation="Fusion ne parvient pas à installer %1%, car une mise à jour du logiciel est en cours d'exécution.&lt;br&gt;&lt;br&gt;Veuillez réessayer une fois la mise à jour terminée."/>
+	<label commandName="DoNotAllowInstallIDEWithUnknownError" devLabel="Fusion is unable to install %1% due to unknown error.&lt;br&gt;&lt;br&gt;Please restart application and try again." translation="Fusion ne parvient pas à installer %1% en raison d'une erreur inconnue.&lt;br&gt;&lt;br&gt;Redémarrez l'application, puis réessayez."/>
+	<label commandName="DoNotAllowInstallIDEWithoutInternet" devLabel="Fusion is unable to install %1% due to network issues.&lt;br&gt;&lt;br&gt;Please try again after you are on a stable network connection." translation="Fusion ne parvient pas à installer %1% en raison de problèmes de réseau.&lt;br&gt;&lt;br&gt;Veuillez réessayer une fois que votre connexion réseau est stable."/>
+	<label commandName="DoNotAllowInstallIDEWithoutUpdateCheck" devLabel="Fusion is unable to install %1% because a software update may be pending.&lt;br&gt;&lt;br&gt;Please try again after the update check is done." translation="Fusion ne parvient pas à installer %1%, car il se peut qu'une mise à jour logicielle soit en attente.&lt;br&gt;&lt;br&gt;Veuillez réessayer une fois la mise à jour terminée."/>
+	<label commandName="DumpEntityCommand" devLabel="Dump Entity Info" translation="Supprimer les informations relatives à l'entité"/>
+	<label commandName="DumpEntityCommandDesc" devLabel="Dump detailed info of selected object" translation="Supprimer les informations détaillées de l'objet sélectionné"/>
+	<label commandName="DynamicControlID" devLabel="DynamicControlID" translation="DynamicControlID"/>
+	<label commandName="EntityFinderButton" devLabel="Search" translation="Rechercher"/>
+	<label commandName="EntityFinderNothingToZoom" devLabel="Nothing to zoom." translation="Aucun contenu sur lequel zoomer."/>
+	<label commandName="ExtentsPrompt" devLabel="Terminates at selected object" translation="Permet de mettre fin à un objet sélectionné."/>
+	<label commandName="FaceEdgeVertexFilterInput" devLabel="Face/Edge/Vertex" translation="Face/Arête/Sommet"/>
+	<label commandName="FullAngleInput" devLabel="Full Angle" translation="Angle complet"/>
+	<label commandName="InferenceAddRef" devLabel="Add Reference" translation="Ajouter une référence"/>
+	<label commandName="InferenceConcentricTo" devLabel="Concentric To" translation="Concentrique par rapport à"/>
+	<label commandName="InferenceMatchDiameter" devLabel="Match Diameter" translation="Respecter le diamètre"/>
+	<label commandName="InferenceMatchRadius" devLabel="Match Radius" translation="Respecter le rayon"/>
+	<label commandName="InferenceSnapTo" devLabel="Snap To" translation="Accrocher à"/>
+	<label commandName="InferenceSnapToPt" devLabel="Snap to Point" translation="Accrocher au point"/>
+	<label commandName="InspectAssemblyData" devLabel="Inspect Assembly Command" translation="Commande Inspecter l'assemblage"/>
+	<label commandName="InstallErrorTitleStr" devLabel="Unable to install %1%" translation="Impossible d'installer %1%"/>
+	<label commandName="JointDOFFlip" devLabel="Flip" translation="Inverser"/>
+	<label commandName="LengthInput1" devLabel="Length" translation="Longueur"/>
+	<label commandName="LengthInput2" devLabel="Length" translation="Longueur"/>
+	<label commandName="LockJOOrientationLinux1" devLabel="Select a snap point to place the joint origin. (hold CTRL key to lock snaps)" translation="Sélectionnez un point d'accroche pour placer l'origine de la liaison. (Maintenez la touche CTRL enfoncée pour verrouiller les accroches)"/>
+	<label commandName="LockJOOrientationMac1" devLabel="Select a snap point to place the joint origin. (hold CMD key to lock snaps)" translation="Sélectionnez un point d'accrochage pour placer l'origine de la liaison. (Maintenez la touche CMD enfoncée pour verrouiller les accrochages)"/>
+	<label commandName="LockJOOrientationWin1" devLabel="Select a snap point to place the joint origin. (hold CTRL key to lock snaps)" translation="Sélectionnez un point d'accrochage pour placer l'origine de la liaison. (Maintenez la touche CTRL enfoncée pour verrouiller les accrochages)"/>
+	<label commandName="LoopLengthInput1" devLabel="Loop Length" translation="Longueur du contour fermé"/>
+	<label commandName="LoopLengthInput2" devLabel="Loop Length" translation="Longueur du contour fermé"/>
+	<label commandName="MaterialCommand" devLabel="Manage Materials" translation="Gérer les matières"/>
+	<label commandName="Maximum" devLabel="Maximum" translation="Maximal"/>
+	<label commandName="MeasureCommand" devLabel="Measure" translation="Mesurer"/>
+	<label commandName="MeasureCommandDesc1" devLabel="Measure distance, angle, area, or position/delta." translation="Mesurer la distance, l'angle, l'aire ou la position/delta."/>
+	<label commandName="MeasureCommandDesc2" devLabel="Select a vertex, edge, face, body, or component." translation="Sélectionnez un sommet, une arête, une face, un corps ou un composant."/>
+	<label commandName="MeasureCommandPrecisionCursorPrompt" devLabel="Overrides the General precision setting in Preferences." translation="Remplace le paramètre de précision Général dans les préférences."/>
+	<label commandName="MeasureCommandSecondaryUnitCursorPrompt" devLabel="Displays the measurement with secondary&#xA;units in parentheses." translation="Affiche la mesure avec les unités secondaires&#xA;entre parenthèses."/>
+	<label commandName="MeasureCommandSelectCursorPromptMac" devLabel="Select objects to measure." translation="Sélectionnez les objets à mesurer."/>
+	<label commandName="MeasureCommandSelectCursorPromptSnapPointMac" devLabel="Select objects to measure. Hold Shift to remove snap points. Hold Ctrl to lock snap points." translation="Sélectionnez les objets à mesurer. Maintenez la touche Maj enfoncée pour supprimer des points d'accrochage. Maintenez la touche Ctrl enfoncée pour verrouiller les points d'accrochage."/>
+	<label commandName="MeasureCommandSelectCursorPromptSnapPointWin" devLabel="Select objects to measure. Hold Shift to remove snap points. Hold Ctrl to lock snap points." translation="Sélectionnez les objets à mesurer. Maintenez la touche Maj enfoncée pour supprimer des points d'accrochage. Maintenez la touche Ctrl enfoncée pour verrouiller les points d'accrochage."/>
+	<label commandName="MeasureCommandSelectCursorPromptWin" devLabel="Select objects to measure." translation="Sélectionnez les objets à mesurer."/>
+	<label commandName="MeasureSecondaryUnitsCM" devLabel="cm" translation="cm"/>
+	<label commandName="MeasureSecondaryUnitsFt" devLabel="ft" translation="pi"/>
+	<label commandName="MeasureSecondaryUnitsIn" devLabel="in" translation="po"/>
+	<label commandName="MeasureSecondaryUnitsM" devLabel="m" translation="m"/>
+	<label commandName="MeasureSecondaryUnitsMM" devLabel="mm" translation="mm"/>
+	<label commandName="MeasureSecondaryUnitsNone" devLabel="None" translation="Aucun"/>
+	<label commandName="MeasureTypeAngle" devLabel="Angle" translation="Angle"/>
+	<label commandName="MeasureTypeAngleDesc" devLabel="Measure Angle" translation="Mesurer l'angle"/>
+	<label commandName="MeasureTypeArea" devLabel="Area" translation="Aire"/>
+	<label commandName="MeasureTypeAreaDesc" devLabel="Measure Area" translation="Mesurer l'aire"/>
+	<label commandName="MeasureTypeDistance" devLabel="Distance" translation="Distance"/>
+	<label commandName="MeasureTypeDistanceDesc" devLabel="Measure Distance" translation="Mesurer la distance"/>
+	<label commandName="MeasureTypePositionDelta" devLabel="Position/Delta" translation="Position/Delta"/>
+	<label commandName="MeasureTypePositionDesc" devLabel="Measure Position/Delta" translation="Mesurer la position/le Delta"/>
+	<label commandName="Minimum" devLabel="Minimum" translation="Minimal"/>
+	<label commandName="POPAlongPathDirection" devLabel="Path Direction" translation="Direction de la trajectoire"/>
+	<label commandName="POPDirectionType" devLabel="Direction" translation="Direction"/>
+	<label commandName="POPIdentical" devLabel="Identical" translation="Identique"/>
+	<label commandName="POPOneDirection" devLabel="One Direction" translation="Une direction"/>
+	<label commandName="POPOrientationType" devLabel="Orientation" translation="Orientation"/>
+	<label commandName="POPSymmetric" devLabel="Symmetric" translation="Symétrique"/>
+	<label commandName="PasteCommand" devLabel="Paste" translation="Coller"/>
+	<label commandName="PathPatternDistanceExtentDesc" devLabel="Specify the distance value for the full extent of the pattern along the path." translation="Spécifiez la distance de l'ensemble du réseau le long de la trajectoire."/>
+	<label commandName="PathPatternDistanceSpacingDesc" devLabel="Specify the distance value between each pattern instance along the path." translation="Spécifiez la distance entre chaque occurrence de réseau le long de la trajectoire."/>
+	<label commandName="PatterOnPathCounterInput" devLabel="Quantity" translation="Quantité"/>
+	<label commandName="PatterOnPathCounterInputDesc" devLabel="Specify the number of pattern instances to create along the path." translation="Spécifiez le nombre d'occurrences de réseau à créer le long de la trajectoire."/>
+	<label commandName="PatterOnPathDistanceInput" devLabel="Distance" translation="Distance"/>
+	<label commandName="PatterOnPathStartPointDesc" devLabel="Specify the percentage value to offset the first pattern instance from the start point. Drag the start point along the path to reposition it." translation="Spécifiez le pourcentage du décalage de la première occurrence de réseau par rapport au point de départ. Faites glisser le point de départ le long de la trajectoire pour le repositionner."/>
+	<label commandName="PatterOnPathStartPointInput" devLabel="Start Point" translation="Point de départ"/>
+	<label commandName="PhysicalMaterialEditOnlyCommand" devLabel="Manage Physical Materials" translation="Gérer les matières physiques"/>
+	<label commandName="PlaneToCenterAxisInput" devLabel="Distance" translation="Distance"/>
+	<label commandName="PlaneToCenterAxisMaximumInput" devLabel="Maximum Distance" translation="Distance maximale"/>
+	<label commandName="PlaneToCenterAxisMinimumInput" devLabel="Minimum Distance" translation="Distance minimale"/>
+	<label commandName="PlanesVisibilityToggleCmd" devLabel="Show/Hide Planes" translation="Afficher/Masquer les plans"/>
+	<label commandName="PointsVisibilityToggleCmd" devLabel="Show/Hide Points" translation="Afficher/masquer des points"/>
+	<label commandName="PositionInput1X" devLabel="X Position" translation="Position X"/>
+	<label commandName="PositionInput1Y" devLabel="Y Position" translation="Position Y"/>
+	<label commandName="PositionInput1Z" devLabel="Z Position" translation="Position Z"/>
+	<label commandName="PositionInput2X" devLabel="X Position" translation="Position X"/>
+	<label commandName="PositionInput2Y" devLabel="Y Position" translation="Position Y"/>
+	<label commandName="PositionInput2Z" devLabel="Z Position" translation="Position Z"/>
+	<label commandName="PositionProperty2" devLabel="Body" translation="Corps"/>
+	<label commandName="PositionProperty3" devLabel="Output:" translation="Sortie:"/>
+	<label commandName="Precision0" devLabel="0" translation="0"/>
+	<label commandName="Precision1" devLabel="0.1" translation="0.1"/>
+	<label commandName="Precision2" devLabel="0.12" translation="0.12"/>
+	<label commandName="Precision3" devLabel="0.123" translation="0.123"/>
+	<label commandName="Precision4" devLabel="0.1234" translation="0.1234"/>
+	<label commandName="Precision5" devLabel="0.12345" translation="0.12345"/>
+	<label commandName="Precision6" devLabel="0.123456" translation="0.123456"/>
+	<label commandName="Precision7" devLabel="0.1234567" translation="0.1234567"/>
+	<label commandName="Precision8" devLabel="0.12345678" translation="0.12345678"/>
+	<label commandName="PrecisionAll" devLabel="All Decimals" translation="Toutes les décimales"/>
+	<label commandName="PrecisionInput" devLabel="Precision" translation="Précision"/>
+	<label commandName="PreviewAngle" devLabel="angle" translation="angle"/>
+	<label commandName="PreviewCenterCenterAxisToCenterAxis" devLabel="center axis to center axis" translation="axe central sur l'axe central"/>
+	<label commandName="PreviewCenterToCenter" devLabel="center to center" translation="centre à centre"/>
+	<label commandName="PreviewDiameter" devLabel="diameter" translation="diamètre"/>
+	<label commandName="PreviewDistance" devLabel="distance" translation="distance"/>
+	<label commandName="PreviewImageCommandDesc1" devLabel="Preview image in a dialog window." translation="Affichez un aperçu de l'image dans une fenêtre de dialogue."/>
+	<label commandName="PreviewLength" devLabel="length" translation="longueur"/>
+	<label commandName="PreviewPlaneToCenterAxis" devLabel="plane to center axis" translation="plan sur axe central"/>
+	<label commandName="PreviewRadius" devLabel="radius" translation="rayon"/>
+	<label commandName="PythonInteractiveCommand" devLabel="Interactive command to run Python Script..." translation="Commande interactive pour exécuter un script Python..."/>
+	<label commandName="PythonSequentialCommand" devLabel="Sequential command to run Python Script..." translation="Commande séquentielle pour exécuter un script Python..."/>
+	<label commandName="RadiusInput1" devLabel="Radius" translation="Rayon"/>
+	<label commandName="RadiusInput2" devLabel="Radius" translation="Rayon"/>
+	<label commandName="ReanchoringHints" devLabel="Select perpendicular face for re-anchoring" translation="Sélectionner la face perpendiculaire à ancrer à nouveau"/>
+	<label commandName="ReanchoringObjectsHints" devLabel="Select new pivot location" translation="Sélectionnez un nouveau point de pivot"/>
+	<label commandName="RegexString" devLabel="Enter regular expression for selective journaling." translation="Entrez l'expression régulière pour la journalisation sélective."/>
+	<label commandName="RemoveOverrideCommand" devLabel="Remove Appearance Override" translation="Supprimer le remplacement de l'apparence"/>
+	<label commandName="RemoveVisibilityOverrideCommand" devLabel="Remove Visibility Overrides" translation="Supprimer les remplacements de visibilité"/>
+	<label commandName="Reorient" devLabel="Set Pivot" translation="Définir le pivot"/>
+	<label commandName="Rest" devLabel="Rest" translation="Appui"/>
+	<label commandName="RestartAppStr" devLabel="Restart Application" translation="Redémarrer l'application"/>
+	<label commandName="RestartLinkStr" devLabel="Click to save your work and restart now." translation="Cliquez pour enregistrer votre travail et redémarrer maintenant."/>
+	<label commandName="RestartMsgStr" devLabel="The %1% has been installed." translation="Le %1% a été installé."/>
+	<label commandName="RestartSelectionInput" devLabel="Clear Selection" translation="Effacer la sélection"/>
+	<label commandName="ResultsDeltaGroupInput" devLabel="XYZ Delta" translation="Delta XYZ"/>
+	<label commandName="ResultsGroupInput" devLabel="Results" translation="Résultats"/>
+	<label commandName="Reverse" devLabel="Reverse" translation="Inverser"/>
+	<label commandName="SanityCheckCommand" devLabel="Sanity check bodies" translation="Contrôle des corps"/>
+	<label commandName="SaveAsASMCommand" devLabel="Save As ASM" translation="Enregistrer au format ASM"/>
+	<label commandName="SaveAsSATCommand" devLabel="Save As SAT" translation="Enregistrer au format SAT"/>
+	<label commandName="SecondaryUnitsInput" devLabel="Secondary Units" translation="Unités secondaires"/>
+	<label commandName="SelectSelectionGroupCmd" devLabel="Select" translation="Sélectionner"/>
+	<label commandName="SelectabilityToggleCmd" devLabel="Selectable/Unselectable" translation="Sélectionnable / non sélectionnable"/>
+	<label commandName="SelectableUnselectableDescription" devLabel="&lt;br&gt;&lt;br&gt;Enables or disables selection of these objects in the canvas" translation="&lt;br&gt;&lt;br&gt;Active ou désactive la sélection de ces objets dans la zone de dessin"/>
+	<label commandName="SelectableUnselectableFirstLine" devLabel="&lt;b&gt;Selectable/Unselectable&lt;/b&gt;" translation="&lt;b&gt;Sélectionnable/Non sélectionnable&lt;/b&gt;"/>
+	<label commandName="Selection1ResultsGroupInput" devLabel="Selection 1" translation="Sélection 1"/>
+	<label commandName="Selection2ResultsGroupInput" devLabel="Selection 2" translation="Sélection 2"/>
+	<label commandName="SelectionFilterBodyDesc" devLabel="Filters selection to bodies." translation="Filtre la sélection sur les corps."/>
+	<label commandName="SelectionFilterComponentDesc" devLabel="Filters selection to components." translation="Filtre la sélection sur les composants."/>
+	<label commandName="SelectionFilterFaceEdgeVertexDesc" devLabel="Filters selections to faces, edges or vertices." translation="Filtre les sélections sur les faces, les arêtes ou les sommets."/>
+	<label commandName="SelectionIndicator1" devLabel="Selection Indicator" translation="Indicateur de sélection"/>
+	<label commandName="SelectionIndicator2" devLabel="Selection Indicator" translation="Indicateur de sélection"/>
+	<label commandName="SelectionInput1" devLabel="Select 1" translation="Sélectionner 1"/>
+	<label commandName="SelectionInput2" devLabel="Select 2" translation="Sélectionner 2"/>
+	<label commandName="SelectionInput3" devLabel="Select 3" translation="Sélectionner 3"/>
+	<label commandName="SelectionTypesInput" devLabel="Selection Filter" translation="Filtre de sélection"/>
+	<label commandName="SeparatorInput" devLabel="Separator" translation="Séparateur"/>
+	<label commandName="ShowAffectedFacesCommand" devLabel="Show Affected Faces" translation="Afficher les faces affectées"/>
+	<label commandName="ShowAllBodiesCmd" devLabel="Show All Bodies" translation="Afficher tous les corps"/>
+	<label commandName="ShowAllComponentsCmd" devLabel="Show All Components" translation="Afficher tous les composants"/>
+	<label commandName="ShowAllComponentsCmdDesc1" devLabel="Turns on the visibility of selected components, including child components." translation="Active la visibilité des composants sélectionnés, y compris les composants enfants."/>
+	<label commandName="ShowAllGroupMembersCmd" devLabel="Show All" translation="Tout Afficher"/>
+	<label commandName="ShowSnapPoints" devLabel="Show Snap Points" translation="Afficher les points d'accrochage"/>
+	<label commandName="SnapPointSelectedCmdInput" devLabel="SnapPointSelectedCmdInput" translation="EntréeCmdPointAccrochageSélectionné"/>
+	<label commandName="Stop Reorient" devLabel="Done" translation="Terminer"/>
+	<label commandName="SuppressAppearanceCmd" devLabel="Suppress Appearance Overrides" translation="Masquer les remplacements d'apparence"/>
+	<label commandName="SurfTrimBlankAreaHint" devLabel="Select surfaces to remove" translation="Sélectionner les surfaces à supprimer"/>
+	<label commandName="SurfTrimCutToolSelectHint" devLabel="Select a trimming tool" translation="Sélectionner un outil d'ajustement"/>
+	<label commandName="TRBodyRestructureWarning" devLabel="If you move the following bodies, some assembly relationships will break: &lt;table&gt;%1%&lt;/table&gt;&lt;br/&gt;&lt;br/&gt; Continue moving the bodies anyway? " translation="Si vous déplacez les corps suivants, certaines relations d'ensemble seront rompues: &lt;table&gt;%1%&lt;/table&gt;&lt;br/&gt;&lt;br/&gt; Continuer à déplacer les corps malgré tout? "/>
+	<label commandName="TogggleSelectiveJournaling" devLabel="Toggle selective journaling." translation="Activer/désactiver la journalisation sélective."/>
+	<label commandName="Toggle Occuence" devLabel="Toggle to suppress/unsuppress the occurrence" translation="Basculer vers Masquer/Annuler le masquage de l'occurrence"/>
+	<label commandName="UpdateSelectionGroupCmd" devLabel="Update Selection Set" translation="Mettre à jour le jeu de sélection"/>
+	<label commandName="UpdateSelectionGroupWarning" devLabel="Warning: Nothing selected. Select entities first to update this Selection Set" translation="Avertissement: aucun élément n'est sélectionné. Sélectionner des entités pour mettre à jour ce jeu de sélection"/>
+	<label commandName="VSCodeDownloadMsg" devLabel="&lt;body style=&quot;font-family:Helvetica,Arial,sans-serif;font-size:13px;&quot;&gt;&lt;p&gt;%1%&lt;/p&gt;&lt;/body&gt;" translation="&lt;body style=&quot;font-family:Helvetica,Arial,sans-serif;font-size:13px;&quot;&gt;&lt;p&gt;%1%&lt;/p&gt;&lt;/body&gt;"/>
+	<label commandName="VSCodeDownloadMsgBoxCancelButton" devLabel="Cancel" translation="Annuler"/>
+	<label commandName="VSCodeDownloadMsgBoxTitle" devLabel="Download Visual Studio Code" translation="Télécharger Visual Studio Code"/>
+	<label commandName="VSCodeDownloadMsgBoxWebsiteButton" devLabel="Open VS Code website" translation="Ouvrir le site Web de VS Code"/>
+	<label commandName="ViewCommentCmd" devLabel="ViewComment" translation="ViewComment"/>
+	<label commandName="WarnTRBodyRestructuringTitle" devLabel="Assembly relationship will break" translation="La relation d'ensemble va se rompre"/>
+	<label commandName="flipTooltip" devLabel="Flips the minimum and maximum motion limits." translation="Inverse les limites de mouvement minimale et maximale."/>
+	<label commandName="infoPOPAlongPathDirectionDesc" devLabel="Orients each pattern instance relative to its position along the path." translation="Oriente chaque occurrence de réseau par rapport à sa position le long de la trajectoire."/>
+	<label commandName="infoPOPIdenticalDesc" devLabel="Orients all pattern instances to match the source object." translation="Oriente toutes les occurrences de motif pour qu'elles correspondent à l'objet source."/>
+	<label commandName="infoPOPOneDirectionDesc" devLabel="Distributes pattern instances in one direction from the source object along the path." translation="Répartit les occurrences de réseau dans une direction à partir de l'objet source le long de la trajectoire."/>
+	<label commandName="infoPOPSymmetricDesc" devLabel="Distributes pattern instances symmetrically in two directions from the source object along the path." translation="Répartit les occurrences de réseau symétriquement dans deux directions à partir de l'objet source le long de la trajectoire."/>
+	<label commandName="lclzCopyCommandText" devLabel="CopyCommand" translation="CommandeCopier"/>
+	<label commandName="lclzPasteCommandText" devLabel="PasteCommand" translation="PasteCommand"/>
+	<label commandName="lclzVisibilityToggleCmdText" devLabel="Show/Hide" translation="Afficher/Masquer"/>
+	<label commandName="maxTooltip" devLabel="Specify the maximum motion limit for the joint." translation="Spécifiez la limite de mouvement maximale de la liaison."/>
+	<label commandName="minTooltip" devLabel="Specify the minimum  motion limit for the joint." translation="Spécifiez la limite de mouvement minimale de la liaison."/>
+	<label commandName="restTooltip" devLabel="Specify the default position of the joint at rest." translation="Spécifiez la position par défaut de la liaison au repos."/>
+	<label commandName="selected" devLabel="selected" translation="sélectionné"/>
+</Resource>

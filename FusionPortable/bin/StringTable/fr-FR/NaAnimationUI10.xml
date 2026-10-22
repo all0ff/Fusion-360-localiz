@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ActionEditorDisplayName" devLabel="Action Editor" translation="Editeur d'actions"/>
+	<label commandName="ActoinTypeInput" devLabel="Type" translation="Type"/>
+	<label commandName="AlignActionEndTimesCmd" devLabel="Align end time" translation="Aligner l'heure de fin"/>
+	<label commandName="AlignActionStartTimesCmd" devLabel="Align start time" translation="Aligner l'heure de début"/>
+	<label commandName="AllStoryboardTip" devLabel="Apply the changes to all storyboards" translation="Appliquer les modifications à tous les scénarios"/>
+	<label commandName="AllStoryboards" devLabel="All Storyboards" translation="Tous les scénarios"/>
+	<label commandName="AnimationTimeline" devLabel="Animation Timeline" translation="Plan de montage chronologique de l'animation"/>
+	<label commandName="AnimationVideoMinimumHeight" devLabel="Please increase the height, the minimum value is %1." translation="Veuillez augmenter la hauteur, la valeur minimale est %1."/>
+	<label commandName="AnimationVideoMinimumResolution" devLabel="Please increase the resolution, the minimum value is %1." translation="Veuillez augmenter la résolution, la valeur minimale est %1."/>
+	<label commandName="AnimationVideoMinimumWidth" devLabel="Please increase the width, the minimum value is %1." translation="Veuillez augmenter la largeur, la valeur minimale est %1."/>
+	<label commandName="ApplicationSettingsEditCmd" devLabel="Edit Application Settings" translation="Modifier les paramètres de l'application"/>
+	<label commandName="AxisXDistance" devLabel="X Distance" translation="Distance X"/>
+	<label commandName="AxisYDistance" devLabel="Y Distance" translation="Distance Y"/>
+	<label commandName="AxisZDistance" devLabel="Z Distance" translation="Distance Z"/>
+	<label commandName="BackToStepBeginningTip" devLabel="Back to Storyboard Beginning." translation="Retour au début du scénario."/>
+	<label commandName="CalloutActionItem" devLabel="Edit" translation="Modifier"/>
+	<label commandName="CameraViewActionItem" devLabel="Camera View" translation="Vue de caméra"/>
+	<label commandName="Cancel" devLabel="Cancel" translation="Annuler"/>
+	<label commandName="Clean" devLabel="Clean" translation="Net"/>
+	<label commandName="Components" devLabel="Components" translation="Composants"/>
+	<label commandName="CompositeActionTooltip" devLabel="%1%: Composite Actions" translation="%1%: actions composites"/>
+	<label commandName="ConfigDropdownKey" devLabel="Configuration" translation="Configuration"/>
+	<label commandName="ContinueDeleteStory" devLabel="Delete" translation="Supprimer"/>
+	<label commandName="CreateActionMessage" devLabel="Create actions in canvas to generate animation" translation="Créer des actions dans la zone de dessin pour générer une animation"/>
+	<label commandName="CreateStoryboardTitle" devLabel="New Storyboard.&#xA;Add a new storyboard to the document." translation="Nouveau scénario.&#xA;Ajoutez un scénario au document."/>
+	<label commandName="CurrentDocumentTip2" devLabel="Apply the changes to current document" translation="Appliquer les modifications au document actif"/>
+	<label commandName="CurrentDocumentWindowSize" devLabel="Current Document Window Size" translation="Taille de la fenêtre du document actif"/>
+	<label commandName="CurrentStoryboard" devLabel="Current Storyboard" translation="Scénario actif"/>
+	<label commandName="CurrentStoryboardTip" devLabel="Apply the changes to current storyboard" translation="Appliquer les modifications au scénario actif"/>
+	<label commandName="Custom..." devLabel="Custom..." translation="Personnaliser..."/>
+	<label commandName="Delete Stories Warning" devLabel="Are you sure you want to delete the storyboards?" translation="Voulez-vous vraiment supprimer les scénarios?"/>
+	<label commandName="Delete Story" devLabel="Are you sure you want to delete the storyboard '%1%'?" translation="Voulez-vous vraiment supprimer le scénario %1%?"/>
+	<label commandName="Delete Story Warning" devLabel="Are you sure you want to delete the storyboard?" translation="Voulez-vous vraiment supprimer le scénario?"/>
+	<label commandName="Duration" devLabel="Duration" translation="Durée"/>
+	<label commandName="DurationAction" devLabel="Duration" translation="Durée"/>
+	<label commandName="DynamicControlID" devLabel="DynamicControlID" translation="DynamicControlID"/>
+	<label commandName="EndTime" devLabel="End" translation="Fin"/>
+	<label commandName="ExplodeCompNothing" devLabel="" translation=""/>
+	<label commandName="ExplodeCompRoot" devLabel="Root component cannot be exploded" translation="Impossible d'éclater le composant racine."/>
+	<label commandName="ExplodeCompRootOnlyLeaf" devLabel="Only leaf component can be exploded" translation="Seul un composant isolé peut être éclaté."/>
+	<label commandName="ExplodedInfo" devLabel="No available components for exploding." translation="Aucun composant disponible ne peut être éclaté."/>
+	<label commandName="ExplodedMessage" devLabel="The selected components are already separated from each other." translation="Les composants sélectionnés sont déjà séparés les uns des autres."/>
+	<label commandName="ExplosionComponentsInput" devLabel="Components" translation="Composants"/>
+	<label commandName="ExplosionEndTime" devLabel="Explosion End Time" translation="Heure de fin de l'éclatement"/>
+	<label commandName="ExplosionScaleInput" devLabel="Explosion Scale" translation="Echelle de l'éclatement"/>
+	<label commandName="ExplosionStartTime" devLabel="Explosion Start Time" translation="Heure de début de l'éclatement"/>
+	<label commandName="ExplosionTransformInput" devLabel="Distance" translation="Distance"/>
+	<label commandName="ExplosionTypeInput" devLabel="Type" translation="Type"/>
+	<label commandName="ExportVideo" devLabel="Publish Video" translation="Publier la vidéo"/>
+	<label commandName="ExportVideoFailed" devLabel="Failed to export video." translation="Échec de l'exportation de la vidéo."/>
+	<label commandName="ExportVideoSaveAs" devLabel="Save As" translation="Enregistrer sous"/>
+	<label commandName="ExportVideoWarnSaveAs" devLabel="Warn Save As" translation="AVERT. Enregistrer sous"/>
+	<label commandName="FileInUsedErrorMsg" devLabel="The process can not access the file %1%, because it is being used by another process." translation="Le processus ne peut pas accéder au fichier %1%, car il est en cours d'utilisation par un autre processus."/>
+	<label commandName="ForwardToStepEndTip" devLabel="Jump to Storyboard end." translation="Accéder à la fin du scénario."/>
+	<label commandName="FullscreenModeTip" devLabel="Fullscreen Mode for animation playback" translation="Mode plein écran pour la lecture de l'animation"/>
+	<label commandName="FusAnimationConfigDropdownInfo" devLabel="Configuration" translation="Configuration"/>
+	<label commandName="FusDocCustomLineWidth1" devLabel="0.00mm" translation="0,00 mm"/>
+	<label commandName="FusDocCustomLineWidth10" devLabel="0.35mm" translation="0,35 mm"/>
+	<label commandName="FusDocCustomLineWidth11" devLabel="0.40mm" translation="0,40 mm"/>
+	<label commandName="FusDocCustomLineWidth12" devLabel="0.50mm" translation="0,50 mm"/>
+	<label commandName="FusDocCustomLineWidth13" devLabel="0.53mm" translation="0,53 mm"/>
+	<label commandName="FusDocCustomLineWidth14" devLabel="0.60mm" translation="0,60 mm"/>
+	<label commandName="FusDocCustomLineWidth15" devLabel="0.70mm" translation="0,70 mm"/>
+	<label commandName="FusDocCustomLineWidth16" devLabel="0.80mm" translation="0,80 mm"/>
+	<label commandName="FusDocCustomLineWidth17" devLabel="0.90mm" translation="0,90 mm"/>
+	<label commandName="FusDocCustomLineWidth18" devLabel="1.00mm" translation="1,00 mm"/>
+	<label commandName="FusDocCustomLineWidth19" devLabel="1.06mm" translation="1,06 mm"/>
+	<label commandName="FusDocCustomLineWidth2" devLabel="0.05mm" translation="0,05 mm"/>
+	<label commandName="FusDocCustomLineWidth20" devLabel="1.20mm" translation="1,20 mm"/>
+	<label commandName="FusDocCustomLineWidth21" devLabel="1.40mm" translation="1,40 mm"/>
+	<label commandName="FusDocCustomLineWidth22" devLabel="1.58mm" translation="1,58 mm"/>
+	<label commandName="FusDocCustomLineWidth23" devLabel="2.00mm" translation="2,00 mm"/>
+	<label commandName="FusDocCustomLineWidth24" devLabel="2.11mm" translation="2,11 mm"/>
+	<label commandName="FusDocCustomLineWidth3" devLabel="0.09mm" translation="0,09 mm"/>
+	<label commandName="FusDocCustomLineWidth4" devLabel="0.13mm" translation="0,13 mm"/>
+	<label commandName="FusDocCustomLineWidth5" devLabel="0.15mm" translation="0,15 mm"/>
+	<label commandName="FusDocCustomLineWidth6" devLabel="0.18mm" translation="0,18 mm"/>
+	<label commandName="FusDocCustomLineWidth7" devLabel="0.20mm" translation="0,20 mm"/>
+	<label commandName="FusDocCustomLineWidth8" devLabel="0.25mm" translation="0,25 mm"/>
+	<label commandName="FusDocCustomLineWidth9" devLabel="0.30mm" translation="0,30 mm"/>
+	<label commandName="FusDocTextHeightASME0" devLabel="0.07in" translation="0,07 po"/>
+	<label commandName="FusDocTextHeightASME1" devLabel="0.1in" translation="0,1 po"/>
+	<label commandName="FusDocTextHeightASME2" devLabel="0.12in" translation="0,12 po"/>
+	<label commandName="FusDocTextHeightASME3" devLabel="0.24in" translation="0,24 po"/>
+	<label commandName="FusDocTextHeightASME4" devLabel="0.35in" translation="0,35 po"/>
+	<label commandName="FusDocTextHeightASME5" devLabel="0.5in" translation="0,5 po"/>
+	<label commandName="FusDocTextHeightASME6" devLabel="0.75in" translation="0,75 po"/>
+	<label commandName="FusDocTextHeightISO0" devLabel="1.8mm" translation="1,8 mm"/>
+	<label commandName="FusDocTextHeightISO1" devLabel="2.5mm" translation="2,5 mm"/>
+	<label commandName="FusDocTextHeightISO2" devLabel="3.5mm" translation="3,5 mm"/>
+	<label commandName="FusDocTextHeightISO3" devLabel="5mm" translation="5 mm"/>
+	<label commandName="FusDocTextHeightISO4" devLabel="7mm" translation="7 mm"/>
+	<label commandName="FusDocTextHeightISO5" devLabel="10mm" translation="10 mm"/>
+	<label commandName="FusDocTextHeightISO6" devLabel="14mm" translation="14 mm"/>
+	<label commandName="FusDocTextHeightISO7" devLabel="20mm" translation="20 mm"/>
+	<label commandName="GroupLibSel" devLabel="Scope:" translation="Portée:"/>
+	<label commandName="GroupLibSelDocument" devLabel="All Storyboards" translation="Tous les scénarios"/>
+	<label commandName="GroupLibSelStoryboard" devLabel="Current Storyboard" translation="Scénario actif"/>
+	<label commandName="GroupReference" devLabel="Reference" translation="Référence"/>
+	<label commandName="Height" devLabel="Height" translation="Hauteur"/>
+	<label commandName="Inches" devLabel="Inches" translation="Pouces"/>
+	<label commandName="InstantAction" devLabel="Instant" translation="Instantanée"/>
+	<label commandName="Isolate" devLabel="Isolate" translation="Isoler"/>
+	<label commandName="ItemsNotExplodedMessage" devLabel="More than one items are not exploded" translation="Plusieurs éléments ne sont pas éclatés."/>
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="Nombre décimal"/>
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="Fraction"/>
+	<label commandName="LinearUnitFormat2" devLabel="Engineering" translation="Ingénierie"/>
+	<label commandName="LinearUnitFormat3" devLabel="Architectural" translation="Architecture"/>
+	<label commandName="LockAspectRatio" devLabel="Lock Aspect Ratio" translation="Verrouiller le rapport de linéarité"/>
+	<label commandName="LockComponent" devLabel="Pivot position locked" translation="Position du pivot verrouillée"/>
+	<label commandName="Maker" devLabel="Drawing reference marker" translation="Marqueur de référence du dessin"/>
+	<label commandName="ManualExplodeComp" devLabel="Select components to explode" translation="Sélectionner les composants à éclater"/>
+	<label commandName="MaterialActionItem" devLabel="Material" translation="Matériau"/>
+	<label commandName="MaterialSelectionInput" devLabel="Selection" translation="Sélection"/>
+	<label commandName="MotionPathActionItem" devLabel="Move" translation="Déplacer"/>
+	<label commandName="MoveComp" devLabel="Select components to move" translation="Sélectionner les composants à déplacer"/>
+	<label commandName="MoveCompNothing" devLabel="" translation=""/>
+	<label commandName="MoveCompRoot" devLabel="Root component cannot be moved" translation="Impossible de déplacer le composant racine"/>
+	<label commandName="MoveComponentsComponentsInput" devLabel="Components" translation="Composants"/>
+	<label commandName="MoveComponentsTransformInput" devLabel="Distance" translation="Distance"/>
+	<label commandName="NegativeAxisXDistance" devLabel="-X Distance" translation="-Distance X"/>
+	<label commandName="NegativeAxisYDistance" devLabel="-Y Distance" translation="-Distance Y"/>
+	<label commandName="NegativeAxisZDistance" devLabel="-Z Distance" translation="-Distance Z"/>
+	<label commandName="NewDrawingAnimationDialogTitle" devLabel="CREATE DRAWING" translation="CREER UN DESSIN"/>
+	<label commandName="NewFusionDrawingStoryboard" devLabel="Storyboard" translation="Scénario"/>
+	<label commandName="NoActiveStoryboardMessage" devLabel="Unable to delete storyboard. The Animation workspace must have at least 1 storyboard." translation="Impossible de supprimer le scénario. L'espace de travail Animation doit disposer d'au moins 1 scénario."/>
+	<label commandName="NoMatchingItemMessage" devLabel="No matching auto explode item found for the tree node" translation="Aucun élément éclaté automatiquement correspondant n'a été trouvé pour le noeud de l'arborescence."/>
+	<label commandName="NoValidComponentInstanceMessage" devLabel="Can't get ComponentInstacne for ExplodeItem" translation="Impossible d'obtenir ComponentInstance pour ExplodeItem"/>
+	<label commandName="NoValidObjectsForVisibilityToggleCmd" devLabel="No objects available for toggling." translation="Aucun objet ne peut être activé/désactivé."/>
+	<label commandName="NormalModeTip" devLabel="Normal mode" translation="Mode normal"/>
+	<label commandName="Ok" devLabel="OK" translation="OK"/>
+	<label commandName="OneStepExplosion" devLabel="One-Step Explosion" translation="Eclatement en une fois"/>
+	<label commandName="OverlappedTooltip" devLabel="Overlapped by 0.5 seconds" translation="Chevauchement de 0,5 seconde"/>
+	<label commandName="PauseTip" devLabel="Pause" translation="Suspendre"/>
+	<label commandName="Pixels" devLabel="Pixels" translation="Pixels"/>
+	<label commandName="PixelsPerInch" devLabel="Pixels/Inch" translation="Pixels/Pouce"/>
+	<label commandName="PlayCurrentStoryboard" devLabel="Play Current Storyboard" translation="Lire le scénario actif"/>
+	<label commandName="PlayStepTip" devLabel="Play back timeline.&#xA;Use Spacebar to start / stop playback." translation="Plan de montage chronologique associé à la lecture.&#xA;Utilisez la barre d'espacement pour démarrer/arrêter la lecture."/>
+	<label commandName="Playhead" devLabel="Playhead.&#xA;This is the current time value, where actions will be created on the timeline." translation="Tête de lecture.&#xA;Il s'agit de la valeur temporelle actuelle, au niveau de laquelle les actions seront créées dans le plan de montage chronologique."/>
+	<label commandName="PreviousType" devLabel="Start from end of previous" translation="Démarrer à partir de la fin de l'élément précédent"/>
+	<label commandName="Publish Text" devLabel="   Publish in progress... %p%" translation="   Publication en cours... %p%"/>
+	<label commandName="Publish Video" devLabel="Publish Video" translation="Publier la vidéo"/>
+	<label commandName="PublishConfiguration" devLabel="Configuration" translation="Configuration"/>
+	<label commandName="PublishStoryBoard" devLabel="Storyboard" translation="Scénario"/>
+	<label commandName="Publisher3D Environment" devLabel="Animation" translation="Animation"/>
+	<label commandName="PublisherActivateConfigRowCmdName" devLabel="Activate Config" translation="Activer la configuration"/>
+	<label commandName="PublisherActivateConfigRowFailedToSwitchConfig" devLabel="Failed to switch to the given config." translation="Impossible de passer à la configuration donnée."/>
+	<label commandName="PublisherActivateStoryboard" devLabel="Activate Storyboard" translation="Activer le scénario"/>
+	<label commandName="PublisherAppearanceCommand" devLabel="Appearance" translation="Apparence"/>
+	<label commandName="PublisherChangeActionEndTimeCmd" devLabel="Change Action End Time" translation="Modifier l'heure de fin de l'action"/>
+	<label commandName="PublisherChangeActionStartTimeCmd" devLabel="Change Action Start Time" translation="Modifier l'heure de début de l'action"/>
+	<label commandName="PublisherChangeZoomLevel" devLabel="Change Zoom Level" translation="Modifier le niveau de zoom"/>
+	<label commandName="PublisherCopyCommand" devLabel="Copy" translation="Copier"/>
+	<label commandName="PublisherCopyCommandDesc" devLabel="Copy" translation="Copier"/>
+	<label commandName="PublisherCreateCameraAction" devLabel="Camera Change" translation="Changement de caméra"/>
+	<label commandName="PublisherCreateSelectionGroupCmd" devLabel="Create Selection Set" translation="Créer un jeu de sélection"/>
+	<label commandName="PublisherCreateStoryboardCommand" devLabel="New Storyboard" translation="Nouveau scénario"/>
+	<label commandName="PublisherCutCommand" devLabel="Cut" translation="Couper"/>
+	<label commandName="PublisherCutCommandDesc" devLabel="Cut" translation="Couper"/>
+	<label commandName="PublisherDeleteActorCommand" devLabel="Delete Actions" translation="Supprimer des actions"/>
+	<label commandName="PublisherDeleteCommand" devLabel="Delete" translation="Supprimer"/>
+	<label commandName="PublisherDeleteCommandDesc" devLabel="Delete" translation="Supprimer"/>
+	<label commandName="PublisherDurationCmd" devLabel="Duration" translation="Durée"/>
+	<label commandName="PublisherEditActionCmd" devLabel="Edit Start/End" translation="Modifier le début/la fin"/>
+	<label commandName="PublisherEditSmartObjectActionCmd" devLabel="Edit Start" translation="Modifier le début"/>
+	<label commandName="PublisherEditTransformAction" devLabel="Edit Action" translation="Modifier l'action"/>
+	<label commandName="PublisherExpandCompositeActionsCmd" devLabel="Expand" translation="Développer"/>
+	<label commandName="PublisherExplodeAllParts" devLabel="Auto Explode: All Levels" translation="Eclaté automatique: tous les niveaux"/>
+	<label commandName="PublisherExplodeDirectChildren" devLabel="Auto Explode: One Level" translation="Eclaté automatique: un seul niveau"/>
+	<label commandName="PublisherFindInBrowserCmdName" devLabel="Find in Browser" translation="Rechercher dans le navigateur"/>
+	<label commandName="PublisherFindInWindowCmdName" devLabel="Find in Window" translation="Rechercher dans la fenêtre"/>
+	<label commandName="PublisherManualExplodeCommand" devLabel="Manual Explode" translation="Eclaté manuel"/>
+	<label commandName="PublisherMaterialToggleCommand" devLabel="Toggle Material" translation="Activer/désactiver la matière"/>
+	<label commandName="PublisherMoveActionCmd" devLabel="Move Action" translation="Déplacer l'action"/>
+	<label commandName="PublisherMoveComponents" devLabel="Transform Components" translation="Transformer les composants"/>
+	<label commandName="PublisherMoveSequenceEntry" devLabel="Move Steps/Storyboards" translation="Déplacer les pas/scénarios"/>
+	<label commandName="PublisherNewDrawingDocument1" devLabel="From Animation" translation="Depuis l'animation"/>
+	<label commandName="PublisherPasteCommand" devLabel="Paste" translation="Coller"/>
+	<label commandName="PublisherPasteCommandDesc" devLabel="Paste" translation="Coller"/>
+	<label commandName="PublisherRenameStoryboard" devLabel="Rename Storyboard" translation="Renommer le scénario"/>
+	<label commandName="PublisherRenameStoryboardShell" devLabel="Rename" translation="Renommer..."/>
+	<label commandName="PublisherRestoreHome" devLabel="Restore Home" translation="Restaurer la vue de début"/>
+	<label commandName="PublisherScopeMaterialCommand" devLabel="Change Material Scope" translation="Modifier la portée de la matière"/>
+	<label commandName="PublisherSplitTransformsInput" devLabel="Split Transforms" translation="Fractionner les transformations"/>
+	<label commandName="PublisherToggleCameraRecordingCmd" devLabel="View" translation="Vue"/>
+	<label commandName="PublisherToggleCameraRecordingCmdDesc" devLabel="View" translation="Vue"/>
+	<label commandName="PublisherTrailElbowInput" devLabel="Trail Line Elbow" translation="Coude de la ligne de montage"/>
+	<label commandName="PublisherTrailVisibilityInput" devLabel="Trail Line Visibility" translation="Visibilité de la ligne de montage"/>
+	<label commandName="PublisherViewDisplayCommand" devLabel="PublisherViewCamera" translation="PublisherViewCamera"/>
+	<label commandName="PublisherVisibilityToggleCmd" devLabel="Show/Hide" translation="Afficher/Masquer"/>
+	<label commandName="ReanchoringObjectsHints1" devLabel="Select new pivot location." translation="Sélectionnez le nouvel emplacement du pivot."/>
+	<label commandName="ReanchoringObjectsHints2" devLabel="Select object(s) to reorient manipulator." translation="Sélectionnez des objets pour réorienter le manipulateur."/>
+	<label commandName="RecordingMode" devLabel="Recording Mode" translation="Mode d'enregistrement"/>
+	<label commandName="ReorderActorCommand" devLabel="Reorder Actor" translation="Réorganiser l'acteur"/>
+	<label commandName="Reorient" devLabel="Set Pivot" translation="Définir le pivot"/>
+	<label commandName="Resolution" devLabel="Resolution" translation="Résolution"/>
+	<label commandName="ReverseSequenceEntryCmd" devLabel="Reverse" translation="Inverser"/>
+	<label commandName="RotateActionItem" devLabel="Rotate" translation="Rotation"/>
+	<label commandName="SaveAsImage_DefaultName" devLabel="Untitled" translation="Sans nom"/>
+	<label commandName="ScopeInput" devLabel="Scope" translation="Portée"/>
+	<label commandName="ScratchZoneTooltip" devLabel="Scratch Zone.&#xA;Actions are not captured when the playhead is in the scratch zone.&#xA;Use this area to set up a scene before animating." translation="Zone de travail.&#xA;Les actions ne sont pas capturées lorsque la tête de lecture se trouve dans la zone de travail.&#xA;Cette zone permet de configurer une scène avant de l'animer."/>
+	<label commandName="SeekTip" devLabel="Seek" translation="Seek"/>
+	<label commandName="SelectAllAfterCmd" devLabel="Select All After" translation="Sélectionner tous les éléments après"/>
+	<label commandName="SelectAllBeforeCmd" devLabel="Select All Before" translation="Sélectionner tous les éléments avant"/>
+	<label commandName="SequentialExplosion" devLabel="Sequential Explosion" translation="Eclatement séquentiel"/>
+	<label commandName="SequentialTooltip" devLabel="Sequential" translation="Séquentiel"/>
+	<label commandName="SetPivot" devLabel="Set Pivot" translation="Définir le pivot"/>
+	<label commandName="SetPivotDoneToolTip" devLabel="Done" translation="Terminer"/>
+	<label commandName="SetPivotToolTip" devLabel="Set Pivot" translation="Définir le pivot"/>
+	<label commandName="SettingTitle" devLabel="Setting" translation="Paramètre"/>
+	<label commandName="SettingsTip" devLabel="Settings" translation="Paramètres"/>
+	<label commandName="ShowWartermarkText" devLabel="Show text watermark in canvas when Camera View is not recorded." translation="Afficher le texte en filigrane dans la zone de dessin lorsque la vue de caméra n'est pas enregistrée."/>
+	<label commandName="StartFromZeroTootip" devLabel="Start from Time 0" translation="Commencer à l'instant 0"/>
+	<label commandName="StartTime" devLabel="Start" translation="Début"/>
+	<label commandName="Stop Reorient" devLabel="Done" translation="Terminer"/>
+	<label commandName="Storyboard Type" devLabel="Storyboard Type" translation="Type de scénario"/>
+	<label commandName="StoryboardContainsAnimation" devLabel="Storyboard: Contains a timeline of animations." translation="Scénario: contient un plan de montage chronologique des animations."/>
+	<label commandName="StoryboardTabMoveInvalidParent" devLabel="Invalid parent object path" translation="Chemin de l'objet parent non valide"/>
+	<label commandName="StoryboardTabMoveReference" devLabel="Invalid reference" translation="Référence non valide"/>
+	<label commandName="SwitchConfigTxn" devLabel="Animation Switch Configuraton" translation="Configuration du commutateur d'animation"/>
+	<label commandName="TextHeightCustom" devLabel="Custom" translation="Personnalisé"/>
+	<label commandName="TextHeightLarge" devLabel="Large" translation="Grand"/>
+	<label commandName="TextHeightMedium" devLabel="Medium" translation="Moyen"/>
+	<label commandName="TextHeightSmall" devLabel="Small" translation="Petit"/>
+	<label commandName="TimelineZoomTip" devLabel="Timeline Zoom" translation="Zoom du plan de montage chronologique"/>
+	<label commandName="Unisolate" devLabel="Unisolate" translation="Annuler l'isolement"/>
+	<label commandName="UnknownBoundsMessage" devLabel="Unknown bounds type." translation="Type de limite inconnu."/>
+	<label commandName="UnlockComponent" devLabel="Pivot postion unlocked" translation="Position du pivot déverrouillée"/>
+	<label commandName="Video Options" devLabel="Video Options" translation="Options vidéo"/>
+	<label commandName="VideoResolution" devLabel="Video Resolution" translation="Résolution vidéo"/>
+	<label commandName="VideoScope" devLabel="Video Scope" translation="Portée de la vidéo"/>
+	<label commandName="VisibilityActionItem" devLabel="Visibility" translation="Visibilité"/>
+	<label commandName="Width" devLabel="Width" translation="Largeur"/>
+	<label commandName="lclz3DComponent" devLabel="Transform" translation="Transformation"/>
+	<label commandName="lclz3DStoryboard" devLabel="Storyboard" translation="Scénario"/>
+	<label commandName="lclzAnimation" devLabel="ANIMATION" translation="ANIMATION"/>
+	<label commandName="lclzAnimationWorkspaceName" devLabel="Animation Workspace" translation="Espace de travail Animation"/>
+	<label commandName="lclzAnimationWorkspaceTitle" devLabel="Creates animations of how the design should be operated or assembled." translation="Crée des animations présentant la manière dont la conception doit être utilisée ou assemblée."/>
+	<label commandName="lclzAnnotation" devLabel="Annotation" translation="Annotation"/>
+	<label commandName="lclzDebugTab" devLabel="DEBUG" translation="DÉBOGAGE"/>
+	<label commandName="lclzDiagnosticsPanel" devLabel="Diagnostics" translation="Diagnostics"/>
+	<label commandName="lclzExportVideo" devLabel="Publish animation to video file format." translation="Publiez une animation au format de fichier vidéo."/>
+	<label commandName="lclzFilePanel" devLabel="File" translation="Fichier"/>
+	<label commandName="lclzNewStoryboard" devLabel="Create an additional Storyboard tab, which creates a new timeline." translation="Créez un onglet Scénario supplémentaire, à partir duquel créer un plan de montage chronologique."/>
+	<label commandName="lclzPublishVideo" devLabel="Publish" translation="Publier"/>
+	<label commandName="lclzPublisherAppearance1" devLabel="The appearance affects the color of bodies, components, and faces. Appearances override the color assigned from the physical material. Appearances do not affect engineering properties." translation="L'apparence a une incidence sur la couleur des corps, composants et faces. Les apparences de remplacement de la couleur du matériau physique. Les apparences n'ont aucune incidence sur les propriétés d'ingénierie."/>
+	<label commandName="lclzPublisherAppearance2" devLabel="Drag the appearance from the dialog to the body, component, or face." translation="Faites glisser l'apparence dans la boîte de dialogue pour le corps, composants ou face."/>
+	<label commandName="lclzPublisherComponents" devLabel="Select the components to move then specify the distance and/or angle to move them in space. These movements will be captured on the timeline to create an animation of the movement." translation="Sélectionnez les composants à déplacer, puis spécifiez la distance et/ou l'angle pour les déplacer dans l'espace. Ces mouvements seront capturés dans le plan de montage chronologique pour créer une animation du mouvement."/>
+	<label commandName="lclzPublisherExplodeAllParts" devLabel="Explode all levels of the assembly, down to the lowest leaf parts for a complete exploded view." translation="Éclatez tous les niveaux de l'assemblage jusqu'aux pièces individuelles inférieures afin d'obtenir une vue éclatée complète."/>
+	<label commandName="lclzPublisherExplodeDirectChildren" devLabel="Explode the first level children components of the assembly." translation="Éclatez les composants enfants de premier niveau de l'assemblage."/>
+	<label commandName="lclzPublisherManualExplode" devLabel="Manually select components and define the axis they should explode along." translation="Sélectionnez manuellement les composants et définissez l'axe le long duquel ils doivent être éclatés."/>
+	<label commandName="lclzPublisherNewDrawingDocumentCommandTips" devLabel="Standard and Units cannot be changed once a drawing is created. Sheet size, however, can be adjusted at any time in Sheet Settings. " translation="La norme et les unités ne peuvent pas être modifiées dès lors qu'un dessin a été créé. La taille de la feuille, toutefois, peut être ajustée à tout moment dans la section Paramètres de la feuille. "/>
+	<label commandName="lclzPublisherNewDrawingDocumentCommandTipsDesc" devLabel="For more control over drawing defaults, make adjustments in Preferences in your User Name drop-down in the top right. " translation="Pour contrôler davantage les valeurs par défaut du dessin, apportez les ajustements nécessaires dans la section Préférences de la liste déroulante Nom d'utilisateur située en haut à droite. "/>
+	<label commandName="lclzPublisherNewDrawingDocumentCommandTipsTitle" devLabel="Create Drawing Information" translation="Informations sur la commande Créer un dessin"/>
+	<label commandName="lclzPublisherRestoreHome" devLabel="Automatically moves the component back to its original home location, as defined in the Design Workspace." translation="Rétablit automatiquement l'emplacement d'origine du composant, tel que défini dans l'espace de travail de conception."/>
+	<label commandName="lclzPublisherToggleCameraRecording" devLabel="Toggle Camera Recording on or off. Toggling the view off allows non-recorded scene navigation." translation="Activez/désactivez l'enregistrement de la caméra. La désactivation de la vue permet de naviguer entre les scènes non enregistrées."/>
+	<label commandName="lclzPublisherView" devLabel="View" translation="Vue"/>
+	<label commandName="lclzPublisherVisibility" devLabel="Turn on or off the visibility of components in the scene instantly or fade over a duration of time." translation="Activez ou désactivez la visibilité des composants dans la scène immédiatement ou appliquez un fondu pendant une certaine durée."/>
+	<label commandName="lclzUIDemo" devLabel="UI Demo" translation="Démonstration de l'interface utilisateur"/>
+	<label commandName="msgCreateConfigDrawing" devLabel="The selected configuration has no animation associated with it." translation="Aucune animation n'est associée à la configuration sélectionnée."/>
+	<label commandName="msgCreateDrawing" devLabel="No components are currently visible at this reference in the Storyboard timeline. &#xA;Cancel to change visibility settings before drawing creation." translation="Aucun composant n'est actuellement visible au niveau de cette référence dans le plan de montage chronologique du scénario. &#xA;Sélectionnez l'option Annuler pour modifier les paramètres de visibilité avant de créer un dessin."/>
+	<label commandName="msgCreateDrawingTip" devLabel="" translation=""/>
+	<label commandName="videoAVI" devLabel="AVI" translation="AVI"/>
+	<label commandName="videoMP4" devLabel="MP4" translation="MP4"/>
+</Resource>

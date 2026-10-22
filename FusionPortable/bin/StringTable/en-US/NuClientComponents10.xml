@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="BoundedPointOnPathCommandInput" devLabel="LoftBoundedPOPInput" translation="" />
+	<label commandName="ChainSelectionId" devLabel="Chain" translation="" />
+	<label commandName="ExtrudeExtentAll" devLabel="(All)" translation="" />
+	<label commandName="ExtrudeExtentTo" devLabel="(To)" translation="" />
+	<label commandName="ExtrudeExtentToNext" devLabel="(To Next)" translation="" />
+	<label commandName="LoftProfilePOPCommandInput" devLabel="LoftProfilePOPInput" translation="" />
+	<label commandName="RevolveExtentFull" devLabel="(Full)" translation="" />
+	<label commandName="RevolveExtentTo" devLabel="(To)" translation="" />
+	<label commandName="VisibilityToggleCmd" devLabel="Show/Hide" translation="" />
+	<label commandName="visibilityToggleWarningMsg" devLabel="Some of the work features you are trying to set visible are set to invisible currently in Object Visibility Options from Display Settings.They will remain invisible unless set in Object Visibility Options." translation="" />
+</Resource>

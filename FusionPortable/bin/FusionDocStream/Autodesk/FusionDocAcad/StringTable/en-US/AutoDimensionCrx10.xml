@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AUTODIM_CHOOSE_SCHEME" devLabel="Choose dimension recipe or select a dimension" translation="" />
+	<label commandName="FUSION_SELECT_VIEW" devLabel="&#10;Select view" translation="" />
+	<label commandName="SELECT_DIMENSION_FOR_AUTODIMENSION" devLabel="Click on desired dimension" translation="" />
+	<label commandName="Select_Origin" devLabel="Select origin point" translation="" />
+</Resource>

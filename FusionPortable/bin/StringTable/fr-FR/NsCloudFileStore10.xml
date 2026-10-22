@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CFSErrorMessageTitle" devLabel="Fusion Team Error Message" translation="Message d'erreur Fusion Team"/>
+	<label commandName="CloudFileExceptionUpload2" devLabel="[CFSUploader] Unknown exception when uploading file %1%. Please ensure network connectivity." translation="[CFSUploader] Exception inconnue lors du chargement du fichier %1%. Vérifiez la connectivité réseau."/>
+	<label commandName="CloudFileStoreAutoSaveDescription" devLabel="Auto save." translation="Enregistrement automatique."/>
+	<label commandName="CloudFileStoreCloseSaveDescription" devLabel="Save on Close." translation="Enregistrer à la fermeture."/>
+	<label commandName="SaveFailedToastHeading" devLabel="Cloud save failed" translation="Échec de l'enregistrement dans le cloud"/>
+	<label commandName="SaveFailedToastLinkText" devLabel="Open design" translation="Ouvrir la conception"/>
+	<label commandName="SaveFailedToastMessage" devLabel="&lt;br&gt;%1% failed to save to the cloud.&lt;br&gt;Your changes are still in the local cache. Open and try to save them again." translation="&lt;br&gt;Impossible d'enregistrer %1% dans le cloud.&lt;br&gt;Vos modifications se trouvent toujours dans le cache local. Ouvrez la conception pour réessayez de les enregistrer."/>
+	<label commandName="Tooltip_CurrentlyReservedBy" devLabel="Currently reserved by %1%" translation="Actuellement réservé par %1%"/>
+	<label commandName="UploadStalledHeading" devLabel="Upload delayed" translation="Chargement retardé"/>
+	<label commandName="UploadStalledNotification" devLabel="%1% upload started on %2% but has not completed. Open Job Status to view the job." translation="Le chargement de %1% a démarré le %2%, mais n'est pas terminé. Ouvrez l'état de la tâche pour afficher la tâche."/>
+	<label commandName="UploaderThread::Upload failed" devLabel="Upload failed. Original File: %1%" translation="Echec du chargement. Fichier d'origine: %1%"/>
+	<label commandName="UploaderThread::std::exception" devLabel="[CFSUploader] Exception %1% when uploading file %2%. Please ensure network connectivity." translation="[CFSUploader] Exception %1% lors du chargement du fichier %2%. Vérifiez la connectivité réseau."/>
+	<label commandName="UserNotAuthenticated" devLabel="Upload queued attachment %1% error, user isn't authenticated by Autodesk 360, please login to Autodesk 360 first." translation="Erreur de chargement de la pièce jointe en file d'attente %1%, l'utilisateur n'est pas authentifié par Autodesk 360, connectez-vous d'abord à Autodesk 360."/>
+	<label commandName="WaitMessageForQueuedFile" devLabel="Waiting for %1% to complete" translation="En attente de la fin de %1%"/>
+	<label commandName="filenotexist" devLabel="Could not import document. The specified file (%1%) does not exist." translation="Impossible d'importer le document. Le fichier spécifié (%1%) n'existe pas."/>
+	<label commandName="jobManagerReserving" devLabel="Waiting to reserve" translation="En attente de réservation"/>
+	<label commandName="multipleUploadStalledHeading" devLabel="Multiple uploads delayed" translation="Plusieurs chargements retardés"/>
+	<label commandName="multipleUploadStalledNotification" devLabel="%1% design uploads have not completed. Open Job Status to view the jobs." translation="%1% chargements de conceptions ne sont pas terminés. Ouvrez l'état de la tâche pour afficher les tâches."/>
+	<label commandName="openJobStatusLink" devLabel="View Job Status" translation="Afficher l'état de la tâche"/>
+	<label commandName="progress manager reimport text" devLabel="Uploading %1% to %2%" translation="Chargement de %1% dans %2%"/>
+	<label commandName="uploadAbortedReservationFailed" devLabel="&quot;%1%&quot; could not be uploaded. This occurs when you have lost access to the project or your permissions for a folder have changed. Please contact the project moderator for assistance." translation="Impossible de charger &quot;%1%&quot;. Cela se produit lorsque vous avez perdu l'accès au projet ou que vos autorisations pour un dossier ont été modifiées. Contactez le modérateur du projet pour obtenir de l'aide."/>
+	<label commandName="uploadAddQueueFailed" devLabel="Failed to add specified file to the upload queue: %1%" translation="Echec de l'ajout du fichier spécifié à la file d'attente de téléchargement: %1%"/>
+	<label commandName="uploadAlreadyExists" devLabel="Specified file already exists in the upload queue: %1%" translation="Le fichier spécifié existe déjà dans la file d'attente de chargement: %1%"/>
+	<label commandName="uploadFileDoesNotExist" devLabel="Specified file does not exist: %1%" translation="Le fichier spécifié n'existe pas: %1%"/>
+	<label commandName="uploadPIMAlreadyExists" devLabel="Specified PIM data file already exists in the upload queue: %1%" translation="Le fichier de données PIM spécifié existe déjà dans la file d'attente de chargement: %1%"/>
+	<label commandName="userNotAuthenticated" devLabel="User is not authenticated. Could not queue file %1% for upload." translation="L'utilisateur n'est pas authentifié. Impossible de mettre le fichier %1% en file d'attente pour chargement."/>
+</Resource>

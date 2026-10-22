@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CollectComponentsForExportIGESError" devLabel="Autodesk Translation Services failed to translate the current document to iges file!" translation="Impossibile convertire il documento corrente in file IGES mediante Autodesk Translation Services."/>
+	<label commandName="CreateComponentsByImportIGESError" devLabel="Autodesk Translation Services failed to translate the iges file, please make sure the iges file isn't corrupt!" translation="Impossibile convertire il file IGES mediante Autodesk Translation Services. Accertarsi che il file IGES non sia danneggiato."/>
+	<label commandName="CreateComponentsByOpenIGESError" devLabel="Autodesk Translation Services failed to translate the iges file, please make sure the iges file isn't corrupt!" translation="Impossibile convertire il file IGES mediante Autodesk Translation Services. Accertarsi che il file IGES non sia danneggiato."/>
+	<label commandName="IGESFileFilterDescription" devLabel="IGES Files (*.igs *.iges)" translation="File IGES (*.igs, *.iges)"/>
+</Resource>

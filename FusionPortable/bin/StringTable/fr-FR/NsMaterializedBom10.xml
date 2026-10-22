@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Download_File" devLabel="Download file" translation="Télécharger le fichier"/>
+	<label commandName="Export_Complete_Notification_Heading" devLabel="Export" translation="Exporter"/>
+	<label commandName="Export_Complete_Notification_Message" devLabel="%1% has been exported to .%2% format. You can now download the file to your device's downloads folder." translation="%1% a été exporté au format .%2%. Vous pouvez désormais télécharger le fichier dans le dossier Téléchargements de votre appareil."/>
+	<label commandName="Export_Failed_Notification_Heading" devLabel="Export" translation="Exporter"/>
+	<label commandName="Export_Failed_Notification_Message" devLabel="Could not export %1%. Please try again." translation="Impossible d'exporter %1%. Veuillez réessayer."/>
+</Resource>

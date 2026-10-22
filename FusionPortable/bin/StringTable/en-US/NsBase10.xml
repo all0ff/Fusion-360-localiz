@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="App" devLabel="App " translation="" />
+	<label commandName="AssemblyComponentType" devLabel="Assembly" translation="" />
+	<label commandName="DesignPreviewFeatureGroup" devLabel="Design" translation="" />
+	<label commandName="DesignPreviewFeatureGroupDescription" devLabel="This section controls optional behavior within the Design workspace." translation="" />
+	<label commandName="EnablePMIDescription" devLabel="Adds the ability to author product manufacturing information (PMI) directly in the Design workspace. Create feature-based PMI for holes and bosses, with or without threads, and general PMI notes, and reuse this information in downstream manufacturing workflows. To be included in the Manufacturing Extension. Some capabilities may also be included in the Design Extension." translation="" />
+	<label commandName="EnablePMIDimensionDescription" devLabel="Adds the ability to author sizes and dimensions product manufacturing information (PMI). To take effect, the Fusion PMI Authoring flag must be checked. " translation="" />
+	<label commandName="EnablePMIDimensionTitle" devLabel="Fusion PMI Dimension" translation="" />
+	<label commandName="EnablePMITitle" devLabel="Fusion PMI Authoring (Future Extension Capability)" translation="" />
+	<label commandName="ErrorNoPythonFunctionObject" devLabel="The given python function object does not exist" translation="" />
+	<label commandName="ErrorNoPythonModule" devLabel="The given python module does not exist" translation="" />
+	<label commandName="ErrorPythonSysExitException" devLabel="system exit exception" translation="" />
+	<label commandName="FailureToCreateSandboxPythonModule" devLabel="Failed to create sandbox python module." translation="" />
+	<label commandName="FailureToReadPythonScriptFile" devLabel="Failed to read the python script." translation="" />
+	<label commandName="FailureToReadTypeScriptFile" devLabel="Failed to read the typescript." translation="" />
+	<label commandName="FailureToSetPythonAttribute" devLabel="Failed to set Python Attribute" translation="" />
+	<label commandName="Forbidden" devLabel="Forbidden" translation="" />
+	<label commandName="GenDefaultUserAccountToolTip" devLabel="Gen Default User Account" translation="" />
+	<label commandName="HybridComponentType" devLabel="Hybrid" translation="" />
+	<label commandName="InternalError" devLabel="InternalError" translation="" />
+	<label commandName="NWReqInfoHavePermission" devLabel=": Are you sure you have permission?" translation="" />
+	<label commandName="NWReqInfoTryAgain" devLabel=": Something went wrong. Please try again in a few minutes." translation="" />
+	<label commandName="NetworkOptionsDescription" devLabel="These are a set of options that are used for network access." translation="" />
+	<label commandName="NetworkOptionsName" devLabel="Network" translation="" />
+	<label commandName="NotFound" devLabel="Requested resource not found" translation="" />
+	<label commandName="PCB3DExtComponentType" devLabel="Linked PCB" translation="" />
+	<label commandName="PLM360OptionsDescription" devLabel="These are a set of options that are used for %1% integration." translation="" />
+	<label commandName="PLM360OptionsName" devLabel="PLM 360 Options" translation="" />
+	<label commandName="ProductUsageDataGroupName" devLabel="Data Collection and Use" translation="" />
+	<label commandName="ProductUsageDataGroupTooltip" devLabel="Data Collection and Use" translation="" />
+	<label commandName="ProxyHostTooltip" devLabel="Proxy Host" translation="" />
+	<label commandName="ProxyHostUserName" devLabel="Proxy Host" translation="" />
+	<label commandName="ProxyPortTooltip" devLabel="Proxy Port" translation="" />
+	<label commandName="ProxyPortUserName" devLabel="Proxy Port" translation="" />
+	<label commandName="PythonAppStoreAppInstalled" devLabel=" is installed." translation="" />
+	<label commandName="PythonAppStoreAppRemoved" devLabel=" is removed." translation="" />
+	<label commandName="PythonAppStoreAppUninstalled" devLabel=" is uninstalled." translation="" />
+	<label commandName="PythonAppStoreExistAndWillRemove" devLabel=" already exists. It will be updated at the next startup." translation="" />
+	<label commandName="PythonAppStoreNewVersionApp" devLabel="A new version of " translation="" />
+	<label commandName="PythonAppStoreOldVersionApp" devLabel="An old version of " translation="" />
+	<label commandName="PythonCallBackCompany" devLabel="Need to contact the vendor" translation="" />
+	<label commandName="PythonCallBackError" devLabel="Error in callback %1% in module %2% &#10;&#09; Detail Error:%3%" translation="" />
+	<label commandName="PythonCallBackFixError" devLabel=" to fix the error in the Autorun Scripts" translation="" />
+	<label commandName="PythonCommandStartError" devLabel="No valid string passed to Command.Start" translation="" />
+	<label commandName="PythonErrorMissingFunctionPrefix" devLabel="Error Missing Function" translation="" />
+	<label commandName="PythonErrorPrefix" devLabel="Error: " translation="" />
+	<label commandName="PythonExecuteDictError" devLabel="Could not build dictionary in %1% in python command %2%" translation="" />
+	<label commandName="PythonExecutePreviewReturnError" devLabel="Bad return value from executePreview in python command %1%" translation="" />
+	<label commandName="PythonGetCommandInputsJSONError" devLabel="Invalid JSON from getCommandInputs in python command %1%" translation="" />
+	<label commandName="PythonGetCommandInputsReturnError" devLabel="Bad return value from getCommandInputs in python command %1%" translation="" />
+	<label commandName="PythonInvalidParametersPassedTo" devLabel="Invalid parameters passed to " translation="" />
+	<label commandName="RequestTimeout" devLabel="Request timed out. Please retry the command" translation="" />
+	<label commandName="SSLVerifyOnlyTrustedServers" devLabel="Block access when an intermediate server is detected" translation="" />
+	<label commandName="SSLVerifyPeerName" devLabel="Server Verification" translation="" />
+	<label commandName="SSLVerifyPeerTooltip" devLabel="Verify that the %1% client can validate the server SSL Certificate." translation="" />
+	<label commandName="SSLVerifyTrustAllServers" devLabel="Do not warn when accessing through an intermediate server" translation="" />
+	<label commandName="SSLVerifyWarnOnUntrustedServers" devLabel="Warn when accessing through an intermediate server" translation="" />
+	<label commandName="ServiceUnavailable" devLabel="Cloud service unavailable. Please retry the command" translation="" />
+	<label commandName="ShowCloudCreditBalanceToolTip" devLabel="Show Cloud Credit Balance" translation="" />
+	<label commandName="SimDefaultUserAccountToolTip" devLabel="Sim Default User Account" translation="" />
+	<label commandName="StandardComponentType" devLabel="Standard" translation="" />
+	<label commandName="TokensAndCloudCreditOptionGroupTooltip" devLabel="Token preferences" translation="" />
+	<label commandName="TokensAndCloudCreditOptionGroupUserName" devLabel="Tokens" translation="" />
+	<label commandName="TrackUsageGroupToolTip" devLabel="" translation="" />
+	<label commandName="TrackUsageGroupUserName" devLabel="" translation="" />
+	<label commandName="TroubleLoadingContentMessage" devLabel="We're having trouble loading your content right now. Please try again later." translation="" />
+	<label commandName="Unauthorized" devLabel="Unauthorized to access this resource" translation="" />
+	<label commandName="WindowsProxyAutomatic" devLabel="Automatic" translation="" />
+	<label commandName="WindowsProxyNoProxy" devLabel="No Proxy" translation="" />
+	<label commandName="WindowsProxyOverride" devLabel="Override" translation="" />
+	<label commandName="WindowsProxyTooltip" devLabel=" Windows network proxy setting" translation="" />
+	<label commandName="WindowsProxyUserName" devLabel="Windows network proxy setting" translation="" />
+	<label commandName="WindowsProxyWindowsDefault" devLabel="Windows Default" translation="" />
+	<label commandName="additive-desc" devLabel="Adds select additive manufacturing machines (3D printers) to the Manufacture Workspace. This initial stage allows for users to select an additive machine, specify print parameters, manually position and orient a part on  the build platform, generate support structures, and either create a build file for select machines or export a 3MF file for all machines. Note that activating this preview functionality will also enable the Machine Configurations feature above." translation="" />
+	<label commandName="additive-title" devLabel="Additive Manufacturing" translation="" />
+	<label commandName="ccOptEducationStr" devLabel="Education" translation="" />
+	<label commandName="cross-project-refs-desc" devLabel="Reuse designs from any project, using the insert workflow, without making a copy in the destination project. At this time the preview is available as part of team hubs." translation="" />
+	<label commandName="cross-project-refs-title" devLabel="Cross-Project References" translation="" />
+	<label commandName="folder-permissions-desc" devLabel="Enable Folder Permissions for your team." translation="" />
+	<label commandName="folder-permissions-title" devLabel="Folder Permissions" translation="" />
+	<label commandName="general-featurepack-desc" devLabel="This section controls optional aspects of behavior across Fusion." translation="" />
+	<label commandName="general-featurepack-title" devLabel="General" translation="" />
+	<label commandName="home-tab-default-startup-preview-preview-desc" devLabel="Enable Fusion Home as a default startup experience. Every time you start Fusion you will get to Fusion Home first to resume work on your designs." translation="" />
+	<label commandName="home-tab-default-startup-preview-title" devLabel="Fusion Home as startup experience" translation="" />
+	<label commandName="insertPanel-preview-desc" devLabel="Insert a design into the active document. Available under File &gt; View &gt; Show Insert Design." translation="" />
+	<label commandName="insertPanel-preview-title" devLabel="Insert Dialog" translation="" />
+	<label commandName="lclzAssemblyDesign" devLabel="Assembly Design" translation="" />
+	<label commandName="lclzAssemblyDesignTitle" devLabel="Assembly" translation="" />
+	<label commandName="lclzAssemblyDesignTooltip" devLabel="A design where you create or insert other designs as external components, then define relationships between them to create an assembly." translation="" />
+	<label commandName="lclzElectronicsDesign" devLabel="Electronics Design" translation="" />
+	<label commandName="lclzElectronicsDesignTitle" devLabel="Electronics Design" translation="" />
+	<label commandName="lclzElectronicsDesignTooltip" devLabel="A design where you create and manage schematics, 2D PCB, and 3D PCB documents." translation="" />
+	<label commandName="lclzElectronicsLibrary" devLabel="Electronics Library" translation="" />
+	<label commandName="lclzElectronicsLibraryTitle" devLabel="Electronics Library" translation="" />
+	<label commandName="lclzElectronicsLibraryTooltip" devLabel="A library in your hub where you create and manage components for your electronics designs." translation="" />
+	<label commandName="lclzHybridDesignTitle" devLabel="Hybrid" translation="" />
+	<label commandName="lclzHybridDesignTooltip" devLabel="A flexible design where you create and model internal components, insert other designs as external components, then define relationships between them." translation="" />
+	<label commandName="lclzMechanicalDesign" devLabel="Design" translation="" />
+	<label commandName="lclzModelingAssemblyDesign" devLabel="Hybrid Design" translation="" />
+	<label commandName="lclzPartDesign" devLabel="Part Design" translation="" />
+	<label commandName="lclzPartDesignTitle" devLabel="Part" translation="" />
+	<label commandName="lclzPartDesignTooltip" devLabel="A design where you model a single component to manufacture or use in an assembly." translation="" />
+	<label commandName="legacy-command-dialogs-desc" devLabel="Enable legacy command dialogs." translation="" />
+	<label commandName="legacy-command-dialogs-title" devLabel="Command Dialogs (Legacy)" translation="" />
+	<label commandName="legacy-toolbar-desc" devLabel="Enable legacy toolbar." translation="" />
+	<label commandName="legacy-toolbar-title" devLabel="Application Toolbar (Legacy)" translation="" />
+	<label commandName="machine-configurations-desc" devLabel="The first stage of machine definitions has been added to Autodesk Fusion. This will lay the framework for information about a machine to be used throughout the Manufacture workspace. A machine configuration will contain information about the machine such as its axes, maximum spindle speed, feedrate limits, print configurations, and more, which will allow Fusion to alert the user to potential issues as well as aid users in making toolpathing decisions and configure the output programs." translation="" />
+	<label commandName="machine-configurations-title" devLabel="Machine Configurations" translation="" />
+	<label commandName="manufacture-featurepack-desc" devLabel="This section controls optional functionality with the Manufacture workspace." translation="" />
+	<label commandName="manufacture-featurepack-title" devLabel="Manufacture" translation="" />
+	<label commandName="qml-command-dialogs-desc" devLabel="Enable QML command dialogs." translation="" />
+	<label commandName="qml-command-dialogs-title" devLabel="Command Dialogs (QML)" translation="" />
+	<label commandName="qml-fp-desc" devLabel="This section controls Weave user interface usage across Fusion." translation="" />
+	<label commandName="qml-fp-title" devLabel="Weave" translation="" />
+	<label commandName="qml-modal-dialogs-desc" devLabel="Toggle between QML modal dialogs (checked) or legacy modal dialogs (unchecked)." translation="" />
+	<label commandName="qml-modal-dialogs-title" devLabel="Modal Dialogs" translation="" />
+	<label commandName="qml-toolbar-desc" devLabel="Enable QML toolbar." translation="" />
+	<label commandName="qml-toolbar-title" devLabel="Application Toolbar (QML)" translation="" />
+	<label commandName="team-general-featurepack-desc" devLabel="This section controls optional aspects of behavior across Fusion." translation="" />
+	<label commandName="team-general-featurepack-title" devLabel="General" translation="" />
+</Resource>

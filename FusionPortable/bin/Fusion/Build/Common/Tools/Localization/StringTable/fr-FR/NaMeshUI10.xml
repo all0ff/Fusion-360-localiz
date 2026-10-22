@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ExitMeshPanel" devLabel="Close" translation="Fermer"/>
+	<label commandName="ExpandToConnectedSel" devLabel="Expand to Connected" translation="Développer jusqu'aux éléments connectés"/>
+	<label commandName="ExpandToGroupSel" devLabel="Expand to Face Group" translation="Développer jusqu'au groupe de faces"/>
+	<label commandName="GrowMeshSel" devLabel="Grow Selection" translation="Agrandir la sélection"/>
+	<label commandName="InvertMeshSel" devLabel="Invert Selection" translation="Inverser la sélection"/>
+	<label commandName="Mesh Environment" devLabel="Mesh" translation="Maillage"/>
+	<label commandName="MeshColorCommand" devLabel="Face Groups" translation="Groupes de faces"/>
+	<label commandName="MeshFaceGroupOffCommand" devLabel="FaceGroup Off" translation="Désactiver le groupe de faces"/>
+	<label commandName="MeshFaceGroupOnCommand" devLabel="FaceGroup On" translation="Activer le groupe de faces"/>
+	<label commandName="MeshSelectionPalette" devLabel="Mesh Palette" translation="Palette de maillages"/>
+	<label commandName="MeshStyleCommand" devLabel="Mesh Display" translation="Affichage du maillage"/>
+	<label commandName="ShrinkMeshSel" devLabel="Shrink Selection" translation="Rétrécir la sélection"/>
+	<label commandName="lclzMeshBaseFeatureCreationDesc1" devLabel="Enters Mesh mode and inserts a mesh feature into the timeline. Use Mesh tools to modify and repair mesh geometry." translation="Active le mode Maillage et insère une fonction de maillage dans le plan de montage chronologique. Utilisez les outils de maillage pour modifier et réparer la géométrie de maillage."/>
+	<label commandName="lclzMeshBaseFeatureCreationDesc2" devLabel="Select Finish Mesh to exit out of the mode." translation="Sélectionnez Terminer le maillage pour quitter le mode."/>
+	<label commandName="lclzMeshBaseFeatureStopDesc1" devLabel="Finishes the Mesh feature." translation="Termine la fonction de maillage."/>
+	<label commandName="lclzMeshWorkspaceTitle" devLabel="Repairs mesh geometry. Access commands to remesh and repair triangulated mesh bodies." translation="Répare la géométrie de maillage. Accédez aux commandes pour remailler et réparer les corps de maillage triangulés."/>
+</Resource>

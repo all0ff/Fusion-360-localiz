@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="KicadFileFilterDescription" devLabel="Kicad Project Files (*.kicad_sch);:Kicad Schematic Files (*.kicad_sch);;Kicad Board Files (*.kicad_pck);;Kicad Symbol Files (*.kicad_sym);;Kicad Footprint Files (*.kicad_mod)" translation="File di progetto Kicad (*.kicad_sch);:File di schema Kicad (*.kicad_sch);;File di schede Kicad (*.kicad_pck);;File di simboli Kicad (*.kicad_sym);;File di layout componente Kicad (*.kicad_mod)"/>
+</Resource>

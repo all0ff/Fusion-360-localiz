@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ExplicitSolverDataCheckReportLine1" devLabel="%1% : %2%" translation="" />
+	<label commandName="ExplicitSolverDataCheckReportLine2" devLabel="%1% : %2% %3%:%4%:%5% (dd hh::mm::ss)" translation="" />
+	<label commandName="ExplicitSolverEstimatedRuntime" devLabel="Estimated Solve Time" translation="" />
+	<label commandName="ExplicitSolverInitialCourantStabilityLimit" devLabel="Initial Courant Stability Limit" translation="" />
+	<label commandName="NotComputedMesh" devLabel="Mesh is not computed" translation="" />
+	<label commandName="SimFEACSConvergenceInvalidMode" devLabel="The mode selected for h-adaptive meshing (mode %1%) is unavailable due to the study's frequency range or mode limits. Continuing h-adaptive meshing using the last valid mode (mode %2%)." translation="" />
+	<label commandName="SimFEACSConvergenceRate" devLabel="Convergence rate: %1% %%" translation="" />
+	<label commandName="SimFEACSMeshStatsReport" devLabel="%1%: %2% nodes, %3% elements" translation="" />
+	<label commandName="SimFEACSMeshingStatsBaseMesh" devLabel="Base mesh" translation="" />
+	<label commandName="SimFEACSMeshingStatsHRef" devLabel="h refinement #%1%" translation="" />
+	<label commandName="SimFEACSMeshingStatsSolverMesh" devLabel="Solver mesh" translation="" />
+	<label commandName="SimFEACSMissingError" devLabel="Solve module not found." translation="" />
+	<label commandName="SimFEACSNoConvergenceData" devLabel="Solve did not produce any convergence data for h-adaptivity for refinement %1%" translation="" />
+	<label commandName="SimFEACSProblemConverged" devLabel="Problem converged" translation="" />
+	<label commandName="SimFEACSReachedNumberOfRefinements" devLabel="Reached the total number of h refinements" translation="" />
+	<label commandName="SimFEACSSpawnError" devLabel="Error invoking solve module, Error: %1%" translation="" />
+	<label commandName="SimFailureWhileCancel" devLabel="Solve module failure while cancelling, Error: %1%" translation="" />
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="" />
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="" />
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="" />
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="" />
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="" />
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="" />
+	<label commandName="SimJobLimitElementCountMeshSizeExceeded" devLabel="The current maximum mesh size of %1% elements has been exceeded." translation="" />
+	<label commandName="SimJobLimitGenericMeshSizeExceeded" devLabel="The current maximum mesh size has been exceeded." translation="" />
+	<label commandName="SimJobLimitGenericMeshSizeExceededRectification" devLabel="Please increase the average element size and/or simplify the model and try solving again." translation="" />
+	<label commandName="SimJobLimitModalMeshSizeExceededRectification" devLabel="Please increase the average element size, decrease the number of modes and/or simplify the model and try solving again." translation="" />
+	<label commandName="SimLocalSolveModuleFailure" devLabel="Solve module failure, Error: %1%" translation="" />
+	<label commandName="SimMinMassTargetForTOEx" devLabel="It’s not possible to reduce the mass to %1$.3f%% of the original mass, as specified in &amp;#10;             the study setup. The model geometry can only be reduced to %2$.3f%% &amp;#10;             of the original mass. &amp;#10;&amp;#10;Causes: The combination of the shape optimization criteria, mesh size, and preserve &amp;#10;            regions in the study setup restrict how much the model geometry can be &amp;#10;            reduced. &amp;#10;&amp;#10;Action: If the achievable target mass is close to the specified target mass, &amp;#10;            try decreasing the mesh size and relaunching the analysis. &amp;#10;            Otherwise, try &amp;#10;            - increasing the Target Mass, for example, if you have accepted &amp;#10;                the default (60%% of original mass), or &amp;#10;            - unchecking ‘Preserve Entities with Loads and Constraints’ in &amp;#10;                the Shape Optimization Criteria dialog, and then relaunch &amp;#10;                the analysis.&amp;#10;" translation="" />
+</Resource>

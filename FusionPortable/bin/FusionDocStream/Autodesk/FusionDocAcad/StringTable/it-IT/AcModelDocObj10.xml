@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IDS_FUSION_BREAKLINE_GRIP" devLabel="&#xA;Specify Point" translation="&#xA;Specificare punto"/>
+	<label commandName="IDS_FUSION_CROPWIN_GRIP" devLabel="&#xA;Specify crop window point" translation="&#xA;Specificare il punto della finestra di ritaglio"/>
+	<label commandName="IDS_SY_BENDTABLE_ANG_COLUMN" devLabel="Angle" translation="Angolo"/>
+	<label commandName="IDS_SY_BENDTABLE_DIRE_COLUMN" devLabel="Direction" translation="Direzione"/>
+	<label commandName="IDS_SY_BENDTABLE_DIRE_COLUMN_DOWN" devLabel="Down" translation="In basso"/>
+	<label commandName="IDS_SY_BENDTABLE_DIRE_COLUMN_UP" devLabel="Up" translation="In alto"/>
+	<label commandName="IDS_SY_BENDTABLE_ID_COLUMN" devLabel="ID" translation="ID"/>
+	<label commandName="IDS_SY_BENDTABLE_RAD_COLUMN" devLabel="Radius" translation="Raggio"/>
+	<label commandName="IDS_SY_BENDTABLE_TITLE" devLabel="Bend Table" translation="Tabella di piega"/>
+	<label commandName="IDS_SY_CMD_VIEWSTYLE_FROMBASE" devLabel="From parent" translation="Dall'elemento principale"/>
+	<label commandName="IDS_SY_COM_DETAIL_SYMBOL_NAME" devLabel="Detail Boundary" translation="Contorno dettaglio"/>
+	<label commandName="IDS_SY_COM_SECTION_LINE_NAME" devLabel="Section Line" translation="Linea di sezione"/>
+	<label commandName="IDS_SY_COM_VIEW_NAME" devLabel="Drawing View" translation="Vista 2D"/>
+	<label commandName="IDS_SY_HOLETABLE_DESCRIPTION_COLUMN_ASME" devLabel="DESCRIPTION" translation="DESCRIZIONE"/>
+	<label commandName="IDS_SY_HOLETABLE_DESCRIPTION_COLUMN_ISO" devLabel="Description" translation="Descrizione"/>
+	<label commandName="IDS_SY_HOLETABLE_HOLEID_COLUMN_ASME" devLabel="HOLE" translation="FORO"/>
+	<label commandName="IDS_SY_HOLETABLE_HOLEID_COLUMN_ISO" devLabel="Hole" translation="Foro"/>
+	<label commandName="IDS_SY_HOLETABLE_XDIM_COLUMN_ASME" devLabel="X DIM" translation="QUOTA X"/>
+	<label commandName="IDS_SY_HOLETABLE_XDIM_COLUMN_ISO" devLabel="X Dim" translation="Quota X"/>
+	<label commandName="IDS_SY_HOLETABLE_YDIM_COLUMN_ASME" devLabel="Y DIM" translation="QUOTA Y"/>
+	<label commandName="IDS_SY_HOLETABLE_YDIM_COLUMN_ISO" devLabel="Y Dim" translation="Quota Y"/>
+	<label commandName="IDS_SY_HOLE_TABLE_TITLE_ASME" devLabel="HOLE TABLE" translation="TABELLA FORI"/>
+	<label commandName="IDS_SY_HOLE_TABLE_TITLE_ISO" devLabel="Hole Table" translation="Tabella fori"/>
+	<label commandName="IDS_SY_MFGRIP_ALIGNMENT_MESSAGE1" devLabel="&#xA;This view is not dependent on any other view." translation="&#xA;Questa vista non dipende da nessun'altra vista."/>
+	<label commandName="IDS_SY_MFGRIP_ALIGNMENT_MESSAGE2" devLabel="&#xA;The selected view's alignment is already broken." translation="&#xA;L'allineamento della vista selezionata è già interrotto."/>
+	<label commandName="IDS_SY_MFGRIP_ALIGNMENT_MESSAGE3" devLabel="&#xA;The selected view's alignment is not broken." translation="&#xA;L'allineamento della vista selezionata non è interrotto."/>
+	<label commandName="IDS_SY_MFGRIP_ALIGNMENT_MESSAGE4" devLabel="&#xA;Cannot align rotated views." translation="&#xA;Impossibile allineare viste ruotate."/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL1" devLabel="Move" translation="Sposta"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL1_0" devLabel="Move Symbol Boundary" translation="Sposta contorno simbolo"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL1_1" devLabel="&#xA;** MOVE **" translation="&#xA;** SPOSTA **"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL1_2" devLabel="&#xA;Specify destination point:" translation="&#xA;Specificare il punto di destinazione:"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL1_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL2" devLabel="Rotate" translation="Ruota"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL2_0" devLabel="Rotate" translation="Ruota"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL2_1" devLabel="&#xA;** ROTATE **" translation="&#xA;** RUOTA**"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL2_2" devLabel="&#xA;Specify rotation angle:" translation="&#xA;Specificare angolo di rotazione:"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL2_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL3" devLabel="Circular" translation="Circolare"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL3_0" devLabel="Change boundary to circular " translation="Modifica contorno in circolare "/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL3_1" devLabel="&#xA;** CIRCULAR **" translation="&#xA;** CIRCOLARE **"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL3_2" devLabel="&#xA;Pick to change boundary type to circular:" translation="&#xA;Selezionare per modificare il tipo di contorno in circolare:"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL3_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL3_4" devLabel="&#xA;Current boundary type is circular" translation="&#xA;Il tipo di contorno corrente è circolare"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL4" devLabel="Rectangular" translation="Rettangolare"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL4_0" devLabel="Change boundary to rectangular" translation="Modifica contorno in rettangolare"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL4_1" devLabel="&#xA;** RECTANGULAR **" translation="&#xA;** RETTANGOLARE **"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL4_2" devLabel="&#xA;Pick to change boundary type to rectangular:" translation="&#xA;Selezionare per modificare il tipo di contorno in rettangolare:"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL4_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL4_4" devLabel="&#xA;Current boundary type is rectangular" translation="&#xA;Il tipo di contorno corrente è rettangolare"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL5" devLabel="Move identifier" translation="Sposta identificatore"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL5_0" devLabel="Move identifier" translation="Sposta identificatore"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL5_1" devLabel="&#xA;** MOVE IDENTIFIER **" translation="&#xA;** SPOSTA IDENTIFICATORE **"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL5_2" devLabel="&#xA;Specify destination point:" translation="&#xA;Specificare il punto di destinazione:"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL5_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL6" devLabel="Move identifier with detail boundary" translation="Sposta identificatore con contorno dettaglio"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL6_0" devLabel="Move identifier with detail boundary" translation="Sposta identificatore con contorno dettaglio"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL6_1" devLabel="&#xA;** MOVE IDENTIFIER WITH DETAIL BOUNDARY **" translation="&#xA;** SPOSTA IDENTIFICATORE CON CONTORNO DETTAGLIO **"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL6_2" devLabel="&#xA;Specify destination" translation="&#xA;Specifica destinazione"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL6_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL7" devLabel="Reset identifier position" translation="Ripristina posizione identificatore"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL7_0" devLabel="Reset identifier position" translation="Ripristina posizione identificatore"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL7_1" devLabel="&#xA;** RESET IDENTIFIER POSITION **" translation="&#xA;** RIPRISTINA POSIZIONE IDENTIFICATORE **"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL7_2" devLabel="&#xA;Pick to reset identifier to default location:" translation="&#xA;Seleziona per ripristinare la posizione di default dell'identificatore:"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL7_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL8" devLabel="Stretch" translation="Stira"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL8_0" devLabel="Specify destination point:" translation="Specificare il punto di destinazione:"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL8_1" devLabel="&#xA;** STRETCH **" translation="&#xA;** STIRA **"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL8_2" devLabel="&#xA;Specify destination point:" translation="&#xA;Specificare il punto di destinazione:"/>
+	<label commandName="IDS_SY_MFGRIP_DETAILSYMBOL8_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_MOVE1" devLabel="Move" translation="Sposta"/>
+	<label commandName="IDS_SY_MFGRIP_MOVE2" devLabel="Move -- Tooltip" translation="Sposta - Descrizione comando"/>
+	<label commandName="IDS_SY_MFGRIP_MOVE3" devLabel="&#xA;** MOVE **" translation="&#xA;** SPOSTA **"/>
+	<label commandName="IDS_SY_MFGRIP_MOVE4" devLabel="&#xA;Specify destination point or [Base point/eXit]" translation="&#xA;Specificare il punto di destinazione o [Punto base/Esci]"/>
+	<label commandName="IDS_SY_MFGRIP_MOVE5" devLabel="STretch MOve ROtate SCale MIrror Base X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror Base X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio Base X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror Base X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_ROTATE1" devLabel="Rotate" translation="Ruota"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL1" devLabel="Stretch vertex" translation="Stira vertice"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL1_0" devLabel="Move vertex, stretch neighboring segments" translation="Sposta vertice e stira segmenti adiacenti"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL1_1" devLabel="&#xA;** STRETCH VERTEX **" translation="&#xA;** STIRA VERTICE **"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL1_2" devLabel="&#xA;Specify stretch point:" translation="&#xA;Specificare punto di stiramento:"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL1_3" devLabel="STretch MOve ROtate SCale MIrror Base Copy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror Base Copy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio Base Copia Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror Base Copy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL2" devLabel="Add vertex" translation="Aggiungi vertice"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL2_0" devLabel="Add vertex and create new segment" translation="Aggiungi vertice e crea nuovo segmento"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL2_1" devLabel="&#xA;** ADD VERTEX **" translation="&#xA;** AGGIUNGI VERTICE **"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL2_2" devLabel="&#xA;Specify new vertex point:" translation="&#xA;Specificare nuovo punto di vertice:"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL2_3" devLabel="STretch MOve ROtate SCale MIrror Base Copy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror Base Copy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio Base Copia Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror Base Copy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL3" devLabel="Remove vertex" translation="Rimuovi vertice"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL3_0" devLabel="Remove vertex, and replace neighboring segments with line" translation="Rimuovi vertice e sostituisci segmenti adiacenti con una linea"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL3_1" devLabel="&#xA;** REMOVE VERTEX **" translation="&#xA;** RIMUOVI VERTICE **"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL3_2" devLabel="&#xA;Pick to remove vertex:" translation="&#xA;Selezionare per rimuovere un vertice:"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL3_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL4" devLabel="Stretch" translation="Stira"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL4_0" devLabel="Move mid-grip" translation="Sposta grip centrale"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL4_1" devLabel="&#xA;** STRETCH **" translation="&#xA;** STIRA **"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL5" devLabel="Flip direction" translation="Inverti direzione"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL5_0" devLabel="Flips direction of symbol geometry" translation="Inverte la direzione della geometria di simbolo"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL5_1" devLabel="&#xA;** FLIP DIRECTION **" translation="&#xA;** INVERTI DIREZIONE **"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL5_2" devLabel="&#xA;Pick to flip direction:" translation="&#xA;Seleziona per invertire la direzione:"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL5_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL6" devLabel="Move identifier only" translation="Sposta solo identificatore"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL6_0" devLabel="Moves identifier only" translation="Sposta solo l'identificatore"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL6_1" devLabel="&#xA;** MOVE IDENTIFIER ONLY **" translation="&#xA;** SPOSTA SOLO IDENTIFICATORE **"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL6_2" devLabel="&#xA;Specify destination point:" translation="&#xA;Specificare il punto di destinazione:"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL6_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL7" devLabel="Move with section line" translation="Sposta con linea di sezione"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL7_0" devLabel="Moves identifier with section line" translation="Sposta l'identificatore con la linea di sezione"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL7_1" devLabel="&#xA;** MOVE WITH SECTION LINE **" translation="&#xA;** SPOSTA CON LINEA DI SEZIONE **"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL7_2" devLabel="&#xA;Specify destination point:" translation="&#xA;Specificare il punto di destinazione:"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL7_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL8" devLabel="Reset identifier position" translation="Ripristina posizione identificatore"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL8_0" devLabel="Resets identifier position" translation="Ripristina la posizione dell'identificatore"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL8_1" devLabel="&#xA;** RESET IDENTIFIER POSITION **" translation="&#xA;* * RIPRISTINA POSIZIONE IDENTIFICATORE **"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL8_2" devLabel="&#xA;Pick to reset identifier to default location:" translation="&#xA;Selezionare per ripristinare la posizione di default dell'identificatore:"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL8_3" devLabel="STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio dummy dummy Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror dummy dummy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL9" devLabel="Add Segment" translation="Aggiungi segmento"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL9_0" devLabel="Adds Segment" translation="Aggiunge un segmento"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL9_1" devLabel="&#xA;** ADD SEGMENT **" translation="&#xA;** AGGIUNGI SEGMENTO**"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL9_2" devLabel="&#xA;Specify new segment end point:" translation="&#xA;Specificare nuovo punto finale del segmento:"/>
+	<label commandName="IDS_SY_MFGRIP_SYMBOL9_3" devLabel="STretch MOve ROtate SCale MIrror Base Copy Undo X EXit dummy GMove CGizmo _STretch MOve ROtate SCale MIrror Base Copy Undo X EXit dummy GMove CGizmo" translation="STira SPOsta RUota SCala SPEcchio Base Copia Annulla X Esci dummy GMovimento CGizmo _STretch MOve ROtate SCale MIrror Base Copy Undo X EXit dummy GMove CGizmo"/>
+	<label commandName="IDS_SY_MFGRIP_VIEWSCALE_TOOLTIP" devLabel="View Scale" translation="Scala vista"/>
+	<label commandName="IDS_SY_PARTSLIST_TITLE" devLabel="Parts List" translation="Elenco parti"/>
+	<label commandName="IDS_SY_PROP_ANNOTATION_DETAILIDENTIFIER" devLabel="Detail identifier" translation="Identificatore dettaglio"/>
+	<label commandName="IDS_SY_PROP_ANNOTATION_DETAILSTYLE" devLabel="Detail style" translation="Stile di dettaglio"/>
+	<label commandName="IDS_SY_PROP_ANNOTATION_ENDIDENTIFIER" devLabel="End identifier" translation="Identificatore finale"/>
+	<label commandName="IDS_SY_PROP_ANNOTATION_IDENTIFIER" devLabel="Identifier" translation="Identificatore"/>
+	<label commandName="IDS_SY_PROP_ANNOTATION_LABELPOSITION" devLabel="Label position" translation="Posizione etichetta"/>
+	<label commandName="IDS_SY_PROP_ANNOTATION_MODELEDGE" devLabel="Model edge" translation="Spigolo del modello"/>
+	<label commandName="IDS_SY_PROP_ANNOTATION_SECTIONSTYLE" devLabel="Section style" translation="Stile sezione"/>
+	<label commandName="IDS_SY_PROP_ANNOTATION_SHOWHATCHING" devLabel="Show hatching" translation="Mostra tratteggio"/>
+	<label commandName="IDS_SY_PROP_ANNOTATION_SHOWVIEWLABEL" devLabel="Show view label" translation="Mostra etichetta vista"/>
+	<label commandName="IDS_SY_PROP_ANNOTATION_STARTIDENTIFIER" devLabel="Start identifier" translation="Identificatore iniziale"/>
+	<label commandName="IDS_SY_PROP_BASEPOINT" devLabel="&#xA;Base point:  X= %.4f,  Y= %.4f,  Z= %.4f" translation="&#xA;Punto base: X =%.4f, Y =%.4f, Z =%.4f"/>
+	<label commandName="IDS_SY_PROP_CUSTOMSCALE" devLabel="Custom scale" translation="Scala personalizzata"/>
+	<label commandName="IDS_SY_PROP_CUSTOMSCALEVALUE" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="IDS_SY_PROP_DESIGNVIEW" devLabel="Design view" translation="Vista progettazione"/>
+	<label commandName="IDS_SY_PROP_DETAILBOUNDARYSHAPE" devLabel="Boundary type" translation="Tipo di contorno"/>
+	<label commandName="IDS_SY_PROP_ENUM_ANNOTATION_LABELPOSITION" devLabel="Above view;Below view;Custom" translation="Sopra la vista;Sotto la vista;Personalizzata"/>
+	<label commandName="IDS_SY_PROP_ENUM_ANNOTATION_MODELEDGE" devLabel="Smooth;Smooth with border;Smooth with connection line;Jagged" translation="Uniforme;Uniforme con bordo;Uniforme con linea di connessione;Irregolare"/>
+	<label commandName="IDS_SY_PROP_ENUM_DETAILBOUNDARYSHAPE" devLabel="Circular;Rectangular" translation="Circolare;Rettangolare"/>
+	<label commandName="IDS_SY_PROP_ENUM_HIDDENLINECALCULATION" devLabel="Separate;Combined" translation="Separati; Combinati"/>
+	<label commandName="IDS_SY_PROP_ENUM_JUSTIFICATION" devLabel="Centered;Fixed" translation="Centrato;Fisso"/>
+	<label commandName="IDS_SY_PROP_ENUM_LINETYPE" devLabel="As reference;As parts;Off" translation="Come riferimento; Come parti; Off"/>
+	<label commandName="IDS_SY_PROP_ENUM_ONOFFTYPE" devLabel="Off;On" translation="Off;On"/>
+	<label commandName="IDS_SY_PROP_ENUM_PROJECTIONANGLE" devLabel="First angle;Third angle" translation="Primo angolo; Terzo angolo"/>
+	<label commandName="IDS_SY_PROP_ENUM_SECTIONDEPTH" devLabel="Full;Slice;Distance" translation="Completo;Trancia;Distanza"/>
+	<label commandName="IDS_SY_PROP_ENUM_SECTIONPROJECTION" devLabel="Orthogonal;Normal" translation="Ortogonale;Normale"/>
+	<label commandName="IDS_SY_PROP_ENUM_SHADERESOLUTION" devLabel="50 DPI;100 DPI;150 DPI;200 DPI;300 DPI" translation="50 DPI;100 DPI;150 DPI;200 DPI;300 DPI"/>
+	<label commandName="IDS_SY_PROP_ENUM_SHEETMETALSTATE" devLabel="Folded Model;Flat Pattern" translation="Modello piegato; Modello piatto"/>
+	<label commandName="IDS_SY_PROP_ENUM_SOURCETYPE" devLabel="Not Defined;Inventor Model;Fusion;Model Space" translation="Non definito;Modello di Inventor;Fusion;Spazio modello"/>
+	<label commandName="IDS_SY_PROP_ENUM_VIEWALIGNMENT" devLabel="Aligned;Broken" translation="Allineata; Interrotta"/>
+	<label commandName="IDS_SY_PROP_ENUM_VIEWSTYLE" devLabel="From parent;Visible lines;Visible and hidden lines;Shaded with visible lines;Shaded with visible and hidden lines" translation="Dall'elemento principale;Linee visibili e nascoste;Ombreggiato con linee visibili;Ombreggiato con linee visibili e nascoste"/>
+	<label commandName="IDS_SY_PROP_ENUM_WELDMENTSTATE" devLabel="Assembly;Machining;Welds;Preparation" translation="Assieme; Lavorazione meccanica; Saldature; Preparazione"/>
+	<label commandName="IDS_SY_PROP_ENUM_YESNO" devLabel="Yes;No" translation="Sì;No"/>
+	<label commandName="IDS_SY_PROP_FAMILYMEMBER" devLabel="Family member" translation="Membro della famiglia"/>
+	<label commandName="IDS_SY_PROP_HEIGHT" devLabel="Height" translation="Altezza"/>
+	<label commandName="IDS_SY_PROP_HIDDENLINECALCULATION" devLabel="Hidden line calculation" translation="Calcolo linea nascosta"/>
+	<label commandName="IDS_SY_PROP_IDL_1" devLabel="Specifies the X coordinate of the Drawing View's center point" translation="Specifica la coordinata X del punto centrale della vista di disegno"/>
+	<label commandName="IDS_SY_PROP_IDL_10" devLabel="Specifies projection type" translation="Specifica il tipo di proiezione"/>
+	<label commandName="IDS_SY_PROP_IDL_11" devLabel="Specifies the alignment used by the Drawing View" translation="Specifica l'allineamento utilizzato per la vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_12" devLabel="Specifies the rotation angle of the Drawing View" translation="Specifica l'angolo di rotazione della vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_13" devLabel="Specifies the view style used by the Drawing View" translation="Specifica lo stile di visualizzazione utilizzato per la vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_14" devLabel="Specifies the standard scale of the Drawing View" translation="Specifica la scala standard della vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_15" devLabel="Specifies the custom scale of the Drawing View" translation="Specifica la scala personalizzata della vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_16" devLabel="Specifies the DPI for shaded Drawing Views" translation="Specifica la risoluzione per le viste 2D ombreggiate"/>
+	<label commandName="IDS_SY_PROP_IDL_17" devLabel="Specifies if tangent edges are displayed by the Drawing View" translation="Specifica se gli spigoli tangenti vengono visualizzati per la vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_18" devLabel="Specifies if tangent edges with foreshortened lines are displayed by the Drawing View" translation="Specifica se gli spigoli tangenti con linee ridotte sono visualizzati per la vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_19" devLabel="Specifies if interference edges are displayed by the Drawing View" translation="Specifica se gli spigoli di interferenza sono visualizzati per la vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_2" devLabel="Specifies the Y coordinate of the Drawing View's center point" translation="Specifica la coordinata Y del punto centrale della vista di disegno"/>
+	<label commandName="IDS_SY_PROP_IDL_20" devLabel="Specifies if bend extents lines are displayed by the Drawing View" translation="Specifica se le linee delle estensioni di piega vengono visualizzate per la vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_21" devLabel="Specifies if thread features are displayed by the Drawing View" translation="Specifica se le funzionalità di filettatura vengono visualizzate per la vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_22" devLabel="Specifies if presentation trail lines are displayed by the Drawing View" translation="Specifica se le linee di traccia di presentazione vengono visualizzate per la vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_23" devLabel="Specifies the justification of Drawing Views" translation="Specifica la giustificazione delle viste 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_24" devLabel="Specifies the line style used by reference parts in the Drawing View" translation="Specifica lo stile di linea utilizzato per le parti di riferimento nella vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_25" devLabel="Specifies the hidden line calculation used by reference parts in the Drawing View" translation="Specifica il calcolo linea nascosta utilizzato dalle parti di riferimento nella vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_26" devLabel="Specifies the design view used by the Drawing View" translation="Specifica la vista di progettazione utilizzata dalla vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_27" devLabel="Specifies the positional representation used by the Drawing View" translation="Specifica la rappresentazione di posizione utilizzata dalla vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_28" devLabel="Specifies the level of detail representation used by the Drawing View" translation="Specifica la rappresentazione del livello di dettaglio utilizzata dalla vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_29" devLabel="Specifies the iPart or iAssemblies member used by the Drawing View" translation="Specifica il membro di iPart o iAssembly utilizzato dalla vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_3" devLabel="Specifies the Z coordinate of the Drawing View's center point" translation="Specifica la coordinata Z del punto centrale della vista di disegno"/>
+	<label commandName="IDS_SY_PROP_IDL_30" devLabel="Specifies the weldment state used by the Drawing View" translation="Specifica lo stato dell'assieme saldato utilizzato dalla vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_31" devLabel="Specifies the weldment preparation used by the Drawing View" translation="Specifica la preparazione dell'assieme saldato utilizzata dalla vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_32" devLabel="Specifies the sheet metal state used by the Drawing View" translation="Specifica lo stato lamiera utilizzato dalla vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_33" devLabel="Specifies the presentation view used by the Drawing View" translation="Specifica la vista di presentazione utilizzata dalla vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_4" devLabel="Specifies the height of the Drawing View" translation="Specifica l'altezza della vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_42" devLabel="Specifies the method used to project the section view" translation="Specifica il metodo utilizzato per proiettare la vista in sezione"/>
+	<label commandName="IDS_SY_PROP_IDL_43" devLabel="Specifies the depth of the section view" translation="Specifica la profondità della vista in sezione"/>
+	<label commandName="IDS_SY_PROP_IDL_44" devLabel="Specifies the distance of the section view" translation="Specifica la distanza della vista in sezione."/>
+	<label commandName="IDS_SY_PROP_IDL_45" devLabel="Specifies the shape of the detail boundary" translation="Specifica la forma del contorno dettaglio"/>
+	<label commandName="IDS_SY_PROP_IDL_47" devLabel="Specifies the identifier used by the detail boundary" translation="Specifica l'identificatore utilizzato per il contorno del dettaglio"/>
+	<label commandName="IDS_SY_PROP_IDL_48" devLabel="Specifies if a label is displayed by the drawing view" translation="Specifica se viene visualizzata un'etichetta dalla vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_49" devLabel="Specifies the position of the View Label" translation="Specifica la posizione dell'etichetta della vista"/>
+	<label commandName="IDS_SY_PROP_IDL_5" devLabel="Specifies the width of the Drawing View" translation="Specifica la larghezza della vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_52" devLabel="Specifies the type of edge used by the detail view" translation="Specifica il tipo di spigolo utilizzato per la vista di dettaglio"/>
+	<label commandName="IDS_SY_PROP_IDL_53" devLabel="Specifies if hatching is displayed by the drawing view" translation="Specifica se il tratteggio viene visualizzato dalla vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_55" devLabel="Specifies if section cut is displayed by the Drawing View" translation="Specifica se il taglio della sezione viene visualizzato per la vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_56" devLabel="Specifies the identifier used at the start of the section line" translation="Specifica l'identificatore utilizzato in corrispondenza del punto iniziale della linea di sezione"/>
+	<label commandName="IDS_SY_PROP_IDL_57" devLabel="Specifies the identifier used at the end of the section line" translation="Specifica l'identificatore utilizzato in corrispondenza del punto finale della linea di sezione"/>
+	<label commandName="IDS_SY_PROP_IDL_6" devLabel="Specifies the source of the Drawing View" translation="Specifica l'origine della vista 2D"/>
+	<label commandName="IDS_SY_PROP_IDL_7" devLabel="Specifies the name of the Inventor Model file" translation="Specifica il nome del file del modello di Inventor"/>
+	<label commandName="IDS_SY_PROP_IDL_8" devLabel="Specifies the path of the Inventor Model file" translation="Specifica il percorso del file di modello di Inventor"/>
+	<label commandName="IDS_SY_PROP_IDL_9" devLabel="Specifies the type of Drawing View" translation="Specifica il tipo di vista 2D"/>
+	<label commandName="IDS_SY_PROP_INSERTIONPOINTX" devLabel="Insertion point X" translation="Punto di inserimento X"/>
+	<label commandName="IDS_SY_PROP_INSERTIONPOINTY" devLabel="Insertion point Y" translation="Punto di inserimento Y"/>
+	<label commandName="IDS_SY_PROP_INSERTIONPOINTZ" devLabel="Insertion point Z" translation="Punto di inserimento Z"/>
+	<label commandName="IDS_SY_PROP_INTERFERENCEEDGES" devLabel="Interference edges" translation="Spigoli con interferenza"/>
+	<label commandName="IDS_SY_PROP_JUSTIFICATION" devLabel="Justification" translation="Giustificazione"/>
+	<label commandName="IDS_SY_PROP_LEVELOFDETAILREPRESENTATION" devLabel="Level of detail representation" translation="Rappresentazione livello di dettaglio"/>
+	<label commandName="IDS_SY_PROP_LINETYPE" devLabel="Line style" translation="Stile linea"/>
+	<label commandName="IDS_SY_PROP_MLEADER_BENDANGLE" devLabel="Bend Angle on Leader" translation="Angolo di curvatura su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_BENDDIRECTION" devLabel="Bend Direction on Leader" translation="Direzione di curvatura su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_BENDRADIUS" devLabel="Bend Radius on Leader" translation="Raggio di curvatura su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_COUNTERBOREDEPTH" devLabel="Counterbore Depth on Leader" translation="Profondità lamatore su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_COUNTERBOREDIAMETER" devLabel="Counterbore Diameter on Leader" translation="Diametro lamatore su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_COUNTERSINKANGLE" devLabel="Countersink Angle on Leader" translation="Angolo svasatura su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_COUNTERSINKDIAMETER" devLabel="Countersink Diameter on Leader" translation="Diametro svasatura su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_HOLEDEPTH" devLabel="Hole Depth on Leader" translation="Profondità foro su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_HOLEDIAMETER" devLabel="Hole Diameter on Leader" translation="Diametro foro su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_HOLEQUANTITY" devLabel="Hole Quantity on Leader" translation="Quantità foro su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_HOLETYPE" devLabel="Hole Type on Leader" translation="Tipo di foro su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_TAPHOLEDEPTH" devLabel="Tap Hole Depth on Leader" translation="Profondità foro filettato su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_TAPHOLEDIAMETER" devLabel="Tap Hole Diameter on Leader" translation="Diametro foro filettato su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_THREADCLASS" devLabel="Thread Class on Leader" translation="Classe filettatura su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_THREADDEPTH" devLabel="Thread Depth on Leader" translation="Profondità filettatura su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_THREADDESIGNATION" devLabel="Thread Designation on Leader" translation="Designazione filettatura su direttrice"/>
+	<label commandName="IDS_SY_PROP_MLEADER_THREADDIRECTION" devLabel="Thread Direction on Leader" translation="Direzione filettatura su direttrice"/>
+	<label commandName="IDS_SY_PROP_NAME" devLabel="Name" translation="Nome"/>
+	<label commandName="IDS_SY_PROP_PATH" devLabel="Path" translation="Percorso"/>
+	<label commandName="IDS_SY_PROP_POSITIONALREPRESENTATION" devLabel="Positional representation" translation="Rappresentazione di posizione"/>
+	<label commandName="IDS_SY_PROP_PREPARATIONNAME" devLabel="Preparation name" translation="Nome preparazione"/>
+	<label commandName="IDS_SY_PROP_PRESENTATIONTRAILS" devLabel="Presentation trails" translation="Tracce presentazione"/>
+	<label commandName="IDS_SY_PROP_PRESENTATIONVIEW" devLabel="Presentation view" translation="Vista di presentazione"/>
+	<label commandName="IDS_SY_PROP_PROJECTIONANGLE" devLabel="Projection angle" translation="Angolo di proiezione"/>
+	<label commandName="IDS_SY_PROP_ROTATION" devLabel="Rotation" translation="Rotazione"/>
+	<label commandName="IDS_SY_PROP_SECTIONCUTS" devLabel="Inherit section cut" translation="Eredita taglio sezione"/>
+	<label commandName="IDS_SY_PROP_SECTIONDEPTH" devLabel="Depth" translation="Profondità"/>
+	<label commandName="IDS_SY_PROP_SECTIONDISTANCE" devLabel="Distance" translation="Distanze"/>
+	<label commandName="IDS_SY_PROP_SECTIONPROJECTION" devLabel="Projection" translation="Proiezione"/>
+	<label commandName="IDS_SY_PROP_SHADERESOLUTION" devLabel="Shade resolution" translation="Risoluzione ombra"/>
+	<label commandName="IDS_SY_PROP_SHEETMETALBENDEXTENTS" devLabel="Sheet metal bend extents" translation="Estensioni piega lamiera"/>
+	<label commandName="IDS_SY_PROP_SHEETMETALSTATE" devLabel="Sheet metal state" translation="Stato lamiera"/>
+	<label commandName="IDS_SY_PROP_SOURCE" devLabel="Source" translation="Origine"/>
+	<label commandName="IDS_SY_PROP_STANDARDSCALE" devLabel="Standard scale" translation="Scala standard"/>
+	<label commandName="IDS_SY_PROP_TANGENTEDGES" devLabel="Tangent edges" translation="Spigoli tangenti"/>
+	<label commandName="IDS_SY_PROP_TANGENTEDGESFORESHORTENED" devLabel="Tangent edges foreshortened" translation="Spigoli tangenti ridotto"/>
+	<label commandName="IDS_SY_PROP_THREADFEATURES" devLabel="Thread features" translation="Funzionalità di filettatura"/>
+	<label commandName="IDS_SY_PROP_VIEWALIGNMENT" devLabel="View alignment" translation="Allineamento viste"/>
+	<label commandName="IDS_SY_PROP_VIEWSTYLE" devLabel="Hidden lines" translation="Linee nascoste"/>
+	<label commandName="IDS_SY_PROP_VIEWTYPE" devLabel="View type" translation="Tipo di vista"/>
+	<label commandName="IDS_SY_PROP_WELDMENTSTATE" devLabel="Weldment state" translation="Stato dell'assieme saldato"/>
+	<label commandName="IDS_SY_PROP_WIDTH" devLabel="Width" translation="Larghezza"/>
+	<label commandName="IDS_SY_REVISIONTABLE_APPROVED_COLUMN_ASME" devLabel="APPROVED" translation="APPROVATO"/>
+	<label commandName="IDS_SY_REVISIONTABLE_APPROVED_COLUMN_ISO" devLabel="Approved" translation="Approvato"/>
+	<label commandName="IDS_SY_REVISIONTABLE_DATE_COLUMN_ASME" devLabel="DATE" translation="DATA"/>
+	<label commandName="IDS_SY_REVISIONTABLE_DATE_COLUMN_ISO" devLabel="Date" translation="Data"/>
+	<label commandName="IDS_SY_REVISIONTABLE_DESCRIPTION_COLUMN_ASME" devLabel="DESCRIPTION" translation="DESCRIZIONE"/>
+	<label commandName="IDS_SY_REVISIONTABLE_DESCRIPTION_COLUMN_ISO" devLabel="Description" translation="Descrizione"/>
+	<label commandName="IDS_SY_REVISIONTABLE_ID_COLUMN_ASME" devLabel="REV" translation="REV"/>
+	<label commandName="IDS_SY_REVISIONTABLE_ID_COLUMN_ISO" devLabel="Rev" translation="Rev"/>
+	<label commandName="IDS_SY_REVISIONTABLE_SHEET_COLUMN_ASME" devLabel="SHT" translation="MT"/>
+	<label commandName="IDS_SY_REVISIONTABLE_SHEET_COLUMN_ISO" devLabel="Sht" translation="Mt"/>
+	<label commandName="IDS_SY_REVISIONTABLE_ZONE_COLUMN_ASME" devLabel="ZONE" translation="ZONA"/>
+	<label commandName="IDS_SY_REVISIONTABLE_ZONE_COLUMN_ISO" devLabel="Zone" translation="Zona"/>
+	<label commandName="IDS_SY_REVISON_TABLE_TITLE_ASME" devLabel="REVISION HISTORY" translation="CRONOLOGIA REVISIONI"/>
+	<label commandName="IDS_SY_REVISON_TABLE_TITLE_ISO" devLabel="Revision History" translation="Cronologia revisioni"/>
+	<label commandName="IDS_SY_VIEW_ALIGNMENT_BROKEN" devLabel="&#xA;View alignment has been broken." translation="&#xA;L'allineamento viste è stato interrotto."/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_ANNOTATION" devLabel="MD_Annotation" translation="MD _Annotation"/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_BENT_EXTENT" devLabel="MD_Bend Extents" translation="MD_Estensioni piega"/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_CENTERLINE" devLabel="MD_Centerline" translation="MD_Linea d'asse"/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_HATCHING" devLabel="MD_Hatching" translation="MD_Hatching"/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_HIDDEN" devLabel="MD_Hidden" translation="MD_Nascosta"/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_HIDDEN_NARROW" devLabel="MD_Hidden Narrow" translation="MD_Stretta nascosta"/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_OVERLAY" devLabel="MD_Overlay" translation="MD_Sovrapposta"/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_REFERENCE" devLabel="MD_Reference" translation="MD_Riferimento"/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_TWEAK_TRAIL" devLabel="MD_Tweak Trail" translation="MD_Tracce aggiustamento"/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_VISIBLE" devLabel="MD_Visible" translation="MD_Visibile"/>
+	<label commandName="IDS_SY_VIEW_EDGE_LAYER_VISIBLE_NARROW" devLabel="MD_Visible Narrow" translation="MD_Stretta visibile"/>
+	<label commandName="LAYER_STACK_TABLE_TITLE" devLabel="Layer Stack" translation="Pila di layer"/>
+	<label commandName="VIA_PAIRS_TABLE_TITLE" devLabel="Via Pairs" translation="Coppie di vie"/>
+</Resource>

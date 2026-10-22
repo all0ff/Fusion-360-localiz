@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IDS_CMD_FUSIONECAD_LAYERSTACKDIAGRAM" devLabel="FDCMD_ACFUSIONECAD_LAYERSTACKDIAGRAM" translation="FDCMD_ACFUSIONECAD_LAYERSTACKDIAGRAM"/>
+	<label commandName="LAYER_STACK_VIEW_JIG_PROMPT" devLabel="Place layer stack view" translation="Placer la vue de la pile de couches"/>
+	<label commandName="LAYER_STACK_VIEW_NAME" devLabel="Layer Stack View" translation="Vue de la pile de couches"/>
+</Resource>

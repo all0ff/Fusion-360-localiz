@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="AppearanceCI"/>
+	<label commandName="AppearanceStr" devLabel="Appearance" translation="Aspetto"/>
+	<label commandName="BodiesSelectionCategory" devLabel="Bodies Collection" translation="Raccolta di corpi"/>
+	<label commandName="BodiesSelectionId" devLabel="Bodies" translation="Corpi"/>
+	<label commandName="BodyDefaultUserName" devLabel="Body" translation="Corpo"/>
+	<label commandName="BodySelectionCategory" devLabel="Bodies" translation="Corpi"/>
+	<label commandName="BodySelectionId" devLabel="Body" translation="Corpo"/>
+	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Oggetti memorizzati nella cache da un contesto dell'assieme dissolto"/>
+	<label commandName="EdgeSelectionCategory" devLabel="Body Edges" translation="Spigoli del corpo"/>
+	<label commandName="EdgeSelectionId" devLabel="Edge" translation="Spigolo"/>
+	<label commandName="EdgeToFaceSelectionCategory" devLabel="Select Faces from Edges" translation="Seleziona facce da spigoli"/>
+	<label commandName="EdgesSelectionId" devLabel="Edges" translation="Spigoli"/>
+	<label commandName="FaceSelectionId" devLabel="Face" translation="Faccia"/>
+	<label commandName="FacesSelectionCategory" devLabel="Body Faces" translation="Facce del corpo"/>
+	<label commandName="FacesSelectionId" devLabel="Faces" translation="Facce"/>
+	<label commandName="MultipleBodySelectionId" devLabel="Bodies" translation="Corpi"/>
+	<label commandName="OverridingBodyDefaultUserName" devLabel="Overriding Body" translation="Sostituzione corpo"/>
+	<label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Materiale fisico"/>
+	<label commandName="PlasticRuleStr" devLabel="Plastic Rule" translation="Regola plastica"/>
+	<label commandName="PropertiesStr" devLabel="Properties" translation="Proprietà"/>
+	<label commandName="SelectedConfigurationStr" devLabel="Insert" translation="Inserisci"/>
+	<label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Regola lamiera"/>
+	<label commandName="SurfaceGroupCategory" devLabel="Surface Group" translation="Gruppo superfici"/>
+	<label commandName="SurfaceGroupDefaultName" devLabel="Group" translation="Gruppo"/>
+	<label commandName="SurfaceGroupDefectiveName" devLabel="Defective" translation="Difettoso"/>
+	<label commandName="SurfaceGroupIntersectingName" devLabel="Intersecting" translation="Intersezione"/>
+	<label commandName="SurfaceGroupSelectionId" devLabel="SurfaceGroup" translation="GruppoSuperfici"/>
+	<label commandName="SurfaceGroupUnstitchableName" devLabel="Unstitchable" translation="Non disponibile per l'unione"/>
+	<label commandName="SurfaceGroupUnstitchedName" devLabel="Unstitched" translation="Separato"/>
+	<label commandName="VertexSelectionCategory" devLabel="Body Vertices" translation="Vertici del corpo"/>
+	<label commandName="VertexSelectionId" devLabel="Vertex" translation="Vertice"/>
+	<label commandName="VerticesSelectionId" devLabel="Vertices" translation="Vertici"/>
+	<label commandName="VisibilityStr" devLabel="Visibility" translation="Visibilità"/>
+</Resource>

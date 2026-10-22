@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ExitMeshPanel" devLabel="Close" translation="Chiudi"/>
+	<label commandName="ExpandToConnectedSel" devLabel="Expand to Connected" translation="Espandi a Connesso"/>
+	<label commandName="ExpandToGroupSel" devLabel="Expand to Face Group" translation="Espandi a Gruppo facce"/>
+	<label commandName="GrowMeshSel" devLabel="Grow Selection" translation="Espandi selezione"/>
+	<label commandName="InvertMeshSel" devLabel="Invert Selection" translation="Inverti selezione"/>
+	<label commandName="Mesh Environment" devLabel="Mesh" translation="Mesh"/>
+	<label commandName="MeshColorCommand" devLabel="Face Groups" translation="Gruppi facce"/>
+	<label commandName="MeshFaceGroupOffCommand" devLabel="FaceGroup Off" translation="GruppoFacce - Off"/>
+	<label commandName="MeshFaceGroupOnCommand" devLabel="FaceGroup On" translation="GruppoFacce - On"/>
+	<label commandName="MeshSelectionPalette" devLabel="Mesh Palette" translation="Tavolozza mesh"/>
+	<label commandName="MeshStyleCommand" devLabel="Mesh Display" translation="Visualizzazione della mesh"/>
+	<label commandName="ShrinkMeshSel" devLabel="Shrink Selection" translation="Riduci selezione"/>
+	<label commandName="lclzMeshBaseFeatureCreationDesc1" devLabel="Enters Mesh mode and inserts a mesh feature into the timeline. Use Mesh tools to modify and repair mesh geometry." translation="Attiva la modalità Mesh e inserisce una lavorazione mesh nella rappresentazione lineare. Utilizzare gli strumenti Mesh per modificare e riparare la geometria mesh."/>
+	<label commandName="lclzMeshBaseFeatureCreationDesc2" devLabel="Select Finish Mesh to exit out of the mode." translation="Selezionare Termina mesh per uscire dalla modalità."/>
+	<label commandName="lclzMeshBaseFeatureStopDesc1" devLabel="Finishes the Mesh feature." translation="Termina la lavorazione mesh."/>
+	<label commandName="lclzMeshWorkspaceTitle" devLabel="Repairs mesh geometry. Access commands to remesh and repair triangulated mesh bodies." translation="Ripara la geometria mesh. Accedere ai comandi per rigenerare la mesh e riparare i corpi mesh triangolati."/>
+</Resource>
